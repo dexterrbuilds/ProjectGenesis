@@ -1,0 +1,50 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import pg from 'pg';
+import { migrate } from '../runtime/migrate.ts';
+import { LifeStore } from '../server/store.ts';
+import { GenesisService } from '../runtime/service.ts';
+import { LifeScheduler } from '../runtime/scheduler.ts';
+import { readConfig } from '../runtime/config.ts';
+import { CElegansBrain } from '../core/brain/celegans.ts';
+import { LocalPlanner } from '../core/planner.ts';
+import { liveCycle } from '../core/life.ts';
+import { handleRequest } from '../runtime/http.ts';
+const databaseUrl=process.env.TEST_DATABASE_URL;
+test('real Postgres: atomic state, restart, leases, authenticated API and browser-independent schedule', {skip:!databaseUrl}, async () => {
+  const admin=new pg.Pool({connectionString:databaseUrl}); const schema='genesis_test_'+crypto.randomUUID().replaceAll('-','');
+  await admin.query(`CREATE SCHEMA ${schema}`);
+  const pool=new pg.Pool({connectionString:databaseUrl,options:`-c search_path=${schema}`,max:5});
+  let scheduler:LifeScheduler|undefined;
+  try {
+    await migrate(pool); const store=new LifeStore(pool); await store.initialize(10000); const initial=await store.read();
+    assert.equal((await store.schedule()).enabled,false,'a fresh life waits for the operator to start its schedule');
+    const claims=await Promise.all([store.claim('one'),store.claim('two')]); assert.equal(claims.filter(Boolean).length,1);
+    const index=claims.findIndex(Boolean), token=index===0?'one':'two', claim=claims[index]!;
+    const result=await liveCycle(claim.organism,new CElegansBrain(),new LocalPlanner(),{internet:false,id:'cycle-00000001'});
+    await store.pause(true); await store.commit(token,claim.revision,result.organism,result.decision);
+    assert.equal((await store.read()).organism.paused,true,'pause during a cycle must survive commit');
+    const reopened=new LifeStore(pool); assert.equal((await reopened.read()).organism.id,initial.organism.id); assert.deepEqual((await reopened.read()).organism.brain,result.organism.brain);
+    assert.equal((await store.history()).length,1); assert.equal((await pool.query('SELECT count(*) FROM genesis_memories')).rows[0].count,'1');
+    await store.pause(false); const next=await store.claim('next'); assert(next);
+    const second=await liveCycle(next.organism,new CElegansBrain(),new LocalPlanner(),{internet:false,id:'cycle-00000002'});
+    await assert.rejects(store.commit('wrong',next.revision,second.organism,second.decision),/lease/);
+    assert.equal((await store.history()).length,1); await store.release('next');
+    const config=readConfig({DATABASE_URL:databaseUrl!,GENESIS_OPERATOR_TOKEN:'integration-test-secret-123456',GENESIS_AUTONOMY_ENABLED:'true',GENESIS_INTERVAL_MS:'1000'});
+    const service=new GenesisService(store,config,()=>new CElegansBrain(),new LocalPlanner());
+    assert.equal((await handleRequest(new Request('http://runtime/api/cycle',{method:'POST',body:'{}'}),service)).status,401);
+    const post=(path:string,body:unknown,origin?:string)=>handleRequest(new Request('http://runtime'+path,{method:'POST',headers:{authorization:'Bearer '+config.operatorToken,...(origin?{origin}:{})},body:JSON.stringify(body)}),service);
+    assert.equal((await post('/api/control',{enabled:true},'https://evil.example')).status,403);
+    assert.equal((await post('/api/control',{enabled:true,remainingCycles:101})).status,400);
+    assert.equal((await post('/api/cycle',{requestId:'cycle-00000001'})).status,200); assert.equal((await store.read()).organism.cycles,1);
+    await store.control({enabled:true,remainingCycles:2}); scheduler=new LifeScheduler(service,20); scheduler.start();
+    for(let i=0;i<80&&(await store.read()).organism.cycles<3;i++) await new Promise(r=>setTimeout(r,50));
+    await scheduler.stop(); assert.equal((await store.read()).organism.cycles,3); assert.equal((await store.schedule()).enabled,false);
+    // A new worker instance resumes the persisted schedule without any frontend.
+    await store.control({enabled:true,remainingCycles:1}); scheduler=new LifeScheduler(new GenesisService(new LifeStore(pool),config,()=>new CElegansBrain(),new LocalPlanner()),20); scheduler.start();
+    for(let i=0;i<60&&(await store.read()).organism.cycles<4;i++) await new Promise(r=>setTimeout(r,50));
+    await scheduler.stop(); assert.equal((await store.read()).organism.cycles,4); assert.equal((await store.schedule()).remaining_cycles,0);
+    assert.equal((await store.history(3)).length,2);
+    assert.equal(await store.claim('budget',false,1),null,'daily cap is enforced before planner calls');
+  } finally { await scheduler?.stop(); await pool.end(); await admin.query(`DROP SCHEMA ${schema} CASCADE`); await admin.end(); }
+});
