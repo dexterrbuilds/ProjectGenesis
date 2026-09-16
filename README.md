@@ -1,5 +1,7 @@
 # Project Genesis
 
+**Public pre-awakening release:** the website defaults to a dormant connectome and an absolute countdown. See [PREAWAKENING.md](PREAWAKENING.md) for `GENESIS_AWAKENS_AT`, local `/preview` access, and frontend-only Vercel deployment. Revealing the live interface and activating the organism are separate operations.
+
 > “We gave a biological brain money, language and access to the internet. Now we’re going to see what it becomes.”
 
 An artificial life with a real connectome inside its decision loop. Genesis retains its identity, birth time, experiences, memories, projects, simulated money and neural state across cycles and restarts.

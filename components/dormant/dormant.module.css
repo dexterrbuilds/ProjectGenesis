@@ -1,0 +1,61 @@
+.page {
+  --mint: #b9dcca;
+  --muted: #84948b;
+  min-height: 100svh;
+  padding: 32px 5vw 25px;
+  display: flex;
+  flex-direction: column;
+  color: #e4eae5;
+  background: radial-gradient(ellipse at 50% 28%, #18251e 0, #0e1511 36%, #0b0f0d 72%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header, .footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.brand { display: flex; gap: 14px; align-items: center; font-size: 12px; font-weight: 600; letter-spacing: .18em; }
+.mark { width: 29px; height: 29px; border: 1px solid #a6c3b57d; border-radius: 50%; display: grid; place-items: center; font: italic 23px Georgia, serif; color: var(--mint); padding-bottom: 4px; }
+.edition, .eyebrow, .until, .unitLabel, .footer, .specimen figcaption, .countdownNote { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+.edition { font-size: 10px; letter-spacing: .17em; color: #a2b4a9; }
+.observation { position: relative; flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 160px 0 55px; isolation: isolate; }
+.specimenFrame { position: absolute; width: min(750px, 88vw); top: -23px; left: 50%; transform: translateX(-50%); z-index: -1; pointer-events: none; }
+.specimen { margin: 0; color: #9bc6aa; }
+.specimen svg { display: block; width: 100%; height: auto; mask-image: linear-gradient(#000 25%, #0009 70%, transparent); }
+.specimen figcaption { position: absolute; left: 4%; right: 4%; top: 70px; display: flex; justify-content: space-between; font-size: 8px; letter-spacing: .12em; color: #81978a; }
+.intro { text-align: center; }
+.eyebrow { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 0 0 25px; font-size: 9px; letter-spacing: .22em; color: var(--mint); }
+.eyebrow > span, .state > span { width: 5px; height: 5px; border: 1px solid #9dbba7; border-radius: 50%; }
+.intro h1 { margin: 0; font-size: clamp(30px, 4.5vw, 62px); line-height: 1.09; letter-spacing: -.04em; font-weight: 400; }
+.intro h1 > span { color: var(--mint); }
+.whisper { margin: 23px 0 0; color: #9aa79f; font-size: 13px; line-height: 1.7; }
+.countdown { margin-top: 45px; width: min(620px, 100%); text-align: center; }
+.digits { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.unit { position: relative; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 11px; }
+.unit + .unit::before { content: ':'; position: absolute; left: -4px; top: 5px; font: 300 clamp(28px, 4vw, 52px)/1.1 Arial, sans-serif; color: #647d6e; }
+.number { font-size: clamp(38px, 5.5vw, 72px); font-weight: 300; line-height: 1; letter-spacing: -.045em; font-variant-numeric: tabular-nums; }
+.unitLabel { text-transform: uppercase; color: var(--muted); font-size: 8px; letter-spacing: .2em; }
+.until { font-size: 10px; letter-spacing: .32em; margin: 29px 0 0; color: var(--mint); }
+.countdownNote { min-height: 15px; margin: 13px 0 0; font-size: 9px; color: var(--muted); letter-spacing: .025em; }
+.footer { padding-top: 20px; border-top: 1px solid #b2c9ba22; color: #a4b5aa; font-size: 9px; letter-spacing: .12em; }
+.science { display: flex; gap: 28px; }
+.science span + span { border-left: 1px solid #536358; padding-left: 28px; }
+.state { display: flex; align-items: center; gap: 9px; }
+@media (min-height: 850px) and (min-width: 700px) { .observation { padding-top: 190px; } .specimenFrame { top: 2%; } }
+@media (max-width: 600px) {
+  .page { padding: 23px 22px; }
+  .header { gap: 12px; }
+  .brand { font-size: 9px; gap: 9px; letter-spacing: .12em; }
+  .mark { width: 25px; height: 25px; font-size: 20px; }
+  .edition { font-size: 8px; letter-spacing: .07em; }
+  .observation { padding: 175px 0 58px; }
+  .specimenFrame { width: 100%; top: 10px; }
+  .specimen svg { overflow: visible; }
+  .specimen figcaption { top: 24px; left: 0; right: 0; font-size: 6px; }
+  .intro h1 { font-size: clamp(27px, 7.1vw, 42px); }
+  .eyebrow { margin-bottom: 23px; font-size: 8px; }
+  .whisper { font-size: 12px; }
+  .countdown { margin-top: 39px; }
+  .number { font-size: clamp(33px, 10vw, 58px); }
+  .unit + .unit::before { top: 0; font-size: 30px; }
+  .unitLabel { font-size: 7px; letter-spacing: .12em; }
+  .footer { font-size: 7px; gap: 15px; flex-wrap: wrap; }
+  .science { gap: 12px; }
+  .science span + span { padding-left: 12px; }
+}

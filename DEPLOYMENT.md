@@ -1,5 +1,7 @@
 # Deploy Project Genesis
 
+**Deploying the dormant public page first?** Follow [PREAWAKENING.md](PREAWAKENING.md). Only the Next.js frontend and its awakening timestamp are needed. The two-service instructions below apply when preparing the live observation experience; `GENESIS_PUBLIC_MODE=live` reveals it and does not activate the runtime.
+
 ## Service topology
 
 One GitHub repository, two services, one external Postgres database. The web service may redeploy, scale to zero or close in a browser while the runtime continues its life loop. Deployments do not reset identity or capital.

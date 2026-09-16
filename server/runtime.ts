@@ -1,5 +1,8 @@
 /** Stateless Next.js proxy. This module never imports the brain, scheduler or database. */
+import { observationEnabled } from '../lib/awakening.ts';
+
 export async function proxyRuntime(request: Request, endpoint: string) {
+  if (!observationEnabled(process.env)) return Response.json({ error: 'Not found' }, { status: 404, headers: { 'Cache-Control': 'no-store' } });
   const base = process.env.GENESIS_API_URL;
   if (!base) return Response.json({ error: 'Genesis runtime is not connected. Configure GENESIS_API_URL.' }, { status: 503 });
   const origin = request.headers.get('origin');
