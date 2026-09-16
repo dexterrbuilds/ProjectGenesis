@@ -1,8 +1,8 @@
 import type { Action, Behavior, Plan } from './contracts.ts';
 export const ALLOWED_ACTIONS: Record<Behavior, readonly Action[]> = {
-  APPROACH: ['draft_service', 'work', 'learn', 'draft_message', 'request_payment', 'request_investment', 'request_hire', 'request_publish', 'request_physical', 'idle'],
+  APPROACH: ['manage_resources', 'draft_service', 'work', 'learn', 'draft_message', 'request_payment', 'request_investment', 'request_hire', 'request_publish', 'request_physical', 'idle'],
   EXPLORE: ['research', 'read', 'learn', 'draft_message', 'idle'],
-  AVOID: ['review_risk', 'reflect', 'idle'],
+  AVOID: ['manage_resources', 'review_risk', 'reflect', 'idle'],
   RETREAT: ['withdraw', 'review_risk', 'rest', 'idle'],
   WAIT: ['rest', 'reflect', 'idle'],
 };

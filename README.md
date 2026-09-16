@@ -96,3 +96,12 @@ The development wallet uses integer cents, configurable starting capital and a j
 `core/economy/adapters.ts` provides a read-only Solana balance adapter, a ClawPump finalized-fee receipt interface, asset-aware atomic units and pending financial intents. The ClawPump reader must be supplied against a verified provider API. No private keys, signing, trading or live fee ingestion are enabled; on-chain assets are never silently mixed with simulated USD. Financial, publication, communication, hiring and physical requests are pending review only. Human communication currently means drafting a message.
 
 The lease/transaction design is adequate for current read-only external tools. Before adding irreversible tools, implement a durable outbox, provider idempotency and reconciliation. A crash can repeat an uncommitted LLM call and its real billing. Public records must contain only material intended for observation. Full traces and aggregate state are retained for hackathon-scale runs; years of history need archival and retention design.
+
+## Hackathon readiness checks
+
+- `npm run check:llm` makes one real constrained planning request against a fresh brain, executes no tools and never connects to the organism database. It fails clearly without credentials. This is separate from deterministic provider-response tests.
+- Optional `SOLANA_RPC_URL`, `SOLANA_WALLET_ADDRESS`, and `SOLANA_NETWORK` (`devnet` or `mainnet-beta`) enable finalized native-SOL observations. Supply all three on the runtime. The network label is operator configuration; use its matching RPC endpoint. No private key is accepted.
+- The runtime polls that wallet at most once per minute per process, persists the last observation in Postgres, and shows its timestamp/error in Money. A failed read retains the last successful value as stale. The LLM receives the timestamped observation and the decision retains exactly the observation used. Balance reads do not change the brain stimulus or simulated ledger and do not prove fee income.
+- `manage_resources` is a permitted APPROACH/AVOID action that reviews cash, reserve and projects without transferring funds. Local planning chooses it when a work expense would breach the simulated reserve. Idle and recovery remain valid outcomes.
+
+See [VERIFICATION.md](VERIFICATION.md) for preservation checks, tested boundaries and remaining live-provider prerequisites. [DEMO.md](DEMO.md) is a short judge-facing walkthrough.

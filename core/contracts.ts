@@ -1,3 +1,4 @@
+import type { WalletAccount } from './economy/adapters.ts';
 export const CHANNELS = ['rewardOpportunity', 'danger', 'novelty', 'scarcity', 'acquisition', 'uncertainty', 'social'] as const;
 export type Channel = typeof CHANNELS[number];
 export type Stimulus = Record<Channel, number>;
@@ -19,11 +20,11 @@ export interface BrainAdapter {
   snapshot(): BrainSnapshot;
 }
 export type WorldEvent = { id: string; title: string; source: string; features: Partial<Stimulus>; detail?: string; parentDecision?: string };
-export const ACTIONS = ['idle', 'research', 'read', 'learn', 'draft_service', 'work', 'reflect', 'rest', 'review_risk', 'withdraw', 'draft_message', 'request_payment', 'request_investment', 'request_hire', 'request_publish', 'request_physical'] as const;
+export const ACTIONS = ['idle', 'manage_resources', 'research', 'read', 'learn', 'draft_service', 'work', 'reflect', 'rest', 'review_risk', 'withdraw', 'draft_message', 'request_payment', 'request_investment', 'request_hire', 'request_publish', 'request_physical'] as const;
 export type Action = typeof ACTIONS[number];
 export type Plan = { behavior: Behavior; action: Action; reasoning: string; content: string; planner: string };
 export interface PlannerAdapter { plan(context: PlanningContext): Promise<Plan> }
-export type PlanningContext = { behavior: BehavioralOutput; event: WorldEvent; allowedActions: readonly Action[]; organism: Organism };
+export type PlanningContext = { behavior: BehavioralOutput; event: WorldEvent; allowedActions: readonly Action[]; organism: Organism; externalWallet?: WalletAccount };
 export type LedgerEntry = { id: string; kind: 'business_income' | 'trading_fee_income' | 'expense' | 'investment_pnl'; cents: number; note: string; at: string };
 export type WalletState = { mode: 'simulated'; startingCents: number; entries: LedgerEntry[] };
 export interface WalletAdapter { getState(): WalletState; balance(): number; post(entry: LedgerEntry): void }
@@ -39,4 +40,4 @@ export type Organism = {
   milestones?: Milestone[]; rhythm?: LifeRhythm;
 };
 export type Outcome = { ok: boolean; title: string; detail: string; simulated: boolean; artifact?: string; sourceUrl?: string; features: Partial<Stimulus>; approvalRequired?: boolean };
-export type Decision = { id: string; at: string; cycle: number; event: WorldEvent; stimulus: Stimulus; encoding: ReturnType<BrainAdapter['stimulate']>; brainBefore: BrainSnapshot; frames: BrainState[]; neural: BehavioralOutput; plan: Plan | null; outcome: Outcome; nextEvent: WorldEvent; brainAfter: BrainSnapshot };
+export type Decision = { externalWallet?: WalletAccount; id: string; at: string; cycle: number; event: WorldEvent; stimulus: Stimulus; encoding: ReturnType<BrainAdapter['stimulate']>; brainBefore: BrainSnapshot; frames: BrainState[]; neural: BehavioralOutput; plan: Plan | null; outcome: Outcome; nextEvent: WorldEvent; brainAfter: BrainSnapshot };

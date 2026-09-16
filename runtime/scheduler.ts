@@ -9,6 +9,7 @@ export class LifeScheduler {
   async tick() {
     try {
       await this.service.store.heartbeat();
+      await this.service.walletObserver?.refresh();
       if (!this.service.config.autonomous) return;
       const schedule = await this.service.store.schedule();
       if (schedule.enabled && new Date(schedule.next_at).getTime() <= Date.now()) await this.service.advance(crypto.randomUUID(), undefined, true);

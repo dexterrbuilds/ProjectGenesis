@@ -53,3 +53,9 @@ Pending approvals cannot execute money transfers, investments, publication, huma
 The original connectome checksums, ablation and replay tests remain. Added tests cover birth preservation, brain replacement, idle constraints, configuration, asset isolation and real Postgres lifecycle/scheduler behavior. The deterministic proof remains independent of the web/runtime/database.
 
 Postgres row-level serialization permits overlapping restarts, but one runtime replica is the simplest initial deployment. A larger organism can replace Brain v1 behind the same contract. Longer experiments will need compressed trace archival and smaller aggregate state; this MVP deliberately retains detailed inspectability over optimizing multi-year storage.
+
+## Read-only external observations
+
+The optional `runtime/wallet-observer.ts` polls an `ExternalWalletReader` independently of browser traffic and persists its last success/error in `genesis_external_observations` (additive migration 002). It has no signing or financial-execution capability. Solana native balances use finalized RPC commitment and exact integer lamports. An unavailable or numerically inexact response is rejected. Observations retain their timestamps and survive restart; a failed read does not replace a known value with zero.
+
+A cycle can include the current external observation as planner context and in its trace. It is separate from simulated purchasing power, fee attribution and sensory encoding. ClawPump’s existing income adapter remains an injected verified-reader contract pending confirmation of the intended provider. No generic balance delta is called a trading fee. This keeps incoming evidence separate from authorizing outgoing funds.

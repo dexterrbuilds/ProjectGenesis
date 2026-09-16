@@ -82,3 +82,11 @@ Backup/restore the complete database, including decisions and schedule; do not r
 Live Solana funds, ClawPump fee income, publication and human hiring require additional verified provider integration and an approval/outbox/reconciliation path. Their interfaces are present; execution is not enabled by these deployment instructions.
 
 Provider references: [Next.js deployment](https://nextjs.org/docs/app/getting-started/deploying), [Railway config](https://docs.railway.com/config-as-code/reference), [Railway health checks](https://docs.railway.com/deployments/healthchecks), [Vercel environment variables](https://vercel.com/kb/guide/how-to-add-vercel-environment-variables).
+
+## Optional live-read configuration and verification
+
+On the runtime, supply `SOLANA_RPC_URL`, `SOLANA_WALLET_ADDRESS` and `SOLANA_NETWORK` together to enable native SOL observations. Use an HTTPS RPC for the explicitly selected `devnet` or `mainnet-beta` network. The wallet address, balances and timestamps are public in the experiment. Never supply a private key. Migration `002_observations.sql` creates a separate evidence table; it does not alter the original organism or decisions. Reads are throttled to once per minute per process and remain available when autonomous life is paused.
+
+After configuring OpenAI credentials, run `npm run check:llm` in a secure runtime shell or locally with the same environment. It makes one billable provider request using a fresh neural readout; it executes no action and does not read or modify the persistent organism. Success proves the configured model can produce a permitted action. Ordinary unit tests use provider doubles and cannot establish account access.
+
+The GitHub verification workflow runs the full suite against a Postgres service, builds Next.js and builds the runtime Docker image. It does not deploy. No image build was available on the local verification machine; use that workflow or `docker build -t project-genesis-runtime .` before publishing a runtime image.

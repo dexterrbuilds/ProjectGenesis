@@ -6,8 +6,14 @@ export async function migrate(pool: pg.Pool) {
   try {
     await client.query('BEGIN'); await client.query("SELECT pg_advisory_xact_lock(hashtext('project-genesis-schema'))");
     await client.query('CREATE TABLE IF NOT EXISTS genesis_migrations (version TEXT PRIMARY KEY, applied_at TIMESTAMPTZ NOT NULL DEFAULT NOW())');
-    const applied = await client.query('SELECT version FROM genesis_migrations WHERE version=$1', ['001']);
-    if (!applied.rowCount) { await client.query(await readFile(new URL('./migrations/001_genesis.sql', import.meta.url), 'utf8')); await client.query('INSERT INTO genesis_migrations(version) VALUES($1)', ['001']); }
+    for (const file of ['001_genesis.sql','002_observations.sql']) {
+      const version=file.split('_')[0];
+      const applied=await client.query('SELECT version FROM genesis_migrations WHERE version=$1',[version]);
+      if(!applied.rowCount) {
+        await client.query(await readFile(new URL('./migrations/'+file,import.meta.url),'utf8'));
+        await client.query('INSERT INTO genesis_migrations(version) VALUES($1)',[version]);
+      }
+    }
     await client.query('COMMIT');
   } catch (e) { await client.query('ROLLBACK'); throw e; } finally { client.release(); }
 }

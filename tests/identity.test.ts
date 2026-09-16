@@ -43,3 +43,10 @@ test('external financial adapter keeps atomic assets separate and requires appro
   const fees=new ClawPumpFeeIncomeAdapter({async poll(){return {receipts:[{id:'fee',source:'clawpump_fee',transaction:'test-tx',recipient:'wrong',amount,finalized:true,at:new Date().toISOString()}]}}},'expected');
   await assert.rejects(fees.poll(),/mismatched/);
 });
+
+test('resource management avoids repeated spending failures while preserving an APPROACH impulse', async()=>{
+  const o=createOrganism(undefined,undefined,1000);
+  const r=await liveCycle(o,new CElegansBrain(),new LocalPlanner(),{internet:false,event:{id:'opportunity',...DEMO_EVENTS.opportunity}});
+  assert.equal(r.decision.neural.behavior,'APPROACH');assert.equal(r.decision.plan?.action,'manage_resources');assert.equal(r.decision.outcome.ok,true);
+  assert.deepEqual(r.organism.wallet,o.wallet);assert(r.organism.nextEvent.features.novelty!>0);
+});

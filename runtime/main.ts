@@ -4,6 +4,8 @@ import { readConfig } from './config.ts';
 import { migrate } from './migrate.ts';
 import { LifeStore } from '../server/store.ts';
 import { CElegansBrain } from '../core/brain/celegans.ts';
+import { WalletObserver } from './wallet-observer.ts';
+import { SolanaReadOnlyWallet } from '../core/economy/adapters.ts';
 import { LocalPlanner, OpenAIPlanner } from '../core/planner.ts';
 import { GenesisService } from './service.ts';
 import { LifeScheduler } from './scheduler.ts';
@@ -14,7 +16,8 @@ pool.on('error', e => console.error('Database pool error:', e.message));
 await migrate(pool);
 const store = new LifeStore(pool); await store.initialize(config.startingCents);
 const planner = config.plannerMode !== 'local' && config.apiKey && config.model ? new OpenAIPlanner(config.apiKey, config.model) : new LocalPlanner();
-const service = new GenesisService(store, config, () => new CElegansBrain(), planner);
+const walletObserver = config.solana ? new WalletObserver(pool, new SolanaReadOnlyWallet(config.solana.rpcUrl, config.solana.address, config.solana.network), `solana:${config.solana.network}:${config.solana.address}`) : undefined;
+const service = new GenesisService(store, config, () => new CElegansBrain(), planner, walletObserver, 'C. elegans');
 const scheduler = new LifeScheduler(service);
 const server = createServer(async (req, res) => {
   try {

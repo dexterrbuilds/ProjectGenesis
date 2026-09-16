@@ -1,7 +1,8 @@
+import type { WalletAccount } from './economy/adapters.ts';
 import type { BrainAdapter, Decision, Organism, Outcome, Plan, PlannerAdapter, WorldEvent } from './contracts.ts';
 import { encodeEvent } from './sensory.ts';
 import { ALLOWED_ACTIONS, LIMITS, validatePlan } from './policy.ts';
-import { SimulatedWallet } from './wallet.ts';
+import { economics, SimulatedWallet } from './wallet.ts';
 import { ensureIdentity, recordMilestones } from './identity.ts';
 
 export const READINGS = [
@@ -28,6 +29,10 @@ async function readInternet(url: string, fetcher: typeof fetch): Promise<string>
 }
 export async function executeTool(plan: Plan, organism: Organism, decisionId: string, at: string, options: ToolOptions): Promise<Outcome> {
   const action = plan.action;
+  if (action === 'manage_resources') {
+    const e = economics(organism.wallet, organism.businesses.length);
+    return { ok: true, title: 'Made room for the next chapter', detail: `Reviewed ${organism.businesses.length} projects, ${(e.cash / 100).toFixed(2)} simulated USD in cash, and a ${(LIMITS.reserveCents / 100).toFixed(2)} reserve. No funds moved. ${plan.content}`, simulated: true, features: { novelty: .55, uncertainty: e.cash < LIMITS.reserveCents + 25 ? .35 : .1 } };
+  }
   if (action === 'idle') return { ok: true, title: 'Letting the world pass for a moment', detail: 'Genesis retained its neural impulse and chose not to use a tool or spend resources this cycle.', simulated: false, features: {} };
   if (action.startsWith('request_')) {
     organism.approvals.push({ id: `${decisionId}:approval`, action, content: plan.content, status: 'pending', decision: decisionId });
@@ -59,7 +64,7 @@ export async function executeTool(plan: Plan, organism: Organism, decisionId: st
   return { ok: true, title: action === 'rest' ? 'Rested without spending capital' : 'Reflected on recent experiences', detail: plan.content, simulated: false, features: { novelty: .35 } };
 }
 
-export async function liveCycle(current: Organism, brain: BrainAdapter, planner: PlannerAdapter, options: ToolOptions & { event?: WorldEvent; at?: string; id?: string; onPhase?: (phase: string) => Promise<void> }): Promise<{ organism: Organism; decision: Decision }> {
+export async function liveCycle(current: Organism, brain: BrainAdapter, planner: PlannerAdapter, options: ToolOptions & { externalWallet?: WalletAccount; event?: WorldEvent; at?: string; id?: string; onPhase?: (phase: string) => Promise<void> }): Promise<{ organism: Organism; decision: Decision }> {
   if (current.paused) throw new Error('Organism is paused');
   const organism = ensureIdentity(current), at = options.at ?? new Date().toISOString(), id = options.id ?? crypto.randomUUID();
   if (organism.brain) brain.initialize(organism.brain); else { brain.initialize(); organism.brainLineage.push({ adapter: brain.id, at }); }
@@ -71,7 +76,7 @@ export async function liveCycle(current: Organism, brain: BrainAdapter, planner:
   const neural = brain.decodeBehavior(); let plan: Plan | null = null; let outcome: Outcome;
   try {
     await options.onPhase?.('reasoning');
-    plan = await planner.plan({ behavior: neural, event, organism: structuredClone(organism), allowedActions: ALLOWED_ACTIONS[neural.behavior] });
+    plan = await planner.plan({ behavior: neural, event, externalWallet: options.externalWallet, organism: structuredClone(organism), allowedActions: ALLOWED_ACTIONS[neural.behavior] });
     validatePlan(plan, neural.behavior);
     await options.onPhase?.('acting');
     // Tool mutations are staged. A failed tool cannot partially change economic state.
@@ -91,5 +96,5 @@ export async function liveCycle(current: Organism, brain: BrainAdapter, planner:
   organism.memory.push({ id: id + ':memory', at, sourceDecision: id, salience: outcome.ok ? .5 : .9, text: `${neural.behavior} → ${plan?.action ?? 'no plan'}: ${outcome.title}. ${outcome.detail.slice(0, 1500)}` });
   organism.memory = organism.memory.slice(-80); // Full original experiences remain in append-only decisions.
   recordMilestones(organism, { id, at });
-  return { organism, decision: { id, at, cycle: organism.cycles, event, stimulus, encoding, brainBefore, frames, neural, plan, outcome, nextEvent, brainAfter: organism.brain } };
+  return { organism, decision: { ...(options.externalWallet ? { externalWallet: structuredClone(options.externalWallet) } : {}), id, at, cycle: organism.cycles, event, stimulus, encoding, brainBefore, frames, neural, plan, outcome, nextEvent, brainAfter: organism.brain } };
 }

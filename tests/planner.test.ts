@@ -21,3 +21,14 @@ test('provider errors and incomplete responses fail without a silent local repla
   const incomplete = (async () => Response.json({ status: 'incomplete', output: [] })) as typeof fetch;
   await assert.rejects(new OpenAIPlanner('test-only', 'configured-model', incomplete).plan(context), /complete/);
 });
+
+test('real planner response is accepted only within the actual neural action set', async () => {
+  const fetcher=(async (_url:string,init:RequestInit)=>{
+    const body=JSON.parse(init.body as string), input=JSON.parse(body.input);
+    assert.equal(input.identity.id,organism.id); assert.equal(body.store,false);
+    assert.equal(body.tools,undefined,'the model cannot bypass the action executor with provider tools');
+    return Response.json({status:'completed',output:[{content:[{type:'output_text',text:JSON.stringify({behavior:'EXPLORE',action:'read',reasoning:'Read evidence before committing resources.',content:'Study the saved source.'})}]}]});
+  }) as typeof fetch;
+  const plan=await new OpenAIPlanner('test-only','configured-model',fetcher).plan(context);
+  assert.equal(plan.behavior,'EXPLORE'); assert.equal(plan.action,'read'); assert.equal(plan.planner,'openai:configured-model');
+});
