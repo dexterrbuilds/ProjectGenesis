@@ -1,0 +1,38 @@
+{
+  "frozen_files_checked": 462,
+  "changed_files": {},
+  "stage1_essential_tests": {
+    "before": 10,
+    "after": 10,
+    "failed": 0
+  },
+  "stage1_acceptance": "PASS",
+  "stage1_reproduction": {
+    "trained_hash": "0f2f9793e7bb6e12d129b2b3ef570e75f8f64ae144bfac768b476b9a1da775c0",
+    "accepted_trained_hash": "0f2f9793e7bb6e12d129b2b3ef570e75f8f64ae144bfac768b476b9a1da775c0",
+    "exact": true,
+    "specificity": 0.49945214708266905
+  },
+  "canonical": {
+    "sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+    "unchanged": true,
+    "tableRowCounts": {
+      "genesis_decisions": 7,
+      "genesis_external_observations": 0,
+      "genesis_ledger": 4,
+      "genesis_memories": 7,
+      "genesis_migrations": 2,
+      "genesis_milestones": 4,
+      "genesis_organisms": 1,
+      "genesis_projects": 1,
+      "genesis_schedule": 1
+    }
+  },
+  "stage2_implementation_tests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "reextraction_manifest": "43a18b787748363e6c6080513cf4d5455b6949bf9a28f09ffab978787195e0b3",
+  "reextraction_exact": true,
+  "reward_evidence_hash_verified": "2d282b8dd3fb20e3367080502575d176f7f4f57e34a9525a8b39adf86a0af037"
+}

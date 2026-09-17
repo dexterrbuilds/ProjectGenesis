@@ -1,0 +1,23 @@
+{
+  "core/brain/celegans.ts": "0ee044fcd922e4916340a6c7083903a310ae3af7998d07c2eefc910169806fec",
+  "data/connectome.json": "1b8bc920fe1899b1bf8350acec84539d34ffe7f4d5351a4d5627fb786344babe",
+  "canonical_database": {
+    "unchanged": true,
+    "cycles": 7,
+    "decisions": 7,
+    "scheduleEnabled": false,
+    "canonicalHash": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312"
+  },
+  "existing_tests": {
+    "passed": 30,
+    "failed": 0,
+    "skipped": 0,
+    "postgres": "temporary schemas only"
+  },
+  "harness_tests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "typescript": "passed",
+  "eslint": "passed"
+}

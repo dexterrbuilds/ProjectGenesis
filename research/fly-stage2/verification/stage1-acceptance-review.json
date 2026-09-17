@@ -1,0 +1,42 @@
+{
+  "classification": "PASS",
+  "checks": {
+    "six_counterbalanced_primary_conditions": true,
+    "all_primary_meet_10pct_depression_5pp_selectivity": true,
+    "primary_restore_exact": true,
+    "plastic_state_survives_fast_reset": true,
+    "all_requested_replays_exact": true,
+    "A_freeze_selective_loss": true,
+    "A_silence_dan_selective_loss": true,
+    "A_remove_da_contacts_selective_loss": true,
+    "A_temporal_pairing_required": true,
+    "A_equal_size_lesion_specificity": true,
+    "A_pn_kc_required": true,
+    "A_kc_mbon_required": true,
+    "B_freeze_selective_loss": true,
+    "B_silence_dan_selective_loss": true,
+    "B_remove_da_contacts_selective_loss": true,
+    "B_temporal_pairing_required": true,
+    "B_equal_size_lesion_specificity": true,
+    "B_pn_kc_required": true,
+    "B_kc_mbon_required": true,
+    "all_sensitivity_conditions_retain_effect": true,
+    "fresh_process_cue_only_recall_matches": true,
+    "individual_output_neurons_depress": true
+  },
+  "evaluation": "outputs/flywire-stage2/stage1-review/c5d2c183e6d09e0c022825ed62dbba7323962dbbccf24b48d8f2720de0bd4c11",
+  "plastic_counts": {
+    "app": {
+      "neuropil_groups": 4622,
+      "directed_pairs": 1808,
+      "anatomical_contacts": 11369,
+      "kc_with_dan_contacts": 642
+    },
+    "av": {
+      "neuropil_groups": 1053,
+      "directed_pairs": 894,
+      "anatomical_contacts": 2497,
+      "kc_with_dan_contacts": 395
+    }
+  }
+}

@@ -1,0 +1,15 @@
+test_ablation_does_not_rescale_surviving_weights (__main__.HarnessTests.test_ablation_does_not_rescale_surviving_weights) ... ok
+test_connectivity_removal_blocks_downstream_not_input (__main__.HarnessTests.test_connectivity_removal_blocks_downstream_not_input) ... ok
+test_immutable_manifest_root_strings_and_anatomical_counts (__main__.HarnessTests.test_immutable_manifest_root_strings_and_anatomical_counts) ... ok
+test_incompatible_or_corrupt_snapshots_rejected (__main__.HarnessTests.test_incompatible_or_corrupt_snapshots_rejected) ... ok
+test_json_restart_with_prng_replays_mid_experiment_exactly (__main__.HarnessTests.test_json_restart_with_prng_replays_mid_experiment_exactly) ... ok
+test_learning_and_selective_interventions (__main__.HarnessTests.test_learning_and_selective_interventions) ... ok
+test_plastic_edges_are_observed_kc_mbon_contacts_only (__main__.HarnessTests.test_plastic_edges_are_observed_kc_mbon_contacts_only) ... ok
+test_runtime_and_network_dependencies_are_absent (__main__.HarnessTests.test_runtime_and_network_dependencies_are_absent) ... ok
+test_silence_and_locality_without_teaching (__main__.HarnessTests.test_silence_and_locality_without_teaching) ... ok
+test_snapshot_is_only_numeric_neural_state_not_cue_or_prose_memory (__main__.HarnessTests.test_snapshot_is_only_numeric_neural_state_not_cue_or_prose_memory) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.967s
+
+OK
