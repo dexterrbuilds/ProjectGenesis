@@ -5,8 +5,9 @@ export const metadata: Metadata = {
   title: "Project Genesis — An artificial life",
   description: "Experiment 001. An artificial life, in progress. The beginning is approaching.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/genesis-logo.png",
+    shortcut: "/genesis-logo.png",
+    apple: "/genesis-logo.png",
   },
 };
 

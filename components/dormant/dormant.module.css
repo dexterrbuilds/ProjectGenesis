@@ -11,7 +11,7 @@
 }
 .header, .footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 .brand { display: flex; gap: 14px; align-items: center; font-size: 12px; font-weight: 600; letter-spacing: .18em; }
-.mark { width: 29px; height: 29px; border: 1px solid #a6c3b57d; border-radius: 50%; display: grid; place-items: center; font: italic 23px Georgia, serif; color: var(--mint); padding-bottom: 4px; }
+.mark { width: 52px; height: 52px; flex-shrink: 0; object-fit: contain; mix-blend-mode: screen; }
 .edition, .eyebrow, .until, .unitLabel, .footer, .specimen figcaption, .countdownNote { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
 .edition { font-size: 10px; letter-spacing: .17em; color: #a2b4a9; }
 .observation { position: relative; flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 160px 0 55px; isolation: isolate; }
@@ -42,7 +42,7 @@
   .page { padding: 23px 22px; }
   .header { gap: 12px; }
   .brand { font-size: 9px; gap: 9px; letter-spacing: .12em; }
-  .mark { width: 25px; height: 25px; font-size: 20px; }
+  .mark { width: 40px; height: 40px; }
   .edition { font-size: 8px; letter-spacing: .07em; }
   .observation { padding: 175px 0 58px; }
   .specimenFrame { width: 100%; top: 10px; }

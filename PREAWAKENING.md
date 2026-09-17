@@ -7,12 +7,12 @@ The public page is a presentation state. It reads no organism state, calls no ru
 Set **`GENESIS_AWAKENS_AT`** in the **frontend** environment to an absolute ISO 8601 timestamp with `Z` or an explicit UTC offset:
 
 ```dotenv
-# Example date only — replace with the intended public awakening time.
-GENESIS_AWAKENS_AT=2026-10-01T18:00:00Z
+# Confirmed launch: September 29, 2026, 12:00 AM Pacific.
+GENESIS_AWAKENS_AT=2026-09-29T00:00:00-07:00
 GENESIS_PUBLIC_MODE=dormant
 ```
 
-The example is 18:00 UTC (11:00 Pacific daylight time). All visitors count down to the same instant, rather than a duration created on page load or deployment. Days are not limited to two digits. An unset timestamp displays `XX : XX : XX : XX` with “Awakening time to be announced.” Invalid or timezone-free dates fail clearly rather than quietly choosing a visitor’s timezone. Initial HTML uses the server clock; the browser recalculates from the deadline every second and on returning to the tab. As with ordinary web clocks, a visitor’s device clock must be accurate.
+The configured launch is September 29 at 07:00 UTC (midnight Pacific daylight time). All visitors count down to the same instant, rather than a duration created on page load or deployment. Days are not limited to two digits. An unset timestamp displays `XX : XX : XX : XX` with “Awakening time to be announced.” Invalid or timezone-free dates fail clearly rather than quietly choosing a visitor’s timezone. Initial HTML uses the server clock; the browser recalculates from the deadline every second and on returning to the tab. As with ordinary web clocks, a visitor’s device clock must be accurate.
 
 At zero the display stays at `00 : 00 : 00 : 00`, with “The threshold is here. Awaiting awakening.” It remains dormant. **The countdown never starts cycles, changes scheduling, or switches to the observation interface.**
 

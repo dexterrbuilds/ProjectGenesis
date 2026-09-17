@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Countdown } from './countdown';
 import { DormantConnectome } from './connectome';
 import styles from './dormant.module.css';
@@ -5,7 +6,7 @@ import styles from './dormant.module.css';
 export function DormantExperience({ awakeningAt, now }: { awakeningAt: number | null; now: number }) {
   return <main className={styles.page}>
     <header className={styles.header}>
-      <div className={styles.brand}><span className={styles.mark} aria-hidden="true">g</span><span>PROJECT GENESIS</span></div>
+      <div className={styles.brand}><Image className={styles.mark} src="/genesis-logo.png" width={52} height={52} alt="" priority /><span>PROJECT GENESIS</span></div>
       <span className={styles.edition}>EXPERIMENT 001</span>
     </header>
     <div className={styles.observation}>
