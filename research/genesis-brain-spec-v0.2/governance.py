@@ -38,6 +38,8 @@ def check_sensory(s):
  require(e['units']=='mV' and e['observation_type']=='mean_baseline_subtracted_somatic_voltage' and e['time']=={'start_ms':0,'end_ms':500,'grid_ms':1,'original_resolution_preserved_in_provenance':True},'Unsupported observation conversion/horizon')
  require(set(e['conversions'])=={'calcium','spikes','release','synaptic_current','model_rate'},'Observation restrictions missing')
  for value in e['conversions'].values():require(value['state']=='unknown' and value['value'] is None and bool(value['reason']),'Unknown conversion silently known/zero')
+ require(e['coordinate_transform']['state']=='unknown' and e['coordinate_transform']['value'] is None,'Coordinate ambiguity silently resolved')
+ require(e['interpolation_strata']==['E1|2021_T5_flash|T5|0.0|1.0|duration','E1|2021_T5_flash|T5|0.0|2.0|duration'],'Support domain expanded without evidence')
  require(all(e['identity_resolution'][k] is None for k in ['fly','subtype','column','root']),'Unsupported identity transfer')
  require(e['Stage4_conditions_ood']==16 and not e['omitted_circuits_simulated'],'OOD/circuit reconstruction promotion')
  require(s['unknown_policy']=={'quantity':None,'physiology':None,'uncertainty':None,'never_substitute_zero':True,'UNKNOWN_status_overrides_support_annotation':True},'Unknown substituted or weakened')

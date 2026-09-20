@@ -1,0 +1,17 @@
+test_anatomy_and_shared_rules (__main__.GovernanceTests.test_anatomy_and_shared_rules) ... ok
+test_capability_limits (__main__.GovernanceTests.test_capability_limits) ... ok
+test_future_dependency_and_duplicate_ownership (__main__.GovernanceTests.test_future_dependency_and_duplicate_ownership) ... ok
+test_future_product_input (__main__.GovernanceTests.test_future_product_input) ... ok
+test_historical_entry_not_changed (__main__.GovernanceTests.test_historical_entry_not_changed) ... ok
+test_missing_provenance_or_review (__main__.GovernanceTests.test_missing_provenance_or_review) ... ok
+test_negative_result_not_promoted_even_rehashed (__main__.GovernanceTests.test_negative_result_not_promoted_even_rehashed) ... ok
+test_product_claim_rejected (__main__.GovernanceTests.test_product_claim_rejected) ... ok
+test_sensory_unknown_observation_and_ood (__main__.GovernanceTests.test_sensory_unknown_observation_and_ood) ... ok
+test_stage5_not_authorized (__main__.GovernanceTests.test_stage5_not_authorized) ... ok
+test_unknown_sign_cannot_gain_provenance_by_rehash (__main__.GovernanceTests.test_unknown_sign_cannot_gain_provenance_by_rehash) ... ok
+test_valid_reviewed_append (__main__.GovernanceTests.test_valid_reviewed_append) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.793s
+
+OK
