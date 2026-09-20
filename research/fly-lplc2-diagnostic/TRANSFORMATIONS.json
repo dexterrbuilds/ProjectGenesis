@@ -1,0 +1,129 @@
+{
+  "entries": [
+    {
+      "classification": "engineering assumption",
+      "evidence": [
+        "E01",
+        "E10"
+      ],
+      "frozen_operation": "Angular stimulus definitions and normalized intensities in frozen Movie class",
+      "id": "physical_movie",
+      "missing_or_destroyed": "Calibrated photons, optical blur, display spectral/refresh transfer absent"
+    },
+    {
+      "classification": "engineering assumption",
+      "evidence": [
+        "E06"
+      ],
+      "frozen_operation": "Planar grid, 5 degree spacing, fixed cardinal subtype axes",
+      "id": "screen_geometry",
+      "missing_or_destroyed": "Eye curvature, chiasm convention, nonuniform sampling and screen projection not audited"
+    },
+    {
+      "classification": "engineering assumption",
+      "evidence": [
+        "E02",
+        "E05",
+        "E10"
+      ],
+      "frozen_operation": "Two point samples around each assigned root column",
+      "id": "local_intensity",
+      "missing_or_destroyed": "RF extent, neighboring-column integration, edge optics, luminance adaptation not represented"
+    },
+    {
+      "classification": "engineering assumption",
+      "evidence": [
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "frozen_operation": "Absolute positive/negative contrast about 0.5, strict T4 ON/T5 OFF",
+      "id": "polarity_preprocessing",
+      "missing_or_destroyed": "Nonpreferred polarity and signed baseline changes deleted; stimulus-statistics history absent"
+    },
+    {
+      "classification": "engineering assumption",
+      "evidence": [
+        "E02",
+        "E03"
+      ],
+      "frozen_operation": "Rectified two-site antisymmetric correlation, equal 50 ms delays",
+      "id": "motion_correlation",
+      "missing_or_destroyed": "Separable flash responses cancel; offset enhancement/suppression subfields absent"
+    },
+    {
+      "classification": "engineering assumption",
+      "evidence": [
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E11"
+      ],
+      "frozen_operation": "Synthetic motion into scalar leaky state, common 50 ms tau",
+      "id": "t4_t5_activity",
+      "missing_or_destroyed": "Retained anatomical afferents lack operators; calcium/voltage distinction, class kinetics unknown"
+    },
+    {
+      "classification": "experimentally constrained",
+      "evidence": [
+        "E06",
+        "E09"
+      ],
+      "frozen_operation": "Pinned string roots, annotation and column references; conflicting metadata excluded",
+      "id": "root_type_column_mapping",
+      "missing_or_destroyed": "Exact physiological ROI correspondence unresolved; aggregate root/column is not RF"
+    },
+    {
+      "classification": "unidentified",
+      "evidence": [
+        "E01",
+        "E06"
+      ],
+      "frozen_operation": "Frozen grid axis-to-preferred-direction convention not calibrated",
+      "id": "column_to_visual_direction",
+      "missing_or_destroyed": "All 24 group radial alignments negative under those axes; retinal meaning remains unresolved"
+    },
+    {
+      "classification": "weakly constrained",
+      "evidence": [
+        "E01",
+        "E08",
+        "E09"
+      ],
+      "frozen_operation": "Supported class signs for T4/T5 and LPi11; LPi09 inhibition is hypothesis",
+      "id": "anatomical_transmission",
+      "missing_or_destroyed": "Unknown retained edges numerically excluded; counts do not imply efficacy or receptor effects"
+    },
+    {
+      "classification": "engineering assumption",
+      "evidence": [
+        "E09"
+      ],
+      "frozen_operation": "Count/full target input or frozen retained sensitivity arm",
+      "id": "normalization",
+      "missing_or_destroyed": "Relative physiological gains, omitted ongoing conductance and baseline not identified"
+    },
+    {
+      "classification": "engineering assumption",
+      "evidence": [
+        "E01",
+        "E07"
+      ],
+      "frozen_operation": "One scalar per neuron, instantaneous signed contact sum before rectification",
+      "id": "lpi_lplc2_integration",
+      "missing_or_destroyed": "Input layer/branch identity lost after summation; no independently measured local coupling or delay"
+    },
+    {
+      "classification": "unidentified",
+      "evidence": [
+        "E01",
+        "E07"
+      ],
+      "frozen_operation": "Dimensionless rate reported directly; no calcium observation operator",
+      "id": "lplc2_observation",
+      "missing_or_destroyed": "Indicator kinetics/baseline/saturation and local-to-axon transfer absent"
+    }
+  ],
+  "parameters_transferred_to_neural_models": []
+}

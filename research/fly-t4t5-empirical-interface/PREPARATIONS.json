@@ -1,0 +1,85 @@
+{
+  "2019_T5_compact": {
+    "species": "Drosophila melanogaster",
+    "sex": "female",
+    "age_days": [
+      1,
+      2
+    ],
+    "technique": "somatic whole-cell current clamp",
+    "observation": "mean baseline-subtracted voltage",
+    "units": "mV",
+    "indicator": null,
+    "indicator_null_reason": "electrophysiology, not fluorescence",
+    "spikes_identified": false,
+    "fly_identity": null,
+    "subtype": null,
+    "retinal_registration": null,
+    "FlyWire_root_crosswalk": null,
+    "observation_to_release_conversion": null,
+    "genotype_driver": "SS25175 (VT055812-AD / R47H05-DBD)",
+    "source_doi": "10.7554/eLife.50706",
+    "frame": "2019_T5_author_PD_axis",
+    "recording_bias": {
+      "current_pA_range": [
+        0,
+        3
+      ],
+      "target_resting_mV_range": [
+        -60,
+        -55
+      ]
+    },
+    "pixel_to_retinal_degrees": null
+  },
+  "2021_T4_flash": {
+    "species": "Drosophila melanogaster",
+    "sex": "female",
+    "age_days": [
+      1,
+      2
+    ],
+    "technique": "somatic whole-cell current clamp",
+    "observation": "mean baseline-subtracted voltage",
+    "units": "mV",
+    "indicator": null,
+    "indicator_null_reason": "electrophysiology, not fluorescence",
+    "spikes_identified": false,
+    "fly_identity": null,
+    "subtype": null,
+    "retinal_registration": null,
+    "FlyWire_root_crosswalk": null,
+    "observation_to_release_conversion": null,
+    "genotype_driver": "VT015785-AD / R42F06-DBD",
+    "source_doi": "10.1016/j.cub.2021.09.072",
+    "archive_doi": "10.25378/janelia.16663705.v1",
+    "frame": "2021_T4_author_RF_axis",
+    "pixel_to_retinal_degrees": null
+  },
+  "2021_T5_flash": {
+    "species": "Drosophila melanogaster",
+    "sex": "female",
+    "age_days": [
+      1,
+      2
+    ],
+    "technique": "somatic whole-cell current clamp",
+    "observation": "mean baseline-subtracted voltage",
+    "units": "mV",
+    "indicator": null,
+    "indicator_null_reason": "electrophysiology, not fluorescence",
+    "spikes_identified": false,
+    "fly_identity": null,
+    "subtype": null,
+    "retinal_registration": null,
+    "FlyWire_root_crosswalk": null,
+    "observation_to_release_conversion": null,
+    "genotype_driver": "SS25175 (VT055812-AD / R47H05-DBD)",
+    "source_doi": "10.1016/j.cub.2021.09.072",
+    "archive_doi": "10.25378/janelia.16663705.v1",
+    "frame": "2021_T5_author_RF_axis",
+    "legacy_recording_reuse": true,
+    "ordinal_to_2019_recording_crosswalk": null,
+    "pixel_to_retinal_degrees": null
+  }
+}

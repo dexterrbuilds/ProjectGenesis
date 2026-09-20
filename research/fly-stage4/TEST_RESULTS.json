@@ -1,0 +1,16 @@
+{
+  "biological_success_inferred_from_tests": false,
+  "frozen_spec_tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s research/genesis-brain-spec-v0.1 -p test_spec.py -v",
+    "failed": 0,
+    "passed": 35
+  },
+  "model_freeze_sha256": "63fca31423ce8fdab39df44c353914fbbad4e8169fde159bd12085c875470b05",
+  "research_test_sha256": "aa81d87338f4f25cdc55975d1dc1c7236f13e3dabea70bc3384f9cd1ad006fac",
+  "research_tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 .local/fly-stage1-venv/bin/python -m unittest discover -s research/fly-stage4 -p test_stage4.py -v",
+    "failed": 0,
+    "passed": 9
+  },
+  "spec_test_sha256": "e62df29ee45c4f791d398648144470f68638498d20b1df2a41d3a693f7a7a219"
+}

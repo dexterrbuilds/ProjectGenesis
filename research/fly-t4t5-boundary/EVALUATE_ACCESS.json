@@ -1,0 +1,22 @@
+[
+  "FITS.json",
+  "FIT_FREEZE.json",
+  "models.py",
+  "processed/cell_01_test.npz",
+  "processed/cell_02_test.npz",
+  "processed/cell_03_test.npz",
+  "processed/cell_04_test.npz",
+  "processed/cell_05_test.npz",
+  "processed/cell_06_test.npz",
+  "processed/cell_07_test.npz",
+  "processed/cell_08_test.npz",
+  "processed/cell_09_test.npz",
+  "processed/cell_10_test.npz",
+  "processed/cell_11_test.npz",
+  "processed/cell_12_test.npz",
+  "processed/cell_13_test.npz",
+  "processed/cell_14_test.npz",
+  "processed/cell_15_test.npz",
+  "processed/cell_16_test.npz",
+  "processed/cell_17_test.npz"
+]

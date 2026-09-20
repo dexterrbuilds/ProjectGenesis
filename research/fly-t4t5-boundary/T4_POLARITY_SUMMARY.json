@@ -1,0 +1,126 @@
+{
+  "conditional_author_center": true,
+  "no_inferential_test_of_extrema": true,
+  "summary": [
+    {
+      "width_pixels": 1,
+      "duration_ms": 40,
+      "contrast_value": 0,
+      "n_recordings": 15,
+      "mean_mV": -0.5046101388068249,
+      "min_mV": -1.034095871636687,
+      "max_mV": 0.37992867472988223,
+      "prestim_rms_mV": 0.5844374492778762
+    },
+    {
+      "width_pixels": 1,
+      "duration_ms": 40,
+      "contrast_value": 1,
+      "n_recordings": 15,
+      "mean_mV": 3.331148027215356,
+      "min_mV": -0.517521413297402,
+      "max_mV": 8.957077885595794,
+      "prestim_rms_mV": 0.6193222515368599
+    },
+    {
+      "width_pixels": 1,
+      "duration_ms": 160,
+      "contrast_value": 0,
+      "n_recordings": 15,
+      "mean_mV": -0.7312016962295588,
+      "min_mV": -2.2794132053065894,
+      "max_mV": 1.208176130570422,
+      "prestim_rms_mV": 0.6611734639270272
+    },
+    {
+      "width_pixels": 1,
+      "duration_ms": 160,
+      "contrast_value": 1,
+      "n_recordings": 15,
+      "mean_mV": 10.1178528598697,
+      "min_mV": -0.2032637445034382,
+      "max_mV": 17.41226872768982,
+      "prestim_rms_mV": 0.6954275123711631
+    },
+    {
+      "width_pixels": 2,
+      "duration_ms": 40,
+      "contrast_value": 0,
+      "n_recordings": 15,
+      "mean_mV": -0.7715772723585502,
+      "min_mV": -2.1808629039320877,
+      "max_mV": 0.5199917969226107,
+      "prestim_rms_mV": 0.6304537481969077
+    },
+    {
+      "width_pixels": 2,
+      "duration_ms": 40,
+      "contrast_value": 1,
+      "n_recordings": 15,
+      "mean_mV": 4.97813829629089,
+      "min_mV": -0.6259080834187074,
+      "max_mV": 11.278741364720041,
+      "prestim_rms_mV": 0.5078588815871817
+    },
+    {
+      "width_pixels": 2,
+      "duration_ms": 160,
+      "contrast_value": 0,
+      "n_recordings": 15,
+      "mean_mV": -1.4160855417738145,
+      "min_mV": -3.626522017236887,
+      "max_mV": 1.1716228452044177,
+      "prestim_rms_mV": 0.6059114137582662
+    },
+    {
+      "width_pixels": 2,
+      "duration_ms": 160,
+      "contrast_value": 1,
+      "n_recordings": 15,
+      "mean_mV": 12.551685718805997,
+      "min_mV": -0.5405806667991726,
+      "max_mV": 19.813982516275665,
+      "prestim_rms_mV": 0.4091157694326562
+    },
+    {
+      "width_pixels": 4,
+      "duration_ms": 40,
+      "contrast_value": 0,
+      "n_recordings": 15,
+      "mean_mV": -0.6897846736623777,
+      "min_mV": -2.2579391782091847,
+      "max_mV": 0.4949023733078377,
+      "prestim_rms_mV": 0.688748833246866
+    },
+    {
+      "width_pixels": 4,
+      "duration_ms": 40,
+      "contrast_value": 1,
+      "n_recordings": 15,
+      "mean_mV": 5.046054174132387,
+      "min_mV": -0.3971658184354325,
+      "max_mV": 12.501146538761986,
+      "prestim_rms_mV": 0.7830264823336393
+    },
+    {
+      "width_pixels": 4,
+      "duration_ms": 160,
+      "contrast_value": 0,
+      "n_recordings": 15,
+      "mean_mV": -1.6153838986151257,
+      "min_mV": -3.3468995388518294,
+      "max_mV": 1.2565187076247213,
+      "prestim_rms_mV": 0.6444622108866592
+    },
+    {
+      "width_pixels": 4,
+      "duration_ms": 160,
+      "contrast_value": 1,
+      "n_recordings": 15,
+      "mean_mV": 12.525607956984887,
+      "min_mV": -0.1067866427775428,
+      "max_mV": 17.91432590570284,
+      "prestim_rms_mV": 0.5975047407046973
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "CALIBRATION_FROZEN.json": "fef59786a563ebfb8c9659ca8b478f95b569b2fdf723584714033cdec427523f",
+  "CANONICAL_BEFORE.json": "6fdf961362f44475c0f2d80a03c5569e3039e8210bd6990f448895663ed1c9eb",
+  "FROZEN_BEFORE.json": "f8e63437893529599adcde15f7d242191848312dc2e6a80ede5ffc45effd4671",
+  "PARAMETER_INVENTORY.json": "42014e259c0e7d3e04f8ee30ce644571c931ef1647ab9eb3faf2b7dd69d20cd4",
+  "PLAN.md": "78bfb7d421931364fdfaac034b9e3ce7ed1c62d424cfb147c6cc3958d9adf2b9",
+  "VALIDATION.json": "fea7935626c36fce8a76f80cfb31687bcbe12d64a2a727f4b495754aaf9f391c",
+  "calibrate.py": "a13c53aa52a9b33deb3e5e05a636f85605ff7be3dd48ce2147628da764aa6cc2",
+  "data/PROVENANCE.json": "e2d2fbb6750b0d5ce0525d37b4857037db1e8c9fc64f99287db4044c4477ec49",
+  "data/amin-fig4.xlsx": "a573d378eaac90b89471399268974bd24a0700927e4bf84377977704514fe3f4",
+  "data/amin-fig7.xlsx": "ba1d7c4dfaa2007aa3e71f668b72ee81845ea20094012f44450117a3a2165e9c",
+  "data/apl-controls.json": "af0eab760a487a1e234411fd3f4bd1bf807f9c13a821a6dedc5888bdf7dfdde6",
+  "data/apl-train.json": "c7ee46d92dff6a9e36f144da94b30a0d28f9838ac27f03c5dca8a75778f059de",
+  "data/apl-validation.json": "6469192914391344397c6e167d9e12ae811b4c92e65efd0eb8864d743336ba8d",
+  "extract_measurements.py": "f1e6200e5e013f1de3270b85178874a6dc603857181f6d9cb5065b485206b215",
+  "verification/stage1.txt": "afcc8f226900cc90b22a149b33c2bec253cdd33fd3d35c080e1386baf839c0db",
+  "verification/stage2.txt": "157777097d774a2d8a37d2e2ce4eebb237385fea924c0ac13fa301afa010688b",
+  "verification/stage3.txt": "cd2d35f7582b1e6dbf0c5b09941fbe0ebab02a16dab90b8bd81fc6f4111f3e5b"
+}

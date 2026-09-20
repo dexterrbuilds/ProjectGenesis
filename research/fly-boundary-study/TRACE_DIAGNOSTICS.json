@@ -1,0 +1,472 @@
+[
+  {
+    "run": "s1-L0-primary-A-0.2-intact",
+    "stage": 1,
+    "level": 0,
+    "cue": "A",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN_app": {
+        "peak_sampled": 0.9999067636357674,
+        "mean_sampled": 0.13833404589791634
+      },
+      "DAN_av": {
+        "peak_sampled": 0.001001256682939829,
+        "mean_sampled": 6.427730175008265e-07
+      }
+    },
+    "final_second_max": {
+      "APL": 1e-323,
+      "DAN_app": 1e-323,
+      "DAN_av": 1e-323,
+      "KC": 5e-324,
+      "MBON_app": 1e-323,
+      "MBON_av": 1e-323,
+      "PN": 1e-323
+    },
+    "max_plastic_change": 0.8410209048044506
+  },
+  {
+    "run": "s1-L0-primary-B-0.2-intact",
+    "stage": 1,
+    "level": 0,
+    "cue": "B",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN_app": {
+        "peak_sampled": 0.999592030221979,
+        "mean_sampled": 0.13804197277835656
+      },
+      "DAN_av": {
+        "peak_sampled": 0.001001256682939829,
+        "mean_sampled": 6.427730175008265e-07
+      }
+    },
+    "final_second_max": {
+      "APL": 1e-323,
+      "DAN_app": 1e-323,
+      "DAN_av": 1e-323,
+      "KC": 5e-324,
+      "MBON_app": 1e-323,
+      "MBON_av": 1e-323,
+      "PN": 1e-323
+    },
+    "max_plastic_change": 0.841002750660438
+  },
+  {
+    "run": "s1-L1-primary-A-0.2-intact",
+    "stage": 1,
+    "level": 1,
+    "cue": "A",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN_app": {
+        "peak_sampled": 0.9999067876959826,
+        "mean_sampled": 0.13833418899364877
+      },
+      "DAN_av": {
+        "peak_sampled": 0.0010012601957378874,
+        "mean_sampled": 6.427760110760696e-07
+      }
+    },
+    "final_second_max": {
+      "APL": 1e-323,
+      "DAN_app": 1e-323,
+      "DAN_av": 1e-323,
+      "KC": 5e-324,
+      "MBON_app": 1e-323,
+      "MBON_av": 1e-323,
+      "PN": 1e-323
+    },
+    "max_plastic_change": 0.8410209125477496
+  },
+  {
+    "run": "s1-L1-primary-B-0.2-intact",
+    "stage": 1,
+    "level": 1,
+    "cue": "B",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN_app": {
+        "peak_sampled": 0.9995923139854178,
+        "mean_sampled": 0.13804213038149196
+      },
+      "DAN_av": {
+        "peak_sampled": 0.0010012601957378874,
+        "mean_sampled": 6.427760110760696e-07
+      }
+    },
+    "final_second_max": {
+      "APL": 1e-323,
+      "DAN_app": 1e-323,
+      "DAN_av": 1e-323,
+      "KC": 5e-324,
+      "MBON_app": 1e-323,
+      "MBON_av": 1e-323,
+      "PN": 1e-323
+    },
+    "max_plastic_change": 0.841002759486321
+  },
+  {
+    "run": "s1-L2-primary-A-0.2-intact",
+    "stage": 1,
+    "level": 2,
+    "cue": "A",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN_app": {
+        "peak_sampled": 0.999906787772641,
+        "mean_sampled": 0.13833419519138743
+      },
+      "DAN_av": {
+        "peak_sampled": 0.0010012611949533955,
+        "mean_sampled": 6.42776648991233e-07
+      }
+    },
+    "final_second_max": {
+      "APL": 1e-323,
+      "DAN_app": 1e-323,
+      "DAN_av": 1e-323,
+      "KC": 5e-324,
+      "MBON_app": 1e-323,
+      "MBON_av": 1e-323,
+      "PN": 1e-323
+    },
+    "max_plastic_change": 0.8410209124056197
+  },
+  {
+    "run": "s1-L2-primary-B-0.2-intact",
+    "stage": 1,
+    "level": 2,
+    "cue": "B",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN_app": {
+        "peak_sampled": 0.999592313335859,
+        "mean_sampled": 0.13804213153834521
+      },
+      "DAN_av": {
+        "peak_sampled": 0.0010012611949533955,
+        "mean_sampled": 6.42776648991233e-07
+      }
+    },
+    "final_second_max": {
+      "APL": 1e-323,
+      "DAN_app": 1e-323,
+      "DAN_av": 1e-323,
+      "KC": 5e-324,
+      "MBON_app": 1e-323,
+      "MBON_av": 1e-323,
+      "PN": 1e-323
+    },
+    "max_plastic_change": 0.8410027600637706
+  },
+  {
+    "run": "s2-L0-primary-A-0.2-intact",
+    "stage": 2,
+    "level": 0,
+    "cue": "A",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.00020379508562108108,
+        "mean_sampled": 2.7817372791863888e-05
+      }
+    },
+    "final_second_max": {
+      "AMBIGUOUS": 1.720777764075448e-48,
+      "APL": 5.4556667275961694e-49,
+      "CONTROL": 1.4341324312401564e-48,
+      "DAN": 1.1640513102790403e-48,
+      "KC": 2.5614539287424026e-50,
+      "MBON": 2.1377462588601248e-48,
+      "PN": 1.6799175071473932e-49
+    },
+    "max_plastic_change": 3.380143859665896e-05
+  },
+  {
+    "run": "s2-L0-primary-B-0.2-intact",
+    "stage": 2,
+    "level": 0,
+    "cue": "B",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.0002945947177549009,
+        "mean_sampled": 3.9697451318463046e-05
+      }
+    },
+    "final_second_max": {
+      "AMBIGUOUS": 4.735803063308718e-48,
+      "APL": 1.6455810258645983e-48,
+      "CONTROL": 4.902360113986356e-48,
+      "DAN": 2.1819111508973633e-48,
+      "KC": 6.528733868010595e-50,
+      "MBON": 4.9633658729208e-48,
+      "PN": 1.9102447408694675e-49
+    },
+    "max_plastic_change": 7.967055891677788e-05
+  },
+  {
+    "run": "s2-L1-primary-A-0.2-intact",
+    "stage": 2,
+    "level": 1,
+    "cue": "A",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.00020289901068680814,
+        "mean_sampled": 2.7688850571810504e-05
+      }
+    },
+    "final_second_max": {
+      "AMBIGUOUS": 1.675296956451837e-48,
+      "APL": 5.434081345252457e-49,
+      "CONTROL": 1.3851234789743365e-48,
+      "DAN": 1.0702343818238127e-48,
+      "KC": 2.5614480016374815e-50,
+      "MBON": 2.066517752782543e-48,
+      "PN": 1.63499872520801e-49
+    },
+    "max_plastic_change": 3.365365649643515e-05
+  },
+  {
+    "run": "s2-L1-primary-B-0.2-intact",
+    "stage": 2,
+    "level": 1,
+    "cue": "B",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.0002937286979082847,
+        "mean_sampled": 3.957180690604378e-05
+      }
+    },
+    "final_second_max": {
+      "AMBIGUOUS": 4.6566062059364616e-48,
+      "APL": 1.64056625712462e-48,
+      "CONTROL": 4.777838314374976e-48,
+      "DAN": 1.9879367976863595e-48,
+      "KC": 6.528716798276161e-50,
+      "MBON": 4.8683662196927197e-48,
+      "PN": 1.8974664810723826e-49
+    },
+    "max_plastic_change": 7.942501619540021e-05
+  },
+  {
+    "run": "s3-L0-primary-A-0.2-intact",
+    "stage": 3,
+    "level": 0,
+    "cue": "A",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.00013124565744089897,
+        "mean_sampled": 6.3715241953517e-05
+      }
+    },
+    "final_second_max": {
+      "APL": 1.7890852473167297e-106,
+      "CONTROL": 9.845942248083474e-107,
+      "DAN": 6.700347745551385e-110,
+      "KC": 6.375743498147551e-108,
+      "LH": 9.314249893125735e-106,
+      "LHCENT": 5.2394166417755e-107,
+      "MB11": 1.0199643141883432e-105,
+      "MB18": 3.0497495315591266e-106,
+      "OA": 7.444758685166403e-110,
+      "PN": 2.0181473701057168e-107,
+      "VALUE": 5.3769486777744934e-107
+    },
+    "max_plastic_change": 0.0011552008723380025
+  },
+  {
+    "run": "s3-L0-primary-A-0.8-intact",
+    "stage": 3,
+    "level": 0,
+    "cue": "A",
+    "resource": 0.8,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.0003063533435241853,
+        "mean_sampled": 0.0001487160822866735
+      }
+    },
+    "final_second_max": {
+      "APL": 1.789955227555936e-106,
+      "CONTROL": 9.853459437765795e-107,
+      "DAN": 1.5647668139418876e-109,
+      "KC": 6.37574351054037e-108,
+      "LH": 9.316626140760348e-106,
+      "LHCENT": 5.2425821366147806e-107,
+      "MB11": 1.0195114442668273e-105,
+      "MB18": 3.0510061120258034e-106,
+      "OA": 7.447149122215023e-110,
+      "PN": 2.018163706861637e-107,
+      "VALUE": 5.379365403549982e-107
+    },
+    "max_plastic_change": 0.0026942490218486714
+  },
+  {
+    "run": "s3-L0-primary-B-0.2-intact",
+    "stage": 3,
+    "level": 0,
+    "cue": "B",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.0001223791757114404,
+        "mean_sampled": 5.9372580054848724e-05
+      }
+    },
+    "final_second_max": {
+      "APL": 2.6933833572121934e-106,
+      "CONTROL": 1.4766888428004933e-106,
+      "DAN": 6.229838254241117e-110,
+      "KC": 5.2660422368880996e-108,
+      "LH": 9.866416483990415e-106,
+      "LHCENT": 6.971185723312977e-108,
+      "MB11": 1.0425703003474171e-105,
+      "MB18": 3.43686567958425e-106,
+      "OA": 1.9947210434668862e-110,
+      "PN": 2.1179590008781106e-107,
+      "VALUE": 8.863273242215782e-107
+    },
+    "max_plastic_change": 0.0007600758414080255
+  },
+  {
+    "run": "s3-L0-primary-B-0.8-intact",
+    "stage": 3,
+    "level": 0,
+    "cue": "B",
+    "resource": 0.8,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.0002856505782143111,
+        "mean_sampled": 0.00013857751406352864
+      }
+    },
+    "final_second_max": {
+      "APL": 2.6946382432667237e-106,
+      "CONTROL": 1.4773307031512787e-106,
+      "DAN": 1.4548066852711868e-109,
+      "KC": 5.266042573342692e-108,
+      "LH": 9.867916409036066e-106,
+      "LHCENT": 6.997498560177707e-108,
+      "MB11": 1.0421372173418863e-105,
+      "MB18": 3.438157133132622e-106,
+      "OA": 1.9950304310622268e-110,
+      "PN": 2.1179735827421825e-107,
+      "VALUE": 8.866945394155104e-107
+    },
+    "max_plastic_change": 0.0017731295466004715
+  },
+  {
+    "run": "s3-L1-primary-A-0.2-intact",
+    "stage": 3,
+    "level": 1,
+    "cue": "A",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.0001312362733263177,
+        "mean_sampled": 6.370998180012808e-05
+      }
+    },
+    "final_second_max": {
+      "APL": 1.788610800049098e-106,
+      "CONTROL": 9.882346908351655e-107,
+      "DAN": 6.699310024174168e-110,
+      "KC": 6.375649549896045e-108,
+      "LH": 8.98488133314015e-106,
+      "LHCENT": 8.291052632244238e-107,
+      "MB11": 1.0197129665941731e-105,
+      "MB18": 2.9057533833017583e-106,
+      "OA": 6.997455998185272e-108,
+      "PN": 1.9744683298914167e-107,
+      "VALUE": 5.380606865919365e-107
+    },
+    "max_plastic_change": 0.0011550927057623062
+  },
+  {
+    "run": "s3-L1-primary-A-0.8-intact",
+    "stage": 3,
+    "level": 1,
+    "cue": "A",
+    "resource": 0.8,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.0003063314381873363,
+        "mean_sampled": 0.00014870380427027278
+      }
+    },
+    "final_second_max": {
+      "APL": 1.789480692876362e-106,
+      "CONTROL": 9.889883405571092e-107,
+      "DAN": 1.5645245532160742e-109,
+      "KC": 6.3756495623494316e-108,
+      "LH": 8.987126609770767e-106,
+      "LHCENT": 8.294716559046713e-107,
+      "MB11": 1.0192601082813207e-105,
+      "MB18": 2.9069033228891037e-106,
+      "OA": 6.998026222354894e-108,
+      "PN": 1.9744963681222078e-107,
+      "VALUE": 5.383027523021343e-107
+    },
+    "max_plastic_change": 0.002693996941538046
+  },
+  {
+    "run": "s3-L1-primary-B-0.2-intact",
+    "stage": 3,
+    "level": 1,
+    "cue": "B",
+    "resource": 0.2,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.00012238415408136985,
+        "mean_sampled": 5.937551439865166e-05
+      }
+    },
+    "final_second_max": {
+      "APL": 2.6906218270258146e-106,
+      "CONTROL": 1.4786991603137572e-106,
+      "DAN": 6.230376370929287e-110,
+      "KC": 5.265987421599564e-108,
+      "LH": 9.642185095547363e-106,
+      "LHCENT": 6.284203059448004e-107,
+      "MB11": 1.0423619101970974e-105,
+      "MB18": 3.3134313766028013e-106,
+      "OA": 6.1342191073431016e-108,
+      "PN": 2.1665296277784973e-107,
+      "VALUE": 8.872959489819709e-107
+    },
+    "max_plastic_change": 0.0007601158638033123
+  },
+  {
+    "run": "s3-L1-primary-B-0.8-intact",
+    "stage": 3,
+    "level": 1,
+    "cue": "B",
+    "resource": 0.8,
+    "modulator_activity": {
+      "DAN": {
+        "peak_sampled": 0.0002856621987100696,
+        "mean_sampled": 0.00013858436274257662
+      }
+    },
+    "final_second_max": {
+      "APL": 2.691872452932119e-106,
+      "CONTROL": 1.4793439923916175e-106,
+      "DAN": 1.4549322984519083e-109,
+      "KC": 5.265987758056116e-108,
+      "LH": 9.643592193968065e-106,
+      "LHCENT": 6.294958607342324e-107,
+      "MB11": 1.0419288251743672e-105,
+      "MB18": 3.3146036243432335e-106,
+      "OA": 6.1339312182038276e-108,
+      "PN": 2.166545979912876e-107,
+      "VALUE": 8.876641232490669e-107
+    },
+    "max_plastic_change": 0.00177322285914161
+  }
+]

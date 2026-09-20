@@ -1,0 +1,208 @@
+{
+  "at_utc": "2026-09-20T04:07:38.102083+00:00",
+  "interface_freeze_sha256": "4f26e875b4b73b4b3af09c935e329456a34f376bd147447c370e06a993e6f861",
+  "source_hashes": {
+    "research/fly-stage4/model.py": "5f5ecb0dcf08128a0ac213575e3939437f6b9d684ab164d7a75b45200c87f90d",
+    "research/fly-stage4/run.py": "895e6cb076b3ba1cdd9fcf51b19f10578ad9c34a3af8763ce2aa3beee6121e9d"
+  },
+  "source_scope": "Static AST/text only: Movie physical stimulus class and PRIMARY names. No trial/model execution, response outputs or model scores.",
+  "primary_conditions": [
+    {
+      "source_condition": "expand",
+      "physical_family": "angular disc",
+      "physical_description": "dark diameter 5 to 60 degrees at 20 degree/s",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "No matching 2-D curved-edge/expansion/recession/time-permutation family"
+      ]
+    },
+    {
+      "source_condition": "recede",
+      "physical_family": "angular disc",
+      "physical_description": "dark diameter 60 to 5 degrees at 20 degree/s",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "No matching 2-D curved-edge/expansion/recession/time-permutation family"
+      ]
+    },
+    {
+      "source_condition": "dim",
+      "physical_family": "area-matched dimming",
+      "physical_description": "60 degree circular aperture; intensity .5*(1-diameter^2/3600)",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "No matching gradual luminance-control family"
+      ]
+    },
+    {
+      "source_condition": "translate",
+      "physical_family": "2-D angular moving rectangle",
+      "physical_description": "10 by 60 degrees; x center -40 to 40 degrees at 20 degree/s for 4 s",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "Measured source-pixel bars do not identify this 2-D angular trajectory"
+      ]
+    },
+    {
+      "source_condition": "grating_0",
+      "physical_family": "2-D angular drifting grating",
+      "physical_description": "20 degree period; 20 degree/s phase motion; 50 by 50 degree aperture; orientations 0/90/180/270; 2 s duration",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "Catalog gratings have finite literal source-pixel patterns; a family-name match is not a physical-tuple match"
+      ]
+    },
+    {
+      "source_condition": "grating_90",
+      "physical_family": "2-D angular drifting grating",
+      "physical_description": "20 degree period; 20 degree/s phase motion; 50 by 50 degree aperture; orientations 0/90/180/270; 2 s duration",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "Catalog gratings have finite literal source-pixel patterns; a family-name match is not a physical-tuple match"
+      ]
+    },
+    {
+      "source_condition": "grating_180",
+      "physical_family": "2-D angular drifting grating",
+      "physical_description": "20 degree period; 20 degree/s phase motion; 50 by 50 degree aperture; orientations 0/90/180/270; 2 s duration",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "Catalog gratings have finite literal source-pixel patterns; a family-name match is not a physical-tuple match"
+      ]
+    },
+    {
+      "source_condition": "grating_270",
+      "physical_family": "2-D angular drifting grating",
+      "physical_description": "20 degree period; 20 degree/s phase motion; 50 by 50 degree aperture; orientations 0/90/180/270; 2 s duration",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "Catalog gratings have finite literal source-pixel patterns; a family-name match is not a physical-tuple match"
+      ]
+    },
+    {
+      "source_condition": "approach_20",
+      "physical_family": "angular approach disc",
+      "physical_description": "l/v 20 ms; diameter 5 to 60 degrees from 2 atan(l/v / time-to-collision)",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "No approach/expanding-disc voltage family measured"
+      ]
+    },
+    {
+      "source_condition": "approach_40",
+      "physical_family": "angular approach disc",
+      "physical_description": "l/v 40 ms; diameter 5 to 60 degrees from 2 atan(l/v / time-to-collision)",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "No approach/expanding-disc voltage family measured"
+      ]
+    },
+    {
+      "source_condition": "approach_80",
+      "physical_family": "angular approach disc",
+      "physical_description": "l/v 80 ms; diameter 5 to 60 degrees from 2 atan(l/v / time-to-collision)",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "No approach/expanding-disc voltage family measured"
+      ]
+    },
+    {
+      "source_condition": "bright",
+      "physical_family": "angular disc",
+      "physical_description": "bright diameter 5 to 60 degrees at 20 degree/s",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "No matching 2-D curved-edge/expansion/recession/time-permutation family"
+      ]
+    },
+    {
+      "source_condition": "small",
+      "physical_family": "angular disc",
+      "physical_description": "dark diameter 5 to 30 degrees",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "No matching 2-D curved-edge/expansion/recession/time-permutation family"
+      ]
+    },
+    {
+      "source_condition": "offset",
+      "physical_family": "angular disc",
+      "physical_description": "dark expanding disc center shifted 40 degrees",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "No matching 2-D curved-edge/expansion/recession/time-permutation family"
+      ]
+    },
+    {
+      "source_condition": "shuffle_time",
+      "physical_family": "angular disc",
+      "physical_description": "temporally permuted expanding-disc samples",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "No matching 2-D curved-edge/expansion/recession/time-permutation family"
+      ]
+    },
+    {
+      "source_condition": "blank",
+      "physical_family": "constant gray",
+      "physical_description": "intensity .5",
+      "support": "OUT OF DISTRIBUTION / UNKNOWN",
+      "reasons": [
+        "No source-screen/head/retinal transform into the catalog RF/PD pixel frame",
+        "No measured full physical tuple for this stimulus",
+        "Somatic voltage cannot be converted to root-specific terminal output",
+        "Baseline-subtracted zero is not an independently measured blank-stimulus waveform"
+      ]
+    }
+  ],
+  "in_domain_count": 0,
+  "count": 16,
+  "interface_modified_after_audit": false,
+  "Stage4_runs": 0,
+  "LPLC2_runs": 0
+}

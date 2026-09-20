@@ -1,0 +1,12 @@
+{
+  "candidate": "B0",
+  "analyzed_after_freeze": true,
+  "gain_status": "unidentifiable from static-flash training",
+  "biological_gain": null,
+  "computed_fit_value": 0,
+  "computed_fit_value_meaning": "minimum-norm pseudoinverse of a rank-zero training design; not an experimentally identified zero gain",
+  "static_flash_prediction": "structural zero for any gain in this two-site correlator",
+  "motion_prediction_scope": "B0 numerical zero-gain scores are algorithmic diagnostics only; not calibrated motion predictions and not evidence of a biological zero response",
+  "frozen_fit_files_modified": false,
+  "conclusion": "Static flashes cannot identify the baseline correlator's voltage gain. Its inability to represent signed stationary flash responses remains a separate structural restriction."
+}

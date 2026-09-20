@@ -1,0 +1,49 @@
+{
+  "1": {
+    "dt": 0.01,
+    "tau": 0.05,
+    "eligibility_tau": 0.5,
+    "learning_rate": 0.08,
+    "kc_threshold": 0.15,
+    "dopamine_threshold": 0.2,
+    "pn_gain": 3.0,
+    "recurrent_gain": 0.05,
+    "apl_gain": 1.0,
+    "fast_gain": 1.0,
+    "boundary_current": 0.0,
+    "boundary_noise": 0.0,
+    "min_multiplier": 0.1
+  },
+  "2": {
+    "dt": 0.01,
+    "tau": 0.05,
+    "eligibility_tau": 0.5,
+    "learning_rate": 0.08,
+    "kc_threshold": 0.15,
+    "pn_gain": 3.0,
+    "recurrent_gain": 0.05,
+    "feedback_gain": 0.1,
+    "apl_gain": 1.0,
+    "fast_gain": 1.0,
+    "recovery_tau": 1800.0,
+    "min_multiplier": 0.1,
+    "normalization": "all_inputs"
+  },
+  "3": {
+    "dt": 0.01,
+    "tau": 0.05,
+    "eligibility_tau": 0.5,
+    "body_tau": 60.0,
+    "gate_floor": 0.2,
+    "dopamine_gain": 1.0,
+    "oa_gain": 1.0,
+    "learning_rate": 0.08,
+    "kc_threshold": 0.15,
+    "pn_gain": 3.0,
+    "recurrent_gain": 0.05,
+    "apl_gain": 1.0,
+    "fast_gain": 1.0,
+    "min_multiplier": 0.1,
+    "normalization": "all_inputs"
+  }
+}

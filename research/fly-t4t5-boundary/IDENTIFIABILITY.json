@@ -1,0 +1,709 @@
+{
+  "scope": "predictive coefficients only; physiological conductances/receptor maps not identified",
+  "selected_counts": {
+    "B1t": 3,
+    "B1d": 1,
+    "B1s": 13
+  },
+  "records": [
+    {
+      "recording": 1,
+      "selected": "B1t",
+      "effective_dof": 3.5110580876685225,
+      "raw_coefficients": 14,
+      "rank": 14,
+      "condition_positive_subspace": 49497.36952961205,
+      "tau_ms": 50,
+      "delay_ms": 50,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 0.5023161998852539,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          50,
+          100
+        ],
+        "delay": [
+          0,
+          10,
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 2,
+      "selected": "B1t",
+      "effective_dof": 7.406336130291878,
+      "raw_coefficients": 14,
+      "rank": 14,
+      "condition_positive_subspace": 15454.73743420561,
+      "tau_ms": 50,
+      "delay_ms": 50,
+      "gamma": 0,
+      "lambda": 0.1,
+      "max_coefficient_fold_range": 1.70762038000297,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1t"
+        ],
+        "tau": [
+          50
+        ],
+        "delay": [
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1
+        ]
+      }
+    },
+    {
+      "recording": 3,
+      "selected": "B1d",
+      "effective_dof": 3.8749040317666155,
+      "raw_coefficients": 14,
+      "rank": 14,
+      "condition_positive_subspace": 10479.252088514722,
+      "tau_ms": 50,
+      "delay_ms": 50,
+      "gamma": 1,
+      "lambda": 1,
+      "max_coefficient_fold_range": 1.1264347447402032,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1t"
+        ],
+        "tau": [
+          50
+        ],
+        "delay": [
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 4,
+      "selected": "B1s",
+      "effective_dof": 3.778261700645806,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 29697.65278654937,
+      "tau_ms": 100,
+      "delay_ms": 50,
+      "gamma": 0,
+      "lambda": 0.1,
+      "max_coefficient_fold_range": 2.616986233222438,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          50,
+          100
+        ],
+        "delay": [
+          10,
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1
+        ]
+      }
+    },
+    {
+      "recording": 5,
+      "selected": "B1s",
+      "effective_dof": 4.31071955108125,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 1336.2490624755033,
+      "tau_ms": 50,
+      "delay_ms": 50,
+      "gamma": 0,
+      "lambda": 0.1,
+      "max_coefficient_fold_range": 1.1700958334746177,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          50
+        ],
+        "delay": [
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1
+        ]
+      }
+    },
+    {
+      "recording": 6,
+      "selected": "B1s",
+      "effective_dof": 2.2729052903911304,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 2359.1581664694572,
+      "tau_ms": 50,
+      "delay_ms": 50,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 1.6652456330696745,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          50
+        ],
+        "delay": [
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 7,
+      "selected": "B1s",
+      "effective_dof": 2.199538254944265,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 4218.356325735032,
+      "tau_ms": 100,
+      "delay_ms": 10,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 1.333699391611209,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          20,
+          50,
+          100
+        ],
+        "delay": [
+          0,
+          10,
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 8,
+      "selected": "B1s",
+      "effective_dof": 2.371415623345371,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 1224.1443882475935,
+      "tau_ms": 50,
+      "delay_ms": 50,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 0.7583538964016288,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          20,
+          50,
+          100
+        ],
+        "delay": [
+          0,
+          10,
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 9,
+      "selected": "B1s",
+      "effective_dof": 2.3107845682774277,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 1862.6420215271523,
+      "tau_ms": 20,
+      "delay_ms": 50,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 1.1756515252591444,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          20,
+          50
+        ],
+        "delay": [
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 10,
+      "selected": "B1t",
+      "effective_dof": 7.311133132166015,
+      "raw_coefficients": 14,
+      "rank": 14,
+      "condition_positive_subspace": 23513.57071568188,
+      "tau_ms": 50,
+      "delay_ms": 50,
+      "gamma": 0,
+      "lambda": 0.1,
+      "max_coefficient_fold_range": 2.966648875605454,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1t"
+        ],
+        "tau": [
+          50
+        ],
+        "delay": [
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1
+        ]
+      }
+    },
+    {
+      "recording": 11,
+      "selected": "B1s",
+      "effective_dof": 2.393300400161751,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 1036.3677563004703,
+      "tau_ms": 100,
+      "delay_ms": 50,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 1.855635186039784,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          50,
+          100
+        ],
+        "delay": [
+          0,
+          10,
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 12,
+      "selected": "B1s",
+      "effective_dof": 2.3533452404731188,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 1395.1557623644962,
+      "tau_ms": 100,
+      "delay_ms": 25,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 1.906596272881231,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          20,
+          50,
+          100
+        ],
+        "delay": [
+          0,
+          10,
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 13,
+      "selected": "B1s",
+      "effective_dof": 2.3535674043685093,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 1395.1647925494042,
+      "tau_ms": 100,
+      "delay_ms": 25,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 2.6218575952563214,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          50,
+          100
+        ],
+        "delay": [
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 14,
+      "selected": "B1s",
+      "effective_dof": 2.3533700811303415,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 1395.7204413155537,
+      "tau_ms": 50,
+      "delay_ms": 25,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 1.5452492129577933,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          20,
+          50
+        ],
+        "delay": [
+          10,
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 15,
+      "selected": "B1s",
+      "effective_dof": 2.1995425937764326,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 4219.096864717181,
+      "tau_ms": 100,
+      "delay_ms": 25,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 3.4255925627972093,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          20,
+          50,
+          100
+        ],
+        "delay": [
+          0,
+          10,
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 16,
+      "selected": "B1s",
+      "effective_dof": 2.3987425147628403,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 990.7714388264213,
+      "tau_ms": 100,
+      "delay_ms": 10,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 1.7448041124551716,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          20,
+          50,
+          100
+        ],
+        "delay": [
+          10,
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    },
+    {
+      "recording": 17,
+      "selected": "B1s",
+      "effective_dof": 2.1677490960074786,
+      "raw_coefficients": 7,
+      "rank": 7,
+      "condition_positive_subspace": 2594.247697626038,
+      "tau_ms": 50,
+      "delay_ms": 50,
+      "gamma": 0,
+      "lambda": 1,
+      "max_coefficient_fold_range": 0.9169031501453717,
+      "competitive_ranges": {
+        "kind": [
+          "B1d",
+          "B1s",
+          "B1t"
+        ],
+        "tau": [
+          20,
+          50,
+          100
+        ],
+        "delay": [
+          0,
+          10,
+          25,
+          50
+        ],
+        "gamma": [
+          0,
+          0.1,
+          0.3,
+          1
+        ],
+        "lambda": [
+          0,
+          0.01,
+          0.1,
+          1
+        ]
+      }
+    }
+  ],
+  "unidentified": [
+    "fly grouping",
+    "global coordinate transform",
+    "T4 parameters",
+    "ON contrast response of fitted T5 model",
+    "calcium/spike observation mappings",
+    "precursor identities",
+    "conductance/receptor signs",
+    "parameters beyond preregistered discrete grid"
+  ],
+  "no_time_sample_confidence_intervals": true
+}

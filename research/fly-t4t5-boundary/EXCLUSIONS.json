@@ -1,0 +1,10 @@
+{
+  "T4_cell_5": {
+    "source_plotting_code_excludes": true,
+    "source_result_MATLAB_empty": true,
+    "populated_conditions": 0,
+    "used_for_fit": false,
+    "used_for_descriptive_polarity": false,
+    "reason": "source result is explicitly MATLAB-empty; author code skips ordinal 5"
+  }
+}

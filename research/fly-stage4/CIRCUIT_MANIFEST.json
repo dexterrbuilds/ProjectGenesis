@@ -1,0 +1,3726 @@
+{
+  "annotation_sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+  "annotation_version": "v3.1.0",
+  "canonical_identity": "SHA256 compact JSON [dataset, source contacts SHA, canonical pre root, canonical post root, neuropil]; aggregated anatomical row, not an individually localized synapse",
+  "crosswalk_sha256": "38222b4ceee895dc0ba62b74b2d080a9bcc4330fed2579ec87b7499126be7318",
+  "dataset": "FAFB-FlyWire:783",
+  "extractor_sha256": "f7ab0c5337830fb809b250f1d936164fe9ae3ed11fbcf50ded2b50f6e0dc907d",
+  "levels": {
+    "L0": {
+      "boundary": {
+        "LPLC2": {
+          "full_input": 2587,
+          "full_output": 1117,
+          "input_retention": 0.39891766524932354,
+          "major_omitted_inputs": [
+            {
+              "contacts": 196,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 118,
+              "type": "PVLP011"
+            },
+            {
+              "contacts": 92,
+              "type": "Y3"
+            },
+            {
+              "contacts": 84,
+              "type": "Tm5f"
+            },
+            {
+              "contacts": 81,
+              "type": "Tm20"
+            },
+            {
+              "contacts": 52,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 46,
+              "type": "Tm27"
+            },
+            {
+              "contacts": 43,
+              "type": "Tm5e"
+            },
+            {
+              "contacts": 42,
+              "type": "Tm37"
+            },
+            {
+              "contacts": 37,
+              "type": "LPi02"
+            },
+            {
+              "contacts": 37,
+              "type": "TmY3"
+            },
+            {
+              "contacts": 36,
+              "type": "MLt3"
+            },
+            {
+              "contacts": 31,
+              "type": "Tm4"
+            },
+            {
+              "contacts": 30,
+              "type": "LPC1"
+            },
+            {
+              "contacts": 30,
+              "type": "Tm8b"
+            },
+            {
+              "contacts": 30,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 27,
+              "type": "Tm7"
+            },
+            {
+              "contacts": 24,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 22,
+              "type": "Tm36"
+            },
+            {
+              "contacts": 20,
+              "type": "Tlp5"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 221,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 102,
+              "type": "PVLP011"
+            },
+            {
+              "contacts": 98,
+              "type": "PVLP069"
+            },
+            {
+              "contacts": 60,
+              "type": "PVLP111"
+            },
+            {
+              "contacts": 47,
+              "type": "DNp103"
+            },
+            {
+              "contacts": 30,
+              "type": "PVLP151"
+            },
+            {
+              "contacts": 27,
+              "type": "AVLP479"
+            },
+            {
+              "contacts": 27,
+              "type": "PVLP130"
+            },
+            {
+              "contacts": 25,
+              "type": "LPLC4"
+            },
+            {
+              "contacts": 20,
+              "type": "CB0766"
+            },
+            {
+              "contacts": 20,
+              "type": "PVLP076"
+            },
+            {
+              "contacts": 17,
+              "type": "DNp01"
+            },
+            {
+              "contacts": 16,
+              "type": "LPC1"
+            },
+            {
+              "contacts": 15,
+              "type": "AVLP531"
+            },
+            {
+              "contacts": 14,
+              "type": "LHAD1g1"
+            },
+            {
+              "contacts": 14,
+              "type": "LC31c"
+            },
+            {
+              "contacts": 14,
+              "type": "DNp04"
+            },
+            {
+              "contacts": 13,
+              "type": "AVLP340"
+            },
+            {
+              "contacts": 13,
+              "type": "LMa1"
+            },
+            {
+              "contacts": 11,
+              "type": "CB2917"
+            }
+          ],
+          "neurons": 3,
+          "omitted_input_contacts": 1555,
+          "omitted_output_contacts": 1092,
+          "output_retention": 0.022381378692927483,
+          "retained_input": 1032,
+          "retained_output": 25
+        },
+        "LPi11": {
+          "full_input": 11081,
+          "full_output": 8352,
+          "input_retention": 0.6051800379027164,
+          "major_omitted_inputs": [
+            {
+              "contacts": 552,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 526,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 439,
+              "type": "LLPC3"
+            },
+            {
+              "contacts": 355,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 350,
+              "type": "LPT50"
+            },
+            {
+              "contacts": 275,
+              "type": "cLP02"
+            },
+            {
+              "contacts": 217,
+              "type": "T5d"
+            },
+            {
+              "contacts": 192,
+              "type": "Y12"
+            },
+            {
+              "contacts": 189,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 130,
+              "type": "T4d"
+            },
+            {
+              "contacts": 100,
+              "type": "LLPt"
+            },
+            {
+              "contacts": 89,
+              "type": "MeLp2"
+            },
+            {
+              "contacts": 84,
+              "type": "LPi04"
+            },
+            {
+              "contacts": 71,
+              "type": "TmY3"
+            },
+            {
+              "contacts": 63,
+              "type": "LPC2"
+            },
+            {
+              "contacts": 51,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 49,
+              "type": "LLPC2"
+            },
+            {
+              "contacts": 48,
+              "type": "LPi12"
+            },
+            {
+              "contacts": 44,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 44,
+              "type": "Tlp14"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 1149,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 1129,
+              "type": "LLPC2"
+            },
+            {
+              "contacts": 867,
+              "type": "LPC2"
+            },
+            {
+              "contacts": 825,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 812,
+              "type": "Y11"
+            },
+            {
+              "contacts": 807,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 490,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 439,
+              "type": "LPi04"
+            },
+            {
+              "contacts": 283,
+              "type": "LPi08"
+            },
+            {
+              "contacts": 259,
+              "type": "LPT48_vCal3"
+            },
+            {
+              "contacts": 126,
+              "type": "LPT50"
+            },
+            {
+              "contacts": 82,
+              "type": "LPT26"
+            },
+            {
+              "contacts": 78,
+              "type": "LPT28"
+            },
+            {
+              "contacts": 75,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 55,
+              "type": "T4c"
+            },
+            {
+              "contacts": 54,
+              "type": "T5c"
+            },
+            {
+              "contacts": 51,
+              "type": "Y3"
+            },
+            {
+              "contacts": 48,
+              "type": "LLPC3"
+            },
+            {
+              "contacts": 38,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 37,
+              "type": "TmY5a"
+            }
+          ],
+          "neurons": 6,
+          "omitted_input_contacts": 4375,
+          "omitted_output_contacts": 8021,
+          "output_retention": 0.03963122605363985,
+          "retained_input": 6706,
+          "retained_output": 331
+        },
+        "T4a": {
+          "full_input": 3809,
+          "full_output": 4323,
+          "input_retention": 0.0517196114465739,
+          "major_omitted_inputs": [
+            {
+              "contacts": 1121,
+              "type": "Mi1"
+            },
+            {
+              "contacts": 371,
+              "type": "Tm3"
+            },
+            {
+              "contacts": 332,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 278,
+              "type": "CT1"
+            },
+            {
+              "contacts": 216,
+              "type": "Y1"
+            },
+            {
+              "contacts": 174,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 165,
+              "type": "Mi4"
+            },
+            {
+              "contacts": 122,
+              "type": "Y12"
+            },
+            {
+              "contacts": 107,
+              "type": "VCH"
+            },
+            {
+              "contacts": 96,
+              "type": "C3"
+            },
+            {
+              "contacts": 89,
+              "type": "DCH"
+            },
+            {
+              "contacts": 86,
+              "type": "T4a"
+            },
+            {
+              "contacts": 74,
+              "type": "LPi15"
+            },
+            {
+              "contacts": 72,
+              "type": "Y11"
+            },
+            {
+              "contacts": 33,
+              "type": "Mi10"
+            },
+            {
+              "contacts": 30,
+              "type": "T4b"
+            },
+            {
+              "contacts": 19,
+              "type": "Pm04"
+            },
+            {
+              "contacts": 17,
+              "type": "LMa4"
+            },
+            {
+              "contacts": 16,
+              "type": "Am1"
+            },
+            {
+              "contacts": 15,
+              "type": "cM15"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 667,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 284,
+              "type": "TmY20"
+            },
+            {
+              "contacts": 258,
+              "type": "Y1"
+            },
+            {
+              "contacts": 250,
+              "type": "LLPC1"
+            },
+            {
+              "contacts": 210,
+              "type": "VCH"
+            },
+            {
+              "contacts": 186,
+              "type": "TmY16"
+            },
+            {
+              "contacts": 183,
+              "type": "DCH"
+            },
+            {
+              "contacts": 175,
+              "type": "Y11"
+            },
+            {
+              "contacts": 171,
+              "type": "C3"
+            },
+            {
+              "contacts": 142,
+              "type": "CT1"
+            },
+            {
+              "contacts": 138,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 134,
+              "type": "HSN"
+            },
+            {
+              "contacts": 131,
+              "type": "Y12"
+            },
+            {
+              "contacts": 127,
+              "type": "HSE"
+            },
+            {
+              "contacts": 108,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 98,
+              "type": "Tm27"
+            },
+            {
+              "contacts": 96,
+              "type": "T4a"
+            },
+            {
+              "contacts": 72,
+              "type": "TmY9q__perp"
+            },
+            {
+              "contacts": 69,
+              "type": "LPT26"
+            },
+            {
+              "contacts": 67,
+              "type": "LPLC2"
+            }
+          ],
+          "neurons": 22,
+          "omitted_input_contacts": 3612,
+          "omitted_output_contacts": 4043,
+          "output_retention": 0.06476983576220217,
+          "retained_input": 197,
+          "retained_output": 280
+        },
+        "T4b": {
+          "full_input": 8829,
+          "full_output": 10696,
+          "input_retention": 0.08959112017215992,
+          "major_omitted_inputs": [
+            {
+              "contacts": 2197,
+              "type": "Mi1"
+            },
+            {
+              "contacts": 888,
+              "type": "Tm3"
+            },
+            {
+              "contacts": 769,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 664,
+              "type": "CT1"
+            },
+            {
+              "contacts": 596,
+              "type": "LPi12"
+            },
+            {
+              "contacts": 418,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 400,
+              "type": "Mi4"
+            },
+            {
+              "contacts": 247,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 203,
+              "type": "C3"
+            },
+            {
+              "contacts": 195,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 184,
+              "type": "Pm04"
+            },
+            {
+              "contacts": 163,
+              "type": "T4b"
+            },
+            {
+              "contacts": 150,
+              "type": "T4a"
+            },
+            {
+              "contacts": 143,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 129,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 57,
+              "type": "Am1"
+            },
+            {
+              "contacts": 53,
+              "type": "cM15"
+            },
+            {
+              "contacts": 46,
+              "type": "T5b"
+            },
+            {
+              "contacts": 43,
+              "type": "Mi10"
+            },
+            {
+              "contacts": 37,
+              "type": "T4c"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 1638,
+              "type": "LPi15"
+            },
+            {
+              "contacts": 907,
+              "type": "LPi05"
+            },
+            {
+              "contacts": 764,
+              "type": "LPC1"
+            },
+            {
+              "contacts": 762,
+              "type": "Am1"
+            },
+            {
+              "contacts": 688,
+              "type": "H2"
+            },
+            {
+              "contacts": 546,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 463,
+              "type": "LPi12"
+            },
+            {
+              "contacts": 454,
+              "type": "CT1"
+            },
+            {
+              "contacts": 414,
+              "type": "LPT23"
+            },
+            {
+              "contacts": 356,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 310,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 238,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 227,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 187,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 184,
+              "type": "T4b"
+            },
+            {
+              "contacts": 176,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 171,
+              "type": "H1"
+            },
+            {
+              "contacts": 127,
+              "type": "T4a"
+            },
+            {
+              "contacts": 93,
+              "type": "Tm27"
+            },
+            {
+              "contacts": 85,
+              "type": "LPi14"
+            }
+          ],
+          "neurons": 52,
+          "omitted_input_contacts": 8038,
+          "omitted_output_contacts": 9726,
+          "output_retention": 0.09068810770381451,
+          "retained_input": 791,
+          "retained_output": 970
+        },
+        "T4c": {
+          "full_input": 14006,
+          "full_output": 19551,
+          "input_retention": 0.06261602170498358,
+          "major_omitted_inputs": [
+            {
+              "contacts": 3960,
+              "type": "Mi1"
+            },
+            {
+              "contacts": 1288,
+              "type": "Tm3"
+            },
+            {
+              "contacts": 1060,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 871,
+              "type": "CT1"
+            },
+            {
+              "contacts": 843,
+              "type": "Y11"
+            },
+            {
+              "contacts": 691,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 625,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 558,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 544,
+              "type": "Mi4"
+            },
+            {
+              "contacts": 349,
+              "type": "T4c"
+            },
+            {
+              "contacts": 285,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 194,
+              "type": "C3"
+            },
+            {
+              "contacts": 188,
+              "type": "Pm04"
+            },
+            {
+              "contacts": 168,
+              "type": "T4a"
+            },
+            {
+              "contacts": 117,
+              "type": "T4b"
+            },
+            {
+              "contacts": 108,
+              "type": "T5c"
+            },
+            {
+              "contacts": 107,
+              "type": "Am1"
+            },
+            {
+              "contacts": 101,
+              "type": "Mi10"
+            },
+            {
+              "contacts": 75,
+              "type": "Y1"
+            },
+            {
+              "contacts": 66,
+              "type": "cM15"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 2627,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 2072,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 1488,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 1363,
+              "type": "LLPC2"
+            },
+            {
+              "contacts": 1327,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 1286,
+              "type": "Y11"
+            },
+            {
+              "contacts": 1126,
+              "type": "LPC2"
+            },
+            {
+              "contacts": 680,
+              "type": "LPi04"
+            },
+            {
+              "contacts": 680,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 678,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 659,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 593,
+              "type": "CT1"
+            },
+            {
+              "contacts": 353,
+              "type": "T4c"
+            },
+            {
+              "contacts": 340,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 287,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 287,
+              "type": "Y3"
+            },
+            {
+              "contacts": 261,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 244,
+              "type": "LPT50"
+            },
+            {
+              "contacts": 227,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 225,
+              "type": "LPi08"
+            }
+          ],
+          "neurons": 87,
+          "omitted_input_contacts": 13129,
+          "omitted_output_contacts": 18503,
+          "output_retention": 0.053603396245716334,
+          "retained_input": 877,
+          "retained_output": 1048
+        },
+        "T4d": {
+          "full_input": 30968,
+          "full_output": 36811,
+          "input_retention": 0.06874838543012142,
+          "major_omitted_inputs": [
+            {
+              "contacts": 8627,
+              "type": "Mi1"
+            },
+            {
+              "contacts": 3036,
+              "type": "Tm3"
+            },
+            {
+              "contacts": 2371,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 2254,
+              "type": "Y12"
+            },
+            {
+              "contacts": 2117,
+              "type": "CT1"
+            },
+            {
+              "contacts": 1487,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 1393,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 1280,
+              "type": "Mi4"
+            },
+            {
+              "contacts": 1138,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 617,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 489,
+              "type": "C3"
+            },
+            {
+              "contacts": 377,
+              "type": "T4a"
+            },
+            {
+              "contacts": 269,
+              "type": "T4b"
+            },
+            {
+              "contacts": 260,
+              "type": "T4d"
+            },
+            {
+              "contacts": 246,
+              "type": "Am1"
+            },
+            {
+              "contacts": 245,
+              "type": "Mi10"
+            },
+            {
+              "contacts": 198,
+              "type": "T4c"
+            },
+            {
+              "contacts": 180,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 168,
+              "type": "LMa4"
+            },
+            {
+              "contacts": 163,
+              "type": "cM15"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 2845,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 2821,
+              "type": "LLPC3"
+            },
+            {
+              "contacts": 2590,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 2376,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 2155,
+              "type": "Y12"
+            },
+            {
+              "contacts": 2062,
+              "type": "LPi11"
+            },
+            {
+              "contacts": 1709,
+              "type": "VS2"
+            },
+            {
+              "contacts": 1639,
+              "type": "VS3"
+            },
+            {
+              "contacts": 1449,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 1051,
+              "type": "CT1"
+            },
+            {
+              "contacts": 779,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 667,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 654,
+              "type": "VSm"
+            },
+            {
+              "contacts": 641,
+              "type": "Y3"
+            },
+            {
+              "contacts": 582,
+              "type": "VST2"
+            },
+            {
+              "contacts": 528,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 521,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 439,
+              "type": "VST1"
+            },
+            {
+              "contacts": 435,
+              "type": "LPT47_vCal2"
+            },
+            {
+              "contacts": 429,
+              "type": "TmY5a"
+            }
+          ],
+          "neurons": 206,
+          "omitted_input_contacts": 28839,
+          "omitted_output_contacts": 31288,
+          "output_retention": 0.15003667382032546,
+          "retained_input": 2129,
+          "retained_output": 5523
+        },
+        "T5a": {
+          "full_input": 4645,
+          "full_output": 5287,
+          "input_retention": 0.062432723358449946,
+          "major_omitted_inputs": [
+            {
+              "contacts": 763,
+              "type": "Tm9"
+            },
+            {
+              "contacts": 685,
+              "type": "Tm2"
+            },
+            {
+              "contacts": 617,
+              "type": "CT1"
+            },
+            {
+              "contacts": 509,
+              "type": "Tm1"
+            },
+            {
+              "contacts": 307,
+              "type": "Tm4"
+            },
+            {
+              "contacts": 271,
+              "type": "Y1"
+            },
+            {
+              "contacts": 150,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 149,
+              "type": "Y12"
+            },
+            {
+              "contacts": 127,
+              "type": "Y11"
+            },
+            {
+              "contacts": 102,
+              "type": "LT33"
+            },
+            {
+              "contacts": 94,
+              "type": "VCH"
+            },
+            {
+              "contacts": 93,
+              "type": "DCH"
+            },
+            {
+              "contacts": 88,
+              "type": "T5a"
+            },
+            {
+              "contacts": 70,
+              "type": "Li14"
+            },
+            {
+              "contacts": 62,
+              "type": "LPi15"
+            },
+            {
+              "contacts": 44,
+              "type": "T5b"
+            },
+            {
+              "contacts": 26,
+              "type": "T5c"
+            },
+            {
+              "contacts": 17,
+              "type": "LMa4"
+            },
+            {
+              "contacts": 16,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 15,
+              "type": "HSE"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 783,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 374,
+              "type": "TmY20"
+            },
+            {
+              "contacts": 325,
+              "type": "Y1"
+            },
+            {
+              "contacts": 273,
+              "type": "LLPC1"
+            },
+            {
+              "contacts": 264,
+              "type": "VCH"
+            },
+            {
+              "contacts": 247,
+              "type": "Li14"
+            },
+            {
+              "contacts": 205,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 191,
+              "type": "DCH"
+            },
+            {
+              "contacts": 189,
+              "type": "Y11"
+            },
+            {
+              "contacts": 189,
+              "type": "HSE"
+            },
+            {
+              "contacts": 181,
+              "type": "HSN"
+            },
+            {
+              "contacts": 179,
+              "type": "Y12"
+            },
+            {
+              "contacts": 133,
+              "type": "CT1"
+            },
+            {
+              "contacts": 127,
+              "type": "TmY16"
+            },
+            {
+              "contacts": 108,
+              "type": "TmY9q__perp"
+            },
+            {
+              "contacts": 105,
+              "type": "LPT26"
+            },
+            {
+              "contacts": 105,
+              "type": "T5a"
+            },
+            {
+              "contacts": 103,
+              "type": "Tlp5"
+            },
+            {
+              "contacts": 95,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 80,
+              "type": "Tm27"
+            }
+          ],
+          "neurons": 26,
+          "omitted_input_contacts": 4355,
+          "omitted_output_contacts": 4895,
+          "output_retention": 0.07414412710421789,
+          "retained_input": 290,
+          "retained_output": 392
+        },
+        "T5b": {
+          "full_input": 8827,
+          "full_output": 11823,
+          "input_retention": 0.08428684717344512,
+          "major_omitted_inputs": [
+            {
+              "contacts": 1373,
+              "type": "Tm9"
+            },
+            {
+              "contacts": 1320,
+              "type": "CT1"
+            },
+            {
+              "contacts": 1300,
+              "type": "Tm2"
+            },
+            {
+              "contacts": 834,
+              "type": "Tm1"
+            },
+            {
+              "contacts": 501,
+              "type": "Tm4"
+            },
+            {
+              "contacts": 466,
+              "type": "LPi12"
+            },
+            {
+              "contacts": 301,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 234,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 218,
+              "type": "LT33"
+            },
+            {
+              "contacts": 197,
+              "type": "Li14"
+            },
+            {
+              "contacts": 186,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 186,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 176,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 137,
+              "type": "T5b"
+            },
+            {
+              "contacts": 78,
+              "type": "T5a"
+            },
+            {
+              "contacts": 51,
+              "type": "T5c"
+            },
+            {
+              "contacts": 41,
+              "type": "LPi15"
+            },
+            {
+              "contacts": 39,
+              "type": "Am1"
+            },
+            {
+              "contacts": 29,
+              "type": "T4b"
+            },
+            {
+              "contacts": 29,
+              "type": "cLP02"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 1994,
+              "type": "LPi15"
+            },
+            {
+              "contacts": 1046,
+              "type": "LPi05"
+            },
+            {
+              "contacts": 997,
+              "type": "Am1"
+            },
+            {
+              "contacts": 946,
+              "type": "LPC1"
+            },
+            {
+              "contacts": 849,
+              "type": "H2"
+            },
+            {
+              "contacts": 659,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 483,
+              "type": "LPT23"
+            },
+            {
+              "contacts": 448,
+              "type": "LPi12"
+            },
+            {
+              "contacts": 397,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 343,
+              "type": "LT33"
+            },
+            {
+              "contacts": 306,
+              "type": "T2"
+            },
+            {
+              "contacts": 297,
+              "type": "CT1"
+            },
+            {
+              "contacts": 207,
+              "type": "H1"
+            },
+            {
+              "contacts": 197,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 189,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 146,
+              "type": "T5b"
+            },
+            {
+              "contacts": 135,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 131,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 114,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 86,
+              "type": "T5a"
+            }
+          ],
+          "neurons": 56,
+          "omitted_input_contacts": 8083,
+          "omitted_output_contacts": 10851,
+          "output_retention": 0.08221263638670388,
+          "retained_input": 744,
+          "retained_output": 972
+        },
+        "T5c": {
+          "full_input": 14697,
+          "full_output": 21578,
+          "input_retention": 0.06021637068789549,
+          "major_omitted_inputs": [
+            {
+              "contacts": 2614,
+              "type": "Tm9"
+            },
+            {
+              "contacts": 2220,
+              "type": "Tm2"
+            },
+            {
+              "contacts": 1649,
+              "type": "Tm1"
+            },
+            {
+              "contacts": 1611,
+              "type": "CT1"
+            },
+            {
+              "contacts": 964,
+              "type": "Tm4"
+            },
+            {
+              "contacts": 796,
+              "type": "Y11"
+            },
+            {
+              "contacts": 630,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 421,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 370,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 368,
+              "type": "T5c"
+            },
+            {
+              "contacts": 339,
+              "type": "Li14"
+            },
+            {
+              "contacts": 333,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 326,
+              "type": "LT33"
+            },
+            {
+              "contacts": 158,
+              "type": "T5a"
+            },
+            {
+              "contacts": 117,
+              "type": "T5b"
+            },
+            {
+              "contacts": 99,
+              "type": "T4c"
+            },
+            {
+              "contacts": 66,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 56,
+              "type": "Am1"
+            },
+            {
+              "contacts": 52,
+              "type": "Y1"
+            },
+            {
+              "contacts": 40,
+              "type": "LMa4"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 3665,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 2131,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 1588,
+              "type": "LPC2"
+            },
+            {
+              "contacts": 1564,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 1398,
+              "type": "Y11"
+            },
+            {
+              "contacts": 1227,
+              "type": "LLPC2"
+            },
+            {
+              "contacts": 1178,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 1015,
+              "type": "LPi04"
+            },
+            {
+              "contacts": 771,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 698,
+              "type": "Y3"
+            },
+            {
+              "contacts": 527,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 375,
+              "type": "CT1"
+            },
+            {
+              "contacts": 365,
+              "type": "T5c"
+            },
+            {
+              "contacts": 344,
+              "type": "LPi08"
+            },
+            {
+              "contacts": 331,
+              "type": "LT33"
+            },
+            {
+              "contacts": 330,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 292,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 282,
+              "type": "LPT26"
+            },
+            {
+              "contacts": 276,
+              "type": "LPT50"
+            },
+            {
+              "contacts": 255,
+              "type": "TmY14"
+            }
+          ],
+          "neurons": 91,
+          "omitted_input_contacts": 13812,
+          "omitted_output_contacts": 20434,
+          "output_retention": 0.05301696172027064,
+          "retained_input": 885,
+          "retained_output": 1144
+        },
+        "T5d": {
+          "full_input": 29032,
+          "full_output": 37108,
+          "input_retention": 0.06572058418297051,
+          "major_omitted_inputs": [
+            {
+              "contacts": 4759,
+              "type": "Tm9"
+            },
+            {
+              "contacts": 4329,
+              "type": "Tm2"
+            },
+            {
+              "contacts": 3699,
+              "type": "Tm1"
+            },
+            {
+              "contacts": 3269,
+              "type": "CT1"
+            },
+            {
+              "contacts": 1937,
+              "type": "Tm4"
+            },
+            {
+              "contacts": 1745,
+              "type": "Y12"
+            },
+            {
+              "contacts": 1020,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 915,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 787,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 719,
+              "type": "LT33"
+            },
+            {
+              "contacts": 649,
+              "type": "Li14"
+            },
+            {
+              "contacts": 596,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 272,
+              "type": "T5d"
+            },
+            {
+              "contacts": 258,
+              "type": "T5a"
+            },
+            {
+              "contacts": 243,
+              "type": "T5b"
+            },
+            {
+              "contacts": 208,
+              "type": "T5c"
+            },
+            {
+              "contacts": 186,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 120,
+              "type": "LMa4"
+            },
+            {
+              "contacts": 105,
+              "type": "Am1"
+            },
+            {
+              "contacts": 71,
+              "type": "Y1"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 2916,
+              "type": "LLPC3"
+            },
+            {
+              "contacts": 2800,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 2791,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 1986,
+              "type": "Y12"
+            },
+            {
+              "contacts": 1964,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 1812,
+              "type": "LPi11"
+            },
+            {
+              "contacts": 1711,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 1644,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 1592,
+              "type": "VS2"
+            },
+            {
+              "contacts": 1437,
+              "type": "VS3"
+            },
+            {
+              "contacts": 1072,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 884,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 816,
+              "type": "VSm"
+            },
+            {
+              "contacts": 715,
+              "type": "LT33"
+            },
+            {
+              "contacts": 682,
+              "type": "VST2"
+            },
+            {
+              "contacts": 654,
+              "type": "T2"
+            },
+            {
+              "contacts": 643,
+              "type": "CT1"
+            },
+            {
+              "contacts": 508,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 436,
+              "type": "LPi06"
+            },
+            {
+              "contacts": 421,
+              "type": "VST1"
+            }
+          ],
+          "neurons": 199,
+          "omitted_input_contacts": 27124,
+          "omitted_output_contacts": 32234,
+          "output_retention": 0.13134634041177104,
+          "retained_input": 1908,
+          "retained_output": 4874
+        }
+      },
+      "counts": {
+        "anatomical_contacts": 15559,
+        "directed_pairs": 6292,
+        "existing_canonical_rows_referenced": 0,
+        "neurons": 748,
+        "neuropil_rows": 6612,
+        "operator_contacts": {
+          "LPi11_supported_class_inhibition": 102,
+          "class_motion_excitation": 7608,
+          "unknown_excluded": 7849
+        }
+      },
+      "sha256": "c9337ba005a87b21db5bd12544cbc964c21b40fa5853eddb39d6b911a331b82f"
+    },
+    "L1": {
+      "boundary": {
+        "LPLC2": {
+          "full_input": 2587,
+          "full_output": 1117,
+          "input_retention": 0.40819482025512177,
+          "major_omitted_inputs": [
+            {
+              "contacts": 196,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 118,
+              "type": "PVLP011"
+            },
+            {
+              "contacts": 92,
+              "type": "Y3"
+            },
+            {
+              "contacts": 84,
+              "type": "Tm5f"
+            },
+            {
+              "contacts": 81,
+              "type": "Tm20"
+            },
+            {
+              "contacts": 52,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 46,
+              "type": "Tm27"
+            },
+            {
+              "contacts": 43,
+              "type": "Tm5e"
+            },
+            {
+              "contacts": 42,
+              "type": "Tm37"
+            },
+            {
+              "contacts": 37,
+              "type": "LPi02"
+            },
+            {
+              "contacts": 37,
+              "type": "TmY3"
+            },
+            {
+              "contacts": 36,
+              "type": "MLt3"
+            },
+            {
+              "contacts": 31,
+              "type": "Tm4"
+            },
+            {
+              "contacts": 30,
+              "type": "LPC1"
+            },
+            {
+              "contacts": 30,
+              "type": "Tm8b"
+            },
+            {
+              "contacts": 30,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 27,
+              "type": "Tm7"
+            },
+            {
+              "contacts": 22,
+              "type": "Tm36"
+            },
+            {
+              "contacts": 20,
+              "type": "Tlp5"
+            },
+            {
+              "contacts": 20,
+              "type": "LPi15"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 221,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 102,
+              "type": "PVLP011"
+            },
+            {
+              "contacts": 98,
+              "type": "PVLP069"
+            },
+            {
+              "contacts": 60,
+              "type": "PVLP111"
+            },
+            {
+              "contacts": 47,
+              "type": "DNp103"
+            },
+            {
+              "contacts": 30,
+              "type": "PVLP151"
+            },
+            {
+              "contacts": 27,
+              "type": "AVLP479"
+            },
+            {
+              "contacts": 27,
+              "type": "PVLP130"
+            },
+            {
+              "contacts": 25,
+              "type": "LPLC4"
+            },
+            {
+              "contacts": 20,
+              "type": "CB0766"
+            },
+            {
+              "contacts": 20,
+              "type": "PVLP076"
+            },
+            {
+              "contacts": 17,
+              "type": "DNp01"
+            },
+            {
+              "contacts": 16,
+              "type": "LPC1"
+            },
+            {
+              "contacts": 15,
+              "type": "AVLP531"
+            },
+            {
+              "contacts": 14,
+              "type": "LHAD1g1"
+            },
+            {
+              "contacts": 14,
+              "type": "LC31c"
+            },
+            {
+              "contacts": 14,
+              "type": "DNp04"
+            },
+            {
+              "contacts": 13,
+              "type": "AVLP340"
+            },
+            {
+              "contacts": 13,
+              "type": "LMa1"
+            },
+            {
+              "contacts": 11,
+              "type": "CB2917"
+            }
+          ],
+          "neurons": 3,
+          "omitted_input_contacts": 1531,
+          "omitted_output_contacts": 1091,
+          "output_retention": 0.023276633840644583,
+          "retained_input": 1056,
+          "retained_output": 26
+        },
+        "LPi09": {
+          "full_input": 3637,
+          "full_output": 2150,
+          "input_retention": 0.7770140225460545,
+          "major_omitted_inputs": [
+            {
+              "contacts": 138,
+              "type": "Y11"
+            },
+            {
+              "contacts": 102,
+              "type": "T5c"
+            },
+            {
+              "contacts": 68,
+              "type": "T4c"
+            },
+            {
+              "contacts": 56,
+              "type": "LPT50"
+            },
+            {
+              "contacts": 53,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 53,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 51,
+              "type": "LPi04"
+            },
+            {
+              "contacts": 39,
+              "type": "TmY3"
+            },
+            {
+              "contacts": 37,
+              "type": "cLP03b"
+            },
+            {
+              "contacts": 33,
+              "type": "MeLp2"
+            },
+            {
+              "contacts": 20,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 15,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 15,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 15,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 15,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 13,
+              "type": "LPT45_dCal1"
+            },
+            {
+              "contacts": 11,
+              "type": "cLP02"
+            },
+            {
+              "contacts": 8,
+              "type": "LLPC2"
+            },
+            {
+              "contacts": 6,
+              "type": "LPC2"
+            },
+            {
+              "contacts": 5,
+              "type": "LPLC2"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 244,
+              "type": "LLPC3"
+            },
+            {
+              "contacts": 231,
+              "type": "VS3"
+            },
+            {
+              "contacts": 218,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 210,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 140,
+              "type": "Y12"
+            },
+            {
+              "contacts": 112,
+              "type": "VS2"
+            },
+            {
+              "contacts": 99,
+              "type": "VST2"
+            },
+            {
+              "contacts": 65,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 59,
+              "type": "LPT49"
+            },
+            {
+              "contacts": 52,
+              "type": "LPT47_vCal2"
+            },
+            {
+              "contacts": 50,
+              "type": "VSm"
+            },
+            {
+              "contacts": 40,
+              "type": "VS4"
+            },
+            {
+              "contacts": 36,
+              "type": "LPi06"
+            },
+            {
+              "contacts": 36,
+              "type": "VST1"
+            },
+            {
+              "contacts": 31,
+              "type": "LPT29"
+            },
+            {
+              "contacts": 30,
+              "type": "VS5"
+            },
+            {
+              "contacts": 27,
+              "type": "LPT27"
+            },
+            {
+              "contacts": 23,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 19,
+              "type": "LPi04"
+            },
+            {
+              "contacts": 18,
+              "type": "TmY4"
+            }
+          ],
+          "neurons": 3,
+          "omitted_input_contacts": 811,
+          "omitted_output_contacts": 1897,
+          "output_retention": 0.11767441860465117,
+          "retained_input": 2826,
+          "retained_output": 253
+        },
+        "LPi11": {
+          "full_input": 11081,
+          "full_output": 8352,
+          "input_retention": 0.6147459615558163,
+          "major_omitted_inputs": [
+            {
+              "contacts": 552,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 526,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 439,
+              "type": "LLPC3"
+            },
+            {
+              "contacts": 350,
+              "type": "LPT50"
+            },
+            {
+              "contacts": 275,
+              "type": "cLP02"
+            },
+            {
+              "contacts": 249,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 217,
+              "type": "T5d"
+            },
+            {
+              "contacts": 192,
+              "type": "Y12"
+            },
+            {
+              "contacts": 189,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 130,
+              "type": "T4d"
+            },
+            {
+              "contacts": 100,
+              "type": "LLPt"
+            },
+            {
+              "contacts": 89,
+              "type": "MeLp2"
+            },
+            {
+              "contacts": 84,
+              "type": "LPi04"
+            },
+            {
+              "contacts": 71,
+              "type": "TmY3"
+            },
+            {
+              "contacts": 63,
+              "type": "LPC2"
+            },
+            {
+              "contacts": 51,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 49,
+              "type": "LLPC2"
+            },
+            {
+              "contacts": 48,
+              "type": "LPi12"
+            },
+            {
+              "contacts": 44,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 44,
+              "type": "Tlp14"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 1149,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 1129,
+              "type": "LLPC2"
+            },
+            {
+              "contacts": 867,
+              "type": "LPC2"
+            },
+            {
+              "contacts": 825,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 812,
+              "type": "Y11"
+            },
+            {
+              "contacts": 807,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 439,
+              "type": "LPi04"
+            },
+            {
+              "contacts": 345,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 283,
+              "type": "LPi08"
+            },
+            {
+              "contacts": 259,
+              "type": "LPT48_vCal3"
+            },
+            {
+              "contacts": 126,
+              "type": "LPT50"
+            },
+            {
+              "contacts": 82,
+              "type": "LPT26"
+            },
+            {
+              "contacts": 78,
+              "type": "LPT28"
+            },
+            {
+              "contacts": 75,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 51,
+              "type": "Y3"
+            },
+            {
+              "contacts": 48,
+              "type": "LLPC3"
+            },
+            {
+              "contacts": 38,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 37,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 33,
+              "type": "LPLC4"
+            },
+            {
+              "contacts": 31,
+              "type": "T4c"
+            }
+          ],
+          "neurons": 6,
+          "omitted_input_contacts": 4269,
+          "omitted_output_contacts": 7825,
+          "output_retention": 0.06309865900383142,
+          "retained_input": 6812,
+          "retained_output": 527
+        },
+        "T4a": {
+          "full_input": 3809,
+          "full_output": 4323,
+          "input_retention": 0.05303229194014177,
+          "major_omitted_inputs": [
+            {
+              "contacts": 1121,
+              "type": "Mi1"
+            },
+            {
+              "contacts": 371,
+              "type": "Tm3"
+            },
+            {
+              "contacts": 332,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 278,
+              "type": "CT1"
+            },
+            {
+              "contacts": 216,
+              "type": "Y1"
+            },
+            {
+              "contacts": 174,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 165,
+              "type": "Mi4"
+            },
+            {
+              "contacts": 122,
+              "type": "Y12"
+            },
+            {
+              "contacts": 107,
+              "type": "VCH"
+            },
+            {
+              "contacts": 96,
+              "type": "C3"
+            },
+            {
+              "contacts": 89,
+              "type": "DCH"
+            },
+            {
+              "contacts": 86,
+              "type": "T4a"
+            },
+            {
+              "contacts": 74,
+              "type": "LPi15"
+            },
+            {
+              "contacts": 72,
+              "type": "Y11"
+            },
+            {
+              "contacts": 33,
+              "type": "Mi10"
+            },
+            {
+              "contacts": 30,
+              "type": "T4b"
+            },
+            {
+              "contacts": 19,
+              "type": "Pm04"
+            },
+            {
+              "contacts": 17,
+              "type": "LMa4"
+            },
+            {
+              "contacts": 16,
+              "type": "Am1"
+            },
+            {
+              "contacts": 15,
+              "type": "cM15"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 667,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 284,
+              "type": "TmY20"
+            },
+            {
+              "contacts": 258,
+              "type": "Y1"
+            },
+            {
+              "contacts": 250,
+              "type": "LLPC1"
+            },
+            {
+              "contacts": 210,
+              "type": "VCH"
+            },
+            {
+              "contacts": 186,
+              "type": "TmY16"
+            },
+            {
+              "contacts": 183,
+              "type": "DCH"
+            },
+            {
+              "contacts": 175,
+              "type": "Y11"
+            },
+            {
+              "contacts": 171,
+              "type": "C3"
+            },
+            {
+              "contacts": 142,
+              "type": "CT1"
+            },
+            {
+              "contacts": 138,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 134,
+              "type": "HSN"
+            },
+            {
+              "contacts": 131,
+              "type": "Y12"
+            },
+            {
+              "contacts": 127,
+              "type": "HSE"
+            },
+            {
+              "contacts": 108,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 98,
+              "type": "Tm27"
+            },
+            {
+              "contacts": 96,
+              "type": "T4a"
+            },
+            {
+              "contacts": 72,
+              "type": "TmY9q__perp"
+            },
+            {
+              "contacts": 69,
+              "type": "LPT26"
+            },
+            {
+              "contacts": 67,
+              "type": "LPLC2"
+            }
+          ],
+          "neurons": 22,
+          "omitted_input_contacts": 3607,
+          "omitted_output_contacts": 4034,
+          "output_retention": 0.06685172334027296,
+          "retained_input": 202,
+          "retained_output": 289
+        },
+        "T4b": {
+          "full_input": 8829,
+          "full_output": 10696,
+          "input_retention": 0.09027069883338996,
+          "major_omitted_inputs": [
+            {
+              "contacts": 2197,
+              "type": "Mi1"
+            },
+            {
+              "contacts": 888,
+              "type": "Tm3"
+            },
+            {
+              "contacts": 769,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 664,
+              "type": "CT1"
+            },
+            {
+              "contacts": 596,
+              "type": "LPi12"
+            },
+            {
+              "contacts": 418,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 400,
+              "type": "Mi4"
+            },
+            {
+              "contacts": 247,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 203,
+              "type": "C3"
+            },
+            {
+              "contacts": 195,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 184,
+              "type": "Pm04"
+            },
+            {
+              "contacts": 163,
+              "type": "T4b"
+            },
+            {
+              "contacts": 150,
+              "type": "T4a"
+            },
+            {
+              "contacts": 143,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 129,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 57,
+              "type": "Am1"
+            },
+            {
+              "contacts": 53,
+              "type": "cM15"
+            },
+            {
+              "contacts": 46,
+              "type": "T5b"
+            },
+            {
+              "contacts": 43,
+              "type": "Mi10"
+            },
+            {
+              "contacts": 31,
+              "type": "T4c"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 1638,
+              "type": "LPi15"
+            },
+            {
+              "contacts": 907,
+              "type": "LPi05"
+            },
+            {
+              "contacts": 764,
+              "type": "LPC1"
+            },
+            {
+              "contacts": 762,
+              "type": "Am1"
+            },
+            {
+              "contacts": 688,
+              "type": "H2"
+            },
+            {
+              "contacts": 546,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 463,
+              "type": "LPi12"
+            },
+            {
+              "contacts": 454,
+              "type": "CT1"
+            },
+            {
+              "contacts": 414,
+              "type": "LPT23"
+            },
+            {
+              "contacts": 356,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 310,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 238,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 227,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 187,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 184,
+              "type": "T4b"
+            },
+            {
+              "contacts": 176,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 171,
+              "type": "H1"
+            },
+            {
+              "contacts": 127,
+              "type": "T4a"
+            },
+            {
+              "contacts": 93,
+              "type": "Tm27"
+            },
+            {
+              "contacts": 85,
+              "type": "LPi14"
+            }
+          ],
+          "neurons": 52,
+          "omitted_input_contacts": 8032,
+          "omitted_output_contacts": 9715,
+          "output_retention": 0.09171652954375467,
+          "retained_input": 797,
+          "retained_output": 981
+        },
+        "T4c": {
+          "full_input": 18533,
+          "full_output": 25384,
+          "input_retention": 0.0773215345599741,
+          "major_omitted_inputs": [
+            {
+              "contacts": 5268,
+              "type": "Mi1"
+            },
+            {
+              "contacts": 1756,
+              "type": "Tm3"
+            },
+            {
+              "contacts": 1416,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 1158,
+              "type": "Y11"
+            },
+            {
+              "contacts": 1131,
+              "type": "CT1"
+            },
+            {
+              "contacts": 916,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 815,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 716,
+              "type": "Mi4"
+            },
+            {
+              "contacts": 680,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 371,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 249,
+              "type": "Pm04"
+            },
+            {
+              "contacts": 246,
+              "type": "T4c"
+            },
+            {
+              "contacts": 246,
+              "type": "C3"
+            },
+            {
+              "contacts": 221,
+              "type": "T4a"
+            },
+            {
+              "contacts": 166,
+              "type": "T4b"
+            },
+            {
+              "contacts": 136,
+              "type": "Am1"
+            },
+            {
+              "contacts": 133,
+              "type": "Mi10"
+            },
+            {
+              "contacts": 90,
+              "type": "Y1"
+            },
+            {
+              "contacts": 89,
+              "type": "LMa4"
+            },
+            {
+              "contacts": 83,
+              "type": "cM15"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 2647,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 2282,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 1888,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 1746,
+              "type": "LLPC2"
+            },
+            {
+              "contacts": 1698,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 1691,
+              "type": "Y11"
+            },
+            {
+              "contacts": 1465,
+              "type": "LPC2"
+            },
+            {
+              "contacts": 927,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 904,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 903,
+              "type": "LPi04"
+            },
+            {
+              "contacts": 897,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 750,
+              "type": "CT1"
+            },
+            {
+              "contacts": 467,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 376,
+              "type": "Y3"
+            },
+            {
+              "contacts": 366,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 362,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 335,
+              "type": "LPT50"
+            },
+            {
+              "contacts": 309,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 284,
+              "type": "LPi08"
+            },
+            {
+              "contacts": 283,
+              "type": "T4c"
+            }
+          ],
+          "neurons": 114,
+          "omitted_input_contacts": 17100,
+          "omitted_output_contacts": 22768,
+          "output_retention": 0.10305704380712259,
+          "retained_input": 1433,
+          "retained_output": 2616
+        },
+        "T4d": {
+          "full_input": 30968,
+          "full_output": 36811,
+          "input_retention": 0.07071816068199431,
+          "major_omitted_inputs": [
+            {
+              "contacts": 8627,
+              "type": "Mi1"
+            },
+            {
+              "contacts": 3036,
+              "type": "Tm3"
+            },
+            {
+              "contacts": 2371,
+              "type": "Mi9"
+            },
+            {
+              "contacts": 2254,
+              "type": "Y12"
+            },
+            {
+              "contacts": 2117,
+              "type": "CT1"
+            },
+            {
+              "contacts": 1487,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 1393,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 1280,
+              "type": "Mi4"
+            },
+            {
+              "contacts": 1138,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 617,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 489,
+              "type": "C3"
+            },
+            {
+              "contacts": 377,
+              "type": "T4a"
+            },
+            {
+              "contacts": 269,
+              "type": "T4b"
+            },
+            {
+              "contacts": 260,
+              "type": "T4d"
+            },
+            {
+              "contacts": 246,
+              "type": "Am1"
+            },
+            {
+              "contacts": 245,
+              "type": "Mi10"
+            },
+            {
+              "contacts": 170,
+              "type": "T4c"
+            },
+            {
+              "contacts": 168,
+              "type": "LMa4"
+            },
+            {
+              "contacts": 163,
+              "type": "cM15"
+            },
+            {
+              "contacts": 157,
+              "type": "LPi09"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 2845,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 2821,
+              "type": "LLPC3"
+            },
+            {
+              "contacts": 2590,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 2376,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 2155,
+              "type": "Y12"
+            },
+            {
+              "contacts": 2062,
+              "type": "LPi11"
+            },
+            {
+              "contacts": 1709,
+              "type": "VS2"
+            },
+            {
+              "contacts": 1639,
+              "type": "VS3"
+            },
+            {
+              "contacts": 1449,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 1051,
+              "type": "CT1"
+            },
+            {
+              "contacts": 779,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 667,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 654,
+              "type": "VSm"
+            },
+            {
+              "contacts": 641,
+              "type": "Y3"
+            },
+            {
+              "contacts": 582,
+              "type": "VST2"
+            },
+            {
+              "contacts": 528,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 521,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 439,
+              "type": "VST1"
+            },
+            {
+              "contacts": 435,
+              "type": "LPT47_vCal2"
+            },
+            {
+              "contacts": 429,
+              "type": "TmY5a"
+            }
+          ],
+          "neurons": 206,
+          "omitted_input_contacts": 28778,
+          "omitted_output_contacts": 31226,
+          "output_retention": 0.1517209529760126,
+          "retained_input": 2190,
+          "retained_output": 5585
+        },
+        "T5a": {
+          "full_input": 4645,
+          "full_output": 5287,
+          "input_retention": 0.06716899892357374,
+          "major_omitted_inputs": [
+            {
+              "contacts": 763,
+              "type": "Tm9"
+            },
+            {
+              "contacts": 685,
+              "type": "Tm2"
+            },
+            {
+              "contacts": 617,
+              "type": "CT1"
+            },
+            {
+              "contacts": 509,
+              "type": "Tm1"
+            },
+            {
+              "contacts": 307,
+              "type": "Tm4"
+            },
+            {
+              "contacts": 271,
+              "type": "Y1"
+            },
+            {
+              "contacts": 150,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 149,
+              "type": "Y12"
+            },
+            {
+              "contacts": 127,
+              "type": "Y11"
+            },
+            {
+              "contacts": 102,
+              "type": "LT33"
+            },
+            {
+              "contacts": 94,
+              "type": "VCH"
+            },
+            {
+              "contacts": 93,
+              "type": "DCH"
+            },
+            {
+              "contacts": 88,
+              "type": "T5a"
+            },
+            {
+              "contacts": 70,
+              "type": "Li14"
+            },
+            {
+              "contacts": 62,
+              "type": "LPi15"
+            },
+            {
+              "contacts": 44,
+              "type": "T5b"
+            },
+            {
+              "contacts": 17,
+              "type": "LMa4"
+            },
+            {
+              "contacts": 16,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 15,
+              "type": "HSE"
+            },
+            {
+              "contacts": 13,
+              "type": "T4a"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 783,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 374,
+              "type": "TmY20"
+            },
+            {
+              "contacts": 325,
+              "type": "Y1"
+            },
+            {
+              "contacts": 273,
+              "type": "LLPC1"
+            },
+            {
+              "contacts": 264,
+              "type": "VCH"
+            },
+            {
+              "contacts": 247,
+              "type": "Li14"
+            },
+            {
+              "contacts": 205,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 191,
+              "type": "DCH"
+            },
+            {
+              "contacts": 189,
+              "type": "Y11"
+            },
+            {
+              "contacts": 189,
+              "type": "HSE"
+            },
+            {
+              "contacts": 181,
+              "type": "HSN"
+            },
+            {
+              "contacts": 179,
+              "type": "Y12"
+            },
+            {
+              "contacts": 133,
+              "type": "CT1"
+            },
+            {
+              "contacts": 127,
+              "type": "TmY16"
+            },
+            {
+              "contacts": 108,
+              "type": "TmY9q__perp"
+            },
+            {
+              "contacts": 105,
+              "type": "LPT26"
+            },
+            {
+              "contacts": 105,
+              "type": "T5a"
+            },
+            {
+              "contacts": 103,
+              "type": "Tlp5"
+            },
+            {
+              "contacts": 95,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 80,
+              "type": "Tm27"
+            }
+          ],
+          "neurons": 26,
+          "omitted_input_contacts": 4333,
+          "omitted_output_contacts": 4872,
+          "output_retention": 0.07849442027614904,
+          "retained_input": 312,
+          "retained_output": 415
+        },
+        "T5b": {
+          "full_input": 8827,
+          "full_output": 11823,
+          "input_retention": 0.08598617876968392,
+          "major_omitted_inputs": [
+            {
+              "contacts": 1373,
+              "type": "Tm9"
+            },
+            {
+              "contacts": 1320,
+              "type": "CT1"
+            },
+            {
+              "contacts": 1300,
+              "type": "Tm2"
+            },
+            {
+              "contacts": 834,
+              "type": "Tm1"
+            },
+            {
+              "contacts": 501,
+              "type": "Tm4"
+            },
+            {
+              "contacts": 466,
+              "type": "LPi12"
+            },
+            {
+              "contacts": 301,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 234,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 218,
+              "type": "LT33"
+            },
+            {
+              "contacts": 197,
+              "type": "Li14"
+            },
+            {
+              "contacts": 186,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 186,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 176,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 137,
+              "type": "T5b"
+            },
+            {
+              "contacts": 78,
+              "type": "T5a"
+            },
+            {
+              "contacts": 41,
+              "type": "LPi15"
+            },
+            {
+              "contacts": 39,
+              "type": "Am1"
+            },
+            {
+              "contacts": 37,
+              "type": "T5c"
+            },
+            {
+              "contacts": 29,
+              "type": "T4b"
+            },
+            {
+              "contacts": 29,
+              "type": "cLP02"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 1994,
+              "type": "LPi15"
+            },
+            {
+              "contacts": 1046,
+              "type": "LPi05"
+            },
+            {
+              "contacts": 997,
+              "type": "Am1"
+            },
+            {
+              "contacts": 946,
+              "type": "LPC1"
+            },
+            {
+              "contacts": 849,
+              "type": "H2"
+            },
+            {
+              "contacts": 659,
+              "type": "LPi10"
+            },
+            {
+              "contacts": 483,
+              "type": "LPT23"
+            },
+            {
+              "contacts": 448,
+              "type": "LPi12"
+            },
+            {
+              "contacts": 397,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 343,
+              "type": "LT33"
+            },
+            {
+              "contacts": 306,
+              "type": "T2"
+            },
+            {
+              "contacts": 297,
+              "type": "CT1"
+            },
+            {
+              "contacts": 207,
+              "type": "H1"
+            },
+            {
+              "contacts": 197,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 189,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 146,
+              "type": "T5b"
+            },
+            {
+              "contacts": 135,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 131,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 114,
+              "type": "LPi14"
+            },
+            {
+              "contacts": 86,
+              "type": "T5a"
+            }
+          ],
+          "neurons": 56,
+          "omitted_input_contacts": 8068,
+          "omitted_output_contacts": 10831,
+          "output_retention": 0.0839042544193521,
+          "retained_input": 759,
+          "retained_output": 992
+        },
+        "T5c": {
+          "full_input": 21266,
+          "full_output": 30424,
+          "input_retention": 0.0705821499106555,
+          "major_omitted_inputs": [
+            {
+              "contacts": 3790,
+              "type": "Tm9"
+            },
+            {
+              "contacts": 3257,
+              "type": "Tm2"
+            },
+            {
+              "contacts": 2360,
+              "type": "Tm1"
+            },
+            {
+              "contacts": 2300,
+              "type": "CT1"
+            },
+            {
+              "contacts": 1452,
+              "type": "Tm4"
+            },
+            {
+              "contacts": 1141,
+              "type": "Y11"
+            },
+            {
+              "contacts": 910,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 606,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 554,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 492,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 468,
+              "type": "LT33"
+            },
+            {
+              "contacts": 461,
+              "type": "Li14"
+            },
+            {
+              "contacts": 328,
+              "type": "T5c"
+            },
+            {
+              "contacts": 215,
+              "type": "T5a"
+            },
+            {
+              "contacts": 185,
+              "type": "T5b"
+            },
+            {
+              "contacts": 111,
+              "type": "T4c"
+            },
+            {
+              "contacts": 83,
+              "type": "Am1"
+            },
+            {
+              "contacts": 70,
+              "type": "Y1"
+            },
+            {
+              "contacts": 68,
+              "type": "LMa4"
+            },
+            {
+              "contacts": 63,
+              "type": "LPi09"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 3518,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 3012,
+              "type": "Tlp14"
+            },
+            {
+              "contacts": 2207,
+              "type": "Tlp4"
+            },
+            {
+              "contacts": 2169,
+              "type": "LPC2"
+            },
+            {
+              "contacts": 1954,
+              "type": "Y11"
+            },
+            {
+              "contacts": 1722,
+              "type": "LLPC2"
+            },
+            {
+              "contacts": 1644,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 1442,
+              "type": "LPi04"
+            },
+            {
+              "contacts": 1143,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 1002,
+              "type": "Y3"
+            },
+            {
+              "contacts": 778,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 549,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 509,
+              "type": "CT1"
+            },
+            {
+              "contacts": 483,
+              "type": "LT33"
+            },
+            {
+              "contacts": 454,
+              "type": "LPi08"
+            },
+            {
+              "contacts": 451,
+              "type": "LPT50"
+            },
+            {
+              "contacts": 439,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 366,
+              "type": "LPT26"
+            },
+            {
+              "contacts": 362,
+              "type": "TmY14"
+            },
+            {
+              "contacts": 325,
+              "type": "T5c"
+            }
+          ],
+          "neurons": 131,
+          "omitted_input_contacts": 19765,
+          "omitted_output_contacts": 27149,
+          "output_retention": 0.10764528004207205,
+          "retained_input": 1501,
+          "retained_output": 3275
+        },
+        "T5d": {
+          "full_input": 29032,
+          "full_output": 37108,
+          "input_retention": 0.06916505924497107,
+          "major_omitted_inputs": [
+            {
+              "contacts": 4759,
+              "type": "Tm9"
+            },
+            {
+              "contacts": 4329,
+              "type": "Tm2"
+            },
+            {
+              "contacts": 3699,
+              "type": "Tm1"
+            },
+            {
+              "contacts": 3269,
+              "type": "CT1"
+            },
+            {
+              "contacts": 1937,
+              "type": "Tm4"
+            },
+            {
+              "contacts": 1745,
+              "type": "Y12"
+            },
+            {
+              "contacts": 1020,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 915,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 787,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 719,
+              "type": "LT33"
+            },
+            {
+              "contacts": 649,
+              "type": "Li14"
+            },
+            {
+              "contacts": 596,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 272,
+              "type": "T5d"
+            },
+            {
+              "contacts": 258,
+              "type": "T5a"
+            },
+            {
+              "contacts": 243,
+              "type": "T5b"
+            },
+            {
+              "contacts": 156,
+              "type": "T5c"
+            },
+            {
+              "contacts": 143,
+              "type": "LPi09"
+            },
+            {
+              "contacts": 120,
+              "type": "LMa4"
+            },
+            {
+              "contacts": 105,
+              "type": "Am1"
+            },
+            {
+              "contacts": 71,
+              "type": "Y1"
+            }
+          ],
+          "major_omitted_outputs": [
+            {
+              "contacts": 2916,
+              "type": "LLPC3"
+            },
+            {
+              "contacts": 2800,
+              "type": "LPi13"
+            },
+            {
+              "contacts": 2791,
+              "type": "Tlp1"
+            },
+            {
+              "contacts": 1986,
+              "type": "Y12"
+            },
+            {
+              "contacts": 1964,
+              "type": "LPi07"
+            },
+            {
+              "contacts": 1812,
+              "type": "LPi11"
+            },
+            {
+              "contacts": 1711,
+              "type": "LPLC2"
+            },
+            {
+              "contacts": 1644,
+              "type": "TmY5a"
+            },
+            {
+              "contacts": 1592,
+              "type": "VS2"
+            },
+            {
+              "contacts": 1437,
+              "type": "VS3"
+            },
+            {
+              "contacts": 1072,
+              "type": "LPLC1"
+            },
+            {
+              "contacts": 884,
+              "type": "TmY4"
+            },
+            {
+              "contacts": 816,
+              "type": "VSm"
+            },
+            {
+              "contacts": 715,
+              "type": "LT33"
+            },
+            {
+              "contacts": 682,
+              "type": "VST2"
+            },
+            {
+              "contacts": 654,
+              "type": "T2"
+            },
+            {
+              "contacts": 643,
+              "type": "CT1"
+            },
+            {
+              "contacts": 508,
+              "type": "TmY15"
+            },
+            {
+              "contacts": 436,
+              "type": "LPi06"
+            },
+            {
+              "contacts": 421,
+              "type": "VST1"
+            }
+          ],
+          "neurons": 199,
+          "omitted_input_contacts": 27024,
+          "omitted_output_contacts": 32171,
+          "output_retention": 0.13304408752829577,
+          "retained_input": 2008,
+          "retained_output": 4937
+        }
+      },
+      "counts": {
+        "anatomical_contacts": 19896,
+        "directed_pairs": 7538,
+        "existing_canonical_rows_referenced": 0,
+        "neurons": 818,
+        "neuropil_rows": 7889,
+        "operator_contacts": {
+          "LPi09_hypothesized_inhibition": 24,
+          "LPi11_supported_class_inhibition": 102,
+          "class_motion_excitation": 10288,
+          "unknown_excluded": 9482
+        }
+      },
+      "sha256": "f137715b0d56f335d36c23bf214a26b0270d702caae263539bc1720dd2c4ac9e"
+    }
+  },
+  "ownership": "reference-only views; prior registry unchanged; no independent synaptic state",
+  "peak_rss_bytes": 1201963008,
+  "protocol_sha256": "6e48767c0420d64d97dc72d1726f0c398b8991a7ff132e98da435c78dae92d44",
+  "registry_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "source_contacts_sha256": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf",
+  "wall_seconds": 8.913715749993571
+}

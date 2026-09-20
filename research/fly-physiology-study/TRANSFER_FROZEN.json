@@ -1,0 +1,19 @@
+{
+  "classification": "PARTIAL PHYSIOLOGICAL CONSTRAINT",
+  "calibrated_neural_kernel_exported": false,
+  "stage_parameter_changes": {},
+  "frozen_inputs": {
+    "PLAN.md": "78bfb7d421931364fdfaac034b9e3ce7ed1c62d424cfb147c6cc3958d9adf2b9",
+    "CALIBRATION_FROZEN.json": "fef59786a563ebfb8c9659ca8b478f95b569b2fdf723584714033cdec427523f",
+    "VALIDATION.json": "fea7935626c36fce8a76f80cfb31687bcbe12d64a2a727f4b495754aaf9f391c",
+    "IDENTIFICATION_FROZEN.json": "46f079300324dd2f7766bfb29784684cb34c41af31643829d4b2e31c3c9df360",
+    "EVIDENCE.md": "715e6955fa7e9ceb44456f28e538c8ebdb8e90feda4babd3d316b6afc5a2bdc3",
+    "PARAMETER_EVIDENCE.json": "2f4d57c9c906673918cc2d9288ead3f3f176c8a8e9e33754dc2ed89b3c592576",
+    "CROSSWALK.json": "af9b2af768844a1e099e4624471251463faa2942b652255a991c576244c4f74c",
+    "IDENTIFIABILITY.md": "bf76b1dda1c0f3a73b66f52303beca87fa0b18ef563210b07ab2d5082e4fce38",
+    "REPLAY_PLAN.md": "c07e751e1d18a485b33920c43e182ccd35d431568d0b6863522fc289756ee260",
+    "replay.py": "a5e168cc29e47a1e54f8267cf3928735db9bc19955b83ed77df59e68a2bfbd11"
+  },
+  "calibrated_replay": "not justified: no numerical neural parameter transfer identified",
+  "control_replay": "8 fresh-process unchanged-kernel protocol replays; no parameter optimization"
+}

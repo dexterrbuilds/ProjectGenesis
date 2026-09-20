@@ -1,0 +1,18 @@
+{
+  "at_utc": "2026-09-20T04:01:29.595016+00:00",
+  "corrected_numeric_identity": true,
+  "criteria_unchanged": true,
+  "Stage4_opened": false,
+  "files": {
+    "empirical.py": "a8ceb1bed018e1a6226383015027d03b49bb51e8bf9d9b22dbe864777d41e394",
+    "validate_empirical.py": "3e939987ed925245c0ba51ac109c8f9c671907101860757c051225c1aa95b584",
+    "atlas/records.json": "8ee6a94750b07d2759829b7c0785d20ef1436b01e015fdbe3535c05f29e94c2e",
+    "atlas/waveforms.npz": "9cdf6f6bfe90d86655db6c25624c4786234f3a70b3104bcf4842990f3445a8a7",
+    "COVERAGE_ATLAS.json": "7b5a56a74de413f895afd16d4c507a06ee17520be2d45346ed16fba79c6b8bed",
+    "PREDICTION_METRICS.json": "61f6c5ea020c9280714d441d50dec76162e0dc5ac58ccc218af1736221bf8d4a",
+    "VALIDATION_RESULTS.json": "4f3b40463f805ec9f93caf49cf6bcabf37b5deb76daaeb85486a4458d46e4705",
+    "UNCERTAINTY.json": "417caead6304c4ff73b9cb1156d6a95e2ae6a5310e9d2171090a5072f32f53c4",
+    "HOLDOUT_COVERAGE.json": "be12e67539652c7245884fddef85420b6a6d24b5b7fbfe401746ea5fbc245d36",
+    "HELDOUT_PREDICTIONS.npz": "275207a70913e4bcd34f23486866cfbe48b8a8a2b807536b234d02abeadf3b24"
+  }
+}

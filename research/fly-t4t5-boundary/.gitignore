@@ -1,0 +1,7 @@
+vendor/
+.mpl-cache/
+replay/
+__pycache__/
+data/*.zip
+data/Figure2.parts/
+data/wholecell/*.mat

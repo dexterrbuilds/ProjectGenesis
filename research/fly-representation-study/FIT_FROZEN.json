@@ -1,0 +1,138 @@
+{
+  "apl": {
+    "R0_shared_activity": {
+      "q": [
+        0.8827284678840117,
+        1.1328511953365454
+      ],
+      "parameters": 1,
+      "train_mse": 7.292074922414192,
+      "train_aicc": 29.17479090974793,
+      "loo_recording_mse": 7.577656910128425,
+      "loo_errors": [
+        17.113895193717763,
+        5.534707024205207,
+        1.1018478129142508,
+        3.134534104741787,
+        7.315070589051034,
+        11.265886736140505
+      ],
+      "bootstrap_95pct": [
+        [
+          0.7453847016826135,
+          1.1137641571065198
+        ],
+        [
+          0.89785906295383,
+          1.3415891119614127
+        ]
+      ]
+    },
+    "R1_zero": {
+      "q": [
+        0.0,
+        0.0
+      ],
+      "parameters": 0,
+      "train_mse": 0.0055062706226333335,
+      "train_aicc": -60.02241267567767,
+      "loo_recording_mse": 0.0055062706226333335,
+      "loo_errors": [
+        0.0011421389673,
+        0.0026732947279999994,
+        0.0053063760520000005,
+        0.0078369596125,
+        0.0007240456000000001,
+        0.015354808776
+      ],
+      "bootstrap_95pct": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "R1_shared": {
+      "q": [
+        0.011537722871958542,
+        0.011537722871958542
+      ],
+      "parameters": 1,
+      "train_mse": 0.004481787268809596,
+      "train_aicc": -59.55946708484468,
+      "loo_recording_mse": 0.007028870650209504,
+      "loo_errors": [
+        0.01607118548770148,
+        0.0009418127762282269,
+        0.004419578792901729,
+        0.007070352542756398,
+        0.0009868800309393118,
+        0.01268341427072988
+      ],
+      "bootstrap_95pct": [
+        [
+          0.0,
+          0.030914217146823155
+        ],
+        [
+          0.0,
+          0.030914217146823155
+        ]
+      ]
+    },
+    "R1_directional": {
+      "q": [
+        0.016511021420303938,
+        0.003214295105607715
+      ],
+      "parameters": 2,
+      "train_mse": 0.004163212449560887,
+      "train_aicc": -56.77761935121538,
+      "loo_recording_mse": 0.007224464702442251,
+      "loo_errors": [
+        0.01539792227129511,
+        0.002332601841594671,
+        0.004474127950305957,
+        0.006081720564578931,
+        0.0031630101785316703,
+        0.01189740540834717
+      ],
+      "bootstrap_95pct": [
+        [
+          0.0,
+          0.046367222029384425
+        ],
+        [
+          0.0,
+          0.02166379817503897
+        ]
+      ]
+    }
+  },
+  "mbon14": {
+    "train_tau_ms": [
+      13.54,
+      14.46,
+      24.58,
+      15.5,
+      12.2
+    ],
+    "predicted_tau_ms": 16.056,
+    "training_sd_ms": 4.917161782980096,
+    "parameters": 1,
+    "source": "Hafez 2023 Table 1 membrane-bound GFP, five cells"
+  },
+  "source_hashes": {
+    "PLAN.md": "c94cd2190e1b95f414b78918f8c4db54da39b71e13fee0055c248c31fff5b6ee",
+    "fit.py": "c9524616188fd02e85199a0b43c413926b8aa4fc03ae87adbb88bc7a46ad0c87",
+    "../fly-physiology-study/data/apl-train.json": "c7ee46d92dff6a9e36f144da94b30a0d28f9838ac27f03c5dca8a75778f059de",
+    "../fly-physiology-study/CALIBRATION_FROZEN.json": "fef59786a563ebfb8c9659ca8b478f95b569b2fdf723584714033cdec427523f"
+  },
+  "fitting_scope": "conditional fluorescence transfer and MBON14 population tau only; no neural kernel",
+  "aicc_warning": "working iid Gaussian residual criterion, includes variance parameter; directions and flies may be correlated",
+  "calibrated_neural_parameters": {}
+}

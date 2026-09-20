@@ -1,0 +1,678 @@
+{
+  "sha": "99d2a43123db636cedb55af9ff31a59657e7d17e",
+  "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/trees/99d2a43123db636cedb55af9ff31a59657e7d17e",
+  "tree": [
+    {
+      "path": ".Rprofile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b960f5c6a8ee40840badd620f8af9743787730",
+      "size": 26,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/81b960f5c6a8ee40840badd620f8af9743787730"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e75435c1b1aa229e6b2e849b5da20696779bf734",
+      "size": 671,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/e75435c1b1aa229e6b2e849b5da20696779bf734"
+    },
+    {
+      "path": "ED_fig_1.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37ee635ab6ba1e2c1d53c8219b5ae8d490cb0c7a",
+      "size": 20771,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/37ee635ab6ba1e2c1d53c8219b5ae8d490cb0c7a"
+    },
+    {
+      "path": "ED_fig_2.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "668e809bd2c0715e57d4248883818ce949141a26",
+      "size": 3240,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/668e809bd2c0715e57d4248883818ce949141a26"
+    },
+    {
+      "path": "ED_fig_3.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84a86ac26abd7377933da5d987a1320c83dbb4b5",
+      "size": 1535,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/84a86ac26abd7377933da5d987a1320c83dbb4b5"
+    },
+    {
+      "path": "ED_fig_4.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "693a8b4f2cb3f3495dc0ce5744648302088cd724",
+      "size": 5418,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/693a8b4f2cb3f3495dc0ce5744648302088cd724"
+    },
+    {
+      "path": "ED_fig_5.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "042d04476098b7c31d7a11cf1c0d9c87bdc04fd5",
+      "size": 7022,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/042d04476098b7c31d7a11cf1c0d9c87bdc04fd5"
+    },
+    {
+      "path": "ED_fig_6.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "610e0cb5fc7ae495b5d792e0cde7494afab065f3",
+      "size": 12638,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/610e0cb5fc7ae495b5d792e0cde7494afab065f3"
+    },
+    {
+      "path": "ED_fig_7.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b76a352fdadf97f25a1342de94c4ed4d9620031",
+      "size": 9349,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/4b76a352fdadf97f25a1342de94c4ed4d9620031"
+    },
+    {
+      "path": "Fig_0.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99cdba8c895094e9eeeff6a0e6f74d2c11cde445",
+      "size": 13851,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/99cdba8c895094e9eeeff6a0e6f74d2c11cde445"
+    },
+    {
+      "path": "Fig_1.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9957bd4810787fccb5cf51c5150ebf7556280b51",
+      "size": 13245,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/9957bd4810787fccb5cf51c5150ebf7556280b51"
+    },
+    {
+      "path": "Fig_2_EM.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52356202193a3f9a1fa622348622478927f63f33",
+      "size": 34809,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/52356202193a3f9a1fa622348622478927f63f33"
+    },
+    {
+      "path": "Fig_3_pattern.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50ff581c7eb8b5be509f98965852225af29d2803",
+      "size": 5062,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/50ff581c7eb8b5be509f98965852225af29d2803"
+    },
+    {
+      "path": "Fig_3_uCT.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "500995e104094d2ab24b893fb089fba317ca1c89",
+      "size": 18120,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/500995e104094d2ab24b893fb089fba317ca1c89"
+    },
+    {
+      "path": "Fig_4.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14f8b599869102e1b88fea65f3644fd515b50a67",
+      "size": 43765,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/14f8b599869102e1b88fea65f3644fd515b50a67"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "size": 35149,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f16845f556538b6eee25ada88098c661039006f",
+      "size": 966,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/6f16845f556538b6eee25ada88098c661039006f"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38b905d65b4d49cc96372964cc6e96f849165340",
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/trees/38b905d65b4d49cc96372964cc6e96f849165340"
+    },
+    {
+      "path": "data/H2_tuning.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3b5514f24a6e6731384b2a00da28bd2acc4f3d4",
+      "size": 2180,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/e3b5514f24a6e6731384b2a00da28bd2acc4f3d4"
+    },
+    {
+      "path": "data/H2_tuning_2023.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0219862b75a8253ced57c5811e6035ff88f72aa",
+      "size": 4336,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/b0219862b75a8253ced57c5811e6035ff88f72aa"
+    },
+    {
+      "path": "data/H2_tuning_2023_grating.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c38621ed92ede89172dc2e0dafffbc8b7be6aa35",
+      "size": 2047,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/c38621ed92ede89172dc2e0dafffbc8b7be6aa35"
+    },
+    {
+      "path": "data/JFRC2NP.surf.fafb.rda",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba210c23d728da2ca844f8a305c469bc0a04e9de",
+      "size": 881265,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/ba210c23d728da2ca844f8a305c469bc0a04e9de"
+    },
+    {
+      "path": "data/L2_med.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef4175e6598159ecd1d0d6e63da8aa0854988d4e",
+      "size": 43725,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/ef4175e6598159ecd1d0d6e63da8aa0854988d4e"
+    },
+    {
+      "path": "data/LOP_msh_mod.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13d0c7333870c05794a105115f036a4d0ded4eb4",
+      "size": 24096,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/13d0c7333870c05794a105115f036a4d0ded4eb4"
+    },
+    {
+      "path": "data/LayerData_T4_20210729_7e7_1um.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7825f180ffb84b8ea1e5914da47b018fc3f85a44",
+      "size": 5217661,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/7825f180ffb84b8ea1e5914da47b018fc3f85a44"
+    },
+    {
+      "path": "data/Mi1_ind.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc4933282664a84361c8318d8b4a1d54a728529a",
+      "size": 561,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/bc4933282664a84361c8318d8b4a1d54a728529a"
+    },
+    {
+      "path": "data/T4_RF_pred.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d1e914c1ce5e2b1e232cca3e8fdac5d4393a3f6",
+      "size": 147396,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/2d1e914c1ce5e2b1e232cca3e8fdac5d4393a3f6"
+    },
+    {
+      "path": "data/T4_gallery.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d18ddfb936de046ea17698dcbab3734a7a674660",
+      "size": 8164167,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/d18ddfb936de046ea17698dcbab3734a7a674660"
+    },
+    {
+      "path": "data/T4_hs.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f3578ad6ea2fb1a5edf809dd1764336ce4cac8f",
+      "size": 3740729,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/4f3578ad6ea2fb1a5edf809dd1764336ce4cac8f"
+    },
+    {
+      "path": "data/chiasm.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cca43ef6f37afbcc8428954f45604388adb933d",
+      "size": 351092,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/1cca43ef6f37afbcc8428954f45604388adb933d"
+    },
+    {
+      "path": "data/data_Henning",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cca4d85a6a09b6a5b3eab22247db61d516b7b55b",
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/trees/cca4d85a6a09b6a5b3eab22247db61d516b7b55b"
+    },
+    {
+      "path": "data/data_Henning/T4b_12.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "470cabe0a84ee49a2fe69bf83beee0ccfb5b277c",
+      "size": 504,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/470cabe0a84ee49a2fe69bf83beee0ccfb5b277c"
+    },
+    {
+      "path": "data/data_Henning/T4b_pxy.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e784fa72dc56dd47c75ac2fdc93271ad48f438f9",
+      "size": 2099,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/e784fa72dc56dd47c75ac2fdc93271ad48f438f9"
+    },
+    {
+      "path": "data/data_Henning/T4b_vxy.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8adbe6a1870ef40a77bfde238494188098d563b",
+      "size": 4020,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/b8adbe6a1870ef40a77bfde238494188098d563b"
+    },
+    {
+      "path": "data/data_Henning/T4d_pxy.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc39ca278b5df29e2e1056bee8e0252b250e3927",
+      "size": 2387,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/fc39ca278b5df29e2e1056bee8e0252b250e3927"
+    },
+    {
+      "path": "data/data_Henning/T4d_vxy.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9893ce7af6aaeb63a65a85b664d68e6bfaa8e8c",
+      "size": 4307,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/c9893ce7af6aaeb63a65a85b664d68e6bfaa8e8c"
+    },
+    {
+      "path": "data/eyemap.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3ee4a5aeb5be159de7071952dc52eb20d8b42d6",
+      "size": 182218,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/f3ee4a5aeb5be159de7071952dc52eb20d8b42d6"
+    },
+    {
+      "path": "data/hexnb_ind_dist.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc10d6631da563d2c90b84549d5a748cf675beca",
+      "size": 44853,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/cc10d6631da563d2c90b84549d5a748cf675beca"
+    },
+    {
+      "path": "data/lens_ixy.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "453b3468381e5cf8627826cee6e11e7d50e3361a",
+      "size": 2816,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/453b3468381e5cf8627826cee6e11e7d50e3361a"
+    },
+    {
+      "path": "data/me_lo.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4f3cf52616528ae062367fa9fbaa2f705aff513",
+      "size": 19711,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/b4f3cf52616528ae062367fa9fbaa2f705aff513"
+    },
+    {
+      "path": "data/med_ixy.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66d5b9f1e9d06d65a77bfa04d305396e3ff21a9f",
+      "size": 2337,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/66d5b9f1e9d06d65a77bfa04d305396e3ff21a9f"
+    },
+    {
+      "path": "data/microCT",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "824521fd887267551cb8a6f56b4ec3a9c436286a",
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/trees/824521fd887267551cb8a6f56b4ec3a9c436286a"
+    },
+    {
+      "path": "data/microCT/20231107.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b37da92b6543fe1d9ce713a0b25031321069fc45",
+      "size": 296662,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/b37da92b6543fe1d9ce713a0b25031321069fc45"
+    },
+    {
+      "path": "data/microCT/20240530.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a165797e6e3ff274897d08dd69b0614eca996c9b",
+      "size": 293647,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/a165797e6e3ff274897d08dd69b0614eca996c9b"
+    },
+    {
+      "path": "data/microCT/20240701.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78c05b5aac401cfd3d53893a98dd926aac637988",
+      "size": 310361,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/78c05b5aac401cfd3d53893a98dd926aac637988"
+    },
+    {
+      "path": "data/microCT/20240701_dia.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1be841ae0c12a4d9647067920e3acaca39ece36",
+      "size": 24622,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/c1be841ae0c12a4d9647067920e3acaca39ece36"
+    },
+    {
+      "path": "data/microCT/20240701_nb.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "679f8e05bb8ebe965abca05a0559c062cebdaf7f",
+      "size": 69102,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/679f8e05bb8ebe965abca05a0559c062cebdaf7f"
+    },
+    {
+      "path": "data/microCT/20240701_normals.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28b36ba2e07bf72c8514be9dc500f77f41cc82ac",
+      "size": 17683,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/28b36ba2e07bf72c8514be9dc500f77f41cc82ac"
+    },
+    {
+      "path": "data/microCT/20240701_position",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29ef56b7bf88bb7eb9cc995cb2143069fcc1e478",
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/trees/29ef56b7bf88bb7eb9cc995cb2143069fcc1e478"
+    },
+    {
+      "path": "data/microCT/20240701_position/cone.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac144e9748748a9a0a312ba161f6bfc18f2b21b6",
+      "size": 84009,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/ac144e9748748a9a0a312ba161f6bfc18f2b21b6"
+    },
+    {
+      "path": "data/microCT/20240701_position/lens.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59451ccd6858c7e911f820632aec7110d0e96805",
+      "size": 82071,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/59451ccd6858c7e911f820632aec7110d0e96805"
+    },
+    {
+      "path": "data/microCT/20240701_roc.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5580e04f8582020b70d08523a8d7c68ea8bb9f44",
+      "size": 66267,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/5580e04f8582020b70d08523a8d7c68ea8bb9f44"
+    },
+    {
+      "path": "data/neu_H2.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e740851b826fb9390d0c24dcc14c30c95b474549",
+      "size": 1064448,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/e740851b826fb9390d0c24dcc14c30c95b474549"
+    },
+    {
+      "path": "data/neu_L1.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e31dd35ebfe2f95bf044a74fe11bc859daeab8e",
+      "size": 52446,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/4e31dd35ebfe2f95bf044a74fe11bc859daeab8e"
+    },
+    {
+      "path": "data/neu_Mi1.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee941396f53e813b0e12d5a1fcc64abdfec321db",
+      "size": 14121995,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/ee941396f53e813b0e12d5a1fcc64abdfec321db"
+    },
+    {
+      "path": "data/neu_PR.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdc0d3d3d7df9593058619bd3fac6423c961418b",
+      "size": 8113,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/bdc0d3d3d7df9593058619bd3fac6423c961418b"
+    },
+    {
+      "path": "data/neu_R7.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f2627d291b8ae894daecb19ecb891da2ba8d76e",
+      "size": 11487,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/8f2627d291b8ae894daecb19ecb891da2ba8d76e"
+    },
+    {
+      "path": "data/neu_T4_dend.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f50b128e00086866d5cd493ad135a6d27478e6e1",
+      "size": 14371344,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/f50b128e00086866d5cd493ad135a6d27478e6e1"
+    },
+    {
+      "path": "data/neu_T4b.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cf173cd100acf9fe472994964c06d2df11395d5",
+      "size": 6693425,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/7cf173cd100acf9fe472994964c06d2df11395d5"
+    },
+    {
+      "path": "data/neu_TmY5a.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "191aa720bf7e6a48a5f49934caa15a18147ef3f5",
+      "size": 1919169,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/191aa720bf7e6a48a5f49934caa15a18147ef3f5"
+    },
+    {
+      "path": "data/sy_ls.RData",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "594826e9dbd71454c38b59b36b9152b41767cab5",
+      "size": 178759,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/594826e9dbd71454c38b59b36b9152b41767cab5"
+    },
+    {
+      "path": "data_Eyal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "304f88ed92a08fdbb25c7c1bcf7f9b3b2a272966",
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/trees/304f88ed92a08fdbb25c7c1bcf7f9b3b2a272966"
+    },
+    {
+      "path": "data_Eyal/H2_2021",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27e243a63c3dc9dcfec66057436db025401f231a",
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/trees/27e243a63c3dc9dcfec66057436db025401f231a"
+    },
+    {
+      "path": "data_Eyal/H2_2021/movGrtTabwEZ_ThetaCorr.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a01e1f4a56978c18764bee3f82c8944568d759e",
+      "size": 5983,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/5a01e1f4a56978c18764bee3f82c8944568d759e"
+    },
+    {
+      "path": "data_Eyal/H2_2023",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e2f010090975214f14730c108eeccae9862b328",
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/trees/6e2f010090975214f14730c108eeccae9862b328"
+    },
+    {
+      "path": "data_Eyal/H2_2023/H2_edge_spk.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7355375d79998e8b40b455519caba75126ce1b47",
+      "size": 4619,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/7355375d79998e8b40b455519caba75126ce1b47"
+    },
+    {
+      "path": "data_Eyal/H2_2023/movEdgeTabwPY_ThetaCorr_fullResp.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2b5392504206d2e7cab1d2789ef886489f58841",
+      "size": 9966,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/d2b5392504206d2e7cab1d2789ef886489f58841"
+    },
+    {
+      "path": "data_Eyal/H2_2023/movGrtTabwPY_ThetaCorr.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d0a7c255f01c3c19bf5de1c7d1c76f1089187c8",
+      "size": 5622,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/3d0a7c255f01c3c19bf5de1c7d1c76f1089187c8"
+    },
+    {
+      "path": "eyemap_T4.Rproj",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d063e8bc7af719bae7c8eb42a8bc12891480f305",
+      "size": 204,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/d063e8bc7af719bae7c8eb42a8bc12891480f305"
+    },
+    {
+      "path": "eyemap_func.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9137ae7da32bf00b8a143df0f9be6c457ea7c006",
+      "size": 27327,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/9137ae7da32bf00b8a143df0f9be6c457ea7c006"
+    },
+    {
+      "path": "plots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24a96f7dd3e63bc54dab6b750fd4c711062eae18",
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/trees/24a96f7dd3e63bc54dab6b750fd4c711062eae18"
+    },
+    {
+      "path": "plots/gallery_T4a.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1469f126e87f4f94fba93e5aac4f74887142ec62",
+      "size": 632276,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/1469f126e87f4f94fba93e5aac4f74887142ec62"
+    },
+    {
+      "path": "plots/gallery_T4b.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d121f0dcfe40ea3a6ca6e997240f44d041dad12",
+      "size": 2627963,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/0d121f0dcfe40ea3a6ca6e997240f44d041dad12"
+    },
+    {
+      "path": "plots/gallery_T4c.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15b31a8f429babaaec29daeb6fcf0ce1e44e5474",
+      "size": 381993,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/15b31a8f429babaaec29daeb6fcf0ce1e44e5474"
+    },
+    {
+      "path": "plots/gallery_T4d.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22be2c837b0ebaa05389e1489d04740e8d295283",
+      "size": 1685124,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/22be2c837b0ebaa05389e1489d04740e8d295283"
+    },
+    {
+      "path": "proc_T4.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68ecca06c27aa2945b53240be31829b7c792cf1c",
+      "size": 17506,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/68ecca06c27aa2945b53240be31829b7c792cf1c"
+    },
+    {
+      "path": "proc_ephys.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7a508e4e11b9e6255ce333bfe07a8d888a476cc",
+      "size": 1127,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/c7a508e4e11b9e6255ce333bfe07a8d888a476cc"
+    },
+    {
+      "path": "proc_eyemap.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a83c5a410b92a03091ba8e569bb417ac65513fc",
+      "size": 16098,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/5a83c5a410b92a03091ba8e569bb417ac65513fc"
+    },
+    {
+      "path": "proc_uCT.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf229b7c1a9a4b248682019d35979b5504d5ef9f",
+      "size": 11235,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/cf229b7c1a9a4b248682019d35979b5504d5ef9f"
+    },
+    {
+      "path": "renv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ef7a75007365b948340f71269613242cdb6de12",
+      "size": 67498,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/5ef7a75007365b948340f71269613242cdb6de12"
+    },
+    {
+      "path": "renv",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c3ec67cca97bc71bb6986c81caf7cc6f2e293e1",
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/trees/7c3ec67cca97bc71bb6986c81caf7cc6f2e293e1"
+    },
+    {
+      "path": "renv/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ec0cbba2d7755cbd91956afaa585449906a1e16",
+      "size": 56,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/0ec0cbba2d7755cbd91956afaa585449906a1e16"
+    },
+    {
+      "path": "renv/activate.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eb51088a290f7a69574bf2aee0bf634822bf1fb",
+      "size": 36548,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/0eb51088a290f7a69574bf2aee0bf634822bf1fb"
+    },
+    {
+      "path": "renv/settings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffdbb3200f779343ad1aa1a2fb6c74a02fd9b365",
+      "size": 412,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/ffdbb3200f779343ad1aa1a2fb6c74a02fd9b365"
+    },
+    {
+      "path": "supp_gallery.R",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f405b98b85324b42ab62e4bbb49c533ee197c92",
+      "size": 8246,
+      "url": "https://api.github.com/repos/reiserlab/eyemap_T4/git/blobs/3f405b98b85324b42ab62e4bbb49c533ee197c92"
+    }
+  ],
+  "truncated": false
+}

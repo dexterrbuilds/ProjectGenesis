@@ -1,0 +1,1294 @@
+{
+  "groups": [
+    {
+      "dataset": "2019_T5_compact",
+      "type": "T5",
+      "family": "apparent_motion",
+      "records": 1633,
+      "recordings": 17,
+      "unique_descriptor_tuples": 603,
+      "tuple_recording_count_range": [
+        1,
+        14
+      ],
+      "dimensions": {
+        "displacement_pixels": {
+          "unique_values": [
+            -1,
+            -2,
+            -3,
+            -4,
+            -6,
+            -8,
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            8
+          ],
+          "n_unique": 13
+        },
+        "duration_mm": {
+          "unique_values": [
+            120,
+            160,
+            20,
+            320,
+            40,
+            480,
+            80
+          ],
+          "n_unique": 7
+        },
+        "fb_pos_mm": {
+          "unique_values": [
+            -1,
+            -2,
+            -3,
+            -4,
+            -5,
+            -6,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "n_unique": 15
+        },
+        "fbtoff_mm": {
+          "unique_values": [
+            120,
+            160,
+            20,
+            320,
+            40,
+            480,
+            80
+          ],
+          "n_unique": 7
+        },
+        "fbton_mm": {
+          "unique_values": [
+            0
+          ],
+          "n_unique": 1
+        },
+        "sb_pos_mm": {
+          "unique_values": [
+            -1,
+            -2,
+            -3,
+            -4,
+            -5,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "n_unique": 14
+        },
+        "sbtoff_mm": {
+          "unique_values": [
+            100,
+            1120,
+            120,
+            140,
+            1440,
+            160,
+            1600,
+            180,
+            20,
+            200,
+            2240,
+            240,
+            280,
+            2880,
+            320,
+            360,
+            40,
+            400,
+            480,
+            560,
+            60,
+            640,
+            720,
+            80,
+            800,
+            960
+          ],
+          "n_unique": 26
+        },
+        "sbton_mm": {
+          "unique_values": [
+            0,
+            120,
+            1280,
+            160,
+            1920,
+            240,
+            2560,
+            320,
+            40,
+            480,
+            60,
+            640,
+            80,
+            960
+          ],
+          "n_unique": 14
+        },
+        "speedCor_mm": {
+          "unique_values": [
+            0,
+            1
+          ],
+          "n_unique": 2
+        },
+        "timeDiff_mm": {
+          "unique_values": [
+            0,
+            160,
+            20,
+            320,
+            40,
+            80
+          ],
+          "n_unique": 6
+        },
+        "width_mm": {
+          "unique_values": [
+            2,
+            4
+          ],
+          "n_unique": 2
+        }
+      },
+      "subtype": null,
+      "fly": null,
+      "root_transfer": false
+    },
+    {
+      "dataset": "2019_T5_compact",
+      "type": "T5",
+      "family": "drifting_grating",
+      "records": 96,
+      "recordings": 11,
+      "unique_descriptor_tuples": 56,
+      "tuple_recording_count_range": [
+        1,
+        3
+      ],
+      "dimensions": {
+        "dark_pixel_patterns": {
+          "unique_values": [
+            [
+              [
+                -4,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                -4,
+                -3,
+                2,
+                3,
+                4
+              ],
+              [
+                -4,
+                -3,
+                -2,
+                3,
+                4
+              ],
+              [
+                -4,
+                -3,
+                -2,
+                -1,
+                4
+              ],
+              [
+                -3,
+                -2,
+                -1,
+                0
+              ],
+              [
+                -2,
+                -1,
+                0,
+                1
+              ],
+              [
+                -1,
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                1,
+                2,
+                3
+              ]
+            ],
+            [
+              [
+                -5,
+                -4,
+                -3,
+                2,
+                3,
+                4,
+                5
+              ],
+              [
+                -5,
+                -4,
+                -3,
+                -2,
+                3,
+                4,
+                5,
+                6
+              ],
+              [
+                -4,
+                -3,
+                -2,
+                -1,
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                -3,
+                -2,
+                -1,
+                0,
+                5,
+                6,
+                7
+              ],
+              [
+                -2,
+                -1,
+                0,
+                1,
+                6,
+                7
+              ],
+              [
+                -1,
+                0,
+                1,
+                2,
+                7
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                -5
+              ],
+              [
+                1,
+                2,
+                3,
+                4,
+                -5,
+                -4
+              ]
+            ],
+            [
+              [
+                -6,
+                -5,
+                -4,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                -6,
+                -5,
+                -4,
+                -3,
+                2,
+                3,
+                4,
+                5
+              ],
+              [
+                -5,
+                -4,
+                -3,
+                -2,
+                3,
+                4,
+                5,
+                6
+              ],
+              [
+                -4,
+                -3,
+                -2,
+                -1,
+                4,
+                5,
+                6
+              ],
+              [
+                -3,
+                -2,
+                -1,
+                0,
+                5,
+                6
+              ],
+              [
+                -2,
+                -1,
+                0,
+                1,
+                6
+              ],
+              [
+                -1,
+                0,
+                1,
+                2,
+                -6
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                -6,
+                -5
+              ]
+            ],
+            [
+              [
+                4,
+                -1,
+                -2,
+                -3,
+                -4
+              ],
+              [
+                4,
+                3,
+                -2,
+                -3,
+                -4
+              ],
+              [
+                4,
+                3,
+                2,
+                -3,
+                -4
+              ],
+              [
+                4,
+                3,
+                2,
+                1,
+                -4
+              ],
+              [
+                3,
+                2,
+                1,
+                0
+              ],
+              [
+                2,
+                1,
+                0,
+                -1
+              ],
+              [
+                1,
+                0,
+                -1,
+                -2
+              ],
+              [
+                0,
+                -1,
+                -2,
+                -3
+              ]
+            ],
+            [
+              [
+                6,
+                5,
+                4,
+                -1,
+                -2,
+                -3,
+                -4
+              ],
+              [
+                6,
+                5,
+                4,
+                3,
+                -2,
+                -3,
+                -4,
+                -5
+              ],
+              [
+                5,
+                4,
+                3,
+                2,
+                -3,
+                -4,
+                -5,
+                -6
+              ],
+              [
+                4,
+                3,
+                2,
+                1,
+                -4,
+                -5,
+                -6
+              ],
+              [
+                3,
+                2,
+                1,
+                0,
+                -5,
+                -6
+              ],
+              [
+                2,
+                1,
+                0,
+                -1,
+                -6
+              ],
+              [
+                1,
+                0,
+                -1,
+                -2,
+                6
+              ],
+              [
+                0,
+                -1,
+                -2,
+                -3,
+                6,
+                5
+              ]
+            ],
+            [
+              [
+                7,
+                6,
+                5,
+                0,
+                -1,
+                -2,
+                -3
+              ],
+              [
+                7,
+                6,
+                5,
+                4,
+                -1,
+                -2,
+                -3,
+                -4
+              ],
+              [
+                6,
+                5,
+                4,
+                3,
+                -2,
+                -3,
+                -4,
+                -5
+              ],
+              [
+                5,
+                4,
+                3,
+                2,
+                -3,
+                -4,
+                -5
+              ],
+              [
+                4,
+                3,
+                2,
+                1,
+                -4,
+                -5
+              ],
+              [
+                3,
+                2,
+                1,
+                0,
+                -5
+              ],
+              [
+                2,
+                1,
+                0,
+                -1,
+                7
+              ],
+              [
+                1,
+                0,
+                -1,
+                -2,
+                7,
+                6
+              ]
+            ]
+          ],
+          "n_unique": 6
+        },
+        "phase_sequence": {
+          "unique_values": [
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            [
+              1,
+              8,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2
+            ],
+            [
+              5,
+              4,
+              3,
+              2,
+              1,
+              8,
+              7,
+              6
+            ],
+            [
+              5,
+              6,
+              7,
+              8,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "n_unique": 4
+        },
+        "source_operator_frame_indices": {
+          "unique_values": [
+            [
+              0,
+              24
+            ]
+          ],
+          "n_unique": 1
+        },
+        "step_duration_ms": {
+          "unique_values": [
+            160,
+            20,
+            40,
+            80
+          ],
+          "n_unique": 4
+        }
+      },
+      "subtype": null,
+      "fly": null,
+      "root_transfer": false
+    },
+    {
+      "dataset": "2019_T5_compact",
+      "type": "T5",
+      "family": "moving_bar",
+      "records": 268,
+      "recordings": 17,
+      "unique_descriptor_tuples": 66,
+      "tuple_recording_count_range": [
+        1,
+        6
+      ],
+      "dimensions": {
+        "direction_mb": {
+          "unique_values": [
+            0,
+            1
+          ],
+          "n_unique": 2
+        },
+        "duration_mb": {
+          "unique_values": [
+            160,
+            20,
+            40,
+            80
+          ],
+          "n_unique": 4
+        },
+        "positions_pixels": {
+          "unique_values": [
+            [
+              -4,
+              -3,
+              -2,
+              -1,
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              -8,
+              -7,
+              -6,
+              -5,
+              -4,
+              -3,
+              -2,
+              -1,
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "n_unique": 4
+        },
+        "source_pixel_steps_per_second": {
+          "unique_values": [
+            12.5,
+            25,
+            50,
+            6.25
+          ],
+          "n_unique": 4
+        },
+        "width_mb": {
+          "unique_values": [
+            1,
+            2,
+            4
+          ],
+          "n_unique": 3
+        }
+      },
+      "subtype": null,
+      "fly": null,
+      "root_transfer": false
+    },
+    {
+      "dataset": "2019_T5_compact",
+      "type": "T5",
+      "family": "static_grating",
+      "records": 176,
+      "recordings": 11,
+      "unique_descriptor_tuples": 92,
+      "tuple_recording_count_range": [
+        1,
+        4
+      ],
+      "dimensions": {
+        "dark_pixel_positions": {
+          "unique_values": [
+            [
+              -1,
+              0,
+              1,
+              2,
+              -6
+            ],
+            [
+              -1,
+              0,
+              1,
+              2,
+              7
+            ],
+            [
+              -1,
+              0,
+              1,
+              2
+            ],
+            [
+              -2,
+              -1,
+              0,
+              1,
+              6,
+              7
+            ],
+            [
+              -2,
+              -1,
+              0,
+              1,
+              6
+            ],
+            [
+              -2,
+              -1,
+              0,
+              1
+            ],
+            [
+              -3,
+              -2,
+              -1,
+              0,
+              5,
+              6,
+              7
+            ],
+            [
+              -3,
+              -2,
+              -1,
+              0,
+              5,
+              6
+            ],
+            [
+              -3,
+              -2,
+              -1,
+              0
+            ],
+            [
+              -4,
+              -3,
+              -2,
+              -1,
+              4,
+              5,
+              6,
+              7
+            ],
+            [
+              -4,
+              -3,
+              -2,
+              -1,
+              4,
+              5,
+              6
+            ],
+            [
+              -4,
+              -3,
+              -2,
+              -1,
+              4
+            ],
+            [
+              -4,
+              -3,
+              -2,
+              3,
+              4
+            ],
+            [
+              -4,
+              -3,
+              2,
+              3,
+              4
+            ],
+            [
+              -4,
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              -5,
+              -4,
+              -3,
+              -2,
+              3,
+              4,
+              5,
+              6
+            ],
+            [
+              -5,
+              -4,
+              -3,
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              -6,
+              -5,
+              -4,
+              -3,
+              2,
+              3,
+              4,
+              5
+            ],
+            [
+              -6,
+              -5,
+              -4,
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              0,
+              -1,
+              -2,
+              -3,
+              6,
+              5
+            ],
+            [
+              0,
+              -1,
+              -2,
+              -3
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              -5
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              -6,
+              -5
+            ],
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              1,
+              0,
+              -1,
+              -2,
+              6
+            ],
+            [
+              1,
+              0,
+              -1,
+              -2,
+              7,
+              6
+            ],
+            [
+              1,
+              0,
+              -1,
+              -2
+            ],
+            [
+              1,
+              2,
+              3,
+              4,
+              -5,
+              -4
+            ],
+            [
+              2,
+              1,
+              0,
+              -1,
+              -6
+            ],
+            [
+              2,
+              1,
+              0,
+              -1,
+              7
+            ],
+            [
+              2,
+              1,
+              0,
+              -1
+            ],
+            [
+              3,
+              2,
+              1,
+              0,
+              -5,
+              -6
+            ],
+            [
+              3,
+              2,
+              1,
+              0,
+              -5
+            ],
+            [
+              3,
+              2,
+              1,
+              0
+            ],
+            [
+              4,
+              -1,
+              -2,
+              -3,
+              -4
+            ],
+            [
+              4,
+              3,
+              -2,
+              -3,
+              -4
+            ],
+            [
+              4,
+              3,
+              2,
+              -3,
+              -4
+            ],
+            [
+              4,
+              3,
+              2,
+              1,
+              -4,
+              -5,
+              -6
+            ],
+            [
+              4,
+              3,
+              2,
+              1,
+              -4,
+              -5
+            ],
+            [
+              4,
+              3,
+              2,
+              1,
+              -4
+            ],
+            [
+              5,
+              4,
+              3,
+              2,
+              -3,
+              -4,
+              -5,
+              -6
+            ],
+            [
+              5,
+              4,
+              3,
+              2,
+              -3,
+              -4,
+              -5
+            ],
+            [
+              6,
+              5,
+              4,
+              -1,
+              -2,
+              -3,
+              -4
+            ],
+            [
+              6,
+              5,
+              4,
+              3,
+              -2,
+              -3,
+              -4,
+              -5
+            ],
+            [
+              7,
+              6,
+              5,
+              0,
+              -1,
+              -2,
+              -3
+            ],
+            [
+              7,
+              6,
+              5,
+              4,
+              -1,
+              -2,
+              -3,
+              -4
+            ]
+          ],
+          "n_unique": 46
+        },
+        "duration_ms": {
+          "unique_values": [
+            160,
+            40
+          ],
+          "n_unique": 2
+        }
+      },
+      "subtype": null,
+      "fly": null,
+      "root_transfer": false
+    },
+    {
+      "dataset": "2021_T4_flash",
+      "type": "T4",
+      "family": "flash",
+      "records": 2260,
+      "recordings": 15,
+      "unique_descriptor_tuples": 184,
+      "tuple_recording_count_range": [
+        1,
+        15
+      ],
+      "dimensions": {
+        "contrast_value": {
+          "unique_values": [
+            0,
+            1
+          ],
+          "n_unique": 2
+        },
+        "duration_ms": {
+          "unique_values": [
+            160,
+            40
+          ],
+          "n_unique": 2
+        },
+        "offset_pixels": {
+          "unique_values": [
+            -1,
+            -2,
+            -3,
+            -4,
+            -5,
+            -6,
+            -7,
+            -8,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "n_unique": 18
+        },
+        "width_pixels": {
+          "unique_values": [
+            1,
+            2,
+            4
+          ],
+          "n_unique": 3
+        }
+      },
+      "subtype": null,
+      "fly": null,
+      "root_transfer": false
+    },
+    {
+      "dataset": "2021_T5_flash",
+      "type": "T5",
+      "family": "flash",
+      "records": 2204,
+      "recordings": 17,
+      "unique_descriptor_tuples": 297,
+      "tuple_recording_count_range": [
+        1,
+        17
+      ],
+      "dimensions": {
+        "contrast_value": {
+          "unique_values": [
+            0,
+            1
+          ],
+          "n_unique": 2
+        },
+        "duration_ms": {
+          "unique_values": [
+            160,
+            20,
+            320,
+            40,
+            80
+          ],
+          "n_unique": 5
+        },
+        "offset_pixels": {
+          "unique_values": [
+            -1,
+            -10,
+            -2,
+            -3,
+            -4,
+            -5,
+            -6,
+            -7,
+            -8,
+            0,
+            1,
+            10,
+            11,
+            12,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "n_unique": 22
+        },
+        "width_pixels": {
+          "unique_values": [
+            1,
+            2,
+            4
+          ],
+          "n_unique": 3
+        }
+      },
+      "subtype": null,
+      "fly": null,
+      "root_transfer": false
+    }
+  ],
+  "waveform_time_ms": [
+    0,
+    500
+  ],
+  "step_ms": 1,
+  "records": 6637,
+  "excluded_duplicate_or_invalid_records": 1398,
+  "marginal_ranges_are_not_joint_coverage": true,
+  "all_voltage_only": true,
+  "source_centered_localization_is_conditional": true,
+  "numerical_identity": "Integral floats and signed zero canonicalized; no physical descriptor removed."
+}

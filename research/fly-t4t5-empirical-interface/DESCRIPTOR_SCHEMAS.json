@@ -1,0 +1,187 @@
+{
+  "flash": {
+    "fields": [
+      "contrast_value",
+      "duration_ms",
+      "offset_pixels",
+      "width_pixels"
+    ],
+    "example": {
+      "offset_pixels": 5.0,
+      "width_pixels": 1.0,
+      "duration_ms": 40.0,
+      "contrast_value": 0.0
+    }
+  },
+  "moving_bar": {
+    "fields": [
+      "direction_mb",
+      "duration_mb",
+      "positions_pixels",
+      "source_pixel_steps_per_second",
+      "width_mb"
+    ],
+    "example": {
+      "width_mb": 1,
+      "duration_mb": 20,
+      "direction_mb": 0,
+      "positions_pixels": [
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "source_pixel_steps_per_second": 50.0
+    }
+  },
+  "apparent_motion": {
+    "fields": [
+      "displacement_pixels",
+      "duration_mm",
+      "fb_pos_mm",
+      "fbtoff_mm",
+      "fbton_mm",
+      "sb_pos_mm",
+      "sbtoff_mm",
+      "sbton_mm",
+      "speedCor_mm",
+      "timeDiff_mm",
+      "width_mm"
+    ],
+    "example": {
+      "fb_pos_mm": -2,
+      "sb_pos_mm": -2,
+      "width_mm": 2,
+      "fbtoff_mm": 40,
+      "sbton_mm": 0,
+      "sbtoff_mm": 40,
+      "duration_mm": 40,
+      "speedCor_mm": 1,
+      "timeDiff_mm": 0,
+      "fbton_mm": 0,
+      "displacement_pixels": 0.0
+    }
+  },
+  "drifting_grating": {
+    "fields": [
+      "dark_pixel_patterns",
+      "phase_sequence",
+      "source_operator_frame_indices",
+      "step_duration_ms"
+    ],
+    "example": {
+      "step_duration_ms": 20.0,
+      "phase_sequence": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "dark_pixel_patterns": [
+        [
+          -6,
+          -5,
+          -4,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          -6,
+          -5,
+          -4,
+          -3,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          -5,
+          -4,
+          -3,
+          -2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          -4,
+          -3,
+          -2,
+          -1,
+          4,
+          5,
+          6
+        ],
+        [
+          -3,
+          -2,
+          -1,
+          0,
+          5,
+          6
+        ],
+        [
+          -2,
+          -1,
+          0,
+          1,
+          6
+        ],
+        [
+          -1,
+          0,
+          1,
+          2,
+          -6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          -6,
+          -5
+        ]
+      ],
+      "source_operator_frame_indices": [
+        0,
+        24
+      ]
+    }
+  },
+  "static_grating": {
+    "fields": [
+      "dark_pixel_positions",
+      "duration_ms"
+    ],
+    "example": {
+      "duration_ms": 40.0,
+      "dark_pixel_positions": [
+        -6,
+        -5,
+        -4,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  }
+}

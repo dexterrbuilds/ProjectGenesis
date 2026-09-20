@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0-candidate",
+  "classification": "PARTIAL VISUAL BOUNDARY CONSTRAINT",
+  "deployable_boundary": null,
+  "model_family_selected_for_general_T4T5": null,
+  "biological_parameters_frozen_for_transfer": null,
+  "anatomical_screen_transform": null,
+  "calcium_or_spike_observation_mapping": null,
+  "accepted_scope": "Independent direct T4/T5 measurement processing and frozen conditional T5 within-recording voltage prediction diagnostics only.",
+  "conditional_fit_artifact": "FITS.json",
+  "conditional_fit_freeze": "FIT_FREEZE.json",
+  "baseline_gain_identifiability": "BASELINE_IDENTIFIABILITY.json",
+  "product_mappings": [],
+  "canonical_neuron_or_synapse_ownership_changes": [],
+  "stage4_evaluations": 0,
+  "LPLC2_runs": 0,
+  "required_before_any_future_downstream_evaluation": [
+    "documented independent fly partitions",
+    "independently validated model family and parameters across relevant stimulus families",
+    "frozen root/column/eye/subtype/screen transform with explicit uncertainty",
+    "frozen compatible observation mapping",
+    "documented acceptance scope and separate authorization"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "at_utc": "2026-09-20T04:06:25.182050+00:00",
+  "Stage4_stimulus_definitions_opened": false,
+  "Stage4_LPLC2_outcomes_used": false,
+  "criteria_changed": false,
+  "tests_passed": 10,
+  "fresh_process_reproduced": true,
+  "files": {
+    "PROTOCOL.md": "b537f6bf7137049964ff358b440e5bafc7c76effd1cebc33bab66d9c3cbf110d",
+    "REGISTRATION.json": "d3a383b69f58eb1804c81de6b280d991f3b9b9af2e50a9796add75c459fc27a4",
+    "PRIMARY_RESULT_LOCK.json": "378b5eac30a44872a11231d4e93171fded52c6eb67aca9aaa32b87a3f36342cb",
+    "interface.py": "b51dfd5b56171e89633acb5e78173fde90b7ec9885431060d0c7f7ecac82b8fe",
+    "empirical.py": "a8ceb1bed018e1a6226383015027d03b49bb51e8bf9d9b22dbe864777d41e394",
+    "common.py": "fa474b665b3d5f17ca8c996515a1f82777ee0f670f857a4f88547de8c6ff9085",
+    "SUPPORT_SPEC.json": "941e5f51a9d81194e7472cbe60cd0a7510cec2fc4d2ca38d11c21a158fac2e6b",
+    "SUPPORT_STRATA.json": "9027b31450f3f2af45a8bac2ed6e07e2bba444096ee4d7cdee9cbd3d808111d1",
+    "INTERFACE_SPEC.json": "d6dbc5c30c66308f04770150cc4eec3cd700b7e602419a47dd2b839ff6ce752f",
+    "DESCRIPTOR_SCHEMAS.json": "efd26811a09627b84f8d124a4a0b7a04dc292c669bff6f430e8d43c0e5c89beb",
+    "SOURCE_AND_COMPATIBILITY.md": "db0ec08e4dabebbbfb1349b15809f32b780aa28961f679ab33a54e2fe75be560",
+    "atlas/records.json": "8ee6a94750b07d2759829b7c0785d20ef1436b01e015fdbe3535c05f29e94c2e",
+    "atlas/waveforms.npz": "9cdf6f6bfe90d86655db6c25624c4786234f3a70b3104bcf4842990f3445a8a7",
+    "VALIDATION_RESULTS.json": "4f3b40463f805ec9f93caf49cf6bcabf37b5deb76daaeb85486a4458d46e4705",
+    "UNCERTAINTY.json": "417caead6304c4ff73b9cb1156d6a95e2ae6a5310e9d2171090a5072f32f53c4",
+    "REPRODUCTION.json": "ec8f1e245424ac2335d30a7af30844becacb94fa46ea37437c966450050f3aae"
+  }
+}

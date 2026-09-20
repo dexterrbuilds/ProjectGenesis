@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "machine": "arm64",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.2",
+    "pandas": "2.2.3",
+    "h5py": "3.14.0",
+    "rdata": "0.11.2",
+    "xarray": "2025.6.1",
+    "matplotlib": "3.11.2"
+  },
+  "deterministic_comparison_threads": 1,
+  "dependency_scope": "isolated study/vendor plus existing research venv; no canonical application dependency changes"
+}

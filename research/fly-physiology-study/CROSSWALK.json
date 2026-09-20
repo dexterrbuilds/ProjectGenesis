@@ -1,0 +1,540 @@
+{
+  "dataset": "FAFB/FlyWire v783 adult female",
+  "annotations": "v3.1.0",
+  "annotation_sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+  "circuit_hashes": {
+    "research/fly-stage1/artifacts/c5c332c1bd0ce77487ad5765756a58dc441d50f59dc56899a462bf35e4b2a157/circuit.json": "e25752a78c60666894546f7dbab08b2833bcb810d79cb6091dbcbde4480c0fab",
+    "research/fly-stage2/artifacts/43a18b787748363e6c6080513cf4d5455b6949bf9a28f09ffab978787195e0b3/circuit.json": "0386716d0481408081ec1a9133f671496947d8c2375b6ab6a3487258dac8e276",
+    "research/fly-stage3/artifacts/28cc6285ba4b40077db73952bacee75d0938f2f80021aaf89c214524797b2a52/circuit.json": "909e09d406748b293b1203ddb4e66c115d2e898b0d1f18ac75a8d23718c5d318"
+  },
+  "identity_level": "annotation/type crosswalk, not individual physiological equivalence",
+  "rows": [
+    {
+      "root_id": "720575940605891040",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "left",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw037009",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940608186498",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "right",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw024086",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940612920999",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "left",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw028842",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940613426838",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "left",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw026815",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940616882757",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "left",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw023470",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940617302365",
+      "stages": [
+        1,
+        3
+      ],
+      "cell_type": "MBON07",
+      "hemibrain_type": "MBON07",
+      "side": "left",
+      "fbbt_id": "FBbt_00111005",
+      "vfb_id": "fw036447",
+      "known_nt": "glutamate; glutamate",
+      "top_nt": "glutamate",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940617691170",
+      "stages": [
+        1,
+        3
+      ],
+      "cell_type": "PPL101",
+      "hemibrain_type": "PPL101",
+      "side": "right",
+      "fbbt_id": "FBbt_00100243",
+      "vfb_id": "fw013269",
+      "known_nt": "dopamine; dopamine; dopamine, nitric oxide",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940617749538",
+      "stages": [
+        1,
+        3
+      ],
+      "cell_type": "MBON11",
+      "hemibrain_type": "MBON11",
+      "side": "right",
+      "fbbt_id": "FBbt_00100246",
+      "vfb_id": "fw028248",
+      "known_nt": "gaba; gaba",
+      "top_nt": "gaba",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940619101062",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "left",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw029191",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940621040737",
+      "stages": [
+        1,
+        3
+      ],
+      "cell_type": "PPL101",
+      "hemibrain_type": "PPL101",
+      "side": "left",
+      "fbbt_id": "FBbt_00100243",
+      "vfb_id": "fw030338",
+      "known_nt": "dopamine; dopamine; dopamine, nitric oxide",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940621136519",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "left",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw000213",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940621825630",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "left",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw038710",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940622701808",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "right",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw032375",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940623201833",
+      "stages": [
+        1,
+        3
+      ],
+      "cell_type": "MBON11",
+      "hemibrain_type": "MBON11",
+      "side": "left",
+      "fbbt_id": "FBbt_00100246",
+      "vfb_id": "fw035279",
+      "known_nt": "gaba; gaba",
+      "top_nt": "gaba",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940624547622",
+      "stages": [
+        1,
+        2,
+        3
+      ],
+      "cell_type": "APL",
+      "hemibrain_type": "APL",
+      "side": "left",
+      "fbbt_id": "FBbt_00100222",
+      "vfb_id": "fw036977",
+      "known_nt": "gaba; gaba",
+      "top_nt": "gaba",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940626506472",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "left",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw024803",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940634953079",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "right",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw043468",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940639358579",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "right",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw032231",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940652390134",
+      "stages": [
+        1,
+        3
+      ],
+      "cell_type": "MBON07",
+      "hemibrain_type": "MBON07",
+      "side": "left",
+      "fbbt_id": "FBbt_00111005",
+      "vfb_id": "fw034735",
+      "known_nt": "glutamate; glutamate",
+      "top_nt": "glutamate",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940653360289",
+      "stages": [
+        1
+      ],
+      "cell_type": "PAM11",
+      "hemibrain_type": "PAM11",
+      "side": "right",
+      "fbbt_id": "FBbt_00111022",
+      "vfb_id": "fw027291",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940613583001",
+      "stages": [
+        2,
+        3
+      ],
+      "cell_type": "APL",
+      "hemibrain_type": "APL",
+      "side": "right",
+      "fbbt_id": "FBbt_00100222",
+      "vfb_id": "fw003280",
+      "known_nt": "gaba; gaba",
+      "top_nt": "gaba",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940614595218",
+      "stages": [
+        2
+      ],
+      "cell_type": "MBON28",
+      "hemibrain_type": "MBON28",
+      "side": "left",
+      "fbbt_id": "FBbt_00049848",
+      "vfb_id": "fw007561",
+      "known_nt": "",
+      "top_nt": "acetylcholine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940614892182",
+      "stages": [
+        2
+      ],
+      "cell_type": "MBON28",
+      "hemibrain_type": "MBON28",
+      "side": "right",
+      "fbbt_id": "FBbt_00049848",
+      "vfb_id": "fw033299",
+      "known_nt": "",
+      "top_nt": "acetylcholine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940617760257",
+      "stages": [
+        2
+      ],
+      "cell_type": "MBON17",
+      "hemibrain_type": "MBON17",
+      "side": "right",
+      "fbbt_id": "FBbt_00111064",
+      "vfb_id": "fw028291",
+      "known_nt": "acetylcholine; acetylcholine",
+      "top_nt": "acetylcholine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940623377802",
+      "stages": [
+        2
+      ],
+      "cell_type": "MBON16",
+      "hemibrain_type": "MBON16",
+      "side": "left",
+      "fbbt_id": "FBbt_00111063",
+      "vfb_id": "fw031879",
+      "known_nt": "acetylcholine; acetylcholine",
+      "top_nt": "acetylcholine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940626744921",
+      "stages": [
+        2
+      ],
+      "cell_type": "MBON16",
+      "hemibrain_type": "MBON16",
+      "side": "right",
+      "fbbt_id": "FBbt_00111063",
+      "vfb_id": "fw032606",
+      "known_nt": "acetylcholine; acetylcholine",
+      "top_nt": "acetylcholine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940627549205",
+      "stages": [
+        2
+      ],
+      "cell_type": "PPL104",
+      "hemibrain_type": "PPL104",
+      "side": "left",
+      "fbbt_id": "FBbt_00110321",
+      "vfb_id": "fw035370",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940632107335",
+      "stages": [
+        2
+      ],
+      "cell_type": "PPL104",
+      "hemibrain_type": "PPL104",
+      "side": "right",
+      "fbbt_id": "FBbt_00110321",
+      "vfb_id": "fw034502",
+      "known_nt": "dopamine; dopamine",
+      "top_nt": "dopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940634822751",
+      "stages": [
+        2
+      ],
+      "cell_type": "MBON17-like",
+      "hemibrain_type": "MBON17-like",
+      "side": "right",
+      "fbbt_id": "",
+      "vfb_id": "fw001692",
+      "known_nt": "acetylcholine; acetylcholine",
+      "top_nt": "acetylcholine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940638774606",
+      "stages": [
+        2
+      ],
+      "cell_type": "MBON17",
+      "hemibrain_type": "MBON17",
+      "side": "left",
+      "fbbt_id": "FBbt_00111064",
+      "vfb_id": "fw008387",
+      "known_nt": "acetylcholine; acetylcholine",
+      "top_nt": "acetylcholine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940650386553",
+      "stages": [
+        2
+      ],
+      "cell_type": "MBON17-like",
+      "hemibrain_type": "MBON17-like",
+      "side": "left",
+      "fbbt_id": "",
+      "vfb_id": "fw026926",
+      "known_nt": "acetylcholine; acetylcholine",
+      "top_nt": "acetylcholine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940622997453",
+      "stages": [
+        3
+      ],
+      "cell_type": "MBON18",
+      "hemibrain_type": "MBON18",
+      "side": "right",
+      "fbbt_id": "FBbt_00110101",
+      "vfb_id": "fw036451",
+      "known_nt": "acetylcholine",
+      "top_nt": "acetylcholine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940623381956",
+      "stages": [
+        3
+      ],
+      "cell_type": "MBON07",
+      "hemibrain_type": "MBON07",
+      "side": "right",
+      "fbbt_id": "FBbt_00111005",
+      "vfb_id": "fw036707",
+      "known_nt": "glutamate; glutamate",
+      "top_nt": "glutamate",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940624539284",
+      "stages": [
+        3
+      ],
+      "cell_type": "MBON18",
+      "hemibrain_type": "MBON18",
+      "side": "left",
+      "fbbt_id": "FBbt_00110101",
+      "vfb_id": "fw036312",
+      "known_nt": "acetylcholine",
+      "top_nt": "acetylcholine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940625264457",
+      "stages": [
+        3
+      ],
+      "cell_type": "OA-VPM4",
+      "hemibrain_type": "OA-VPM4",
+      "side": "right",
+      "fbbt_id": "FBbt_00110152",
+      "vfb_id": "fw042335",
+      "known_nt": "octopamine",
+      "top_nt": "octopamine",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940628783363",
+      "stages": [
+        3
+      ],
+      "cell_type": "MBON07",
+      "hemibrain_type": "MBON07",
+      "side": "right",
+      "fbbt_id": "FBbt_00111005",
+      "vfb_id": "fw036342",
+      "known_nt": "glutamate; glutamate",
+      "top_nt": "glutamate",
+      "matching_notes": ""
+    },
+    {
+      "root_id": "720575940636574388",
+      "stages": [
+        3
+      ],
+      "cell_type": "OA-VPM4",
+      "hemibrain_type": "OA-VPM4",
+      "side": "left",
+      "fbbt_id": "FBbt_00110152",
+      "vfb_id": "fw036711",
+      "known_nt": "octopamine",
+      "top_nt": "octopamine",
+      "matching_notes": ""
+    }
+  ]
+}

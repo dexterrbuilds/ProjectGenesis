@@ -1,0 +1,253 @@
+{
+  "sha": "0d8574d46627ce7fadd968a3c5d602e837325373",
+  "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/trees/0d8574d46627ce7fadd968a3c5d602e837325373",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68729d6bfca686f3d9d83e2626273c2414854055",
+      "size": 16,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/68729d6bfca686f3d9d83e2626273c2414854055"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589c610fb54522760596d1e7cd5b59fb5b6e7575",
+      "size": 758,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/589c610fb54522760596d1e7cd5b59fb5b6e7575"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a8d9fda15290a0554eb22b452f1379551d0dd55",
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/trees/0a8d9fda15290a0554eb22b452f1379551d0dd55"
+    },
+    {
+      "path": "data/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89c7346f3bf3361b7fd5321c5abd891d8b396d37",
+      "size": 5036,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/89c7346f3bf3361b7fd5321c5abd891d8b396d37"
+    },
+    {
+      "path": "data/left_vs_right_super_classes_boundary.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0b185311daffd742b299fa75540b81301104a8f",
+      "size": 188,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/a0b185311daffd742b299fa75540b81301104a8f"
+    },
+    {
+      "path": "data/left_vs_right_super_classes_intrinsic.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbb82ee37cbd7314eb47c8970fce26fd7b79df3c",
+      "size": 92,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/fbb82ee37cbd7314eb47c8970fce26fd7b79df3c"
+    },
+    {
+      "path": "data/left_vs_right_types_boundary.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea8cc526abafc1c5556e84f51126fd678f5948e2",
+      "size": 7275,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/ea8cc526abafc1c5556e84f51126fd678f5948e2"
+    },
+    {
+      "path": "data/left_vs_right_types_intrinsic.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "042e9955f71a8a9a336f2a970c8bbaea6e7b6358",
+      "size": 3638,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/042e9955f71a8a9a336f2a970c8bbaea6e7b6358"
+    },
+    {
+      "path": "data/neuron_table.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab514d5fd0d976178d7810e35ca2137bad1b8f52",
+      "size": 8180741,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/ab514d5fd0d976178d7810e35ca2137bad1b8f52"
+    },
+    {
+      "path": "data/ol_intrinsic_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c6053e0bccf48628a984b0423f6ea33abfadb9e",
+      "size": 4191,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/2c6053e0bccf48628a984b0423f6ea33abfadb9e"
+    },
+    {
+      "path": "data/synapse_table.csv.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1104bc4288752c9d6d51d9eab0aeab51f14b6b24",
+      "size": 97479510,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/1104bc4288752c9d6d51d9eab0aeab51f14b6b24"
+    },
+    {
+      "path": "data/synapse_table_compact_ids_map.csv.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "383b397525dba491758512500dc3672d5d11e98a",
+      "size": 1019011,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/383b397525dba491758512500dc3672d5d11e98a"
+    },
+    {
+      "path": "data/type_to_type_connection_and_synapse_counts.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5183755ecbb41d5c8cee1a4a2d99b8eecba75c52",
+      "size": 2159275,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/5183755ecbb41d5c8cee1a4a2d99b8eecba75c52"
+    },
+    {
+      "path": "figures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e234fb5afa621329f9924621f09b2e14703f71f",
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/trees/5e234fb5afa621329f9924621f09b2e14703f71f"
+    },
+    {
+      "path": "figures/COLORS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae0f52ba88d6f3776801f5fa6835b7da2f35dcc1",
+      "size": 779,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/ae0f52ba88d6f3776801f5fa6835b7da2f35dcc1"
+    },
+    {
+      "path": "figures/Comparison_To_7_Column_Study.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67f26bfeee0a1e8d3c84d3b895f3cb9c7888f3cb",
+      "size": 46167,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/67f26bfeee0a1e8d3c84d3b895f3cb9c7888f3cb"
+    },
+    {
+      "path": "figures/Comparison_To_7_Column_Study.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc87598202ca4bf367c87fc521b501b82c6c29a4",
+      "size": 99778,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/dc87598202ca4bf367c87fc521b501b82c6c29a4"
+    },
+    {
+      "path": "figures/Comparison_To_7_Column_Study_(log_scale).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4c1e6201ec7895697420ca9b527eb7f1374667c",
+      "size": 38766,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/e4c1e6201ec7895697420ca9b527eb7f1374667c"
+    },
+    {
+      "path": "figures/Comparison_To_7_Column_Study_(log_scale).svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e97cb00ff482686c8128941affa0d0df621de6e9",
+      "size": 70182,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/e97cb00ff482686c8128941affa0d0df621de6e9"
+    },
+    {
+      "path": "figures/extended_data_table_2.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c109c3001c7d0097951dc7c88eded0c2b34e4145",
+      "size": 2680,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/c109c3001c7d0097951dc7c88eded0c2b34e4145"
+    },
+    {
+      "path": "figures/extended_data_table_3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a9a70c364132c6ab1bcaf609dcd4673a44d80c9",
+      "size": 1586,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/3a9a70c364132c6ab1bcaf609dcd4673a44d80c9"
+    },
+    {
+      "path": "figures/extended_data_table_4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3365ec6a134296461a7ac0eb8d5666ce74853524",
+      "size": 276,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/3365ec6a134296461a7ac0eb8d5666ce74853524"
+    },
+    {
+      "path": "figures/figure3.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea45a09851f58806e56a0aa297978cdc7e567424",
+      "size": 44008,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/ea45a09851f58806e56a0aa297978cdc7e567424"
+    },
+    {
+      "path": "figures/figure4.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb642aad394c4eaf24ebbf9238031957c5bb8c2e",
+      "size": 18411,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/eb642aad394c4eaf24ebbf9238031957c5bb8c2e"
+    },
+    {
+      "path": "figures/figure5a.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37d25beee5295ce142a06aa00a25e713c5865bf0",
+      "size": 19056,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/37d25beee5295ce142a06aa00a25e713c5865bf0"
+    },
+    {
+      "path": "figures/figure6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6206e29e5a0c9270f4444bd02ebe83fed63d3819",
+      "size": 20960,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/6206e29e5a0c9270f4444bd02ebe83fed63d3819"
+    },
+    {
+      "path": "figures/figure7c.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "371c11f4425b040f5339484284c4fbbcd941e747",
+      "size": 29360,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/371c11f4425b040f5339484284c4fbbcd941e747"
+    },
+    {
+      "path": "figures/figureS5.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91bffe4635d30903a5fcefe1dfec46c73e3b65be",
+      "size": 24117,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/91bffe4635d30903a5fcefe1dfec46c73e3b65be"
+    },
+    {
+      "path": "figures/figureS6.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bf0b1a31ccc3275b8f23c4fcacb145cd27f179b",
+      "size": 24497,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/7bf0b1a31ccc3275b8f23c4fcacb145cd27f179b"
+    },
+    {
+      "path": "figures/sup_data_1.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d2e812c41ee9f1a475b8f5b095e8cf0658178b3",
+      "size": 51318,
+      "url": "https://api.github.com/repos/murthylab/visual-system-parts-list/git/blobs/9d2e812c41ee9f1a475b8f5b095e8cf0658178b3"
+    }
+  ],
+  "truncated": false
+}

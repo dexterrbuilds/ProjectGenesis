@@ -1,0 +1,86 @@
+{
+  "protected_files": 2084,
+  "all_protected_files_unchanged": true,
+  "resumed_evidence_files_unchanged": 1442,
+  "completed_verified_conditions": {
+    "runs": 100,
+    "class-runs": 56
+  },
+  "canonical_before": {
+    "sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+    "tableRowCounts": {
+      "genesis_decisions": 7,
+      "genesis_external_observations": 0,
+      "genesis_ledger": 4,
+      "genesis_memories": 7,
+      "genesis_migrations": 2,
+      "genesis_milestones": 4,
+      "genesis_organisms": 1,
+      "genesis_projects": 1,
+      "genesis_schedule": 1
+    },
+    "schedule": [
+      {
+        "id": "genesis",
+        "enabled": false,
+        "remaining_cycles": null,
+        "next_at": "2026-09-14T22:17:38.205548-07:00",
+        "last_heartbeat": "2026-09-16T20:44:24.831772-07:00",
+        "last_error": null,
+        "updated_at": "2026-09-14T22:17:38.205548-07:00"
+      }
+    ]
+  },
+  "canonical_after": {
+    "sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+    "tableRowCounts": {
+      "genesis_decisions": 7,
+      "genesis_external_observations": 0,
+      "genesis_ledger": 4,
+      "genesis_memories": 7,
+      "genesis_migrations": 2,
+      "genesis_milestones": 4,
+      "genesis_organisms": 1,
+      "genesis_projects": 1,
+      "genesis_schedule": 1
+    },
+    "schedule": [
+      {
+        "id": "genesis",
+        "enabled": false,
+        "remaining_cycles": null,
+        "next_at": "2026-09-14T22:17:38.205548-07:00",
+        "last_heartbeat": "2026-09-16T20:44:24.831772-07:00",
+        "last_error": null,
+        "updated_at": "2026-09-14T22:17:38.205548-07:00"
+      }
+    ]
+  },
+  "tests_previously_completed_not_repeated": {
+    "stage1-tests-before": {
+      "passed": 10,
+      "log_sha256": "7f50710ed3d575c55ce8195dc474b76622a77ae7540cab490bf4f921b5afe2f3"
+    },
+    "stage2-tests-before": {
+      "passed": 9,
+      "log_sha256": "313326740c393652775788c4a0e5889168b94173027fd09892157dd39452a7d3"
+    },
+    "stage3-tests-before": {
+      "passed": 11,
+      "log_sha256": "f40c45b307d8d9279c5d67485e2cb829825ff3b79b2fabdd57849a3399c5574c"
+    },
+    "study-tests": {
+      "passed": 8,
+      "log_sha256": "c795015e68662ef7bcf7e2b962ddb368efc6e6efc768dfd32fd1f30e84c3acfa"
+    }
+  },
+  "L0_exact_trained_state_reproductions": 8,
+  "all_156_snapshot_restores_exact": true,
+  "stage1": "PASS",
+  "stage2": "PARTIAL-INCONCLUSIVE",
+  "stage3": "PARTIAL-INCONCLUSIVE",
+  "architecture_recommendation": "INSUFFICIENT EVIDENCE",
+  "canonical_cycles_executed": 0,
+  "integration_performed": false,
+  "new_behavioral_capabilities": []
+}

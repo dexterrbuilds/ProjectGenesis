@@ -1,0 +1,10 @@
+Mean voltage is computed over [0, flash duration + 75 ms). These are descriptive within-recording pairs, not independent-fly significance tests. Medians of differences need not equal differences of medians.
+
+| Type | Width (pixels) | Duration (ms) | Matched recording pairs | Dark mean (median mV) | Light mean (median mV) | Paired light − dark (median mV) |
+|---|---:|---:|---:|---:|---:|---:|
+| T4 | 2 | 40 | 15 | -0.772 | 4.978 | 6.266 |
+| T4 | 2 | 160 | 15 | -1.416 | 12.552 | 13.539 |
+| T5 | 2 | 40 | 14 | 4.396 | -0.332 | -4.299 |
+| T5 | 2 | 160 | 14 | 12.122 | -0.532 | -13.396 |
+
+No inference of spikes, calcium, transmitter sign, anatomical column occupancy, FlyWire identity or LPLC2 capability follows from these signed somatic voltages. The fits remain OFF-only conditional T5 models; this descriptive polarity extraction does not retroactively provide held-out polarity prediction. Raw mean traces and full condition metrics are saved in the type-specific NPZ/JSON artifacts.

@@ -1,0 +1,311 @@
+{
+  "sha": "fe52053dda84d49a124e6c1f141dd461eba9630c",
+  "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/trees/fe52053dda84d49a124e6c1f141dd461eba9630c",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "size": 66,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/dfe0770424b2a19faf507a501ebfc23be8f54e7b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e62ec04cdeece724caeeeeaeb6ae1f6af1bb6b9a",
+      "size": 35129,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/e62ec04cdeece724caeeeeaeb6ae1f6af1bb6b9a"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dc5f83e88ba86520218348787dfc3df8b2ebe7d",
+      "size": 1329,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/4dc5f83e88ba86520218348787dfc3df8b2ebe7d"
+    },
+    {
+      "path": "data_cell_10_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4520cd910adc902cd4729f3f2ff2a4115e62622",
+      "size": 727424,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/e4520cd910adc902cd4729f3f2ff2a4115e62622"
+    },
+    {
+      "path": "data_cell_10_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce051dd5b3fdd36510f7070b9e978589293c161c",
+      "size": 120318,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/ce051dd5b3fdd36510f7070b9e978589293c161c"
+    },
+    {
+      "path": "data_cell_11_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe4c010d7978fa196f9c687bda4f497291bbb413",
+      "size": 457436,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/fe4c010d7978fa196f9c687bda4f497291bbb413"
+    },
+    {
+      "path": "data_cell_11_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f624e4c25207fec071ad0f7f04e775f683435b7",
+      "size": 143579,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/4f624e4c25207fec071ad0f7f04e775f683435b7"
+    },
+    {
+      "path": "data_cell_12_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "458ee791f22824f5b337481fde4af0d8d26c1e24",
+      "size": 552509,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/458ee791f22824f5b337481fde4af0d8d26c1e24"
+    },
+    {
+      "path": "data_cell_12_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bf6d8484fadcfabd9ffb63c042cfd313950bdb1",
+      "size": 139626,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/1bf6d8484fadcfabd9ffb63c042cfd313950bdb1"
+    },
+    {
+      "path": "data_cell_13_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6638b4fb7fcc02726fe77929a5f1f951aaf3c6b1",
+      "size": 700666,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/6638b4fb7fcc02726fe77929a5f1f951aaf3c6b1"
+    },
+    {
+      "path": "data_cell_13_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9873a8fea8221aeec47369ad37f26c33b67aee98",
+      "size": 138891,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/9873a8fea8221aeec47369ad37f26c33b67aee98"
+    },
+    {
+      "path": "data_cell_14_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c06ef960e7a7872d84b03aa77f9dc8f7c80c206",
+      "size": 737473,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/9c06ef960e7a7872d84b03aa77f9dc8f7c80c206"
+    },
+    {
+      "path": "data_cell_14_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a7dc80db2af492d3c9bb8eef348c564237a802f",
+      "size": 138463,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/4a7dc80db2af492d3c9bb8eef348c564237a802f"
+    },
+    {
+      "path": "data_cell_15_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "587514ac7cb0154599f04930ca5ffd64611a7677",
+      "size": 711975,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/587514ac7cb0154599f04930ca5ffd64611a7677"
+    },
+    {
+      "path": "data_cell_15_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4ddd4a4cf4f6ac044a28c1b71832a7689dd94d2",
+      "size": 102236,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/d4ddd4a4cf4f6ac044a28c1b71832a7689dd94d2"
+    },
+    {
+      "path": "data_cell_16_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61311a63c09082c4efefc28d099d684bb25caf74",
+      "size": 902791,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/61311a63c09082c4efefc28d099d684bb25caf74"
+    },
+    {
+      "path": "data_cell_16_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62779a60de254e213751bffdf8a98f6c6cbef7bb",
+      "size": 180709,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/62779a60de254e213751bffdf8a98f6c6cbef7bb"
+    },
+    {
+      "path": "data_cell_17_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b0b37cbbddd245c1da61a5f67d2821655ec0402",
+      "size": 932808,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/5b0b37cbbddd245c1da61a5f67d2821655ec0402"
+    },
+    {
+      "path": "data_cell_17_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57f4ec834291c72729de06920aca63e8a24f2e89",
+      "size": 155069,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/57f4ec834291c72729de06920aca63e8a24f2e89"
+    },
+    {
+      "path": "data_cell_1_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "591b2210eef335613bde9b4afd2befc5eeddf0e2",
+      "size": 543899,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/591b2210eef335613bde9b4afd2befc5eeddf0e2"
+    },
+    {
+      "path": "data_cell_1_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e2cfcf5a9217f3c9ed66fc2a3960b68a1620d2",
+      "size": 90637,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/66e2cfcf5a9217f3c9ed66fc2a3960b68a1620d2"
+    },
+    {
+      "path": "data_cell_2_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "597321573dc5568cec05eaf7411011ac8c90573f",
+      "size": 911297,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/597321573dc5568cec05eaf7411011ac8c90573f"
+    },
+    {
+      "path": "data_cell_2_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b90bbe48fdf5a23803f1a6c3fe20d146756552e",
+      "size": 103546,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/6b90bbe48fdf5a23803f1a6c3fe20d146756552e"
+    },
+    {
+      "path": "data_cell_3_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbd7e1639f865fe1ef390a789516e7346f2039d3",
+      "size": 524819,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/bbd7e1639f865fe1ef390a789516e7346f2039d3"
+    },
+    {
+      "path": "data_cell_3_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6590611fe7f55025b6f11975547293c181d7b5a",
+      "size": 94724,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/c6590611fe7f55025b6f11975547293c181d7b5a"
+    },
+    {
+      "path": "data_cell_4_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aec05813338f0479b3ab9c745584c4e16cd721fd",
+      "size": 336117,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/aec05813338f0479b3ab9c745584c4e16cd721fd"
+    },
+    {
+      "path": "data_cell_4_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a645a57b515d8fe6754a13325291c019e029dc",
+      "size": 72744,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/60a645a57b515d8fe6754a13325291c019e029dc"
+    },
+    {
+      "path": "data_cell_5_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48f21589ad42522788cdf2ab40bebbd3fb114f0c",
+      "size": 854954,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/48f21589ad42522788cdf2ab40bebbd3fb114f0c"
+    },
+    {
+      "path": "data_cell_5_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8485140668fcd246c8e5ffc1041d1bdc7459224",
+      "size": 95282,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/f8485140668fcd246c8e5ffc1041d1bdc7459224"
+    },
+    {
+      "path": "data_cell_6_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8522cf6e569a55288cad565cbaaac9ee10c797c",
+      "size": 876159,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/f8522cf6e569a55288cad565cbaaac9ee10c797c"
+    },
+    {
+      "path": "data_cell_6_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dec7466b9fb28f661849a6fae4cb519c6663b1ef",
+      "size": 57149,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/dec7466b9fb28f661849a6fae4cb519c6663b1ef"
+    },
+    {
+      "path": "data_cell_7_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbc18ce67a5b19043a950f08385cea139764d423",
+      "size": 528022,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/dbc18ce67a5b19043a950f08385cea139764d423"
+    },
+    {
+      "path": "data_cell_7_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f0dd171d2382e14c4609649fef3ab6b562e3a7",
+      "size": 68852,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/45f0dd171d2382e14c4609649fef3ab6b562e3a7"
+    },
+    {
+      "path": "data_cell_8_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f495886c63d7b17b4179dc36f2eb20e3722c71c",
+      "size": 590634,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/1f495886c63d7b17b4179dc36f2eb20e3722c71c"
+    },
+    {
+      "path": "data_cell_8_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3be1975824affdc0b53f2b1d67f7c9b34a83061",
+      "size": 137479,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/c3be1975824affdc0b53f2b1d67f7c9b34a83061"
+    },
+    {
+      "path": "data_cell_9_all.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4f1ba2db2284ac15b5ccada9b1360982d48de32",
+      "size": 793358,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/e4f1ba2db2284ac15b5ccada9b1360982d48de32"
+    },
+    {
+      "path": "data_cell_9_spfr.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bd8ae6a382dc2cdb74b347ed42a849c34f37041",
+      "size": 120402,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/3bd8ae6a382dc2cdb74b347ed42a849c34f37041"
+    },
+    {
+      "path": "optimize_model.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "154cde0f056bbe2048ae233f0ef511d807643148",
+      "size": 8326,
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/blobs/154cde0f056bbe2048ae233f0ef511d807643148"
+    }
+  ],
+  "truncated": false
+}

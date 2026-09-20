@@ -1,0 +1,470 @@
+{
+  "fly_held_out_possible": false,
+  "conditional_author_localization": true,
+  "entries": [
+    {
+      "recording": 1,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_01_train.npz",
+      "sha256": "5abd872196ad6295333c1d45f3614d8fd11895d780822503a848848abf74e2c6",
+      "traces": 48,
+      "samples": 7250,
+      "families": {
+        "flash": 48
+      }
+    },
+    {
+      "recording": 1,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_01_test.npz",
+      "sha256": "c80354a3c236be5412fd90ebe631837cb905cc4cc7847cbdf9e2fb99a799560f",
+      "traces": 167,
+      "samples": 48956,
+      "families": {
+        "moving_bar": 18,
+        "flash": 64,
+        "apparent_motion": 85
+      }
+    },
+    {
+      "recording": 2,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_02_train.npz",
+      "sha256": "3d861df41f69881d1348ea8122219688f14a8b704bf7e823caecb09d7ef8627c",
+      "traces": 58,
+      "samples": 8817,
+      "families": {
+        "flash": 58
+      }
+    },
+    {
+      "recording": 2,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_02_test.npz",
+      "sha256": "747450eb1c1a69d08e0ff04c224f5a3cc315d8e4bc6d314dd1f33a8e73b31b13",
+      "traces": 233,
+      "samples": 86898,
+      "families": {
+        "moving_bar": 24,
+        "static_grating": 16,
+        "flash": 62,
+        "apparent_motion": 115,
+        "drifting_grating": 16
+      }
+    },
+    {
+      "recording": 3,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_03_train.npz",
+      "sha256": "14f7b6a39a3c100f7b3d8789ff8b44fe7567d6502b3011a716cc9ab82532e452",
+      "traces": 54,
+      "samples": 8196,
+      "families": {
+        "flash": 54
+      }
+    },
+    {
+      "recording": 3,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_03_test.npz",
+      "sha256": "936145c57da4137a339aef1e0678c86d04e85e1e1b1f11005cd6342fe3214d9e",
+      "traces": 149,
+      "samples": 46075,
+      "families": {
+        "moving_bar": 24,
+        "flash": 60,
+        "apparent_motion": 65
+      }
+    },
+    {
+      "recording": 4,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_04_train.npz",
+      "sha256": "e8d849c50f9863372a143d3fa4f1f1128808eb38fd5018687284726166a4a8d2",
+      "traces": 48,
+      "samples": 7262,
+      "families": {
+        "flash": 48
+      }
+    },
+    {
+      "recording": 4,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_04_test.npz",
+      "sha256": "d1cf80205acad33eb30cb086c42a79ce157253dcf0fa4e2854560e537c035a75",
+      "traces": 100,
+      "samples": 27521,
+      "families": {
+        "moving_bar": 6,
+        "flash": 52,
+        "apparent_motion": 42
+      }
+    },
+    {
+      "recording": 5,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_05_train.npz",
+      "sha256": "54f4306d87cde8126aa79b4a01479601a6cd357c38dfd276bff619e968a30cc0",
+      "traces": 54,
+      "samples": 8230,
+      "families": {
+        "flash": 54
+      }
+    },
+    {
+      "recording": 5,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_05_test.npz",
+      "sha256": "cbfa9d8314b079dc9885677abb0b77d0526b76330609304721e5f79a0eec0f1d",
+      "traces": 215,
+      "samples": 81191,
+      "families": {
+        "moving_bar": 18,
+        "static_grating": 16,
+        "flash": 60,
+        "apparent_motion": 113,
+        "drifting_grating": 8
+      }
+    },
+    {
+      "recording": 6,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_06_train.npz",
+      "sha256": "9571fea82e1b00db95e25a5fcda147d0326db6707892472b1ca72dacefad8fdf",
+      "traces": 28,
+      "samples": 4364,
+      "families": {
+        "flash": 28
+      }
+    },
+    {
+      "recording": 6,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_06_test.npz",
+      "sha256": "6b5a12dce1791cae1a90636ab88443f76c8c099365dd583f8f125176e33562a8",
+      "traces": 190,
+      "samples": 87622,
+      "families": {
+        "moving_bar": 18,
+        "static_grating": 16,
+        "flash": 34,
+        "apparent_motion": 114,
+        "drifting_grating": 8
+      }
+    },
+    {
+      "recording": 7,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_07_train.npz",
+      "sha256": "ae64b8ec6c3a24b6b7e0e525e34897135101c666fd629b7286d0c85c5c7e246e",
+      "traces": 24,
+      "samples": 3748,
+      "families": {
+        "flash": 24
+      }
+    },
+    {
+      "recording": 7,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_07_test.npz",
+      "sha256": "edf7445eec92ff3d3707a9f47df566c77d512dd6e6f1936d5ed161b9c15f4841",
+      "traces": 144,
+      "samples": 51404,
+      "families": {
+        "moving_bar": 18,
+        "static_grating": 16,
+        "flash": 46,
+        "apparent_motion": 56,
+        "drifting_grating": 8
+      }
+    },
+    {
+      "recording": 8,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_08_train.npz",
+      "sha256": "a8ad3e58e1d5c99405f7f4cbb8d0656d72ffd57cdc9d6f8139e073a0aa8b18fb",
+      "traces": 32,
+      "samples": 7581,
+      "families": {
+        "flash": 32
+      }
+    },
+    {
+      "recording": 8,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_08_test.npz",
+      "sha256": "15caaba145a40fd0b3d60d09b977d90f89e9a611249b25d40c6639ea89594eea",
+      "traces": 138,
+      "samples": 54944,
+      "families": {
+        "moving_bar": 18,
+        "flash": 28,
+        "apparent_motion": 92
+      }
+    },
+    {
+      "recording": 9,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_09_train.npz",
+      "sha256": "99d4a4f970fe2734e67f715d45c5639db4982138257eaa66303cc7950006368d",
+      "traces": 28,
+      "samples": 6628,
+      "families": {
+        "flash": 28
+      }
+    },
+    {
+      "recording": 9,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_09_test.npz",
+      "sha256": "5aecd16c401f3f6a28959315784082fa53c19cb3d5eb238f2a8269a358a9c548",
+      "traces": 181,
+      "samples": 76225,
+      "families": {
+        "moving_bar": 14,
+        "static_grating": 16,
+        "flash": 33,
+        "apparent_motion": 110,
+        "drifting_grating": 8
+      }
+    },
+    {
+      "recording": 10,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_10_train.npz",
+      "sha256": "634cd8b044dd91aa1689f8645869af9422702d6aafe6c189a51261b1e5ce7c61",
+      "traces": 28,
+      "samples": 6649,
+      "families": {
+        "flash": 28
+      }
+    },
+    {
+      "recording": 10,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_10_test.npz",
+      "sha256": "17c33edbd22667eb701e64fb562f58f7e106e20b2e49fe40f2121ae4fda9af0b",
+      "traces": 179,
+      "samples": 68951,
+      "families": {
+        "moving_bar": 16,
+        "static_grating": 16,
+        "flash": 33,
+        "apparent_motion": 106,
+        "drifting_grating": 8
+      }
+    },
+    {
+      "recording": 11,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_11_train.npz",
+      "sha256": "c656de851309e026b330bada5b92f5a32739f7492b9e51c05738882631e9e878",
+      "traces": 34,
+      "samples": 8079,
+      "families": {
+        "flash": 34
+      }
+    },
+    {
+      "recording": 11,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_11_test.npz",
+      "sha256": "03e0cf16f115542395aa8256744b1afd7277e708f5de8b769b99d60574a65d07",
+      "traces": 112,
+      "samples": 39301,
+      "families": {
+        "moving_bar": 6,
+        "flash": 28,
+        "apparent_motion": 78
+      }
+    },
+    {
+      "recording": 12,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_12_train.npz",
+      "sha256": "e858e1cce9e238d20061877285270b14d68b4e02d4166a8b89bef7a8d8dd3921",
+      "traces": 32,
+      "samples": 7583,
+      "families": {
+        "flash": 32
+      }
+    },
+    {
+      "recording": 12,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_12_test.npz",
+      "sha256": "31f28a48a8b75d6876d423b8f8028f224e9a64e5afa0d05fa5dc7994b3440184",
+      "traces": 141,
+      "samples": 49180,
+      "families": {
+        "moving_bar": 16,
+        "flash": 39,
+        "apparent_motion": 86
+      }
+    },
+    {
+      "recording": 13,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_13_train.npz",
+      "sha256": "2c502326a80931db7295b3da662d5d5ecc04b3b66be0bc3cf81d6bcf2f3c0374",
+      "traces": 32,
+      "samples": 7570,
+      "families": {
+        "flash": 32
+      }
+    },
+    {
+      "recording": 13,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_13_test.npz",
+      "sha256": "f946d5635bd50c917141b3adb96f3542f24d6bf5e67a4089bda50a688d0e0790",
+      "traces": 175,
+      "samples": 65068,
+      "families": {
+        "moving_bar": 16,
+        "static_grating": 16,
+        "flash": 54,
+        "apparent_motion": 81,
+        "drifting_grating": 8
+      }
+    },
+    {
+      "recording": 14,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_14_train.npz",
+      "sha256": "6d4c793fd526f3786fb4a921455c3bbeec0c27945a5c9c8b6eff68bd04ccbc2c",
+      "traces": 32,
+      "samples": 7577,
+      "families": {
+        "flash": 32
+      }
+    },
+    {
+      "recording": 14,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_14_test.npz",
+      "sha256": "38e2f983d7a8c89839a52ece044f45e1abcbca626dded753dec31d0185445de1",
+      "traces": 185,
+      "samples": 69566,
+      "families": {
+        "moving_bar": 16,
+        "static_grating": 16,
+        "flash": 50,
+        "apparent_motion": 95,
+        "drifting_grating": 8
+      }
+    },
+    {
+      "recording": 15,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_15_train.npz",
+      "sha256": "4197345e313121d9c3776da9ebe6d5287ceac15d95e2bc831858340c1d5e886d",
+      "traces": 24,
+      "samples": 5709,
+      "families": {
+        "flash": 24
+      }
+    },
+    {
+      "recording": 15,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_15_test.npz",
+      "sha256": "a8b30fb0b07178dcf94d8e42dab96739c53c438173f2ecd22f61af56468f5269",
+      "traces": 172,
+      "samples": 68498,
+      "families": {
+        "moving_bar": 12,
+        "static_grating": 16,
+        "flash": 20,
+        "apparent_motion": 116,
+        "drifting_grating": 8
+      }
+    },
+    {
+      "recording": 16,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_16_train.npz",
+      "sha256": "a59dfeb2dfe9b0a27649665142ed654654463600cf087b67c3067a48fc48e84e",
+      "traces": 42,
+      "samples": 9963,
+      "families": {
+        "flash": 42
+      }
+    },
+    {
+      "recording": 16,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_16_test.npz",
+      "sha256": "a0f58bc8bf55bd35d9f878a6e46180dbc158c00f8c9cd82217fdf590c4a55227",
+      "traces": 223,
+      "samples": 84297,
+      "families": {
+        "moving_bar": 16,
+        "static_grating": 16,
+        "flash": 54,
+        "apparent_motion": 129,
+        "drifting_grating": 8
+      }
+    },
+    {
+      "recording": 17,
+      "fly_id": null,
+      "split": "train",
+      "path": "processed/cell_17_train.npz",
+      "sha256": "1d01f9563da7ce86d22969a3399732140c71b153e51b9e7fc9c86922c7a70618",
+      "traces": 37,
+      "samples": 9175,
+      "families": {
+        "flash": 37
+      }
+    },
+    {
+      "recording": 17,
+      "fly_id": null,
+      "split": "test",
+      "path": "processed/cell_17_test.npz",
+      "sha256": "d582edaec239bf99cb1200070419f3d921c28d6dd1717523424d39adb311a5e6",
+      "traces": 232,
+      "samples": 88531,
+      "families": {
+        "moving_bar": 12,
+        "static_grating": 16,
+        "flash": 46,
+        "apparent_motion": 150,
+        "drifting_grating": 8
+      }
+    }
+  ]
+}

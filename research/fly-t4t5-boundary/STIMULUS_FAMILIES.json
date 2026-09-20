@@ -1,0 +1,16 @@
+{
+  "coordinate_units": "source display pixels; no inferred anatomical-column or retinal-degree equivalence",
+  "time_units": "milliseconds from physical stimulus onset",
+  "response_units": "baseline-subtracted somatic mV",
+  "families": [
+    {"id":"flash","source":"2019 compact T5 and 2021 direct T4/T5","physical_definition":"stationary contiguous bar; specified position, width, contrast and duration","2019_role":"width 2 training; other widths held out","2021_role":"descriptive polarity/RF extraction only"},
+    {"id":"apparent_motion","source":"2019 compact T5","physical_definition":"two specified bars with independent onset/offset; overlap is union, never double luminance","role":"held-out family","sample_interval_ms":2.5},
+    {"id":"moving_bar","source":"2019 compact T5","physical_definition":"sequential physical display positions, width, frame duration and source direction code","role":"held-out family","sample_interval_ms":5},
+    {"id":"static_grating","source":"2019 compact T5","physical_definition":"source dark-pixel pattern, phase and duration","role":"held-out family in 11 recordings","sample_interval_ms":2.5},
+    {"id":"drifting_grating","source":"2019 compact T5","physical_definition":"source phase sequence and step duration; original operator indices 0 through 24","role":"held-out family in 11 recordings; no Stage-4 values","sample_interval_ms":2.5},
+    {"id":"sparse_bar_calcium","source":"Dryad/DANDI direct dataset identified","physical_definition":"sparsity/polarity/velocity families described by source","role":"not quantitatively processed; no equivalent-assay substitution"},
+    {"id":"isolated_anatomical_column_flicker","source":null,"physical_definition":null,"role":"not identified; isolated display bar is not a proven anatomical-column stimulus"}
+  ],
+  "hidden_answer_inputs": [],
+  "LPLC2_or_Stage4_stimuli": []
+}

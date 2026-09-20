@@ -1,0 +1,10 @@
+{
+  "archive": "data/Figure2.zip",
+  "bytes": 6320065220,
+  "published_md5": "cabf1b1c6d0ef4af200d41256e2835cf",
+  "sha256": "834f818999ae6584f038c54e050919b14dd831e6aac906d26d3bab7709eb9854",
+  "whole_archive_verified": true,
+  "redundant_transport_bytes_removed_after_validation": 5922286276,
+  "original_T5_2019_archive_partial_not_used": true,
+  "wall_seconds": 39.23303274999489
+}

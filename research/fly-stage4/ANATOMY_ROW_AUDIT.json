@@ -1,0 +1,19 @@
+{
+  "all_anatomical_rows_match": true,
+  "comparisons": [
+    {
+      "all_induced_source_rows_exactly_match": true,
+      "contacts": 15559,
+      "level": "L0",
+      "rows": 6612
+    },
+    {
+      "all_induced_source_rows_exactly_match": true,
+      "contacts": 19896,
+      "level": "L1",
+      "rows": 7889
+    }
+  ],
+  "source_cache_manifest_sha256": "62d216f1071114ec2a3fd44181105c32d9dd8c60ee0c713012dba52b84969e8f",
+  "source_contacts_sha256": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf"
+}

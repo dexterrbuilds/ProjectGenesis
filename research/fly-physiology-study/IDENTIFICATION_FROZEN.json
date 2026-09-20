@@ -1,0 +1,539 @@
+{
+  "target_remaining": 0.09999999999999998,
+  "effective_integrated_depression": 2.302585092994046,
+  "remaining_approx_t95": [
+    0.0,
+    0.20272846889231852
+  ],
+  "integrated_depression_approx_t95": [
+    1.5958877869780534,
+    null
+  ],
+  "null_upper_means": "unbounded; published small-sample interval reaches zero remaining current",
+  "joint_parameter_jacobian_rank": 1,
+  "joint_parameter_count": 2,
+  "equally_fitting_eta_range": [
+    0.0001,
+    10.0
+  ],
+  "eta_range_is": "illustrative computational profile, not a biological confidence interval",
+  "maximum_prediction_residual": 4.163336342344337e-17,
+  "equivalence_profile": [
+    {
+      "eta": 0.0001,
+      "unmeasured_exposure": 23025.850929940458,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0001122018454301963,
+      "unmeasured_exposure": 20521.811242637217,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00012589254117941674,
+      "unmeasured_exposure": 18290.08352220406,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0001412537544622754,
+      "unmeasured_exposure": 16301.054097708933,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00015848931924611142,
+      "unmeasured_exposure": 14528.329757152014,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00017782794100389227,
+      "unmeasured_exposure": 12948.38752557815,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00019952623149688788,
+      "unmeasured_exposure": 11540.26252949082,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.000223872113856834,
+      "unmeasured_exposure": 10285.269805718397,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00025118864315095795,
+      "unmeasured_exposure": 9166.756363305212,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0002818382931264455,
+      "unmeasured_exposure": 8169.880208439246,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00031622776601683794,
+      "unmeasured_exposure": 7281.413400211802,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0003548133892335753,
+      "unmeasured_exposure": 6489.566523878397,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00039810717055349735,
+      "unmeasured_exposure": 5783.832252487967,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00044668359215096305,
+      "unmeasured_exposure": 5154.845921038117,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0005011872336272725,
+      "unmeasured_exposure": 4594.261263060131,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0005623413251903491,
+      "unmeasured_exposure": 4094.63966073387,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.000630957344480193,
+      "unmeasured_exposure": 3649.351438948705,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.000707945784384138,
+      "unmeasured_exposure": 3252.4878935427655,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0007943282347242813,
+      "unmeasured_exposure": 2898.7828863886407,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0008912509381337459,
+      "unmeasured_exposure": 2583.542966939921,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.001,
+      "unmeasured_exposure": 2302.5850929940457,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.001122018454301963,
+      "unmeasured_exposure": 2052.181124263722,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0012589254117941675,
+      "unmeasured_exposure": 1829.0083522204056,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0014125375446227555,
+      "unmeasured_exposure": 1630.1054097708916,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.001584893192461114,
+      "unmeasured_exposure": 1452.8329757152014,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0017782794100389228,
+      "unmeasured_exposure": 1294.838752557815,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.001995262314968879,
+      "unmeasured_exposure": 1154.0262529490817,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00223872113856834,
+      "unmeasured_exposure": 1028.5269805718397,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.002511886431509582,
+      "unmeasured_exposure": 916.6756363305202,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.002818382931264455,
+      "unmeasured_exposure": 816.9880208439247,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0031622776601683794,
+      "unmeasured_exposure": 728.1413400211801,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0035481338923357532,
+      "unmeasured_exposure": 648.9566523878397,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.003981071705534973,
+      "unmeasured_exposure": 578.3832252487967,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.004466835921509635,
+      "unmeasured_exposure": 515.4845921038112,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.005011872336272725,
+      "unmeasured_exposure": 459.42612630601315,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.005623413251903491,
+      "unmeasured_exposure": 409.463966073387,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00630957344480193,
+      "unmeasured_exposure": 364.93514389487046,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00707945784384138,
+      "unmeasured_exposure": 325.24878935427654,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.00794328234724282,
+      "unmeasured_exposure": 289.8782886388638,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.008912509381337459,
+      "unmeasured_exposure": 258.3542966939921,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.01,
+      "unmeasured_exposure": 230.25850929940458,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.01122018454301964,
+      "unmeasured_exposure": 205.218112426372,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.012589254117941675,
+      "unmeasured_exposure": 182.90083522204057,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.01412537544622754,
+      "unmeasured_exposure": 163.01054097708933,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.01584893192461114,
+      "unmeasured_exposure": 145.28329757152014,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.01778279410038923,
+      "unmeasured_exposure": 129.4838752557815,
+      "predicted_remaining": 0.09999999999999994
+    },
+    {
+      "eta": 0.01995262314968881,
+      "unmeasured_exposure": 115.40262529490806,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0223872113856834,
+      "unmeasured_exposure": 102.85269805718397,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.025118864315095822,
+      "unmeasured_exposure": 91.66756363305203,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.02818382931264455,
+      "unmeasured_exposure": 81.69880208439247,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.03162277660168379,
+      "unmeasured_exposure": 72.81413400211802,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.035481338923357565,
+      "unmeasured_exposure": 64.8956652387839,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.039810717055349734,
+      "unmeasured_exposure": 57.83832252487967,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.04466835921509635,
+      "unmeasured_exposure": 51.548459210381125,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.05011872336272725,
+      "unmeasured_exposure": 45.94261263060131,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.05623413251903491,
+      "unmeasured_exposure": 40.9463966073387,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.06309573444801936,
+      "unmeasured_exposure": 36.49351438948701,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.0707945784384138,
+      "unmeasured_exposure": 32.52487893542766,
+      "predicted_remaining": 0.09999999999999994
+    },
+    {
+      "eta": 0.07943282347242822,
+      "unmeasured_exposure": 28.987828863886374,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.08912509381337459,
+      "unmeasured_exposure": 25.83542966939921,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.1,
+      "unmeasured_exposure": 23.025850929940457,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.11220184543019641,
+      "unmeasured_exposure": 20.5218112426372,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.12589254117941676,
+      "unmeasured_exposure": 18.290083522204057,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.14125375446227553,
+      "unmeasured_exposure": 16.301054097708917,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.15848931924611143,
+      "unmeasured_exposure": 14.528329757152013,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.1778279410038923,
+      "unmeasured_exposure": 12.948387525578148,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.19952623149688808,
+      "unmeasured_exposure": 11.540262529490807,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.223872113856834,
+      "unmeasured_exposure": 10.285269805718396,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.25118864315095824,
+      "unmeasured_exposure": 9.166756363305202,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.2818382931264455,
+      "unmeasured_exposure": 8.169880208439247,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.31622776601683794,
+      "unmeasured_exposure": 7.281413400211801,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.3548133892335757,
+      "unmeasured_exposure": 6.4895665238783895,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.3981071705534973,
+      "unmeasured_exposure": 5.783832252487968,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.4466835921509635,
+      "unmeasured_exposure": 5.154845921038112,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.5011872336272725,
+      "unmeasured_exposure": 4.594261263060131,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.5623413251903491,
+      "unmeasured_exposure": 4.09463966073387,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.6309573444801936,
+      "unmeasured_exposure": 3.649351438948701,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.707945784384138,
+      "unmeasured_exposure": 3.2524878935427655,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.7943282347242822,
+      "unmeasured_exposure": 2.898782886388638,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 0.8912509381337459,
+      "unmeasured_exposure": 2.583542966939921,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 1.0,
+      "unmeasured_exposure": 2.302585092994046,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 1.122018454301963,
+      "unmeasured_exposure": 2.052181124263722,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 1.2589254117941688,
+      "unmeasured_exposure": 1.8290083522204037,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 1.4125375446227555,
+      "unmeasured_exposure": 1.6301054097708916,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 1.584893192461114,
+      "unmeasured_exposure": 1.4528329757152014,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 1.7782794100389228,
+      "unmeasured_exposure": 1.2948387525578149,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 1.9952623149688788,
+      "unmeasured_exposure": 1.154026252949082,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 2.2387211385683425,
+      "unmeasured_exposure": 1.0285269805718384,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 2.5118864315095824,
+      "unmeasured_exposure": 0.9166756363305202,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 2.818382931264455,
+      "unmeasured_exposure": 0.8169880208439246,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 3.1622776601683795,
+      "unmeasured_exposure": 0.7281413400211801,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 3.5481338923357533,
+      "unmeasured_exposure": 0.6489566523878396,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 3.9810717055349776,
+      "unmeasured_exposure": 0.5783832252487962,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 4.4668359215096345,
+      "unmeasured_exposure": 0.5154845921038113,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 5.011872336272725,
+      "unmeasured_exposure": 0.45942612630601315,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 5.623413251903491,
+      "unmeasured_exposure": 0.409463966073387,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 6.309573444801943,
+      "unmeasured_exposure": 0.3649351438948697,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 7.0794578438413875,
+      "unmeasured_exposure": 0.3252487893542762,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 7.943282347242821,
+      "unmeasured_exposure": 0.2898782886388638,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 8.91250938133746,
+      "unmeasured_exposure": 0.25835429669399207,
+      "predicted_remaining": 0.09999999999999998
+    },
+    {
+      "eta": 10.0,
+      "unmeasured_exposure": 0.23025850929940458,
+      "predicted_remaining": 0.09999999999999998
+    }
+  ],
+  "floor_identifiability": "With max(f, exp(-H)), any f <= observed remaining fits; f equal to remaining censors arbitrarily larger H.",
+  "held_out_validation": "unavailable: one aggregate endpoint, no independent trial series or calibrated current-to-spike mapping",
+  "neural_parameters_identified": [],
+  "stage_parameter_changes": {},
+  "source_hashes": {
+    "data/hige-target.json": "5dd39c59e437c5f52c6b84540f6ead1e37685b172547b404615ee297b934cc4b",
+    "identify.py": "c10773153cb77a6e3b3c25e7d3ea0535068eb2f59412235cc3830bbcac08d4a3",
+    "HIGE_IDENTIFICATION_PLAN.md": "b7553a01702c89b5473b683b602092a9de1db04590ad5d3cae23171871c72f54"
+  },
+  "wall_seconds": 0.004745207988889888,
+  "peak_process_rss_bytes": 86786048
+}

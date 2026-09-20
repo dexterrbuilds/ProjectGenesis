@@ -1,0 +1,18 @@
+{
+  "arm": "null-transfer, unchanged physiological assumptions",
+  "transfer_sha256": "bd78ed0380943094ee0786fc2d6422f2dd4d1f54bc8c5c8a75df47b1b5a532f3",
+  "stage": 1,
+  "cue": "B",
+  "body": null,
+  "source_hashes": {
+    "research/fly-stage1/model.py": "10d87bffc9ecc7ede109ca267f07d32cefcefb64ed04ae631cc89a7f900dba2c",
+    "research/fly-stage1/experiment.py": "a544f105793b782ab95bf87c111d40f3db8a42330dc48e8a4016463a6b9a348b",
+    "research/fly-stage1/PLAN.md": "b52284217e113e6fb4f8b8449db90f5f31cc2806dc095ce27962197de5d80945"
+  },
+  "worker_sha256": "a5e168cc29e47a1e54f8267cf3928735db9bc19955b83ed77df59e68a2bfbd11",
+  "manifest": "c5c332c1bd0ce77487ad5765756a58dc441d50f59dc56899a462bf35e4b2a157",
+  "wall_seconds": 9.969243833998917,
+  "peak_process_rss_bytes": 341360640,
+  "python": "3.12.14",
+  "calibrated_prediction": false
+}

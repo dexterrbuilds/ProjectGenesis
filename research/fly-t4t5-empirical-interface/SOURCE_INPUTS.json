@@ -1,0 +1,23 @@
+{
+  "research/fly-t4t5-boundary/T4_POLARITY_MEASUREMENTS.json": "5631b2c0d10dc115debf96d008c2cc02f1d21b61ad948135d442a1ee940aff87",
+  "research/fly-t4t5-boundary/T4_POLARITY_TRACES.npz": "9a477dc05bec2e62efb0ab23840ef6ef07a1017a694c35e4dd963415bd37dbb2",
+  "research/fly-t4t5-boundary/T5_POLARITY_MEASUREMENTS.json": "e5ae75d281325257eb4c2e7aefd7213cc02a951d58a0db94f65b4b7b6e01e3e6",
+  "research/fly-t4t5-boundary/T5_POLARITY_TRACES.npz": "bdb1d5342a07f8e0a7a7c3891e88ccc9965da9a0f5e8725af4d972c14a9bbdaf",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_1_all.mat": "0ff3d06d7c4186db0a053b294d5652b973f615368f1eeccb8b8ad9aa4cb387fb",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_2_all.mat": "f9bbf7ca292d970d0d4b854832750855820093c68d5d5694fbcfa4a6aaa47767",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_3_all.mat": "7cc7caece72ca9de8ba534fc81e2bf2545b3bfc751a355baee552c993f4f2a47",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_4_all.mat": "10e372b2371d96d29243380e98256ce6a9d34b39d68e2aa1465a902843f86095",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_5_all.mat": "e89474ac9b519068f575d80b8f59f1df42a5f788a3f3c9b7fd4e0ed7a4435aac",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_6_all.mat": "6387a2ddcec94fc0b0dc6419722a9eaa89991704da4845ef623288dc8fa3beaf",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_7_all.mat": "c27e3d99fc0b715b005b2ddce4a405e38f36b81f21222afbfcf2eda8235de8f1",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_8_all.mat": "ad33f097c46b821eb46d2f59f5ad6e2fd7ff61b7d8f55d1da574a8252d0ffa3e",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_9_all.mat": "c8f526270e0c941027255b0064898f108337487591a3d14930352eee1080ccb2",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_10_all.mat": "f4f0386b782de0c0510229fe775a391bfbc0961b38958b6a68da2edbf0ffbb59",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_11_all.mat": "07bcc7a3370f817d8be1fb3f9127c118608ba9d688bd8d6943b54390ccab35dc",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_12_all.mat": "ec24f2841207eef04d80614e91791da52b8fe6699b990dd9f5bb8b28f1577314",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_13_all.mat": "aefbab728ab065ce5d27f960dbedf5d6827109520e69c74bc4339f5b4f726fca",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_14_all.mat": "327cd9cd51706781f8a5dbe507f3b17afbfe56896b4f54a2f129c88f94eb2e53",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_15_all.mat": "69ef28202eef328b40686f02cdb7136e5d8ada0bceeb6c42ac9bfe199caac28a",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_16_all.mat": "3243c7d43b8f0354a911c8359bfab514d3303cce4a18a8edf1d003fecdc51f42",
+  "research/fly-t4t5-boundary/data/t5-compact/data_cell_17_all.mat": "71032bc5ddc6f93d4bc80b6556d89e930de508635422be2b64880561334062c4"
+}

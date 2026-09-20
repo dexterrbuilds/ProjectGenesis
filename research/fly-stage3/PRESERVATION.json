@@ -1,0 +1,64 @@
+{
+  "frozen_file_count": 1025,
+  "all_frozen_files_unchanged": true,
+  "changed_files": [],
+  "canonical_before": {
+    "sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+    "tableRowCounts": {
+      "genesis_decisions": 7,
+      "genesis_external_observations": 0,
+      "genesis_ledger": 4,
+      "genesis_memories": 7,
+      "genesis_migrations": 2,
+      "genesis_milestones": 4,
+      "genesis_organisms": 1,
+      "genesis_projects": 1,
+      "genesis_schedule": 1
+    }
+  },
+  "canonical_after": {
+    "sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+    "tableRowCounts": {
+      "genesis_decisions": 7,
+      "genesis_external_observations": 0,
+      "genesis_ledger": 4,
+      "genesis_memories": 7,
+      "genesis_migrations": 2,
+      "genesis_milestones": 4,
+      "genesis_organisms": 1,
+      "genesis_projects": 1,
+      "genesis_schedule": 1
+    }
+  },
+  "tests": {
+    "stage1": {
+      "tests": 10,
+      "passed": true
+    },
+    "stage2": {
+      "tests": 9,
+      "passed": true
+    },
+    "stage3": {
+      "tests": 11,
+      "passed": true
+    }
+  },
+  "prior_stage_reproductions": {
+    "stage1": {
+      "trained_hash": "0f2f9793e7bb6e12d129b2b3ef570e75f8f64ae144bfac768b476b9a1da775c0",
+      "replay_exact": true,
+      "restoration_exact": true
+    },
+    "stage2": {
+      "trained_hash": "a6e5d07119335b6a78ebeafef7a266e63e667ac6490745d904c73502d0f029d2",
+      "replay_exact": true,
+      "restoration_exact": true
+    }
+  },
+  "stage1_classification": "PASS",
+  "stage2_classification": "PARTIAL-INCONCLUSIVE",
+  "stage3_classification": "PARTIAL-INCONCLUSIVE",
+  "canonical_cycles_run": 0,
+  "integration_performed": false
+}

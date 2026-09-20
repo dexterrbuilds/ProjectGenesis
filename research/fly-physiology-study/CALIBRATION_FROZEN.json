@@ -1,0 +1,56 @@
+{
+  "target": "APL two-site calcium response transfer; not membrane/synaptic physiology",
+  "local_transfer": [
+    0.016511021420303938,
+    0.003214295105607715
+  ],
+  "unbounded_transfer": [
+    0.016511021420303938,
+    0.003214295105607715
+  ],
+  "recording_bootstrap_95pct_unbounded": [
+    [
+      -0.002379702365141444,
+      0.04636722202938443
+    ],
+    [
+      -0.009810694086116204,
+      0.021819487617449403
+    ]
+  ],
+  "bootstrap_warning": "conditional recording-resampling interval; unknown fly clustering and noisy x",
+  "point_site_gain_ratio": 0.8827284625264817,
+  "train_mse": {
+    "local": 0.004163212449560887,
+    "point_equal_gain": 7.523911418257633,
+    "point_free_site_gain": 7.29207492241419
+  },
+  "source_rows": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    14
+  ],
+  "objective": "unweighted squared error of off-site deltaF/F, conditional on on-site response",
+  "bounds": {
+    "local_coefficients": [
+      0,
+      1
+    ],
+    "log_site_gain": [
+      -10,
+      10
+    ]
+  },
+  "source_hashes": {
+    "calibrate.py": "a13c53aa52a9b33deb3e5e05a636f85605ff7be3dd48ce2147628da764aa6cc2",
+    "PLAN.md": "78bfb7d421931364fdfaac034b9e3ce7ed1c62d424cfb147c6cc3958d9adf2b9",
+    "data/apl-train.json": "c7ee46d92dff6a9e36f144da94b30a0d28f9838ac27f03c5dca8a75778f059de",
+    "data/PROVENANCE.json": "e2d2fbb6750b0d5ce0525d37b4857037db1e8c9fc64f99287db4044c4477ec49"
+  },
+  "neural_kernel_supported": false,
+  "stage_parameter_changes": {},
+  "transfer_rejection": "Spatial fluorescence mixing does not identify APL-to-KC conductance, membrane time constants, contact normalization, DA dose, or a one-state APL kernel."
+}

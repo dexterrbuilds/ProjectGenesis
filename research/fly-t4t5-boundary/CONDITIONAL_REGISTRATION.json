@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-09-19T15:27:39.937746+00:00",
+  "protocol_sha256": "f6071d178c1dfadb716a6bf82e6cc247a229ae18a335ebdfca45394bd164dd39",
+  "response_values_inspected": false,
+  "fly_grouping": "unknown",
+  "scope": "conditional within-recording prediction; not fly validation",
+  "stage4_or_lplc2_fitting_inputs": false
+}

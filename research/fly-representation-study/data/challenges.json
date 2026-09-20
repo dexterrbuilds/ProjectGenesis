@@ -1,0 +1,247 @@
+{
+  "apl": [
+    {
+      "driver": "853",
+      "source_row": 3,
+      "alpha": 0.41882,
+      "alpha_prime": 1.06638,
+      "stimulated": "alpha_prime",
+      "on": 1.06638,
+      "off": 0.41882
+    },
+    {
+      "driver": "853",
+      "source_row": 4,
+      "alpha": 0.11922,
+      "alpha_prime": 1.45054,
+      "stimulated": "alpha_prime",
+      "on": 1.45054,
+      "off": 0.11922
+    },
+    {
+      "driver": "853",
+      "source_row": 5,
+      "alpha": 0.07866,
+      "alpha_prime": 0.74982,
+      "stimulated": "alpha_prime",
+      "on": 0.74982,
+      "off": 0.07866
+    },
+    {
+      "driver": "853",
+      "source_row": 6,
+      "alpha": 0.23594,
+      "alpha_prime": 1.72108,
+      "stimulated": "alpha_prime",
+      "on": 1.72108,
+      "off": 0.23594
+    },
+    {
+      "driver": "853",
+      "source_row": 7,
+      "alpha": 0.32248,
+      "alpha_prime": 1.03228,
+      "stimulated": "alpha_prime",
+      "on": 1.03228,
+      "off": 0.32248
+    },
+    {
+      "driver": "mb247",
+      "source_row": 3,
+      "alpha": 2.83338,
+      "alpha_prime": 0.22684,
+      "stimulated": "alpha",
+      "on": 2.83338,
+      "off": 0.22684
+    },
+    {
+      "driver": "mb247",
+      "source_row": 4,
+      "alpha": 1.41898,
+      "alpha_prime": 0.0753,
+      "stimulated": "alpha",
+      "on": 1.41898,
+      "off": 0.0753
+    },
+    {
+      "driver": "mb247",
+      "source_row": 5,
+      "alpha": 1.44294,
+      "alpha_prime": 0.02688,
+      "stimulated": "alpha",
+      "on": 1.44294,
+      "off": 0.02688
+    },
+    {
+      "driver": "mb247",
+      "source_row": 6,
+      "alpha": 0.25894,
+      "alpha_prime": 0.03968,
+      "stimulated": "alpha",
+      "on": 0.25894,
+      "off": 0.03968
+    },
+    {
+      "driver": "mb247",
+      "source_row": 7,
+      "alpha": 1.42488,
+      "alpha_prime": 0.29352,
+      "stimulated": "alpha",
+      "on": 1.42488,
+      "off": 0.29352
+    },
+    {
+      "driver": "c739",
+      "source_row": 3,
+      "alpha": 1.77702,
+      "alpha_prime": -0.1418,
+      "stimulated": "alpha",
+      "on": 1.77702,
+      "off": -0.1418
+    },
+    {
+      "driver": "c739",
+      "source_row": 4,
+      "alpha": 0.16038,
+      "alpha_prime": 0.05356,
+      "stimulated": "alpha",
+      "on": 0.16038,
+      "off": 0.05356
+    },
+    {
+      "driver": "c739",
+      "source_row": 5,
+      "alpha": 1.36532,
+      "alpha_prime": 0.33196,
+      "stimulated": "alpha",
+      "on": 1.36532,
+      "off": 0.33196
+    },
+    {
+      "driver": "c739",
+      "source_row": 6,
+      "alpha": 1.21916,
+      "alpha_prime": 0.01904,
+      "stimulated": "alpha",
+      "on": 1.21916,
+      "off": 0.01904
+    },
+    {
+      "driver": "c739",
+      "source_row": 7,
+      "alpha": 0.62686,
+      "alpha_prime": 0.17686,
+      "stimulated": "alpha",
+      "on": 0.62686,
+      "off": 0.17686
+    },
+    {
+      "driver": "np3061",
+      "source_row": 3,
+      "alpha": 0.93958,
+      "alpha_prime": 0.15526,
+      "stimulated": "alpha",
+      "on": 0.93958,
+      "off": 0.15526
+    },
+    {
+      "driver": "np3061",
+      "source_row": 4,
+      "alpha": 0.78314,
+      "alpha_prime": 0.34728,
+      "stimulated": "alpha",
+      "on": 0.78314,
+      "off": 0.34728
+    },
+    {
+      "driver": "np3061",
+      "source_row": 5,
+      "alpha": 1.8758,
+      "alpha_prime": -0.00028,
+      "stimulated": "alpha",
+      "on": 1.8758,
+      "off": -0.00028
+    },
+    {
+      "driver": "np3061",
+      "source_row": 6,
+      "alpha": 0.3023,
+      "alpha_prime": -0.0169,
+      "stimulated": "alpha",
+      "on": 0.3023,
+      "off": -0.0169
+    },
+    {
+      "driver": "np3061",
+      "source_row": 7,
+      "alpha": 0.84906,
+      "alpha_prime": 0.16974,
+      "stimulated": "alpha",
+      "on": 0.84906,
+      "off": 0.16974
+    },
+    {
+      "driver": "np3061",
+      "source_row": 8,
+      "alpha": 1.3853,
+      "alpha_prime": 0.06024,
+      "stimulated": "alpha",
+      "on": 1.3853,
+      "off": 0.06024
+    }
+  ],
+  "mbon14": [
+    {
+      "cell": "Cell 1",
+      "Vm_mV": -56.3,
+      "tau_ms": 16.41,
+      "C_pF": 22.8
+    },
+    {
+      "cell": "Cell 2",
+      "Vm_mV": -61.5,
+      "tau_ms": 17.43,
+      "C_pF": 12.07
+    },
+    {
+      "cell": "Cell 3",
+      "Vm_mV": -56.2,
+      "tau_ms": 24.58,
+      "C_pF": 21.6
+    },
+    {
+      "cell": "Cell 4",
+      "Vm_mV": -62.4,
+      "tau_ms": 9.51,
+      "C_pF": 9.37
+    }
+  ],
+  "mbon14_reported_mean": {
+    "Vm_mV": -60.6,
+    "tau_ms": 14.48,
+    "C_pF": 13.95
+  },
+  "sources": [
+    {
+      "file": "apl-fig3.xlsx",
+      "sha256": "41519125f4ce25352dd003deb723a12f6d99ed5ed3653af11f0c1a48af99707d",
+      "url": "https://cdn.elifesciences.org/articles/56954/elife-56954-fig3-data1-v2.xlsx",
+      "license": "CC-BY 4.0",
+      "attribution": "Amin et al. 2020, Figure 3I, eLife 56954"
+    },
+    {
+      "file": "mbon14-egfp.xlsx",
+      "sha256": "0d879607e7d33a1d77917989077e07095e3e6a7f86b71a59a4f520e0439f2f26",
+      "url": "https://cdn.elifesciences.org/articles/77578/elife-77578-table1-data1-v4.xlsx",
+      "license": "CC-BY 4.0",
+      "attribution": "Hafez et al. 2023, Table 1 source data 1, eLife 77578"
+    }
+  ],
+  "fit_before_extraction_sha256": "3fa008d83dcc175402e35e9967eb87cd9f956c46471767637492b1fde0030edc",
+  "negative_observations_retained": true,
+  "quality_flags": [
+    "MBON14 supplementary displayed mean does not equal mean of four displayed cells.",
+    "MBON14 supplementary cell 3 Vm/tau/C exactly matches original Table 1 cell 3; independence unresolved.",
+    "APL Figure 3 is different indicator, stimulation and region pairing from Figure 4; parameter transfer is a challenge, not assumed valid."
+  ]
+}

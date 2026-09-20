@@ -1,0 +1,7 @@
+{
+  "fresh_process_fit_exact": true,
+  "max_prediction_absolute_difference_mV": 0.0,
+  "tolerance_mV": 1e-10,
+  "wall_seconds": 5.8760490830172785,
+  "canonical_or_old_research_read": false
+}

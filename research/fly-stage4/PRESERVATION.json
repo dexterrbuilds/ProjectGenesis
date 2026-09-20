@@ -1,0 +1,17 @@
+{
+  "BrainAdapter_modified": false,
+  "audit_wall_seconds": 1.959700082996278,
+  "canonical_cycles": 7,
+  "database_sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "gate_a": "NOT SUPPORTED",
+  "gate_b": "NOT TESTED",
+  "new_canonical_cycles": 0,
+  "new_unique_reference_rows": 7889,
+  "previous_study_classifications_changed": false,
+  "protected_changes": [],
+  "protected_prior_files": 3872,
+  "registry_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "schedule_enabled": false,
+  "trials_verified": 846,
+  "valid": true
+}

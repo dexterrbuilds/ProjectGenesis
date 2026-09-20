@@ -1,0 +1,16 @@
+{
+  "cpu_seconds_this_execution": 86.524664,
+  "machine": "arm64",
+  "neural_steps": 1127310,
+  "note": "Single process; primary traces contain every rate and motion input. Other traces contain continuous target/sensory summaries, not synthesized activity.",
+  "numpy": "2.3.5",
+  "peak_rss_bytes": 188465152,
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "simulated_seconds": 5370.945,
+  "sum_trial_cpu_seconds": 64.9242350000001,
+  "sum_trial_wall_seconds": 65.50612517607806,
+  "trace_bytes": 82693478,
+  "trials": 846,
+  "wall_seconds_this_execution": 87.48846316699928
+}

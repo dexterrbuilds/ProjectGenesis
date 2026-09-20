@@ -1,0 +1,783 @@
+[
+  {
+    "stage": 1,
+    "name": "dt",
+    "value": 0.01,
+    "status": "unconstrained",
+    "note": "Numerical resolution, not physiology. Convergence is numerical evidence, not a measured 10 ms clock.",
+    "evidence": [
+      "E18"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "tau",
+    "value": 0.05,
+    "status": "unconstrained",
+    "note": "Global 50 ms rate relaxation cannot be identified from calcium decay or a different MBON14 membrane constant.",
+    "evidence": [
+      "E01",
+      "E13",
+      "E18"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "eligibility_tau",
+    "value": 0.5,
+    "status": "weakly constrained",
+    "note": "Temporal order matters. No transferable measurement identifies a single 0.5 s exponential in all compartments.",
+    "evidence": [
+      "E07",
+      "E09"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "learning_rate",
+    "value": 0.08,
+    "status": "unconstrained",
+    "note": "0.08 multiplies unknown rate, eligibility and DA scales; response depression identifies at most an integrated product.",
+    "evidence": [
+      "E07",
+      "E08",
+      "E11"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "kc_threshold",
+    "value": 0.15,
+    "status": "weakly constrained",
+    "note": "Sparse nonlinear coincidence is supported; dimensionless 0.15 is uncalibrated.",
+    "evidence": [
+      "E01",
+      "E02",
+      "E03"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "dopamine_threshold",
+    "value": 0.2,
+    "status": "unconstrained",
+    "note": "0.2 rate cutoff is not a measured receptor activation threshold.",
+    "evidence": [
+      "E07",
+      "E08",
+      "E09"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "pn_gain",
+    "value": 3.0,
+    "status": "unconstrained",
+    "note": "3 depends on rate units, artificial cue amplitude and normalization; EPSPs alone do not identify it.",
+    "evidence": [
+      "E01",
+      "E02"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "recurrent_gain",
+    "value": 0.05,
+    "status": "unconstrained",
+    "note": "0.05 is neither an experimentally measured shared conductance nor a receptor-specific gain.",
+    "evidence": [
+      "E04",
+      "E16"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "apl_gain",
+    "value": 1.0,
+    "status": "weakly constrained",
+    "note": "Inhibitory influence is supported; magnitude 1 and one scalar APL state are not. Local-response fit is non-transferable.",
+    "evidence": [
+      "E05",
+      "E06"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "fast_gain",
+    "value": 1.0,
+    "status": "unconstrained",
+    "note": "Global multiplicative scale confounded with connection gains; cannot be fitted separately without conventions and observations.",
+    "evidence": [
+      "E01",
+      "E04"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "boundary_current",
+    "value": 0.0,
+    "status": "product-boundary assumption",
+    "note": "Default zero describes unknown inputs, not measured physiological silence.",
+    "evidence": [
+      "E19"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "boundary_noise",
+    "value": 0.0,
+    "status": "product-boundary assumption",
+    "note": "Default zero; missing stochastic input distribution is not determined by omitted contact counts.",
+    "evidence": [
+      "E19"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 1,
+    "name": "min_multiplier",
+    "value": 0.1,
+    "status": "unconstrained",
+    "note": "0.1 is a hard floor, not a measured lower synaptic efficacy. Aggregate 90% depression does not identify this floor.",
+    "evidence": [
+      "E07"
+    ],
+    "source": "research/fly-stage1/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "dt",
+    "value": 0.01,
+    "status": "unconstrained",
+    "note": "Numerical resolution, not physiology. Convergence is numerical evidence, not a measured 10 ms clock.",
+    "evidence": [
+      "E18"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "tau",
+    "value": 0.05,
+    "status": "unconstrained",
+    "note": "Global 50 ms rate relaxation cannot be identified from calcium decay or a different MBON14 membrane constant.",
+    "evidence": [
+      "E01",
+      "E13",
+      "E18"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "eligibility_tau",
+    "value": 0.5,
+    "status": "weakly constrained",
+    "note": "Temporal order matters. No transferable measurement identifies a single 0.5 s exponential in all compartments.",
+    "evidence": [
+      "E07",
+      "E09"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "learning_rate",
+    "value": 0.08,
+    "status": "unconstrained",
+    "note": "0.08 multiplies unknown rate, eligibility and DA scales; response depression identifies at most an integrated product.",
+    "evidence": [
+      "E07",
+      "E08",
+      "E11"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "kc_threshold",
+    "value": 0.15,
+    "status": "weakly constrained",
+    "note": "Sparse nonlinear coincidence is supported; dimensionless 0.15 is uncalibrated.",
+    "evidence": [
+      "E01",
+      "E02",
+      "E03"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "pn_gain",
+    "value": 3.0,
+    "status": "unconstrained",
+    "note": "3 depends on rate units, artificial cue amplitude and normalization; EPSPs alone do not identify it.",
+    "evidence": [
+      "E01",
+      "E02"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "recurrent_gain",
+    "value": 0.05,
+    "status": "unconstrained",
+    "note": "0.05 is neither an experimentally measured shared conductance nor a receptor-specific gain.",
+    "evidence": [
+      "E04",
+      "E16"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "feedback_gain",
+    "value": 0.1,
+    "status": "unconstrained",
+    "note": "0.1 MBON-to-DAN scale unmeasured; type-level connectivity is not conductance.",
+    "evidence": [
+      "E11",
+      "E19"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "apl_gain",
+    "value": 1.0,
+    "status": "weakly constrained",
+    "note": "Inhibitory influence is supported; magnitude 1 and one scalar APL state are not. Local-response fit is non-transferable.",
+    "evidence": [
+      "E05",
+      "E06"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "fast_gain",
+    "value": 1.0,
+    "status": "unconstrained",
+    "note": "Global multiplicative scale confounded with connection gains; cannot be fitted separately without conventions and observations.",
+    "evidence": [
+      "E01",
+      "E04"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "recovery_tau",
+    "value": 1800.0,
+    "status": "weakly constrained",
+    "note": "Recovery over minutes/hour constrains timescale loosely; 1800 s and exponential law not identified; other odors matter.",
+    "evidence": [
+      "E11",
+      "E12"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "min_multiplier",
+    "value": 0.1,
+    "status": "unconstrained",
+    "note": "0.1 is a hard floor, not a measured lower synaptic efficacy. Aggregate 90% depression does not identify this floor.",
+    "evidence": [
+      "E07"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 2,
+    "name": "normalization",
+    "value": "all_inputs",
+    "status": "unconstrained",
+    "note": "Full proofread input vs retained role mass are numerical assumptions; neither follows from physiological normalization.",
+    "evidence": [
+      "E02",
+      "E06"
+    ],
+    "source": "research/fly-stage2/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "dt",
+    "value": 0.01,
+    "status": "unconstrained",
+    "note": "Numerical resolution, not physiology. Convergence is numerical evidence, not a measured 10 ms clock.",
+    "evidence": [
+      "E18"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "tau",
+    "value": 0.05,
+    "status": "unconstrained",
+    "note": "Global 50 ms rate relaxation cannot be identified from calcium decay or a different MBON14 membrane constant.",
+    "evidence": [
+      "E01",
+      "E13",
+      "E18"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "eligibility_tau",
+    "value": 0.5,
+    "status": "weakly constrained",
+    "note": "Temporal order matters. No transferable measurement identifies a single 0.5 s exponential in all compartments.",
+    "evidence": [
+      "E07",
+      "E09"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "body_tau",
+    "value": 60.0,
+    "status": "product-boundary assumption",
+    "note": "60 s converts synthetic resource input into a state. No starvation/peptide concentration kinetics calibrate it.",
+    "evidence": [
+      "E13",
+      "E14",
+      "E15"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "gate_floor",
+    "value": 0.2,
+    "status": "product-boundary assumption",
+    "note": "0.2 lower bound of a linear synthetic resource\u2192PPL101 gate is not measured.",
+    "evidence": [
+      "E14",
+      "E15",
+      "E20"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "dopamine_gain",
+    "value": 1.0,
+    "status": "unconstrained",
+    "note": "Gain 1 in acute divisor 1/(1+D) has no dose-response or unit mapping.",
+    "evidence": [
+      "E07",
+      "E14"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "oa_gain",
+    "value": 1.0,
+    "status": "weakly constrained",
+    "note": "VPM4 suppresses MBON11 in tested preparation; magnitude 1 and fast additive inhibitory implementation not established.",
+    "evidence": [
+      "E13"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "learning_rate",
+    "value": 0.08,
+    "status": "unconstrained",
+    "note": "0.08 multiplies unknown rate, eligibility and DA scales; response depression identifies at most an integrated product.",
+    "evidence": [
+      "E07",
+      "E08",
+      "E11"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "kc_threshold",
+    "value": 0.15,
+    "status": "weakly constrained",
+    "note": "Sparse nonlinear coincidence is supported; dimensionless 0.15 is uncalibrated.",
+    "evidence": [
+      "E01",
+      "E02",
+      "E03"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "pn_gain",
+    "value": 3.0,
+    "status": "unconstrained",
+    "note": "3 depends on rate units, artificial cue amplitude and normalization; EPSPs alone do not identify it.",
+    "evidence": [
+      "E01",
+      "E02"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "recurrent_gain",
+    "value": 0.05,
+    "status": "unconstrained",
+    "note": "0.05 is neither an experimentally measured shared conductance nor a receptor-specific gain.",
+    "evidence": [
+      "E04",
+      "E16"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "apl_gain",
+    "value": 1.0,
+    "status": "weakly constrained",
+    "note": "Inhibitory influence is supported; magnitude 1 and one scalar APL state are not. Local-response fit is non-transferable.",
+    "evidence": [
+      "E05",
+      "E06"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "fast_gain",
+    "value": 1.0,
+    "status": "unconstrained",
+    "note": "Global multiplicative scale confounded with connection gains; cannot be fitted separately without conventions and observations.",
+    "evidence": [
+      "E01",
+      "E04"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "min_multiplier",
+    "value": 0.1,
+    "status": "unconstrained",
+    "note": "0.1 is a hard floor, not a measured lower synaptic efficacy. Aggregate 90% depression does not identify this floor.",
+    "evidence": [
+      "E07"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": 3,
+    "name": "normalization",
+    "value": "all_inputs",
+    "status": "unconstrained",
+    "note": "Full proofread input vs retained role mass are numerical assumptions; neither follows from physiological normalization.",
+    "evidence": [
+      "E02",
+      "E06"
+    ],
+    "source": "research/fly-stage3/model.py"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "contact_to_strength",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Weights proportional to anatomical contacts; per-contact release probability, silent synapses, receptor density, electrotonic location unknown.",
+    "evidence": [
+      "E02",
+      "E04",
+      "E19"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "normalization_stage1",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Hardcoded retained presynaptic-role denominator; no physiological calibration.",
+    "evidence": [
+      "E06"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "known_cholinergic_KC",
+    "value": null,
+    "status": "experimentally constrained",
+    "note": "Class-level transmitter identity supported; not every target-specific net effect or numerical gain.",
+    "evidence": [
+      "E04"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "APL_GABA_inhibition",
+    "value": null,
+    "status": "experimentally constrained",
+    "note": "Sign of tested APL\u2192KC inhibitory effect supported; scalar implementation not validated.",
+    "evidence": [
+      "E05",
+      "E06"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "MBON11_GABA",
+    "value": null,
+    "status": "experimentally constrained",
+    "note": "Known GABA identity; effective downstream target sign/gain still needs target-specific physiology.",
+    "evidence": [
+      "E14"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "MBON07_to_PAM11_positive_sign",
+    "value": null,
+    "status": "weakly constrained",
+    "note": "NMDA requirement supports hypothesis; direct net excitation not established by source. Frozen code comment is stronger than evidence; left untouched and qualified here.",
+    "evidence": [
+      "E10",
+      "E16"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "MBON07_other_outputs_zero",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Computational omission, not proof of no transmission. Stage3 zeros even PAM-related output.",
+    "evidence": [
+      "E10"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "DAN_fast_effect_zero",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Convenience separation of fast and modulatory effects, not measured absence of acute transmission.",
+    "evidence": [
+      "E08",
+      "E19"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "OA_other_targets_zero",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Unknown receptor effects omitted, not physiologically absent.",
+    "evidence": [
+      "E13"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "DA_locality",
+    "value": null,
+    "status": "weakly constrained",
+    "note": "Compartmental modulation supported; DAN\u2192KC versus DAN\u2192MBON contact-normalized rate does not identify release/receptor exposure.",
+    "evidence": [
+      "E07",
+      "E11",
+      "E19"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "KC_MBON_APL_gain1",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Hardcoded fixed gain lacks synaptic current normalization.",
+    "evidence": [
+      "E04",
+      "E05"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "MBON11_gain20x_conflict",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Stage1 recurrent 0.05 vs Stage3 source 1 on many shared outputs; same anatomy does not reconcile strengths.",
+    "evidence": [
+      "E13",
+      "E14"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "MBON18_PN_to_LH_gain1",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Anatomical pathways supported, fixed scale and effective target physiology unknown.",
+    "evidence": [
+      "E13"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "clipped_rate_0_1",
+    "value": null,
+    "status": "unconstrained",
+    "note": "No Hz/current/calcium observation mapping; a zero lower bound cannot itself express below-baseline fluorescence.",
+    "evidence": [
+      "E07",
+      "E11"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "point_neurons",
+    "value": null,
+    "status": "weakly constrained",
+    "note": "Local APL data challenge one globally uniform state; other cell classes require separate checks.",
+    "evidence": [
+      "E05",
+      "E18"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "plasticity_LTD_only",
+    "value": null,
+    "status": "weakly constrained",
+    "note": "Narrow pairing protocols support depression; unpaired DAN and reverse timing can have other effects.",
+    "evidence": [
+      "E07",
+      "E08",
+      "E09"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "postsynaptic_multiplier",
+    "value": null,
+    "status": "weakly constrained",
+    "note": "Receptor evidence supports a possible locus in alpha-prime3, not a complete per-contact rule for all stages.",
+    "evidence": [
+      "E12"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "acute_vs_persistent_rule",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Stage3 acute divisor plus persistent LTD cannot be derived by merging behavior studies and conditioning endpoints.",
+    "evidence": [
+      "E07",
+      "E14"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "initial_efficacy1",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Unit efficacy and zero eligibility at t0 are initialization conventions, not naive-synapse measurements.",
+    "evidence": [
+      "E07"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "resource_linear_gate",
+    "value": null,
+    "status": "product-boundary assumption",
+    "note": "PPL101 desired rate multiplied by 0.2+0.8r; r is not a measured nutrient/hormone state. Direction alone does not identify shape.",
+    "evidence": [
+      "E14",
+      "E15",
+      "E20"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "synthetic_cue_teacher_OA_currents",
+    "value": null,
+    "status": "product-boundary assumption",
+    "note": "Arbitrary PN cues and dimensionless teacher/OA currents are not odor concentration, spikes or transmitter dose.",
+    "evidence": [
+      "E02",
+      "E07",
+      "E13"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "NO_peptide_receptor_omission",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Chemical edges do not establish NO/sNPF/dNPF kinetics or receptor graph. Zero omitted action is a model choice.",
+    "evidence": [
+      "E04",
+      "E15",
+      "E17"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "no_transmission_delays",
+    "value": null,
+    "status": "unconstrained",
+    "note": "Synchronous 10 ms updates do not measure propagation or receptor kinetics.",
+    "evidence": [
+      "E07",
+      "E09"
+    ],
+    "source": "frozen models and protocols"
+  },
+  {
+    "stage": "shared/operator",
+    "name": "pooling_and_readout",
+    "value": null,
+    "status": "product-boundary assumption",
+    "note": "Averaging MBON groups and cue-response metrics is an assay choice, not a behavioral motor output.",
+    "evidence": [
+      "E11",
+      "E13"
+    ],
+    "source": "frozen models and protocols"
+  }
+]

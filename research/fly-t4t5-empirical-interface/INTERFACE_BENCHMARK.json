@@ -1,0 +1,19 @@
+{
+  "host": "macOS-27.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.12.14",
+  "initialization_seconds": 0.12338520798948593,
+  "measured_query_median_ms": 2.2046250087441877,
+  "measured_query_p95_ms": 2.5755999944522046,
+  "interpolation_query_median_ms": 2.7497499977471307,
+  "interpolation_query_p95_ms": 3.2470455145812593,
+  "peak_process_RSS_bytes": 116391936,
+  "RAM_scope": "whole Python process including two catalog instances and measurement metrics; macOS ru_maxrss bytes",
+  "catalog_arrays_bytes": 26605104,
+  "runtime_files_bytes": 29479926,
+  "cpu_scope": "single Python process; no neural-time or real-time neural-substrate claim",
+  "query_replicates": {
+    "exact": 300,
+    "interpolation": 100
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "free_fitted_physiological_parameters": 0,
+  "candidate_families_selected_prospectively": [
+    "nearest condition",
+    "one-axis linear interpolation",
+    "exact-condition recording-balanced mean"
+  ],
+  "E0_E1_position_discriminable": false,
+  "position_reason": "With symmetric neighboring samples and averaged nearest ties, predictions coincide exactly.",
+  "duration_comparative_support_recordings_per_passing_stratum": 5,
+  "continuous_descriptor_response_identified": false,
+  "cross_family_generalization_identified": false,
+  "trial_noise_identified": false,
+  "independent_fly_uncertainty_identified": false,
+  "model_state": "measurement waveforms plus fixed arithmetic; no dynamical neural/plastic state",
+  "complexity_penalty": "No tunable family search; added interpolation allowed only for registered negative held-out MSE interval versus simpler nearest reference and zero. Effective stored response complexity grows with catalog tuples.",
+  "rejected_expansion": "No richer basis, nonparametric smoother or learned representation added after seeing failures."
+}

@@ -1,0 +1,728 @@
+{
+  "flies": [
+    {
+      "fly": 1,
+      "off": 0.4353307971358878,
+      "on": 0.010303369047203529,
+      "rois": 12,
+      "signed_prediction": -0.015255040718602092,
+      "signed_squared_error": 0.0006532323097568282,
+      "zero_prediction": 0.0,
+      "zero_squared_error": 0.00010615941372287176
+    },
+    {
+      "fly": 2,
+      "off": 0.12514665112135426,
+      "on": 0.0482516130037879,
+      "rois": 7,
+      "signed_prediction": -0.021579748044699486,
+      "signed_squared_error": 0.004876418985884202,
+      "zero_prediction": 0.0,
+      "zero_squared_error": 0.0023282181574673134
+    },
+    {
+      "fly": 3,
+      "off": 0.24870821774416738,
+      "on": -0.027169239693964887,
+      "rois": 11,
+      "signed_prediction": -0.009009605928407357,
+      "signed_squared_error": 0.0003297722984991771,
+      "zero_prediction": 0.0,
+      "zero_squared_error": 0.0007381675855481172
+    },
+    {
+      "fly": 4,
+      "off": 0.3185171683619564,
+      "on": -0.03190655497197594,
+      "rois": 10,
+      "signed_prediction": -0.008220053382072181,
+      "signed_squared_error": 0.0005610503575685133,
+      "zero_prediction": 0.0,
+      "zero_squared_error": 0.0010180282501797227
+    },
+    {
+      "fly": 5,
+      "off": 0.4393027015159951,
+      "on": -0.0866741015458051,
+      "rois": 11,
+      "signed_prediction": 0.0009078710468993454,
+      "signed_squared_error": 0.0076706019232292335,
+      "zero_prediction": 0.0,
+      "zero_squared_error": 0.007512399878772534
+    },
+    {
+      "fly": 6,
+      "off": 0.35480348994168964,
+      "on": 0.04335278860810898,
+      "rois": 8,
+      "signed_prediction": -0.020763277312086336,
+      "signed_squared_error": 0.004110869909082832,
+      "zero_prediction": 0.0,
+      "zero_squared_error": 0.001879464280099384
+    },
+    {
+      "fly": 7,
+      "off": 0.5526284784528808,
+      "on": -0.037384749711763504,
+      "rois": 11,
+      "signed_prediction": -0.00730702092544092,
+      "signed_squared_error": 0.0009046697689435783,
+      "zero_prediction": 0.0,
+      "zero_squared_error": 0.0013976195110112014
+    }
+  ],
+  "inference_limit": "Observation-level restriction only. No parameter transfers, neural kernel or Stage-4 predictions.",
+  "mean_off_fly_weighted": 0.35349107203913305,
+  "mean_on_fly_weighted": -0.011603839323487004,
+  "n_flies": 7,
+  "n_rois": 70,
+  "roi_rows": [
+    {
+      "fly": 1,
+      "off": 0.3427899534138386,
+      "on": -0.08758970471526142,
+      "row": 2
+    },
+    {
+      "fly": 1,
+      "off": 0.5262507569871754,
+      "on": -0.10893712922476746,
+      "row": 3
+    },
+    {
+      "fly": 1,
+      "off": 0.31969399957042843,
+      "on": -0.033402347755554174,
+      "row": 4
+    },
+    {
+      "fly": 1,
+      "off": 0.2672210430982274,
+      "on": 0.043815127496113285,
+      "row": 5
+    },
+    {
+      "fly": 1,
+      "off": 0.5407488486852549,
+      "on": 0.035217538136127366,
+      "row": 6
+    },
+    {
+      "fly": 1,
+      "off": 0.4790010569335323,
+      "on": 0.0456411961430114,
+      "row": 7
+    },
+    {
+      "fly": 1,
+      "off": 0.9845594786158443,
+      "on": -0.0020689804780484916,
+      "row": 8
+    },
+    {
+      "fly": 1,
+      "off": 0.6200339407182073,
+      "on": 0.024679756682432292,
+      "row": 9
+    },
+    {
+      "fly": 1,
+      "off": 0.4345753742124684,
+      "on": 0.04916635909400822,
+      "row": 10
+    },
+    {
+      "fly": 1,
+      "off": 0.7189930305382736,
+      "on": 0.051266559559189566,
+      "row": 11
+    },
+    {
+      "fly": 1,
+      "off": 0.24626743599452192,
+      "on": 0.004106074882045914,
+      "row": 12
+    },
+    {
+      "fly": 1,
+      "off": -0.2561653531371189,
+      "on": 0.10174597874714589,
+      "row": 13
+    },
+    {
+      "fly": 2,
+      "off": 0.28811008147362105,
+      "on": 0.0056703179651175556,
+      "row": 14
+    },
+    {
+      "fly": 2,
+      "off": 0.1322278796668154,
+      "on": -0.01922596471895205,
+      "row": 15
+    },
+    {
+      "fly": 2,
+      "off": 0.23273449375258645,
+      "on": -0.008835393699143044,
+      "row": 16
+    },
+    {
+      "fly": 2,
+      "off": 0.24002447458488532,
+      "on": 0.0562909071217208,
+      "row": 17
+    },
+    {
+      "fly": 2,
+      "off": 0.2736066690166354,
+      "on": 0.01504109707579707,
+      "row": 18
+    },
+    {
+      "fly": 2,
+      "off": -0.07337531823692095,
+      "on": 0.1072235846236322,
+      "row": 19
+    },
+    {
+      "fly": 2,
+      "off": -0.21730172240814272,
+      "on": 0.1815967426583428,
+      "row": 20
+    },
+    {
+      "fly": 3,
+      "off": 0.30739717833557506,
+      "on": 0.005864531287689354,
+      "row": 21
+    },
+    {
+      "fly": 3,
+      "off": 0.21438379027919435,
+      "on": -0.03839724199213267,
+      "row": 22
+    },
+    {
+      "fly": 3,
+      "off": 0.23890320344655627,
+      "on": -0.030665772202470035,
+      "row": 23
+    },
+    {
+      "fly": 3,
+      "off": 0.3675602745583823,
+      "on": -0.07700418164026976,
+      "row": 24
+    },
+    {
+      "fly": 3,
+      "off": 0.23608094716551178,
+      "on": -0.035692605352269806,
+      "row": 25
+    },
+    {
+      "fly": 3,
+      "off": 0.40846413990712893,
+      "on": -0.04496110608442846,
+      "row": 26
+    },
+    {
+      "fly": 3,
+      "off": 0.19274901604401196,
+      "on": -0.06865564545723764,
+      "row": 27
+    },
+    {
+      "fly": 3,
+      "off": 0.24771445315946655,
+      "on": -0.05551523184358767,
+      "row": 28
+    },
+    {
+      "fly": 3,
+      "off": 0.46763687294246803,
+      "on": -0.03463299454632068,
+      "row": 29
+    },
+    {
+      "fly": 3,
+      "off": 0.2696589870900784,
+      "on": 0.0007101361548020683,
+      "row": 30
+    },
+    {
+      "fly": 3,
+      "off": -0.21475846774253216,
+      "on": 0.08008847504261153,
+      "row": 31
+    },
+    {
+      "fly": 4,
+      "off": 0.494464225743404,
+      "on": -0.017529873109466534,
+      "row": 32
+    },
+    {
+      "fly": 4,
+      "off": 0.48970308817425884,
+      "on": -0.10529872328155443,
+      "row": 33
+    },
+    {
+      "fly": 4,
+      "off": 0.511892311881287,
+      "on": -0.10210812460900094,
+      "row": 34
+    },
+    {
+      "fly": 4,
+      "off": 0.5938044815650775,
+      "on": -0.07499209579339484,
+      "row": 35
+    },
+    {
+      "fly": 4,
+      "off": 0.4860545941569302,
+      "on": -0.08488159997516562,
+      "row": 36
+    },
+    {
+      "fly": 4,
+      "off": 0.3586096046614988,
+      "on": -0.04948101609758997,
+      "row": 37
+    },
+    {
+      "fly": 4,
+      "off": 0.281311125232984,
+      "on": -0.05327063310299629,
+      "row": 38
+    },
+    {
+      "fly": 4,
+      "off": 0.20053987649935337,
+      "on": -0.05905581836388523,
+      "row": 39
+    },
+    {
+      "fly": 4,
+      "off": -0.0652715642720273,
+      "on": 0.03197910475924978,
+      "row": 40
+    },
+    {
+      "fly": 4,
+      "off": -0.1659360600232018,
+      "on": 0.19557322985404457,
+      "row": 41
+    },
+    {
+      "fly": 5,
+      "off": 0.3026393823563854,
+      "on": -0.2729059345363717,
+      "row": 42
+    },
+    {
+      "fly": 5,
+      "off": 0.47940791832344776,
+      "on": -0.22503107558270324,
+      "row": 43
+    },
+    {
+      "fly": 5,
+      "off": 0.4782926216962482,
+      "on": -0.09260989101043476,
+      "row": 44
+    },
+    {
+      "fly": 5,
+      "off": 0.5135228155807493,
+      "on": -0.07987431417915668,
+      "row": 45
+    },
+    {
+      "fly": 5,
+      "off": 0.5979759632868987,
+      "on": -0.13596831360071657,
+      "row": 46
+    },
+    {
+      "fly": 5,
+      "off": 0.492467949414457,
+      "on": -0.08070766254858541,
+      "row": 47
+    },
+    {
+      "fly": 5,
+      "off": 0.5144292867946749,
+      "on": -0.0385659785731077,
+      "row": 48
+    },
+    {
+      "fly": 5,
+      "off": 0.6310532529584831,
+      "on": -0.05548579407867365,
+      "row": 49
+    },
+    {
+      "fly": 5,
+      "off": 0.3705265433769056,
+      "on": 0.06087676067843179,
+      "row": 50
+    },
+    {
+      "fly": 5,
+      "off": 0.24953000306258205,
+      "on": 0.004151260934430278,
+      "row": 51
+    },
+    {
+      "fly": 5,
+      "off": 0.20248397982511285,
+      "on": -0.03729417450696845,
+      "row": 52
+    },
+    {
+      "fly": 6,
+      "off": 0.38605252973491133,
+      "on": 0.08335332975285811,
+      "row": 53
+    },
+    {
+      "fly": 6,
+      "off": 0.4128511669232479,
+      "on": 0.030189842873809495,
+      "row": 54
+    },
+    {
+      "fly": 6,
+      "off": 0.44136820164817403,
+      "on": 0.06461666295328418,
+      "row": 55
+    },
+    {
+      "fly": 6,
+      "off": 0.5044720999649606,
+      "on": 0.03382526863276178,
+      "row": 56
+    },
+    {
+      "fly": 6,
+      "off": 0.44721291945140224,
+      "on": 0.019243134708668043,
+      "row": 57
+    },
+    {
+      "fly": 6,
+      "off": 0.30129676532552696,
+      "on": 0.010735744256757225,
+      "row": 58
+    },
+    {
+      "fly": 6,
+      "off": 0.1806771989961111,
+      "on": 0.04950293965293537,
+      "row": 59
+    },
+    {
+      "fly": 6,
+      "off": 0.16449703748918312,
+      "on": 0.055355386033797686,
+      "row": 60
+    },
+    {
+      "fly": 7,
+      "off": 0.3567297333436199,
+      "on": -0.19045494283659167,
+      "row": 61
+    },
+    {
+      "fly": 7,
+      "off": 0.4232712276797347,
+      "on": -0.1248260686432921,
+      "row": 62
+    },
+    {
+      "fly": 7,
+      "off": 0.5438636554570806,
+      "on": -0.11315320601366301,
+      "row": 63
+    },
+    {
+      "fly": 7,
+      "off": 0.3192088415578886,
+      "on": 0.025327461716125016,
+      "row": 64
+    },
+    {
+      "fly": 7,
+      "off": 0.9669958462541262,
+      "on": -0.020262842022169564,
+      "row": 65
+    },
+    {
+      "fly": 7,
+      "off": 0.8866061283630491,
+      "on": -0.01614986373869946,
+      "row": 66
+    },
+    {
+      "fly": 7,
+      "off": 0.9698233166802126,
+      "on": -0.027704708516067923,
+      "row": 67
+    },
+    {
+      "fly": 7,
+      "off": 0.4417247054711396,
+      "on": 0.00512876546833066,
+      "row": 68
+    },
+    {
+      "fly": 7,
+      "off": 0.3399762251074477,
+      "on": 0.031669387032939374,
+      "row": 69
+    },
+    {
+      "fly": 7,
+      "off": 0.41736701599203285,
+      "on": 0.003937002740029794,
+      "row": 70
+    },
+    {
+      "fly": 7,
+      "off": 0.4133465670753565,
+      "on": 0.015256767983660298,
+      "row": 71
+    }
+  ],
+  "selection": "all 70 supplied control ROIs; no response exclusion; equal weight per fly",
+  "signed_improves_folds": 3,
+  "signed_lofo_mse": 0.002729516507566338,
+  "signed_model_parameters": 1,
+  "source": {
+    "age_days": "1–7",
+    "doi": "10.1038/s41467-021-24986-w",
+    "preparation": "in vivo right optic-lobe two-photon GCaMP6f; no CDM for analysis",
+    "ranges": [
+      "A2:A71",
+      "C2:C71",
+      "E2:E71"
+    ],
+    "response": "authors mean during full-field stimulus; no new time-window selection",
+    "root_crosswalk": "class Tm9 only; recorded ROIs not individually matched to FAFB",
+    "sex": "female",
+    "sha256": "a7fa28438b16ba9a3316e25fde9d173f39d24469b0d6e58f9333cfdc583a0bb8",
+    "sheet": "Fig7g",
+    "species": "Drosophila melanogaster",
+    "stimulus": "2 s ON/OFF full-field flashes; 4 s intermediate background",
+    "unit": "dF/F0"
+  },
+  "validation": "leave one biological fly out; seven folds; not an independent laboratory replication",
+  "widths": [
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 12.083954114268103,
+      "mean": 8.402517851086502,
+      "median": 8.449611583116658,
+      "minimum": 3.3302184446308662,
+      "n": 90,
+      "name": "Tm1_FWHM_OFF_bars_horizontal_deg",
+      "range": "Fig4j-m!B1:EH1",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 15.616190559177396,
+      "mean": 8.060683638552087,
+      "median": 8.378714801421399,
+      "minimum": 3.3302184446308654,
+      "n": 90,
+      "name": "Tm1_FWHM_OFF_bars_vertical_deg",
+      "range": "Fig4j-m!B2:EH2",
+      "unit": "degree"
+    },
+    {
+      "n": 0,
+      "name": "Tm1_FWHM_ON_bars_horizontal_deg",
+      "range": "Fig4j-m!B3:EH3",
+      "reason": "No numeric measurements supplied"
+    },
+    {
+      "n": 0,
+      "name": "Tm1_FWHM_ON_bars_vertical_deg",
+      "range": "Fig4j-m!B4:EH4",
+      "reason": "No numeric measurements supplied"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 15.605688373691324,
+      "mean": 9.30863274702768,
+      "median": 9.375140190844188,
+      "minimum": 4.664929446859463,
+      "n": 137,
+      "name": "Tm2_FWHM_OFF_bars_horizontal_deg",
+      "range": "Fig4j-m!B6:EH6",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 17.6303138113627,
+      "mean": 8.720359031217283,
+      "median": 8.540571617320508,
+      "minimum": 4.817122094851648,
+      "n": 137,
+      "name": "Tm2_FWHM_OFF_bars_vertical_deg",
+      "range": "Fig4j-m!B7:EH7",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 28.330922714880174,
+      "mean": 14.099206332358412,
+      "median": 14.36420819565405,
+      "minimum": 5.723552418720732,
+      "n": 24,
+      "name": "Tm2_FWHM_ON_bars_horizontal_deg",
+      "range": "Fig4j-m!B8:EH8",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 21.558064282665097,
+      "mean": 12.031081850299413,
+      "median": 11.254019126400205,
+      "minimum": 6.164992003510942,
+      "n": 24,
+      "name": "Tm2_FWHM_ON_bars_vertical_deg",
+      "range": "Fig4j-m!B9:EH9",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 12.593290717250794,
+      "mean": 8.60324391865293,
+      "median": 8.599653059622156,
+      "minimum": 4.284461168895766,
+      "n": 53,
+      "name": "Tm4_FWHM_OFF_bars_horizontal_deg",
+      "range": "Fig4j-m!B11:EH11",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 12.83100899688888,
+      "mean": 7.3951445016659765,
+      "median": 7.290464570574786,
+      "minimum": 3.848274556969114,
+      "n": 53,
+      "name": "Tm4_FWHM_OFF_bars_vertical_deg",
+      "range": "Fig4j-m!B12:EH12",
+      "unit": "degree"
+    },
+    {
+      "n": 0,
+      "name": "Tm4_FWHM_ON_bars_horizontal_deg",
+      "range": "Fig4j-m!B13:EH13",
+      "reason": "No numeric measurements supplied"
+    },
+    {
+      "n": 0,
+      "name": "Tm4_FWHM_ON_bars_vertical_deg",
+      "range": "Fig4j-m!B14:EH14",
+      "reason": "No numeric measurements supplied"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 19.23737026251986,
+      "mean": 9.71153658558813,
+      "median": 8.542763540389183,
+      "minimum": 4.855974217461181,
+      "n": 63,
+      "name": "Tm9_FWHM_OFF_bars_horizontal_deg",
+      "range": "Fig4j-m!B16:EH16",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 15.08812721885432,
+      "mean": 9.212645124643512,
+      "median": 9.302804979312537,
+      "minimum": 5.060511599200992,
+      "n": 63,
+      "name": "Tm9_FWHM_OFF_bars_vertical_deg",
+      "range": "Fig4j-m!B17:EH17",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 35.803024315447125,
+      "mean": 19.76255752545095,
+      "median": 17.399668130827756,
+      "minimum": 9.087327092833617,
+      "n": 32,
+      "name": "Tm9_FWHM_ON_bars_horizontal_deg",
+      "range": "Fig4j-m!B18:EH18",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 31.33918274621468,
+      "mean": 17.837239999811985,
+      "median": 17.510067672904178,
+      "minimum": 7.068729122267416,
+      "n": 32,
+      "name": "Tm9_FWHM_ON_bars_vertical_deg",
+      "range": "Fig4j-m!B19:EH19",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 15.64901517432877,
+      "mean": 9.931140827374515,
+      "median": 9.213569537333774,
+      "minimum": 5.870630134640376,
+      "n": 41,
+      "name": "Tm9_OFF_RF_FWHM_Horizontal_Bar_deg",
+      "range": "Fig6f!A2:A42",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 19.860431786122117,
+      "mean": 11.409399989296885,
+      "median": 11.378940537497323,
+      "minimum": 6.26622624628596,
+      "n": 41,
+      "name": "T5_OFF_RF_FWHM_Horizontal_Bar_deg",
+      "range": "Fig6f!B2:B42",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 14.300498975707452,
+      "mean": 8.847671603445942,
+      "median": 8.608260026474056,
+      "minimum": 5.086027626662742,
+      "n": 41,
+      "name": "Tm9_OFF_RF_FWHM_Vertical_Bar_deg",
+      "range": "Fig6f!C2:C42",
+      "unit": "degree"
+    },
+    {
+      "independent_fly_count": "unknown; ROI-level summary only",
+      "maximum": 16.967317099290494,
+      "mean": 11.6477076594686,
+      "median": 11.949308501420921,
+      "minimum": 7.926872540307875,
+      "n": 41,
+      "name": "T5_OFF_RF_FWHM_Vertical_Bar_deg",
+      "range": "Fig6f!D2:D42",
+      "unit": "degree"
+    }
+  ],
+  "zero_lofo_mse": 0.002140008153828735,
+  "zero_model_parameters": 0
+}

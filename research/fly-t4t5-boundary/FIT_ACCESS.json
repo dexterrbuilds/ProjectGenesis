@@ -1,0 +1,22 @@
+[
+  "CONDITIONAL_PROTOCOL.md",
+  "FITS.json",
+  "models.py",
+  "processed/cell_01_train.npz",
+  "processed/cell_02_train.npz",
+  "processed/cell_03_train.npz",
+  "processed/cell_04_train.npz",
+  "processed/cell_05_train.npz",
+  "processed/cell_06_train.npz",
+  "processed/cell_07_train.npz",
+  "processed/cell_08_train.npz",
+  "processed/cell_09_train.npz",
+  "processed/cell_10_train.npz",
+  "processed/cell_11_train.npz",
+  "processed/cell_12_train.npz",
+  "processed/cell_13_train.npz",
+  "processed/cell_14_train.npz",
+  "processed/cell_15_train.npz",
+  "processed/cell_16_train.npz",
+  "processed/cell_17_train.npz"
+]

@@ -1,0 +1,78 @@
+{
+  "fulltexts_not_redistributed": true,
+  "access_dates": [
+    "2026-09-17",
+    "2026-09-18"
+  ],
+  "local_reading_sources": [
+    {
+      "local_path": "outputs/fly-physiology-study/amin.html",
+      "url": "https://elifesciences.org/articles/56954",
+      "sha256": "4ad86b5efef5751c1ee087188a7069d471fbb25fa9877f32b3f1060b1f348f11",
+      "bytes": 637869
+    },
+    {
+      "local_path": "outputs/fly-physiology-study/pribbenow.html",
+      "url": "https://elifesciences.org/articles/80445",
+      "sha256": "bc743f6d3c93e380e06a22217c70f76fce5a001f142eb043684d394f6e1ca5aa",
+      "bytes": 612704
+    },
+    {
+      "local_path": "outputs/fly-physiology-study/tsao.html",
+      "url": "https://elifesciences.org/articles/35264",
+      "sha256": "4cda46b43352a9beb6bad80631fea493617b7f88ccb6d41994fecad1a3229c3b",
+      "bytes": 705553
+    },
+    {
+      "local_path": "outputs/fly-physiology-study/hige.pdf",
+      "url": "https://www.janelia.org/sites/default/files/Labs/1-s2.0-S0896627315009824-main.pdf",
+      "sha256": "232b48a77d73121989dea60ab4c391c0f993d5bbba4dfbe832e5870ee7912b6a",
+      "bytes": 3472391
+    },
+    {
+      "local_path": "outputs/fly-physiology-study/hattori.pdf",
+      "url": "https://columbia.edu/cu/neurotheory/Larry/HattoriCell17.pdf",
+      "sha256": "1a03f68ba04ddd2f37b8037251ef7934d40c3c5659e563cb4730829f061e9a57",
+      "bytes": 6769152
+    },
+    {
+      "local_path": "outputs/fly-physiology-study/sayin.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6839618/fullTextXML",
+      "sha256": "0d693f9a3225ade56b2fe19bd146d80150a0d51b2b4216a97c8c9716233f4fc3",
+      "bytes": 226370
+    },
+    {
+      "local_path": "outputs/fly-physiology-study/barnstedt.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4819445/fullTextXML",
+      "sha256": "102dc5611fc43eab1c6c75f048425e5cbcacb627e3fdc116b27be9a7c9ed2a27",
+      "bytes": 166072
+    },
+    {
+      "local_path": "outputs/fly-physiology-study/mbonalpha3.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10069864/fullTextXML",
+      "sha256": "22e6924b2d64c5091fb13352fb62eff1e60393cf6e1a85a7d1af3d668c976bb1",
+      "bytes": 360200
+    }
+  ],
+  "included_open_source_datasets": [
+    {
+      "path": "data/amin-fig4.xlsx",
+      "url": "https://cdn.elifesciences.org/articles/56954/elife-56954-fig4-data1-v2.xlsx",
+      "license": "CC-BY 4.0; Amin et al. 2020, eLife 9:e56954",
+      "sha256": "a573d378eaac90b89471399268974bd24a0700927e4bf84377977704514fe3f4"
+    },
+    {
+      "path": "data/amin-fig7.xlsx",
+      "url": "https://cdn.elifesciences.org/articles/56954/elife-56954-fig7-data1-v2.xlsx",
+      "license": "CC-BY 4.0; Amin et al. 2020, eLife 9:e56954",
+      "sha256": "ba1d7c4dfaa2007aa3e71f668b72ee81845ea20094012f44450117a3a2165e9c"
+    }
+  ],
+  "failed_xml_requests": [
+    "PMC4674068",
+    "PMC3908930",
+    "PMC5806120",
+    "PMC9012144"
+  ],
+  "failure": "HTTP 500; alternate primary text/PDF used where available"
+}

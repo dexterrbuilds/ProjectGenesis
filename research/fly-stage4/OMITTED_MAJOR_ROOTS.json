@@ -1,0 +1,4332 @@
+{
+  "L0": {
+    "720575940611740569": {
+      "input": [
+        {
+          "contacts": 33,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940624022015",
+          "type": "Y3"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940627497244",
+          "type": "Li33"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940623105543",
+          "type": "Y3"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940626267706",
+          "type": "LPC1"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940646051716",
+          "type": "Tm5e"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940610697826",
+          "type": "LPi10"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940622021552",
+          "type": "Tm20"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940629206380",
+          "type": "Tm16"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940635042329",
+          "type": "MLt3"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940647759748",
+          "type": "Tm20"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940604088288",
+          "type": "AVLP016"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940611154162",
+          "type": "LPC1"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940621371045",
+          "type": "LT56"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940622865077",
+          "type": "Y3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940627190556",
+          "type": "LPi14"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940627409480",
+          "type": "LPi02"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940632411556",
+          "type": "Tm20"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940634612194",
+          "type": "LPi15"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 39,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940630318533",
+          "type": "PVLP069"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940610505006",
+          "type": "DNp103"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940622339113",
+          "type": "PVLP130"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940638910040",
+          "type": "PVLP151"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940615116731",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940632499757",
+          "type": "DNp01"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940614492397",
+          "type": "PVLP151"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940629245903",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940631842360",
+          "type": "LHAD1g1"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940639128646",
+          "type": "LC31c"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940614941992",
+          "type": "AVLP479"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940615723314",
+          "type": "PVLP076"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940617636981",
+          "type": "CB0766"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940618668198",
+          "type": "CB2917"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940622996579",
+          "type": "DNg40"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940627553923",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940629757036",
+          "type": "DNp04"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940633350812",
+          "type": "AVLP531"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940634612194",
+          "type": "LPi15"
+        }
+      ]
+    },
+    "720575940620303563": {
+      "input": [
+        {
+          "contacts": 81,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 59,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940608666325",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 22,
+          "root_id": "720575940646455860",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940619171633",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940627757328",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940623937724",
+          "type": "T5d"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940623580413",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940625308745",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940615974962",
+          "type": "T5d"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940621760609",
+          "type": "T5d"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940627082426",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940628311464",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940633347097",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940625483838",
+          "type": "T5d"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940636873705",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940630352066",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940631319340",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940627545731",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940628339216",
+          "type": "LPi09"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 52,
+          "root_id": "720575940621630540",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 47,
+          "root_id": "720575940630352066",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 45,
+          "root_id": "720575940620083797",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 43,
+          "root_id": "720575940626630693",
+          "type": "LPT48_vCal3"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940612730794",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940635853931",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940611174041",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940620929345",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940630502522",
+          "type": "LPT26"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940619410501",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940633572004",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940619171633",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940640607320",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940636873705",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940637499625",
+          "type": "Y11"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940640375411",
+          "type": "Y11"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940628535804",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940631468485",
+          "type": "LPT28"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940604889376",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940609781858",
+          "type": "Tlp14"
+        }
+      ]
+    },
+    "720575940621345006": {
+      "input": [
+        {
+          "contacts": 88,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 42,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940620354657",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 20,
+          "root_id": "720575940638222662",
+          "type": "T5d"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940622344472",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940625014023",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940623338165",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940613425617",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940611953635",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940628559403",
+          "type": "T4d"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940630575355",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940625751171",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940623949031",
+          "type": "T4d"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940635895438",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940616149435",
+          "type": "T4d"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940625308745",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940617071906",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940630149207",
+          "type": "T4d"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940633345561",
+          "type": "T5d"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 71,
+          "root_id": "720575940626833764",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 46,
+          "root_id": "720575940626630693",
+          "type": "LPT48_vCal3"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940605833673",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940620083797",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940635853931",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 31,
+          "root_id": "720575940635895438",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940623568995",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 27,
+          "root_id": "720575940624244922",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940617045051",
+          "type": "Y11"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940633504608",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940633283609",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940615116731",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940630137082",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 20,
+          "root_id": "720575940613425617",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 20,
+          "root_id": "720575940622344472",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940633588320",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940616770909",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940604889376",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940612730794",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940620542068",
+          "type": "Tlp14"
+        }
+      ]
+    },
+    "720575940623047629": {
+      "input": [
+        {
+          "contacts": 47,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940640379709",
+          "type": "Tm8b"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940623180577",
+          "type": "Y3"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940634612194",
+          "type": "LPi15"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940613425617",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940617685734",
+          "type": "Tm37"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940639777725",
+          "type": "Tm7"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940617331061",
+          "type": "Tm37"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940632504874",
+          "type": "LPi14"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940617872089",
+          "type": "Y3"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940620726208",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940629324860",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940644449316",
+          "type": "T5c"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940645581859",
+          "type": "Y3"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940613384434",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940619166667",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940619306069",
+          "type": "Tm7"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940625088700",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940630446021",
+          "type": "Tm36"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 35,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 31,
+          "root_id": "720575940630318533",
+          "type": "PVLP069"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940610505006",
+          "type": "DNp103"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940629245903",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940624299534",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940629757036",
+          "type": "DNp04"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940622339113",
+          "type": "PVLP130"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940624903064",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940631842360",
+          "type": "LHAD1g1"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940632499757",
+          "type": "DNp01"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940634676916",
+          "type": "CB0766"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940635967886",
+          "type": "AVLP340"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940638910040",
+          "type": "PVLP151"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940614941992",
+          "type": "AVLP479"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940618937547",
+          "type": "LPC1"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940633350812",
+          "type": "AVLP531"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940610953651",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940611961878",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940612254701",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940620165541",
+          "type": "AVLP479"
+        }
+      ]
+    },
+    "720575940627436933": {
+      "input": [
+        {
+          "contacts": 105,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940625023246",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 31,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 29,
+          "root_id": "720575940631248891",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940604407008",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940630183163",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940620354657",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940645695011",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940621769242",
+          "type": "T5d"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940637521037",
+          "type": "T5d"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940628358652",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940635895438",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940621702405",
+          "type": "T5d"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940629382150",
+          "type": "LPi12"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940623509173",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940619585496",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940629469548",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940631207388",
+          "type": "cLLPM02"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940640833013",
+          "type": "LLPC3"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 59,
+          "root_id": "720575940626630693",
+          "type": "LPT48_vCal3"
+        },
+        {
+          "contacts": 58,
+          "root_id": "720575940609781858",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 42,
+          "root_id": "720575940626833764",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 41,
+          "root_id": "720575940622624937",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 39,
+          "root_id": "720575940606114476",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940619709793",
+          "type": "Y11"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940620083797",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940628315642",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940636158862",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 31,
+          "root_id": "720575940632617299",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940604813233",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940618690640",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 29,
+          "root_id": "720575940616359180",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940619585496",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940633588320",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940612254701",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940607869193",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940633504608",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940630852114",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 20,
+          "root_id": "720575940613425617",
+          "type": "LPi09"
+        }
+      ]
+    },
+    "720575940631135247": {
+      "input": [
+        {
+          "contacts": 89,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 88,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940607976457",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940604455340",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940639012736",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940625912713",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940630183163",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940623949031",
+          "type": "T4d"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940607748363",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940620807919",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940624747597",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940629235932",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940635702629",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940640575832",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940625501053",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940627475096",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940603839753",
+          "type": "Y12"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940625237541",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940629382150",
+          "type": "LPi12"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 67,
+          "root_id": "720575940630144719",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 54,
+          "root_id": "720575940626630693",
+          "type": "LPT48_vCal3"
+        },
+        {
+          "contacts": 50,
+          "root_id": "720575940622089174",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 49,
+          "root_id": "720575940625237541",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 49,
+          "root_id": "720575940632711052",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 48,
+          "root_id": "720575940627475096",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940611206098",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940609781858",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940621104064",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940631582751",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940629548800",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940641257168",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940645091528",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940617724299",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940624731901",
+          "type": "Y11"
+        },
+        {
+          "contacts": 29,
+          "root_id": "720575940634675819",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940631780833",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 27,
+          "root_id": "720575940626783507",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940604813233",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940636999401",
+          "type": "LPLC2"
+        }
+      ]
+    },
+    "720575940634230241": {
+      "input": [
+        {
+          "contacts": 107,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 77,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940621207973",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 20,
+          "root_id": "720575940629235932",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940605666732",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940625308745",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940627545731",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940620378278",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940621603750",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940635702629",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940607748363",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940618931277",
+          "type": "T5d"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940620518917",
+          "type": "T4d"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940615974962",
+          "type": "T5d"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940633347097",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940618599707",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940624207347",
+          "type": "T5d"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940617233698",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940633371873",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940621760609",
+          "type": "T5d"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 48,
+          "root_id": "720575940641257168",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 45,
+          "root_id": "720575940618177846",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940618599707",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940620494795",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940637499625",
+          "type": "Y11"
+        },
+        {
+          "contacts": 36,
+          "root_id": "720575940624982202",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940626831356",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940605115936",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940609925496",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940620754164",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940626783507",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940604814816",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 27,
+          "root_id": "720575940611650533",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940609781858",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940615288203",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940616559170",
+          "type": "Y11"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940618898715",
+          "type": "Y11"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940628197892",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940620929345",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940629548800",
+          "type": "Tlp14"
+        }
+      ]
+    },
+    "720575940637088602": {
+      "input": [
+        {
+          "contacts": 38,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940613425617",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940629062555",
+          "type": "Tm20"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940627497244",
+          "type": "Li33"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940640379709",
+          "type": "Tm8b"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940624292622",
+          "type": "Y3"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940632411556",
+          "type": "Tm20"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940607700060",
+          "type": "TmY5a"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940622942793",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940634612194",
+          "type": "LPi15"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940612246478",
+          "type": "MLt3"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940632716600",
+          "type": "Tm37"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940634934702",
+          "type": "Li13"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940636047608",
+          "type": "Li21"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940636201839",
+          "type": "Tm7"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940610814072",
+          "type": "Y3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940611123825",
+          "type": "Y3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940612901613",
+          "type": "Tlp5"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940613096946",
+          "type": "Y3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940616685457",
+          "type": "TmY3"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 34,
+          "root_id": "720575940630318533",
+          "type": "PVLP069"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940610505006",
+          "type": "DNp103"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940615723314",
+          "type": "PVLP076"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940622339113",
+          "type": "PVLP130"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940610432120",
+          "type": "LPLC4"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940611644529",
+          "type": "DNp06"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940614941992",
+          "type": "AVLP479"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940619714974",
+          "type": "LMa1"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940624735463",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940633350812",
+          "type": "AVLP531"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940638910040",
+          "type": "PVLP151"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940639128646",
+          "type": "LC31c"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940618307046",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940618668198",
+          "type": "CB2917"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940627206842",
+          "type": "AVLP500"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940629245903",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940632499757",
+          "type": "DNp01"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940604088288",
+          "type": "AVLP016"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940614492397",
+          "type": "PVLP151"
+        }
+      ]
+    },
+    "720575940641015168": {
+      "input": [
+        {
+          "contacts": 82,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 41,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940615559786",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940615311035",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 31,
+          "root_id": "720575940630575355",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940608085973",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940617071906",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940616770909",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940622908941",
+          "type": "T4d"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940629382150",
+          "type": "LPi12"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940630149207",
+          "type": "T4d"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940623338165",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940625267386",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940633375001",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940635987647",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940625014023",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940636873705",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940615339314",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940620124326",
+          "type": "Tlp4"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 75,
+          "root_id": "720575940609975854",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 57,
+          "root_id": "720575940618552806",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 55,
+          "root_id": "720575940622827923",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 51,
+          "root_id": "720575940646234676",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 47,
+          "root_id": "720575940633572004",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 45,
+          "root_id": "720575940616770909",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 44,
+          "root_id": "720575940612730794",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 43,
+          "root_id": "720575940627114568",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 43,
+          "root_id": "720575940635040357",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940615559786",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940628448359",
+          "type": "Y11"
+        },
+        {
+          "contacts": 39,
+          "root_id": "720575940626630693",
+          "type": "LPT48_vCal3"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940619654149",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 36,
+          "root_id": "720575940636024056",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940630502522",
+          "type": "LPT26"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940607869193",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940620887834",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 29,
+          "root_id": "720575940620542068",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940614373279",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940623482805",
+          "type": "Y11"
+        }
+      ]
+    }
+  },
+  "L1": {
+    "720575940611740569": {
+      "input": [
+        {
+          "contacts": 33,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940624022015",
+          "type": "Y3"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940627497244",
+          "type": "Li33"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940623105543",
+          "type": "Y3"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940626267706",
+          "type": "LPC1"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940646051716",
+          "type": "Tm5e"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940610697826",
+          "type": "LPi10"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940622021552",
+          "type": "Tm20"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940629206380",
+          "type": "Tm16"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940635042329",
+          "type": "MLt3"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940647759748",
+          "type": "Tm20"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940604088288",
+          "type": "AVLP016"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940611154162",
+          "type": "LPC1"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940621371045",
+          "type": "LT56"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940622865077",
+          "type": "Y3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940627190556",
+          "type": "LPi14"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940627409480",
+          "type": "LPi02"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940632411556",
+          "type": "Tm20"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940634612194",
+          "type": "LPi15"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 39,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940630318533",
+          "type": "PVLP069"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940610505006",
+          "type": "DNp103"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940622339113",
+          "type": "PVLP130"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940638910040",
+          "type": "PVLP151"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940615116731",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940632499757",
+          "type": "DNp01"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940614492397",
+          "type": "PVLP151"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940629245903",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940631842360",
+          "type": "LHAD1g1"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940639128646",
+          "type": "LC31c"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940614941992",
+          "type": "AVLP479"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940615723314",
+          "type": "PVLP076"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940617636981",
+          "type": "CB0766"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940618668198",
+          "type": "CB2917"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940622996579",
+          "type": "DNg40"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940627553923",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940629757036",
+          "type": "DNp04"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940633350812",
+          "type": "AVLP531"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940634612194",
+          "type": "LPi15"
+        }
+      ]
+    },
+    "720575940613425617": {
+      "input": [
+        {
+          "contacts": 21,
+          "root_id": "720575940610076792",
+          "type": "T5c"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940620887535",
+          "type": "T4c"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940617045051",
+          "type": "Y11"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940641216384",
+          "type": "T5c"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940619709793",
+          "type": "Y11"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940615013939",
+          "type": "LPT45_dCal1"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940635895438",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940612887523",
+          "type": "cLP03b"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940613106906",
+          "type": "TmY15"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940623568995",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940623463923",
+          "type": "Y11"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940634948088",
+          "type": "TmY3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940614343917",
+          "type": "Y11"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940620354657",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940624400532",
+          "type": "TmY3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940624731901",
+          "type": "Y11"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940628448359",
+          "type": "Y11"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 85,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 76,
+          "root_id": "720575940641812699",
+          "type": "VS3"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940613126835",
+          "type": "VS2"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940649181817",
+          "type": "LPT47_vCal2"
+        },
+        {
+          "contacts": 27,
+          "root_id": "720575940620354657",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 27,
+          "root_id": "720575940633806637",
+          "type": "LPT49"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940618835995",
+          "type": "LPT27"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940631248891",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940632312907",
+          "type": "VSm"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940630575355",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940625014023",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940637646170",
+          "type": "Y12"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940630700348",
+          "type": "VST1"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940639151694",
+          "type": "VS5"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940617071906",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940629469548",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940634215834",
+          "type": "Y12"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940620887834",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940623338165",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940625023246",
+          "type": "Tlp1"
+        }
+      ]
+    },
+    "720575940615559786": {
+      "input": [
+        {
+          "contacts": 31,
+          "root_id": "720575940622958591",
+          "type": "T5c"
+        },
+        {
+          "contacts": 22,
+          "root_id": "720575940637333737",
+          "type": "T4c"
+        },
+        {
+          "contacts": 20,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940612887523",
+          "type": "cLP03b"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940628448359",
+          "type": "Y11"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940627114568",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940610076792",
+          "type": "T5c"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940624857063",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940613367538",
+          "type": "TmY15"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940617045051",
+          "type": "Y11"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940623160140",
+          "type": "TmY15"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940636873705",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940637499625",
+          "type": "Y11"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940616770909",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 3,
+          "root_id": "720575940619058517",
+          "type": "TmY3"
+        },
+        {
+          "contacts": 3,
+          "root_id": "720575940619889499",
+          "type": "TmY15"
+        },
+        {
+          "contacts": 3,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 3,
+          "root_id": "720575940620124326",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 3,
+          "root_id": "720575940622584772",
+          "type": "TmY15"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 82,
+          "root_id": "720575940641812699",
+          "type": "VS3"
+        },
+        {
+          "contacts": 52,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940608085973",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940617071906",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940659799937",
+          "type": "VS4"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940615311035",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 20,
+          "root_id": "720575940630575355",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940626690078",
+          "type": "VST2"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940622939101",
+          "type": "VST2"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940639151694",
+          "type": "VS5"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940633500185",
+          "type": "LPT29"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940633806637",
+          "type": "LPT49"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940623338165",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940632312907",
+          "type": "VSm"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940649181817",
+          "type": "LPT47_vCal2"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940634215834",
+          "type": "Y12"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940637169015",
+          "type": "LPT45_dCal1"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940624903064",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940613250227",
+          "type": "LPi06"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940620354657",
+          "type": "Tlp1"
+        }
+      ]
+    },
+    "720575940620303563": {
+      "input": [
+        {
+          "contacts": 81,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 59,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940608666325",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 22,
+          "root_id": "720575940646455860",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940619171633",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940627757328",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940623937724",
+          "type": "T5d"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940623580413",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940625308745",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940615974962",
+          "type": "T5d"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940621760609",
+          "type": "T5d"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940627082426",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940628311464",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940633347097",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940625483838",
+          "type": "T5d"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940636873705",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940630352066",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940631319340",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940627545731",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940628339216",
+          "type": "LPi09"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 52,
+          "root_id": "720575940621630540",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 47,
+          "root_id": "720575940630352066",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 45,
+          "root_id": "720575940620083797",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 43,
+          "root_id": "720575940626630693",
+          "type": "LPT48_vCal3"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940612730794",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940635853931",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940611174041",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940620929345",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940630502522",
+          "type": "LPT26"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940619410501",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940633572004",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940619171633",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940640607320",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940636873705",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940637499625",
+          "type": "Y11"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940640375411",
+          "type": "Y11"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940628535804",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940631468485",
+          "type": "LPT28"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940604889376",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940609781858",
+          "type": "Tlp14"
+        }
+      ]
+    },
+    "720575940621345006": {
+      "input": [
+        {
+          "contacts": 88,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 42,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940620354657",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 20,
+          "root_id": "720575940638222662",
+          "type": "T5d"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940625014023",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940623338165",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940611953635",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940628559403",
+          "type": "T4d"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940630575355",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940625751171",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940623949031",
+          "type": "T4d"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940635895438",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940616149435",
+          "type": "T4d"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940625308745",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940617071906",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940630149207",
+          "type": "T4d"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940633345561",
+          "type": "T5d"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940635987647",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940605833673",
+          "type": "LLPC2"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 71,
+          "root_id": "720575940626833764",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 46,
+          "root_id": "720575940626630693",
+          "type": "LPT48_vCal3"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940605833673",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940620083797",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940635853931",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 31,
+          "root_id": "720575940635895438",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940623568995",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 27,
+          "root_id": "720575940624244922",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940617045051",
+          "type": "Y11"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940633504608",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940633283609",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940615116731",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940630137082",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940633588320",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940616770909",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940604889376",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940612730794",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940620542068",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940610462930",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940631468485",
+          "type": "LPT28"
+        }
+      ]
+    },
+    "720575940622344472": {
+      "input": [
+        {
+          "contacts": 24,
+          "root_id": "720575940631122489",
+          "type": "T4c"
+        },
+        {
+          "contacts": 22,
+          "root_id": "720575940641216384",
+          "type": "T5c"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940625258682",
+          "type": "Y11"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940612887523",
+          "type": "cLP03b"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940624857063",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940613922099",
+          "type": "T5c"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940628448359",
+          "type": "Y11"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940616770909",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940618898715",
+          "type": "Y11"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940623463923",
+          "type": "Y11"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940623568995",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940624731901",
+          "type": "Y11"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940627475096",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940637499625",
+          "type": "Y11"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940615013939",
+          "type": "LPT45_dCal1"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940618177846",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940614343917",
+          "type": "Y11"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 81,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 73,
+          "root_id": "720575940641812699",
+          "type": "VS3"
+        },
+        {
+          "contacts": 68,
+          "root_id": "720575940613126835",
+          "type": "VS2"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940625751171",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 27,
+          "root_id": "720575940625014023",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940623338165",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940633806637",
+          "type": "LPT49"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940611953635",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940611961970",
+          "type": "Y12"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940632312907",
+          "type": "VSm"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940633500185",
+          "type": "LPT29"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940649181817",
+          "type": "LPT47_vCal2"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940614389142",
+          "type": "Y12"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940622939101",
+          "type": "VST2"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940624981908",
+          "type": "VST2"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940646455860",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940613250227",
+          "type": "LPi06"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940616965947",
+          "type": "LPi06"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940625308745",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940630700348",
+          "type": "VST1"
+        }
+      ]
+    },
+    "720575940623047629": {
+      "input": [
+        {
+          "contacts": 47,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940640379709",
+          "type": "Tm8b"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940623180577",
+          "type": "Y3"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940634612194",
+          "type": "LPi15"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940617685734",
+          "type": "Tm37"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940639777725",
+          "type": "Tm7"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940617331061",
+          "type": "Tm37"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940632504874",
+          "type": "LPi14"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940617872089",
+          "type": "Y3"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940620726208",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940629324860",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940644449316",
+          "type": "T5c"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940645581859",
+          "type": "Y3"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940613384434",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940619166667",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940619306069",
+          "type": "Tm7"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940625088700",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940630446021",
+          "type": "Tm36"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940649187961",
+          "type": "LPi10"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 35,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 31,
+          "root_id": "720575940630318533",
+          "type": "PVLP069"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940610505006",
+          "type": "DNp103"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940629245903",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940624299534",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940629757036",
+          "type": "DNp04"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940622339113",
+          "type": "PVLP130"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940624903064",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940631842360",
+          "type": "LHAD1g1"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940632499757",
+          "type": "DNp01"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940634676916",
+          "type": "CB0766"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940635967886",
+          "type": "AVLP340"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940638910040",
+          "type": "PVLP151"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940614941992",
+          "type": "AVLP479"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940618937547",
+          "type": "LPC1"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940633350812",
+          "type": "AVLP531"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940610953651",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940611961878",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940612254701",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940620165541",
+          "type": "AVLP479"
+        }
+      ]
+    },
+    "720575940627436933": {
+      "input": [
+        {
+          "contacts": 105,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940625023246",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 31,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 29,
+          "root_id": "720575940631248891",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940604407008",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940630183163",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940620354657",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940645695011",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940621769242",
+          "type": "T5d"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940637521037",
+          "type": "T5d"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940628358652",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940635895438",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940621702405",
+          "type": "T5d"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940629382150",
+          "type": "LPi12"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940623509173",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940619585496",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940629469548",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940631207388",
+          "type": "cLLPM02"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940640833013",
+          "type": "LLPC3"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 59,
+          "root_id": "720575940626630693",
+          "type": "LPT48_vCal3"
+        },
+        {
+          "contacts": 58,
+          "root_id": "720575940609781858",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 42,
+          "root_id": "720575940626833764",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 41,
+          "root_id": "720575940622624937",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 39,
+          "root_id": "720575940606114476",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940619709793",
+          "type": "Y11"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940620083797",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940628315642",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 33,
+          "root_id": "720575940636158862",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 31,
+          "root_id": "720575940632617299",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940604813233",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940618690640",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 29,
+          "root_id": "720575940616359180",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940619585496",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940633588320",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940612254701",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940607869193",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 23,
+          "root_id": "720575940633504608",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940630852114",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 20,
+          "root_id": "720575940630183163",
+          "type": "LPi09"
+        }
+      ]
+    },
+    "720575940631135247": {
+      "input": [
+        {
+          "contacts": 89,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 88,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940607976457",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940604455340",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 19,
+          "root_id": "720575940639012736",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940625912713",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940630183163",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940623949031",
+          "type": "T4d"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940607748363",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940620807919",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940624747597",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940629235932",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940635702629",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940640575832",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940625501053",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940627475096",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940603839753",
+          "type": "Y12"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940625237541",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940629382150",
+          "type": "LPi12"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 67,
+          "root_id": "720575940630144719",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 54,
+          "root_id": "720575940626630693",
+          "type": "LPT48_vCal3"
+        },
+        {
+          "contacts": 50,
+          "root_id": "720575940622089174",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 49,
+          "root_id": "720575940625237541",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 49,
+          "root_id": "720575940632711052",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 48,
+          "root_id": "720575940627475096",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940611206098",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940609781858",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940621104064",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940631582751",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940629548800",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940641257168",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940645091528",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940617724299",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940624731901",
+          "type": "Y11"
+        },
+        {
+          "contacts": 29,
+          "root_id": "720575940634675819",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940631780833",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 27,
+          "root_id": "720575940626783507",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940604813233",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940636999401",
+          "type": "LPLC2"
+        }
+      ]
+    },
+    "720575940634230241": {
+      "input": [
+        {
+          "contacts": 107,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 77,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940621207973",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 20,
+          "root_id": "720575940629235932",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940605666732",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940625308745",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940627545731",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940620378278",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940621603750",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 17,
+          "root_id": "720575940635702629",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940607748363",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940618931277",
+          "type": "T5d"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940620518917",
+          "type": "T4d"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940615974962",
+          "type": "T5d"
+        },
+        {
+          "contacts": 15,
+          "root_id": "720575940633347097",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940618599707",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940624207347",
+          "type": "T5d"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940617233698",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 12,
+          "root_id": "720575940633371873",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940621760609",
+          "type": "T5d"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 48,
+          "root_id": "720575940641257168",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 45,
+          "root_id": "720575940618177846",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940618599707",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940620494795",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 37,
+          "root_id": "720575940637499625",
+          "type": "Y11"
+        },
+        {
+          "contacts": 36,
+          "root_id": "720575940624982202",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 35,
+          "root_id": "720575940626831356",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940605115936",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940609925496",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 34,
+          "root_id": "720575940620754164",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940626783507",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940604814816",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 27,
+          "root_id": "720575940611650533",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940609781858",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940615288203",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940616559170",
+          "type": "Y11"
+        },
+        {
+          "contacts": 26,
+          "root_id": "720575940618898715",
+          "type": "Y11"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940628197892",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940620929345",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 24,
+          "root_id": "720575940629548800",
+          "type": "Tlp14"
+        }
+      ]
+    },
+    "720575940637088602": {
+      "input": [
+        {
+          "contacts": 38,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940629062555",
+          "type": "Tm20"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940627497244",
+          "type": "Li33"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940640379709",
+          "type": "Tm8b"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940624292622",
+          "type": "Y3"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940632411556",
+          "type": "Tm20"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940607700060",
+          "type": "TmY5a"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940622942793",
+          "type": "Tm5f"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940634612194",
+          "type": "LPi15"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940612246478",
+          "type": "MLt3"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940632716600",
+          "type": "Tm37"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940634934702",
+          "type": "Li13"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940636047608",
+          "type": "Li21"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940636201839",
+          "type": "Tm7"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940610814072",
+          "type": "Y3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940611123825",
+          "type": "Y3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940612901613",
+          "type": "Tlp5"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940613096946",
+          "type": "Y3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940616685457",
+          "type": "TmY3"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940619166667",
+          "type": "Tm5f"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 34,
+          "root_id": "720575940630318533",
+          "type": "PVLP069"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940638900713",
+          "type": "PVLP011"
+        },
+        {
+          "contacts": 16,
+          "root_id": "720575940610505006",
+          "type": "DNp103"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940615723314",
+          "type": "PVLP076"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940622339113",
+          "type": "PVLP130"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940610432120",
+          "type": "LPLC4"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940611644529",
+          "type": "DNp06"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940614941992",
+          "type": "AVLP479"
+        },
+        {
+          "contacts": 7,
+          "root_id": "720575940619714974",
+          "type": "LMa1"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940624735463",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940633350812",
+          "type": "AVLP531"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940638910040",
+          "type": "PVLP151"
+        },
+        {
+          "contacts": 6,
+          "root_id": "720575940639128646",
+          "type": "LC31c"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940618307046",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940618668198",
+          "type": "CB2917"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940627206842",
+          "type": "AVLP500"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940629245903",
+          "type": "PVLP111"
+        },
+        {
+          "contacts": 5,
+          "root_id": "720575940632499757",
+          "type": "DNp01"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940604088288",
+          "type": "AVLP016"
+        },
+        {
+          "contacts": 4,
+          "root_id": "720575940614492397",
+          "type": "PVLP151"
+        }
+      ]
+    },
+    "720575940641015168": {
+      "input": [
+        {
+          "contacts": 82,
+          "root_id": "720575940620008758",
+          "type": "LPi13"
+        },
+        {
+          "contacts": 41,
+          "root_id": "720575940619046469",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940615311035",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 31,
+          "root_id": "720575940630575355",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940608085973",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 28,
+          "root_id": "720575940617071906",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940616770909",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940622908941",
+          "type": "T4d"
+        },
+        {
+          "contacts": 18,
+          "root_id": "720575940629382150",
+          "type": "LPi12"
+        },
+        {
+          "contacts": 14,
+          "root_id": "720575940630149207",
+          "type": "T4d"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940623338165",
+          "type": "Tlp1"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940625267386",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 13,
+          "root_id": "720575940635960730",
+          "type": "MeLp2"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940633375001",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 11,
+          "root_id": "720575940635987647",
+          "type": "cLP02"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940625014023",
+          "type": "LLPC3"
+        },
+        {
+          "contacts": 10,
+          "root_id": "720575940636873705",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 9,
+          "root_id": "720575940615339314",
+          "type": "LPi09"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940620124326",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 8,
+          "root_id": "720575940627082426",
+          "type": "LLPC3"
+        }
+      ],
+      "output": [
+        {
+          "contacts": 75,
+          "root_id": "720575940609975854",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 57,
+          "root_id": "720575940618552806",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 55,
+          "root_id": "720575940622827923",
+          "type": "LLPC2"
+        },
+        {
+          "contacts": 51,
+          "root_id": "720575940646234676",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 47,
+          "root_id": "720575940633572004",
+          "type": "LPT50"
+        },
+        {
+          "contacts": 45,
+          "root_id": "720575940616770909",
+          "type": "Tlp4"
+        },
+        {
+          "contacts": 44,
+          "root_id": "720575940612730794",
+          "type": "LPC2"
+        },
+        {
+          "contacts": 43,
+          "root_id": "720575940627114568",
+          "type": "LPi04"
+        },
+        {
+          "contacts": 43,
+          "root_id": "720575940635040357",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 40,
+          "root_id": "720575940628448359",
+          "type": "Y11"
+        },
+        {
+          "contacts": 39,
+          "root_id": "720575940626630693",
+          "type": "LPT48_vCal3"
+        },
+        {
+          "contacts": 38,
+          "root_id": "720575940619654149",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 36,
+          "root_id": "720575940636024056",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 32,
+          "root_id": "720575940630502522",
+          "type": "LPT26"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940607869193",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 30,
+          "root_id": "720575940620887834",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 29,
+          "root_id": "720575940620542068",
+          "type": "Tlp14"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940614373279",
+          "type": "LPLC2"
+        },
+        {
+          "contacts": 25,
+          "root_id": "720575940623482805",
+          "type": "Y11"
+        },
+        {
+          "contacts": 21,
+          "root_id": "720575940609379396",
+          "type": "Tlp14"
+        }
+      ]
+    }
+  }
+}

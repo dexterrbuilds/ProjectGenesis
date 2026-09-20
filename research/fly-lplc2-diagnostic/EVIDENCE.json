@@ -1,0 +1,197 @@
+{
+  "sources": [
+    {
+      "classification": "experimentally constrained",
+      "crosswalk": "LPLC2/T4/T5 class correspondence supported; LPi4-3 to FlyWire LPi11 supported by E09; no imaging ROI to selected root assignment",
+      "data": "Published figures and frozen full-text XML; original imaging recordings/code on request, not obtained",
+      "doi": "10.1038/nature24626",
+      "id": "E01",
+      "measured": "Layer-specific outward arbors; small outward bars evoke responses; combined arms yield supra-additive calcium; inward orthogonal motion suppresses; LPi4-3 optogenetics suppresses weak bar response.",
+      "model_not_measurement": "Radial opponency mechanism is constrained; root-specific gain, synaptic delay, membrane compartments and calcium-to-voltage inverse are not identified.",
+      "population": "LPLC2; T4/T5; LPi4-3",
+      "preparation": "female adult D. melanogaster, calcium 2–5 d, 21.8 C; GCaMP6f; single axon and population assays distinguished",
+      "quantitative": "RF mapping: 5 degree grid, 5–20 degree disk, 10 degree/s edge; bar assay 10 degree narrow versus 60 degree wide, 20 degree/s; n=10 neurons/7 flies for bar-direction experiments.",
+      "source": "https://doi.org/10.1038/nature24626",
+      "unknown": [
+        "local voltage state number",
+        "interbranch electrical coupling",
+        "root-specific RF center",
+        "LPi→LPLC2 receptor map"
+      ]
+    },
+    {
+      "classification": "experimentally constrained",
+      "crosswalk": "T4 upward/layer 3 class only, not root-specific recordings",
+      "data": "Published quantitative text/figures; no raw per-fly recordings analyzed",
+      "doi": "10.7554/eLife.17421",
+      "id": "E02",
+      "measured": "Spatially separated preferred-direction enhancement and null-direction suppression; positive isolated-column flash responses.",
+      "model_not_measurement": "Published three-input multiplicative/divisive detector is a proposed model. Pulse lag is not a measured 500 ms membrane tau.",
+      "population": "upward T4 terminals; L2",
+      "preparation": "adult D. melanogaster, GCaMP6m two-photon, column-targeted optical stimulation; 25 C rearing; sex/age not specified in retrieved methods",
+      "quantitative": "1176 ms flashes; T4 neighbors ~50%, outer ring ~25% of center (10 cells/10 flies); L2 <30% and <12% (23 cells/6 flies). 472 ms pulses; enhancement peaks near 500 ms onset separation, suppression relaxes beyond 500 ms.",
+      "source": "https://elifesciences.org/articles/17421",
+      "unknown": [
+        "absolute voltage gain",
+        "root physiological time constants"
+      ]
+    },
+    {
+      "classification": "experimentally constrained",
+      "crosswalk": "class-level; recorded cells not matched to selected v783 roots",
+      "data": "Figshare article 16663705 v1; 6,320,065,220-byte Figure2.zip listed, not processed",
+      "doi": "10.1016/j.cub.2021.09.072",
+      "id": "E03",
+      "measured": "Composite ON/OFF receptive fields and responses to non-preferred contrast motion.",
+      "model_not_measurement": "Authors fitted biophysical model is not an independently measured receptor/parameter map.",
+      "population": "T4/T5",
+      "preparation": "adult D. melanogaster whole-cell electrophysiology; sex/age and cell-level archive metadata not verified here",
+      "quantitative": "Per-cell .result arrays with positions, durations, widths, vals are advertised; no new numerical measurements claimed.",
+      "source": "https://doi.org/10.1016/j.cub.2021.09.072",
+      "unknown": [
+        "held-out errors in this diagnostic",
+        "root-specific physiology"
+      ]
+    },
+    {
+      "classification": "experimentally constrained",
+      "crosswalk": "T4a/T5a class; not all subtypes or exact roots",
+      "data": "Dryad 10.5061/dryad.t1g1jwtbs version 4 metadata saved; API downloads 401, public file_stream 403; DANDI 001205 raw alternative identified but unprocessed",
+      "doi": "10.1016/j.cub.2024.10.053",
+      "id": "E04",
+      "measured": "Isolated moving bars activate both contrast channels; non-preferred response delayed and speed tuning differs; dense stimuli differ. Processing depends on stimulus statistics.",
+      "model_not_measurement": "LNL sparsity model is explanatory, not a measured synaptic operator.",
+      "population": "Mi1/Tm3 and T4a/T5a; additional early visual types",
+      "preparation": "nonvirgin female D. melanogaster 2–7 d, 25 C; GCaMP6f T4/T5",
+      "quantitative": "Fig7A T4 10/T5 9 flies; Fig7B T4 11/T5 9; not silently pooled. No raw held-out fit completed.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11834764/",
+      "unknown": [
+        "numerical response family validated here",
+        "physiological adaptation state equation"
+      ]
+    },
+    {
+      "classification": "experimentally measured",
+      "crosswalk": "class-level Tm9/T5; no source ROI→FAFB root identity",
+      "data": "Publisher MOESM4 XLS saved and hashed; all 70 control ROIs/7 fly IDs analyzed in Fig7g; labelled degree widths summarized separately",
+      "doi": "10.1038/s41467-021-24986-w",
+      "id": "E05",
+      "measured": "Contrast-opponent spatial responses in upstream cells; calcium observation depends on baseline. Source measurements are not synaptic currents.",
+      "model_not_measurement": "Passive-dendrite/conductance model in paper is a hypothesis. Tm9 calcium decrement is not inhibitory transmitter evidence.",
+      "population": "Tm1/Tm2/Tm4/Tm9, CT1, T5",
+      "preparation": "female D. melanogaster 1–7 d; in vivo right optic lobe; two-photon calcium, GCaMP6f; CDM and control separated",
+      "quantitative": "See INDEPENDENT_RESULTS.json: read-only workbook extraction with exact sheet/ranges and leave-one-fly-out observations.",
+      "source": "https://www.nature.com/articles/s41467-021-24986-w",
+      "unknown": [
+        "synaptic gain",
+        "root receptor map",
+        "T4/T5 neural calibration"
+      ]
+    },
+    {
+      "classification": "experimentally constrained",
+      "crosswalk": "same FAFB volume supports anatomical correspondence; CATMAID skeleton/column→v783 root→microCT→screen chain remains unvalidated for this extraction",
+      "data": "Frozen eye-map XML and repository tree pinned 99d2a43123db636cedb55af9ff31a59657e7d17e; numerical eye map not applied to selected roots",
+      "doi": "10.1038/s41586-025-09276-5",
+      "id": "E06",
+      "measured": "Nonuniform visual sampling, curved local preferred directions; anatomical eye-grid mapping supported by H2 measurements.",
+      "model_not_measurement": "Interpolation/registration is an approximation; rectangular 5 degree grid is not an eye map.",
+      "population": "Mi1/T4 anatomy, H2 physiology, female compound eye",
+      "preparation": "female FAFB EM; separate female 6–7 d microCT eyes; female 2–3 d H2 whole-cell physiology",
+      "quantitative": "Anatomical centers mapped into eye viewing directions; published medulla↔eye convention includes left-right flip. Approximate separate-fly registration, worse at periphery.",
+      "source": "https://www.nature.com/articles/s41586-025-09276-5",
+      "unknown": [
+        "selected-root retinal angles",
+        "selected-root screen preferred direction",
+        "per-root alignment uncertainty"
+      ]
+    },
+    {
+      "classification": "weakly constrained",
+      "crosswalk": "class only; lobula input name Tm5Y not equated with Tm5f or TmY5a without independent crosswalk",
+      "data": "Publisher indexed primary text; direct full-text retrieval 403; no raw recording values processed",
+      "doi": "10.1016/j.cub.2022.12.014",
+      "id": "E07",
+      "measured": "Responses to translating spots as well as looms; local LP/lobula/axon calcium assays reported.",
+      "model_not_measurement": "Translation-response hypotheses do not identify inhibitory delay or local voltage coupling. Local calcium is not automatically a local electrical compartment.",
+      "population": "LPLC2",
+      "preparation": "adult D. melanogaster tethered non-flying imaging, GCaMP7f; exact sex/age not verified from accessible methods",
+      "quantitative": "No numerical calibration extracted; assay and speed distinctions retained.",
+      "source": "https://www.sciencedirect.com/science/article/pii/S0960982222019145",
+      "unknown": [
+        "quantitative local-state comparison",
+        "root input crosswalk",
+        "local voltage model"
+      ]
+    },
+    {
+      "classification": "experimentally constrained",
+      "crosswalk": "LPi functional names audited with E09; target mismatch retained",
+      "data": "Primary article mechanism identified; no source recordings processed",
+      "doi": "10.1016/j.cell.2015.06.035",
+      "id": "E08",
+      "measured": "Opposing-motion integration with glutamatergic inhibitory LPi transmission onto tested tangential targets.",
+      "model_not_measurement": "LPTC GluCl evidence does not assign every LPLC2 postsynaptic receptor.",
+      "population": "LPi and lobula plate tangential cells",
+      "preparation": "adult D. melanogaster; optogenetic/electrophysiological pathway experiments; root-specific preparation unavailable",
+      "quantitative": "No receptor conductance values imported.",
+      "source": "https://doi.org/10.1016/j.cell.2015.06.035",
+      "unknown": [
+        "LPLC2 root receptor identity",
+        "LPLC2-specific LPi09 sign"
+      ]
+    },
+    {
+      "classification": "experimentally measured",
+      "crosswalk": "high anatomical/class confidence in frozen scope; physiology root transfer unresolved",
+      "data": "Pinned v783 proofread contacts and v3.1.0 annotation, reused read-only; Stage4 CROSSWALK.json",
+      "doi": "10.1038/s41586-024-07981-1",
+      "id": "E09",
+      "measured": "Anatomical chemical contacts and class labels; LPi11 corresponds to LPi4-3 and LPi09 to LPi3-4.",
+      "model_not_measurement": "Contact counts do not identify conductance, receptor or delay; proofread aggregate rows do not localize individual synapses on branches.",
+      "population": "FlyWire optic-lobe annotated classes",
+      "preparation": "single adult female FAFB anatomical specimen",
+      "quantitative": "Full retained/omitted and effective contacts in ANATOMY_AUDIT.json.",
+      "source": "https://doi.org/10.1038/s41586-024-07981-1",
+      "unknown": [
+        "subcellular synapse locations in aggregate file",
+        "unknown-edge physiological sign"
+      ]
+    },
+    {
+      "classification": "experimentally constrained",
+      "crosswalk": "class level; not selected-root physiology",
+      "data": "Primary published figures/text; no source recording fit",
+      "doi": "10.7554/eLife.74937",
+      "id": "E10",
+      "measured": "Differential contrast and luminance signals reach both ON/OFF pathways.",
+      "model_not_measurement": "Authors sigmoid coefficients are observation fits, not Stage4 neural gains.",
+      "population": "L1/L2/L3",
+      "preparation": "adult D. melanogaster calcium/behavior experiments; assay sex/age not reverified here",
+      "quantitative": "10 s luminance steps in published assay; separate cell classes, no shared model tau inferred.",
+      "source": "https://elifesciences.org/articles/74937",
+      "unknown": [
+        "absolute optical calibration in Stage4",
+        "class temporal kernels"
+      ]
+    },
+    {
+      "classification": "experimentally constrained",
+      "crosswalk": "class-level, not root-specific parameters",
+      "data": "Primary article and Dryad 10.5061/dryad.ngf1vhj4c identified; raw MAT arrays unprocessed",
+      "doi": "10.1016/j.cub.2024.11.064",
+      "id": "E11",
+      "measured": "Biphasic flash responses and recurrent contributions to temporal filtering.",
+      "model_not_measurement": "A proposed recurrent implementation is not uniquely identified by temporal traces.",
+      "population": "L1/L2 and recurrent early visual pathway",
+      "preparation": "adult D. melanogaster ASAP2f voltage assay; no numeric raw-data fit here",
+      "quantitative": "20 ms flash/120 Hz voltage sampling reported; not a membrane-tau estimate.",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11769683/",
+      "unknown": [
+        "selected-root recurrent kernel",
+        "independent parameter identifiability"
+      ]
+    }
+  ],
+  "status": "diagnostic only; not admitted to Brain Spec"
+}

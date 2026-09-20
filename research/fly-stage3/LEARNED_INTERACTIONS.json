@@ -1,0 +1,50 @@
+[
+  {
+    "cue": "A",
+    "intervention": "intact",
+    "mixed_difference": 4.529480002873898e-11,
+    "relative_to_learned_effect": 1.7392224062631707e-08
+  },
+  {
+    "cue": "A",
+    "intervention": "silence_dan",
+    "mixed_difference": 0.0,
+    "relative_to_learned_effect": 0.0
+  },
+  {
+    "cue": "A",
+    "intervention": "silence_mb11",
+    "mixed_difference": 0.0,
+    "relative_to_learned_effect": 0.0
+  },
+  {
+    "cue": "A",
+    "intervention": "freeze_modulation",
+    "mixed_difference": 0.0,
+    "relative_to_learned_effect": 0.0
+  },
+  {
+    "cue": "B",
+    "intervention": "intact",
+    "mixed_difference": 1.4350773520910298e-10,
+    "relative_to_learned_effect": 2.2724622983244106e-08
+  },
+  {
+    "cue": "B",
+    "intervention": "silence_dan",
+    "mixed_difference": 0.0,
+    "relative_to_learned_effect": 0.0
+  },
+  {
+    "cue": "B",
+    "intervention": "silence_mb11",
+    "mixed_difference": 0.0,
+    "relative_to_learned_effect": 0.0
+  },
+  {
+    "cue": "B",
+    "intervention": "freeze_modulation",
+    "mixed_difference": 0.0,
+    "relative_to_learned_effect": 0.0
+  }
+]

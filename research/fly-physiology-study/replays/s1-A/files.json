@@ -1,0 +1,8 @@
+{
+  "summary.json": "007fa56f4408b5fce84bad576bc28e72a7cf205ce4c9322fd9b9217c7869b1eb",
+  "trained.json.gz": "f57f2b6a113844697f49bc3507d83e46c2180e63d7b8ca37d6bd703a6ea7ae4c",
+  "provenance.json": "29d417d60b970ffd7e2316c3538d06c558623d130b83a62bc57091f77f919f78",
+  "stimuli.json": "4c8726055fcbcbdb2e5853ccac574e3ec760541fbadca697499486a8c12d45a1",
+  "trace.npz": "ec09412a2494b25e9b7ed5d610acfcd8fe779decb91fd342880142d85663430e",
+  "initial.json.gz": "c0d09d93da3c3f19e9ed1b65b5c8ffc6e96a6c9556705f5fbc01a57898411970"
+}

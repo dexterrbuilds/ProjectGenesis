@@ -1,0 +1,37 @@
+{
+  "protected_files_unchanged": 3768,
+  "interrupted_files_unchanged": 12,
+  "tests": {
+    "stage1": {
+      "passed": 10,
+      "sha256": "1a1f1812c760123cf0f300d89e43a65d12549857757acabb1301aee8c6a2b721"
+    },
+    "stage2": {
+      "passed": 9,
+      "sha256": "a7f1bad17fa54e20b896e23e2d854c2527148b952c60d27df7f5a11e47f253bf"
+    },
+    "stage3": {
+      "passed": 11,
+      "sha256": "834446f2764dad1ff2d9bcd23c34d398311ab7698f36fafb299ec62ae42e3828"
+    },
+    "frozen-physiology": {
+      "passed": 8,
+      "sha256": "86ac793944dc41764f224234fb531827e146c9ce1730f9cf3d8ff12a5edd42f0"
+    },
+    "study-tests": {
+      "passed": 10,
+      "sha256": "ec016e539f305ae9a6700bd8a4027eddb121b8d9dd43bae073d5e52847b6d85b"
+    }
+  },
+  "canonical_hash_unchanged": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "canonical_decisions": 7,
+  "schedule_enabled": false,
+  "canonical_cycles_run": 0,
+  "new_stage_probe_replays": 0,
+  "kernel_exported": false,
+  "benchmark_exact_replays": 15,
+  "prior_research_changed": false,
+  "genesis_integration": false,
+  "stage4": false,
+  "classification": "INSUFFICIENT EVIDENCE TO SELECT REPRESENTATION"
+}

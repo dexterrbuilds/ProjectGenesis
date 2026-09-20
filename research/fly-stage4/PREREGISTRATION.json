@@ -1,0 +1,22 @@
+{
+  "dependencies_sha256": "144b37b2a902d3eda80e0717699364b1810cb7f194aff7a7c8d14688e124be7f",
+  "preliminary_neural_results": false,
+  "protocol_sha256": "6e48767c0420d64d97dc72d1726f0c398b8991a7ff132e98da435c78dae92d44",
+  "registered_at_utc": "2026-09-19T08:26:20.246940+00:00",
+  "registry_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "sources_at_registration": {
+    "ache-metadata.json": "d0d7574119a767b33aa520e3562a133d8d2d6b3acec7225fa0b7ec7076ca076b",
+    "cellcoordinates.jl": "150e26158eecca3bce9bdd62f6f42e263b4744847a5cf402d1ee5adac7a78099",
+    "codexdependencies.jl": "2dee07ac131d7f8e0cb89b5c3e2db2d3118adaaab788a092ea0bbce55f0b011b",
+    "column_assignment.csv.gz": "bdf4ce7f62cc63493d53eefad3816ff2dfd08b190e97b35a492e0e453df2f0f6",
+    "columnassignment.jl": "f1a1ce11352fe87fd02f0da4afedb0c73b3c19fea46c2af40d6f483b8396a524",
+    "eyemap-tree.json": "97eb9b3a367c4d6f45620efe90e19a328ee834cd0ce37dbbe6fead9c1c37228d",
+    "eyemap.xml": "9ab4362df042ffac7f6227e2b6cd753d5ffa83fec5aaaa95e9cfa595531da086",
+    "gf-biophysics.xml": "fea662bbad3d82a470746e7c7dc03472aaa90cc91a65871918d683f4114c9cf5",
+    "klapoetke.xml": "fecd5b543b97b4ae316086675d8f11b26005d9f6a410224ac833fab08d459812",
+    "optic-lobe-tree.json": "f8cde896a99f6f15e59ce31d17c88ab9cdb906fe9cd3ead2a31f4840f95a92c6",
+    "parts-readme.md": "28dcaf0cd180b17696b6a73fb07c012118a0902bdb83a07c84a0fa888db652f3",
+    "visual-system-tree.json": "a22450a04ce0ac47ec3eadfd086e269bd252a2457cb6e5ab5f45d9e1b965271d"
+  },
+  "stage": "before extraction, neural implementation and primary results"
+}

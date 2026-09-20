@@ -1,0 +1,14 @@
+{
+  "brain_spec_version": "0.1.0",
+  "brain_spec_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "stage4_content_sha256": "405d5e982b75846c0e24949f27effd122c3171ebbec77932a30da17b90e3c66a",
+  "stage4_manifest_sha256": "968a9d51846b4d2d6e09cddd59a3323434cb74e123ef7844422b08c798a8c712",
+  "stage4_classification": {
+    "Gate A": "NOT SUPPORTED",
+    "Gate B": "NOT TESTED"
+  },
+  "protected_files": 5620,
+  "baseline_utc": "2026-09-19T09:40:52.931612+00:00",
+  "outcome_fitting": "forbidden",
+  "frozen_observations": "user-specified observations, never optimization data"
+}

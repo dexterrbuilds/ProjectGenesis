@@ -1,0 +1,58 @@
+{
+  "classification": "PARTIAL PHYSIOLOGICAL CONSTRAINT",
+  "audited_entries": 65,
+  "parameter_evidence_counts": {
+    "unconstrained": 39,
+    "weakly constrained": 16,
+    "product-boundary assumption": 7,
+    "experimentally constrained": 3
+  },
+  "frozen_apl_sha256": "fef59786a563ebfb8c9659ca8b478f95b569b2fdf723584714033cdec427523f",
+  "APL_holdout_MSE": {
+    "local": 0.00701383076567183,
+    "point_equal_gain": 5.008790639797456,
+    "point_free_site_gain": 5.796135366935333
+  },
+  "APL_local_coefficients": [
+    0.016511021420303938,
+    0.003214295105607715
+  ],
+  "APL_recording_bootstrap_intervals": [
+    [
+      -0.002379702365141444,
+      0.04636722202938443
+    ],
+    [
+      -0.009810694086116204,
+      0.021819487617449403
+    ]
+  ],
+  "Hige_integrated_depression": 2.302585092994046,
+  "Hige_joint_rank": 1,
+  "neural_parameter_changes": {},
+  "calibrated_neural_kernel": null,
+  "calibrated_replay_outcomes": null,
+  "null_transfer_exact_replays": 8,
+  "stage3_original_metrics": [
+    {
+      "cue": "A",
+      "metric": "original trial-10 maintained response; percent relative to high-resource or trial-1 baseline",
+      "MBON11_resource_contrast_percent": 0.05377438338356466,
+      "MBON11_experience_low_percent": -0.026144405390648995,
+      "MBON11_experience_high_percent": -0.061017167765287095
+    },
+    {
+      "cue": "B",
+      "metric": "original trial-10 maintained response; percent relative to high-resource or trial-1 baseline",
+      "MBON11_resource_contrast_percent": 0.049584329982588216,
+      "MBON11_experience_low_percent": -0.023822375200599488,
+      "MBON11_experience_high_percent": -0.05559802443995121
+    }
+  ],
+  "preserved_classifications": {
+    "Stage1": "PASS",
+    "Stage2": "PARTIAL-INCONCLUSIVE",
+    "Stage3": "PARTIAL-INCONCLUSIVE",
+    "Architecture": "INSUFFICIENT EVIDENCE"
+  }
+}

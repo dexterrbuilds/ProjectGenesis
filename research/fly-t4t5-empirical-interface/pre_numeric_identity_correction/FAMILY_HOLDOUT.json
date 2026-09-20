@@ -1,0 +1,56 @@
+[
+  {
+    "dataset": "2019_T5_compact",
+    "type": "T5",
+    "family": "apparent_motion",
+    "withheld_records": 1633,
+    "returned": "UNKNOWN",
+    "response_coverage": 0,
+    "cross_family_prediction_established": false
+  },
+  {
+    "dataset": "2019_T5_compact",
+    "type": "T5",
+    "family": "drifting_grating",
+    "withheld_records": 96,
+    "returned": "UNKNOWN",
+    "response_coverage": 0,
+    "cross_family_prediction_established": false
+  },
+  {
+    "dataset": "2019_T5_compact",
+    "type": "T5",
+    "family": "moving_bar",
+    "withheld_records": 268,
+    "returned": "UNKNOWN",
+    "response_coverage": 0,
+    "cross_family_prediction_established": false
+  },
+  {
+    "dataset": "2019_T5_compact",
+    "type": "T5",
+    "family": "static_grating",
+    "withheld_records": 176,
+    "returned": "UNKNOWN",
+    "response_coverage": 0,
+    "cross_family_prediction_established": false
+  },
+  {
+    "dataset": "2021_T4_flash",
+    "type": "T4",
+    "family": "flash",
+    "withheld_records": 2260,
+    "returned": "UNKNOWN",
+    "response_coverage": 0,
+    "cross_family_prediction_established": false
+  },
+  {
+    "dataset": "2021_T5_flash",
+    "type": "T5",
+    "family": "flash",
+    "withheld_records": 2204,
+    "returned": "UNKNOWN",
+    "response_coverage": 0,
+    "cross_family_prediction_established": false
+  }
+]

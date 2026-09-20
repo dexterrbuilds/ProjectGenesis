@@ -1,0 +1,18 @@
+[
+  {
+    "dt": 0.01,
+    "reference_dt": 0.005,
+    "mean_rate_max_absolute_difference_interpolated": 6.4198393418219136e-06,
+    "mean_rate_mean_absolute_difference_interpolated": 2.03770757355972e-07,
+    "mean_rate_peak_relative_error": 0.04879685117740085,
+    "limitations": "Sampled aggregate population means, linearly aligned by physical step-end times. Not per-neuron transient/timestep convergence validation."
+  },
+  {
+    "dt": 0.02,
+    "reference_dt": 0.005,
+    "mean_rate_max_absolute_difference_interpolated": 1.9259518025465744e-05,
+    "mean_rate_mean_absolute_difference_interpolated": 5.841496213899019e-07,
+    "mean_rate_peak_relative_error": 0.1463905535322026,
+    "limitations": "Sampled aggregate population means, linearly aligned by physical step-end times. Not per-neuron transient/timestep convergence validation."
+  }
+]

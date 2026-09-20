@@ -1,0 +1,27 @@
+{
+  "fitted_parameters": 0,
+  "kind": "mathematical structural restrictions and non-identifiability counterexamples",
+  "nonlinear_scalar_observation": {
+    "inference": "supra-additive calcium does not uniquely imply local voltage states",
+    "joint": 4.0,
+    "separate": 2.0
+  },
+  "not_neural_traces": true,
+  "pooling_information_loss": {
+    "equal_scalar_sum": 2.0,
+    "hypothetical_local_squared_sum_A": 4.0,
+    "hypothetical_local_squared_sum_B": 2.0,
+    "inference": "illustrates information loss only; squared local operator has no biological validation",
+    "input_A": [
+      2.0,
+      0.0
+    ],
+    "input_B": [
+      1.0,
+      1.0
+    ]
+  },
+  "separable_flash_max_roundoff": 2.7755575615628914e-17,
+  "stage4_simulation_runs": 0,
+  "strict_polarity_zero": true
+}

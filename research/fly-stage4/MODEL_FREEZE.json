@@ -1,0 +1,20 @@
+{
+  "all_parameters": "engineering assumptions, no fitted physiological amplitude or temporal constants",
+  "files": {
+    "CIRCUIT_MANIFEST.json": "6549c06dbe4878e037edc7d40161d94bbad42de4e505db065c31b516df3c6038",
+    "CROSSWALK.json": "38222b4ceee895dc0ba62b74b2d080a9bcc4330fed2579ec87b7499126be7318",
+    "DEPENDENCIES.json": "144b37b2a902d3eda80e0717699364b1810cb7f194aff7a7c8d14688e124be7f",
+    "PREREGISTRATION.json": "c2ac6f3035b7debe34ac1d36f40e6e9e0fd530c29fed69a7689c525edcedca1e",
+    "PROTOCOL.md": "6e48767c0420d64d97dc72d1726f0c398b8991a7ff132e98da435c78dae92d44",
+    "circuits/L0.json": "c9337ba005a87b21db5bd12544cbc964c21b40fa5853eddb39d6b911a331b82f",
+    "circuits/L1.json": "f137715b0d56f335d36c23bf214a26b0270d702caae263539bc1720dd2c4ac9e",
+    "common.py": "d13ea66ad477ec9d8477b90980a29caafa849e04d04841a8f26709206a7d9940",
+    "extract.py": "f7ab0c5337830fb809b250f1d936164fe9ae3ed11fbcf50ded2b50f6e0dc907d",
+    "model.py": "5f5ecb0dcf08128a0ac213575e3939437f6b9d684ab164d7a75b45200c87f90d",
+    "run.py": "895e6cb076b3ba1cdd9fcf51b19f10578ad9c34a3af8763ce2aa3beee6121e9d"
+  },
+  "frozen_at_utc": "2026-09-19T08:32:38.717597+00:00",
+  "optimization": "none",
+  "primary_results_seen": false,
+  "registry_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e"
+}

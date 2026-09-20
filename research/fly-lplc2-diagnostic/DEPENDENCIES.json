@@ -1,0 +1,26 @@
+{
+  "anatomy_views": [],
+  "dependencies": {
+    "anatomy.pinned": "4e874a6a5f7a62be78c398dad45a9638de596a2994d8c5487cb22fc25549e909",
+    "architecture.selection": "3166d092e53832f8ba2f825a7190ca45af00a9db47f5e5d94dc335bdd9389dcf",
+    "capability.threat_behavior": "b7463fa8dea7a46dd7b4416c3c8ed691b5492d31479b8b87d5ec25dc9c091ece",
+    "normalization.contact-mass": "dfeb2692336d4006e86e8147be484d8d51170c913d304933a129a17bcc08a6c7",
+    "representation.heterogeneous": "cd281b57b701a31500ead35a5db9b267ede92c2d6e4ada8519c4ef939082e7f5"
+  },
+  "id": "lplc2.visual-computation-diagnostic",
+  "input_channels": [],
+  "integration": "isolated_research_only",
+  "local_states": [],
+  "proposed_assumptions": [],
+  "registry_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "result_claims": [],
+  "schema_version": "1",
+  "state_ownership": [],
+  "uses": [
+    "anatomy.pinned",
+    "representation.heterogeneous",
+    "normalization.contact-mass",
+    "architecture.selection",
+    "capability.threat_behavior"
+  ]
+}

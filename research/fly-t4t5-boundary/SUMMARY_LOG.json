@@ -1,0 +1,189 @@
+{
+  "selected_counts": {
+    "B1t": 3,
+    "B1d": 1,
+    "B1s": 13
+  },
+  "table": [
+    {
+      "family": "apparent_motion",
+      "candidate": "Z",
+      "n_recordings": 17,
+      "median_rmse_mV": 5.648501173601618
+    },
+    {
+      "family": "apparent_motion",
+      "candidate": "B0",
+      "n_recordings": 17,
+      "median_rmse_mV": 5.648501173601618
+    },
+    {
+      "family": "apparent_motion",
+      "candidate": "B1s",
+      "n_recordings": 17,
+      "median_rmse_mV": 3.293587424714045
+    },
+    {
+      "family": "apparent_motion",
+      "candidate": "B1t",
+      "n_recordings": 17,
+      "median_rmse_mV": 3.0405612669140436
+    },
+    {
+      "family": "apparent_motion",
+      "candidate": "B1d",
+      "n_recordings": 17,
+      "median_rmse_mV": 2.7627104298627727
+    },
+    {
+      "family": "apparent_motion",
+      "candidate": "SELECTED",
+      "n_recordings": 17,
+      "median_rmse_mV": 3.3628406498261825
+    },
+    {
+      "family": "drifting_grating",
+      "candidate": "Z",
+      "n_recordings": 11,
+      "median_rmse_mV": 7.0105151738982405
+    },
+    {
+      "family": "drifting_grating",
+      "candidate": "B0",
+      "n_recordings": 11,
+      "median_rmse_mV": 7.0105151738982405
+    },
+    {
+      "family": "drifting_grating",
+      "candidate": "B1s",
+      "n_recordings": 11,
+      "median_rmse_mV": 23.524436761516146
+    },
+    {
+      "family": "drifting_grating",
+      "candidate": "B1t",
+      "n_recordings": 11,
+      "median_rmse_mV": 25.809430030619094
+    },
+    {
+      "family": "drifting_grating",
+      "candidate": "B1d",
+      "n_recordings": 11,
+      "median_rmse_mV": 13.105207807103794
+    },
+    {
+      "family": "drifting_grating",
+      "candidate": "SELECTED",
+      "n_recordings": 11,
+      "median_rmse_mV": 23.396620820921544
+    },
+    {
+      "family": "flash",
+      "candidate": "Z",
+      "n_recordings": 17,
+      "median_rmse_mV": 3.9250444868242447
+    },
+    {
+      "family": "flash",
+      "candidate": "B0",
+      "n_recordings": 17,
+      "median_rmse_mV": 3.9250444868242447
+    },
+    {
+      "family": "flash",
+      "candidate": "B1s",
+      "n_recordings": 17,
+      "median_rmse_mV": 2.6828994026580038
+    },
+    {
+      "family": "flash",
+      "candidate": "B1t",
+      "n_recordings": 17,
+      "median_rmse_mV": 2.6376774654281974
+    },
+    {
+      "family": "flash",
+      "candidate": "B1d",
+      "n_recordings": 17,
+      "median_rmse_mV": 2.1051815283075896
+    },
+    {
+      "family": "flash",
+      "candidate": "SELECTED",
+      "n_recordings": 17,
+      "median_rmse_mV": 2.6431594673078336
+    },
+    {
+      "family": "moving_bar",
+      "candidate": "Z",
+      "n_recordings": 17,
+      "median_rmse_mV": 6.972172805040455
+    },
+    {
+      "family": "moving_bar",
+      "candidate": "B0",
+      "n_recordings": 17,
+      "median_rmse_mV": 6.972172805040455
+    },
+    {
+      "family": "moving_bar",
+      "candidate": "B1s",
+      "n_recordings": 17,
+      "median_rmse_mV": 7.716855576449371
+    },
+    {
+      "family": "moving_bar",
+      "candidate": "B1t",
+      "n_recordings": 17,
+      "median_rmse_mV": 8.459906320839789
+    },
+    {
+      "family": "moving_bar",
+      "candidate": "B1d",
+      "n_recordings": 17,
+      "median_rmse_mV": 6.268885734985882
+    },
+    {
+      "family": "moving_bar",
+      "candidate": "SELECTED",
+      "n_recordings": 17,
+      "median_rmse_mV": 7.716855576449371
+    },
+    {
+      "family": "static_grating",
+      "candidate": "Z",
+      "n_recordings": 11,
+      "median_rmse_mV": 5.709197214809083
+    },
+    {
+      "family": "static_grating",
+      "candidate": "B0",
+      "n_recordings": 11,
+      "median_rmse_mV": 5.709197214809083
+    },
+    {
+      "family": "static_grating",
+      "candidate": "B1s",
+      "n_recordings": 11,
+      "median_rmse_mV": 5.002294190754178
+    },
+    {
+      "family": "static_grating",
+      "candidate": "B1t",
+      "n_recordings": 11,
+      "median_rmse_mV": 5.161316192142679
+    },
+    {
+      "family": "static_grating",
+      "candidate": "B1d",
+      "n_recordings": 11,
+      "median_rmse_mV": 3.252574020790007
+    },
+    {
+      "family": "static_grating",
+      "candidate": "SELECTED",
+      "n_recordings": 11,
+      "median_rmse_mV": 4.820573969323495
+    }
+  ]
+}

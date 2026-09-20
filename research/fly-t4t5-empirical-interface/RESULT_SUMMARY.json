@@ -1,0 +1,276 @@
+{
+  "classification": "LIMITED EMPIRICAL INTERFACE SUPPORTED",
+  "passing_comparisons": [
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|duration",
+      "recordings": 5,
+      "conditions": 130,
+      "median_RMSE_mV": 1.5776798627233404,
+      "reference_RMSE_mV": 2.028303830495009,
+      "MSE_difference_CI95": [
+        -1.5984182743094195,
+        -1.0261378787400877
+      ],
+      "zero_difference_CI95": [
+        -1.0482394451297605,
+        -0.6635007334285481
+      ],
+      "finite_envelope_recordings": 0,
+      "unknown_envelope_recordings": 5,
+      "median_envelope_half_width_mV": null,
+      "empirical_envelope_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|duration",
+      "recordings": 5,
+      "conditions": 120,
+      "median_RMSE_mV": 1.721411283995619,
+      "reference_RMSE_mV": 2.6436547035296005,
+      "MSE_difference_CI95": [
+        -4.288540241886118,
+        -3.36893800622138
+      ],
+      "zero_difference_CI95": [
+        -12.722746480878978,
+        -10.024088274211113
+      ],
+      "finite_envelope_recordings": 0,
+      "unknown_envelope_recordings": 5,
+      "median_envelope_half_width_mV": null,
+      "empirical_envelope_coverage": null
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recordings": 17,
+      "conditions": 973,
+      "median_RMSE_mV": 3.0178400783701838,
+      "reference_RMSE_mV": 4.979370243136515,
+      "MSE_difference_CI95": [
+        -20.071940629408694,
+        -14.219269713301122
+      ],
+      "zero_difference_CI95": [
+        -64.05623925658212,
+        -42.488690608857034
+      ],
+      "finite_envelope_recordings": 17,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 17.876900010882455,
+      "empirical_envelope_coverage": 0.9411764705882353
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|moving_bar|0|all_widths",
+      "recordings": 16,
+      "conditions": 232,
+      "median_RMSE_mV": 2.908209197810091,
+      "reference_RMSE_mV": 5.219301502100137,
+      "MSE_difference_CI95": [
+        -22.129608229719675,
+        -13.799290782093353
+      ],
+      "zero_difference_CI95": [
+        -43.40257697161537,
+        -29.450102413522092
+      ],
+      "finite_envelope_recordings": 16,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 15.060119704185164,
+      "empirical_envelope_coverage": 0.9375
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recordings": 15,
+      "conditions": 418,
+      "median_RMSE_mV": 1.3459329374404025,
+      "reference_RMSE_mV": 1.3690500754488486,
+      "MSE_difference_CI95": [
+        -0.7774371168715811,
+        -0.2569074299532498
+      ],
+      "zero_difference_CI95": [
+        -1.2980047691677494,
+        -0.4879698349302794
+      ],
+      "finite_envelope_recordings": 15,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 12.003756022570233,
+      "empirical_envelope_coverage": 0.9333333333333333
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recordings": 15,
+      "conditions": 378,
+      "median_RMSE_mV": 1.6385417105627926,
+      "reference_RMSE_mV": 2.295584632450969,
+      "MSE_difference_CI95": [
+        -3.4343202273776083,
+        -1.5965663248213584
+      ],
+      "zero_difference_CI95": [
+        -8.398414385086642,
+        -4.034189182008907
+      ],
+      "finite_envelope_recordings": 15,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 17.93638761347959,
+      "empirical_envelope_coverage": 0.9333333333333333
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recordings": 15,
+      "conditions": 316,
+      "median_RMSE_mV": 2.2471175149505838,
+      "reference_RMSE_mV": 3.564885694088505,
+      "MSE_difference_CI95": [
+        -8.918187358838347,
+        -4.490203412406091
+      ],
+      "zero_difference_CI95": [
+        -19.65565516913129,
+        -11.888219520659897
+      ],
+      "finite_envelope_recordings": 15,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 12.883640615225737,
+      "empirical_envelope_coverage": 0.9333333333333333
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recordings": 15,
+      "conditions": 418,
+      "median_RMSE_mV": 2.1937685688737107,
+      "reference_RMSE_mV": 3.7863566332457945,
+      "MSE_difference_CI95": [
+        -12.68619428323094,
+        -8.118470929650826
+      ],
+      "zero_difference_CI95": [
+        -22.463184241255313,
+        -14.933153622477343
+      ],
+      "finite_envelope_recordings": 15,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 15.025061445487768,
+      "empirical_envelope_coverage": 0.9333333333333333
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recordings": 15,
+      "conditions": 378,
+      "median_RMSE_mV": 2.409714352375712,
+      "reference_RMSE_mV": 4.30128471651219,
+      "MSE_difference_CI95": [
+        -13.74512233899991,
+        -8.530677543545256
+      ],
+      "zero_difference_CI95": [
+        -28.8435176107708,
+        -19.154102053602315
+      ],
+      "finite_envelope_recordings": 15,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 14.662444177834448,
+      "empirical_envelope_coverage": 0.9333333333333333
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recordings": 14,
+      "conditions": 413,
+      "median_RMSE_mV": 1.658942823083079,
+      "reference_RMSE_mV": 2.09858303312041,
+      "MSE_difference_CI95": [
+        -3.7286455108975045,
+        -1.4319524808860833
+      ],
+      "zero_difference_CI95": [
+        -13.688980331760089,
+        -6.436593520692117
+      ],
+      "finite_envelope_recordings": 14,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 10.557657159862364,
+      "empirical_envelope_coverage": 0.9285714285714286
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recordings": 17,
+      "conditions": 607,
+      "median_RMSE_mV": 2.022409594513234,
+      "reference_RMSE_mV": 3.6591412907211267,
+      "MSE_difference_CI95": [
+        -10.029586418561319,
+        -7.092990236746929
+      ],
+      "zero_difference_CI95": [
+        -23.887436540404583,
+        -18.206422288758052
+      ],
+      "finite_envelope_recordings": 17,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 14.634903588182839,
+      "empirical_envelope_coverage": 0.9411764705882353
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recordings": 16,
+      "conditions": 314,
+      "median_RMSE_mV": 2.5592909526221668,
+      "reference_RMSE_mV": 4.633149803424661,
+      "MSE_difference_CI95": [
+        -16.01356069826007,
+        -12.877169796944692
+      ],
+      "zero_difference_CI95": [
+        -46.607290905861596,
+        -35.20210089295364
+      ],
+      "finite_envelope_recordings": 16,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 15.68926288316126,
+      "empirical_envelope_coverage": 0.9375
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recordings": 15,
+      "conditions": 400,
+      "median_RMSE_mV": 1.8671610839997657,
+      "reference_RMSE_mV": 2.0236014261739355,
+      "MSE_difference_CI95": [
+        -0.992237378159412,
+        -0.2880826284832888
+      ],
+      "zero_difference_CI95": [
+        -7.506591128170109,
+        -3.908985913618821
+      ],
+      "finite_envelope_recordings": 15,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 13.286281591486457,
+      "empirical_envelope_coverage": 0.9333333333333333
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recordings": 13,
+      "conditions": 288,
+      "median_RMSE_mV": 2.224549245080334,
+      "reference_RMSE_mV": 2.3099274563479417,
+      "MSE_difference_CI95": [
+        -1.6916750902975783,
+        -0.2918965692846689
+      ],
+      "zero_difference_CI95": [
+        -16.99190945646334,
+        -7.507788991393665
+      ],
+      "finite_envelope_recordings": 13,
+      "unknown_envelope_recordings": 0,
+      "median_envelope_half_width_mV": 16.405934352797523,
+      "empirical_envelope_coverage": 0.9230769230769231
+    }
+  ],
+  "total_strata": 40,
+  "passing_strata": 14,
+  "prediction_count": 9430,
+  "recordings_are_not_flies": true,
+  "cross_family_prediction_supported": false
+}

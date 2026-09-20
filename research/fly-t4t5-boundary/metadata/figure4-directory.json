@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Figure4/",
+    "size": 0,
+    "compressed": 0,
+    "offset": 0,
+    "crc": 0,
+    "method": 0
+  },
+  {
+    "name": "__MACOSX/._Figure4",
+    "size": 178,
+    "compressed": 97,
+    "offset": 70,
+    "crc": 962295789,
+    "method": 8
+  },
+  {
+    "name": "Figure4/allT4MinMotFirstComp.mat",
+    "size": 1188637387,
+    "compressed": 971548753,
+    "offset": 263,
+    "crc": 2070929632,
+    "method": 8
+  },
+  {
+    "name": "__MACOSX/Figure4/._allT4MinMotFirstComp.mat",
+    "size": 178,
+    "compressed": 97,
+    "offset": 971549126,
+    "crc": 3554640170,
+    "method": 8
+  },
+  {
+    "name": "Figure4/README.txt",
+    "size": 1620,
+    "compressed": 755,
+    "offset": 971549344,
+    "crc": 642486096,
+    "method": 8
+  },
+  {
+    "name": "__MACOSX/Figure4/._README.txt",
+    "size": 178,
+    "compressed": 97,
+    "offset": 971550195,
+    "crc": 3084501380,
+    "method": 8
+  },
+  {
+    "name": "Figure4/Figure4Code.m",
+    "size": 24341,
+    "compressed": 5829,
+    "offset": 971550399,
+    "crc": 3280895191,
+    "method": 8
+  },
+  {
+    "name": "__MACOSX/Figure4/._Figure4Code.m",
+    "size": 234,
+    "compressed": 152,
+    "offset": 971556327,
+    "crc": 3447337952,
+    "method": 8
+  },
+  {
+    "name": "Figure4/allT5MinMotFirstComp.mat",
+    "size": 4053259824,
+    "compressed": 3334827557,
+    "offset": 971556589,
+    "crc": 4247935419,
+    "method": 8
+  },
+  {
+    "name": "__MACOSX/Figure4/._allT5MinMotFirstComp.mat",
+    "size": 178,
+    "compressed": 97,
+    "offset": 4306384256,
+    "crc": 2236943254,
+    "method": 8
+  }
+]

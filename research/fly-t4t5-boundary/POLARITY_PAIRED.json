@@ -1,0 +1,288 @@
+[
+  {
+    "type": "T4",
+    "traces": 2260,
+    "analyzed_cells": 15,
+    "missing_repeat_counts": 0,
+    "paired_center_summaries": [
+      {
+        "width_pixels": 1,
+        "duration_ms": 40,
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "n_pairs": 15,
+        "median_dark_mean_mV": -0.5046101388068249,
+        "median_light_mean_mV": 3.331148027215356,
+        "median_paired_light_minus_dark_mV": 3.884769189929028
+      },
+      {
+        "width_pixels": 1,
+        "duration_ms": 160,
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "n_pairs": 15,
+        "median_dark_mean_mV": -0.7312016962295588,
+        "median_light_mean_mV": 10.1178528598697,
+        "median_paired_light_minus_dark_mV": 10.905697289144769
+      },
+      {
+        "width_pixels": 2,
+        "duration_ms": 40,
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "n_pairs": 15,
+        "median_dark_mean_mV": -0.7715772723585502,
+        "median_light_mean_mV": 4.97813829629089,
+        "median_paired_light_minus_dark_mV": 6.266376288486343
+      },
+      {
+        "width_pixels": 2,
+        "duration_ms": 160,
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "n_pairs": 15,
+        "median_dark_mean_mV": -1.4160855417738145,
+        "median_light_mean_mV": 12.551685718805997,
+        "median_paired_light_minus_dark_mV": 13.539211836166022
+      },
+      {
+        "width_pixels": 4,
+        "duration_ms": 40,
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "n_pairs": 15,
+        "median_dark_mean_mV": -0.6897846736623777,
+        "median_light_mean_mV": 5.046054174132387,
+        "median_paired_light_minus_dark_mV": 5.80265893246934
+      },
+      {
+        "width_pixels": 4,
+        "duration_ms": 160,
+        "cells": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "n_pairs": 15,
+        "median_dark_mean_mV": -1.6153838986151257,
+        "median_light_mean_mV": 12.525607956984887,
+        "median_paired_light_minus_dark_mV": 15.63825848398528
+      }
+    ]
+  },
+  {
+    "type": "T5",
+    "traces": 2204,
+    "analyzed_cells": 17,
+    "missing_repeat_counts": 2204,
+    "paired_center_summaries": [
+      {
+        "width_pixels": 1,
+        "duration_ms": 40,
+        "cells": [
+          13,
+          14,
+          16
+        ],
+        "n_pairs": 3,
+        "median_dark_mean_mV": 3.446754655764235,
+        "median_light_mean_mV": -0.01931770746864147,
+        "median_paired_light_minus_dark_mV": -3.7286536074211325
+      },
+      {
+        "width_pixels": 1,
+        "duration_ms": 160,
+        "cells": [
+          9,
+          12,
+          13,
+          14,
+          16
+        ],
+        "n_pairs": 5,
+        "median_dark_mean_mV": 8.74697802416943,
+        "median_light_mean_mV": 0.9866207316148734,
+        "median_paired_light_minus_dark_mV": -8.279928727096495
+      },
+      {
+        "width_pixels": 2,
+        "duration_ms": 40,
+        "cells": [
+          1,
+          2,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "n_pairs": 14,
+        "median_dark_mean_mV": 4.395686442638647,
+        "median_light_mean_mV": -0.33182158059246164,
+        "median_paired_light_minus_dark_mV": -4.298978327828731
+      },
+      {
+        "width_pixels": 2,
+        "duration_ms": 160,
+        "cells": [
+          1,
+          2,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "n_pairs": 14,
+        "median_dark_mean_mV": 12.121978270002913,
+        "median_light_mean_mV": -0.531734047478654,
+        "median_paired_light_minus_dark_mV": -13.396255071188603
+      },
+      {
+        "width_pixels": 4,
+        "duration_ms": 40,
+        "cells": [
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "n_pairs": 12,
+        "median_dark_mean_mV": 8.095998367856446,
+        "median_light_mean_mV": -0.4105982393491461,
+        "median_paired_light_minus_dark_mV": -8.776209238421618
+      },
+      {
+        "width_pixels": 4,
+        "duration_ms": 160,
+        "cells": [
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "n_pairs": 12,
+        "median_dark_mean_mV": 14.148311372816874,
+        "median_light_mean_mV": -1.5771423390856723,
+        "median_paired_light_minus_dark_mV": -15.575922483533429
+      }
+    ]
+  }
+]

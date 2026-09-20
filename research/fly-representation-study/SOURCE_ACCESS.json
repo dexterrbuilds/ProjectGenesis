@@ -1,0 +1,60 @@
+{
+  "review_date_utc": "2026-09-18",
+  "metadata_files": [
+    {
+      "file": "data/dryad-metadata.json",
+      "sha256": "88ed82dcd0ed27ab2e57bc678cec8087ce2e550dccf7e384d7eb661435789511"
+    },
+    {
+      "file": "data/dryad-files.json",
+      "sha256": "6de43afa4e90921352149cdfd66e72c2421fbb127833a1ebf6bf3ac0a04ee1b0"
+    },
+    {
+      "file": "data/zenodo-metadata.json",
+      "sha256": "53f24c14a7697cd88a81367682e477eb96d3f5eba7a2017c8e46b7bc057f6c41"
+    },
+    {
+      "file": "data/stahl-metadata.json",
+      "sha256": "a15970d3e3cf05f96f7e9d95cfb9573f848ec16adabe32a42a80432760dff62a"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.bk3j9kdd1",
+      "status": "metadata acquired; CC0-1.0"
+    },
+    {
+      "url": "https://datadryad.org/downloads/file_stream/1282860",
+      "status": "HTTP403; no workbook acquired"
+    },
+    {
+      "url": "https://datadryad.org/api/v2/files/1282860/download",
+      "status": "HTTP401; no workbook acquired"
+    },
+    {
+      "url": "https://zenodo.org/api/records/5904586",
+      "status": "metadata acquired; MIT code-only record, not missing experimental spreadsheet"
+    },
+    {
+      "url": "https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.dfn2z353h",
+      "status": "HTTP200 body reports inaccessible/incomplete identifier; not usable data"
+    },
+    {
+      "url": "https://archive.data.jhu.edu/api/datasets/:persistentId/?persistentId=doi:10.7281/T1/HRK27V",
+      "status": "HTTP403 during original session; no raw traces acquired"
+    },
+    {
+      "url": "https://cdn.elifesciences.org/articles/77578/elife-77578-table1-data1-v4.xlsx",
+      "status": "acquired unchanged; unresolved inconsistency; excluded from clean validation"
+    },
+    {
+      "url": "https://cdn.elifesciences.org/articles/56954/elife-56954-fig3-data1-v2.xlsx",
+      "status": "acquired unchanged; validation challenge"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+      "status": "primary full text accessed; raw data available on request according to article; no contact made"
+    }
+  ],
+  "inference_limits": "Failed access is not absence of data. No raw observations invented. No authors contacted. Published fits are not independent experimental targets."
+}

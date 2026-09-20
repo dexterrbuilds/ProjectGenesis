@@ -1,0 +1,447 @@
+{
+  "sha": "fe52053dda84d49a124e6c1f141dd461eba9630c",
+  "node_id": "MDY6Q29tbWl0MjI2MTg3Mzk3OmZlNTIwNTNkZGE4NGQ0OWExMjRlNmMxZjE0MWRkNDYxZWJhOTYzMGM=",
+  "commit": {
+    "author": {
+      "name": "Reiser",
+      "email": "reiserm@reiserm-lm3.hhmi.org",
+      "date": "2019-12-10T01:39:39Z"
+    },
+    "committer": {
+      "name": "Reiser",
+      "email": "reiserm@reiserm-lm3.hhmi.org",
+      "date": "2019-12-10T01:39:39Z"
+    },
+    "message": "code and data initial commit",
+    "tree": {
+      "sha": "83777c4f77430768a25e173274e40d518ae9413e",
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/trees/83777c4f77430768a25e173274e40d518ae9413e"
+    },
+    "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/git/commits/fe52053dda84d49a124e6c1f141dd461eba9630c",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/commits/fe52053dda84d49a124e6c1f141dd461eba9630c",
+  "html_url": "https://github.com/reiserlab/T5ConductanceModel/commit/fe52053dda84d49a124e6c1f141dd461eba9630c",
+  "comments_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/commits/fe52053dda84d49a124e6c1f141dd461eba9630c/comments",
+  "author": null,
+  "committer": null,
+  "parents": [
+    {
+      "sha": "19eb0e0f7e57cb3bf9e0389bc2c2156a2be9f0fd",
+      "url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/commits/19eb0e0f7e57cb3bf9e0389bc2c2156a2be9f0fd",
+      "html_url": "https://github.com/reiserlab/T5ConductanceModel/commit/19eb0e0f7e57cb3bf9e0389bc2c2156a2be9f0fd"
+    }
+  ],
+  "stats": {
+    "total": 325,
+    "additions": 324,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "4dc5f83e88ba86520218348787dfc3df8b2ebe7d",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 1,
+      "changes": 13,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/README.md",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/README.md",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/README.md?ref=fe52053dda84d49a124e6c1f141dd461eba9630c",
+      "patch": "@@ -1,2 +1,13 @@\n # T5ConductanceModel\n-The conductance models used in \"The computation of directional selectivity in the Drosophila OFF motion pathway\" by Gruntman, Romani, and Reiser \n+\n+This repository contains the Matlab code to generate the model data used in \"The computation of directional selectivity in the Drosophila OFF motion pathway\", by Gruntman, Romani, and Reiser (2019).\n+\n+In order to execute this code, the Matlab Optimization Toolbox (https://www.mathworks.com/products/optimization.html) needs to be installed, and the Matlab working directory needs to be set to the folder containing the files in this repository.\n+\n+Running the model optimization:\n+Within Matlab, from the folder containing all the code and .mat files, run the command:\n+optimize_model(rng_seed), where rng_seed is a string containing an integer used as a seed for the random number generator (e.g. optimize_model(\"42\")). This seed is used to randomly select an initial starting point for the optimization in the space of model parameters.\n+\n+The optimization code generates a subfolder named rng_seed (e.g. 42) with seventeen .mat files containing the optimization results for the seventeen experimentally recorded T5 neurons. For instance, the results for neuron #1 can be found in result_cell_1.mat\n+\n+Each file contains the simulated membrane potential traces in response to the simulated presentation of (i) single bars (ii) minimal motion stimuli (iii) moving bars (iv) static gratings (v) drifting gratings. "
+    },
+    {
+      "sha": "e4520cd910adc902cd4729f3f2ff2a4115e62622",
+      "filename": "data_cell_10_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_10_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_10_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_10_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "ce051dd5b3fdd36510f7070b9e978589293c161c",
+      "filename": "data_cell_10_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_10_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_10_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_10_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "fe4c010d7978fa196f9c687bda4f497291bbb413",
+      "filename": "data_cell_11_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_11_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_11_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_11_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "4f624e4c25207fec071ad0f7f04e775f683435b7",
+      "filename": "data_cell_11_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_11_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_11_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_11_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "458ee791f22824f5b337481fde4af0d8d26c1e24",
+      "filename": "data_cell_12_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_12_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_12_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_12_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "1bf6d8484fadcfabd9ffb63c042cfd313950bdb1",
+      "filename": "data_cell_12_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_12_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_12_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_12_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "6638b4fb7fcc02726fe77929a5f1f951aaf3c6b1",
+      "filename": "data_cell_13_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_13_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_13_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_13_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "9873a8fea8221aeec47369ad37f26c33b67aee98",
+      "filename": "data_cell_13_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_13_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_13_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_13_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "9c06ef960e7a7872d84b03aa77f9dc8f7c80c206",
+      "filename": "data_cell_14_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_14_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_14_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_14_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "4a7dc80db2af492d3c9bb8eef348c564237a802f",
+      "filename": "data_cell_14_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_14_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_14_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_14_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "587514ac7cb0154599f04930ca5ffd64611a7677",
+      "filename": "data_cell_15_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_15_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_15_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_15_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "d4ddd4a4cf4f6ac044a28c1b71832a7689dd94d2",
+      "filename": "data_cell_15_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_15_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_15_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_15_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "61311a63c09082c4efefc28d099d684bb25caf74",
+      "filename": "data_cell_16_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_16_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_16_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_16_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "62779a60de254e213751bffdf8a98f6c6cbef7bb",
+      "filename": "data_cell_16_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_16_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_16_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_16_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "5b0b37cbbddd245c1da61a5f67d2821655ec0402",
+      "filename": "data_cell_17_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_17_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_17_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_17_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "57f4ec834291c72729de06920aca63e8a24f2e89",
+      "filename": "data_cell_17_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_17_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_17_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_17_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "591b2210eef335613bde9b4afd2befc5eeddf0e2",
+      "filename": "data_cell_1_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_1_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_1_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_1_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "66e2cfcf5a9217f3c9ed66fc2a3960b68a1620d2",
+      "filename": "data_cell_1_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_1_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_1_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_1_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "597321573dc5568cec05eaf7411011ac8c90573f",
+      "filename": "data_cell_2_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_2_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_2_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_2_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "6b90bbe48fdf5a23803f1a6c3fe20d146756552e",
+      "filename": "data_cell_2_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_2_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_2_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_2_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "bbd7e1639f865fe1ef390a789516e7346f2039d3",
+      "filename": "data_cell_3_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_3_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_3_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_3_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "c6590611fe7f55025b6f11975547293c181d7b5a",
+      "filename": "data_cell_3_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_3_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_3_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_3_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "aec05813338f0479b3ab9c745584c4e16cd721fd",
+      "filename": "data_cell_4_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_4_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_4_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_4_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "60a645a57b515d8fe6754a13325291c019e029dc",
+      "filename": "data_cell_4_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_4_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_4_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_4_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "48f21589ad42522788cdf2ab40bebbd3fb114f0c",
+      "filename": "data_cell_5_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_5_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_5_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_5_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "f8485140668fcd246c8e5ffc1041d1bdc7459224",
+      "filename": "data_cell_5_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_5_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_5_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_5_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "f8522cf6e569a55288cad565cbaaac9ee10c797c",
+      "filename": "data_cell_6_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_6_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_6_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_6_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "dec7466b9fb28f661849a6fae4cb519c6663b1ef",
+      "filename": "data_cell_6_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_6_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_6_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_6_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "dbc18ce67a5b19043a950f08385cea139764d423",
+      "filename": "data_cell_7_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_7_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_7_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_7_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "45f0dd171d2382e14c4609649fef3ab6b562e3a7",
+      "filename": "data_cell_7_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_7_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_7_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_7_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "1f495886c63d7b17b4179dc36f2eb20e3722c71c",
+      "filename": "data_cell_8_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_8_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_8_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_8_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "c3be1975824affdc0b53f2b1d67f7c9b34a83061",
+      "filename": "data_cell_8_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_8_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_8_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_8_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "e4f1ba2db2284ac15b5ccada9b1360982d48de32",
+      "filename": "data_cell_9_all.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_9_all.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_9_all.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_9_all.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "3bd8ae6a382dc2cdb74b347ed42a849c34f37041",
+      "filename": "data_cell_9_spfr.mat",
+      "status": "added",
+      "additions": 0,
+      "deletions": 0,
+      "changes": 0,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_9_spfr.mat",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/data_cell_9_spfr.mat",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/data_cell_9_spfr.mat?ref=fe52053dda84d49a124e6c1f141dd461eba9630c"
+    },
+    {
+      "sha": "154cde0f056bbe2048ae233f0ef511d807643148",
+      "filename": "optimize_model.m",
+      "status": "added",
+      "additions": 312,
+      "deletions": 0,
+      "changes": 312,
+      "blob_url": "https://github.com/reiserlab/T5ConductanceModel/blob/fe52053dda84d49a124e6c1f141dd461eba9630c/optimize_model.m",
+      "raw_url": "https://github.com/reiserlab/T5ConductanceModel/raw/fe52053dda84d49a124e6c1f141dd461eba9630c/optimize_model.m",
+      "contents_url": "https://api.github.com/repos/reiserlab/T5ConductanceModel/contents/optimize_model.m?ref=fe52053dda84d49a124e6c1f141dd461eba9630c",
+      "patch": "@@ -0,0 +1,312 @@\n+function optimize_model(task_id)\n+\n+% example function call:\n+% optimize_model('42')\n+% will use 42 as a seed for the random number generator and \n+% create a folder named '42' with optimization results for all\n+% recorded T5 cells. The results can be loaded and visualized with the code\n+% available at\n+% https://doi.org/10.25378/janelia.c.4771805.v1\n+\n+attempts_num = 10;\n+err_cutoff = 3.5;\n+basedir ='./';\n+\n+cd(basedir)\n+newdir = strcat(basedir,task_id);\n+mkdir(newdir)\n+rng(str2double(task_id));\n+\n+lb_gauss = [ .1,.1,.1,.1,.1,   0,0,-5,-5,0,0];\n+ub_gauss = [ 40,40,40,40,40,   10,10,5,10,10,10];\n+\n+for cell_id =  1:17\n+    load([basedir,'data_cell_',num2str(cell_id),'_spfr.mat'],'d','p')\n+    for n_attemps = 1:attempts_num\n+        par0 = lb_gauss + rand(size(ub_gauss)).*(ub_gauss-lb_gauss);\n+        q = optimize_t5(d,p,par0,lb_gauss,ub_gauss);\n+        vm_spfr = vm_bars_and_gratings(q.param,0,p);\n+        err_spfr = mean( (vm_spfr - d.vm_all_sb).^2 );\n+        if(q.resnorm <  err_cutoff)\n+            break\n+        end\n+    end\n+    load([basedir,'data_cell_',num2str(cell_id),'_all.mat'],'d','p') \n+    vm_all = vm_bars_and_gratings(q.param,0,p);\n+    if(ismember(cell_id, [2 5 6 7 9 10 13 14 15 16 17]))\n+        err_all = mean( (vm_all -...\n+            [d.vm_all_sb; d.vm_all_mb; d.vm_all_mm;...\n+            d.vm_all_mg; d.vm_all_sg]).^2 );\n+    else\n+        err_all = mean( (vm_all -...\n+            [d.vm_all_sb; d.vm_all_mb; d.vm_all_mm]).^2 );\n+    end\n+    save([newdir,'/result_cell_',num2str(cell_id),'.mat'],...\n+        'par0','q','vm_all','err_spfr','err_all')\n+end\n+\n+function q = optimize_t5(d,p,par0,lb,ub)\n+vm_all = d.vm_all_sb; \n+ind = false(size(vm_all));\n+for i = 1:length(d.ind_ref1_sb)\n+    wid = p.width_sb(i);\n+    if(wid==2)\n+        ind(d.ind_ref1_sb(i):d.ind_ref2_sb(i)) = true;\n+    end\n+end\n+\n+fun = @(ppar) mean( (extract_rise_decay_vm(ppar, p, ind) -...\n+    vm_all(ind) ).^2 );  \n+options = optimoptions('fmincon','Display','iter');\n+[param,resnorm,residual,exitflag,output] =...\n+    fmincon(fun,par0,[],[],[],[],lb,ub,[],options);\n+   \n+q.param = param;\n+q.resnorm = resnorm;\n+q.residual = residual;\n+q.exitflag = exitflag;\n+q.output = output;\n+\n+function vm_ind = extract_rise_decay_vm(par, p, ind)\n+tmp = vm_bars_and_gratings(par, 0, p);\n+vm_ind = tmp(ind);\n+\n+function y = vm_bars_and_gratings(param,~,q)\n+\n+p.xx = q.xx;\n+p.tau = param(1)*10;\n+p.tde = param(2)*10;\n+p.tdi = param(3)*10;\n+p.tre = param(4)*10;\n+p.tri = param(5)*10;\n+\n+ae = param(6);\n+ai = param(7);\n+mue = param(8);\n+mui = param(9);\n+sige = param(10);\n+sigi = param(11);\n+p.xae = ae * exp(-(p.xx-mue).^2 / (2 *sige^2));\n+p.xai = ai * exp(-(p.xx-mui).^2 / (2 *sigi^2));\n+\n+p.vi =  -74;\n+p.vl = -65; \n+p.ve =  0;\n+p.toff = 25;\n+p.stimmin = p.toff;\n+\n+y = [];\n+k0 = 1; k1 = 1; k2 = 1; k3 = 1; k4 = 1;\n+for i = 1:length(q.protocol)\n+    incond = [0,0,0,0];\n+    \n+    if(q.protocol(i)==0) % single bars\n+        p.tstimmin = p.toff;\n+        p.tstimmax = q.duration_sb(k0) + p.toff;\n+        p.location_sb = q.location_sb(k0);       \n+        p.width_sb = q.width_sb(k0);\n+        [~,y0] = ode45(@run_vm_sb, q.t{i}, incond, [],p);\n+        vm = (p.vl + p.ve*y0(:,2) + p.vi*y0(:,4))./(1 + y0(:,2) + y0(:,4));\n+        y = [y; vm - p.vl];\n+        k0 = k0 + 1;\n+    end\n+    \n+    if(q.protocol(i)==3) % moving bars\n+        p.pos = q.pos_mb;\n+        p.flag_dir = q.direction_mb(k3);\n+        p.currwidth = q.width_mb(k3);\n+        p.currdur = q.duration_mb(k3);        \n+        [~,y0] = ode45(@run_vm_mb, q.t{i}, incond, [],p);\n+        vm = (p.vl + p.ve*y0(:,2) + p.vi*y0(:,4))./(1 + y0(:,2) + y0(:,4));\n+        y = [y; vm - p.vl];\n+        k3 = k3 + 1;\n+    end\n+    \n+    if(q.protocol(i)==4) % minimal motion\n+        p.fb_pos = q.fb_pos_mm(k4);\n+        p.sb_pos = q.sb_pos_mm(k4);\n+        p.width = q.width_mm(k4);\n+        p.fbton = q.fbton_mm + p.toff;\n+        p.fbtoff = q.fbtoff_mm(k4) + p.toff;\n+        p.sbton = q.sbton_mm(k4) + p.toff;\n+        p.sbtoff = q.sbtoff_mm(k4) + p.toff;\n+        [~,y0] = ode45(@run_vm_mm, q.t{i}, incond, [],p);\n+        vm = (p.vl + p.ve*y0(:,2) + p.vi*y0(:,4))./(1 + y0(:,2) + y0(:,4));\n+        y = [y; vm - p.vl];\n+        k4 = k4 + 1;\n+    end\n+    \n+    if(q.protocol(i)==1) % moving grating\n+        p.PosD_mg = q.PosD_mg;\n+        p.currdur = q.stimdur_mg(k1);\n+        p.phaseMat = q.phase_mg(k1,:);\n+        [~,y0] = ode45(@run_vm_mg, q.t{i}, incond, [],p);  \n+        vm = (p.vl + p.ve*y0(:,2) + p.vi*y0(:,4))./(1 + y0(:,2) + y0(:,4));\n+        y = [y; vm - p.vl];\n+        k1 = k1 + 1;\n+    end\n+    \n+    if(q.protocol(i)==2) % static grating\n+        p.tstimmin = p.toff;\n+        p.tstimmax = p.toff + q.stimdur_sg(k2);\n+        p.posD_sg1 = q.posD_sg{k2};\n+        [~,y0] = ode45(@run_vm_sg, q.t{i}, incond, [],p);\n+        vm = (p.vl + p.ve*y0(:,2) + p.vi*y0(:,4))./(1 + y0(:,2) + y0(:,4));\n+        y = [y; vm - p.vl];\n+        k2 = k2 + 1;\n+    end\n+    \n+    \n+end\n+\n+function dydt = run_vm_sb(t,y,p) % single bars\n+\n+stim = 0;\n+if(t>=p.tstimmin && t<=p.tstimmax)\n+    stim = 1;\n+end\n+ae = 0; ai = 0;\n+j = find(p.xx==p.location_sb);        \n+for k = 0:(p.width_sb-1)\n+    ae = ae + p.xae(j-k);\n+    ai = ai + p.xai(j-k);\n+end\n+ae = ae*stim;\n+ai = ai*stim;\n+dydt = rhs_vm(ae,ai,y,p);\n+\n+function dydt = run_vm_mm(t,y,p) % minimal motion\n+\n+stim1 = 0;\n+if(t>=p.fbton && t<=p.fbtoff)\n+    stim1 = 1;\n+end\n+stim2 = 0;\n+if(t>=p.sbton && t<=p.sbtoff)\n+    stim2 = 1;\n+end\n+\n+xflag = zeros(size(p.xae));\n+ae = 0; ai = 0;\n+if(stim1==1)\n+    j = find(p.xx==p.fb_pos); \n+    for k = 0:(p.width-1)\n+        ae = ae + p.xae(j-k);\n+        ai = ai + p.xai(j-k);\n+        xflag(j-k) = 1;\n+    end\n+end\n+\n+if(stim2==1)\n+    j = find(p.xx==p.sb_pos); \n+    for k = 0:(p.width-1)\n+        if(xflag(j-k)~=1)\n+            ae = ae + p.xae(j-k);\n+            ai = ai + p.xai(j-k);\n+        end\n+    end\n+end\n+\n+dydt = rhs_vm(ae,ai,y,p);\n+\n+\n+function dydt = run_vm_mb(t,y,p) %moving bar\n+\n+istim = floor((t-p.toff)/(  p.currdur));\n+ae = 0; ai = 0;  \n+\n+eff_pos = p.pos;\n+if(p.flag_dir==1)\n+    for i=1:(p.currwidth-1)\n+        eff_pos = [eff_pos p.pos(end)+i] ;\n+    end\n+end\n+if(p.flag_dir==0)\n+    for i=1:(p.currwidth-1)\n+        eff_pos = [p.pos(1)-i eff_pos] ;\n+    end\n+    eff_pos = fliplr(eff_pos);\n+end \n+\n+if(t>p.toff && istim<length(eff_pos))\n+    lim_width = (p.currwidth-1);\n+    if(p.flag_dir==1)\n+        sloc = find(p.xx==eff_pos(istim+1));\n+        if(istim==0); lim_width = 0; end\n+        if(istim==1); lim_width = min(1,p.currwidth-1); end\n+        if(istim==2); lim_width = min(2,p.currwidth-1); end\n+        if(istim>=length(p.pos))\n+            sloc = find(p.xx==p.pos(end));\n+            if(istim==length(p.pos)); lim_width = p.currwidth-2; end\n+            if(istim==length(p.pos)+1); lim_width = p.currwidth-3; end\n+            if(istim==length(p.pos)+2); lim_width = p.currwidth-4; end\n+        end\n+        sign_fact=-1;       \n+    end\n+    if(p.flag_dir==0)\n+        sloc = find(p.xx==eff_pos(istim+1));\n+        if(istim==0); lim_width = 0; end\n+        if(istim==1); lim_width = min(1,p.currwidth-1); end\n+        if(istim==2); lim_width = min(2,p.currwidth-1); end\n+        if(istim>=length(p.pos))\n+            sloc = find(p.xx==p.pos(1));\n+            if(istim==length(p.pos)); lim_width = p.currwidth-2; end\n+            if(istim==length(p.pos)+1); lim_width = p.currwidth-3; end\n+            if(istim==length(p.pos)+2); lim_width = p.currwidth-4; end\n+        end\n+        sign_fact=1;    \n+    end\n+    for k = 0:lim_width\n+        ae = ae + p.xae(sloc+ sign_fact*k);\n+        ai = ai + p.xai(sloc+ sign_fact*k);\n+    end\n+end\n+dydt = rhs_vm(ae,ai,y,p);\n+\n+\n+function dydt = run_vm_mg(t,y,p) % moving grating\n+\n+istim = floor((t-p.toff)/(  p.currdur));\n+ae = 0; ai = 0;  \n+if(t>p.toff && istim<=3*8)\n+    pos_ind = p.phaseMat( mod(istim,8) + 1 );\n+    pos_d = p.PosD_mg{pos_ind};\n+    for ii = 1:length(pos_d)\n+        ae = ae + p.xae( p.xx==pos_d(ii) );\n+        ai = ai + p.xai( p.xx==pos_d(ii) );\n+    end\n+   \n+end\n+dydt = rhs_vm(ae,ai,y,p);\n+\n+\n+function dydt = run_vm_sg(t,y,p) %static grating\n+\n+stim = 0;\n+ae = 0; ai = 0;  \n+for ii = 1:length(p.posD_sg1)\n+    ae = ae + p.xae( p.xx==p.posD_sg1(ii) );\n+    ai = ai + p.xai( p.xx==p.posD_sg1(ii) );\n+end\n+if(t>=p.tstimmin && t<=p.tstimmax)\n+    stim = 1;\n+end\n+ae = ae * stim;\n+ai = ai * stim;\n+dydt = rhs_vm(ae,ai,y,p);\n+\n+\n+function dydt = rhs_vm(ae,ai,y,p)\n+\n+he = y(1);\n+ge = y(2);\n+hi = y(3);\n+gi = y(4);\n+\n+dhedt = ( -he + ae ) / p.tre;\n+dgedt = ( -ge + he ) / p.tde;\n+dhidt = ( -hi + ai ) / p.tri;\n+dgidt = ( -gi + hi ) / p.tdi;\n+dydt = [dhedt; dgedt; dhidt; dgidt];\n+\n+"
+    }
+  ]
+}

@@ -1,0 +1,3709 @@
+{
+  "annotation_version": "v3.1.0",
+  "column_conflicts_excluded": [
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "gaba, nitric oxide",
+        "root_id": "720575940606298558",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "Mi9",
+      "root_id": "720575940606298558"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940606480742",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940606480742"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940606723430",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940606723430"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R1-6",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940608081330",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940608081330"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "T1",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine-negative, glutamate-negative, gaba-negative, dopamine-negative, serotonin-negative, octopamine-negative",
+        "root_id": "720575940608318850",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "Mi4",
+      "root_id": "720575940608318850"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "Tm4",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940608694025",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T2a",
+      "root_id": "720575940608694025"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Dm10",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940609299246",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "C2",
+      "root_id": "720575940609299246"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "T3",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940609468427",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T2a",
+      "root_id": "720575940609468427"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940609781769",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940609781769"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940610041557",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940610041557"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940610434499",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940610434499"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940611044164",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940611044164"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Dm10",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940611211822",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "R8",
+      "root_id": "720575940611211822"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940612195170",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940612195170"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "gaba, nitric oxide",
+        "root_id": "720575940612238798",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "C2",
+      "root_id": "720575940612238798"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L5",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940612251746",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940612251746"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LOP",
+        "cell_type": "T4a",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940612400753",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T4c",
+      "root_id": "720575940612400753"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940612525262",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940612525262"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940612646642",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "L1",
+      "root_id": "720575940612646642"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940612791445",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "C2",
+      "root_id": "720575940612791445"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940612932325",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "L4",
+      "root_id": "720575940612932325"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LOP",
+        "cell_type": "T4d",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940612979353",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T4b",
+      "root_id": "720575940612979353"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940613011861",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "C2",
+      "root_id": "720575940613011861"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940613579178",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940613579178"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940613905010",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940613905010"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940614016749",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "L1",
+      "root_id": "720575940614016749"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940614281955",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "gaba"
+      },
+      "column_type": "R7",
+      "root_id": "720575940614281955"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940614346979",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940614346979"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940614587885",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940614587885"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940614982451",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940614982451"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LOP",
+        "cell_type": "T4a",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940615028341",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T4c",
+      "root_id": "720575940615028341"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940615123763",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "C2",
+      "root_id": "720575940615123763"
+    },
+    {
+      "annotation": {
+        "cell_class": "LO>LOP",
+        "cell_type": "T5c",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine; acetylcholine",
+        "root_id": "720575940615338642",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T5d",
+      "root_id": "720575940615338642"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940615358887",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "L4",
+      "root_id": "720575940615358887"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R1-6",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940615431842",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "L4",
+      "root_id": "720575940615431842"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "T1",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine-negative, glutamate-negative, gaba-negative, dopamine-negative, serotonin-negative, octopamine-negative",
+        "root_id": "720575940615543698",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940615543698"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "Lawf1",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940615621287",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "L4",
+      "root_id": "720575940615621287"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "Tm5c",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940615686075",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940615686075"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940616202207",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940616202207"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940616289503",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940616289503"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940616314591",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "C2",
+      "root_id": "720575940616314591"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940617005836",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940617005836"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940617145275",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940617145275"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940617281622",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940617281622"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L2",
+        "hemibrain_type": "",
+        "known_nt": "glutamate",
+        "root_id": "720575940617593973",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "L1",
+      "root_id": "720575940617593973"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA",
+        "cell_type": "Lai",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940618195924",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940618195924"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "Lawf2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine, nitric oxide",
+        "root_id": "720575940618253469",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "octopamine"
+      },
+      "column_type": "C2",
+      "root_id": "720575940618253469"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940618260534",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940618260534"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940618267097",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940618267097"
+    },
+    {
+      "annotation": {
+        "cell_class": "optic_lobes",
+        "cell_type": "Lawf1",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940618329843",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "C2",
+      "root_id": "720575940618329843"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "T2a",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940618509893",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T2",
+      "root_id": "720575940618509893"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L5",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940618556646",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "Mi9",
+      "root_id": "720575940618556646"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940619079709",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "gaba"
+      },
+      "column_type": "R8",
+      "root_id": "720575940619079709"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "L2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine-negative, glutamate-negative, gaba-negative, dopamine-negative, serotonin-negative, octopamine-negative",
+        "root_id": "720575940619757016",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T1",
+      "root_id": "720575940619757016"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940619880758",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940619880758"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940619917110",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "L4",
+      "root_id": "720575940619917110"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "T2",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940620330832",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T2a",
+      "root_id": "720575940620330832"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Mi15",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine, nitric oxide, dopamine",
+        "root_id": "720575940620386389",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940620386389"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R1-6",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940620428112",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "serotonin"
+      },
+      "column_type": "L4",
+      "root_id": "720575940620428112"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R1-6",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940620922965",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "gaba"
+      },
+      "column_type": "L4",
+      "root_id": "720575940620922965"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940620939088",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940620939088"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940620956501",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940620956501"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "Tm6",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940621398182",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "Tm21",
+      "root_id": "720575940621398182"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L4",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940621442731",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940621442731"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C2",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940621551750",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T1",
+      "root_id": "720575940621551750"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Mi2",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940621641648",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "T2",
+      "root_id": "720575940621641648"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940621705198",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940621705198"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "T2",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940621813748",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T2a",
+      "root_id": "720575940621813748"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940621826470",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940621826470"
+    },
+    {
+      "annotation": {
+        "cell_class": "LO>LOP",
+        "cell_type": "T5a",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine; acetylcholine",
+        "root_id": "720575940621833142",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T5d",
+      "root_id": "720575940621833142"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "T2a",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940621840222",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T2",
+      "root_id": "720575940621840222"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940622258870",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940622258870"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Pm01",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940622450014",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "T4a",
+      "root_id": "720575940622450014"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "L2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine-negative, glutamate-negative, gaba-negative, dopamine-negative, serotonin-negative, octopamine-negative",
+        "root_id": "720575940622455796",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T1",
+      "root_id": "720575940622455796"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L4",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940622827525",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940622827525"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940622860788",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "C2",
+      "root_id": "720575940622860788"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940622897178",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940622897178"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940623086369",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "gaba"
+      },
+      "column_type": "R8",
+      "root_id": "720575940623086369"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "gaba, nitric oxide",
+        "root_id": "720575940623109658",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "C2",
+      "root_id": "720575940623109658"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940623374156",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940623374156"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Dm10",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940623425997",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "Tm21",
+      "root_id": "720575940623425997"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Mi9",
+        "hemibrain_type": "",
+        "known_nt": "glutamate, gaba; glutamate",
+        "root_id": "720575940623519453",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940623519453"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940623914851",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": ""
+      },
+      "column_type": "R7",
+      "root_id": "720575940623914851"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LOP",
+        "cell_type": "T4a",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940623937741",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T4b",
+      "root_id": "720575940623937741"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940624281482",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940624281482"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R1-6",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940624581053",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "L4",
+      "root_id": "720575940624581053"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940624604855",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940624604855"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940624814315",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940624814315"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "T1",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine-negative, glutamate-negative, gaba-negative, dopamine-negative, serotonin-negative, octopamine-negative",
+        "root_id": "720575940624951991",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "L3",
+      "root_id": "720575940624951991"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940624978357",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "serotonin"
+      },
+      "column_type": "R8",
+      "root_id": "720575940624978357"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940625434603",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940625434603"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940625461227",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940625461227"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940625495276",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "L4",
+      "root_id": "720575940625495276"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Mi15",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine, nitric oxide, dopamine",
+        "root_id": "720575940625647630",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940625647630"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Mi15",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine, nitric oxide, dopamine",
+        "root_id": "720575940625736525",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "R8",
+      "root_id": "720575940625736525"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940625777639",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940625777639"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940625824755",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940625824755"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940625953011",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940625953011"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "gaba, nitric oxide",
+        "root_id": "720575940625994384",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "Tm9",
+      "root_id": "720575940625994384"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940626060327",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "L1",
+      "root_id": "720575940626060327"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940626238029",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940626238029"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940626264880",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940626264880"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940626661168",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "L1",
+      "root_id": "720575940626661168"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "Lawf2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine, nitric oxide",
+        "root_id": "720575940626667326",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "serotonin"
+      },
+      "column_type": "R8",
+      "root_id": "720575940626667326"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L4",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940626670736",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940626670736"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "T2a",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940626762814",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T2",
+      "root_id": "720575940626762814"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940626800944",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940626800944"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L4",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940626940197",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940626940197"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940627230052",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940627230052"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940627865496",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "L4",
+      "root_id": "720575940627865496"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940627897886",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940627897886"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L5",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940628090249",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940628090249"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940628100489",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940628100489"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Pm01",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940628258835",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "R8",
+      "root_id": "720575940628258835"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940628346536",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940628346536"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LOP",
+        "cell_type": "T4d",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940628924648",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T4b",
+      "root_id": "720575940628924648"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940628946152",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940628946152"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940628994759",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940628994759"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L1",
+        "hemibrain_type": "",
+        "known_nt": "glutamate",
+        "root_id": "720575940629011786",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T1",
+      "root_id": "720575940629011786"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Mi4",
+        "hemibrain_type": "",
+        "known_nt": "glutamate, gaba; glutamate",
+        "root_id": "720575940629171185",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "Mi9",
+      "root_id": "720575940629171185"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940629408006",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940629408006"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940629797904",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940629797904"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940629870352",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940629870352"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940629894555",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940629894555"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L1",
+        "hemibrain_type": "",
+        "known_nt": "glutamate",
+        "root_id": "720575940630516862",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "L3",
+      "root_id": "720575940630516862"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "Tm2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940630817024",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "C3",
+      "root_id": "720575940630817024"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "gaba, nitric oxide",
+        "root_id": "720575940630822359",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "C2",
+      "root_id": "720575940630822359"
+    },
+    {
+      "annotation": {
+        "cell_class": "LOP",
+        "cell_type": "T5c",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940630947799",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T4c",
+      "root_id": "720575940630947799"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "L4",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine-negative, glutamate-negative, gaba-negative, dopamine-negative, serotonin-negative, octopamine-negative",
+        "root_id": "720575940631100460",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T1",
+      "root_id": "720575940631100460"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940631340997",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "L3",
+      "root_id": "720575940631340997"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R1-6",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940631548409",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "C3",
+      "root_id": "720575940631548409"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940631620601",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940631620601"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940631662329",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "gaba"
+      },
+      "column_type": "R8",
+      "root_id": "720575940631662329"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940631810391",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "C2",
+      "root_id": "720575940631810391"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Dm9",
+        "hemibrain_type": "",
+        "known_nt": "glutamate",
+        "root_id": "720575940632066767",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940632066767"
+    },
+    {
+      "annotation": {
+        "cell_class": "LO>LOP",
+        "cell_type": "T5c",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine; acetylcholine",
+        "root_id": "720575940632356370",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T5b",
+      "root_id": "720575940632356370"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "Tm5a",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940632523311",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "C2",
+      "root_id": "720575940632523311"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Mi13",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940633029004",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "T1",
+      "root_id": "720575940633029004"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940633343569",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940633343569"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940633366865",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940633366865"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940633592268",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "L4",
+      "root_id": "720575940633592268"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940633664932",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940633664932"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "Lawf2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine, nitric oxide",
+        "root_id": "720575940634301922",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T1",
+      "root_id": "720575940634301922"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "Tm3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940634515170",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T4b",
+      "root_id": "720575940634515170"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940635042912",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940635042912"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940635080985",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "serotonin"
+      },
+      "column_type": "R7",
+      "root_id": "720575940635080985"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940635358059",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R7",
+      "root_id": "720575940635358059"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "T1",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine-negative, glutamate-negative, gaba-negative, dopamine-negative, serotonin-negative, octopamine-negative",
+        "root_id": "720575940635885759",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940635885759"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C2",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940635927647",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "C3",
+      "root_id": "720575940635927647"
+    },
+    {
+      "annotation": {
+        "cell_class": "optic_lobes",
+        "cell_type": "",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940636498868",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "C2",
+      "root_id": "720575940636498868"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940636529656",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "L4",
+      "root_id": "720575940636529656"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940636952943",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "L1",
+      "root_id": "720575940636952943"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940637030007",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "gaba"
+      },
+      "column_type": "R8",
+      "root_id": "720575940637030007"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R1-6",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940637598576",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "L4",
+      "root_id": "720575940637598576"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "Lawf2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine, nitric oxide",
+        "root_id": "720575940637680496",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "T1",
+      "root_id": "720575940637680496"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Mi9",
+        "hemibrain_type": "",
+        "known_nt": "glutamate, gaba; glutamate",
+        "root_id": "720575940637820272",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "R8",
+      "root_id": "720575940637820272"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940638649822",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940638649822"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Mi1",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940638779994",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "C2",
+      "root_id": "720575940638779994"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L5",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940638932570",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "L1",
+      "root_id": "720575940638932570"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940638958426",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940638958426"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "gaba, nitric oxide",
+        "root_id": "720575940639138281",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "C2",
+      "root_id": "720575940639138281"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME.LO",
+        "cell_type": "LMa5",
+        "hemibrain_type": "",
+        "known_nt": "glutamate",
+        "root_id": "720575940639267903",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "T3",
+      "root_id": "720575940639267903"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LO",
+        "cell_type": "Tm5a",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940639763790",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940639763790"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940640087997",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940640087997"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R7",
+        "hemibrain_type": "",
+        "known_nt": "histamine",
+        "root_id": "720575940640223566",
+        "side": "left",
+        "super_class": "sensory",
+        "top_nt": "glutamate"
+      },
+      "column_type": "R8",
+      "root_id": "720575940640223566"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L3",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940640691619",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940640691619"
+    },
+    {
+      "annotation": {
+        "cell_class": "",
+        "cell_type": "",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940642560987",
+        "side": "",
+        "super_class": "",
+        "top_nt": ""
+      },
+      "column_type": "L5",
+      "root_id": "720575940642560987"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LOP",
+        "cell_type": "T4a",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940642885773",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T4b",
+      "root_id": "720575940642885773"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LOP",
+        "cell_type": "T4a",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940644204823",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T4b",
+      "root_id": "720575940644204823"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME>LA",
+        "cell_type": "C3",
+        "hemibrain_type": "",
+        "known_nt": "gaba, nitric oxide",
+        "root_id": "720575940645696548",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "Mi4",
+      "root_id": "720575940645696548"
+    },
+    {
+      "annotation": {
+        "cell_class": "visual",
+        "cell_type": "R8",
+        "hemibrain_type": "",
+        "known_nt": "histamine; acetylcholine, histamine",
+        "root_id": "720575940645949207",
+        "side": "right",
+        "super_class": "sensory",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R7",
+      "root_id": "720575940645949207"
+    },
+    {
+      "annotation": {
+        "cell_class": "ME",
+        "cell_type": "Pm03",
+        "hemibrain_type": "",
+        "known_nt": "gaba",
+        "root_id": "720575940646617476",
+        "side": "left",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "T3",
+      "root_id": "720575940646617476"
+    },
+    {
+      "annotation": {
+        "cell_class": "LA>ME",
+        "cell_type": "L2",
+        "hemibrain_type": "",
+        "known_nt": "acetylcholine",
+        "root_id": "720575940656058785",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "gaba"
+      },
+      "column_type": "L1",
+      "root_id": "720575940656058785"
+    },
+    {
+      "annotation": {
+        "cell_class": "optic_lobes",
+        "cell_type": "",
+        "hemibrain_type": "",
+        "known_nt": "",
+        "root_id": "720575940661284993",
+        "side": "right",
+        "super_class": "optic",
+        "top_nt": "acetylcholine"
+      },
+      "column_type": "R8",
+      "root_id": "720575940661284993"
+    }
+  ],
+  "column_sha256": "bdf4ce7f62cc63493d53eefad3816ff2dfd08b190e97b35a492e0e453df2f0f6",
+  "confidence": {
+    "LPLC2_function": "class-level experimental correspondence; no measured response for selected roots",
+    "LPi11_to_LPi4_3": "published type crosswalk; no per-root experimental receptor verification",
+    "hexel_retinal_degrees_and_direction": "unresolved; tangent-plane model sensitivity only",
+    "root_and_type": "high within pinned anatomical annotations, not same animal as physiology",
+    "root_hexel": "direct root join, label conflicts excluded"
+  },
+  "dataset": "FAFB-FlyWire:783",
+  "descending_anatomy_only": [
+    {
+      "LC4_contacts": 374,
+      "LPLC2_contacts": 458,
+      "VNC": "outside FAFB; not modeled",
+      "full_input": 4327,
+      "hemibrain_type": "Giant Fiber",
+      "major_inputs": [
+        [
+          "LPLC2",
+          458
+        ],
+        [
+          "LC4",
+          374
+        ],
+        [
+          "CB3707",
+          293
+        ],
+        [
+          "DNp70",
+          249
+        ],
+        [
+          "SAD014",
+          136
+        ],
+        [
+          "LHAD1g1",
+          130
+        ],
+        [
+          "PVLP010",
+          113
+        ],
+        [
+          "CB0010",
+          111
+        ],
+        [
+          "CB0563",
+          110
+        ],
+        [
+          "PVLP122b",
+          110
+        ],
+        [
+          "CL038",
+          106
+        ],
+        [
+          "PVLP151",
+          86
+        ],
+        [
+          "SAD017",
+          83
+        ],
+        [
+          "PVLP062",
+          81
+        ],
+        [
+          "CB3486",
+          55
+        ],
+        [
+          "DNpe042",
+          53
+        ],
+        [
+          "SAD049",
+          51
+        ],
+        [
+          "CB0414",
+          48
+        ],
+        [
+          "CB0104",
+          45
+        ],
+        [
+          "SAD064",
+          43
+        ]
+      ],
+      "predicted_transmitter": "acetylcholine",
+      "root_id": "720575940622838154",
+      "root_specific_sign": "unknown",
+      "selected_seed_routes": [],
+      "side": "left"
+    },
+    {
+      "LC4_contacts": 431,
+      "LPLC2_contacts": 622,
+      "VNC": "outside FAFB; not modeled",
+      "full_input": 5147,
+      "hemibrain_type": "Giant Fiber",
+      "major_inputs": [
+        [
+          "LPLC2",
+          622
+        ],
+        [
+          "LC4",
+          431
+        ],
+        [
+          "CB3707",
+          340
+        ],
+        [
+          "DNp70",
+          338
+        ],
+        [
+          "PVLP122b",
+          171
+        ],
+        [
+          "SAD014",
+          156
+        ],
+        [
+          "CL038",
+          143
+        ],
+        [
+          "PVLP010",
+          137
+        ],
+        [
+          "LHAD1g1",
+          124
+        ],
+        [
+          "CB0010",
+          112
+        ],
+        [
+          "PVLP062",
+          108
+        ],
+        [
+          "PVLP151",
+          104
+        ],
+        [
+          "CB0563",
+          99
+        ],
+        [
+          "JO-A5",
+          85
+        ],
+        [
+          "AN_GNG_SAD_3",
+          62
+        ],
+        [
+          "AVLP202",
+          61
+        ],
+        [
+          "PVLP024",
+          60
+        ],
+        [
+          "DNpe042",
+          58
+        ],
+        [
+          "AVLP094",
+          56
+        ],
+        [
+          "SAD021_a",
+          55
+        ]
+      ],
+      "predicted_transmitter": "glutamate",
+      "root_id": "720575940632499757",
+      "root_specific_sign": "unknown",
+      "selected_seed_routes": [
+        {
+          "contacts": 6,
+          "pre_root_id": "720575940611740569"
+        },
+        {
+          "contacts": 6,
+          "pre_root_id": "720575940623047629"
+        },
+        {
+          "contacts": 5,
+          "pre_root_id": "720575940637088602"
+        }
+      ],
+      "side": "right"
+    }
+  ],
+  "right_motion_roots_mapped": 5921,
+  "right_motion_roots_total": 6100,
+  "selected": [
+    {
+      "center_distance": 1.2407678821353214,
+      "center_xy": [
+        0.1697110301364318,
+        -1.7291066282420748
+      ],
+      "index": 58717,
+      "mapped_motion_contacts": 347,
+      "root_id": "720575940623047629"
+    },
+    {
+      "center_distance": 1.3944467266848692,
+      "center_xy": [
+        0.9288287727611725,
+        0.5400763358778626
+      ],
+      "index": 122280,
+      "mapped_motion_contacts": 262,
+      "root_id": "720575940637088602"
+    },
+    {
+      "center_distance": 1.9113183217978762,
+      "center_xy": [
+        1.7597193508207762,
+        -1.2460063897763578
+      ],
+      "index": 12163,
+      "mapped_motion_contacts": 313,
+      "root_id": "720575940611740569"
+    }
+  ],
+  "selection_ranking": [
+    {
+      "center_distance": 1.2407678821353214,
+      "center_xy": [
+        0.1697110301364318,
+        -1.7291066282420748
+      ],
+      "index": 58717,
+      "mapped_motion_contacts": 347,
+      "root_id": "720575940623047629"
+    },
+    {
+      "center_distance": 1.3944467266848692,
+      "center_xy": [
+        0.9288287727611725,
+        0.5400763358778626
+      ],
+      "index": 122280,
+      "mapped_motion_contacts": 262,
+      "root_id": "720575940637088602"
+    },
+    {
+      "center_distance": 1.9113183217978762,
+      "center_xy": [
+        1.7597193508207762,
+        -1.2460063897763578
+      ],
+      "index": 12163,
+      "mapped_motion_contacts": 313,
+      "root_id": "720575940611740569"
+    },
+    {
+      "center_distance": 1.9220681747281163,
+      "center_xy": [
+        -1.8920555011087272,
+        -0.8383371824480369
+      ],
+      "index": 46269,
+      "mapped_motion_contacts": 433,
+      "root_id": "720575940620887834"
+    },
+    {
+      "center_distance": 1.9995452381043417,
+      "center_xy": [
+        -1.3439098882561618,
+        0.9805699481865285
+      ],
+      "index": 117236,
+      "mapped_motion_contacts": 386,
+      "root_id": "720575940635040357"
+    },
+    {
+      "center_distance": 2.813526644610069,
+      "center_xy": [
+        -2.1151396920664634,
+        -2.355294117647059
+      ],
+      "index": 126464,
+      "mapped_motion_contacts": 425,
+      "root_id": "720575940638922624"
+    },
+    {
+      "center_distance": 3.299137266528571,
+      "center_xy": [
+        -1.4801161446497684,
+        2.4484848484848483
+      ],
+      "index": 65571,
+      "mapped_motion_contacts": 330,
+      "root_id": "720575940624244922"
+    },
+    {
+      "center_distance": 3.3617767141637898,
+      "center_xy": [
+        -0.594331159459909,
+        2.8088235294117645
+      ],
+      "index": 22808,
+      "mapped_motion_contacts": 204,
+      "root_id": "720575940615116731"
+    },
+    {
+      "center_distance": 3.452081216436927,
+      "center_xy": [
+        3.2046446115748046,
+        -1.7834008097165992
+      ],
+      "index": 121989,
+      "mapped_motion_contacts": 494,
+      "root_id": "720575940636950505"
+    },
+    {
+      "center_distance": 3.740865554925862,
+      "center_xy": [
+        1.6181000965446086,
+        -3.8728070175438596
+      ],
+      "index": 3955,
+      "mapped_motion_contacts": 228,
+      "root_id": "720575940606855554"
+    },
+    {
+      "center_distance": 3.8681074311747663,
+      "center_xy": [
+        2.548169662660653,
+        2.4101694915254237
+      ],
+      "index": 105170,
+      "mapped_motion_contacts": 295,
+      "root_id": "720575940631582751"
+    },
+    {
+      "center_distance": 4.002285639846091,
+      "center_xy": [
+        -3.5094432593149505,
+        -2.424083769633508
+      ],
+      "index": 26482,
+      "mapped_motion_contacts": 382,
+      "root_id": "720575940616166685"
+    },
+    {
+      "center_distance": 4.051541516772536,
+      "center_xy": [
+        4.004336509879474,
+        0.11666666666666667
+      ],
+      "index": 23441,
+      "mapped_motion_contacts": 210,
+      "root_id": "720575940615288203"
+    },
+    {
+      "center_distance": 4.1003329898078125,
+      "center_xy": [
+        2.1570743452195424,
+        2.9870848708487086
+      ],
+      "index": 15866,
+      "mapped_motion_contacts": 271,
+      "root_id": "720575940612944382"
+    },
+    {
+      "center_distance": 4.207685007008305,
+      "center_xy": [
+        -0.8233246134591663,
+        -4.626348228043144
+      ],
+      "index": 69063,
+      "mapped_motion_contacts": 649,
+      "root_id": "720575940624903064"
+    },
+    {
+      "center_distance": 4.342031747782764,
+      "center_xy": [
+        -3.817348819312984,
+        1.569078947368421
+      ],
+      "index": 20261,
+      "mapped_motion_contacts": 304,
+      "root_id": "720575940614373279"
+    },
+    {
+      "center_distance": 4.567335470867493,
+      "center_xy": [
+        -0.6685895604346186,
+        4.018134715025907
+      ],
+      "index": 113459,
+      "mapped_motion_contacts": 193,
+      "root_id": "720575940633588320"
+    },
+    {
+      "center_distance": 4.938326071043778,
+      "center_xy": [
+        -4.873461428302877,
+        -1.2977707006369428
+      ],
+      "index": 40008,
+      "mapped_motion_contacts": 314,
+      "root_id": "720575940619654149"
+    },
+    {
+      "center_distance": 5.101545984440973,
+      "center_xy": [
+        5.0326371366774,
+        -1.3356643356643356
+      ],
+      "index": 87190,
+      "mapped_motion_contacts": 286,
+      "root_id": "720575940628197892"
+    },
+    {
+      "center_distance": 5.285926235888117,
+      "center_xy": [
+        4.83833354329869,
+        1.6287425149700598
+      ],
+      "index": 122091,
+      "mapped_motion_contacts": 334,
+      "root_id": "720575940636999401"
+    },
+    {
+      "center_distance": 5.340000477667012,
+      "center_xy": [
+        4.655587969804468,
+        -3.115550755939525
+      ],
+      "index": 115032,
+      "mapped_motion_contacts": 463,
+      "root_id": "720575940634146967"
+    },
+    {
+      "center_distance": 5.459565043188,
+      "center_xy": [
+        4.6585355287842685,
+        -3.3469101123595504
+      ],
+      "index": 91723,
+      "mapped_motion_contacts": 356,
+      "root_id": "720575940628990214"
+    },
+    {
+      "center_distance": 5.4954380604754265,
+      "center_xy": [
+        -3.4147981886846805,
+        -4.805693069306931
+      ],
+      "index": 121804,
+      "mapped_motion_contacts": 404,
+      "root_id": "720575940636878682"
+    },
+    {
+      "center_distance": 5.566956802221738,
+      "center_xy": [
+        1.5726853579620548,
+        -5.840193704600484
+      ],
+      "index": 67557,
+      "mapped_motion_contacts": 413,
+      "root_id": "720575940624611002"
+    },
+    {
+      "center_distance": 5.755444098677259,
+      "center_xy": [
+        -4.6002633834054105,
+        2.958715596330275
+      ],
+      "index": 75502,
+      "mapped_motion_contacts": 218,
+      "root_id": "720575940626161930"
+    },
+    {
+      "center_distance": 5.8362671069987995,
+      "center_xy": [
+        3.063975953895577,
+        -5.467299578059071
+      ],
+      "index": 136416,
+      "mapped_motion_contacts": 474,
+      "root_id": "720575940647358243"
+    },
+    {
+      "center_distance": 6.122278696771533,
+      "center_xy": [
+        4.412194264168599,
+        3.7443890274314215
+      ],
+      "index": 110177,
+      "mapped_motion_contacts": 401,
+      "root_id": "720575940632711052"
+    },
+    {
+      "center_distance": 6.177430116293951,
+      "center_xy": [
+        2.0504425001366857,
+        5.327205882352941
+      ],
+      "index": 13573,
+      "mapped_motion_contacts": 272,
+      "root_id": "720575940612254701"
+    },
+    {
+      "center_distance": 6.239265955977631,
+      "center_xy": [
+        -4.919024293495609,
+        -4.338181818181818
+      ],
+      "index": 76887,
+      "mapped_motion_contacts": 275,
+      "root_id": "720575940626447848"
+    },
+    {
+      "center_distance": 6.274556991313389,
+      "center_xy": [
+        -1.364518075231091,
+        -6.624390243902439
+      ],
+      "index": 41570,
+      "mapped_motion_contacts": 410,
+      "root_id": "720575940620001718"
+    },
+    {
+      "center_distance": 6.458531670107524,
+      "center_xy": [
+        -5.887726666016507,
+        2.1546762589928057
+      ],
+      "index": 100198,
+      "mapped_motion_contacts": 278,
+      "root_id": "720575940630650936"
+    },
+    {
+      "center_distance": 6.49686882038786,
+      "center_xy": [
+        -1.8236129647971882,
+        5.73568281938326
+      ],
+      "index": 18680,
+      "mapped_motion_contacts": 227,
+      "root_id": "720575940613821290"
+    },
+    {
+      "center_distance": 6.903449022542605,
+      "center_xy": [
+        6.890258818254022,
+        -0.07345360824742268
+      ],
+      "index": 93688,
+      "mapped_motion_contacts": 388,
+      "root_id": "720575940629384271"
+    },
+    {
+      "center_distance": 7.003523196010274,
+      "center_xy": [
+        -4.702437005595875,
+        4.690031152647975
+      ],
+      "index": 36416,
+      "mapped_motion_contacts": 321,
+      "root_id": "720575940618711535"
+    },
+    {
+      "center_distance": 7.075478821160926,
+      "center_xy": [
+        -6.848015692888058,
+        -2.2796296296296297
+      ],
+      "index": 138181,
+      "mapped_motion_contacts": 270,
+      "root_id": "720575940653742753"
+    },
+    {
+      "center_distance": 7.198505036347782,
+      "center_xy": [
+        -7.182150529129592,
+        -0.9849624060150376
+      ],
+      "index": 69636,
+      "mapped_motion_contacts": 266,
+      "root_id": "720575940625001735"
+    },
+    {
+      "center_distance": 7.4974696854725,
+      "center_xy": [
+        6.871102654201806,
+        2.5
+      ],
+      "index": 113322,
+      "mapped_motion_contacts": 364,
+      "root_id": "720575940633552685"
+    },
+    {
+      "center_distance": 7.572198940684659,
+      "center_xy": [
+        5.614467565526792,
+        -5.580939947780679
+      ],
+      "index": 102686,
+      "mapped_motion_contacts": 383,
+      "root_id": "720575940631095158"
+    },
+    {
+      "center_distance": 7.712342958721712,
+      "center_xy": [
+        -5.53208398502871,
+        -5.8736654804270465
+      ],
+      "index": 121070,
+      "mapped_motion_contacts": 281,
+      "root_id": "720575940636539102"
+    },
+    {
+      "center_distance": 7.752602442092312,
+      "center_xy": [
+        -7.6897833592316704,
+        0.4849246231155779
+      ],
+      "index": 134609,
+      "mapped_motion_contacts": 199,
+      "root_id": "720575940645180196"
+    },
+    {
+      "center_distance": 7.754255788722022,
+      "center_xy": [
+        1.8210814565560618,
+        7.037383177570093
+      ],
+      "index": 25541,
+      "mapped_motion_contacts": 428,
+      "root_id": "720575940615920453"
+    },
+    {
+      "center_distance": 7.886855345757139,
+      "center_xy": [
+        0.5721953560718612,
+        7.366071428571429
+      ],
+      "index": 90533,
+      "mapped_motion_contacts": 224,
+      "root_id": "720575940628778058"
+    },
+    {
+      "center_distance": 8.064597146904813,
+      "center_xy": [
+        1.3810075883393826,
+        -8.445473251028806
+      ],
+      "index": 57154,
+      "mapped_motion_contacts": 486,
+      "root_id": "720575940622769159"
+    },
+    {
+      "center_distance": 8.298207038385046,
+      "center_xy": [
+        -7.2274914212892485,
+        -4.577205882352941
+      ],
+      "index": 35328,
+      "mapped_motion_contacts": 272,
+      "root_id": "720575940618450496"
+    },
+    {
+      "center_distance": 8.302315402899106,
+      "center_xy": [
+        8.24738146162157,
+        -1.4534883720930232
+      ],
+      "index": 139239,
+      "mapped_motion_contacts": 344,
+      "root_id": "720575940661316993"
+    },
+    {
+      "center_distance": 8.406322669679135,
+      "center_xy": [
+        -2.158056831436952,
+        7.624595469255663
+      ],
+      "index": 7733,
+      "mapped_motion_contacts": 309,
+      "root_id": "720575940609592674"
+    },
+    {
+      "center_distance": 8.574085591477198,
+      "center_xy": [
+        -0.034013082323860105,
+        -9.074018126888218
+      ],
+      "index": 10256,
+      "mapped_motion_contacts": 331,
+      "root_id": "720575940610953651"
+    },
+    {
+      "center_distance": 8.628905127625009,
+      "center_xy": [
+        5.798718291002428,
+        5.890060240963855
+      ],
+      "index": 16085,
+      "mapped_motion_contacts": 332,
+      "root_id": "720575940612994929"
+    },
+    {
+      "center_distance": 8.778471609074222,
+      "center_xy": [
+        -8.020576182776326,
+        3.0681818181818183
+      ],
+      "index": 64185,
+      "mapped_motion_contacts": 176,
+      "root_id": "720575940624014524"
+    },
+    {
+      "center_distance": 8.803399376273337,
+      "center_xy": [
+        -8.803103588984085,
+        -0.5721649484536082
+      ],
+      "index": 2958,
+      "mapped_motion_contacts": 194,
+      "root_id": "720575940606217138"
+    },
+    {
+      "center_distance": 8.803741019156764,
+      "center_xy": [
+        -3.8552098620081456,
+        -8.414746543778802
+      ],
+      "index": 85459,
+      "mapped_motion_contacts": 434,
+      "root_id": "720575940627902979"
+    },
+    {
+      "center_distance": 8.857638298817973,
+      "center_xy": [
+        -5.857066546647386,
+        6.144736842105263
+      ],
+      "index": 28397,
+      "mapped_motion_contacts": 190,
+      "root_id": "720575940616735489"
+    },
+    {
+      "center_distance": 8.865517837634375,
+      "center_xy": [
+        3.870737908792883,
+        -8.475888324873097
+      ],
+      "index": 19311,
+      "mapped_motion_contacts": 394,
+      "root_id": "720575940614067167"
+    },
+    {
+      "center_distance": 8.883850681229571,
+      "center_xy": [
+        8.62390235422874,
+        -2.6333333333333333
+      ],
+      "index": 14225,
+      "mapped_motion_contacts": 405,
+      "root_id": "720575940612462307"
+    },
+    {
+      "center_distance": 9.04468444138903,
+      "center_xy": [
+        8.340042964176192,
+        3.0
+      ],
+      "index": 90985,
+      "mapped_motion_contacts": 238,
+      "root_id": "720575940628849668"
+    },
+    {
+      "center_distance": 9.09716538300096,
+      "center_xy": [
+        7.624788881145596,
+        -5.461956521739131
+      ],
+      "index": 34101,
+      "mapped_motion_contacts": 368,
+      "root_id": "720575940618172509"
+    },
+    {
+      "center_distance": 9.338920499101985,
+      "center_xy": [
+        4.945247866470018,
+        7.422118380062305
+      ],
+      "index": 123716,
+      "mapped_motion_contacts": 321,
+      "root_id": "720575940637702222"
+    },
+    {
+      "center_distance": 9.368539478804642,
+      "center_xy": [
+        -6.934148484763729,
+        -6.799771167048055
+      ],
+      "index": 126308,
+      "mapped_motion_contacts": 437,
+      "root_id": "720575940638857048"
+    },
+    {
+      "center_distance": 9.374510529951294,
+      "center_xy": [
+        6.787912510659336,
+        -6.965732087227415
+      ],
+      "index": 25726,
+      "mapped_motion_contacts": 321,
+      "root_id": "720575940615967377"
+    },
+    {
+      "center_distance": 9.484126531423511,
+      "center_xy": [
+        -9.197125874876804,
+        -2.8154981549815496
+      ],
+      "index": 79239,
+      "mapped_motion_contacts": 271,
+      "root_id": "720575940626873000"
+    },
+    {
+      "center_distance": 9.778857762083554,
+      "center_xy": [
+        -9.009349549447412,
+        3.302325581395349
+      ],
+      "index": 8626,
+      "mapped_motion_contacts": 129,
+      "root_id": "720575940610116757"
+    },
+    {
+      "center_distance": 9.785982780711143,
+      "center_xy": [
+        -0.029769623255090066,
+        9.2859375
+      ],
+      "index": 53769,
+      "mapped_motion_contacts": 320,
+      "root_id": "720575940622174463"
+    },
+    {
+      "center_distance": 9.854787515762789,
+      "center_xy": [
+        8.230108969739529,
+        4.920529801324503
+      ],
+      "index": 78461,
+      "mapped_motion_contacts": 302,
+      "root_id": "720575940626745392"
+    },
+    {
+      "center_distance": 9.889563893978977,
+      "center_xy": [
+        9.770230259596271,
+        1.0316901408450705
+      ],
+      "index": 39902,
+      "mapped_motion_contacts": 284,
+      "root_id": "720575940619627934"
+    },
+    {
+      "center_distance": 9.905060032160618,
+      "center_xy": [
+        5.351785973531659,
+        -8.834782608695653
+      ],
+      "index": 73812,
+      "mapped_motion_contacts": 345,
+      "root_id": "720575940625835278"
+    },
+    {
+      "center_distance": 10.062203678241957,
+      "center_xy": [
+        -9.447171351860051,
+        -3.9639423076923075
+      ],
+      "index": 58365,
+      "mapped_motion_contacts": 208,
+      "root_id": "720575940622992205"
+    },
+    {
+      "center_distance": 10.336722713450007,
+      "center_xy": [
+        -3.824664720993532,
+        9.103112840466926
+      ],
+      "index": 78391,
+      "mapped_motion_contacts": 257,
+      "root_id": "720575940626735016"
+    },
+    {
+      "center_distance": 10.43672002843525,
+      "center_xy": [
+        -10.256457723250994,
+        1.4313725490196079
+      ],
+      "index": 2307,
+      "mapped_motion_contacts": 153,
+      "root_id": "720575940605825666"
+    },
+    {
+      "center_distance": 10.459656916732676,
+      "center_xy": [
+        9.957449536278949,
+        -3.702127659574468
+      ],
+      "index": 60437,
+      "mapped_motion_contacts": 235,
+      "root_id": "720575940623333770"
+    },
+    {
+      "center_distance": 10.529089561558724,
+      "center_xy": [
+        3.7046642273000963,
+        -10.355820105820106
+      ],
+      "index": 104267,
+      "mapped_motion_contacts": 378,
+      "root_id": "720575940631397549"
+    },
+    {
+      "center_distance": 10.566970268517728,
+      "center_xy": [
+        9.316871659566191,
+        4.485655737704918
+      ],
+      "index": 50620,
+      "mapped_motion_contacts": 244,
+      "root_id": "720575940621634913"
+    },
+    {
+      "center_distance": 10.618493351610242,
+      "center_xy": [
+        -0.13405966002855088,
+        -11.117647058823529
+      ],
+      "index": 89594,
+      "mapped_motion_contacts": 323,
+      "root_id": "720575940628603842"
+    },
+    {
+      "center_distance": 10.63760635391953,
+      "center_xy": [
+        -5.11288074926582,
+        -9.828296703296703
+      ],
+      "index": 45700,
+      "mapped_motion_contacts": 364,
+      "root_id": "720575940620783180"
+    },
+    {
+      "center_distance": 10.651302189406044,
+      "center_xy": [
+        5.884531589817337,
+        8.378205128205128
+      ],
+      "index": 9700,
+      "mapped_motion_contacts": 312,
+      "root_id": "720575940610681829"
+    },
+    {
+      "center_distance": 10.69516424247425,
+      "center_xy": [
+        -9.686062726459902,
+        -5.035055350553505
+      ],
+      "index": 96703,
+      "mapped_motion_contacts": 271,
+      "root_id": "720575940629967703"
+    },
+    {
+      "center_distance": 10.74729569084406,
+      "center_xy": [
+        -10.746164687819803,
+        -0.6559139784946236
+      ],
+      "index": 69158,
+      "mapped_motion_contacts": 93,
+      "root_id": "720575940624919077"
+    },
+    {
+      "center_distance": 10.864796460177205,
+      "center_xy": [
+        -1.4442979577491282,
+        -11.268370607028753
+      ],
+      "index": 18641,
+      "mapped_motion_contacts": 313,
+      "root_id": "720575940613804906"
+    },
+    {
+      "center_distance": 10.96412054428166,
+      "center_xy": [
+        -9.148675948035601,
+        5.542654028436019
+      ],
+      "index": 35694,
+      "mapped_motion_contacts": 211,
+      "root_id": "720575940618538641"
+    },
+    {
+      "center_distance": 11.11183253830782,
+      "center_xy": [
+        11.041823898251591,
+        -1.7453703703703705
+      ],
+      "index": 83509,
+      "mapped_motion_contacts": 324,
+      "root_id": "720575940627553923"
+    },
+    {
+      "center_distance": 11.160266161638399,
+      "center_xy": [
+        11.159098171680734,
+        -0.3385416666666667
+      ],
+      "index": 26291,
+      "mapped_motion_contacts": 192,
+      "root_id": "720575940616116697"
+    },
+    {
+      "center_distance": 11.367802422335044,
+      "center_xy": [
+        -8.657193877406984,
+        -7.8674911660777385
+      ],
+      "index": 118744,
+      "mapped_motion_contacts": 283,
+      "root_id": "720575940635572592"
+    },
+    {
+      "center_distance": 11.397805603060515,
+      "center_xy": [
+        10.305702305034817,
+        -5.368518518518519
+      ],
+      "index": 34733,
+      "mapped_motion_contacts": 270,
+      "root_id": "720575940618307046"
+    },
+    {
+      "center_distance": 11.552791455034356,
+      "center_xy": [
+        -11.547005383792515,
+        -0.8655913978494624
+      ],
+      "index": 44397,
+      "mapped_motion_contacts": 186,
+      "root_id": "720575940620575476"
+    },
+    {
+      "center_distance": 11.574782178005835,
+      "center_xy": [
+        11.397573549414027,
+        1.5176470588235293
+      ],
+      "index": 9421,
+      "mapped_motion_contacts": 255,
+      "root_id": "720575940610536290"
+    },
+    {
+      "center_distance": 11.74717443600933,
+      "center_xy": [
+        -5.935054831440143,
+        9.637614678899082
+      ],
+      "index": 69231,
+      "mapped_motion_contacts": 327,
+      "root_id": "720575940624931530"
+    },
+    {
+      "center_distance": 11.76371137669764,
+      "center_xy": [
+        2.688706776865639,
+        10.952325581395348
+      ],
+      "index": 100615,
+      "mapped_motion_contacts": 430,
+      "root_id": "720575940630719831"
+    },
+    {
+      "center_distance": 11.851035380934182,
+      "center_xy": [
+        11.283801584603127,
+        3.122549019607843
+      ],
+      "index": 62789,
+      "mapped_motion_contacts": 204,
+      "root_id": "720575940623769783"
+    },
+    {
+      "center_distance": 11.98901673523548,
+      "center_xy": [
+        -1.1575306867576318,
+        11.433006535947712
+      ],
+      "index": 27609,
+      "mapped_motion_contacts": 306,
+      "root_id": "720575940616491993"
+    },
+    {
+      "center_distance": 12.025838259061054,
+      "center_xy": [
+        8.787124001456116,
+        -8.710191082802547
+      ],
+      "index": 86292,
+      "mapped_motion_contacts": 157,
+      "root_id": "720575940628039034"
+    },
+    {
+      "center_distance": 12.090644094263139,
+      "center_xy": [
+        5.252697036699429,
+        -11.390034364261169
+      ],
+      "index": 103872,
+      "mapped_motion_contacts": 291,
+      "root_id": "720575940631312428"
+    },
+    {
+      "center_distance": 12.25391683413013,
+      "center_xy": [
+        0.42146569650842686,
+        -12.746666666666666
+      ],
+      "index": 4970,
+      "mapped_motion_contacts": 300,
+      "root_id": "720575940607683011"
+    },
+    {
+      "center_distance": 12.33486427273181,
+      "center_xy": [
+        -12.260523169300447,
+        0.8522012578616353
+      ],
+      "index": 130063,
+      "mapped_motion_contacts": 159,
+      "root_id": "720575940640510427"
+    },
+    {
+      "center_distance": 12.376986709575508,
+      "center_xy": [
+        -11.920926866858286,
+        2.8288590604026846
+      ],
+      "index": 64199,
+      "mapped_motion_contacts": 149,
+      "root_id": "720575940624016778"
+    },
+    {
+      "center_distance": 12.419042921013194,
+      "center_xy": [
+        1.9224155248094197,
+        -12.769349845201239
+      ],
+      "index": 20716,
+      "mapped_motion_contacts": 323,
+      "root_id": "720575940614526974"
+    },
+    {
+      "center_distance": 12.652760410959017,
+      "center_xy": [
+        -11.744229998649274,
+        -5.208015267175573
+      ],
+      "index": 124265,
+      "mapped_motion_contacts": 262,
+      "root_id": "720575940637958709"
+    },
+    {
+      "center_distance": 12.666286392687205,
+      "center_xy": [
+        2.9541344012381647,
+        11.816976127320954
+      ],
+      "index": 132131,
+      "mapped_motion_contacts": 377,
+      "root_id": "720575940642397128"
+    },
+    {
+      "center_distance": 12.731987333097045,
+      "center_xy": [
+        9.120429898157887,
+        8.383763837638377
+      ],
+      "index": 127121,
+      "mapped_motion_contacts": 271,
+      "root_id": "720575940639177449"
+    },
+    {
+      "center_distance": 12.758239364823487,
+      "center_xy": [
+        -7.850555489590648,
+        -10.55691056910569
+      ],
+      "index": 109321,
+      "mapped_motion_contacts": 369,
+      "root_id": "720575940632512226"
+    },
+    {
+      "center_distance": 12.841437529494929,
+      "center_xy": [
+        -10.940073563708012,
+        -7.224381625441696
+      ],
+      "index": 135150,
+      "mapped_motion_contacts": 283,
+      "root_id": "720575940645699124"
+    },
+    {
+      "center_distance": 12.887888455486765,
+      "center_xy": [
+        -5.854240328484781,
+        -11.981530343007915
+      ],
+      "index": 105904,
+      "mapped_motion_contacts": 379,
+      "root_id": "720575940631742405"
+    },
+    {
+      "center_distance": 13.033109053892886,
+      "center_xy": [
+        -2.0977709949778456,
+        -13.363175675675675
+      ],
+      "index": 11143,
+      "mapped_motion_contacts": 296,
+      "root_id": "720575940611352234"
+    },
+    {
+      "center_distance": 13.256631706529747,
+      "center_xy": [
+        -13.224070451438568,
+        -1.4285714285714286
+      ],
+      "index": 12991,
+      "mapped_motion_contacts": 189,
+      "root_id": "720575940612045352"
+    }
+  ]
+}

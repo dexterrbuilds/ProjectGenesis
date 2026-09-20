@@ -1,0 +1,19 @@
+{
+  "at_utc": "2026-09-20T04:25:37.293195+00:00",
+  "checks": {
+    "PRIMARY_RESULT_LOCK.json": true,
+    "INTERFACE_FREEZE.json": true,
+    "initial_results_preserved": true,
+    "source_inputs_preserved": true,
+    "preregistered_rules_unchanged": true,
+    "canonical_state_unchanged": true,
+    "protected_files": 8762,
+    "estimator_input_firewall": true,
+    "static_audit_after_freeze": true,
+    "fresh_process_exact_replay": true
+  },
+  "canonical_sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "test_exit_code": 0,
+  "tests": 10,
+  "wall_seconds": 35.94155108300038
+}

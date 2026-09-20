@@ -1,0 +1,23 @@
+{
+  "additional_data_used": false,
+  "direct_sources_used": "SOURCE_INPUTS.json",
+  "Dryad": {
+    "doi": "10.5061/dryad.t1g1jwtbs",
+    "processed_archive": "sparsity_Dryad_upload.zip",
+    "reported_size_MB": 180.33,
+    "public_readme_accessible": true,
+    "attempted_download": "https://datadryad.org/downloads/file_stream/4404307",
+    "download_HTTP_status": 403,
+    "processed_new_arrays": false
+  },
+  "2021_Figure4": {
+    "doi": "10.25378/janelia.16663723.v1",
+    "previous_inventory_available": true,
+    "new_arrays_processed": false
+  },
+  "DANDI_001205": {
+    "prior_inventory": "raw two-photon imaging assets",
+    "not_substituted_for_processed_responses": true
+  },
+  "prior_boundary_classification_preserved": "PARTIAL VISUAL BOUNDARY CONSTRAINT"
+}

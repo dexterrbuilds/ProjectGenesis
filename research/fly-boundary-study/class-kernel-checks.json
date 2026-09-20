@@ -1,0 +1,47 @@
+[
+  {
+    "stage": 1,
+    "zero_storage_elimination_bit_exact": true,
+    "extension": {
+      "variant": "primary",
+      "added_neurons": 4276,
+      "added_neuropil_rows": 503637,
+      "nonzero_added_rows": 420121,
+      "matrix_bytes": 4922460,
+      "operator": "class-consistent-1",
+      "added_PN_KC_rows": 8882,
+      "added_KC_APL_MBON_rows": 20470
+    },
+    "observed_active_added_neurons": 937
+  },
+  {
+    "stage": 2,
+    "zero_storage_elimination_bit_exact": true,
+    "extension": {
+      "variant": "primary",
+      "added_neurons": 5565,
+      "added_neuropil_rows": 757047,
+      "nonzero_added_rows": 624778,
+      "matrix_bytes": 6635556,
+      "operator": "class-consistent-1",
+      "added_PN_KC_rows": 24291,
+      "added_KC_APL_MBON_rows": 21991
+    },
+    "observed_active_added_neurons": 1449
+  },
+  {
+    "stage": 3,
+    "zero_storage_elimination_bit_exact": true,
+    "extension": {
+      "variant": "primary",
+      "added_neurons": 4886,
+      "added_neuropil_rows": 816202,
+      "nonzero_added_rows": 552189,
+      "matrix_bytes": 8711496,
+      "operator": "class-consistent-1",
+      "added_PN_KC_rows": 4124,
+      "added_KC_APL_MBON_rows": 5521
+    },
+    "observed_active_added_neurons": 2602
+  }
+]

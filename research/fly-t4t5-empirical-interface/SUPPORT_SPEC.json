@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "rules": {
+    "DIRECTLY MEASURED": "Exact complete source/frame/observation/descriptor tuple in named recording; provenance and waveform retrieved",
+    "INTERPOLATION-SUPPORTED": "Only passing E1 stratum; same recording and all other descriptors fixed; source-tested axis value; strict two-neighbor bracket; duration ratio <=4, offset gap <=2; no joint interpolation",
+    "WEAKLY SUPPORTED": "Conditional passing E2 template only on explicit class_template request; not individual prediction. Failed/underpowered/new continuous query returns UNKNOWN",
+    "OUT OF DISTRIBUTION / UNKNOWN": "Missing tuple/family/frame/preparation/observation, requested fly/root/subtype/column, unsupported horizon, absent bracket, or invented input field returns no waveform"
+  },
+  "joint_coverage": "atlas/records.json",
+  "validation": "SUPPORT_STRATA.json",
+  "uncertainty": "UNCERTAINTY.json; null means unbounded/unidentified, never zero",
+  "continuous_space_supported": false,
+  "family_transfer_supported": false,
+  "angles_supported": false,
+  "thresholds_sha256": "b537f6bf7137049964ff358b440e5bafc7c76effd1cebc33bab66d9c3cbf110d",
+  "interpolation_strata": [
+    "E1|2021_T5_flash|T5|0.0|1.0|duration",
+    "E1|2021_T5_flash|T5|0.0|2.0|duration"
+  ],
+  "template_strata": [
+    "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+    "E2|2019_T5_compact|T5|moving_bar|0|all_widths",
+    "E2|2021_T4_flash|T4|flash|0.0|2.0",
+    "E2|2021_T4_flash|T4|flash|0.0|4.0",
+    "E2|2021_T4_flash|T4|flash|1.0|1.0",
+    "E2|2021_T4_flash|T4|flash|1.0|2.0",
+    "E2|2021_T4_flash|T4|flash|1.0|4.0",
+    "E2|2021_T5_flash|T5|flash|0.0|1.0",
+    "E2|2021_T5_flash|T5|flash|0.0|2.0",
+    "E2|2021_T5_flash|T5|flash|0.0|4.0",
+    "E2|2021_T5_flash|T5|flash|1.0|2.0",
+    "E2|2021_T5_flash|T5|flash|1.0|4.0"
+  ]
+}

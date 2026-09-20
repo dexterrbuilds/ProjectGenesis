@@ -1,0 +1,382 @@
+{
+  "source": "Gruntman et al 2019 original experimental model-input arrays",
+  "units": "baseline-subtracted somatic mV",
+  "records": [
+    {
+      "recording": 1,
+      "source_sha256": "0ff3d06d7c4186db0a053b294d5652b973f615368f1eeccb8b8ad9aa4cb387fb",
+      "families": {
+        "flash": 112,
+        "moving_bar": 18,
+        "apparent_motion": 85,
+        "drifting_grating": 0,
+        "static_grating": 0
+      },
+      "voltage_range_mV": [
+        -10.512842383624559,
+        25.30334017024837
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 2,
+      "source_sha256": "f9bbf7ca292d970d0d4b854832750855820093c68d5d5694fbcfa4a6aaa47767",
+      "families": {
+        "flash": 120,
+        "moving_bar": 24,
+        "apparent_motion": 115,
+        "drifting_grating": 16,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -7.289916938754601,
+        29.013199233768837
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 3,
+      "source_sha256": "7cc7caece72ca9de8ba534fc81e2bf2545b3bfc751a355baee552c993f4f2a47",
+      "families": {
+        "flash": 114,
+        "moving_bar": 24,
+        "apparent_motion": 65,
+        "drifting_grating": 0,
+        "static_grating": 0
+      },
+      "voltage_range_mV": [
+        -13.628900085723458,
+        25.526484679196578
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 4,
+      "source_sha256": "10e372b2371d96d29243380e98256ce6a9d34b39d68e2aa1465a902843f86095",
+      "families": {
+        "flash": 100,
+        "moving_bar": 6,
+        "apparent_motion": 42,
+        "drifting_grating": 0,
+        "static_grating": 0
+      },
+      "voltage_range_mV": [
+        -5.45278337517761,
+        25.356129933735687
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 5,
+      "source_sha256": "e89474ac9b519068f575d80b8f59f1df42a5f788a3f3c9b7fd4e0ed7a4435aac",
+      "families": {
+        "flash": 114,
+        "moving_bar": 18,
+        "apparent_motion": 113,
+        "drifting_grating": 8,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -7.099057297132816,
+        23.394665426032596
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 6,
+      "source_sha256": "6387a2ddcec94fc0b0dc6419722a9eaa89991704da4845ef623288dc8fa3beaf",
+      "families": {
+        "flash": 62,
+        "moving_bar": 18,
+        "apparent_motion": 114,
+        "drifting_grating": 8,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -10.469930848586017,
+        30.649124196362333
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 7,
+      "source_sha256": "c27e3d99fc0b715b005b2ddce4a405e38f36b81f21222afbfcf2eda8235de8f1",
+      "families": {
+        "flash": 70,
+        "moving_bar": 18,
+        "apparent_motion": 56,
+        "drifting_grating": 8,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -8.337608312614684,
+        29.34043376620251
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 8,
+      "source_sha256": "ad33f097c46b821eb46d2f59f5ad6e2fd7ff61b7d8f55d1da574a8252d0ffa3e",
+      "families": {
+        "flash": 60,
+        "moving_bar": 18,
+        "apparent_motion": 92,
+        "drifting_grating": 0,
+        "static_grating": 0
+      },
+      "voltage_range_mV": [
+        -10.742799648073309,
+        23.710175172934647
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 9,
+      "source_sha256": "c8f526270e0c941027255b0064898f108337487591a3d14930352eee1080ccb2",
+      "families": {
+        "flash": 61,
+        "moving_bar": 14,
+        "apparent_motion": 110,
+        "drifting_grating": 8,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -15.152386353960928,
+        24.826953874066866
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 10,
+      "source_sha256": "f4f0386b782de0c0510229fe775a391bfbc0961b38958b6a68da2edbf0ffbb59",
+      "families": {
+        "flash": 61,
+        "moving_bar": 16,
+        "apparent_motion": 106,
+        "drifting_grating": 8,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -8.618250911427715,
+        25.169318425379878
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 11,
+      "source_sha256": "07bcc7a3370f817d8be1fb3f9127c118608ba9d688bd8d6943b54390ccab35dc",
+      "families": {
+        "flash": 62,
+        "moving_bar": 6,
+        "apparent_motion": 78,
+        "drifting_grating": 0,
+        "static_grating": 0
+      },
+      "voltage_range_mV": [
+        -9.192071487622641,
+        29.676419417734223
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 12,
+      "source_sha256": "ec24f2841207eef04d80614e91791da52b8fe6699b990dd9f5bb8b28f1577314",
+      "families": {
+        "flash": 71,
+        "moving_bar": 16,
+        "apparent_motion": 86,
+        "drifting_grating": 0,
+        "static_grating": 0
+      },
+      "voltage_range_mV": [
+        -11.528438098045662,
+        33.795663823156985
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 13,
+      "source_sha256": "aefbab728ab065ce5d27f960dbedf5d6827109520e69c74bc4339f5b4f726fca",
+      "families": {
+        "flash": 86,
+        "moving_bar": 16,
+        "apparent_motion": 81,
+        "drifting_grating": 8,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -8.716330024128204,
+        37.73009281257205
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 14,
+      "source_sha256": "327cd9cd51706781f8a5dbe507f3b17afbfe56896b4f54a2f129c88f94eb2e53",
+      "families": {
+        "flash": 82,
+        "moving_bar": 16,
+        "apparent_motion": 95,
+        "drifting_grating": 8,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -10.575277426064652,
+        23.679825617466264
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 15,
+      "source_sha256": "69ef28202eef328b40686f02cdb7136e5d8ada0bceeb6c42ac9bfe199caac28a",
+      "families": {
+        "flash": 44,
+        "moving_bar": 12,
+        "apparent_motion": 116,
+        "drifting_grating": 8,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -11.75520197077337,
+        24.765358263608334
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 16,
+      "source_sha256": "3243c7d43b8f0354a911c8359bfab514d3303cce4a18a8edf1d003fecdc51f42",
+      "families": {
+        "flash": 96,
+        "moving_bar": 16,
+        "apparent_motion": 129,
+        "drifting_grating": 8,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -12.259947452086877,
+        28.824017031965
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    },
+    {
+      "recording": 17,
+      "source_sha256": "71032bc5ddc6f93d4bc80b6556d89e930de508635422be2b64880561334062c4",
+      "families": {
+        "flash": 83,
+        "moving_bar": 12,
+        "apparent_motion": 150,
+        "drifting_grating": 8,
+        "static_grating": 16
+      },
+      "voltage_range_mV": [
+        -7.998054159638684,
+        26.168689054842254
+      ],
+      "sample_intervals_ms": [
+        2.5,
+        5
+      ],
+      "raw_trials_available": false,
+      "fly_id": null,
+      "global_screen_frame": null
+    }
+  ],
+  "not_independent_replication_of_2021_T5": true,
+  "authors_trial_averages": true
+}

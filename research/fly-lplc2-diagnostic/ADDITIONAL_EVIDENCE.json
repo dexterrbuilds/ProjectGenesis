@@ -1,0 +1,17 @@
+{
+  "classification": "experimentally constrained",
+  "data_status": "published mechanism reviewed; source-data measurements not fitted",
+  "id": "E12",
+  "measured": "Beat-VI/Side-II perturbations alter layer-4 LPLC2 dendritic/input gradients and tuning",
+  "preparation": "FAFB/hemibrain anatomy, developmental gene-expression/perturbation and adult GCaMP7f assays kept separate; exact adult age/sex not reverified here",
+  "prohibited_inference": "gene recognition gradient is not a neurotransmitter receptor map or a calibrated electrical coupling rule",
+  "root_crosswalk": "LPLC2 class; no molecular or recording sample to any selected root mapping",
+  "scope": "primary literature mechanism audit only; not an added fitting target",
+  "source": "https://doi.org/10.1038/s41586-025-09037-4",
+  "title": "Molecular gradients shape synaptic specificity of a visuomotor transformation",
+  "unknown": [
+    "electrical compartment count",
+    "coupling constants",
+    "root-specific physiology"
+  ]
+}

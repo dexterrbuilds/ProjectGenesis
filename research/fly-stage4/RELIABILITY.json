@@ -1,0 +1,28 @@
+[
+  {
+    "all_final_state_and_prng_equal": true,
+    "checkpoint_bytes": 27434,
+    "checkpoint_write_seconds": 0.0010620410030242056,
+    "fresh_process_result_path": "replay/L0_fresh.json",
+    "level": "L0",
+    "randomized_seeded_replay_max_abs": 0.0,
+    "readout_sha256": "d0372acd66a4d70b007ee96d74b2ccab601ff406b5130ac97b5450a7e14634b2",
+    "replay_max_abs": 0.0,
+    "restored_tail_max_abs": 0.0,
+    "snapshot_sha256": "51c3084535282161d111dfe4460105cdd920099bd67b67c9ceec4dec6bbe3b75",
+    "wall_seconds": 0.3270027920079883
+  },
+  {
+    "all_final_state_and_prng_equal": true,
+    "checkpoint_bytes": 29701,
+    "checkpoint_write_seconds": 0.0012591669947141781,
+    "fresh_process_result_path": "replay/L1_fresh.json",
+    "level": "L1",
+    "randomized_seeded_replay_max_abs": 0.0,
+    "readout_sha256": "955fce57067b8da1efc64a79fe219ab64e3545c66cab18eb85adb8cb78f51ae9",
+    "replay_max_abs": 0.0,
+    "restored_tail_max_abs": 0.0,
+    "snapshot_sha256": "ffcde9a07e413ccd0740d07711b1779e0a5f51d18f68d742a45d4ba9c61dc1f6",
+    "wall_seconds": 0.4132630420062924
+  }
+]

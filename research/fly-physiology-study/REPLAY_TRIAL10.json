@@ -1,0 +1,16 @@
+[
+  {
+    "cue": "A",
+    "metric": "original trial-10 maintained response; percent relative to high-resource or trial-1 baseline",
+    "MBON11_resource_contrast_percent": 0.05377438338356466,
+    "MBON11_experience_low_percent": -0.026144405390648995,
+    "MBON11_experience_high_percent": -0.061017167765287095
+  },
+  {
+    "cue": "B",
+    "metric": "original trial-10 maintained response; percent relative to high-resource or trial-1 baseline",
+    "MBON11_resource_contrast_percent": 0.049584329982588216,
+    "MBON11_experience_low_percent": -0.023822375200599488,
+    "MBON11_experience_high_percent": -0.05559802443995121
+  }
+]

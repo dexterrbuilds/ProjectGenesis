@@ -1,0 +1,48 @@
+{
+  "cpu_seconds": 0.06862800000000391,
+  "duration_s": 6.755,
+  "final_snapshot_sha256": "65d8fe0c6e7d59a812a907e2a4877cbc659d777e231502affd288227ecb03360",
+  "final_step": 1351,
+  "finite": true,
+  "integral": 0.002072147292852982,
+  "intervention": {
+    "kind": "lpi_remove",
+    "lesioned_root_ids": [],
+    "normalization_recomputed_after_intervention": false,
+    "permuted_rows": 0,
+    "removed_contacts": 102,
+    "removed_rows": 14,
+    "route_contacts": 922,
+    "route_rows": 389
+  },
+  "motion_peak_sum": 2.3299975247449503,
+  "network_peak": 0.09685512225000001,
+  "params": {
+    "axis_angle": 0.0,
+    "dt": 0.005,
+    "gain": 1.0,
+    "lpi_gain": 1.0,
+    "mirror": 1.0,
+    "normalization": "full",
+    "spacing": 5.0,
+    "tau": 0.05
+  },
+  "peak": 0.002044035438013507,
+  "peak_time_after_onset_s": 1.9700000000000002,
+  "readout_sha256": "bf2b951c6c42f5b61548bb513e0c7786019b41771c5afd138fe4e5a7824ddaee",
+  "seed": 17,
+  "sensory_peak_sum": 1.5999511257863381,
+  "stimulus": "recede",
+  "target_root_id": "720575940637088602",
+  "task": {
+    "family": "intervention",
+    "intervention": "lpi_remove",
+    "level": "L1",
+    "seed": 17,
+    "stimulus": "recede",
+    "target": "720575940637088602"
+  },
+  "trace_path": "traces/9ef72f335518aa61b813dd96d9debdc55af8abe4dca24b93c2a953ab411f1664.npz",
+  "trace_sha256": "7c2f377c52652f2a3ecca38435d4ee7f8d09a1b072b06c959091d0d5edd3e366",
+  "wall_seconds": 0.06877545799943618
+}

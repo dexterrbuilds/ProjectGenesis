@@ -1,0 +1,13 @@
+{
+  "canonical_rows": 449600,
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 research/genesis-brain-spec-v0.1/check.py --package --experiment research/fly-stage4/DEPENDENCIES.json",
+  "entries": 151,
+  "protected_files": 3848,
+  "release": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "scope": "Validated before extraction and again after completion; new experimental physiology is not admitted.",
+  "shared_rows": {
+    "KC_MBON07": 4622,
+    "KC_MBON11": 1053
+  },
+  "valid": true
+}

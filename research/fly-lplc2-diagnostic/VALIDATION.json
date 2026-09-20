@@ -1,0 +1,7 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "passed": true,
+  "scope": "isolated diagnostic checks; old neural suites not rerun; frozen artifacts hash-audited",
+  "tests_run": 11
+}

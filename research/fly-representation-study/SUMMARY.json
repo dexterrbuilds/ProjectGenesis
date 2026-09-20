@@ -1,0 +1,270 @@
+{
+  "classification": "INSUFFICIENT EVIDENCE TO SELECT REPRESENTATION",
+  "narrow_supported_claim": "Local APL response representation under tested assays; nonzero physiological coupling not identified",
+  "heterogeneous_representation": "supported as a design constraint/hypothesis, not a frozen transferable kernel",
+  "APL_frozen_fit_sha256": "3fa008d83dcc175402e35e9967eb87cd9f956c46471767637492b1fde0030edc",
+  "APL_validation": {
+    "fit_sha256": "3fa008d83dcc175402e35e9967eb87cd9f956c46471767637492b1fde0030edc",
+    "reused_apl_validation": {
+      "R0_shared_activity": {
+        "mse": 5.796135320305846,
+        "predicted": [
+          [
+            1.4188800847074028,
+            3.7218919741825927
+          ],
+          [
+            0.7863715937867288,
+            0.9561898485309832
+          ],
+          [
+            0.39002386352140384,
+            0.7572759056954251
+          ],
+          [
+            0.9368750321040169,
+            3.8501080724707832
+          ],
+          [
+            2.532133091979324,
+            4.188286811302649
+          ]
+        ]
+      },
+      "R1_zero": {
+        "mse": 0.007750565073256001,
+        "predicted": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "R1_shared": {
+        "mse": 0.008314293702945738,
+        "predicted": [
+          [
+            0.018545504989928723,
+            0.03790626547799003
+          ],
+          [
+            0.010278288118701292,
+            0.00973848421641384
+          ],
+          [
+            0.0050978159360232905,
+            0.0077126100704952546
+          ],
+          [
+            0.012245446792924478,
+            0.0392121049526383
+          ],
+          [
+            0.033096304189899235,
+            0.042656345984375364
+          ]
+        ]
+      },
+      "R1_directional": {
+        "mse": 0.00701383076567183,
+        "predicted": [
+          [
+            0.026539485610568146,
+            0.010560309425865699
+          ],
+          [
+            0.0147087113441064,
+            0.002713045069658826
+          ],
+          [
+            0.0072952131933256715,
+            0.0021486566349504838
+          ],
+          [
+            0.01752380747422538,
+            0.01092410334591838
+          ],
+          [
+            0.04736236027478445,
+            0.011883634720844395
+          ]
+        ]
+      }
+    },
+    "new_apl_spatial_challenge": {
+      "R0_equal_observation_gain": {
+        "mse": 1.4443962104380952,
+        "predicted": [
+          1.06638,
+          1.45054,
+          0.74982,
+          1.72108,
+          1.03228,
+          2.83338,
+          1.41898,
+          1.44294,
+          0.25894,
+          1.42488,
+          1.77702,
+          0.16038,
+          1.36532,
+          1.21916,
+          0.62686,
+          0.93958,
+          0.78314,
+          1.8758,
+          0.3023,
+          0.84906,
+          1.3853
+        ],
+        "by_driver": {
+          "853": 1.07033190024,
+          "mb247": 2.38656060696,
+          "c739": 1.28078032176,
+          "np3061": 1.1073260457333334
+        }
+      },
+      "R1_zero": {
+        "mse": 0.04015714996190477,
+        "predicted": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "by_driver": {
+          "853": 0.07109440607999999,
+          "mb247": 0.02911550056,
+          "c739": 0.032963067279999994,
+          "np3061": 0.029572546599999996
+        }
+      },
+      "R1_shared": {
+        "mse": 0.036414309806576554,
+        "predicted": [
+          0.012303596916199151,
+          0.016735928534690744,
+          0.008651215363851954,
+          0.019857344080470407,
+          0.011910160566265364,
+          0.032690753230949894,
+          0.016371798000851732,
+          0.01664824184086386,
+          0.002987577960464945,
+          0.016439870565796287,
+          0.02050276429792777,
+          0.0018504199942047108,
+          0.01575268379154244,
+          0.014066330216576977,
+          0.0072325369595159315,
+          0.010840613656034807,
+          0.009035652289945613,
+          0.02164246056321983,
+          0.0034878536241930674,
+          0.00979621898166512,
+          0.015983207494524167
+        ],
+        "by_driver": {
+          "853": 0.06476102803233239,
+          "mb247": 0.023878176769854292,
+          "c739": 0.03156026967910904,
+          "np3061": 0.02728385558860481
+        }
+      }
+    },
+    "new_apl_R0_minus_R1_mse_bootstrap_95pct": [
+      0.8112912083461156,
+      2.0932167169976483
+    ],
+    "challenge_limit": "R0 equal-gain comparator is narrower than all scalar observation models; calyx/lobe site gains cannot transfer to alpha/alpha-prime. New assay does not identify coupling between these regions.",
+    "mbon14": {
+      "prediction_ms": 16.056,
+      "observed_ms": [
+        16.41,
+        17.43,
+        24.58,
+        9.51
+      ],
+      "raw_cell_mean_ms": 16.9825,
+      "reported_mean_ms": 14.48,
+      "rmse_ms": 5.420375540495325,
+      "bias_prediction_minus_raw_mean_ms": -0.9265000000000008,
+      "training_based_individual_prediction_interval_ms": [
+        1.1007315962238788,
+        31.01126840377612
+      ],
+      "within_interval": 4,
+      "raw_cell_sensitivity_excluding_flagged_duplicate_rmse_ms": 3.867096585294968,
+      "exclusion_warning": "Supplementary sensitivity only; all four records retained in primary calculation. No source correction or independence assertion.",
+      "representation_discrimination": false,
+      "independent_validation_qualified": false
+    },
+    "fit_unchanged": true,
+    "neural_kernel_supported": false,
+    "quality_flags": [
+      "MBON14 supplementary displayed mean does not equal mean of four displayed cells.",
+      "MBON14 supplementary cell 3 Vm/tau/C exactly matches original Table 1 cell 3; independence unresolved.",
+      "APL Figure 3 is different indicator, stimulation and region pairing from Figure 4; parameter transfer is a challenge, not assumed valid."
+    ]
+  },
+  "MBON_validation_disposition": "excluded from clean independent validation; unresolved source inconsistency",
+  "benchmark_cases": 15,
+  "benchmark_replays_exact": true,
+  "canonical_cycles_run": 0,
+  "neural_kernel_exported": false,
+  "stage_probe_replays": 0,
+  "identities": {
+    "dataset": "FAFB-FlyWire:783",
+    "source_sha256": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf",
+    "roots": 5480,
+    "unique_aggregate_rows": 449600,
+    "summed_preparation_rows": 552303,
+    "contacts_in_union_of_extracted_rows": 1056073,
+    "shared_rows": {
+      "KC_MBON07": 4622,
+      "KC_MBON11": 1053
+    },
+    "conflicting_contact_counts": 0,
+    "physiology_rules_assigned": 0,
+    "source_hashes": {
+      "research/fly-stage1/artifacts/c5c332c1bd0ce77487ad5765756a58dc441d50f59dc56899a462bf35e4b2a157/circuit.json": "e25752a78c60666894546f7dbab08b2833bcb810d79cb6091dbcbde4480c0fab",
+      "research/fly-stage2/artifacts/43a18b787748363e6c6080513cf4d5455b6949bf9a28f09ffab978787195e0b3/circuit.json": "0386716d0481408081ec1a9133f671496947d8c2375b6ab6a3487258dac8e276",
+      "research/fly-stage3/artifacts/28cc6285ba4b40077db73952bacee75d0938f2f80021aaf89c214524797b2a52/circuit.json": "909e09d406748b293b1203ddb4e66c115d2e898b0d1f18ac75a8d23718c5d318"
+    },
+    "registry_sha256": "8cfffb9110e0e4fd6bdd22315574c0d74feedc4fcd540a3f1bbf4f4f69290318",
+    "meaning": "Union of existing extraction rows, not induced union connectome; identity schema only. No neural model created."
+  }
+}

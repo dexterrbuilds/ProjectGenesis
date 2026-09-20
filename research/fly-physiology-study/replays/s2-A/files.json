@@ -1,0 +1,11 @@
+{
+  "summary.json": "1d78e918ba21129605dccbec58bc70de2b938f356b790e29a01e66c2cf0057db",
+  "trained.json.gz": "8224e2c6c48991c4388d29d39ecad5c403f609207bf8f3213eb09b6a34dec80f",
+  "provenance.json": "4738e2da7990e111261f7c3b020beeec4e9d686ff63fe387af2bc00710ed0d72",
+  "probe-rates.npz": "a076ae54ac19c022b1eba134786801a302d2f30f1337682495492eb70d838f3d",
+  "stimuli.json": "6c3fdc86822ecfe22273b04eea8714b3a2536aab6819629b3fc8e7b03cd4cc53",
+  "recall-config.json": "2e7630a9aa4919508dbcbcb9fbbb22fb02ced91b84c1d738943376cefbb64e35",
+  "trace.npz": "29349dc7176418020a8f4cd16815aaa4a15ddfdb0880e1055914ef1d7fa6518b",
+  "fast-reset.json.gz": "8c596eb6e26d3334722d1145dda0ab92480a12d2962c51a3175f179f28758c5d",
+  "initial.json.gz": "55f8649cd77068e1ea7dd1380e23a5a6aaf52edfda9c0ae6961802051af2b670"
+}

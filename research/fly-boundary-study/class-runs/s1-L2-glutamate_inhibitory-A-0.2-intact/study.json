@@ -1,0 +1,47 @@
+{
+  "name": "s1-L2-glutamate_inhibitory-A-0.2-intact",
+  "stage": 1,
+  "level": 2,
+  "variant": "glutamate_inhibitory",
+  "cue": "A",
+  "resource": 0.2,
+  "intervention": "intact",
+  "initialization_seconds": 0.9617219589999877,
+  "wall_seconds": 35.737436666000576,
+  "cpu_seconds": 35.72320400000001,
+  "peak_rss_bytes": 642727936,
+  "stability_all_phases": {
+    "max_rate": 0.9999999999999998,
+    "max_saturated_fraction": 0.002752130681818182,
+    "max_context_mean": 0.003137867720664771,
+    "max_context_active": 3336,
+    "finite": true,
+    "step_calls": 23600,
+    "max_active_added_KCs": 236
+  },
+  "extension": {
+    "variant": "glutamate_inhibitory",
+    "added_neurons": 10210,
+    "added_neuropil_rows": 1183495,
+    "nonzero_added_rows": 994677,
+    "matrix_bytes": 11192400,
+    "operator": "class-consistent-1",
+    "added_PN_KC_rows": 22962,
+    "added_KC_APL_MBON_rows": 26093
+  },
+  "source_hashes": {
+    "context.py": "407c6f903df4347977275c9388009ad317c13e5bed24f4af50baa84c5d08cf6a",
+    "class_context.py": "6e29b3be9d11f3a123b7416de2ed1553ffd814dda6d766504c187cded6b0c336",
+    "run_class.py": "32571d55aed9220a11d191c8ffb6c62e902cdc8d1aded8796c4d66ae4b196909",
+    "PLAN.md": "6f5b62b26538c7f10d084044088abb1a1377946c0a8559479dcb0194a0d172c1",
+    "CLASS_CONTEXT_AMENDMENT.md": "d42f176bf7d9e09099b1e50132269bbb171ce5a9d94868078e10391ba4d9ee78"
+  },
+  "frozen_source_hashes": {
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage1/test_harness.py": "1e27b78211025262706bbb79f00a1fe740c5200474af6533b70c0832ffe81347",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage1/recall.py": "d9fcc5d18fa0adf3b48c234dbfc4c957846ff201c29d22fef71285feabe23931",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage1/model.py": "10d87bffc9ecc7ede109ca267f07d32cefcefb64ed04ae631cc89a7f900dba2c",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage1/experiment.py": "a544f105793b782ab95bf87c111d40f3db8a42330dc48e8a4016463a6b9a348b",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage1/evaluate.py": "61e96d5e7136681f37bf1c12ce28bd5c2b4c6ace0a52b75526a850082edec486",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage1/extract.py": "b5e0113253501fe387d8adf003beea1c9b7a7da4092e187beccb279677a21a1c"
+  }
+}

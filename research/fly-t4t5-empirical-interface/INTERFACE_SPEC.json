@@ -1,0 +1,38 @@
+{
+  "version": "0.1.0",
+  "scope": "Research-only empirical somatic-voltage retrieval and bounded interpolation; no neuronal simulation",
+  "entrypoint": "interface.EmpiricalInterface.query",
+  "observation": {
+    "quantity": "mean_baseline_subtracted_somatic_voltage",
+    "units": "mV",
+    "time_ms": [
+      0,
+      500
+    ],
+    "step_ms": 1,
+    "trials": "source means, not independent trials",
+    "calcium_conversion": null,
+    "spike_conversion": null,
+    "rate_conversion": null,
+    "release_conversion": null
+  },
+  "identity_resolution": {
+    "recording": "source dataset + ordinal",
+    "class": "conditional T4/T5 source template only",
+    "fly": null,
+    "subtype": null,
+    "column": null,
+    "FlyWire_root": null
+  },
+  "coordinate": "author RF/PD localized source pixels; no angle, retina, head or root transform",
+  "schemas": "DESCRIPTOR_SCHEMAS.json",
+  "candidate_selection": "PROTOCOL.md",
+  "numerical_identity": "Integer/float equality and signed-zero equality only; full descriptors and array ordering retained",
+  "prohibited_uses": [
+    "precursor reconstruction",
+    "intracellular dynamics simulation",
+    "unmeasured stimulus-family synthesis",
+    "individual root physiology assignment",
+    "Genesis integration"
+  ]
+}

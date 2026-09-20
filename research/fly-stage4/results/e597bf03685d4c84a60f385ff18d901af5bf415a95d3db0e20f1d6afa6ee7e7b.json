@@ -1,0 +1,50 @@
+{
+  "cpu_seconds": 0.0817650000000043,
+  "duration_s": 6.005,
+  "final_snapshot_sha256": "8615a119ce1f11a38897e9795c608182ff1792d22c3e924a5662b40c5bebe5ad",
+  "final_step": 1201,
+  "finite": true,
+  "integral": 0.0005674966522589962,
+  "intervention": {
+    "kind": "intact",
+    "lesioned_root_ids": [],
+    "normalization_recomputed_after_intervention": false,
+    "permuted_rows": 0,
+    "removed_contacts": 0,
+    "removed_rows": 0,
+    "route_contacts": 922,
+    "route_rows": 389
+  },
+  "motion_peak_sum": 7.428883038499983,
+  "network_peak": 0.09962828629307785,
+  "params": {
+    "axis_angle": 0.0,
+    "dt": 0.005,
+    "gain": 0.5,
+    "lpi_gain": 1.0,
+    "mirror": 1.0,
+    "normalization": "full",
+    "spacing": 5.0,
+    "tau": 0.05
+  },
+  "peak": 0.0005217462506568048,
+  "peak_time_after_onset_s": 1.27,
+  "readout_sha256": "51e7b975591cab8bd531793f53228a30abaeec944c7a71078c313b2b65987c58",
+  "seed": 17,
+  "sensory_peak_sum": 3.447923695815512,
+  "stimulus": "grating_270",
+  "target_root_id": "720575940623047629",
+  "task": {
+    "arm": "gain_half",
+    "family": "sensitivity",
+    "level": "L1",
+    "params": {
+      "gain": 0.5
+    },
+    "stimulus": "grating_270",
+    "target": "720575940623047629"
+  },
+  "trace_path": "traces/e597bf03685d4c84a60f385ff18d901af5bf415a95d3db0e20f1d6afa6ee7e7b.npz",
+  "trace_sha256": "3fdc344816271b199318847d0e94218d0b40497dfcaaa651aecc71ff57bc20be",
+  "wall_seconds": 0.08195895799144637
+}

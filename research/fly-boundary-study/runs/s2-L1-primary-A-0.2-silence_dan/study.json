@@ -1,0 +1,43 @@
+{
+  "name": "s2-L1-primary-A-0.2-silence_dan",
+  "stage": 2,
+  "level": 1,
+  "variant": "primary",
+  "cue": "A",
+  "resource": 0.2,
+  "intervention": "silence_dan",
+  "initialization_seconds": 0.8154030410005362,
+  "wall_seconds": 5.6165801669994835,
+  "cpu_seconds": 5.615915000000001,
+  "peak_rss_bytes": 632389632,
+  "stability_all_phases": {
+    "max_rate": 0.9999999997962964,
+    "max_saturated_fraction": 0.0020780762950868338,
+    "max_context_mean": 4.1016966112418054e-05,
+    "max_context_active": 1008,
+    "finite": true,
+    "step_calls": 8600
+  },
+  "extension": {
+    "variant": "primary",
+    "added_neurons": 5565,
+    "added_neuropil_rows": 757047,
+    "nonzero_added_rows": 624778,
+    "matrix_bytes": 7969788
+  },
+  "source_hashes": {
+    "context.py": "407c6f903df4347977275c9388009ad317c13e5bed24f4af50baa84c5d08cf6a",
+    "run.py": "65d9d2e3a0e8980c3e38ce32473bac34e5d250955e572821f73260d304928d5e",
+    "PLAN.md": "6f5b62b26538c7f10d084044088abb1a1377946c0a8559479dcb0194a0d172c1"
+  },
+  "frozen_source_hashes": {
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage2/document_results.py": "cbb505ceccdf462180649a87f63b410226b66994afca379d2e6ecf231d576492",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage2/test_harness.py": "7745772d45ef68be859b3f021503061adbf83ffe97906605de96fdf64c694010",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage2/recall.py": "779a8bf358ad8815d904bee15c61b8f280e1f68f3e0463aa966900d4362e426f",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage2/model.py": "415e98baffaae374fea515b811b2da30d58b72ba43e729d43b580adc260ae964",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage2/experiment.py": "2c6691a86850276f1cd897e4e300f42e3ad04ff7d8e6173bad75a786c7ec0942",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage2/evaluate.py": "7d48c5824302e4b9c1dc42920e11047496a3fab7d26fe2cc59d8883d037b0d4b",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage2/reward_comparison.py": "fc45f1962e9bea339116bb7cdb6fec4a27b604296aa16cb6fd48ee8c3567398f",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage2/extract.py": "247573676b0875a97be8af3890e988b7073bb73a5246ab13b5555e54913da417"
+  }
+}

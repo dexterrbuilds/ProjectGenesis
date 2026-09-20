@@ -1,0 +1,20 @@
+[
+  {
+    "stage": 1,
+    "L0_rate_exact": true,
+    "L0_plastic_exact": true,
+    "expanded_context_cut_exact": true
+  },
+  {
+    "stage": 2,
+    "L0_rate_exact": true,
+    "L0_plastic_exact": true,
+    "expanded_context_cut_exact": true
+  },
+  {
+    "stage": 3,
+    "L0_rate_exact": true,
+    "L0_plastic_exact": true,
+    "expanded_context_cut_exact": true
+  }
+]

@@ -1,0 +1,40 @@
+test_changed_study_classification_rejected (test_spec.SpecTests) ... ok
+test_duplicate_canonical_state_ownership (test_spec.SpecTests) ... ok
+test_duplicate_entry_rejected (test_spec.SpecTests) ... ok
+test_duplicate_json_keys_rejected (test_spec.SpecTests) ... ok
+test_example_manifest_valid (test_spec.SpecTests) ... ok
+test_explicit_reviewed_supersession_contract (test_spec.SpecTests) ... ok
+test_frozen_release_valid (test_spec.SpecTests) ... ok
+test_hidden_novelty_input_rejected (test_spec.SpecTests) ... ok
+test_hypothesis_cannot_self_validate (test_spec.SpecTests) ... ok
+test_hypothesis_relabelled_fact (test_spec.SpecTests) ... ok
+test_known_sign_without_provenance (test_spec.SpecTests) ... ok
+test_mechanism_profile_facets_and_provenance (test_spec.SpecTests) ... ok
+test_missing_dependency_rejected (test_spec.SpecTests) ... ok
+test_money_unit_rejected (test_spec.SpecTests) ... ok
+test_numeric_root_rejected (test_spec.SpecTests) ... ok
+test_override_field_rejected (test_spec.SpecTests) ... ok
+test_owned_anatomy_view_rejected (test_spec.SpecTests) ... ok
+test_parameter_inventory_exact (test_spec.SpecTests) ... ok
+test_parameter_value_not_measured (test_spec.SpecTests) ... ok
+test_persistence_promotion (test_spec.SpecTests) ... ok
+test_product_category_cannot_be_biological (test_spec.SpecTests) ... ok
+test_product_dependency_rejected (test_spec.SpecTests) ... ok
+test_product_prose_cannot_masquerade_as_assumption (test_spec.SpecTests) ... ok
+test_product_rename_does_not_launder (test_spec.SpecTests) ... ok
+test_result_promotion_rejected (test_spec.SpecTests) ... ok
+test_shared_rows_are_references_not_duplicate_owners (test_spec.SpecTests) ... ok
+test_single_shared_rule_still_blocked (test_spec.SpecTests) ... ok
+test_stale_dependency_rejected (test_spec.SpecTests) ... ok
+test_synthetic_current_is_not_biological_fact (test_spec.SpecTests) ... ok
+test_unknown_canonical_row_rejected (test_spec.SpecTests) ... ok
+test_unknown_is_not_zero (test_spec.SpecTests) ... ok
+test_unresolved_pathway_promotion (test_spec.SpecTests) ... ok
+test_unvalidated_local_state_proposal_keeps_neuron_identity (test_spec.SpecTests) ... ok
+test_wallet_input_rejected (test_spec.SpecTests) ... ok
+test_wrong_scope_citation_cannot_identify_sign (test_spec.SpecTests) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 20.987s
+
+OK

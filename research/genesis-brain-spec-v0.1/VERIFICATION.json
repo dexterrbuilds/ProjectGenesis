@@ -1,0 +1,62 @@
+{
+  "canonical_aggregate_rows": 449600,
+  "canonical_cycles": 7,
+  "canonical_neurons": 5480,
+  "canonical_snapshot_sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "capabilities": 11,
+  "checks": [
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/mac/Documents/ChatGPT/Project Genesis/research/genesis-brain-spec-v0.1",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "validation-1.log",
+      "wall_seconds": 21.090394291
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/mac/Documents/ChatGPT/Project Genesis/research/genesis-brain-spec-v0.1/check.py",
+        "--experiment",
+        "research/genesis-brain-spec-v0.1/EXPERIMENT.example.json"
+      ],
+      "exit_code": 0,
+      "log": "validation-2.log",
+      "wall_seconds": 6.537199916999999
+    }
+  ],
+  "classification_changes": [],
+  "elapsed_verification_seconds": 28.317412875,
+  "genesis_cycles_run": 0,
+  "interrupted_files_unchanged": 7,
+  "limitations": [
+    "Validators enforce structured provenance and ownership, not truth of arbitrary prose.",
+    "Supersession review is a human governance artifact, not a cryptographic signature.",
+    "Passing infrastructure tests does not validate a biological capability."
+  ],
+  "mechanism_profiles": 11,
+  "new_biological_results": 0,
+  "new_neural_simulation_runs": 0,
+  "optimization_runs": 0,
+  "parameters_operators": 65,
+  "physiological_rules_composed": 0,
+  "protected_files_unchanged": 3848,
+  "registry_entries": 151,
+  "review_admissions_published": 0,
+  "schedule_enabled": false,
+  "shared_rows": {
+    "KC_MBON07": 4622,
+    "KC_MBON11": 1053
+  },
+  "status": "COMPLETE_FOR_REVIEW",
+  "task": "Biological Neural Specification v0.1; synthesis/infrastructure only",
+  "tests_passed": 35
+}

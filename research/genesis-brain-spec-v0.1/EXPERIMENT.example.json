@@ -1,0 +1,32 @@
+{
+  "schema_version": "1",
+  "id": "example.preflight-only",
+  "registry_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "dependencies": {
+    "anatomy.pinned": "4e874a6a5f7a62be78c398dad45a9638de596a2994d8c5487cb22fc25549e909",
+    "transmission.pn-kc": "a7d0d1fd682195542eb5819c4c3d6c3a81533e06f540210779a40eb072b3b642",
+    "representation.apl-local": "8ba3cccdd8c9cae59684aa4321f40586ad93be5c0784ea0cf451fedbfea39112"
+  },
+  "uses": [
+    "anatomy.pinned",
+    "transmission.pn-kc",
+    "representation.apl-local"
+  ],
+  "input_channels": [
+    {
+      "id": "cue_pattern",
+      "kind": "sensory_pattern",
+      "category": "ENGINEERING ASSUMPTION",
+      "evidence_refs": [
+        "transmission.pn-kc"
+      ],
+      "units": "model_current"
+    }
+  ],
+  "anatomy_views": [],
+  "state_ownership": [],
+  "local_states": [],
+  "proposed_assumptions": [],
+  "result_claims": [],
+  "integration": "isolated_research_only"
+}

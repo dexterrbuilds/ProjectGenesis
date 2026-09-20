@@ -1,0 +1,32 @@
+{
+  "content_sha256": "fdbfa4f2dfc65808902e739d83b84bc9f153fe673028573b75c631f4a19487da",
+  "file_count": 23,
+  "files": {
+    "GENESIS_BRAIN_SPEC.md": "145c2bff4a6c73ec32d65b3daab18b47d524d98367d66e124e359b1d57cb04d0",
+    "research/genesis-brain-spec-v0.1/CANONICAL_AFTER.json": "0c98fed4cf8ebd2b240dd10a24e7321045ed7fdbce04328fc9e4bebc1c0b6cf9",
+    "research/genesis-brain-spec-v0.1/CANONICAL_BEFORE.json": "0c98fed4cf8ebd2b240dd10a24e7321045ed7fdbce04328fc9e4bebc1c0b6cf9",
+    "research/genesis-brain-spec-v0.1/EVIDENCE_INDEX.md": "13e7cc84aced87ec7ac71b05f8a6affdf123335a31dd1574af0e0c970ded1baa",
+    "research/genesis-brain-spec-v0.1/EXPERIMENT.example.json": "cb54fbdda23809bb7580918fd350adc59062c210a49f97c92085c9101496e1c3",
+    "research/genesis-brain-spec-v0.1/FROZEN_INPUTS.json": "39ed65165bccd1eea4dd6bb11bcd6e35b14856f664dff030084aa1b2a80fb243",
+    "research/genesis-brain-spec-v0.1/MECHANISM_PROFILES.json": "265d8a3f419e09e560150afa688b281c5dad74be211f3dce78303f5bc24f8edc",
+    "research/genesis-brain-spec-v0.1/README.md": "b05a9373db17db2c625fa3326dec0d82568d9f22ca2c61ca2d2fbbd1035a5060",
+    "research/genesis-brain-spec-v0.1/RELEASE.json": "fec8ea2d57b89d160c49a2a18b40a446233121b872ad2aa2e34e6f36989e8b8e",
+    "research/genesis-brain-spec-v0.1/RESUMED_WORK.json": "0ba1393bf5490cfcdd0994e9549bd0bb3d8a13f2ef9ac28f475e7a7dcdf13419",
+    "research/genesis-brain-spec-v0.1/VERIFICATION.json": "e8076443b8e9969a25162d7d2a0f2681809f588cbca7839802bd0b005fa08f04",
+    "research/genesis-brain-spec-v0.1/build.py": "0d167423a680495ae4ad7b19632dce3ef15d4e2d2539732fa37b24958e43c323",
+    "research/genesis-brain-spec-v0.1/check.py": "11b3f27a7d991c708b887556f0a5ef59f4448e6091599394fd3e92a9868b84ec",
+    "research/genesis-brain-spec-v0.1/complete.py": "b0d7b9d66e576f0b8cca705819ca0d0b79fb4801d22de48d0faef43320718d53",
+    "research/genesis-brain-spec-v0.1/final_audit.py": "d874568aad1034ce7e89dfb4e2d0fcf3b0835b5bdb0e04154481552c5fd5e362",
+    "research/genesis-brain-spec-v0.1/objects/58bed8c66a1400de281fafde45a663c7a6dced9647e4931c8f4738daf86199ad.json": "58bed8c66a1400de281fafde45a663c7a6dced9647e4931c8f4738daf86199ad",
+    "research/genesis-brain-spec-v0.1/objects/6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e.json": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+    "research/genesis-brain-spec-v0.1/objects/785f9dbaa14cbf39bd3a9b65561388fc37dff889a5c64a8246021bd4ee5c0e30.json": "785f9dbaa14cbf39bd3a9b65561388fc37dff889a5c64a8246021bd4ee5c0e30",
+    "research/genesis-brain-spec-v0.1/policy.py": "35755a21a70542d723524da0c5e54b22bacfe9d4ec06c825a504f6bfd98dc6f5",
+    "research/genesis-brain-spec-v0.1/test_spec.py": "e62df29ee45c4f791d398648144470f68638498d20b1df2a41d3a693f7a7a219",
+    "research/genesis-brain-spec-v0.1/validate.py": "eb6824651c53e501b071653cc76936cc472179cb6822995349e79a010cdf516a",
+    "research/genesis-brain-spec-v0.1/validation-1.log": "183a2229da86a27746e3d3881791c80290136a272098b18e9378457daae28c6a",
+    "research/genesis-brain-spec-v0.1/validation-2.log": "70d4d77f703b09ad35446141853664b070cc45bf8251b5f8c38548db86e87be0"
+  },
+  "name": "Project Genesis Biological Neural Specification",
+  "registry_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "version": "0.1.0"
+}

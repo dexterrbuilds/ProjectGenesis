@@ -1,0 +1,18 @@
+{
+  "at_utc": "2026-09-20T04:01:08.698213+00:00",
+  "reason": "Exact physical tuple equality must not distinguish integer/float encodings or signed zero. This is a representation bug, not removal of physical descriptors. List ordering and every descriptor retained. Criteria unchanged. Initial outputs preserved.",
+  "old_files": {
+    "empirical.py": "3a9c8390ee0ff88c7db9b72e3a7691adfe45196770adc9f813054241e76c2d75",
+    "build_atlas.py": "a0b3ccce3affbd3387caaedbbf661ce793011041a2f01de131396d65fddf9184",
+    "validate_empirical.py": "3e939987ed925245c0ba51ac109c8f9c671907101860757c051225c1aa95b584",
+    "COVERAGE_ATLAS.json": "0bf52b8d337977007510b38c539e5391c6f34bdf752f2d8c05339cd9ba88b956",
+    "COMPUTE.json": "c4359e65654e554fe040321d54f7eb82e72257d997fbd7910daa508f9b9180fb",
+    "ESTIMATOR_ACCESS.json": "8209e5e181d9463e50b52e4558ebdba864a1dd37f9a174dbff9ba7b12c3abce3",
+    "FAMILY_HOLDOUT.json": "1e6497c81ada01490b30a6d2041d0ae3462aa501cc3f348dc7a18ecbe53e06e3",
+    "HELDOUT_PREDICTIONS.npz": "133770b5bc7676f0e19e0d42380e7cccb75ab34e1594ed6753c68b1d9f489dd8",
+    "HOLDOUT_COVERAGE.json": "761fc371456a38a383492aa36c61a21caa86a28dae16edbd0ce4785da831ad6c",
+    "PREDICTION_METRICS.json": "754ca6ef5804119c4411030deccf13774cb208259958c8012f2fac6351be3faf",
+    "UNCERTAINTY.json": "84d803e70f758c214af138d993c1cb5e60981a3ebc4a256b095380ced8f01b6c",
+    "VALIDATION_RESULTS.json": "2c8239f1911c281547be6a2f41e20e5a1acfe6d50d0533048077dbef9e1cb0d2"
+  }
+}

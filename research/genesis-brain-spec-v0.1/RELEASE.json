@@ -1,0 +1,8 @@
+{
+  "protected_inputs_sha256": "39ed65165bccd1eea4dd6bb11bcd6e35b14856f664dff030084aa1b2a80fb243",
+  "registry": {
+    "path": "objects/6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e.json",
+    "sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e"
+  },
+  "version": "0.1.0"
+}

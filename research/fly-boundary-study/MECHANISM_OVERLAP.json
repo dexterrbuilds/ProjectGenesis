@@ -1,0 +1,14 @@
+[
+  {
+    "a": "S1_MBON_app",
+    "b": "S3_VALUE",
+    "shared_anatomical_plastic_rows": 4622,
+    "interpretation": "Structural overlap only; never automatically apply two update rules to one synapse."
+  },
+  {
+    "a": "S1_MBON_av",
+    "b": "S3_MB11",
+    "shared_anatomical_plastic_rows": 1053,
+    "interpretation": "Structural overlap only; never automatically apply two update rules to one synapse."
+  }
+]

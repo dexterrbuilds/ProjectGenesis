@@ -1,0 +1,14 @@
+{
+  "sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "tableRowCounts": {
+    "genesis_decisions": 7,
+    "genesis_external_observations": 0,
+    "genesis_ledger": 4,
+    "genesis_memories": 7,
+    "genesis_migrations": 2,
+    "genesis_milestones": 4,
+    "genesis_organisms": 1,
+    "genesis_projects": 1,
+    "genesis_schedule": 1
+  }
+}

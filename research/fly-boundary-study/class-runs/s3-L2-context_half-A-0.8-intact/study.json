@@ -1,0 +1,51 @@
+{
+  "name": "s3-L2-context_half-A-0.8-intact",
+  "stage": 3,
+  "level": 2,
+  "variant": "context_half",
+  "cue": "A",
+  "resource": 0.8,
+  "intervention": "intact",
+  "initialization_seconds": 1.3851295829954324,
+  "wall_seconds": 48.95605908399739,
+  "cpu_seconds": 48.93837599999995,
+  "peak_rss_bytes": 795607040,
+  "stability_all_phases": {
+    "max_rate": 0.9999999999999998,
+    "max_saturated_fraction": 0.0011783767859773163,
+    "max_context_mean": 0.00011582968731126537,
+    "max_context_active": 4948,
+    "finite": true,
+    "step_calls": 26000,
+    "max_active_added_KCs": 9
+  },
+  "extension": {
+    "variant": "context_half",
+    "added_neurons": 9015,
+    "added_neuropil_rows": 1290011,
+    "nonzero_added_rows": 857516,
+    "matrix_bytes": 12188704,
+    "operator": "class-consistent-1",
+    "added_PN_KC_rows": 4251,
+    "added_KC_APL_MBON_rows": 5521
+  },
+  "source_hashes": {
+    "context.py": "407c6f903df4347977275c9388009ad317c13e5bed24f4af50baa84c5d08cf6a",
+    "class_context.py": "6e29b3be9d11f3a123b7416de2ed1553ffd814dda6d766504c187cded6b0c336",
+    "run_class.py": "32571d55aed9220a11d191c8ffb6c62e902cdc8d1aded8796c4d66ae4b196909",
+    "PLAN.md": "6f5b62b26538c7f10d084044088abb1a1377946c0a8559479dcb0194a0d172c1",
+    "CLASS_CONTEXT_AMENDMENT.md": "d42f176bf7d9e09099b1e50132269bbb171ce5a9d94868078e10391ba4d9ee78"
+  },
+  "frozen_source_hashes": {
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage3/document_results.py": "05e7fa5f0f173671bc89d35422ac3e643f934fbfd8197ba64690f5a96871e0db",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage3/resume.py": "a5b3a20bf60953e4e802b0f51c2292aebfd645cf1f8e8793ba59fe7639d53786",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage3/test_harness.py": "c0e9d3996c7392e537eaf6c61463a7a05d5abd4a7f039bed942a3210aefac88c",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage3/recall.py": "d662bd5f71a529cee4af71e3283e44cd79be23d57abc5db6fa8f02e5042ded84",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage3/learned_state.py": "cdc75d66224fc7881cfd3d9a39e33b7161b34650011b500a00a899578da39979",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage3/model.py": "fc7f9aa4c0152b35a58442e62766c270cb386520782397a0638fe2db03f785a3",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage3/experiment.py": "b852ff32def0c2cf5ce1545c6006e1dd7922a42d88145591b4688735e2396b68",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage3/evaluate.py": "4cc041d538dfec375aeb53e5542ad71237abed67c2e801bb3a52b07737156bde",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage3/audit_anatomy.py": "7c667b37c2fb1e22c549a9fcc27b3b169d66baaa4956e60fc903384d10bff0f6",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage3/extract.py": "2b791d0b81e687338ff854dbff53ef7de574be663cffb646fb3eba44cd0b153f"
+  }
+}

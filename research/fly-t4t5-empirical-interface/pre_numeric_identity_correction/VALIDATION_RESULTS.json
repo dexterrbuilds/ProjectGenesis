@@ -1,0 +1,3583 @@
+{
+  "strata": [
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recordings": 15,
+      "conditions": 266,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        0.022709101050239267,
+        0.5595192079065372
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.5464057567916611,
+      "median_reference_RMSE_mV": 1.5464057567916611,
+      "median_zero_RMSE_mV": 1.460869910900909,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 18,
+          "mse": 2.780278803097941,
+          "reference_mse": 2.780278803097941,
+          "zero_mse": 2.942651672772481,
+          "max_waveform_error": 5.2262612002677535
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 18,
+          "mse": 1.927652884661329,
+          "reference_mse": 1.927652884661329,
+          "zero_mse": 1.670016575886462,
+          "max_waveform_error": 5.032015958159626
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 18,
+          "mse": 4.414476424253703,
+          "reference_mse": 4.414476424253703,
+          "zero_mse": 2.787086975248054,
+          "max_waveform_error": 5.8371831034915225
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 18,
+          "mse": 2.0806312746420823,
+          "reference_mse": 2.0806312746420823,
+          "zero_mse": 2.1844077398353825,
+          "max_waveform_error": 6.551982940620185
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 18,
+          "mse": 2.5412585998275823,
+          "reference_mse": 2.5412585998275823,
+          "zero_mse": 2.5808629443519533,
+          "max_waveform_error": 5.568756086314185
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 18,
+          "mse": 0.5572536979806552,
+          "reference_mse": 0.5572536979806552,
+          "zero_mse": 0.8287106006497563,
+          "max_waveform_error": 2.2331872007571505
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 18,
+          "mse": 2.89900832824142,
+          "reference_mse": 2.89900832824142,
+          "zero_mse": 1.863521385541264,
+          "max_waveform_error": 6.255949519946409
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 18,
+          "mse": 1.0508067934920504,
+          "reference_mse": 1.0508067934920504,
+          "zero_mse": 0.7633937552888125,
+          "max_waveform_error": 2.9128056050702824
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 18,
+          "mse": 1.444966639979369,
+          "reference_mse": 1.444966639979369,
+          "zero_mse": 1.217738562294935,
+          "max_waveform_error": 4.031442536191211
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 18,
+          "mse": 1.599918437776292,
+          "reference_mse": 1.599918437776292,
+          "zero_mse": 1.177002438246742,
+          "max_waveform_error": 4.879264883107421
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 14,
+          "mse": 5.943717983591521,
+          "reference_mse": 5.943717983591521,
+          "zero_mse": 6.643810507131138,
+          "max_waveform_error": 8.211109774703274
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 18,
+          "mse": 2.8522414434360837,
+          "reference_mse": 2.8522414434360837,
+          "zero_mse": 2.4198987183754976,
+          "max_waveform_error": 5.516283398625273
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 18,
+          "mse": 2.849966419420104,
+          "reference_mse": 2.849966419420104,
+          "zero_mse": 2.3234880133612,
+          "max_waveform_error": 6.580278674989426
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 18,
+          "mse": 1.139637976255286,
+          "reference_mse": 1.139637976255286,
+          "zero_mse": 0.6680140962367733,
+          "max_waveform_error": 3.858815515901423
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 18,
+          "mse": 2.39137076463839,
+          "reference_mse": 2.39137076463839,
+          "zero_mse": 2.134140896575629,
+          "max_waveform_error": 5.8894702453814425
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recordings": 15,
+      "conditions": 360,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -2.073868801167407,
+        -0.3888764049048552
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.4355368967655127,
+      "median_reference_RMSE_mV": 1.4355368967655127,
+      "median_zero_RMSE_mV": 1.51496708282506,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 20,
+          "mse": 3.9560737026367283,
+          "reference_mse": 3.9560737026367283,
+          "zero_mse": 4.647430744337212,
+          "max_waveform_error": 6.289492645153576
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 28,
+          "mse": 2.510343189554312,
+          "reference_mse": 2.510343189554312,
+          "zero_mse": 2.5802683786961262,
+          "max_waveform_error": 5.390614495338198
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 28,
+          "mse": 3.1603312958203347,
+          "reference_mse": 3.1603312958203347,
+          "zero_mse": 4.6876237885965315,
+          "max_waveform_error": 6.272152505219292
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 28,
+          "mse": 2.117679943888844,
+          "reference_mse": 2.117679943888844,
+          "zero_mse": 1.7354912972445753,
+          "max_waveform_error": 5.371062053625803
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 24,
+          "mse": 3.1502528680078186,
+          "reference_mse": 3.1502528680078186,
+          "zero_mse": 3.8055143054099267,
+          "max_waveform_error": 6.4180884723875735
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 24,
+          "mse": 1.2667431723035263,
+          "reference_mse": 1.2667431723035263,
+          "zero_mse": 2.1521435919692977,
+          "max_waveform_error": 3.6036203861117464
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 24,
+          "mse": 1.2656630999158804,
+          "reference_mse": 1.2656630999158804,
+          "zero_mse": 2.2951252620434723,
+          "max_waveform_error": 3.05865192737215
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 24,
+          "mse": 0.4752778979824439,
+          "reference_mse": 0.4752778979824439,
+          "zero_mse": 0.9907194454054326,
+          "max_waveform_error": 2.1823603546610926
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 20,
+          "mse": 1.6552688203169985,
+          "reference_mse": 1.6552688203169985,
+          "zero_mse": 1.2319132316145331,
+          "max_waveform_error": 4.2820879220064505
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 24,
+          "mse": 1.2682560395834308,
+          "reference_mse": 1.2682560395834308,
+          "zero_mse": 1.9564912046097342,
+          "max_waveform_error": 3.6538464590198174
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 20,
+          "mse": 2.0621973235846585,
+          "reference_mse": 2.0621973235846585,
+          "zero_mse": 3.2675958772985574,
+          "max_waveform_error": 4.171068447566295
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 24,
+          "mse": 2.060766181975158,
+          "reference_mse": 2.060766181975158,
+          "zero_mse": 3.6539064948046387,
+          "max_waveform_error": 6.760186479631752
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 24,
+          "mse": 4.929441819132813,
+          "reference_mse": 4.929441819132813,
+          "zero_mse": 12.23491929174193,
+          "max_waveform_error": 8.91686802429436
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 24,
+          "mse": 0.8485060802497832,
+          "reference_mse": 0.8485060802497832,
+          "zero_mse": 1.0279274177089288,
+          "max_waveform_error": 3.258310117220283
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 24,
+          "mse": 1.5862546454500805,
+          "reference_mse": 1.5862546454500805,
+          "zero_mse": 2.1652789040098175,
+          "max_waveform_error": 4.44335825384319
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recordings": 15,
+      "conditions": 324,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -13.082168041230311,
+        -5.825036518426655
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.5477525497531792,
+      "median_reference_RMSE_mV": 1.5477525497531792,
+      "median_zero_RMSE_mV": 3.2263966987790234,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 16,
+          "mse": 3.193971162521851,
+          "reference_mse": 3.193971162521851,
+          "zero_mse": 10.919476331283116,
+          "max_waveform_error": 5.796911883140435
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 24,
+          "mse": 1.9302988297618207,
+          "reference_mse": 1.9302988297618207,
+          "zero_mse": 10.40963565789218,
+          "max_waveform_error": 7.433225694644648
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 24,
+          "mse": 4.226518747264994,
+          "reference_mse": 4.226518747264994,
+          "zero_mse": 14.527002899237454,
+          "max_waveform_error": 8.594879744654715
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 24,
+          "mse": 2.869563176191409,
+          "reference_mse": 2.869563176191409,
+          "zero_mse": 7.2484195196457755,
+          "max_waveform_error": 6.736434690930455
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 20,
+          "mse": 1.9561408138980023,
+          "reference_mse": 1.9561408138980023,
+          "zero_mse": 10.783381225296614,
+          "max_waveform_error": 4.416212777544285
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 20,
+          "mse": 1.4204021178483994,
+          "reference_mse": 1.4204021178483994,
+          "zero_mse": 9.492316730003234,
+          "max_waveform_error": 3.690338785877511
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 24,
+          "mse": 2.168172861616775,
+          "reference_mse": 2.168172861616775,
+          "zero_mse": 6.880709514139088,
+          "max_waveform_error": 4.749473212435376
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 24,
+          "mse": 1.5472571287148298,
+          "reference_mse": 1.5472571287148298,
+          "zero_mse": 5.349919745030031,
+          "max_waveform_error": 3.8043799955919937
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 16,
+          "mse": 1.5250411335349052,
+          "reference_mse": 1.5250411335349052,
+          "zero_mse": 3.9160593847190337,
+          "max_waveform_error": 3.9714108408184785
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 24,
+          "mse": 2.873553944763671,
+          "reference_mse": 2.873553944763671,
+          "zero_mse": 10.111335605723198,
+          "max_waveform_error": 6.319530261919475
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 16,
+          "mse": 3.4823032558135085,
+          "reference_mse": 3.4823032558135085,
+          "zero_mse": 10.937656512130044,
+          "max_waveform_error": 6.180970385583311
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 24,
+          "mse": 2.3955379552674674,
+          "reference_mse": 2.3955379552674674,
+          "zero_mse": 12.163544094531614,
+          "max_waveform_error": 6.6210951077858695
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 24,
+          "mse": 3.3509539813638276,
+          "reference_mse": 3.3509539813638276,
+          "zero_mse": 38.63172763642888,
+          "max_waveform_error": 6.440284045289264
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 24,
+          "mse": 0.6503809369364318,
+          "reference_mse": 0.6503809369364318,
+          "zero_mse": 2.867107190146076,
+          "max_waveform_error": 3.5615970854659302
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 20,
+          "mse": 2.4194610891172137,
+          "reference_mse": 2.4194610891172137,
+          "zero_mse": 11.71466015695618,
+          "max_waveform_error": 9.142524064496861
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recordings": 15,
+      "conditions": 266,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -24.552794874947324,
+        -16.104140038559837
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 2.0300138657699045,
+      "median_reference_RMSE_mV": 2.0300138657699045,
+      "median_zero_RMSE_mV": 5.110067839260493,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 18,
+          "mse": 7.007449942750279,
+          "reference_mse": 7.007449942750279,
+          "zero_mse": 31.03728089405751,
+          "max_waveform_error": 11.879569332330988
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 18,
+          "mse": 2.0547695046361145,
+          "reference_mse": 2.0547695046361145,
+          "zero_mse": 12.550606533716667,
+          "max_waveform_error": 5.680794010898854
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 18,
+          "mse": 4.59846037361532,
+          "reference_mse": 4.59846037361532,
+          "zero_mse": 42.45351192770824,
+          "max_waveform_error": 7.178257862274403
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 18,
+          "mse": 4.120956295218073,
+          "reference_mse": 4.120956295218073,
+          "zero_mse": 15.066057574105931,
+          "max_waveform_error": 7.593045496257165
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 18,
+          "mse": 4.591503805311771,
+          "reference_mse": 4.591503805311771,
+          "zero_mse": 27.77549689670081,
+          "max_waveform_error": 9.05863819454147
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 18,
+          "mse": 3.36061279630903,
+          "reference_mse": 3.36061279630903,
+          "zero_mse": 26.112793321844407,
+          "max_waveform_error": 7.744628250751582
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 18,
+          "mse": 2.7155892842731726,
+          "reference_mse": 2.7155892842731726,
+          "zero_mse": 19.660686906052717,
+          "max_waveform_error": 4.9018442886227405
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 18,
+          "mse": 2.1222300704215185,
+          "reference_mse": 2.1222300704215185,
+          "zero_mse": 15.287215145197267,
+          "max_waveform_error": 6.603427287256547
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 18,
+          "mse": 1.854319596270738,
+          "reference_mse": 1.854319596270738,
+          "zero_mse": 12.927153424474495,
+          "max_waveform_error": 5.255920452121288
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 18,
+          "mse": 2.9810307583595734,
+          "reference_mse": 2.9810307583595734,
+          "zero_mse": 25.67143472731857,
+          "max_waveform_error": 8.195793084695662
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 14,
+          "mse": 6.979429083947193,
+          "reference_mse": 6.979429083947193,
+          "zero_mse": 33.658268813432436,
+          "max_waveform_error": 10.6885999107162
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 18,
+          "mse": 5.0659626372708635,
+          "reference_mse": 5.0659626372708635,
+          "zero_mse": 26.244735011726373,
+          "max_waveform_error": 7.984389204896683
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 18,
+          "mse": 4.951202050830968,
+          "reference_mse": 4.951202050830968,
+          "zero_mse": 38.28038171465912,
+          "max_waveform_error": 9.13502111346391
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 18,
+          "mse": 0.950613674399468,
+          "reference_mse": 0.950613674399468,
+          "zero_mse": 6.900737469897289,
+          "max_waveform_error": 4.272611410639193
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 18,
+          "mse": 4.265472213554467,
+          "reference_mse": 4.265472213554467,
+          "zero_mse": 30.014352636835426,
+          "max_waveform_error": 9.885441185491118
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recordings": 15,
+      "conditions": 360,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -28.87882280144405,
+        -19.862990532531608
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.4957106254582724,
+      "median_reference_RMSE_mV": 1.4957106254582724,
+      "median_zero_RMSE_mV": 4.889125390925186,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 20,
+          "mse": 3.6759272701616497,
+          "reference_mse": 3.6759272701616497,
+          "zero_mse": 41.17201484567505,
+          "max_waveform_error": 7.404586887466142
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 28,
+          "mse": 2.465609528788383,
+          "reference_mse": 2.465609528788383,
+          "zero_mse": 21.984643814720677,
+          "max_waveform_error": 7.93673366990976
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 28,
+          "mse": 3.1901213352204723,
+          "reference_mse": 3.1901213352204723,
+          "zero_mse": 38.91925380301535,
+          "max_waveform_error": 7.260460907361718
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 28,
+          "mse": 2.235012721626776,
+          "reference_mse": 2.235012721626776,
+          "zero_mse": 20.481506122386083,
+          "max_waveform_error": 5.621437965338568
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 24,
+          "mse": 3.8550195757924097,
+          "reference_mse": 3.8550195757924097,
+          "zero_mse": 22.373787402157916,
+          "max_waveform_error": 7.0103733224201825
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 24,
+          "mse": 1.8852436897636051,
+          "reference_mse": 1.8852436897636051,
+          "zero_mse": 20.428102761329654,
+          "max_waveform_error": 4.161444834151496
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 24,
+          "mse": 1.4945877399029914,
+          "reference_mse": 1.4945877399029914,
+          "zero_mse": 12.546096790110491,
+          "max_waveform_error": 4.23272272591192
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 24,
+          "mse": 1.3839421017667553,
+          "reference_mse": 1.3839421017667553,
+          "zero_mse": 23.903547088189356,
+          "max_waveform_error": 2.9498315110806175
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 20,
+          "mse": 1.5428975772963864,
+          "reference_mse": 1.5428975772963864,
+          "zero_mse": 15.347138692943016,
+          "max_waveform_error": 4.18438007256437
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 24,
+          "mse": 1.3686716555809282,
+          "reference_mse": 1.3686716555809282,
+          "zero_mse": 31.50844851687278,
+          "max_waveform_error": 4.350180531408629
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 20,
+          "mse": 3.5034386604161036,
+          "reference_mse": 3.5034386604161036,
+          "zero_mse": 28.273831430641827,
+          "max_waveform_error": 6.602231528781186
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 24,
+          "mse": 4.072902311329646,
+          "reference_mse": 4.072902311329646,
+          "zero_mse": 46.43951286658293,
+          "max_waveform_error": 8.250096181584311
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 24,
+          "mse": 3.696691697682559,
+          "reference_mse": 3.696691697682559,
+          "zero_mse": 33.17305286483406,
+          "max_waveform_error": 9.622837346218905
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 24,
+          "mse": 0.944054676215167,
+          "reference_mse": 0.944054676215167,
+          "zero_mse": 15.51101839634392,
+          "max_waveform_error": 3.7041297711286667
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 24,
+          "mse": 2.2371502751087764,
+          "reference_mse": 2.2371502751087764,
+          "zero_mse": 29.92575597443306,
+          "max_waveform_error": 5.865950188658573
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recordings": 15,
+      "conditions": 324,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -36.22363769013901,
+        -25.496374874088335
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.6840721274789985,
+      "median_reference_RMSE_mV": 1.6840721274789985,
+      "median_zero_RMSE_mV": 6.146448086167476,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 16,
+          "mse": 4.3230414447257886,
+          "reference_mse": 4.3230414447257886,
+          "zero_mse": 50.74159058444574,
+          "max_waveform_error": 7.331548752006164
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 24,
+          "mse": 2.8360989305516404,
+          "reference_mse": 2.8360989305516404,
+          "zero_mse": 37.77882407595183,
+          "max_waveform_error": 10.627072875401538
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 24,
+          "mse": 4.588554234794828,
+          "reference_mse": 4.588554234794828,
+          "zero_mse": 39.726229664740885,
+          "max_waveform_error": 8.05567365789826
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 24,
+          "mse": 3.9791389519028058,
+          "reference_mse": 3.9791389519028058,
+          "zero_mse": 31.661975710093476,
+          "max_waveform_error": 8.07582982917274
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 20,
+          "mse": 3.17513511008558,
+          "reference_mse": 3.17513511008558,
+          "zero_mse": 27.957804907005254,
+          "max_waveform_error": 6.310478927887189
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 20,
+          "mse": 0.9548559739347553,
+          "reference_mse": 0.9548559739347553,
+          "zero_mse": 23.472385417593355,
+          "max_waveform_error": 3.7032598535347425
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 24,
+          "mse": 1.3611026177075798,
+          "reference_mse": 1.3611026177075798,
+          "zero_mse": 10.999106716997034,
+          "max_waveform_error": 3.2724453959773534
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 24,
+          "mse": 2.787542396265216,
+          "reference_mse": 2.787542396265216,
+          "zero_mse": 28.092206004563952,
+          "max_waveform_error": 6.620319317301902
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 16,
+          "mse": 1.795887837797975,
+          "reference_mse": 1.795887837797975,
+          "zero_mse": 18.460690160835064,
+          "max_waveform_error": 3.7408952859464506
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 24,
+          "mse": 1.4546825524604394,
+          "reference_mse": 1.4546825524604394,
+          "zero_mse": 41.614286195805,
+          "max_waveform_error": 4.0885251443549855
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 16,
+          "mse": 4.595708803903706,
+          "reference_mse": 4.595708803903706,
+          "zero_mse": 39.18734511867619,
+          "max_waveform_error": 9.29312454649876
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 24,
+          "mse": 3.066944249559063,
+          "reference_mse": 3.066944249559063,
+          "zero_mse": 48.06271318299289,
+          "max_waveform_error": 9.36952407197337
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 24,
+          "mse": 3.0980117456702008,
+          "reference_mse": 3.0980117456702008,
+          "zero_mse": 47.70782115075829,
+          "max_waveform_error": 7.994023548447515
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 24,
+          "mse": 2.2075571364069297,
+          "reference_mse": 2.2075571364069297,
+          "zero_mse": 20.55000880976954,
+          "max_waveform_error": 7.539272080636913
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 20,
+          "mse": 1.9329640613645787,
+          "reference_mse": 1.9329640613645787,
+          "zero_mse": 41.041715684159726,
+          "max_waveform_error": 6.032894172671703
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|duration",
+      "recordings": 5,
+      "conditions": 130,
+      "paired_difference_ci95_mV2": [
+        -1.5984182743094195,
+        -1.0261378787400877
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -1.0482394451297605,
+        -0.6635007334285481
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.5776798627233404,
+      "median_reference_RMSE_mV": 2.028303830495009,
+      "median_zero_RMSE_mV": 1.7405431043170247,
+      "by_recording": [
+        {
+          "recording": "2021_T5_01",
+          "conditions": 26,
+          "mse": 3.019863156079486,
+          "reference_mse": 4.214516694614367,
+          "zero_mse": 3.7008131340754153,
+          "max_waveform_error": 5.268739388209464
+        },
+        {
+          "recording": "2021_T5_02",
+          "conditions": 26,
+          "mse": 2.489073749242738,
+          "reference_mse": 4.114016428800727,
+          "zero_mse": 3.0294902979855456,
+          "max_waveform_error": 4.86286085173847
+        },
+        {
+          "recording": "2021_T5_03",
+          "conditions": 26,
+          "mse": 1.7893809068495292,
+          "reference_mse": 2.850208939565105,
+          "zero_mse": 2.779060249940659,
+          "max_waveform_error": 4.445015679331813
+        },
+        {
+          "recording": "2021_T5_04",
+          "conditions": 26,
+          "mse": 2.9029956590876647,
+          "reference_mse": 4.676771896035784,
+          "zero_mse": 3.8531592542111883,
+          "max_waveform_error": 6.857871307509193
+        },
+        {
+          "recording": "2021_T5_05",
+          "conditions": 26,
+          "mse": 1.3386656351236925,
+          "reference_mse": 2.2458555299908953,
+          "zero_mse": 2.4945031072952024,
+          "max_waveform_error": 3.9733178223557983
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recordings": 14,
+      "conditions": 355,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -17.59628199814835,
+        -7.824774225374586
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.6014972111453312,
+      "median_reference_RMSE_mV": 1.6014972111453312,
+      "median_zero_RMSE_mV": 3.274714201580534,
+      "by_recording": [
+        {
+          "recording": "2021_T5_01",
+          "conditions": 44,
+          "mse": 1.9281679976736945,
+          "reference_mse": 1.9281679976736945,
+          "zero_mse": 5.9663420517056815,
+          "max_waveform_error": 4.872968113282635
+        },
+        {
+          "recording": "2021_T5_02",
+          "conditions": 44,
+          "mse": 2.5500620263248406,
+          "reference_mse": 2.5500620263248406,
+          "zero_mse": 5.007452871235162,
+          "max_waveform_error": 6.290280757038811
+        },
+        {
+          "recording": "2021_T5_03",
+          "conditions": 44,
+          "mse": 1.4761931177570091,
+          "reference_mse": 1.4761931177570091,
+          "zero_mse": 5.772606967943438,
+          "max_waveform_error": 3.96363622769557
+        },
+        {
+          "recording": "2021_T5_04",
+          "conditions": 44,
+          "mse": 3.292982705430471,
+          "reference_mse": 3.292982705430471,
+          "zero_mse": 7.986934642299309,
+          "max_waveform_error": 6.240081157976835
+        },
+        {
+          "recording": "2021_T5_05",
+          "conditions": 44,
+          "mse": 1.5176919926107835,
+          "reference_mse": 1.5176919926107835,
+          "zero_mse": 5.540935865489409,
+          "max_waveform_error": 5.855653455378786
+        },
+        {
+          "recording": "2021_T5_06",
+          "conditions": 22,
+          "mse": 3.355774305893473,
+          "reference_mse": 3.355774305893473,
+          "zero_mse": 11.496924555067308,
+          "max_waveform_error": 6.851236366732508
+        },
+        {
+          "recording": "2021_T5_07",
+          "conditions": 22,
+          "mse": 2.185187702094048,
+          "reference_mse": 2.185187702094048,
+          "zero_mse": 8.788259925644489,
+          "max_waveform_error": 6.251725987917247
+        },
+        {
+          "recording": "2021_T5_09",
+          "conditions": 7,
+          "mse": 2.5795670359556313,
+          "reference_mse": 2.5795670359556313,
+          "zero_mse": 30.492551375169114,
+          "max_waveform_error": 5.242349592699668
+        },
+        {
+          "recording": "2021_T5_10",
+          "conditions": 7,
+          "mse": 4.687909663194498,
+          "reference_mse": 4.687909663194498,
+          "zero_mse": 30.18504982269651,
+          "max_waveform_error": 5.794676712384902
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 9,
+          "mse": 2.971999565861351,
+          "reference_mse": 2.971999565861351,
+          "zero_mse": 31.354048227631797,
+          "max_waveform_error": 6.650513348463793
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 22,
+          "mse": 6.258781212503299,
+          "reference_mse": 6.258781212503299,
+          "zero_mse": 28.179830823948784,
+          "max_waveform_error": 9.568713781566725
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 18,
+          "mse": 2.0224264516978367,
+          "reference_mse": 2.0224264516978367,
+          "zero_mse": 19.137924468313226,
+          "max_waveform_error": 7.300924692514357
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 14,
+          "mse": 4.507067007742274,
+          "reference_mse": 4.507067007742274,
+          "zero_mse": 15.360113430147026,
+          "max_waveform_error": 7.791774164212299
+        },
+        {
+          "recording": "2021_T5_17",
+          "conditions": 14,
+          "mse": 2.2603001938132863,
+          "reference_mse": 2.2603001938132863,
+          "zero_mse": 9.977492400874334,
+          "max_waveform_error": 6.1939230546454525
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|duration",
+      "recordings": 5,
+      "conditions": 120,
+      "paired_difference_ci95_mV2": [
+        -4.288540241886118,
+        -3.36893800622138
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -12.722746480878978,
+        -10.024088274211113
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.721411283995619,
+      "median_reference_RMSE_mV": 2.6436547035296005,
+      "median_zero_RMSE_mV": 3.651499023925001,
+      "by_recording": [
+        {
+          "recording": "2021_T5_01",
+          "conditions": 24,
+          "mse": 3.0398422761265356,
+          "reference_mse": 7.804121204828747,
+          "zero_mse": 14.76309102403343,
+          "max_waveform_error": 7.773706349562936
+        },
+        {
+          "recording": "2021_T5_02",
+          "conditions": 24,
+          "mse": 2.6992094352669986,
+          "reference_mse": 5.819245686111553,
+          "zero_mse": 12.377695559918266,
+          "max_waveform_error": 5.574698816138384
+        },
+        {
+          "recording": "2021_T5_03",
+          "conditions": 24,
+          "mse": 2.963256808667446,
+          "reference_mse": 6.98891019149418,
+          "zero_mse": 17.033922652613025,
+          "max_waveform_error": 8.504213283268642
+        },
+        {
+          "recording": "2021_T5_04",
+          "conditions": 24,
+          "mse": 3.625534933151935,
+          "reference_mse": 7.180225254686384,
+          "zero_mse": 13.333445121725234,
+          "max_waveform_error": 6.568758095376493
+        },
+        {
+          "recording": "2021_T5_05",
+          "conditions": 24,
+          "mse": 1.88447026790512,
+          "reference_mse": 5.409433871846791,
+          "zero_mse": 13.202694948589524,
+          "max_waveform_error": 6.696576587594718
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recordings": 17,
+      "conditions": 530,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -30.361214373472563,
+        -23.453553553465124
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.6600262414247804,
+      "median_reference_RMSE_mV": 1.6600262414247804,
+      "median_zero_RMSE_mV": 5.34289759769052,
+      "by_recording": [
+        {
+          "recording": "2021_T5_01",
+          "conditions": 40,
+          "mse": 3.3901156479038788,
+          "reference_mse": 3.3901156479038788,
+          "zero_mse": 25.712993599057228,
+          "max_waveform_error": 5.829567028267629
+        },
+        {
+          "recording": "2021_T5_02",
+          "conditions": 42,
+          "mse": 2.4284273751134684,
+          "reference_mse": 2.4284273751134684,
+          "zero_mse": 18.063001760255798,
+          "max_waveform_error": 5.646387739145727
+        },
+        {
+          "recording": "2021_T5_03",
+          "conditions": 42,
+          "mse": 1.813961122014103,
+          "reference_mse": 1.813961122014103,
+          "zero_mse": 22.941040380311968,
+          "max_waveform_error": 5.621748981252733
+        },
+        {
+          "recording": "2021_T5_04",
+          "conditions": 40,
+          "mse": 3.608774737033754,
+          "reference_mse": 3.608774737033754,
+          "zero_mse": 24.64944817411444,
+          "max_waveform_error": 6.1620112371173335
+        },
+        {
+          "recording": "2021_T5_05",
+          "conditions": 45,
+          "mse": 1.348276486454426,
+          "reference_mse": 1.348276486454426,
+          "zero_mse": 19.330655951587715,
+          "max_waveform_error": 5.346310095247919
+        },
+        {
+          "recording": "2021_T5_06",
+          "conditions": 22,
+          "mse": 2.107243700551676,
+          "reference_mse": 2.107243700551676,
+          "zero_mse": 39.80425681852206,
+          "max_waveform_error": 6.19047386352435
+        },
+        {
+          "recording": "2021_T5_07",
+          "conditions": 20,
+          "mse": 2.308560922905463,
+          "reference_mse": 2.308560922905463,
+          "zero_mse": 27.610961135584226,
+          "max_waveform_error": 7.640682644509816
+        },
+        {
+          "recording": "2021_T5_08",
+          "conditions": 28,
+          "mse": 2.0954238955703985,
+          "reference_mse": 2.0954238955703985,
+          "zero_mse": 16.39011911307821,
+          "max_waveform_error": 6.5377306467033875
+        },
+        {
+          "recording": "2021_T5_09",
+          "conditions": 24,
+          "mse": 2.0406223663558567,
+          "reference_mse": 2.0406223663558567,
+          "zero_mse": 28.982316081990632,
+          "max_waveform_error": 6.1732356898566465
+        },
+        {
+          "recording": "2021_T5_10",
+          "conditions": 24,
+          "mse": 3.202166848217138,
+          "reference_mse": 3.202166848217138,
+          "zero_mse": 38.78810267715246,
+          "max_waveform_error": 7.334719586281832
+        },
+        {
+          "recording": "2021_T5_11",
+          "conditions": 30,
+          "mse": 3.0385763056772963,
+          "reference_mse": 3.0385763056772963,
+          "zero_mse": 33.52646731965577,
+          "max_waveform_error": 5.950763224944691
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 28,
+          "mse": 3.7054928333012698,
+          "reference_mse": 3.7054928333012698,
+          "zero_mse": 36.53062454215919,
+          "max_waveform_error": 6.175842371824633
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 28,
+          "mse": 4.216322345927551,
+          "reference_mse": 4.216322345927551,
+          "zero_mse": 36.23611677486776,
+          "max_waveform_error": 6.840324335887953
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 28,
+          "mse": 2.067525651928824,
+          "reference_mse": 2.067525651928824,
+          "zero_mse": 28.546554739407128,
+          "max_waveform_error": 5.727732901939117
+        },
+        {
+          "recording": "2021_T5_15",
+          "conditions": 20,
+          "mse": 3.294156184208144,
+          "reference_mse": 3.294156184208144,
+          "zero_mse": 41.96251201694861,
+          "max_waveform_error": 5.747056978124142
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 38,
+          "mse": 2.7556871222188835,
+          "reference_mse": 2.7556871222188835,
+          "zero_mse": 25.52206307379474,
+          "max_waveform_error": 6.046522633688365
+        },
+        {
+          "recording": "2021_T5_17",
+          "conditions": 31,
+          "mse": 4.809515255239946,
+          "reference_mse": 4.809515255239946,
+          "zero_mse": 41.11028172641045,
+          "max_waveform_error": 8.111480829426476
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|duration",
+      "recordings": 1,
+      "conditions": 6,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.8122154339343242,
+      "median_reference_RMSE_mV": 3.257087768273839,
+      "median_zero_RMSE_mV": 6.40686771370457,
+      "by_recording": [
+        {
+          "recording": "2021_T5_01",
+          "conditions": 6,
+          "mse": 3.2841247789897707,
+          "reference_mse": 10.608620730239059,
+          "zero_mse": 41.04795390091003,
+          "max_waveform_error": 6.571299431959748
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recordings": 11,
+      "conditions": 244,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -61.9833212224191,
+        -45.10214372384488
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.9984004491027874,
+      "median_reference_RMSE_mV": 1.9984004491027874,
+      "median_zero_RMSE_mV": 7.600682447812021,
+      "by_recording": [
+        {
+          "recording": "2021_T5_07",
+          "conditions": 16,
+          "mse": 3.165139773911907,
+          "reference_mse": 3.165139773911907,
+          "zero_mse": 57.77037367247773,
+          "max_waveform_error": 6.031972394569532
+        },
+        {
+          "recording": "2021_T5_08",
+          "conditions": 24,
+          "mse": 1.058841146289117,
+          "reference_mse": 1.058841146289117,
+          "zero_mse": 35.01301628177841,
+          "max_waveform_error": 6.476694165896728
+        },
+        {
+          "recording": "2021_T5_09",
+          "conditions": 20,
+          "mse": 2.9404749869256355,
+          "reference_mse": 2.9404749869256355,
+          "zero_mse": 45.55729774257556,
+          "max_waveform_error": 5.565609055611354
+        },
+        {
+          "recording": "2021_T5_10",
+          "conditions": 20,
+          "mse": 6.213313579132018,
+          "reference_mse": 6.213313579132018,
+          "zero_mse": 58.0414046665404,
+          "max_waveform_error": 10.460067217627856
+        },
+        {
+          "recording": "2021_T5_11",
+          "conditions": 24,
+          "mse": 4.28716995279786,
+          "reference_mse": 4.28716995279786,
+          "zero_mse": 86.08558006525702,
+          "max_waveform_error": 6.3746255896344515
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 24,
+          "mse": 4.791152523394093,
+          "reference_mse": 4.791152523394093,
+          "zero_mse": 65.74207961393918,
+          "max_waveform_error": 7.595376567946037
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 24,
+          "mse": 3.5651102199271048,
+          "reference_mse": 3.5651102199271048,
+          "zero_mse": 64.54562167710775,
+          "max_waveform_error": 9.352904219000234
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 24,
+          "mse": 4.081264849331876,
+          "reference_mse": 4.081264849331876,
+          "zero_mse": 45.263037692576404,
+          "max_waveform_error": 8.043882268138649
+        },
+        {
+          "recording": "2021_T5_15",
+          "conditions": 16,
+          "mse": 3.4505941568135845,
+          "reference_mse": 3.4505941568135845,
+          "zero_mse": 74.04976431861724,
+          "max_waveform_error": 6.932664422416739
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 32,
+          "mse": 3.9936043549742224,
+          "reference_mse": 3.9936043549742224,
+          "zero_mse": 49.777635204582815,
+          "max_waveform_error": 9.510320527316033
+        },
+        {
+          "recording": "2021_T5_17",
+          "conditions": 20,
+          "mse": 5.229361488282157,
+          "reference_mse": 5.229361488282157,
+          "zero_mse": 43.89302039629332,
+          "max_waveform_error": 8.671549965835709
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|1.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|1.0|offset",
+      "recordings": 5,
+      "conditions": 70,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -9.861823786805457,
+        -2.7351989784267445
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.747102262279727,
+      "median_reference_RMSE_mV": 1.747102262279727,
+      "median_zero_RMSE_mV": 2.732576938222799,
+      "by_recording": [
+        {
+          "recording": "2021_T5_09",
+          "conditions": 7,
+          "mse": 2.7544628624473577,
+          "reference_mse": 2.7544628624473577,
+          "zero_mse": 7.466976723307087,
+          "max_waveform_error": 5.529117262808956
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 9,
+          "mse": 5.15249546284585,
+          "reference_mse": 5.15249546284585,
+          "zero_mse": 17.43838428903966,
+          "max_waveform_error": 6.706616462490061
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 22,
+          "mse": 4.6560364120769995,
+          "reference_mse": 4.6560364120769995,
+          "zero_mse": 13.453106706382165,
+          "max_waveform_error": 8.71834038971933
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 18,
+          "mse": 2.3153702576490565,
+          "reference_mse": 2.3153702576490565,
+          "zero_mse": 5.969752418789742,
+          "max_waveform_error": 5.035278420931991
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 14,
+          "mse": 3.05236631486294,
+          "reference_mse": 3.05236631486294,
+          "zero_mse": 3.8797246693592515,
+          "max_waveform_error": 6.265220096074859
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recordings": 13,
+      "conditions": 328,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -8.839791963386807,
+        -4.824045405089004
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.7121352716433336,
+      "median_reference_RMSE_mV": 1.7121352716433336,
+      "median_zero_RMSE_mV": 3.055031058378692,
+      "by_recording": [
+        {
+          "recording": "2021_T5_01",
+          "conditions": 20,
+          "mse": 2.690468582310133,
+          "reference_mse": 2.690468582310133,
+          "zero_mse": 9.333214767658433,
+          "max_waveform_error": 5.929415972217715
+        },
+        {
+          "recording": "2021_T5_02",
+          "conditions": 22,
+          "mse": 1.3016460312440343,
+          "reference_mse": 1.3016460312440343,
+          "zero_mse": 5.038691873113895,
+          "max_waveform_error": 4.117076001018884
+        },
+        {
+          "recording": "2021_T5_07",
+          "conditions": 16,
+          "mse": 2.001390086654413,
+          "reference_mse": 2.001390086654413,
+          "zero_mse": 5.638549133039695,
+          "max_waveform_error": 4.761440388783399
+        },
+        {
+          "recording": "2021_T5_08",
+          "conditions": 28,
+          "mse": 0.7956981611033,
+          "reference_mse": 0.7956981611033,
+          "zero_mse": 2.4132384366466977,
+          "max_waveform_error": 3.486031193666573
+        },
+        {
+          "recording": "2021_T5_09",
+          "conditions": 24,
+          "mse": 3.361856961907948,
+          "reference_mse": 3.361856961907948,
+          "zero_mse": 9.281520337438836,
+          "max_waveform_error": 5.379658519436237
+        },
+        {
+          "recording": "2021_T5_10",
+          "conditions": 24,
+          "mse": 3.3874220794932426,
+          "reference_mse": 3.3874220794932426,
+          "zero_mse": 13.40019661509073,
+          "max_waveform_error": 6.554255819439682
+        },
+        {
+          "recording": "2021_T5_11",
+          "conditions": 28,
+          "mse": 2.9314071884051915,
+          "reference_mse": 2.9314071884051915,
+          "zero_mse": 13.544892467910442,
+          "max_waveform_error": 5.647816144254406
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 28,
+          "mse": 7.799901820068002,
+          "reference_mse": 7.799901820068002,
+          "zero_mse": 23.995508588086587,
+          "max_waveform_error": 9.26992305647628
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 28,
+          "mse": 3.366143471621842,
+          "reference_mse": 3.366143471621842,
+          "zero_mse": 10.423545065513322,
+          "max_waveform_error": 5.83183164831523
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 28,
+          "mse": 3.689865478681416,
+          "reference_mse": 3.689865478681416,
+          "zero_mse": 9.816112924423186,
+          "max_waveform_error": 7.818705732602101
+        },
+        {
+          "recording": "2021_T5_15",
+          "conditions": 20,
+          "mse": 2.4137506551956807,
+          "reference_mse": 2.4137506551956807,
+          "zero_mse": 8.2583670638415,
+          "max_waveform_error": 4.907214512000877
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 38,
+          "mse": 4.553913264878709,
+          "reference_mse": 4.553913264878709,
+          "zero_mse": 10.88994275349107,
+          "max_waveform_error": 7.008288106544747
+        },
+        {
+          "recording": "2021_T5_17",
+          "conditions": 24,
+          "mse": 2.9115910644887664,
+          "reference_mse": 2.9115910644887664,
+          "zero_mse": 5.576227179422504,
+          "max_waveform_error": 5.050550148635093
+        }
+      ]
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recordings": 11,
+      "conditions": 240,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -25.99941428717575,
+        -9.660373365872992
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.8329360216277304,
+      "median_reference_RMSE_mV": 1.8329360216277304,
+      "median_zero_RMSE_mV": 3.7046162157245353,
+      "by_recording": [
+        {
+          "recording": "2021_T5_07",
+          "conditions": 12,
+          "mse": 2.6319567958887373,
+          "reference_mse": 2.6319567958887373,
+          "zero_mse": 9.093174965228302,
+          "max_waveform_error": 4.542631130983871
+        },
+        {
+          "recording": "2021_T5_08",
+          "conditions": 24,
+          "mse": 1.4673049144236388,
+          "reference_mse": 1.4673049144236388,
+          "zero_mse": 7.552567746229438,
+          "max_waveform_error": 6.430035577186587
+        },
+        {
+          "recording": "2021_T5_09",
+          "conditions": 20,
+          "mse": 3.161785922652541,
+          "reference_mse": 3.161785922652541,
+          "zero_mse": 15.708343654005343,
+          "max_waveform_error": 6.541361683388999
+        },
+        {
+          "recording": "2021_T5_10",
+          "conditions": 20,
+          "mse": 6.2065118035449975,
+          "reference_mse": 6.2065118035449975,
+          "zero_mse": 22.45193643530076,
+          "max_waveform_error": 7.578470538043341
+        },
+        {
+          "recording": "2021_T5_11",
+          "conditions": 24,
+          "mse": 4.99317069073055,
+          "reference_mse": 4.99317069073055,
+          "zero_mse": 22.093492853740074,
+          "max_waveform_error": 7.0354656451879976
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 24,
+          "mse": 6.183151458948724,
+          "reference_mse": 6.183151458948724,
+          "zero_mse": 62.72138645084226,
+          "max_waveform_error": 8.53875526844778
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 24,
+          "mse": 3.359654459380492,
+          "reference_mse": 3.359654459380492,
+          "zero_mse": 13.424028713536202,
+          "max_waveform_error": 6.9705029481335785
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 24,
+          "mse": 2.9668689870842537,
+          "reference_mse": 2.9668689870842537,
+          "zero_mse": 12.911702031385035,
+          "max_waveform_error": 6.1398543831686645
+        },
+        {
+          "recording": "2021_T5_15",
+          "conditions": 16,
+          "mse": 5.13141995963526,
+          "reference_mse": 5.13141995963526,
+          "zero_mse": 13.724181305809175,
+          "max_waveform_error": 7.302725219183465
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 32,
+          "mse": 4.181482466775005,
+          "reference_mse": 4.181482466775005,
+          "zero_mse": 30.5789016482036,
+          "max_waveform_error": 7.718730344886229
+        },
+        {
+          "recording": "2021_T5_17",
+          "conditions": 20,
+          "mse": 1.723685651875511,
+          "reference_mse": 1.723685651875511,
+          "zero_mse": 9.492958791419557,
+          "max_waveform_error": 4.739774381801489
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recordings": 17,
+      "conditions": 582,
+      "paired_difference_ci95_mV2": [
+        -16.47363429975077,
+        -11.762028703015995
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -59.16740788080605,
+        -43.75564127083376
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 3.236369973441049,
+      "median_reference_RMSE_mV": 4.918475932902193,
+      "median_zero_RMSE_mV": 7.7466052243137895,
+      "by_recording": [
+        {
+          "recording": "2019_T5_01",
+          "conditions": 24,
+          "mse": 8.222627963257997,
+          "reference_mse": 20.737845092420276,
+          "zero_mse": 49.927775916984565,
+          "max_waveform_error": 8.53555274112572
+        },
+        {
+          "recording": "2019_T5_02",
+          "conditions": 34,
+          "mse": 5.284420250756191,
+          "reference_mse": 17.391294183640294,
+          "zero_mse": 38.43154045853798,
+          "max_waveform_error": 11.752711892827936
+        },
+        {
+          "recording": "2019_T5_03",
+          "conditions": 34,
+          "mse": 10.474090604990815,
+          "reference_mse": 26.6702686379483,
+          "zero_mse": 59.10659649470102,
+          "max_waveform_error": 14.25024034631205
+        },
+        {
+          "recording": "2019_T5_04",
+          "conditions": 34,
+          "mse": 7.314876940898163,
+          "reference_mse": 19.352034335741244,
+          "zero_mse": 53.86493919226803,
+          "max_waveform_error": 9.100620732065149
+        },
+        {
+          "recording": "2019_T5_05",
+          "conditions": 14,
+          "mse": 4.775060698877921,
+          "reference_mse": 15.940149863691113,
+          "zero_mse": 49.52523359478773,
+          "max_waveform_error": 7.429679998405577
+        },
+        {
+          "recording": "2019_T5_06",
+          "conditions": 20,
+          "mse": 13.771443792730688,
+          "reference_mse": 26.541276588903298,
+          "zero_mse": 78.35104320181675,
+          "max_waveform_error": 15.300698073118912
+        },
+        {
+          "recording": "2019_T5_07",
+          "conditions": 14,
+          "mse": 7.314128151314655,
+          "reference_mse": 17.23476240838152,
+          "zero_mse": 63.026578500727354,
+          "max_waveform_error": 10.336891452499438
+        },
+        {
+          "recording": "2019_T5_08",
+          "conditions": 32,
+          "mse": 11.42259346203173,
+          "reference_mse": 18.34638900714463,
+          "zero_mse": 30.74684519514255,
+          "max_waveform_error": 12.456374929263198
+        },
+        {
+          "recording": "2019_T5_09",
+          "conditions": 32,
+          "mse": 20.03800505460182,
+          "reference_mse": 24.1914055025381,
+          "zero_mse": 52.82820477007251,
+          "max_waveform_error": 16.075342202944835
+        },
+        {
+          "recording": "2019_T5_10",
+          "conditions": 40,
+          "mse": 13.551904567327181,
+          "reference_mse": 31.408715026306982,
+          "zero_mse": 69.25305528123504,
+          "max_waveform_error": 16.0528209895251
+        },
+        {
+          "recording": "2019_T5_11",
+          "conditions": 40,
+          "mse": 19.441938268480413,
+          "reference_mse": 33.97870710993441,
+          "zero_mse": 78.62046612779213,
+          "max_waveform_error": 17.03411469418166
+        },
+        {
+          "recording": "2019_T5_12",
+          "conditions": 34,
+          "mse": 12.89822696603969,
+          "reference_mse": 27.93126187320425,
+          "zero_mse": 67.49964178664044,
+          "max_waveform_error": 9.699491119495654
+        },
+        {
+          "recording": "2019_T5_13",
+          "conditions": 20,
+          "mse": 18.6715031893004,
+          "reference_mse": 47.215614165800275,
+          "zero_mse": 113.77176522556871,
+          "max_waveform_error": 14.622295199412818
+        },
+        {
+          "recording": "2019_T5_14",
+          "conditions": 48,
+          "mse": 5.860464399948678,
+          "reference_mse": 19.368908270891335,
+          "zero_mse": 53.5019884460415,
+          "max_waveform_error": 9.975229052625124
+        },
+        {
+          "recording": "2019_T5_15",
+          "conditions": 54,
+          "mse": 8.781565160174974,
+          "reference_mse": 25.849414777313793,
+          "zero_mse": 64.173289054732,
+          "max_waveform_error": 11.270386367990811
+        },
+        {
+          "recording": "2019_T5_16",
+          "conditions": 54,
+          "mse": 11.293418245382501,
+          "reference_mse": 25.905829345318196,
+          "zero_mse": 70.29459821928646,
+          "max_waveform_error": 14.543389458668578
+        },
+        {
+          "recording": "2019_T5_17",
+          "conditions": 54,
+          "mse": 5.391532921422281,
+          "reference_mse": 24.103269081282086,
+          "zero_mse": 60.00989250136569,
+          "max_waveform_error": 8.09876103435486
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|drifting_grating|0|all_widths",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|moving_bar|0|all_widths",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null,
+      "by_recording": []
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|static_grating|0|all_widths",
+      "recordings": 4,
+      "conditions": 8,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 3.0624339049874028,
+      "median_reference_RMSE_mV": 3.2186717186087757,
+      "median_zero_RMSE_mV": 6.840793492299843,
+      "by_recording": [
+        {
+          "recording": "2019_T5_05",
+          "conditions": 2,
+          "mse": 5.28408251251971,
+          "reference_mse": 3.4392277503364066,
+          "zero_mse": 31.815952511473174,
+          "max_waveform_error": 7.728077334937687
+        },
+        {
+          "recording": "2019_T5_06",
+          "conditions": 2,
+          "mse": 3.131205275233471,
+          "reference_mse": 6.917910023771693,
+          "zero_mse": 57.17499772618753,
+          "max_waveform_error": 5.988340882366726
+        },
+        {
+          "recording": "2019_T5_14",
+          "conditions": 2,
+          "mse": 20.65071506750546,
+          "reference_mse": 21.29598771909216,
+          "zero_mse": 37.45650437322815,
+          "max_waveform_error": 9.230629980195436
+        },
+        {
+          "recording": "2019_T5_16",
+          "conditions": 2,
+          "mse": 14.639458871954961,
+          "reference_mse": 14.494401969060085,
+          "zero_mse": 72.85633272601945,
+          "max_waveform_error": 8.690153571553537
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recordings": 15,
+      "conditions": 316,
+      "paired_difference_ci95_mV2": [
+        -0.10962021088642687,
+        0.05359007782791423
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -0.27190048440076675,
+        -0.0484200565650851
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.2806988922853897,
+      "median_reference_RMSE_mV": 1.3218406658978845,
+      "median_zero_RMSE_mV": 1.4203997584899408,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 22,
+          "mse": 2.2392327841579185,
+          "reference_mse": 2.445370567562163,
+          "zero_mse": 2.7552894225266016,
+          "max_waveform_error": 6.198556522565034
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 20,
+          "mse": 1.383278225662204,
+          "reference_mse": 1.4430321774352577,
+          "zero_mse": 1.570185746685535,
+          "max_waveform_error": 4.368857255858838
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 22,
+          "mse": 2.3727667792964353,
+          "reference_mse": 2.560272705231717,
+          "zero_mse": 2.7685914690201328,
+          "max_waveform_error": 5.457312683089717
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 22,
+          "mse": 1.5712935640488164,
+          "reference_mse": 1.7472627460213628,
+          "zero_mse": 2.0175354739182825,
+          "max_waveform_error": 4.5709606742743345
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 20,
+          "mse": 2.117177631668901,
+          "reference_mse": 2.3216632377331705,
+          "zero_mse": 2.4135023833988547,
+          "max_waveform_error": 4.712324211049853
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 20,
+          "mse": 0.9594305554661048,
+          "reference_mse": 0.7868786134358456,
+          "zero_mse": 0.8913559863194116,
+          "max_waveform_error": 2.983538377026644
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 22,
+          "mse": 1.6401896527010242,
+          "reference_mse": 1.6224362685524818,
+          "zero_mse": 1.7519684747454116,
+          "max_waveform_error": 5.535187298333972
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 22,
+          "mse": 0.8885854043749831,
+          "reference_mse": 0.8653916394600912,
+          "zero_mse": 0.8223635266118419,
+          "max_waveform_error": 2.8644629813922053
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 22,
+          "mse": 1.5038555229183252,
+          "reference_mse": 1.1482789716703785,
+          "zero_mse": 1.2681493982240317,
+          "max_waveform_error": 3.6378800526332067
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 20,
+          "mse": 1.06514623108342,
+          "reference_mse": 1.036576524250635,
+          "zero_mse": 1.1996228212408075,
+          "max_waveform_error": 3.7714410513502403
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 18,
+          "mse": 5.8246917912001885,
+          "reference_mse": 5.906897215455007,
+          "zero_mse": 5.859934308256947,
+          "max_waveform_error": 6.512968762904049
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 22,
+          "mse": 2.089864419345092,
+          "reference_mse": 2.081754389065519,
+          "zero_mse": 2.237333780083082,
+          "max_waveform_error": 4.250063683882249
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 20,
+          "mse": 1.8108711178075894,
+          "reference_mse": 2.0716087628422803,
+          "zero_mse": 2.232237407761142,
+          "max_waveform_error": 4.961293319614349
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 22,
+          "mse": 0.9091164667022377,
+          "reference_mse": 0.7874003376413546,
+          "zero_mse": 0.7170880871647218,
+          "max_waveform_error": 3.06788199165121
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 22,
+          "mse": 1.805707001735498,
+          "reference_mse": 1.9071173631176535,
+          "zero_mse": 2.1417815428699307,
+          "max_waveform_error": 5.379053784434579
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recordings": 15,
+      "conditions": 418,
+      "paired_difference_ci95_mV2": [
+        -0.7751103531480582,
+        -0.2447774820656321
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -1.3043347374316003,
+        -0.4530151560978134
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.3465697476052803,
+      "median_reference_RMSE_mV": 1.3690500754488486,
+      "median_zero_RMSE_mV": 1.498512985257154,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 24,
+          "mse": 2.9696998902087604,
+          "reference_mse": 4.177937206661841,
+          "zero_mse": 4.644544228114834,
+          "max_waveform_error": 6.044211517421833
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 30,
+          "mse": 1.8132500851657483,
+          "reference_mse": 2.0376799948599116,
+          "zero_mse": 2.5001419335596324,
+          "max_waveform_error": 4.636419152201394
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 32,
+          "mse": 2.7648726444933236,
+          "reference_mse": 3.906518886190471,
+          "zero_mse": 4.368506165187522,
+          "max_waveform_error": 7.11728348437928
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 32,
+          "mse": 1.872564339404748,
+          "reference_mse": 1.874298109086498,
+          "zero_mse": 1.6703050053272377,
+          "max_waveform_error": 4.663968665008627
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 28,
+          "mse": 2.1974206068847235,
+          "reference_mse": 3.267397395764249,
+          "zero_mse": 3.3643823173403287,
+          "max_waveform_error": 5.022544329577039
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 28,
+          "mse": 1.4278728031386885,
+          "reference_mse": 1.6339115207020642,
+          "zero_mse": 2.015269186255579,
+          "max_waveform_error": 3.2979082311354277
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 28,
+          "mse": 1.35458954567297,
+          "reference_mse": 1.8329314111219321,
+          "zero_mse": 2.245541166984307,
+          "max_waveform_error": 3.1846436856905225
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 28,
+          "mse": 0.9178080530578636,
+          "reference_mse": 0.9059847397007771,
+          "zero_mse": 0.9858684917233983,
+          "max_waveform_error": 3.503660484615071
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 24,
+          "mse": 1.3666185145382725,
+          "reference_mse": 1.114887730035233,
+          "zero_mse": 1.0952719196213188,
+          "max_waveform_error": 4.662395607872588
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 28,
+          "mse": 1.2118041299039253,
+          "reference_mse": 1.3263309288124951,
+          "zero_mse": 1.855468631437718,
+          "max_waveform_error": 4.081148838590967
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 24,
+          "mse": 2.439519689691799,
+          "reference_mse": 3.0639295885600966,
+          "zero_mse": 3.1967840046591327,
+          "max_waveform_error": 4.498952967039213
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 28,
+          "mse": 1.9671885484284861,
+          "reference_mse": 2.3951729389339085,
+          "zero_mse": 3.259502685131053,
+          "max_waveform_error": 6.845511897633984
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 28,
+          "mse": 7.552523248802285,
+          "reference_mse": 9.22406286827607,
+          "zero_mse": 10.680921678844198,
+          "max_waveform_error": 12.003756022570233
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 28,
+          "mse": 0.9108585622035499,
+          "reference_mse": 0.915332340039827,
+          "zero_mse": 0.9744148355812251,
+          "max_waveform_error": 3.2389790813725745
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 28,
+          "mse": 1.215092371110243,
+          "reference_mse": 1.739784576129501,
+          "zero_mse": 1.9669401312688295,
+          "max_waveform_error": 3.3034409662921638
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recordings": 15,
+      "conditions": 378,
+      "paired_difference_ci95_mV2": [
+        -3.488511272920595,
+        -1.5833012462976475
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -8.453797388268924,
+        -4.032955489418121
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.6120900440634498,
+      "median_reference_RMSE_mV": 2.295584632450969,
+      "median_zero_RMSE_mV": 3.0629861835085466,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 20,
+          "mse": 3.5607326807128272,
+          "reference_mse": 6.39610414081408,
+          "zero_mse": 9.409994234889476,
+          "max_waveform_error": 6.0599821645406875
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 26,
+          "mse": 2.562209261547411,
+          "reference_mse": 4.130127210827487,
+          "zero_mse": 9.991883874167153,
+          "max_waveform_error": 9.86373534330954
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 28,
+          "mse": 4.250480473141892,
+          "reference_mse": 8.097669130612596,
+          "zero_mse": 13.593112629997874,
+          "max_waveform_error": 6.967754120470307
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 28,
+          "mse": 3.6198726498493157,
+          "reference_mse": 4.1268579667188785,
+          "zero_mse": 6.504904573523393,
+          "max_waveform_error": 8.789156166282877
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 24,
+          "mse": 2.356921996950468,
+          "reference_mse": 7.409307242740529,
+          "zero_mse": 9.64996747623458,
+          "max_waveform_error": 5.1821702612240585
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 24,
+          "mse": 2.0066585477879393,
+          "reference_mse": 3.5687855057806837,
+          "zero_mse": 8.13577606911259,
+          "max_waveform_error": 5.30774354422901
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 28,
+          "mse": 2.363270258891147,
+          "reference_mse": 5.2697088047450515,
+          "zero_mse": 6.134458029685774,
+          "max_waveform_error": 5.925050467970516
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 28,
+          "mse": 2.2643184214290435,
+          "reference_mse": 3.1506457940608636,
+          "zero_mse": 5.079040799943229,
+          "max_waveform_error": 5.883145617528695
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 20,
+          "mse": 4.382043312562139,
+          "reference_mse": 4.4397260808474215,
+          "zero_mse": 3.373531267466145,
+          "max_waveform_error": 7.670833253770181
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 26,
+          "mse": 2.4119311230472023,
+          "reference_mse": 4.120727551149978,
+          "zero_mse": 9.381884360364252,
+          "max_waveform_error": 5.337049830185668
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 20,
+          "mse": 3.50608574016407,
+          "reference_mse": 6.279630148712046,
+          "zero_mse": 9.099468102606158,
+          "max_waveform_error": 6.742175907815301
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 28,
+          "mse": 2.7276038352372534,
+          "reference_mse": 5.763446647743288,
+          "zero_mse": 11.18908586502704,
+          "max_waveform_error": 8.034402462527554
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 26,
+          "mse": 17.38731686270717,
+          "reference_mse": 24.42998856781957,
+          "zero_mse": 36.24385897090632,
+          "max_waveform_error": 17.93638761347959
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 28,
+          "mse": 2.375459144379923,
+          "reference_mse": 2.164231391521151,
+          "zero_mse": 2.6403385112592694,
+          "max_waveform_error": 7.071834906538044
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 24,
+          "mse": 2.598834310168496,
+          "reference_mse": 6.709762510587351,
+          "zero_mse": 9.968697412164822,
+          "max_waveform_error": 8.78863221611032
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recordings": 15,
+      "conditions": 316,
+      "paired_difference_ci95_mV2": [
+        -8.946911035232834,
+        -4.627129005925943
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -19.586672237130053,
+        -12.07607062273984
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.21761326764428,
+      "median_reference_RMSE_mV": 3.564885694088505,
+      "median_zero_RMSE_mV": 4.812742292269725,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 22,
+          "mse": 4.809565946599705,
+          "reference_mse": 16.801962389443506,
+          "zero_mse": 26.07225172386718,
+          "max_waveform_error": 9.572874821042593
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 20,
+          "mse": 5.086793550702455,
+          "reference_mse": 3.4938670017974807,
+          "zero_mse": 11.816385604805332,
+          "max_waveform_error": 9.514577930935626
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 22,
+          "mse": 8.460139434670458,
+          "reference_mse": 20.140952210175143,
+          "zero_mse": 35.91040394246807,
+          "max_waveform_error": 12.883640615225737
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 22,
+          "mse": 3.190313854377502,
+          "reference_mse": 9.283471108340903,
+          "zero_mse": 13.009296681220553,
+          "max_waveform_error": 7.514612309333293
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 20,
+          "mse": 5.5533386859738085,
+          "reference_mse": 17.591170424944764,
+          "zero_mse": 25.518014176447583,
+          "max_waveform_error": 7.739967777657167
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 20,
+          "mse": 3.550617849100932,
+          "reference_mse": 13.963559770142897,
+          "zero_mse": 23.543812369842115,
+          "max_waveform_error": 9.084430823547216
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 22,
+          "mse": 2.987164536012843,
+          "reference_mse": 8.359608799733804,
+          "zero_mse": 16.354085188590066,
+          "max_waveform_error": 5.795796942604117
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 22,
+          "mse": 4.782058768063444,
+          "reference_mse": 7.373112933342586,
+          "zero_mse": 12.731508091713279,
+          "max_waveform_error": 8.43938312801012
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 22,
+          "mse": 3.1297393868488252,
+          "reference_mse": 5.940036178696747,
+          "zero_mse": 10.660764336080044,
+          "max_waveform_error": 9.312305496072113
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 20,
+          "mse": 4.917808604831942,
+          "reference_mse": 9.38683221990137,
+          "zero_mse": 23.16248837180165,
+          "max_waveform_error": 10.781963206651628
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 18,
+          "mse": 6.319107595381273,
+          "reference_mse": 15.064681326353972,
+          "zero_mse": 26.892042520815565,
+          "max_waveform_error": 8.31271413951418
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 22,
+          "mse": 5.9661104751759755,
+          "reference_mse": 12.708410011916884,
+          "zero_mse": 23.032676363087813,
+          "max_waveform_error": 12.348318946776494
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 20,
+          "mse": 8.083869506564296,
+          "reference_mse": 17.729907586533027,
+          "zero_mse": 36.42309734943151,
+          "max_waveform_error": 12.595860394093865
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 22,
+          "mse": 4.336009559883295,
+          "reference_mse": 4.319334370608718,
+          "zero_mse": 5.96558391536857,
+          "max_waveform_error": 10.50096055427531
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 22,
+          "mse": 6.752916213519137,
+          "reference_mse": 18.180932581872746,
+          "zero_mse": 24.729333853663817,
+          "max_waveform_error": 11.240993620097543
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recordings": 15,
+      "conditions": 418,
+      "paired_difference_ci95_mV2": [
+        -12.79837978924504,
+        -8.042622899459364
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -22.403834212360614,
+        -14.658186709948989
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.167402636768602,
+      "median_reference_RMSE_mV": 3.7863566332457945,
+      "median_zero_RMSE_mV": 4.548281395767261,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 24,
+          "mse": 4.697634189871487,
+          "reference_mse": 21.64629171719173,
+          "zero_mse": 34.57797186048284,
+          "max_waveform_error": 12.240027160860599
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 30,
+          "mse": 4.058509241828611,
+          "reference_mse": 9.319054431304739,
+          "zero_mse": 20.686863655082586,
+          "max_waveform_error": 7.995766799786455
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 32,
+          "mse": 7.748914741622723,
+          "reference_mse": 23.87264661940103,
+          "zero_mse": 34.23700232515692,
+          "max_waveform_error": 12.314516093572362
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 32,
+          "mse": 2.619794249440553,
+          "reference_mse": 14.336496554124428,
+          "zero_mse": 18.11805181329546,
+          "max_waveform_error": 5.943173746180566
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 28,
+          "mse": 5.162742163246704,
+          "reference_mse": 16.95567640490899,
+          "zero_mse": 19.707945793109435,
+          "max_waveform_error": 8.133254877116187
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 28,
+          "mse": 2.9944014827322456,
+          "reference_mse": 12.325168244456979,
+          "zero_mse": 17.602540491126756,
+          "max_waveform_error": 5.930547005233692
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 28,
+          "mse": 3.865181226312661,
+          "reference_mse": 8.283933297910064,
+          "zero_mse": 10.828224623211286,
+          "max_waveform_error": 8.006093664322314
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 28,
+          "mse": 7.965975412371264,
+          "reference_mse": 12.987487377132306,
+          "zero_mse": 20.52157586072608,
+          "max_waveform_error": 10.328136767000949
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 24,
+          "mse": 4.397661750377008,
+          "reference_mse": 7.436326183643388,
+          "zero_mse": 13.016249081656099,
+          "max_waveform_error": 7.898401997900233
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 28,
+          "mse": 5.4663461515034415,
+          "reference_mse": 13.871163562724556,
+          "zero_mse": 27.828225281080872,
+          "max_waveform_error": 8.528820103851768
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 24,
+          "mse": 4.813403690603534,
+          "reference_mse": 16.82034701273817,
+          "zero_mse": 24.10594203384125,
+          "max_waveform_error": 7.510417217698567
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 28,
+          "mse": 7.511656625096386,
+          "reference_mse": 25.295794130313272,
+          "zero_mse": 40.19809067799162,
+          "max_waveform_error": 15.025061445487768
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 28,
+          "mse": 3.626851550108999,
+          "reference_mse": 16.81772770545141,
+          "zero_mse": 28.602500067507183,
+          "max_waveform_error": 9.97702780711658
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 28,
+          "mse": 2.048245387279736,
+          "reference_mse": 9.026533569481499,
+          "zero_mse": 13.536685824209412,
+          "max_waveform_error": 6.299265815948004
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 28,
+          "mse": 4.7759425471458545,
+          "reference_mse": 18.61405121820199,
+          "zero_mse": 25.735727931901543,
+          "max_waveform_error": 9.162641307325883
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recordings": 15,
+      "conditions": 378,
+      "paired_difference_ci95_mV2": [
+        -13.725240521455602,
+        -8.379994612451615
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -28.42046036647061,
+        -18.878049645985556
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.396709365954698,
+      "median_reference_RMSE_mV": 4.30128471651219,
+      "median_zero_RMSE_mV": 5.686040355622827,
+      "by_recording": [
+        {
+          "recording": "2021_T4_01",
+          "conditions": 20,
+          "mse": 7.397755267659683,
+          "reference_mse": 21.945966477129375,
+          "zero_mse": 41.44129409295411,
+          "max_waveform_error": 13.69200897781259
+        },
+        {
+          "recording": "2021_T4_02",
+          "conditions": 26,
+          "mse": 4.93223464463196,
+          "reference_mse": 14.562630638549042,
+          "zero_mse": 35.30778181332121,
+          "max_waveform_error": 12.32480874236062
+        },
+        {
+          "recording": "2021_T4_03",
+          "conditions": 28,
+          "mse": 8.052782523242529,
+          "reference_mse": 25.88299224121448,
+          "zero_mse": 35.27860691229876,
+          "max_waveform_error": 13.414794574745352
+        },
+        {
+          "recording": "2021_T4_04",
+          "conditions": 28,
+          "mse": 4.961631017971852,
+          "reference_mse": 19.49383876414631,
+          "zero_mse": 27.815146126716858,
+          "max_waveform_error": 8.126972500399244
+        },
+        {
+          "recording": "2021_T4_06",
+          "conditions": 24,
+          "mse": 7.090410551466263,
+          "reference_mse": 18.735346646043052,
+          "zero_mse": 25.54626859862047,
+          "max_waveform_error": 7.714080125872165
+        },
+        {
+          "recording": "2021_T4_07",
+          "conditions": 24,
+          "mse": 4.6342657668782685,
+          "reference_mse": 12.711476036335059,
+          "zero_mse": 19.781832289447014,
+          "max_waveform_error": 7.399373519291267
+        },
+        {
+          "recording": "2021_T4_08",
+          "conditions": 28,
+          "mse": 5.0265852837657805,
+          "reference_mse": 8.756104370467641,
+          "zero_mse": 9.621866791054874,
+          "max_waveform_error": 10.08900396661798
+        },
+        {
+          "recording": "2021_T4_09",
+          "conditions": 28,
+          "mse": 8.956621256779723,
+          "reference_mse": 14.189547909248713,
+          "zero_mse": 24.144801787564525,
+          "max_waveform_error": 9.975606811819649
+        },
+        {
+          "recording": "2021_T4_10",
+          "conditions": 20,
+          "mse": 6.266549472623317,
+          "reference_mse": 6.130308171585287,
+          "zero_mse": 15.436092539648257,
+          "max_waveform_error": 8.65390013020205
+        },
+        {
+          "recording": "2021_T4_11",
+          "conditions": 26,
+          "mse": 5.528095825332812,
+          "reference_mse": 18.50105021250135,
+          "zero_mse": 39.239481220803306,
+          "max_waveform_error": 9.507973072959924
+        },
+        {
+          "recording": "2021_T4_12",
+          "conditions": 20,
+          "mse": 5.74421578485497,
+          "reference_mse": 16.880386928082398,
+          "zero_mse": 32.33105492577137,
+          "max_waveform_error": 8.464695622928428
+        },
+        {
+          "recording": "2021_T4_13",
+          "conditions": 28,
+          "mse": 6.635029572060395,
+          "reference_mse": 26.77084702226112,
+          "zero_mse": 42.65141446241828,
+          "max_waveform_error": 13.427752635798733
+        },
+        {
+          "recording": "2021_T4_14",
+          "conditions": 26,
+          "mse": 8.691565336101084,
+          "reference_mse": 21.40702244230744,
+          "zero_mse": 45.69705689168892,
+          "max_waveform_error": 14.662444177834448
+        },
+        {
+          "recording": "2021_T4_15",
+          "conditions": 28,
+          "mse": 2.3714223184234613,
+          "reference_mse": 12.86967470542028,
+          "zero_mse": 18.07186610943668,
+          "max_waveform_error": 6.595358760808738
+        },
+        {
+          "recording": "2021_T4_16",
+          "conditions": 24,
+          "mse": 4.246205779215138,
+          "reference_mse": 19.312743995774095,
+          "zero_mse": 35.09662061334225,
+          "max_waveform_error": 7.760832017125038
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recordings": 14,
+      "conditions": 403,
+      "paired_difference_ci95_mV2": [
+        -3.691451622398633,
+        -1.3857374722595162
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -13.923783405847606,
+        -6.2273737819850625
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.660710289776909,
+      "median_reference_RMSE_mV": 2.1103246091573897,
+      "median_zero_RMSE_mV": 3.068836684348333,
+      "by_recording": [
+        {
+          "recording": "2021_T5_01",
+          "conditions": 50,
+          "mse": 2.118765790349622,
+          "reference_mse": 2.572729918333368,
+          "zero_mse": 5.497605892561281,
+          "max_waveform_error": 6.056230854781084
+        },
+        {
+          "recording": "2021_T5_02",
+          "conditions": 50,
+          "mse": 2.4342144690449734,
+          "reference_mse": 3.912942875193602,
+          "zero_mse": 4.51647539044238,
+          "max_waveform_error": 10.317618047919554
+        },
+        {
+          "recording": "2021_T5_03",
+          "conditions": 50,
+          "mse": 1.8388434120826889,
+          "reference_mse": 3.413984777315873,
+          "zero_mse": 4.897024064686138,
+          "max_waveform_error": 4.63477788390753
+        },
+        {
+          "recording": "2021_T5_04",
+          "conditions": 42,
+          "mse": 2.3771034321110136,
+          "reference_mse": 4.612549040727472,
+          "zero_mse": 8.259725254954988,
+          "max_waveform_error": 6.135525616967904
+        },
+        {
+          "recording": "2021_T5_05",
+          "conditions": 50,
+          "mse": 1.5406418890880982,
+          "reference_mse": 2.358959198155597,
+          "zero_mse": 4.888524038072727,
+          "max_waveform_error": 4.6907348254512815
+        },
+        {
+          "recording": "2021_T5_06",
+          "conditions": 24,
+          "mse": 2.679706227292348,
+          "reference_mse": 4.297182405643368,
+          "zero_mse": 10.651735042929653,
+          "max_waveform_error": 5.296385877584148
+        },
+        {
+          "recording": "2021_T5_07",
+          "conditions": 26,
+          "mse": 2.4818675921087805,
+          "reference_mse": 5.859597388922227,
+          "zero_mse": 7.560697329556602,
+          "max_waveform_error": 6.184701403192462
+        },
+        {
+          "recording": "2021_T5_09",
+          "conditions": 9,
+          "mse": 5.953288678864543,
+          "reference_mse": 9.151261391151253,
+          "zero_mse": 26.624990375588474,
+          "max_waveform_error": 6.63356843430599
+        },
+        {
+          "recording": "2021_T5_10",
+          "conditions": 9,
+          "mse": 3.840875822885744,
+          "reference_mse": 11.519167704402665,
+          "zero_mse": 24.364746026723658,
+          "max_waveform_error": 4.730669920103521
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 11,
+          "mse": 4.397807389181032,
+          "reference_mse": 10.996069689344885,
+          "zero_mse": 26.692622785936692,
+          "max_waveform_error": 9.618598638140405
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 24,
+          "mse": 8.974982687867797,
+          "reference_mse": 11.339582118349737,
+          "zero_mse": 26.382921718234822,
+          "max_waveform_error": 10.557657159862364
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 22,
+          "mse": 4.819425842073627,
+          "reference_mse": 7.909121185569898,
+          "zero_mse": 16.768842257255386,
+          "max_waveform_error": 9.26436279771967
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 18,
+          "mse": 4.446672276698462,
+          "reference_mse": 3.6263306952708407,
+          "zero_mse": 13.422630598137308,
+          "max_waveform_error": 7.033570561524912
+        },
+        {
+          "recording": "2021_T5_17",
+          "conditions": 18,
+          "mse": 2.8373372806763437,
+          "reference_mse": 3.8700121977053366,
+          "zero_mse": 8.10334097282962,
+          "max_waveform_error": 5.886323537458641
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recordings": 17,
+      "conditions": 597,
+      "paired_difference_ci95_mV2": [
+        -10.000137141430956,
+        -7.148324412050681
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -23.9403709759555,
+        -17.97722907583536
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.0483149659403312,
+      "median_reference_RMSE_mV": 3.6591412907211267,
+      "median_zero_RMSE_mV": 5.0091511830686075,
+      "by_recording": [
+        {
+          "recording": "2021_T5_01",
+          "conditions": 46,
+          "mse": 4.263425285103375,
+          "reference_mse": 7.65912743524064,
+          "zero_mse": 22.37854580103801,
+          "max_waveform_error": 10.410155896584268
+        },
+        {
+          "recording": "2021_T5_02",
+          "conditions": 50,
+          "mse": 2.8438620301722013,
+          "reference_mse": 9.001250944669483,
+          "zero_mse": 14.964265737125912,
+          "max_waveform_error": 7.688749949037909
+        },
+        {
+          "recording": "2021_T5_03",
+          "conditions": 52,
+          "mse": 2.3229104560309612,
+          "reference_mse": 10.655029258837041,
+          "zero_mse": 17.759276488187346,
+          "max_waveform_error": 7.462506435357081
+        },
+        {
+          "recording": "2021_T5_04",
+          "conditions": 42,
+          "mse": 2.9287933311508154,
+          "reference_mse": 9.054363454709494,
+          "zero_mse": 23.75552647204337,
+          "max_waveform_error": 6.503688945026003
+        },
+        {
+          "recording": "2021_T5_05",
+          "conditions": 52,
+          "mse": 1.9764972786922597,
+          "reference_mse": 6.384877406300025,
+          "zero_mse": 16.349780377139083,
+          "max_waveform_error": 5.426857990935723
+        },
+        {
+          "recording": "2021_T5_06",
+          "conditions": 28,
+          "mse": 2.6447661984757262,
+          "reference_mse": 13.82379286154156,
+          "zero_mse": 32.10028215848642,
+          "max_waveform_error": 8.24718939537579
+        },
+        {
+          "recording": "2021_T5_07",
+          "conditions": 24,
+          "mse": 7.007409272456009,
+          "reference_mse": 15.392258639326556,
+          "zero_mse": 23.233611553003612,
+          "max_waveform_error": 14.634903588182839
+        },
+        {
+          "recording": "2021_T5_08",
+          "conditions": 32,
+          "mse": 3.160250250999033,
+          "reference_mse": 9.807743002659329,
+          "zero_mse": 14.386868758487648,
+          "max_waveform_error": 8.2229944123452
+        },
+        {
+          "recording": "2021_T5_09",
+          "conditions": 28,
+          "mse": 4.195594199695141,
+          "reference_mse": 13.610127936815147,
+          "zero_mse": 25.18636711272762,
+          "max_waveform_error": 8.47467020306717
+        },
+        {
+          "recording": "2021_T5_10",
+          "conditions": 28,
+          "mse": 5.284842296958687,
+          "reference_mse": 20.821341180033357,
+          "zero_mse": 33.48248943883373,
+          "max_waveform_error": 8.134016394787382
+        },
+        {
+          "recording": "2021_T5_11",
+          "conditions": 33,
+          "mse": 6.918619530050141,
+          "reference_mse": 17.126685832427444,
+          "zero_mse": 30.61414797339991,
+          "max_waveform_error": 9.215931605775086
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 32,
+          "mse": 4.607182273984409,
+          "reference_mse": 13.389314985460274,
+          "zero_mse": 32.68427797560224,
+          "max_waveform_error": 6.810613271719907
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 32,
+          "mse": 5.5387900509154715,
+          "reference_mse": 14.539887079726343,
+          "zero_mse": 32.36128449225556,
+          "max_waveform_error": 8.1652116626875
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 32,
+          "mse": 3.5043559959491244,
+          "reference_mse": 12.265482163554315,
+          "zero_mse": 25.09159557483763,
+          "max_waveform_error": 7.870742941744814
+        },
+        {
+          "recording": "2021_T5_15",
+          "conditions": 24,
+          "mse": 3.799485814115799,
+          "reference_mse": 18.21301025692286,
+          "zero_mse": 35.881525130140794,
+          "max_waveform_error": 5.706377394414285
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 34,
+          "mse": 5.830174075878769,
+          "reference_mse": 10.652492557130481,
+          "zero_mse": 28.20219989709311,
+          "max_waveform_error": 12.243681941563223
+        },
+        {
+          "recording": "2021_T5_17",
+          "conditions": 28,
+          "mse": 4.557491428685528,
+          "reference_mse": 14.193761542887543,
+          "zero_mse": 19.551794258898976,
+          "max_waveform_error": 7.315614043299398
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recordings": 16,
+      "conditions": 314,
+      "paired_difference_ci95_mV2": [
+        -16.1358215076928,
+        -12.822270209536324
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -46.486980637802574,
+        -34.74249432858096
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.5052287339349784,
+      "median_reference_RMSE_mV": 4.633149803424661,
+      "median_zero_RMSE_mV": 7.005743514508002,
+      "by_recording": [
+        {
+          "recording": "2021_T5_01",
+          "conditions": 6,
+          "mse": 4.738791756533397,
+          "reference_mse": 21.17307384860052,
+          "zero_mse": 64.68689171524844,
+          "max_waveform_error": 6.440267140409619
+        },
+        {
+          "recording": "2021_T5_02",
+          "conditions": 8,
+          "mse": 5.191903644533397,
+          "reference_mse": 18.494629258081453,
+          "zero_mse": 25.637352318070462,
+          "max_waveform_error": 9.941665987654236
+        },
+        {
+          "recording": "2021_T5_03",
+          "conditions": 8,
+          "mse": 5.285068597241693,
+          "reference_mse": 24.183062358765405,
+          "zero_mse": 33.56551179412144,
+          "max_waveform_error": 8.792202731227755
+        },
+        {
+          "recording": "2021_T5_05",
+          "conditions": 8,
+          "mse": 3.5359563358117168,
+          "reference_mse": 14.139206705913331,
+          "zero_mse": 33.13456980478156,
+          "max_waveform_error": 6.286370950251909
+        },
+        {
+          "recording": "2021_T5_06",
+          "conditions": 8,
+          "mse": 6.793415801811311,
+          "reference_mse": 23.549383569877758,
+          "zero_mse": 57.770267045568374,
+          "max_waveform_error": 8.039909225286117
+        },
+        {
+          "recording": "2021_T5_07",
+          "conditions": 20,
+          "mse": 13.033235557102298,
+          "reference_mse": 28.5894287128111,
+          "zero_mse": 48.50911671469165,
+          "max_waveform_error": 14.74156068560122
+        },
+        {
+          "recording": "2021_T5_08",
+          "conditions": 26,
+          "mse": 3.4371100557544363,
+          "reference_mse": 17.488907257041465,
+          "zero_mse": 33.07308367881485,
+          "max_waveform_error": 7.180635713618095
+        },
+        {
+          "recording": "2021_T5_09",
+          "conditions": 24,
+          "mse": 9.486859322154759,
+          "reference_mse": 19.932161697890113,
+          "zero_mse": 39.44523252904707,
+          "max_waveform_error": 10.97236888800463
+        },
+        {
+          "recording": "2021_T5_10",
+          "conditions": 24,
+          "mse": 6.361936947477112,
+          "reference_mse": 26.58632497545776,
+          "zero_mse": 49.65511244736837,
+          "max_waveform_error": 7.659569481162144
+        },
+        {
+          "recording": "2021_T5_11",
+          "conditions": 26,
+          "mse": 23.330013413652047,
+          "reference_mse": 39.22540353059254,
+          "zero_mse": 81.0535182488435,
+          "max_waveform_error": 13.3391813371444
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 28,
+          "mse": 10.635551886239112,
+          "reference_mse": 18.96132511078221,
+          "zero_mse": 61.28031810237947,
+          "max_waveform_error": 13.440184283904694
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 28,
+          "mse": 6.125733191292256,
+          "reference_mse": 21.823336604037472,
+          "zero_mse": 56.79621082015355,
+          "max_waveform_error": 12.923383686536788
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 28,
+          "mse": 7.256380672616989,
+          "reference_mse": 21.76109380618332,
+          "zero_mse": 39.47682407277815,
+          "max_waveform_error": 11.008839685259264
+        },
+        {
+          "recording": "2021_T5_15",
+          "conditions": 20,
+          "mse": 4.118079091703061,
+          "reference_mse": 21.971342074120006,
+          "zero_mse": 62.34330078703316,
+          "max_waveform_error": 6.37076146103878
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 28,
+          "mse": 10.95651183158799,
+          "reference_mse": 19.60996491418995,
+          "zero_mse": 55.67370111375935,
+          "max_waveform_error": 15.68926288316126
+        },
+        {
+          "recording": "2021_T5_17",
+          "conditions": 24,
+          "mse": 6.190987110911515,
+          "reference_mse": 20.6252010441915,
+          "zero_mse": 37.28048861419941,
+          "max_waveform_error": 7.687585335750034
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|1.0",
+      "recordings": 5,
+      "conditions": 43,
+      "paired_difference_ci95_mV2": [
+        0.03494191723551676,
+        1.2390463046837314
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -10.347571936367464,
+        -1.489033840920521
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 2.4259261854918703,
+      "median_reference_RMSE_mV": 2.3332231169152116,
+      "median_zero_RMSE_mV": 2.812101244745173,
+      "by_recording": [
+        {
+          "recording": "2021_T5_09",
+          "conditions": 8,
+          "mse": 4.201607475463386,
+          "reference_mse": 2.9271828360580536,
+          "zero_mse": 7.026597644923358,
+          "max_waveform_error": 5.459282653390773
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 9,
+          "mse": 5.885117857455136,
+          "reference_mse": 5.997688197817788,
+          "zero_mse": 16.680503090059368,
+          "max_waveform_error": 6.814415748932266
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 9,
+          "mse": 8.082163372854144,
+          "reference_mse": 8.362260449909572,
+          "zero_mse": 21.570315562416074,
+          "max_waveform_error": 9.811206844198662
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 9,
+          "mse": 4.7371285731923605,
+          "reference_mse": 3.477723029741624,
+          "zero_mse": 7.907913410697353,
+          "max_waveform_error": 5.965499315036933
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 8,
+          "mse": 6.571501271014055,
+          "reference_mse": 5.443930113307535,
+          "zero_mse": 5.883703285102889,
+          "max_waveform_error": 7.658781895261857
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recordings": 15,
+      "conditions": 400,
+      "paired_difference_ci95_mV2": [
+        -0.9863893994208556,
+        -0.2966065178440821
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -7.476676029759805,
+        -4.100815939360957
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.8247526373625669,
+      "median_reference_RMSE_mV": 2.0236014261739355,
+      "median_zero_RMSE_mV": 3.0355837671766857,
+      "by_recording": [
+        {
+          "recording": "2021_T5_01",
+          "conditions": 24,
+          "mse": 4.393414452931694,
+          "reference_mse": 4.449002297979926,
+          "zero_mse": 9.2147688075466,
+          "max_waveform_error": 8.333201661995687
+        },
+        {
+          "recording": "2021_T5_02",
+          "conditions": 28,
+          "mse": 2.0078434550821327,
+          "reference_mse": 1.7546536068148963,
+          "zero_mse": 5.091214357100816,
+          "max_waveform_error": 6.18787954305993
+        },
+        {
+          "recording": "2021_T5_05",
+          "conditions": 16,
+          "mse": 2.0778108013286403,
+          "reference_mse": 2.994742086897025,
+          "zero_mse": 6.602113518145094,
+          "max_waveform_error": 4.1813827893798186
+        },
+        {
+          "recording": "2021_T5_06",
+          "conditions": 16,
+          "mse": 5.706669143916074,
+          "reference_mse": 7.398216481137053,
+          "zero_mse": 15.229254538348464,
+          "max_waveform_error": 7.579726728175445
+        },
+        {
+          "recording": "2021_T5_07",
+          "conditions": 20,
+          "mse": 2.9612206090257844,
+          "reference_mse": 2.3717470736088857,
+          "zero_mse": 5.188207378841263,
+          "max_waveform_error": 6.474981825713715
+        },
+        {
+          "recording": "2021_T5_08",
+          "conditions": 30,
+          "mse": 3.3273489013062734,
+          "reference_mse": 3.1038067556312865,
+          "zero_mse": 2.277135435006538,
+          "max_waveform_error": 5.664154340688162
+        },
+        {
+          "recording": "2021_T5_09",
+          "conditions": 28,
+          "mse": 4.270837478342391,
+          "reference_mse": 4.997798604917236,
+          "zero_mse": 8.66861249024151,
+          "max_waveform_error": 7.631368227493335
+        },
+        {
+          "recording": "2021_T5_10",
+          "conditions": 28,
+          "mse": 4.206866901036155,
+          "reference_mse": 5.725561243178847,
+          "zero_mse": 12.160945440546197,
+          "max_waveform_error": 7.325370014588279
+        },
+        {
+          "recording": "2021_T5_11",
+          "conditions": 30,
+          "mse": 3.4515789595992605,
+          "reference_mse": 4.094962732013186,
+          "zero_mse": 12.872876817131807,
+          "max_waveform_error": 5.896775991891527
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 32,
+          "mse": 9.530082256095692,
+          "reference_mse": 10.359179844497145,
+          "zero_mse": 22.459113396129695,
+          "max_waveform_error": 13.286281591486457
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 32,
+          "mse": 2.8011276648476438,
+          "reference_mse": 3.352386083702586,
+          "zero_mse": 10.444838180427666,
+          "max_waveform_error": 5.716964053654944
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 32,
+          "mse": 3.098200464186808,
+          "reference_mse": 4.77961958429651,
+          "zero_mse": 9.276185771352615,
+          "max_waveform_error": 7.802894276783001
+        },
+        {
+          "recording": "2021_T5_15",
+          "conditions": 24,
+          "mse": 2.98341849476704,
+          "reference_mse": 3.3280531250224237,
+          "zero_mse": 8.297932566973543,
+          "max_waveform_error": 5.154125675634666
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 32,
+          "mse": 3.5882904584178585,
+          "reference_mse": 4.71256939229899,
+          "zero_mse": 11.398982764101524,
+          "max_waveform_error": 7.347161682838468
+        },
+        {
+          "recording": "2021_T5_17",
+          "conditions": 28,
+          "mse": 3.3297221875616434,
+          "reference_mse": 3.951352626510302,
+          "zero_mse": 5.085271931614232,
+          "max_waveform_error": 7.046882607627953
+        }
+      ]
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recordings": 13,
+      "conditions": 288,
+      "paired_difference_ci95_mV2": [
+        -1.645785316024484,
+        -0.25129808584268887
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -17.410145700783733,
+        -7.50236192223541
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.2366513471673213,
+      "median_reference_RMSE_mV": 2.3099274563479417,
+      "median_zero_RMSE_mV": 3.677936215335611,
+      "by_recording": [
+        {
+          "recording": "2021_T5_05",
+          "conditions": 8,
+          "mse": 2.466691235228994,
+          "reference_mse": 3.7991615576054745,
+          "zero_mse": 9.159065940053615,
+          "max_waveform_error": 4.167126767351469
+        },
+        {
+          "recording": "2021_T5_06",
+          "conditions": 8,
+          "mse": 2.8479150331284666,
+          "reference_mse": 6.175541067737397,
+          "zero_mse": 19.59513698832366,
+          "max_waveform_error": 5.079610989508594
+        },
+        {
+          "recording": "2021_T5_07",
+          "conditions": 16,
+          "mse": 5.79386869946215,
+          "reference_mse": 3.8633518271661877,
+          "zero_mse": 7.528096372521299,
+          "max_waveform_error": 8.32370534295049
+        },
+        {
+          "recording": "2021_T5_08",
+          "conditions": 26,
+          "mse": 5.002609248785394,
+          "reference_mse": 4.483338112458645,
+          "zero_mse": 7.059022806947876,
+          "max_waveform_error": 8.183260942243036
+        },
+        {
+          "recording": "2021_T5_09",
+          "conditions": 24,
+          "mse": 5.368233926366348,
+          "reference_mse": 6.1194235907056305,
+          "zero_mse": 14.4972784827661,
+          "max_waveform_error": 7.18364460666367
+        },
+        {
+          "recording": "2021_T5_10",
+          "conditions": 24,
+          "mse": 5.799094910262599,
+          "reference_mse": 7.719793185140344,
+          "zero_mse": 21.283168143198605,
+          "max_waveform_error": 8.771724376597808
+        },
+        {
+          "recording": "2021_T5_11",
+          "conditions": 26,
+          "mse": 4.230630912605954,
+          "reference_mse": 5.335764853590073,
+          "zero_mse": 21.336379420560927,
+          "max_waveform_error": 6.084964382077411
+        },
+        {
+          "recording": "2021_T5_12",
+          "conditions": 28,
+          "mse": 22.838553795164813,
+          "reference_mse": 25.153438554098436,
+          "zero_mse": 57.82497985137395,
+          "max_waveform_error": 16.405934352797523
+        },
+        {
+          "recording": "2021_T5_13",
+          "conditions": 28,
+          "mse": 4.387836450859097,
+          "reference_mse": 4.758212162736203,
+          "zero_mse": 12.791757511004073,
+          "max_waveform_error": 6.689516289463943
+        },
+        {
+          "recording": "2021_T5_14",
+          "conditions": 28,
+          "mse": 4.903530233873098,
+          "reference_mse": 5.299091355326163,
+          "zero_mse": 12.15150485538671,
+          "max_waveform_error": 8.514016508845959
+        },
+        {
+          "recording": "2021_T5_15",
+          "conditions": 20,
+          "mse": 5.627245613490948,
+          "reference_mse": 6.805669217839181,
+          "zero_mse": 13.527214804077238,
+          "max_waveform_error": 9.409628738521466
+        },
+        {
+          "recording": "2021_T5_16",
+          "conditions": 28,
+          "mse": 8.239306533667074,
+          "reference_mse": 10.102335093990726,
+          "zero_mse": 32.08895552618648,
+          "max_waveform_error": 9.786278435478662
+        },
+        {
+          "recording": "2021_T5_17",
+          "conditions": 24,
+          "mse": 4.87125340709935,
+          "reference_mse": 4.809327879721036,
+          "zero_mse": 8.854477742280933,
+          "max_waveform_error": 8.164048978783116
+        }
+      ]
+    }
+  ],
+  "bootstrap_seed": 20260919,
+  "bootstrap_replicates": 2000,
+  "conditional_recording_not_fly_inference": true,
+  "multiple_testing": "per-stratum intervals; no familywise biological claim"
+}

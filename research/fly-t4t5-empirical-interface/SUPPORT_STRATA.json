@@ -1,0 +1,613 @@
+{
+  "strata": [
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recordings": 15,
+      "conditions": 266,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        0.022709101050239267,
+        0.5595192079065372
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.5464057567916611,
+      "median_reference_RMSE_mV": 1.5464057567916611,
+      "median_zero_RMSE_mV": 1.460869910900909
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recordings": 15,
+      "conditions": 360,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -2.073868801167407,
+        -0.3888764049048552
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.4355368967655127,
+      "median_reference_RMSE_mV": 1.4355368967655127,
+      "median_zero_RMSE_mV": 1.51496708282506
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recordings": 15,
+      "conditions": 324,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -13.082168041230311,
+        -5.825036518426655
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.5477525497531792,
+      "median_reference_RMSE_mV": 1.5477525497531792,
+      "median_zero_RMSE_mV": 3.2263966987790234
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recordings": 15,
+      "conditions": 266,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -24.552794874947324,
+        -16.104140038559837
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 2.0300138657699045,
+      "median_reference_RMSE_mV": 2.0300138657699045,
+      "median_zero_RMSE_mV": 5.110067839260493
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recordings": 15,
+      "conditions": 360,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -28.87882280144405,
+        -19.862990532531608
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.4957106254582724,
+      "median_reference_RMSE_mV": 1.4957106254582724,
+      "median_zero_RMSE_mV": 4.889125390925186
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recordings": 15,
+      "conditions": 324,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -36.22363769013901,
+        -25.496374874088335
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.6840721274789985,
+      "median_reference_RMSE_mV": 1.6840721274789985,
+      "median_zero_RMSE_mV": 6.146448086167476
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|duration",
+      "recordings": 5,
+      "conditions": 130,
+      "paired_difference_ci95_mV2": [
+        -1.5984182743094195,
+        -1.0261378787400877
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -1.0482394451297605,
+        -0.6635007334285481
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.5776798627233404,
+      "median_reference_RMSE_mV": 2.028303830495009,
+      "median_zero_RMSE_mV": 1.7405431043170247
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recordings": 14,
+      "conditions": 355,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -17.59628199814835,
+        -7.824774225374586
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.6014972111453312,
+      "median_reference_RMSE_mV": 1.6014972111453312,
+      "median_zero_RMSE_mV": 3.274714201580534
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|duration",
+      "recordings": 5,
+      "conditions": 120,
+      "paired_difference_ci95_mV2": [
+        -4.288540241886118,
+        -3.36893800622138
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -12.722746480878978,
+        -10.024088274211113
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.721411283995619,
+      "median_reference_RMSE_mV": 2.6436547035296005,
+      "median_zero_RMSE_mV": 3.651499023925001
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recordings": 17,
+      "conditions": 530,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -30.361214373472563,
+        -23.453553553465124
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.6600262414247804,
+      "median_reference_RMSE_mV": 1.6600262414247804,
+      "median_zero_RMSE_mV": 5.34289759769052
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|duration",
+      "recordings": 1,
+      "conditions": 6,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.8122154339343242,
+      "median_reference_RMSE_mV": 3.257087768273839,
+      "median_zero_RMSE_mV": 6.40686771370457
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recordings": 11,
+      "conditions": 244,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -61.9833212224191,
+        -45.10214372384488
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.9984004491027874,
+      "median_reference_RMSE_mV": 1.9984004491027874,
+      "median_zero_RMSE_mV": 7.600682447812021
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|1.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|1.0|offset",
+      "recordings": 5,
+      "conditions": 70,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -9.861823786805457,
+        -2.7351989784267445
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.747102262279727,
+      "median_reference_RMSE_mV": 1.747102262279727,
+      "median_zero_RMSE_mV": 2.732576938222799
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recordings": 13,
+      "conditions": 328,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -8.839791963386807,
+        -4.824045405089004
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.7121352716433336,
+      "median_reference_RMSE_mV": 1.7121352716433336,
+      "median_zero_RMSE_mV": 3.055031058378692
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|duration",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recordings": 11,
+      "conditions": 240,
+      "paired_difference_ci95_mV2": [
+        0.0,
+        0.0
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -25.99941428717575,
+        -9.660373365872992
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.8329360216277304,
+      "median_reference_RMSE_mV": 1.8329360216277304,
+      "median_zero_RMSE_mV": 3.7046162157245353
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recordings": 17,
+      "conditions": 973,
+      "paired_difference_ci95_mV2": [
+        -20.071940629408694,
+        -14.219269713301122
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -64.05623925658212,
+        -42.488690608857034
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 3.0178400783701838,
+      "median_reference_RMSE_mV": 4.979370243136515,
+      "median_zero_RMSE_mV": 7.558832609110725
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|drifting_grating|0|all_widths",
+      "recordings": 0,
+      "conditions": 0,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": null,
+      "median_reference_RMSE_mV": null,
+      "median_zero_RMSE_mV": null
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|moving_bar|0|all_widths",
+      "recordings": 16,
+      "conditions": 232,
+      "paired_difference_ci95_mV2": [
+        -22.129608229719675,
+        -13.799290782093353
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -43.40257697161537,
+        -29.450102413522092
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.908209197810091,
+      "median_reference_RMSE_mV": 5.219301502100137,
+      "median_zero_RMSE_mV": 6.557720100526066
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|static_grating|0|all_widths",
+      "recordings": 4,
+      "conditions": 8,
+      "paired_difference_ci95_mV2": null,
+      "difference_from_zero_ci95_mV2": null,
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 3.0624339049874028,
+      "median_reference_RMSE_mV": 3.2186717186087757,
+      "median_zero_RMSE_mV": 6.840793492299843
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recordings": 15,
+      "conditions": 316,
+      "paired_difference_ci95_mV2": [
+        -0.09073091508205257,
+        0.019847567795952654
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -0.26039976633713896,
+        -0.07260567274297915
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 1.2767592156907948,
+      "median_reference_RMSE_mV": 1.3218406658978845,
+      "median_zero_RMSE_mV": 1.4203997584899408
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recordings": 15,
+      "conditions": 418,
+      "paired_difference_ci95_mV2": [
+        -0.7774371168715811,
+        -0.2569074299532498
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -1.2980047691677494,
+        -0.4879698349302794
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.3459329374404025,
+      "median_reference_RMSE_mV": 1.3690500754488486,
+      "median_zero_RMSE_mV": 1.498512985257154
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recordings": 15,
+      "conditions": 378,
+      "paired_difference_ci95_mV2": [
+        -3.4343202273776083,
+        -1.5965663248213584
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -8.398414385086642,
+        -4.034189182008907
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.6385417105627926,
+      "median_reference_RMSE_mV": 2.295584632450969,
+      "median_zero_RMSE_mV": 3.0629861835085466
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recordings": 15,
+      "conditions": 316,
+      "paired_difference_ci95_mV2": [
+        -8.918187358838347,
+        -4.490203412406091
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -19.65565516913129,
+        -11.888219520659897
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.2471175149505838,
+      "median_reference_RMSE_mV": 3.564885694088505,
+      "median_zero_RMSE_mV": 4.812742292269725
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recordings": 15,
+      "conditions": 418,
+      "paired_difference_ci95_mV2": [
+        -12.68619428323094,
+        -8.118470929650826
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -22.463184241255313,
+        -14.933153622477343
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.1937685688737107,
+      "median_reference_RMSE_mV": 3.7863566332457945,
+      "median_zero_RMSE_mV": 4.548281395767261
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recordings": 15,
+      "conditions": 378,
+      "paired_difference_ci95_mV2": [
+        -13.74512233899991,
+        -8.530677543545256
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -28.8435176107708,
+        -19.154102053602315
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.409714352375712,
+      "median_reference_RMSE_mV": 4.30128471651219,
+      "median_zero_RMSE_mV": 5.686040355622827
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recordings": 14,
+      "conditions": 413,
+      "paired_difference_ci95_mV2": [
+        -3.7286455108975045,
+        -1.4319524808860833
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -13.688980331760089,
+        -6.436593520692117
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.658942823083079,
+      "median_reference_RMSE_mV": 2.09858303312041,
+      "median_zero_RMSE_mV": 3.060082662844718
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recordings": 17,
+      "conditions": 607,
+      "paired_difference_ci95_mV2": [
+        -10.029586418561319,
+        -7.092990236746929
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -23.887436540404583,
+        -18.206422288758052
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.022409594513234,
+      "median_reference_RMSE_mV": 3.6591412907211267,
+      "median_zero_RMSE_mV": 5.0091511830686075
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recordings": 16,
+      "conditions": 314,
+      "paired_difference_ci95_mV2": [
+        -16.01356069826007,
+        -12.877169796944692
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -46.607290905861596,
+        -35.20210089295364
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.5592909526221668,
+      "median_reference_RMSE_mV": 4.633149803424661,
+      "median_zero_RMSE_mV": 7.005743514508002
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|1.0",
+      "recordings": 5,
+      "conditions": 48,
+      "paired_difference_ci95_mV2": [
+        -0.13790583412943028,
+        1.586402329173911
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -10.907017690546764,
+        -1.3204903492036677
+      ],
+      "meets_registered_criteria": false,
+      "median_recording_RMSE_mV": 2.4048281173290067,
+      "median_reference_RMSE_mV": 2.4406071155188944,
+      "median_zero_RMSE_mV": 3.000979588581123
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recordings": 15,
+      "conditions": 400,
+      "paired_difference_ci95_mV2": [
+        -0.992237378159412,
+        -0.2880826284832888
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -7.506591128170109,
+        -3.908985913618821
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 1.8671610839997657,
+      "median_reference_RMSE_mV": 2.0236014261739355,
+      "median_zero_RMSE_mV": 3.0355837671766857
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recordings": 13,
+      "conditions": 288,
+      "paired_difference_ci95_mV2": [
+        -1.6916750902975783,
+        -0.2918965692846689
+      ],
+      "difference_from_zero_ci95_mV2": [
+        -16.99190945646334,
+        -7.507788991393665
+      ],
+      "meets_registered_criteria": true,
+      "median_recording_RMSE_mV": 2.224549245080334,
+      "median_reference_RMSE_mV": 2.3099274563479417,
+      "median_zero_RMSE_mV": 3.677936215335611
+    }
+  ],
+  "conditional_templates_remain_weak": true
+}

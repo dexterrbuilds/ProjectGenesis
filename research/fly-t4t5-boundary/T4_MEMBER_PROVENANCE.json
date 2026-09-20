@@ -1,0 +1,16 @@
+{
+  "source": "https://ndownloader.figshare.com/files/30851668",
+  "zip_member": {
+    "name": "Figure2/singleBarStT4.mat",
+    "size": 4193160322,
+    "compressed": 3319520321,
+    "offset": 263,
+    "crc": 3357949356,
+    "method": 8
+  },
+  "sha256": "5bba39d48e2c8b2933377a0298750c5bc684f0cc22a639a84e6cda3566aaa288",
+  "member_size_and_crc_verified": true,
+  "whole_archive_md5_verified": false,
+  "uncompressed_bytes": 4193160322,
+  "wall_seconds": 13.798350292025134
+}

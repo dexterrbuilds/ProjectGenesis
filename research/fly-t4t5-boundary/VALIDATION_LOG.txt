@@ -1,0 +1,20 @@
+test_access_log (__main__.Checks.test_access_log) ... ok
+test_adversarial_promotions (__main__.Checks.test_adversarial_promotions) ... ok
+test_canonical (__main__.Checks.test_canonical) ... ok
+test_completed_results_frozen (__main__.Checks.test_completed_results_frozen) ... ok
+test_firewall_adversarial (__main__.Checks.test_firewall_adversarial) ... ok
+test_fresh_reproduction (__main__.Checks.test_fresh_reproduction) ... ok
+test_identity_crosswalk (__main__.Checks.test_identity_crosswalk) ... ok
+test_no_unknown_gain_promotion (__main__.Checks.test_no_unknown_gain_promotion) ... ok
+test_not_general_validation (__main__.Checks.test_not_general_validation) ... ok
+test_package (__main__.Checks.test_package) ... ok
+test_polarity_sources_and_missingness (__main__.Checks.test_polarity_sources_and_missingness) ... ok
+test_preservation (__main__.Checks.test_preservation) ... ok
+test_protocol_locks (__main__.Checks.test_protocol_locks) ... ok
+test_provenance (__main__.Checks.test_provenance) ... ok
+test_spec_dependency (__main__.Checks.test_spec_dependency) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 18.791s
+
+OK

@@ -1,0 +1,11 @@
+{
+  "comparisons": {
+    "algebra": true,
+    "anatomy": true,
+    "workbook": true
+  },
+  "fitting_outcomes": "independent workbook only; Stage4 response tables not loaded",
+  "fresh_process": true,
+  "new_neural_simulations": 0,
+  "tolerance": "exact Python numeric/object equality on same machine"
+}

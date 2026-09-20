@@ -1,0 +1,86 @@
+{
+  "previous_files_unchanged": 3647,
+  "interrupted_study_files_unchanged": 17,
+  "tests": {
+    "stage1": {
+      "tests": 10,
+      "sha256": "afcc8f226900cc90b22a149b33c2bec253cdd33fd3d35c080e1386baf839c0db"
+    },
+    "stage2": {
+      "tests": 9,
+      "sha256": "157777097d774a2d8a37d2e2ce4eebb237385fea924c0ac13fa301afa010688b"
+    },
+    "stage3": {
+      "tests": 11,
+      "sha256": "cd2d35f7582b1e6dbf0c5b09941fbe0ebab02a16dab90b8bd81fc6f4111f3e5b"
+    },
+    "study-tests": {
+      "tests": 8,
+      "sha256": "37e0ec2275edb2c9610cd32ff9897dc4433306e527321a761fe5ffbcd64b4b51"
+    }
+  },
+  "canonical_before": {
+    "sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+    "tableRowCounts": {
+      "genesis_decisions": 7,
+      "genesis_external_observations": 0,
+      "genesis_ledger": 4,
+      "genesis_memories": 7,
+      "genesis_migrations": 2,
+      "genesis_milestones": 4,
+      "genesis_organisms": 1,
+      "genesis_projects": 1,
+      "genesis_schedule": 1
+    },
+    "schedule": [
+      {
+        "id": "genesis",
+        "enabled": false,
+        "remaining_cycles": null,
+        "next_at": "2026-09-14T22:17:38.205548-07:00",
+        "last_heartbeat": "2026-09-16T20:44:24.831772-07:00",
+        "last_error": null,
+        "updated_at": "2026-09-14T22:17:38.205548-07:00"
+      }
+    ]
+  },
+  "canonical_after": {
+    "sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+    "tableRowCounts": {
+      "genesis_decisions": 7,
+      "genesis_external_observations": 0,
+      "genesis_ledger": 4,
+      "genesis_memories": 7,
+      "genesis_migrations": 2,
+      "genesis_milestones": 4,
+      "genesis_organisms": 1,
+      "genesis_projects": 1,
+      "genesis_schedule": 1
+    },
+    "schedule": [
+      {
+        "id": "genesis",
+        "enabled": false,
+        "remaining_cycles": null,
+        "next_at": "2026-09-14T22:17:38.205548-07:00",
+        "last_heartbeat": "2026-09-16T20:44:24.831772-07:00",
+        "last_error": null,
+        "updated_at": "2026-09-14T22:17:38.205548-07:00"
+      }
+    ]
+  },
+  "canonical_cycles_run": 0,
+  "same_historical_states": 8,
+  "same_replay_states": 8,
+  "snapshot_restores_exact": 8,
+  "neural_parameter_changes": {},
+  "calibrated_kernel_exported": false,
+  "stage4_started": false,
+  "prior_classifications_unchanged": {
+    "Stage1": "PASS",
+    "Stage2": "PARTIAL-INCONCLUSIVE",
+    "Stage3": "PARTIAL-INCONCLUSIVE",
+    "Architecture": "INSUFFICIENT EVIDENCE"
+  },
+  "classification": "PARTIAL PHYSIOLOGICAL CONSTRAINT"
+}

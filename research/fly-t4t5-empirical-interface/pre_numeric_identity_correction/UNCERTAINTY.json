@@ -1,0 +1,2911 @@
+{
+  "nominal_rank_level": 0.9,
+  "unit": "maximum absolute waveform residual over held-out conditions per recording",
+  "exchangeability_guarantee": false,
+  "envelopes": [
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.580278674989426,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|1.0|offset",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.211109774703274,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.760186479631752,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|2.0|offset",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.91686802429436,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.142524064496861,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|0.0|4.0|offset",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.594879744654715,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.6885999107162,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|1.0|offset",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 11.879569332330988,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.250096181584311,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|2.0|offset",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.622837346218905,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.36952407197337,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T4_flash|T4|1.0|4.0|offset",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 10.627072875401538,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|duration",
+      "recording": "2021_T5_01",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|duration",
+      "recording": "2021_T5_02",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|duration",
+      "recording": "2021_T5_03",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|duration",
+      "recording": "2021_T5_04",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|duration",
+      "recording": "2021_T5_05",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_01",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_02",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_03",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_04",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_05",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_06",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_07",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_10",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 7.791774164212299,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|1.0|offset",
+      "recording": "2021_T5_17",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 9.568713781566725,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|duration",
+      "recording": "2021_T5_01",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|duration",
+      "recording": "2021_T5_02",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|duration",
+      "recording": "2021_T5_03",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|duration",
+      "recording": "2021_T5_04",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|duration",
+      "recording": "2021_T5_05",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_01",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_02",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_03",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_04",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_05",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_06",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_07",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_08",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_10",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_11",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_15",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 8.111480829426476,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|2.0|offset",
+      "recording": "2021_T5_17",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 7.640682644509816,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|duration",
+      "recording": "2021_T5_01",
+      "calibration_recordings": 0,
+      "rank": 1,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_07",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 10.460067217627856,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_08",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 10.460067217627856,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 10.460067217627856,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_10",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 9.510320527316033,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_11",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 10.460067217627856,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 10.460067217627856,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 10.460067217627856,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 10.460067217627856,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_15",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 10.460067217627856,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 10.460067217627856,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|0.0|4.0|offset",
+      "recording": "2021_T5_17",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 10.460067217627856,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|1.0|offset",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|1.0|offset",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|1.0|offset",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|1.0|offset",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|1.0|offset",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_01",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_02",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_07",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_08",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_10",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_11",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 7.818705732602101,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_15",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|2.0|offset",
+      "recording": "2021_T5_17",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.26992305647628,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_07",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 8.53875526844778,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_08",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 8.53875526844778,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 8.53875526844778,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_10",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 8.53875526844778,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_11",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 8.53875526844778,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 7.718730344886229,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 8.53875526844778,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 8.53875526844778,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_15",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 8.53875526844778,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 8.53875526844778,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E1|2021_T5_flash|T5|1.0|4.0|offset",
+      "recording": "2021_T5_17",
+      "calibration_recordings": 10,
+      "rank": 10,
+      "half_width_mV": 8.53875526844778,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_01",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_02",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_03",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_04",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_05",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_06",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_07",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_08",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_09",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_10",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_11",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 16.075342202944835,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_12",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_13",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_14",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_15",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_16",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|apparent_motion|0|all_widths",
+      "recording": "2019_T5_17",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 17.03411469418166,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|static_grating|0|all_widths",
+      "recording": "2019_T5_05",
+      "calibration_recordings": 3,
+      "rank": 4,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|static_grating|0|all_widths",
+      "recording": "2019_T5_06",
+      "calibration_recordings": 3,
+      "rank": 4,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|static_grating|0|all_widths",
+      "recording": "2019_T5_14",
+      "calibration_recordings": 3,
+      "rank": 4,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E2|2019_T5_compact|T5|static_grating|0|all_widths",
+      "recording": "2019_T5_16",
+      "calibration_recordings": 3,
+      "rank": 4,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.198556522565034,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|1.0",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 6.512968762904049,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 7.11728348437928,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|2.0",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.003756022570233,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 9.86373534330954,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|0.0|4.0",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 17.93638761347959,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.595860394093865,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|1.0",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.883640615225737,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 12.314516093572362,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|2.0",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 15.025061445487768,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_03",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_04",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.69200897781259,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T4_flash|T4|flash|1.0|4.0",
+      "recording": "2021_T4_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 14.662444177834448,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_01",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_02",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_03",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_04",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_05",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_06",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_07",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_10",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.317618047919554,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|1.0",
+      "recording": "2021_T5_17",
+      "calibration_recordings": 13,
+      "rank": 13,
+      "half_width_mV": 10.557657159862364,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_01",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_02",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_03",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_04",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_05",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_06",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_07",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 12.243681941563223,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_08",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_10",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_11",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_15",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|2.0",
+      "recording": "2021_T5_17",
+      "calibration_recordings": 16,
+      "rank": 16,
+      "half_width_mV": 14.634903588182839,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_01",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_02",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_03",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_05",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_06",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_07",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_08",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_10",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_11",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_15",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 14.74156068560122,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|0.0|4.0",
+      "recording": "2021_T5_17",
+      "calibration_recordings": 15,
+      "rank": 15,
+      "half_width_mV": 15.68926288316126,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|1.0",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|1.0",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|1.0",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|1.0",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|1.0",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 4,
+      "rank": 5,
+      "half_width_mV": null,
+      "simultaneous_condition_waveform_coverage": null
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_01",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_02",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_05",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_06",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_07",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_08",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_10",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_11",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 8.333201661995687,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_15",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|2.0",
+      "recording": "2021_T5_17",
+      "calibration_recordings": 14,
+      "rank": 14,
+      "half_width_mV": 13.286281591486457,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_05",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_06",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_07",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_08",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_09",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_10",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_11",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_12",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 9.786278435478662,
+      "simultaneous_condition_waveform_coverage": false
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_13",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_14",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_15",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_16",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    },
+    {
+      "stratum": "E2|2021_T5_flash|T5|flash|1.0|4.0",
+      "recording": "2021_T5_17",
+      "calibration_recordings": 12,
+      "rank": 12,
+      "half_width_mV": 16.405934352797523,
+      "simultaneous_condition_waveform_coverage": true
+    }
+  ]
+}

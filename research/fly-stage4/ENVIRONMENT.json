@@ -1,0 +1,9 @@
+{
+  "dtype": "float64",
+  "execution": "one process, all neural timesteps evaluated; no runtime integration",
+  "machine": "arm64",
+  "numpy": "2.3.5",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "scipy": "1.16.2"
+}

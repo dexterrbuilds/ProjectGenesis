@@ -1,0 +1,8 @@
+{
+  "fits_sha256": "ca603406f5e40feb20b2e7ca9a8e39f7cf9a30178b3e8b51ec6082029d43f79a",
+  "model_sha256": "0cf21f7961a2fbff07cb4cd0d36838503820da8574a868cfa6caaed47012dc8b",
+  "protocol_sha256": "f6071d178c1dfadb716a6bf82e6cc247a229ae18a335ebdfca45394bd164dd39",
+  "test_outcomes_used": false,
+  "wall_seconds": 1.7084946249960922,
+  "peak_RSS_bytes": 134545408
+}

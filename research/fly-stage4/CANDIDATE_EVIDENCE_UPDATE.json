@@ -1,0 +1,37 @@
+{
+  "admission_requirement": "Independent review and the specification supersession process; this document performs no admission.",
+  "allowed_wording": [
+    "This frozen conditional model failed the preregistered LPLC2 selectivity ordering.",
+    "Anatomical paths to DNp01 exist; descending activity was not tested."
+  ],
+  "base_registry_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "base_version": "0.1.0",
+  "canonical_state_changes": [],
+  "capability_promotions": [],
+  "gate_a": "NOT SUPPORTED",
+  "gate_b": "NOT TESTED",
+  "prior_capability_threat_behavior": "unchanged: not_tested (neural visual experiment is not a behavioral test)",
+  "prohibited_wording": [
+    "Genesis has threat behavior.",
+    "The model demonstrates fear or danger perception.",
+    "The model selected escape or avoidance.",
+    "Drosophila lacks looming selectivity."
+  ],
+  "proposed_claims": [
+    {
+      "biological_generalization": "not warranted",
+      "category": "ENGINEERING ASSUMPTION",
+      "classification": "NOT SUPPORTED",
+      "evidence": {
+        "analysis_sha256": "4c53ab6c83b8f7466e93527204a8db6f6e7d9d676f3ab01e0c999640323c4fea",
+        "model_freeze_sha256": "63fca31423ce8fdab39df44c353914fbbad4e8169fde159bd12085c875470b05",
+        "results_sha256": "11bc0ea36d1a7fb6736539e3bcaba87f7b99869e2ab87f886604d9396544c22f"
+      },
+      "id": "candidate.stage4.scalar-motion-boundary.selectivity-not-reproduced",
+      "scope": "the exact MODEL_FREEZE.json operator, L0/L1 roots, physical movies and engineering sensitivity ranges",
+      "statement": "Real contacts causally transmit visual input, but this model does not reproduce the independently reported qualitative LPLC2 expansion selectivity."
+    }
+  ],
+  "status": "UNADMITTED",
+  "supersedes": []
+}

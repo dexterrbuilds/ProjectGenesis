@@ -1,0 +1,25 @@
+{
+  "fresh_process": true,
+  "input_hashes": {
+    "common.py": "fa474b665b3d5f17ca8c996515a1f82777ee0f670f857a4f88547de8c6ff9085",
+    "empirical.py": "a8ceb1bed018e1a6226383015027d03b49bb51e8bf9d9b22dbe864777d41e394",
+    "validate_empirical.py": "3e939987ed925245c0ba51ac109c8f9c671907101860757c051225c1aa95b584",
+    "atlas/records.json": "8ee6a94750b07d2759829b7c0785d20ef1436b01e015fdbe3535c05f29e94c2e",
+    "atlas/waveforms.npz": "9cdf6f6bfe90d86655db6c25624c4786234f3a70b3104bcf4842990f3445a8a7",
+    "COVERAGE_ATLAS.json": "7b5a56a74de413f895afd16d4c507a06ee17520be2d45346ed16fba79c6b8bed"
+  },
+  "identical_json": {
+    "PREDICTION_METRICS.json": true,
+    "HOLDOUT_COVERAGE.json": true,
+    "VALIDATION_RESULTS.json": true,
+    "UNCERTAINTY.json": true,
+    "FAMILY_HOLDOUT.json": true
+  },
+  "identical_arrays": {
+    "prediction_indices": true,
+    "voltage_mV": true
+  },
+  "tolerance": 0,
+  "wall_seconds": 5.3052650000026915,
+  "stdout": "{\"strata\": 40, \"passing\": 14, \"predictions\": 9430, \"seconds\": 4.948550957982661}\n"
+}

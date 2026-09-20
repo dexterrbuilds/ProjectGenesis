@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-09-19T12:32:57.248180+00:00",
+  "spec_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "stage4_content_sha256": "405d5e982b75846c0e24949f27effd122c3171ebbec77932a30da17b90e3c66a",
+  "diagnostic_content_sha256": "f427dca560d609e8e4892a91d8577f22608daf82f2f094c0636042cfde7290ca",
+  "diagnostic_classification": "PARTIAL MECHANISTIC CONSTRAINT \u2014 MORE DATA REQUIRED",
+  "protected_files": 5678,
+  "stage4_outcomes_for_fitting": "forbidden"
+}

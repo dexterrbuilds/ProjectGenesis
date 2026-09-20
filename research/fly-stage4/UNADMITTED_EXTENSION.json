@@ -1,0 +1,88 @@
+{
+  "base_registry_sha256": "6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e",
+  "base_version": "0.1.0",
+  "circuit_manifest_sha256": "6549c06dbe4878e037edc7d40161d94bbad42de4e505db065c31b516df3c6038",
+  "dependencies_sha256": "144b37b2a902d3eda80e0717699364b1810cb7f194aff7a7c8d14688e124be7f",
+  "identity": {
+    "anatomy": "canonical aggregate source/pre/post/neuropil identity; reference-only views",
+    "neuron": "one FAFB-FlyWire:783:<string root> identity per biological root",
+    "plastic_state": "none",
+    "shared_KC_rows": "unchanged, non-composable; no visual overlap"
+  },
+  "model_freeze_sha256": "63fca31423ce8fdab39df44c353914fbbad4e8169fde159bd12085c875470b05",
+  "operators": [
+    {
+      "category": "EXPERIMENTALLY SUPPORTED COMPUTATIONAL APPROXIMATION",
+      "class": "T4/T5 -> LPi / LPLC2",
+      "root_receptors": "unknown",
+      "scope": "class-level positive-effect sign; not numerical kernel",
+      "source": "data/klapoetke.xml"
+    },
+    {
+      "category": "EXPERIMENTALLY SUPPORTED COMPUTATIONAL APPROXIMATION",
+      "class": "LPi11 -> LPLC2",
+      "crosswalk": "LPi11=LPi4-3, Matsliah 2024; CROSSWALK.json",
+      "root_receptors": "unknown",
+      "scope": "type-crosswalk-conditioned negative-effect sign",
+      "source": "data/klapoetke.xml"
+    },
+    {
+      "category": "HYPOTHESIS",
+      "class": "LPi09 -> LPLC2",
+      "root_receptors": "unknown",
+      "scope": "opposing-layer inhibition extrapolation, L1 only",
+      "source": "PROTOCOL.md"
+    },
+    {
+      "category": "ENGINEERING ASSUMPTION",
+      "class": "other retained connections",
+      "known_zero_physiology": false,
+      "numerical_policy": "excluded operator; no assigned current",
+      "physiological_sign": "unknown"
+    }
+  ],
+  "parameters": {
+    "category": "ENGINEERING ASSUMPTION",
+    "confidence_intervals": "unknown",
+    "fitting": "none",
+    "observation_model": "unknown calcium/spike conversion; report model units",
+    "values": "model.py DEFAULT; run.py SENSITIVITY; pinned by MODEL_FREEZE.json"
+  },
+  "product_mappings": [],
+  "protocol_sha256": "6e48767c0420d64d97dc72d1726f0c398b8991a7ff132e98da435c78dae92d44",
+  "representations": [
+    {
+      "category": "ENGINEERING ASSUMPTION",
+      "input": "two-point delayed ON/OFF contrast correlation at real hexel-mapped roots",
+      "parameter_identification": "unknown",
+      "population": "T4/T5",
+      "representation": "scalar low-pass motion-boundary response",
+      "source": "data/klapoetke.xml"
+    },
+    {
+      "adequacy": "not independently established",
+      "category": "ENGINEERING ASSUMPTION",
+      "local_arbor_physiology": "unknown",
+      "population": "LPi11, LPi09, LPLC2",
+      "representation": "one scalar rate-like electrical state per root",
+      "source": "PROTOCOL.md"
+    }
+  ],
+  "source_access_sha256": "0b15be706f4f25d719175ea7921a0fb0ef21372cad89349d35ac304739beb5e1",
+  "sources": {
+    "data/ache-metadata.json": "d0d7574119a767b33aa520e3562a133d8d2d6b3acec7225fa0b7ec7076ca076b",
+    "data/cellcoordinates.jl": "150e26158eecca3bce9bdd62f6f42e263b4744847a5cf402d1ee5adac7a78099",
+    "data/codexdependencies.jl": "2dee07ac131d7f8e0cb89b5c3e2db2d3118adaaab788a092ea0bbce55f0b011b",
+    "data/column_assignment.csv.gz": "bdf4ce7f62cc63493d53eefad3816ff2dfd08b190e97b35a492e0e453df2f0f6",
+    "data/columnassignment.jl": "f1a1ce11352fe87fd02f0da4afedb0c73b3c19fea46c2af40d6f483b8396a524",
+    "data/eyemap-tree.json": "97eb9b3a367c4d6f45620efe90e19a328ee834cd0ce37dbbe6fead9c1c37228d",
+    "data/eyemap.xml": "9ab4362df042ffac7f6227e2b6cd753d5ffa83fec5aaaa95e9cfa595531da086",
+    "data/gf-biophysics.xml": "fea662bbad3d82a470746e7c7dc03472aaa90cc91a65871918d683f4114c9cf5",
+    "data/klapoetke.xml": "fecd5b543b97b4ae316086675d8f11b26005d9f6a410224ac833fab08d459812",
+    "data/optic-lobe-tree.json": "f8cde896a99f6f15e59ce31d17c88ab9cdb906fe9cd3ead2a31f4840f95a92c6",
+    "data/parts-readme.md": "28dcaf0cd180b17696b6a73fb07c012118a0902bdb83a07c84a0fa888db652f3",
+    "data/visual-system-tree.json": "a22450a04ce0ac47ec3eadfd086e269bd252a2457cb6e5ab5f45d9e1b965271d"
+  },
+  "specification_runtime_operator_admission": false,
+  "status": "UNADMITTED"
+}
