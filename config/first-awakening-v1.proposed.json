@@ -1,0 +1,40 @@
+{
+  "id": "GENESIS_FIRST_AWAKENING_V1",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "executionEnabled": false,
+  "providerEnabled": false,
+  "scheduleEnabled": false,
+  "maxCanonicalCycles": 1,
+  "operatorInitiatedOnly": true,
+  "biologicalMode": "SAVED-OBSERVATION-ONLY",
+  "biologicalApplicability": "not_applied",
+  "providerModel": null,
+  "providerModelAllowlist": [],
+  "providerPricingEvidence": null,
+  "providerTokenCounterEvidence": null,
+  "proposedLimits": {
+    "currency": "USD",
+    "perCallMicros": 50000,
+    "perCycleMicros": 50000,
+    "dailyMicros": 50000,
+    "maxProviderAttempts": 1,
+    "maxInputTokens": 12000,
+    "maxOutputTokens": 1200,
+    "providerTimeoutMs": 25000,
+    "cycleLeaseMs": 60000
+  },
+  "allowedAfterSeparateAuthorization": [
+    "read_approved_life_context", "abstain", "defer", "local_reflection",
+    "local_artifact", "request_human_assistance_as_local_pending_record"
+  ],
+  "disabled": [
+    "biological_advance", "wallet_rpc", "wallet_signing", "transfers",
+    "trading", "token_launch", "clawpump", "send_message", "publish",
+    "internet", "browser_automation", "hiring", "purchases", "shell_execution"
+  ],
+  "walletIdentity": "UNRESOLVED",
+  "automaticRetry": false,
+  "automaticFallbackAfterProviderFailure": false,
+  "postCycleExecution": "CLOSED",
+  "postCycleSchedule": "DISABLED"
+}

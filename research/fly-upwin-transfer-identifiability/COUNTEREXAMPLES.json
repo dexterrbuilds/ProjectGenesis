@@ -1,0 +1,82 @@
+{
+  "witnesses": [
+    {
+      "id": "CE-sign",
+      "property": "direct transmission sign",
+      "construction": "For x=u,z=u: y=-x and y=+x-2z both give y=-u. The direct partial derivative with respect to x is -1 versus +1, while the observed total photostimulation effect agrees.",
+      "full_observation_extension": "For every observed cell waveform a_i(t), x_i(t)=-u*a_i(t). The same constructions yield u*a_i(t) in both worlds. This is a witness reparameterization, not an inferred α1 waveform or an invented anatomical edge.",
+      "scope": "Direct sign is not total intervention sign. A negative finite acute response cannot be relabeled positive under the same observation definition."
+    },
+    {
+      "id": "CE-monotonicity",
+      "property": "monotonicity / local transfer sign",
+      "construction": "f_c(x)=-x+c*x*(x-1). All c agree at x=0,1. c=4 has derivative 8x-5, negative at 0 and positive near 1.",
+      "full_observation_extension": "Multiply each observed response a_i(t) by x-c*x*(x-1); endpoints reproduce the entire waveform. Intermediate α1 inputs were not measured.",
+      "scope": "Normalized endpoint index is not a measured α1 neural coordinate."
+    },
+    {
+      "id": "CE-scale",
+      "property": "gain and amplitude calibration",
+      "construction": "x*=k*x and g*=g/k preserve y=g*x for every k>0.",
+      "full_observation_extension": "Preserves complete time series and all acute observations; source neural-state scale unmeasured.",
+      "scope": "Known mV units do not identify units or scale of α1 input."
+    },
+    {
+      "id": "CE-saturation",
+      "property": "saturation and boundedness",
+      "construction": "f_s(x)=-(1-exp(-x/s))/(1-exp(-1/s)), s>0, and f_linear=-x have the same endpoints; the former saturates and the latter does not.",
+      "full_observation_extension": "Each observed waveform can be multiplied by the corresponding normalized endpoint function; neither additional dose response nor source state was measured.",
+      "scope": "Saturation values are normalized mathematical witnesses only."
+    },
+    {
+      "id": "CE-mixture",
+      "property": "population responder fraction / structural zero",
+      "construction": "All sampled cells may be physiologically affected but thirteen effects fail detection, or four may have strong transmission while thirteen do not. Unmeasured recording/background variation can preserve the exact same seventeen observed traces.",
+      "full_observation_extension": "Under an illustrative iid detection model only p*d is estimable: (p,d)=(4/17,1) and (1,4/17) have identical binomial likelihood. That iid model is not justified for the real clustered sample.",
+      "scope": "4/17 is identified as a label count; biological fraction and nonresponder zero-gain are not."
+    },
+    {
+      "id": "CE-time",
+      "property": "downstream latency / temporal kernel",
+      "construction": "Observed LED-to-voltage composite K=H*O. Swapping two factors in convolution leaves K unchanged while assigning different time constants to H. A total delay can likewise be partitioned between opsin/source and target.",
+      "full_observation_extension": "Even perfect knowledge of a composite trace cannot uniquely factor unmeasured source drive, neural transfer and observation filtering. The present workbook also lacks an original onset event column.",
+      "scope": "No numerical biological delay or 50 ms target constant inferred. A causal nonnegative delay is an engineering constraint, not measured latency."
+    },
+    {
+      "id": "CE-recall",
+      "property": "conditioning-dependent transfer / disinhibition",
+      "construction": "For each observed recall change Δy, Δy=g*Δx+Δz. Worlds g<0 with reduced x, g=0 with Δz=Δy, and g>0 with compensating Δz are indistinguishable because x is not measured in those cells.",
+      "full_observation_extension": "Set the alternative component per recorded condition, preserving paired and unpaired changes and both reciprocal odor cohorts. Separate upstream conditioning records and behavioral observations remain unchanged in their own domains.",
+      "scope": "This saturated nuisance construction proves non-identification; it is not a mechanistic fit, identified new pathway, or claim these alternatives are equally likely."
+    },
+    {
+      "id": "CE-sharing",
+      "property": "one common transfer across acute and recall",
+      "construction": "A shared g with domain-specific latent inputs and different g_d with adjusted latent inputs give identical observations without a cross-domain joining key.",
+      "full_observation_extension": "Qualitative calcium suppression is preserved in its own domain; no calcium-to-voltage conversion or behavioral-to-voltage link is supplied.",
+      "scope": "Neither a common transfer nor its nonexistence is established."
+    },
+    {
+      "id": "CE-order",
+      "property": "downstream dimensionless order",
+      "construction": "For x_post<x_pre, f=-x reverses order, f=x preserves it, and f=constant ties it. CE-recall and identity uncertainty allow each for a hypothetical recall target while preserving acute sampled responses.",
+      "full_observation_extension": "The frozen Stage-1 order itself is unchanged. A strictly increasing recoding of that same scalar preserves order; it supplies no physical identity or transfer direction.",
+      "scope": "No nonzero signed downstream effect is invariant across the evidence-admissible parent family."
+    },
+    {
+      "id": "CE-statistics",
+      "property": "identified finite summaries",
+      "construction": "Try changing transfer, latent gain or target assignment while holding all seventeen labels, eleven paired scalar rows, units and six Stage-1 ordinal records fixed.",
+      "full_observation_extension": "Counts, arithmetic summaries and saved-scalar inequalities cannot change without changing a fixed observation. Population expectations and causal attributions can change freely.",
+      "scope": "Counterexample fails for these narrowly defined descriptive estimands; it succeeds for their biological extrapolations."
+    }
+  ],
+  "biological_parameter_estimates": false,
+  "synthetic_observations": false,
+  "neural_runs": 0,
+  "cautions": [
+    "Algebraic nuisance terms are non-identification witnesses, not fabricated anatomical partners.",
+    "Finite-grid checks illustrate analytic identities, not exhaustive empirical validation.",
+    "Consistency does not imply independent support or equal plausibility."
+  ]
+}

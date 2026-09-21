@@ -1,0 +1,28 @@
+{
+  "isolatedInitial": {
+    "passed": 9,
+    "failed": 1
+  },
+  "isolated50": {
+    "passed": 45,
+    "failed": 5
+  },
+  "newBoundaryTests": {
+    "passed": 7,
+    "failed": 0,
+    "skipped": 0
+  },
+  "deploymentCriticalTests": {
+    "passed": 17,
+    "failed": 0,
+    "skipped": 0
+  },
+  "dormantE2E": "PASSED with existing Pass7 Webpack build; fresh Next/runtime processes; new evidence path",
+  "typescript": "PASSED",
+  "eslint": "PASSED",
+  "fullSuite": "NOT RUN: user-required isolated stability gate not satisfied",
+  "webpackBuild": "NOT RERUN: full-suite/build promotion gate not reached; existing unchanged application build used for E2E",
+  "container": "CONTAINER EXECUTION NOT VERIFIED LOCALLY",
+  "runtimeFix": "NONE: unsafe to force commit after observed expiry",
+  "timingPolicyChanged": false
+}

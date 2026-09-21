@@ -1,0 +1,48 @@
+{
+  "frozenFilesChecked": 9319,
+  "frozenMismatches": [],
+  "priorPackages": {
+    "completion-audit": {
+      "filesChecked": 23,
+      "mismatches": [],
+      "actualContentSha256": "10335431298e5952c2656aba96ac35fc842be71902bf25847d18a510b11ddf51",
+      "recordedContentSha256": "10335431298e5952c2656aba96ac35fc842be71902bf25847d18a510b11ddf51"
+    },
+    "foundation-repair": {
+      "filesChecked": 12,
+      "mismatches": [],
+      "actualContentSha256": "e2397982a7fc270385e536903477bfebf932e9d67c080c92e2bd798a74094d89",
+      "recordedContentSha256": "e2397982a7fc270385e536903477bfebf932e9d67c080c92e2bd798a74094d89"
+    },
+    "memory-pass": {
+      "filesChecked": 15,
+      "mismatches": [],
+      "actualContentSha256": "38ab228a1d5c9e1e66d693a730f481ff3aa417e025d8e52676ffc13b1492a067",
+      "recordedContentSha256": "38ab228a1d5c9e1e66d693a730f481ff3aa417e025d8e52676ffc13b1492a067"
+    },
+    "life-state-pass": {
+      "filesChecked": 14,
+      "mismatches": [],
+      "actualContentSha256": "28c447d4e72661ea7ec5d60993c6e929aa029d3e543c9e1b0e69b7adcd3aa5fe",
+      "recordedContentSha256": "28c447d4e72661ea7ec5d60993c6e929aa029d3e543c9e1b0e69b7adcd3aa5fe"
+    },
+    "continuous-life-pass": {
+      "filesChecked": 11,
+      "mismatches": [],
+      "actualContentSha256": "f88e624a1521e2262f914af1f9390e8673e5118baeddc4a6e705ebc05c0d02cf",
+      "recordedContentSha256": "f88e624a1521e2262f914af1f9390e8673e5118baeddc4a6e705ebc05c0d02cf"
+    },
+    "post-pass4-audit": {
+      "filesChecked": 10,
+      "mismatches": [],
+      "actualContentSha256": "660448063b8fda16381f4c9b8ad7e953cd241124a4a50dd0ee075ef63dbb7057",
+      "recordedContentSha256": "660448063b8fda16381f4c9b8ad7e953cd241124a4a50dd0ee075ef63dbb7057"
+    },
+    "operator-control-pass": {
+      "filesChecked": 12,
+      "mismatches": [],
+      "actualContentSha256": "35e06e5d5a465a07988eb7e5b1546dc2c1bb1d1e1f0a4844530fb406bb201ebb",
+      "recordedContentSha256": "35e06e5d5a465a07988eb7e5b1546dc2c1bb1d1e1f0a4844530fb406bb201ebb"
+    }
+  }
+}

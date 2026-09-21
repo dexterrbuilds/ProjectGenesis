@@ -1,0 +1,21 @@
+{
+  "tests": {
+    "total": 192,
+    "passed": 192,
+    "failed": 0,
+    "skipped": 0,
+    "newRegressionTests": 30,
+    "command": "node --env-file=outputs/runtime-v1/test-db.env --test tests/*.test.ts",
+    "state": "isolated disposable PostgreSQL schemas and local test stores"
+  },
+  "typecheck": "PASS",
+  "eslint": "PASS",
+  "productionBuild": {
+    "status": "PASS",
+    "command": "npm run build -- --webpack",
+    "defaultTurbopack": "Not rerun; prior audit documented host-environment failure"
+  },
+  "canonicalRowsUnchanged": true,
+  "frozenFileMismatches": 0,
+  "priorAuditArtifactMismatches": 0
+}

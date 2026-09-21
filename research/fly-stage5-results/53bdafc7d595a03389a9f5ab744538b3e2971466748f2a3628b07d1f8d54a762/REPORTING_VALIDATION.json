@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "exact_unit_keys": 224,
+  "family_rows": 2016,
+  "csv_lossless_comparison": true,
+  "copy_of_original_matrix_byte_identical": true,
+  "no_new_transfer_calculation": true,
+  "both_original_process_outputs_retained": true
+}

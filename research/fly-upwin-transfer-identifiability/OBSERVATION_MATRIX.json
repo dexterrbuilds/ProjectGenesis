@@ -1,0 +1,440 @@
+{
+  "domains": [
+    {
+      "id": "stage1",
+      "measurement": "dimensionless model rates/plastic efficacy",
+      "animal_id": null,
+      "driver": null,
+      "preparation": "frozen artificial cue/PAM input, scalar model with declared normalized contacts",
+      "units": "model-specific",
+      "source": "../genesis-brain-spec-v0.2/STAGE5_READINESS.md",
+      "source_scope": "Frozen route acquisition: PREPARATION_COMPATIBILITY.json"
+    },
+    {
+      "id": "connectome",
+      "measurement": "chemical contacts / neuropil aggregate rows",
+      "animal_id": "single FAFB adult female specimen; not physiological animals",
+      "driver": null,
+      "preparation": "fixed EM v783, annotations v3.1.0; hemibrain distinct specimen",
+      "units": "contacts",
+      "source": "ANATOMY_AUDIT.json",
+      "source_scope": "Frozen route acquisition: PREPARATION_COMPATIBILITY.json"
+    },
+    {
+      "id": "alpha1_stimulation",
+      "measurement": "UpWiN baseline-subtracted somatic voltage",
+      "animal_id": null,
+      "cell_id": null,
+      "driver": "MB310C>Chrimson88-tdTomato; R64A11-LexA target",
+      "preparation": "in-vivo current clamp; 48–72 h retinal; female per general methods; held near -60 mV with typically <10 pA bias",
+      "units": "mV",
+      "sampling_hz": 10000,
+      "filter_hz": 5000,
+      "stimulus": "625 nm 17 mW/mm²; 10 ms pulse",
+      "baseline_window": null,
+      "source": "85756 Fig4B, Methods and genotype table; source-data2",
+      "source_scope": "Frozen route acquisition: PREPARATION_COMPATIBILITY.json"
+    },
+    {
+      "id": "upwin_population",
+      "measurement": "population GCaMP6s fluorescence, dendrite/axon junction",
+      "animal_id": null,
+      "cell_id": null,
+      "driver": "R64A11-LexA target; G0239 and/or MB310C stimulation",
+      "preparation": "dissected female brain 3–7 d, 20 C, 2 mM external calcium",
+      "units": "deltaF/F",
+      "sampling_hz_method_approx": 1.07,
+      "export_grid_seconds": 1,
+      "stimulus": "660 nm 12 µW/mm²; 1 s, nine trials at 30 s intervals",
+      "baseline": "background subtracted; preceding 5 s baseline F",
+      "source": "85756 Fig4C; mean/SEM only, not per-animal data",
+      "source_scope": "Frozen route acquisition: PREPARATION_COMPATIBILITY.json"
+    },
+    {
+      "id": "conditioning_recall",
+      "measurement": "UpWiN subthreshold odor-evoked voltage",
+      "animal_id": null,
+      "cell_id": null,
+      "driver": "SS67249 GFP; R58E02-LexA ChrimsonR broad reward DANs incl alpha1/beta1",
+      "preparation": "in-vivo whole-cell 48–72 h; holding near -60 mV; 1% headspace air dilution",
+      "units": "baseline-subtracted mV, 0–1.2 s mean",
+      "sampling_hz": 10000,
+      "stimulus": "1 min paired odor, 120 1 ms pulses at 2 Hz; reciprocal OCT/MCH; 1 s recall odors",
+      "baseline_window": null,
+      "source": "85756 Fig5 and supplement2; complete within-row scalar pairing; no stable external animal IDs",
+      "source_scope": "Frozen route acquisition: PREPARATION_COMPATIBILITY.json"
+    },
+    {
+      "id": "causal_interventions",
+      "measurement": "TNT upwind response; shibire binary odor distribution at 25/32 C; optogenetic kinematics",
+      "animal_id": null,
+      "driver": "SS33917 TNT/shibire; SS33917/SS33918 CsChrimson",
+      "preparation": "whole-fly behavior; sugar conditioning 1-day recall for Fig7; controls differ by assay",
+      "units": "published assay-specific quantities",
+      "source": "85756 Fig6/7; shibire upwind endpoint unavailable at restrictive temperature",
+      "source_scope": "Frozen route acquisition: PREPARATION_COMPATIBILITY.json"
+    },
+    {
+      "id": "alpha1_conditioning_external",
+      "measurement": "MBON-alpha1 odor-evoked spikes",
+      "animal_id": null,
+      "cell_id": null,
+      "driver": "MB319C mScarlet; PAM-alpha1 MB043-split-LexA ChrimsonR",
+      "preparation": "79042 in-vivo 48–72 h retinal, near -60 mV typically <100 pA; 2% headspace for non-second-order experiment",
+      "units": "baseline-subtracted odor-evoked spike count over 1.2 s; separate mean instantaneous rate has 50 ms Gaussian smoothing",
+      "source": "79042 Fig3 supplement2, acquired original zip, not the 85756 UpWiN voltage preparation",
+      "source_scope": "Frozen route acquisition: PREPARATION_COMPATIBILITY.json"
+    },
+    {
+      "id": "behavior_SS33917",
+      "driver": "SS33917",
+      "measurement": "assay-specific wind orientation/turning/locomotion",
+      "units": [
+        "degrees",
+        "degrees/s",
+        "mm/s"
+      ],
+      "source_scope": "frozen route acquisition; identity study",
+      "pool_with_other_driver": false
+    },
+    {
+      "id": "behavior_SS33918",
+      "driver": "SS33918",
+      "measurement": "assay-specific wind orientation/turning/locomotion",
+      "units": [
+        "degrees",
+        "degrees/s",
+        "mm/s"
+      ],
+      "source_scope": "frozen route acquisition; identity study",
+      "pool_with_other_driver": false
+    }
+  ],
+  "between_domains": [
+    {
+      "from_domain": "stage1",
+      "to_domain": "connectome",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "stage1",
+      "to_domain": "alpha1_stimulation",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "stage1",
+      "to_domain": "upwin_population",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "stage1",
+      "to_domain": "conditioning_recall",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "stage1",
+      "to_domain": "causal_interventions",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "stage1",
+      "to_domain": "alpha1_conditioning_external",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "stage1",
+      "to_domain": "behavior_SS33917",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "stage1",
+      "to_domain": "behavior_SS33918",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "connectome",
+      "to_domain": "alpha1_stimulation",
+      "numerical_bridge": "TRANSFER REQUIRES ASSUMPTION",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "connectome",
+      "to_domain": "upwin_population",
+      "numerical_bridge": "TRANSFER REQUIRES ASSUMPTION",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "connectome",
+      "to_domain": "conditioning_recall",
+      "numerical_bridge": "TRANSFER REQUIRES ASSUMPTION",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "connectome",
+      "to_domain": "causal_interventions",
+      "numerical_bridge": "TRANSFER REQUIRES ASSUMPTION",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "connectome",
+      "to_domain": "alpha1_conditioning_external",
+      "numerical_bridge": "TRANSFER REQUIRES ASSUMPTION",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "connectome",
+      "to_domain": "behavior_SS33917",
+      "numerical_bridge": "TRANSFER REQUIRES ASSUMPTION",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "connectome",
+      "to_domain": "behavior_SS33918",
+      "numerical_bridge": "TRANSFER REQUIRES ASSUMPTION",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "alpha1_stimulation",
+      "to_domain": "upwin_population",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "alpha1_stimulation",
+      "to_domain": "conditioning_recall",
+      "numerical_bridge": "TRANSFER REQUIRES ASSUMPTION",
+      "reason": "Similar electrical technique, but broad R64A11 versus stochastic SS67249 cells; no demonstrated same-cell overlap and different stimuli.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "alpha1_stimulation",
+      "to_domain": "causal_interventions",
+      "numerical_bridge": "UNKNOWN",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "alpha1_stimulation",
+      "to_domain": "alpha1_conditioning_external",
+      "numerical_bridge": "UNKNOWN",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "alpha1_stimulation",
+      "to_domain": "behavior_SS33917",
+      "numerical_bridge": "UNKNOWN",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "alpha1_stimulation",
+      "to_domain": "behavior_SS33918",
+      "numerical_bridge": "UNKNOWN",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "upwin_population",
+      "to_domain": "conditioning_recall",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "upwin_population",
+      "to_domain": "causal_interventions",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "upwin_population",
+      "to_domain": "alpha1_conditioning_external",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "upwin_population",
+      "to_domain": "behavior_SS33917",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "upwin_population",
+      "to_domain": "behavior_SS33918",
+      "numerical_bridge": "INCOMPATIBLE",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "conditioning_recall",
+      "to_domain": "causal_interventions",
+      "numerical_bridge": "UNKNOWN",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "conditioning_recall",
+      "to_domain": "alpha1_conditioning_external",
+      "numerical_bridge": "TRANSFER REQUIRES ASSUMPTION",
+      "reason": "Same pairing pulse timing and reciprocal odors, but different DAN drivers (broad58E02 vs PAM-alpha1), odor dilution1% vs2%, electrical bias and source/target cells, spike count vs mV. Not simultaneous or numerically composable.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "conditioning_recall",
+      "to_domain": "behavior_SS33917",
+      "numerical_bridge": "UNKNOWN",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "conditioning_recall",
+      "to_domain": "behavior_SS33918",
+      "numerical_bridge": "UNKNOWN",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "causal_interventions",
+      "to_domain": "alpha1_conditioning_external",
+      "numerical_bridge": "UNKNOWN",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "causal_interventions",
+      "to_domain": "behavior_SS33917",
+      "numerical_bridge": "DIRECTLY COMPATIBLE",
+      "reason": "Within the SAME documented figure-specific intact behavioral assay, intervention and control compare the same measured endpoint; this does not join different drivers, temperatures or individual flies.",
+      "bridge_established": "only within the same documented assay/control contrast",
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "causal_interventions",
+      "to_domain": "behavior_SS33918",
+      "numerical_bridge": "DIRECTLY COMPATIBLE",
+      "reason": "Within the SAME documented figure-specific intact behavioral assay, intervention and control compare the same measured endpoint; this does not join different drivers, temperatures or individual flies.",
+      "bridge_established": "only within the same documented assay/control contrast",
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "alpha1_conditioning_external",
+      "to_domain": "behavior_SS33917",
+      "numerical_bridge": "UNKNOWN",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "alpha1_conditioning_external",
+      "to_domain": "behavior_SS33918",
+      "numerical_bridge": "UNKNOWN",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    },
+    {
+      "from_domain": "behavior_SS33917",
+      "to_domain": "behavior_SS33918",
+      "numerical_bridge": "ASSUMPTION REQUIRED",
+      "reason": "Related driver-scoped endpoints may be compared; driver populations are not equal and cannot be pooled as one transfer.",
+      "bridge_established": false,
+      "qualitative_use": "May constrain separate domain observations; does not calibrate a common transfer."
+    }
+  ],
+  "within_domain": [
+    {
+      "from": "Fig5 row pre",
+      "to": "same Fig5 row post",
+      "classification": "DIRECTLY COMPATIBLE",
+      "scope": "four scalar values paired within one source row only"
+    },
+    {
+      "from": "Fig4B alpha1 stimulation",
+      "to": "same current-clamp voltage record",
+      "classification": "DIRECTLY COMPATIBLE",
+      "scope": "recorded broad-driver cell, not assigned root"
+    }
+  ],
+  "new_joins": [],
+  "hypotheses": [
+    {
+      "id": "H-identity",
+      "value": null,
+      "statement": "The sampled physiological and behavioral populations overlap in the required causal targets."
+    },
+    {
+      "id": "H-state",
+      "value": null,
+      "statement": "A specified order-preserving map connects Stage-1 readout to biological α1 state."
+    },
+    {
+      "id": "H-exclusion",
+      "value": null,
+      "statement": "Other inputs are held fixed when identifying the α1 contribution."
+    },
+    {
+      "id": "H-observation",
+      "value": null,
+      "statement": "A common observation map is valid across preparations."
+    }
+  ]
+}

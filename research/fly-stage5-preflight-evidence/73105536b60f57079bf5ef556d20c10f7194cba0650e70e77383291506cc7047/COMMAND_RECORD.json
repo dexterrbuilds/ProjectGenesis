@@ -1,0 +1,65 @@
+{
+  "scope": "Observed preflight and preservation commands only; no prospective_analysis.py invocation occurred",
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "research/fly-stage5-execution-20260920/verify_integrity.py",
+        "before"
+      ],
+      "exit_code": 1,
+      "stdout": "{\"phase\": \"before\", \"passed\": false, \"failures\": [\"research/genesis-brain-spec-v0.2/PACKAGE_MANIFEST.json\"]}\nchecks 10059\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "research/fly-stage5-protocol-v0.1/validate_design.py"
+      ],
+      "exit_code": 0,
+      "stdout_file": "STATIC_VALIDATION.stdout.txt",
+      "stderr_file": "STATIC_VALIDATION.stderr.txt"
+    },
+    {
+      "argv": [
+        "node",
+        "--env-file=.env",
+        "--env-file=.env.local",
+        "research/fly-representation-study/canonical-audit.mjs",
+        "research/fly-stage5-execution-20260920/CANONICAL_BEFORE.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "python3",
+        "research/genesis-brain-spec-v0.2/check.py",
+        "--package-only"
+      ],
+      "exit_code": 0,
+      "observation_record": "PREFLIGHT_ERROR_EXPLANATION.json"
+    },
+    {
+      "argv": [
+        "node",
+        "--env-file=.env",
+        "--env-file=.env.local",
+        "research/fly-representation-study/canonical-audit.mjs",
+        "research/fly-stage5-execution-20260920/CANONICAL_AFTER.json"
+      ],
+      "exit_code": 0
+    },
+    {
+      "argv": [
+        "python3",
+        "research/fly-stage5-execution-20260920/close_preflight.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "python_environment_override": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "process_1": null,
+  "process_2": null
+}

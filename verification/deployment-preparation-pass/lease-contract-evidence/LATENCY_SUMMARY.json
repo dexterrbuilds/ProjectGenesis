@@ -1,0 +1,29 @@
+{
+  "runs": 50,
+  "committed": 50,
+  "expired": 0,
+  "unexpectedFailures": 0,
+  "leaseMs": 250,
+  "plannerTimeoutMs": 100,
+  "retries": 0,
+  "freshProcesses": true,
+  "tickElapsedMs": {
+    "min": 95.583958,
+    "median": 109.96614600000002,
+    "p95NearestRank": 141.75483400000002,
+    "max": 243.465959
+  },
+  "admissionMarginMs": {
+    "min": 42.917,
+    "median": 158.115,
+    "p95NearestRank": 169.72,
+    "max": 171.277
+  },
+  "insertResponseToCommitAcknowledgementMs": {
+    "min": 6.481916999999953,
+    "median": 7.36575000000002,
+    "p95NearestRank": 10.655290999999977,
+    "max": 15.83933300000001
+  },
+  "measurementLimit": "Client elapsed timing after INSERT response to COMMIT acknowledgement, not exact server transaction duration; latency evidence only, not a production reliability claim."
+}

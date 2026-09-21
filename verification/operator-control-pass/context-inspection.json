@@ -1,0 +1,79 @@
+{
+  "fixtureOnly": true,
+  "plannerInvoked": false,
+  "eventPersisted": false,
+  "decisionCreated": false,
+  "contextHash": "fixture-specific; not an authorization",
+  "identityFields": [
+    "id",
+    "name",
+    "designation",
+    "bornAt",
+    "cycles"
+  ],
+  "priorDecisionCount": 7,
+  "constitutionPresent": true,
+  "projectMetadataCount": 1,
+  "selectedPastExperiences": 1,
+  "economyNamespace": "SIMULATED",
+  "walletStatus": "unresolved",
+  "biologicalStatus": "not_applied",
+  "localOperationContract": {
+    "version": "life-operations-v1",
+    "authority": "Strict proposal and LifeChange schemas; no arbitrary patches or execution",
+    "outcomes": [
+      "PROPOSAL",
+      "ABSTAIN",
+      "DEFER",
+      "REQUEST_ASSISTANCE"
+    ],
+    "operations": [
+      "project_create",
+      "project_update",
+      "project_status",
+      "task_create",
+      "task_status",
+      "artifact_create",
+      "artifact_revise",
+      "interest_add",
+      "interest_update",
+      "interest_retire",
+      "question_create",
+      "question_status",
+      "commitment_create",
+      "commitment_status",
+      "relationship_create",
+      "relationship_update",
+      "assistance_create",
+      "assistance_resolve",
+      "assistance_cancel",
+      "focus_set"
+    ]
+  },
+  "manifest": {
+    "audience": "PROVIDER",
+    "contextBytes": 6454,
+    "includedCategories": [
+      "identity",
+      "constitution",
+      "factual_event",
+      "permissions",
+      "simulated_economy",
+      "saved_biology_provenance",
+      "local_operation_contract",
+      "reviewed_or_internally_permitted_memories",
+      "reviewed_legacy_project_metadata"
+    ],
+    "excludedCategories": [
+      "private_operational_state",
+      "relationships",
+      "human_answers",
+      "unreviewed_memories",
+      "unreviewed_environment",
+      "unreviewed_legacy_project_metadata",
+      "legacy_task_details"
+    ],
+    "includedSourceCount": 3,
+    "reviewCount": 2
+  }
+}

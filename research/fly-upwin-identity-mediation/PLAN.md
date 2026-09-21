@@ -1,0 +1,11 @@
+# Identity and mediation resolution scope (before primary new source audit)
+
+Evidence acquisition, source metadata inspection and governance only. No dynamics, transmission fitting, action decoder, new anatomical extraction, Stage-5 protocol, Brain Spec change or Genesis integration.
+
+Pin and reference the completed route study and Brain Spec v0.2. Preserve prior bytes and canonical state. Existing numerical results are not recalculated or optimized. New work targets published/repository identifiers, driver intersections, morphological specimens, receptor/target evidence, and mediation-relevant interventions.
+
+Mapping labels: IDENTIFIED requires an explicit independently traceable identity at the stated resolution; TYPE-COMPATIBLE requires morphology/annotation evidence for type correspondence but is not an individual recording identity; POSSIBLE denotes a candidate without discriminating evidence; UNRESOLVED denotes insufficient or conflicting assignment. A broad driver is not a type and anatomical connectivity does not identify responders.
+
+Evaluate ten requirements as SUPPORTED / PARTIAL / UNRESOLVED / CONTRADICTED, explicitly by scope. Evaluate root, type and driver-population prospective design separately. Missing one-to-one cross-animal root identity alone cannot exclude a scientifically legitimate population-level study. Conversely, lowering resolution does not identify a common population across incompatible drivers or make unmeasured observation conversions known. Prior proof of the proposed mediation is not required just to propose a test; enough independently specified targets, observations and causal contrasts is required to avoid a software-constructed pathway. This task identifies readiness and missing evidence without choosing any Stage-5 protocol.
+
+Search original/supplemental and peer-review records, original source workbook metadata, microscopy/MCFO assets, FlyLight/VFB/NeuronBridge driver documentation, associated repositories/deposits and target-specific transmission literature. Distinguish confirmed unavailable or no accession found in searched sources from evidence that no data exist anywhere. No external messages or author contact authorized. Do not infer identities from source row order or reproduce trials from means/SEM.

@@ -1,0 +1,20 @@
+{
+  "digestDefinition": "SHA-256 of compact sorted UTF-8 JSON file-hash map; ARTIFACT_MANIFEST.json excluded",
+  "files": {
+    "LIFE_STATE_REPORT.md": "3eb2480414a39d4a7aba380ff9da8ae040d6d63d723f34e2e8b55d5b0ea9a012",
+    "build.txt": "2d58d12c8abc8945ad5d39c520a05c4226b4168bd335086a5fd114574e47b601",
+    "canonical-after.json": "fb624b5cb2bfb9eea62ecf9d291eeefefddcb97df3cb7b05c04c497afe59637e",
+    "canonical-before.json": "3ee0de6176889ea279a052a24716d8c2f7ca41864025244fba5813c22471702a",
+    "growth-probe.ts": "34f9c2c862b10ddcde1607518176c1758b29b9e4cc868c902cd2a8948dd3a771",
+    "growth.json": "0fec11b3413d6d88bdf9a31c24894ff4679f59c44439f0e9c2597cefd516fc0c",
+    "lint.txt": "01a448f5176ec0decb011933eb27354f58d96ad06049f9418f5a112a23b45a6f",
+    "preservation-check.py": "097b9bbad5f52a435e565c9d98b7821d737f93938ad9e85e928c374f3a4b0a31",
+    "preservation.json": "8dbfb91e8d0bb0fedc480e77294ab964b2c159b6100f87bbb3d61c7e141609cc",
+    "source-changes.json": "e2d47a768185d3e0668589a3ab05b3d9147de4a13acb2cb4cc8d47c45a905380",
+    "source-hashes.json": "bdb267e599311a0c0c577c64d60c74fe997780ac5fec63002dfff943a2d40257",
+    "tests.txt": "40b9250252f9c8729634797d5abec697cc09cede3b3fcc1bd3b8fd227ca01327",
+    "typecheck.txt": "c3a4984e39ca90092b12f60776cde004ced3e82b73efb8a6f5d01ec01d9617b7",
+    "verification.json": "532ade55675dfac1c9c301144de5b5f1f6e77c4e3a94fb4ae7c6ace665c289d1"
+  },
+  "contentSha256": "28c447d4e72661ea7ec5d60993c6e929aa029d3e543c9e1b0e69b7adcd3aa5fe"
+}

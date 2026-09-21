@@ -1,0 +1,72 @@
+{
+  "prePass7Reference": "outputs/deployment-preparation-pass/source-before.json",
+  "unchangedDirectPath": {
+    "server/continuous.ts": {
+      "before": "dc97e863c95258cf6ee613619da33ef237b4e5de5309005b0df958ecbc2593d2",
+      "current": "dc97e863c95258cf6ee613619da33ef237b4e5de5309005b0df958ecbc2593d2",
+      "unchanged": true
+    },
+    "server/continuous-worker.ts": {
+      "before": "7faa6105313646a37de406372f8d8cae89838005bcd717a3d18cd5ac85e06aae",
+      "current": "7faa6105313646a37de406372f8d8cae89838005bcd717a3d18cd5ac85e06aae",
+      "unchanged": true
+    },
+    "server/continuous-authority.ts": {
+      "before": "2880dd043881ca7c4aa58e64733c630bdcb675d02a7e04e0113a86cbb478949b",
+      "current": "2880dd043881ca7c4aa58e64733c630bdcb675d02a7e04e0113a86cbb478949b",
+      "unchanged": true
+    },
+    "server/continuous-spec.ts": {
+      "before": "4266a82b5d6b5cabe5ec227f367775a284cd215a9867a5ddcb1d91ef49797fd5",
+      "current": "4266a82b5d6b5cabe5ec227f367775a284cd215a9867a5ddcb1d91ef49797fd5",
+      "unchanged": true
+    },
+    "server/commit-v2.ts": {
+      "before": "59627776edf4e7eafc81a993d9b1125cd393ec2e5ab1fd4baef6b94708951629",
+      "current": "59627776edf4e7eafc81a993d9b1125cd393ec2e5ab1fd4baef6b94708951629",
+      "unchanged": true
+    },
+    "server/memory-store.ts": {
+      "before": "5ab90497c510790ee3943abd7ac24ac23a87164814221db6fd741be0aa67b381",
+      "current": "5ab90497c510790ee3943abd7ac24ac23a87164814221db6fd741be0aa67b381",
+      "unchanged": true
+    },
+    "server/disclosure-store.ts": {
+      "before": "333e3c70a48c29eaf77c6f684a49537054ba5a6b784df9aa85fa3f779e0f4ded",
+      "current": "333e3c70a48c29eaf77c6f684a49537054ba5a6b784df9aa85fa3f779e0f4ded",
+      "unchanged": true
+    },
+    "core/v2/cycle.ts": {
+      "before": "1955eb04e481de90288ff20c12098e6a15f96040fc620df4f99a053c62e01664",
+      "current": "1955eb04e481de90288ff20c12098e6a15f96040fc620df4f99a053c62e01664",
+      "unchanged": true
+    },
+    "core/v2/biology.ts": {
+      "before": "72588cb3f1244c91c54894bb3ae06f5d446b456d04109ca34a72e554b72c51df",
+      "current": "72588cb3f1244c91c54894bb3ae06f5d446b456d04109ca34a72e554b72c51df",
+      "unchanged": true
+    },
+    "core/v2/context.ts": {
+      "before": "a65bf5b2906fc61539b1bc96af08da5677aff95d5afb3e06d2656f5c16e53df4",
+      "current": "a65bf5b2906fc61539b1bc96af08da5677aff95d5afb3e06d2656f5c16e53df4",
+      "unchanged": true
+    },
+    "runtime/continuous-schema.sql": {
+      "before": "c012de17227776fcf415e22e26c3048cbd1454fd5cb91a8465e53fdb8cc8b556",
+      "current": "c012de17227776fcf415e22e26c3048cbd1454fd5cb91a8465e53fdb8cc8b556",
+      "unchanged": true
+    },
+    "tests/support/continuous-fixture.ts": {
+      "before": "3b416f2bdb910fe8b5043011c7ca19a1f01c9fdbb033ad611c180de5ffcef505",
+      "current": "3b416f2bdb910fe8b5043011c7ca19a1f01c9fdbb033ad611c180de5ffcef505",
+      "unchanged": true
+    },
+    "tests/support/one-shot-fixture.ts": {
+      "before": "ab5d9692ba0c1a2d7b154647ee492f1a59622aa6e0951543a553c89ab59a4744",
+      "current": "ab5d9692ba0c1a2d7b154647ee492f1a59622aa6e0951543a553c89ab59a4744",
+      "unchanged": true
+    }
+  },
+  "oneShotIdentityFileChangedDuringPass7": true,
+  "identityImpact": "continuousIdentity hashes the bytes of one-shot-spec.ts; it does not call its expanded runtimeIdentity inside the continuous claim. Grant fixture setup calls makeGrant before tick. A byte-level pre-Pass7 counterfactual timing run was not performed."
+}

@@ -1,0 +1,719 @@
+{
+  "arithmetic_tolerance": 1e-12,
+  "sign_witness_max_error": 0,
+  "monotonicity_witnesses": [
+    {
+      "c": -4,
+      "endpoints": [
+        0.0,
+        -1.0
+      ],
+      "midpoint": 0.5,
+      "derivative_at_one": -5
+    },
+    {
+      "c": 0,
+      "endpoints": [
+        0.0,
+        -1.0
+      ],
+      "midpoint": -0.5,
+      "derivative_at_one": -1
+    },
+    {
+      "c": 4,
+      "endpoints": [
+        0.0,
+        -1.0
+      ],
+      "midpoint": -1.5,
+      "derivative_at_one": 3
+    }
+  ],
+  "saturation_witnesses": [
+    {
+      "s": 0.1,
+      "at_half": -0.9933071490757152,
+      "asymptote": -1.0000454019910097
+    },
+    {
+      "s": 1,
+      "at_half": -0.6224593312018546,
+      "asymptote": -1.5819767068693265
+    },
+    {
+      "s": 10,
+      "at_half": -0.51249739648421,
+      "asymptote": -10.508331944775044
+    }
+  ],
+  "scale_witnesses": [
+    {
+      "input_scale": 0.01,
+      "gain": 100.0,
+      "output": 0.5
+    },
+    {
+      "input_scale": 1,
+      "gain": 1.0,
+      "output": 0.5
+    },
+    {
+      "input_scale": 100,
+      "gain": 0.01,
+      "output": 0.5
+    }
+  ],
+  "mixture": {
+    "observed_detection_fraction": 0.23529411764705882,
+    "illustrative_pairs": [
+      [
+        0.23529411764705882,
+        1
+      ],
+      [
+        1,
+        0.23529411764705882
+      ]
+    ],
+    "products": [
+      0.23529411764705882,
+      0.23529411764705882
+    ],
+    "population_confidence_interval": null
+  },
+  "recall_nullspace": [
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 4.247965876443807,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 6.247965876443807,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 8.247965876443807,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.403308701226881,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 2.403308701226881,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 4.403308701226881,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.4098387092615594,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 2.4098387092615594,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 4.409838709261559,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -1.5398703082830099,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.46012969171699014,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 2.46012969171699,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -0.9612555018114111,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 1.038744498188589,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 3.038744498188589,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -3.83619539006807,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -1.8361953900680699,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.16380460993193013,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 1.363965466364939,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 3.363965466364939,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 5.363965466364939,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -2.6364605131228567,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -0.6364605131228569,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 1.363539486877143,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.3203873034418603,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 2.3203873034418603,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 4.32038730344186,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -2.99232636817532,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -0.99232636817532,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 1.00767363182468,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 10,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 1.144111250353982,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 10,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 3.144111250353982,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 10,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 5.144111250353982,
+      "error": -4.440892098500626e-16
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 10,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -0.837788513941502,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 10,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 1.162211486058498,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 10,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 3.162211486058498,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.8062593660890998,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 2.8062593660890998,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 4.806259366089099,
+      "error": -4.440892098500626e-16
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -1.1826793522503802,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.8173206477496198,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 5,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 2.8173206477496198,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.5903707515988197,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 2.5903707515988197,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 4.59037075159882,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -0.35800739548504024,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 1.6419926045149598,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 6,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 3.64199260451496,
+      "error": 2.220446049250313e-16
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -0.005203271952450184,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 1.9947967280475498,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 3.99479672804755,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -1.8833005534247902,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.11669944657520981,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 7,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 2.11669944657521,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.37378860209978004,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 2.37378860209978,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 4.37378860209978,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -3.32994183033807,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -1.3299418303380701,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 8,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 0.6700581696619299,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -0.0952002039008899,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 1.90479979609911,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "paired_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 3.90479979609911,
+      "error": -2.220446049250313e-16
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "control_change_mV",
+      "arbitrary_g": -2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": -0.9570323172279251,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 0,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 1.0429676827720749,
+      "error": 0.0
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 9,
+      "quantity": "control_change_mV",
+      "arbitrary_g": 2,
+      "arbitrary_dx": -1,
+      "nuisance_residual_not_estimated_biology": 3.042967682772075,
+      "error": 0.0
+    }
+  ],
+  "recall_max_error": 4.440892098500626e-16,
+  "recall_linear_identifiability": {
+    "n_observed_changes": 22,
+    "n_equations": 22,
+    "n_unknowns_if_one_shared_g_and_free_nuisance_per_change": 23,
+    "jacobian_rank_if_dx_known": 22,
+    "nullity_at_least": 1,
+    "explanation": "J=[Δx | I]; gain column lies in nuisance span. Real Δx and cross-domain identity are also unknown, making identification no stronger."
+  },
+  "convolution_factorization": [
+    {
+      "dimensionless_frequency": 0.1,
+      "swap_error": 0.0
+    },
+    {
+      "dimensionless_frequency": 1,
+      "swap_error": 0.0
+    },
+    {
+      "dimensionless_frequency": 10,
+      "swap_error": 0.0
+    }
+  ],
+  "latent_mediation_bounds": {
+    "unrestricted_alpha1_attributable_component": [
+      "-infinity",
+      "+infinity"
+    ],
+    "under_extra_nonnegative_additive_components_only": [
+      0,
+      1
+    ],
+    "fraction_bound_is_assumption_not_measurement": true,
+    "scope": "Formal identification set of the unconstrained decomposition, not a claim that physical membrane voltage is unbounded."
+  },
+  "plateau_note": "A non-strict monotone transfer may collapse any learned order into a tie; no positive lower slope bound is measured.",
+  "all_grid_values": "mathematical diagnostics, not biological ranges or a Stage5 sweep",
+  "selection": null
+}

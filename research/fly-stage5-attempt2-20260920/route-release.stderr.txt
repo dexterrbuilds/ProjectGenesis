@@ -1,0 +1,6 @@
+test_15_release_if_present (__main__.Audit.test_15_release_if_present) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.126s
+
+OK

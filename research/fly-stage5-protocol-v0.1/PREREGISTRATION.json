@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "type": "prospective protocol; archived data reanalysis",
+  "design_authorized": true,
+  "execution_authorized": false,
+  "primary_question": "Which, if any, ordinal downstream conclusions are invariant across declared transfer uncertainty when using a frozen learned model signal?",
+  "planned_run_count": 28,
+  "family_ids": [
+    "E",
+    "Z",
+    "P",
+    "R",
+    "WP",
+    "WR",
+    "H",
+    "U",
+    "N"
+  ],
+  "contrast_ids": [
+    "response_change",
+    "restoration_check",
+    "plastic_state_retention",
+    "learned_state_comparison"
+  ],
+  "planned_units_formula": "28 source runs × 2 cues × 4 contrasts; every unit reports every family. These are design counts, not results.",
+  "selection": "Fixed primary appetitive runs and all original primary causal controls; no sampling or optimizing against Stage5 outcomes.",
+  "normalization": "none",
+  "new_training": false,
+  "outcome_values": null,
+  "stopping_rule": "Stop after the complete fixed analysis/verification battery, regardless of signs, nulls, or failures; no adaptive enlargement.",
+  "failure_handling": "Missing/corrupt/mismatched inputs stop before analysis. Nonfinite/invalid source schemas or required original restoration/replay failure are UNINTERPRETABLE; do not impute, regenerate, drop, or retune.",
+  "scope": "abstract population-associated order; neither identified UpWiN voltage nor action behavior"
+}

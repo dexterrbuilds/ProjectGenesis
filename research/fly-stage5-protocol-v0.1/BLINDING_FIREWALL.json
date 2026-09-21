@@ -1,0 +1,26 @@
+{
+  "design_authorized": true,
+  "execution_authorized": false,
+  "design_inspected": [
+    "frozen source code",
+    "filenames/manifests/hashes",
+    "prior identifiability specifications",
+    "previously reviewed Stage1 conclusions"
+  ],
+  "not_inspected": [
+    "Stage5 outputs",
+    "new downstream parameter evaluations",
+    "new neural simulations"
+  ],
+  "current_validation": "Static schema/hash/AST and governance tests only; no import or call of prospective_analysis.py.",
+  "future_gate": "Separate explicit user authorization naming this exact release hash; read-only sealed protocol plus external authorization record; analysis output must be in a separate empty run directory.",
+  "post_freeze": "No edits to family definitions, assumptions, code, priors, readout, numeric tolerance, controls or normalization after outcome access. Amendments require a new version and renewed review.",
+  "forbidden_inputs": [
+    "LLM reasoning/planner",
+    "wallet/economy/business state",
+    "physical threat/product concepts",
+    "new behavioral outputs used for fitting"
+  ],
+  "neural_model_execution": false,
+  "biological_parameter_fit": false
+}

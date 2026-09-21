@@ -1,0 +1,89 @@
+{
+  "classification": "STAGE-5 DESIGN POSSIBLE UNDER EXPLICIT TRANSFER UNCERTAINTY",
+  "scope": "Only a prospective conditional model/partial-identification study. No claim that a biological α1→UpWiN transfer, physical voltage prediction, or nonzero downstream bias is established.",
+  "prior_route_readiness_unchanged": true,
+  "stage5_authorized": false,
+  "stage5_protocol": null,
+  "calibrated_transfer_required": {
+    "for_conditional_order_and_sensitivity_questions": false,
+    "for_absolute_voltage_or_physiological_timing_prediction": true,
+    "for_unconditional_biological_signed_effect": "Requires additional identifying evidence; calibration alone would not resolve identity/mediation."
+  },
+  "alternatives": [
+    {
+      "kind": "ordinal neural comparison",
+      "status": "model-local only unless bridge assumed",
+      "requirement": "use a defined neural scalar and invariant order, not a semantic preference or population-mean rank invented by a decoder"
+    },
+    {
+      "kind": "sign/order change",
+      "status": "conditional",
+      "requirement": "explicit order-preserving source map, fixed other inputs, declared transfer sign and non-flat range; retain opposite-sign/null branches as unresolved alternatives"
+    },
+    {
+      "kind": "experimentally bounded population perturbation",
+      "status": "narrow assay endpoint only",
+      "requirement": "observed photostimulation/recorded mV envelopes are not bounds on hidden α1 activity or a new target population"
+    },
+    {
+      "kind": "parameter-swept unknown families",
+      "status": "conditional sensitivity analysis possible",
+      "requirement": "family-level analytic uncertainty first; every finite sweep range is an engineering coverage choice unless independently bounded; no parameter selected using downstream outcomes"
+    }
+  ],
+  "unknowns": [
+    "source-state scale and origin",
+    "source-to-Stage1 order map",
+    "target composition and cross-driver overlap",
+    "direct and total transfer sign outside observed acute protocol",
+    "monotonicity and operating range",
+    "gain",
+    "responder selection/detection probability",
+    "latency",
+    "kernel and observation filters",
+    "saturation and lower slope bound",
+    "conditioning-dependent gain versus input change",
+    "latent alternative-input contribution",
+    "voltage-to-downstream observation mapping"
+  ],
+  "minimum_information": [
+    "precise resolution and neural estimand",
+    "explicit observation domain with units and known support",
+    "declared identity/state/exclusion/observation bridges",
+    "admissible transfer families with null/opposite-sign alternatives",
+    "evidence-bounded versus assumed parameters separated",
+    "criterion stated as conditional or invariant before outputs are examined"
+  ],
+  "governance": [
+    "Freeze evidence hashes, estimand, model-family definitions and bridge assumptions before downstream results are accessible.",
+    "Keep parameter-choice personnel/process blind to downstream result values; freeze code/config hashes before unblinding.",
+    "If new measurement fitting becomes authorized, fit only independent physiological observations and keep Stage1/Stage5 outputs inaccessible to that process.",
+    "Predeclare family partitions and handling of unbounded nuisance ranges; do not call a finite arbitrary grid full-family coverage.",
+    "Retain all branches, failures and nulls; report conditional identification sets instead of choosing the branch with strongest output.",
+    "Any new evidence that removes a branch requires separately versioned review, not a post-outcome adjustment."
+  ],
+  "full_family_invariants": [
+    "frozen upstream model difference remains an upstream fact",
+    "observed domain-specific summaries are retained",
+    "no guaranteed nonzero signed downstream effect follows"
+  ],
+  "conditional_invariants": [
+    "Strictly increasing source recoding preserves the order of the same scalar.",
+    "A fixed nonincreasing target map reverses weak order, possibly to equality; strict change requires responsiveness and non-flat range.",
+    "Any downstream claim must hold for every admissible nuisance/bridge choice in the declared subfamily, or be reported as conditional/partially identified."
+  ],
+  "uninterpretable_if": [
+    "unknown gain/time constant taken from Stage1",
+    "4/17 used as universal cell-type/root responsiveness",
+    "calcium/spikes/model rates converted to mV without an observation map",
+    "cross-driver records joined by row order",
+    "only nonzero negative-transfer branches retained without declaring this assumption",
+    "effect-positive parameters selected after unblinding",
+    "monotone transfer sign presented as discovered sign",
+    "finite sensitivity grid presented as full admissible-family robustness",
+    "behavioral controls or recall mediation limitations erased"
+  ],
+  "no_positive_biological_result_guaranteed": true,
+  "new_biological_capabilities": [],
+  "physical_parameters_fitted": []
+}

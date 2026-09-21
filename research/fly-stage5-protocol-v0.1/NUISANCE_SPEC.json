@@ -1,0 +1,10 @@
+{
+  "definition": "ν = z_condition − z_reference, an unidentified abstract nuisance contrast; not an anatomical neuron or injected current.",
+  "full_domain": "all finite real ν for each marginal contrast; no finite evidence-derived bound",
+  "shared_state_consistency": "z is indexed by run/cue/source state. Contrasts sharing a state share that latent value. Marginal sign sets do not assert every Cartesian-product sign combination is jointly realizable.",
+  "matched_context_restriction": "ν=0 because the two counterfactual terms hold nuisance equal, not because biology has zero alternative input",
+  "learning_dependent_nuisance_retained": true,
+  "full_family_source_dependence_not_identified": true,
+  "nuisance_fit": false,
+  "unit": "abstract dimensionless output coordinate; no mV interpretation"
+}

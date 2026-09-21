@@ -1,0 +1,41 @@
+{
+  "classification": "DISPOSABLE LOCAL FIXTURE; NOT CANONICAL; NOT A PRODUCTION THROUGHPUT BENCHMARK",
+  "cycles": 100,
+  "counts": {
+    "decisions": "107",
+    "episodes": "100",
+    "events": "101",
+    "consumed": "100",
+    "committed": "100",
+    "max_depth": 9,
+    "duplicate_decisions": "0",
+    "duplicate_events": "0",
+    "life_bytes": 35561,
+    "archive_json_bytes": "218703",
+    "event_row_bytes": "123208",
+    "decision_row_bytes": "1746737"
+  },
+  "averageContextBytes": 10897.45,
+  "maxContextBytes": 11143,
+  "maxSelectedMemoryItems": 2,
+  "artifactVersions": 11,
+  "oldArtifactRecalled": true,
+  "idleTicks": 10,
+  "resources": {
+    "scopeClaims": 100,
+    "windowClaims": 100,
+    "active": 0,
+    "failures": 0,
+    "ambiguous": 0,
+    "reservedMicros": 0,
+    "committedMicros": 0,
+    "unresolvedProviderAttempts": 0
+  },
+  "wallMilliseconds": 13053,
+  "providerCalls": 0,
+  "walletActions": 0,
+  "externalCommunications": 0,
+  "biologicalAdvancement": false,
+  "duplicateEnqueuesRefused": 10,
+  "budgetBlockedPendingEvents": 1
+}

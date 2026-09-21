@@ -1,0 +1,238 @@
+{
+  "baseline": "outputs/lease-contract-pass/source-before.json",
+  "changedBaselineFiles": {
+    "runtime/CONTINUOUS_INSTALLATION.md": {
+      "before": "6e5a2012026b10cfbe8d1cda2c2dd83a3d0735cbdef5be96d79a2d3069ca2d10",
+      "after": "aafdb8ffc0fc32fadde3e25391eb8ef20f1e5caf5b212f2c9c749b07019961e7"
+    },
+    "runtime/continuous-schema.sql": {
+      "before": "c012de17227776fcf415e22e26c3048cbd1454fd5cb91a8465e53fdb8cc8b556",
+      "after": "2290cd1aebf4371fbbf942dff022479d8f5e5a8f38d584f368576b56727d41ba"
+    },
+    "runtime/deployment/catalog-installed.json": {
+      "before": "8ae422024d3960d8c54885403dae4603904c1f24b826ade2c1eb0b7df99eb1de",
+      "after": "7daac97a25634ad91d651469f58fc61f761fd6b5b55f73e16d6d312559c6dd23"
+    },
+    "runtime/deployment/roles.sql": {
+      "before": "e7fd6b536adf8e8609ba2f7af003d4c629cbfc7d9c6913723a2115c173cda796",
+      "after": "d4b644560e8df94c4c0f2b86a185688fb6f9512fddbfce204e53ee875f966787"
+    },
+    "runtime/deployment/schema.ts": {
+      "before": "23ea0b71656ab3f0a008ed50a5d91cb0902aab64ca5e3d3167d256d0c79bb824",
+      "after": "e728ba1d57f60149c114141a50a5b7de6e29110a173f0c8cad6509f726bf8c4b"
+    },
+    "runtime/operator-role-grants.sql": {
+      "before": "703009efe2522fbaea121a82702e01e25066c3cfd7b66dd1817b22a39a473524",
+      "after": "d1c194da6018d88c27c4c2ffe48781e950399b79f6f4a7f93974b9f7bcc64106"
+    },
+    "runtime/operator-schema-v1.sql": {
+      "before": "0f5e594a500c49d5eaeaf53be9fd7393f5c088e6d74ca9057c3ed4d26381b58c",
+      "after": "7283848f8dd7a7ee35118c811d8f8f2f49cdf8e7234239cefe91f57df5101f04"
+    },
+    "server/commit-v2.ts": {
+      "before": "59627776edf4e7eafc81a993d9b1125cd393ec2e5ab1fd4baef6b94708951629",
+      "after": "60669b7b65523b56139ad7dc080acede92dbd2c3047930e0f6e93720e5d84d4f"
+    },
+    "server/continuous-authority.ts": {
+      "before": "2880dd043881ca7c4aa58e64733c630bdcb675d02a7e04e0113a86cbb478949b",
+      "after": "8d21bd186702d33014b3aa38698197dcd5fad2d143c7e854f8af42c1272cc611"
+    },
+    "server/continuous-spec.ts": {
+      "before": "4266a82b5d6b5cabe5ec227f367775a284cd215a9867a5ddcb1d91ef49797fd5",
+      "after": "6538729c4c543de136cf2e93cce56011c154c9763aad3277f39684f6c785d2e7"
+    },
+    "server/continuous-worker.ts": {
+      "before": "7faa6105313646a37de406372f8d8cae89838005bcd717a3d18cd5ac85e06aae",
+      "after": "ddb0c63c03301046af6b685680491cfbe6ac7a86976699f52ff6c98b34d2a10f"
+    },
+    "server/continuous.ts": {
+      "before": "dc97e863c95258cf6ee613619da33ef237b4e5de5309005b0df958ecbc2593d2",
+      "after": "1287f6ca1fe76111ca22e6944de2c1cb36bb7a1c9016e117623dab7e88f67225"
+    },
+    "server/intent-journal.ts": {
+      "before": "7827998722ca40a7dc26c859c3230c7de310cb8f79a31d148c95a0b657523d13",
+      "after": "d49d24504d5f48c69cce5dbd0868e12b5cb5398bf40bf038f3742aa0866b4b64"
+    },
+    "server/one-shot-spec.ts": {
+      "before": "d310a773191eb1ee0b9b7aeaed15883df653d9a012abc712c75a076850aaaffb",
+      "after": "6d66fa667e3440430c94b8369a4e72ee49063799d126196843afbdec04ece01b"
+    },
+    "tests/continuous-life.test.ts": {
+      "before": "ff2d9e3541faa0c8ce814561b8f597ac9235ad2820ccda55f31df2a730a54f45",
+      "after": "47e89b76799203e3e5f6bb96bbaec118555fff5ea8974bd57bb4cbc85d0e0afc"
+    },
+    "tests/deployment-preparation.test.ts": {
+      "before": "7ab82d05083d841066ffb69384e7a931c9d34c1218b80bf2223b388a0b13d13c",
+      "after": "c013ddd4e1fdb72be011f574abd89e1fad1165a0652a552acb02dc14772f21b7"
+    },
+    "tests/operator-control.test.ts": {
+      "before": "44d1cfc94d78844bee224751b514a60f4da118d5456e989b490faed8ac117056",
+      "after": "a1502cb9c889e8edc9f057e2af04db5b065f162e90ae7b59928a45dab52ee693"
+    },
+    "tests/short-lease-recovery.test.ts": {
+      "before": "31b2b0bd2fa53e448ff74bece172338fac2720e3b27ed31bb5d304ff2d6f892e",
+      "after": "9e8680b52cc4d4df2018b970f0ab9c167c7226f2f079c2adb6561fa5ed0779aa"
+    },
+    "tests/support/continuous-crash.ts": {
+      "before": "c31d82c1ef723aa5d45dd85598ee35aade8f3514b1204bc85a086394097606da",
+      "after": "4754d6678c24d3f87c5ad7395dc0ec2f507241da9ceca628c51bb5d2eeeb1c95"
+    },
+    "tests/support/deployment-restore.ts": {
+      "before": "c9604c8ea37ff91e87a3f6fa957146cf94b9980c4e0772f9b08f5f16a0d89410",
+      "after": "0b3250505d55a0c7dff324b3f40af653cbf83512c50483fec60856c17d582373"
+    }
+  },
+  "newFilesInBaselinedDirectories": {
+    "tests/lease-contract.test.ts": "9128586f498e69d18d66b0f09d34c88540630a2a5a18e883c5dfefb13011fb92",
+    "tests/support/lease-tail-fault.ts": "d4d022a8e598968d3e9d20d5d69ce14300edb0cf361adc5c7e87f2ff6aa52b88",
+    "tests/support/lease-clock.ts": "7604fb109f67433a11d45a879c92bade55dd6dbf2ff8675e658fd0d08abcabb7"
+  },
+  "supportScriptsCurrentHashes": {
+    "scripts/deployment-observer-fixture.ts": "1fd4288ddec5a802eb80172b2e04129d9b1fb5132ad1416fba5712b58236370e",
+    "scripts/lease-contract-latency.ts": "51c877f49fd1e1aca6fed6bb58097102d5446427303fadd1c42d513d2fc50e66",
+    "scripts/deployment-catalog-fixture.ts": "d620e2501795fd4fe01c77343538e8ff34b03f9cabe9fd88f6a169fc32fa1352"
+  },
+  "allCurrentBaselinedSourceHashes": {
+    "config/first-awakening-event.schema.json": "179acfee77f40c944c003e91d4a85611fb5d88e8dd4d9f95f769ea5e40101b20",
+    "config/first-awakening-v1.json": "3b6acc3a90f9fa38cce27162c8e7d6275402367b98f6c19334d98462af5461e7",
+    "config/first-awakening-v1.proposed.json": "223d65c598b2ddbcf79a582310f7109817779576e0a3aa545c824759ed9f8510",
+    "config/provider-admission.pending.json": "6baeba6199612e7dfeab720e5f69312dcb73e038c8b0d939cfe3639e023f2dce",
+    "core/brain/celegans.ts": "0ee044fcd922e4916340a6c7083903a310ae3af7998d07c2eefc910169806fec",
+    "core/contracts.ts": "c9c524783d248e13de776768e7c754d473f26bb339e6329a55877cf670d15756",
+    "core/economy/adapters.ts": "1ff8db7e0903b1535b5b8d623eedce9bdd51d975746a74e288f3c0f318c7179a",
+    "core/identity.ts": "d8214c8b6e33f951670be7e2b0e3c7c151b869f44656c8149e718a96b9f5a6d0",
+    "core/life.ts": "4dd6d25c5da0b79f1a03b14278d1e0de7c2d7b3cc8ef6a78b81562b9bc5352b3",
+    "core/planner.ts": "d09276522a1e4af39e0462d3d782022d01a7a0f6723bc4f3d33c644183b2a155",
+    "core/policy.ts": "e6498d4940c9906bb19c707a752791179be6f664b6922f0ee871399ae93d92af",
+    "core/sensory.ts": "24541748f33751eb9e5c7230fd8e8041a015db75698544018509fb5d4814ff07",
+    "core/v2/biology.ts": "72588cb3f1244c91c54894bb3ae06f5d446b456d04109ca34a72e554b72c51df",
+    "core/v2/context.ts": "a65bf5b2906fc61539b1bc96af08da5677aff95d5afb3e06d2656f5c16e53df4",
+    "core/v2/continuous.ts": "e0848ada3899fc5d7b4731fc6f39723f42561936a91ceb54290abc51525f1390",
+    "core/v2/contracts.ts": "3b9b5371a9a55149ee9614db39488d4eadeba4fd916c25a91f0ffc14661a02d3",
+    "core/v2/cycle.ts": "1955eb04e481de90288ff20c12098e6a15f96040fc620df4f99a053c62e01664",
+    "core/v2/disclosure.ts": "1e8d159d23c7d2d7ec4ef2a4729b5fda653f5f8b974e1f0222063d1c020e5e5b",
+    "core/v2/identity.ts": "efb7ecb200a6314e97a5015bf880878d933e786d195d5dfc7ea348d62298d178",
+    "core/v2/intents.ts": "50e2966d443536da44d3cf2da04919a1a5e56ab55cdb25772dd51b5e068d28cc",
+    "core/v2/life-state.ts": "47d9823b1c2f953b7cfe79c6f3476af70d90095c568c97d77527aee338f08ad6",
+    "core/v2/memory.ts": "19395b183b0b0ad713bb810930e00da8b434a3037b2c395e420875d407aca52c",
+    "core/v2/operational-context.ts": "63afbf319bfcc8e15c5b3d63b390d498e90ca5809082f2e23eed47ef1ccc6f90",
+    "core/v2/operations.ts": "1cdfd4537cfb9e5fa495c616ed0c416d008d5bec32bbd43c9c5fb0fa9d05d1cf",
+    "core/v2/planner.ts": "7f1218d81bb85cc113f126d2f6b31ba951a65cac8f1f72715270218b1c9275a5",
+    "core/v2/policy.ts": "9785bf0558111439130e4b4bf12ca20e45e87cbe8d1c7d010bdce521a23e49f0",
+    "core/v2/public.ts": "02f8038c1fb7381fb0dbd1547b24356623ee606c783290b27db7a4ae031d2027",
+    "core/wallet.ts": "1c48e0834c6f4966ed4a69b51490d98eaabcd1a710223f7980b6fafcd88d1633",
+    "runtime/AWAKENING_RUNBOOK.md": "f298e44e2a9ec12ac7dfcb823675da00f361f1635f1f8a53db65e4ed1a1bd210",
+    "runtime/CONTINUOUS_INSTALLATION.md": "aafdb8ffc0fc32fadde3e25391eb8ef20f1e5caf5b212f2c9c749b07019961e7",
+    "runtime/ENVIRONMENT.md": "1c8bdeeb97131a18b42846c331d5d72f66c31279a25c715b11fe1f5376b8e218",
+    "runtime/OPERATOR_CONTROL.md": "35b0a9dff217ab3473ff78222e8f473bba2f3176c91fe34aa51cf75ff6491e41",
+    "runtime/PRODUCTION_INSTALLATION.md": "80f6c07477d19d4d9b5b687961f9cd56859b2f37806d6e2fc605cbf8b29584e4",
+    "runtime/PROVIDER_INTEGRATION.md": "56e36cdfb10542ba319a1cd9d1f199be0aad403ced3be78d6d1c6f6eec8127d3",
+    "runtime/RECOVERY_RUNBOOK.md": "3f25c1270571f4be896ffb9e0aeaff732c880bda2c542b9a79728c5e499ead4d",
+    "runtime/config.ts": "0c58e38586adfacb41baea18ced2784c07af7d38bb72784d68f7435790775ec0",
+    "runtime/continuous-schema.sql": "2290cd1aebf4371fbbf942dff022479d8f5e5a8f38d584f368576b56727d41ba",
+    "runtime/deployment/catalog-baseline.json": "073456dee7b3fd8f94497ca6caf91a15d644eee17faa353f6a64c156b9dc08a6",
+    "runtime/deployment/catalog-installed.json": "7daac97a25634ad91d651469f58fc61f761fd6b5b55f73e16d6d312559c6dd23",
+    "runtime/deployment/config.ts": "8a633a2b039edc4da563222a9a35027517a16a51de60c1aa3ba2637c6bf14349",
+    "runtime/deployment/consumer-cli.ts": "88b0edfb54789433785d031c7ca7978c055cd9205772d38c4ef2ca815fe9515b",
+    "runtime/deployment/consumer.ts": "e6ad69ce1250380bf9f1db4715d00b50c26729cc4b518a88d1f6daa3171acd3a",
+    "runtime/deployment/http-server.ts": "6fa1bbee12ed7425ffd259314f753ce7a1d50ac97456ef3b79a262ce02fa4154",
+    "runtime/deployment/install.ts": "9f12800d8883e5c34266ee1baa8c82b64be3049c691e4b51a53ffc357f9c3dac",
+    "runtime/deployment/installer-cli.ts": "46370387e9efcc48cf9f099d786c53e97de50447b5d8d321047ccaec52513389",
+    "runtime/deployment/log.ts": "f925d9958328d2007f0b6b8f112fc6ade0b93730b9f06d53e680a230ef834c06",
+    "runtime/deployment/readiness.ts": "4611f903e3147f5f770fda42266dcfde5313b6fb5751690abd73a5d3b0b8905f",
+    "runtime/deployment/release.sql": "9dee39fb4298c0cc22dec744a28b185c87c83b51caa8fbdb74897c0b63b4527c",
+    "runtime/deployment/roles.sql": "d4b644560e8df94c4c0f2b86a185688fb6f9512fddbfce204e53ee875f966787",
+    "runtime/deployment/schema.ts": "e728ba1d57f60149c114141a50a5b7de6e29110a173f0c8cad6509f726bf8c4b",
+    "runtime/http.ts": "eae6aa5d93e0d0eee605b4937db2b0c0d1cf7bade23acc52a0efa9bfddeba280",
+    "runtime/main.ts": "70d560b8e7b29b30bca2107694e6cb9cd52d39f3580d7c2d5ee774e3e3f53390",
+    "runtime/migrate-v1.ts": "687d59ce89d24fa472aef47a80741a37e299ac57b3ef6874ceecd911cd5de1ff",
+    "runtime/migrate.ts": "23d52f194b9495102f0c7039b494c0a5b912ca021588a0ceba3ebc408825e7ba",
+    "runtime/migrations/001_genesis.sql": "9687317a84bbe5ee70b7f7e79f59800ccc5e269c3cffae8bcec32376a45a85e7",
+    "runtime/migrations/002_observations.sql": "0a27ad7aeb7e1997b3b1858ebec09183377412b2ee93e39193e41df3eec16512",
+    "runtime/migrations/003_runtime_v1.sql": "634da03cc27cebad2de2d2797dc79b2af6b69d3e060bdf07f10c45dccec098c8",
+    "runtime/one-shot-schema.sql": "9aef075d03c56cfb1f3e6eb31c620b1bbfe2226bb4d4fc742418473bc53a38ce",
+    "runtime/operator-cli.ts": "9cd482df1d9ef1238329fac8808f19bf01c8c511d6598fe2654d3c5cf9ed8631",
+    "runtime/operator-role-grants.sql": "d1c194da6018d88c27c4c2ffe48781e950399b79f6f4a7f93974b9f7bcc64106",
+    "runtime/operator-schema-v1.sql": "7283848f8dd7a7ee35118c811d8f8f2f49cdf8e7234239cefe91f57df5101f04",
+    "runtime/preparation-schema.sql": "301b2d634a0b0f31fa7220b7082847027b17ba3fc5a340fc1b1cbd02012c0a71",
+    "runtime/provider-integration-schema.sql": "50b8de821eafe07cb5b185e2440627199798d11a1f94dc76a1dc435eefd718ea",
+    "runtime/provider-role-grants.sql": "775547e5b7eb658f662fb74c486a7e17158917d89d527809d2b9de6d78ea4407",
+    "runtime/provider-smoke.ts": "0fdded2fb8a7fb52e55e8f81458567a64359cc58176cd0949fd4d40edbffa2cb",
+    "runtime/scheduler.ts": "67f052c0e29103530951b216834a3196d001eec547264a80bd3fae2a719e96f4",
+    "runtime/service.ts": "05045b1eebce753d7356f81c4876b764ff6a58f7bab9e87a426ecf7b060dd2a3",
+    "runtime/wallet-observer.ts": "6a424e46d9c279c7bd8b5b0a3060ea8def12de2a0852cc9b82dc207720706de2",
+    "server/assistance-intake.ts": "a9a52e59451791639bd28e7c8d3d6ddd9c27dc5f7a8e96fc593f097e9893cac7",
+    "server/awakening-event.ts": "0f59ca8f4c882daec4fedad4e0feac5c7823e9d0aad7ab7a4b24cfdb2ffdc7da",
+    "server/commit-v2.ts": "60669b7b65523b56139ad7dc080acede92dbd2c3047930e0f6e93720e5d84d4f",
+    "server/continuous-authority.ts": "8d21bd186702d33014b3aa38698197dcd5fad2d143c7e854f8af42c1272cc611",
+    "server/continuous-spec.ts": "6538729c4c543de136cf2e93cce56011c154c9763aad3277f39684f6c785d2e7",
+    "server/continuous-worker.ts": "ddb0c63c03301046af6b685680491cfbe6ac7a86976699f52ff6c98b34d2a10f",
+    "server/continuous.ts": "1287f6ca1fe76111ca22e6944de2c1cb36bb7a1c9016e117623dab7e88f67225",
+    "server/cycle-inspection.ts": "bbc679f64e5fa4b0e1da7014886ff33cf1756fbfc48989084963dbb89aec6b0c",
+    "server/disclosure-store.ts": "333e3c70a48c29eaf77c6f684a49537054ba5a6b784df9aa85fa3f779e0f4ded",
+    "server/first-context-inspection.ts": "b3d0196084a91493612d4a66d08f20b23fc11321e69551b099f769876f2afcc2",
+    "server/intent-journal.ts": "d49d24504d5f48c69cce5dbd0868e12b5cb5398bf40bf038f3742aa0866b4b64",
+    "server/isolated-cycle.ts": "219a56cf4773cf98511efcc162f1e1d807701916d8e01069cb4d6695efdbe854",
+    "server/life-store-v1.ts": "cfe157044c53048a98bd2d8b1973a28aa62b68f59b3a21c132b985d5a8ada20c",
+    "server/memory-store.ts": "5ab90497c510790ee3943abd7ac24ac23a87164814221db6fd741be0aa67b381",
+    "server/observation-read.ts": "9c68fd2f81045bf47dcabc030db1a04ec87057be94cf31d1fb2b8e20a6c5aa08",
+    "server/one-shot-authority.ts": "30f5503fa8effe5ea53e2a381b4663c215064e325bf8fa09831a09d2d75eef72",
+    "server/one-shot-spec.ts": "6d66fa667e3440430c94b8369a4e72ee49063799d126196843afbdec04ece01b",
+    "server/one-shot.ts": "e2cdf37cda3552264f4c1ed13ca4b23476fdd05b91c6251c4ead5c5f9a8f1dba",
+    "server/operator-auth.ts": "7bd4ab23ea91fb11fbee47fedcc331fbe29150686465edbdd7d2599f778cc928",
+    "server/operator-control.ts": "a1619ea0bf6d1d8923f0d19a94f791cf6dd13101020a0dd5c6b26d91d8c1a7e2",
+    "server/operator-transaction.ts": "65a42240414c741ca1e2b283a3b89388a783f110d5d433bf71a15b3d6fc138c3",
+    "server/provider-admission.ts": "2b72f64271cae4fd5c8ab2332b36aac7193d53a442679d2b47961c3ebad6b811",
+    "server/provider-control.ts": "67456d57bbbc866593f83227c004a28d23fc6050dc2f398c49b454a2d6e5fb79",
+    "server/provider-disclosure.ts": "9ed68be9f977a677632fbbf43fb5bd81c2a390f9a179b668d365ba84f7c26d17",
+    "server/reasoning/contracts.ts": "8f83d323cfc6df77429dd8c1b30a7e4cae257568505bdb80450693633cee7033",
+    "server/reasoning/control.ts": "52fe788c5f8eb0942c57c4c85cb5a511a682bbdd7843d25f148adec1225ebf25",
+    "server/reasoning/factory.ts": "27f5348ab0ed0184ac7aa6c6787232ce7f2b4da8c68c7df290d00ad0f24e2558",
+    "server/reasoning/inspection.ts": "ec44ed18beb4e2bfda71dc5b46abc2e0bc83d0f04496fba70ac9fc5605f100cd",
+    "server/reasoning/request.ts": "6487a3cd45a18fc84d7bd0c60e9c9eefcecc3c488c01509e94819ecc6084ba13",
+    "server/reasoning/store.ts": "83e76b8a69756b3891e562c247184e8f05b8fbe4489d4e2f42694bed6f63d7fb",
+    "server/runtime.ts": "098c25fc5d17977845201301434f3a6f4998897333964b138a74c7b3fb377cc1",
+    "server/saved-provenance.ts": "bc0de426ef99254974a6d133b2093706b4f8cbc0e97696c53bf9732b33e0229e",
+    "server/store.ts": "e223352fe416b83e30b2b0293e3e07f7e85961c919d49ece0e31060535d93e80",
+    "tests/awakening-active.test.ts": "a98e890bb308880d34dd4b24d0d3316128d1b3293866e8c434786aea5ebf6645",
+    "tests/awakening.test.ts": "ba64e91ba177797ba4fc8870df568fdcf8a6b81b83e3472a9b93f1bebfae9a13",
+    "tests/brain.test.ts": "546c29e0716eed3ecccab741a595b5ac7a6ad73ff5c818f4e33b907c50c98c93",
+    "tests/continuous-life.test.ts": "47e89b76799203e3e5f6bb96bbaec118555fff5ea8974bd57bb4cbc85d0e0afc",
+    "tests/deployment-preparation.test.ts": "c013ddd4e1fdb72be011f574abd89e1fad1165a0652a552acb02dc14772f21b7",
+    "tests/deployment-topology.test.ts": "5443fdd88a295287567a954439d38b0c4d42f16e85ae491569097fcab28eebb8",
+    "tests/economy.test.ts": "c3075f63eec5797948ce00afed876ad2f3b98ad7c9bdb3e9d383373e9128d832",
+    "tests/fixtures/genesis-dormant-sanitized.json": "07aad83b28e29cfb16201290b20097fb3c28edab50e789d74d5d8aa0d2559a29",
+    "tests/fixtures/legacy-schema.sql": "b872fcd612bf44b9560eb7c563413f205096ac4920913cc455d404bab6df0648",
+    "tests/fixtures/legacy-store.ts": "b3cb14ac4215f31e28aa7242954f70c31a8977e81a265fa536caea32a4d6fd88",
+    "tests/foundation-repair.test.ts": "6bc315d17817498bae89bd2c7b43518ecc22df3071b4ff1a59d2dcbbbec651f0",
+    "tests/identity.test.ts": "d6cde5514c28d955b383860e7026ea22fecbea325abb1ab92ea7cbd2849a6fd0",
+    "tests/life-state.test.ts": "060c3fa0c90f45644d9cc412dd1827d803b4bedbd3fbc5149133ef9f1d38d6ee",
+    "tests/life.test.ts": "5ec41655d34e6688c26577a8402fdbf40fa438b4bec01d29cda4951de8441708",
+    "tests/memory-retrieval.test.ts": "eac71cce9bf5765ecdf8f6f18a353aaef48a2de3091b14a36fe251bd57ca3ff7",
+    "tests/observer-presentation.test.ts": "920c75f0c3c71b7d749c1ab942899eef332fc68dd2ea50127d0083a936cff153",
+    "tests/one-shot.test.ts": "141fa2d25ffed93e959c6da7f39c3cb8306241d3ec27b14d457a2cac3b560272",
+    "tests/operator-control.test.ts": "a1502cb9c889e8edc9f057e2af04db5b065f162e90ae7b59928a45dab52ee693",
+    "tests/planner.test.ts": "f7d546f3cd76349098812c01d29a688497b55cfccec8a890d30bdee4f03996a0",
+    "tests/postgres.test.ts": "48e9c6141ce1dd069281d7872faf7fea990386671600bbd49500b51ea9e75a53",
+    "tests/provider-integration.test.ts": "0ec1198f6736a4328c01fc89ad3cc96d76c2b4c540ac80b7bc305a9c3fff3ca2",
+    "tests/runtime-v1.test.ts": "4624012070c6e78e36f692b9c653b08e589e6f070fbec35ab3243563e80eedf7",
+    "tests/short-lease-recovery.test.ts": "9e8680b52cc4d4df2018b970f0ab9c167c7226f2f079c2adb6561fa5ed0779aa",
+    "tests/store.test.ts": "b5c81e1889427f92e0e6b669ff1cd3bd91b038f004e9fd90aaa076b0ebd4f7f6",
+    "tests/support/active-fixture.ts": "8e7ceedf7f15db7ff9b2e6108ffb2a1bdaca8d59ffe5de36a4d2e904b222d381",
+    "tests/support/continuous-crash.ts": "4754d6678c24d3f87c5ad7395dc0ec2f507241da9ceca628c51bb5d2eeeb1c95",
+    "tests/support/continuous-fixture.ts": "3b416f2bdb910fe8b5043011c7ca19a1f01c9fdbb033ad611c180de5ffcef505",
+    "tests/support/continuous-long-run.ts": "9dc44cf900ed0105631eae7deda072fa451e48f38fd23e0bc73e113c0553e240",
+    "tests/support/crash-worker.ts": "67be5a21d7ef919f14963d8bdc39325c406f0c34166cd325b032ee88890c942d",
+    "tests/support/deployment-fixture.ts": "e8b534463a492b23b044052a5f08b58e7f84a45d7e9056685a39b5dec40053b0",
+    "tests/support/deployment-restore.ts": "0b3250505d55a0c7dff324b3f40af653cbf83512c50483fec60856c17d582373",
+    "tests/support/observer-fixture.ts": "c071a1ccff17335097b04edebdd0e4848939194701531b4f6a38bc47af5a3ff2",
+    "tests/support/one-shot-crash.ts": "eab050e9308ae8f77f32421e9e472ed05728a2f4c01a01136b1b1ce0be12d0b6",
+    "tests/support/one-shot-fixture.ts": "ab5d9692ba0c1a2d7b154647ee492f1a59622aa6e0951543a553c89ab59a4744",
+    "tests/support/one-shot-observer-fixture.ts": "96b4786e8a373831889127a85211c39c233fbfb146395285442d463ab310ea83",
+    "tests/support/reasoning-fixture.ts": "ae4d628cba3867275ed7e5ad3a60496d3e6ef479d87a38be2a4ac9d6ec1a2b0b",
+    "tests/support/reasoning-replay-child.ts": "adfb1d64d968f121110f08dd2cd131db157b5f4132accdf66b6d3a8ebb3a4c1e",
+    "tests/support/short-lease-instrumentation.mjs": "943cbffb0d31f8dcef774e76c0d17c06d10f5cd69ee2fb6a0ec73817eb469590"
+  },
+  "historicalEvidenceUnchanged": true,
+  "historicalEvidenceFileCount": 158
+}

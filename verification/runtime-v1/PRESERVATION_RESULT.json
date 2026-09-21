@@ -1,0 +1,32 @@
+{
+  "beforeDatabaseDigest": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "afterDatabaseDigest": "4c5f33972c6212a24fe5386b9c5c499df94ddbfebd2a26639333566604e56220",
+  "originalRowComparisons": {
+    "genesis_decisions": true,
+    "genesis_external_observations": true,
+    "genesis_ledger": true,
+    "genesis_memories": true,
+    "genesis_migrations": true,
+    "genesis_milestones": true,
+    "genesis_organisms": true,
+    "genesis_projects": true,
+    "genesis_schedule": true
+  },
+  "allOriginalRowsPreserved": true,
+  "idUnchanged": true,
+  "birthUnchanged": true,
+  "brainSnapshotUnchanged": true,
+  "cycles": 7,
+  "decisions": 7,
+  "scheduleUnchanged": true,
+  "scheduleEnabled": false,
+  "executionLock": "CLOSED",
+  "walletIdentity": "unresolved",
+  "newRows": {
+    "lifeState": 1,
+    "administrativeEvents": 1,
+    "actionIntents": 0,
+    "schemaMigrations": 1
+  },
+  "otherClientSessions": 0
+}

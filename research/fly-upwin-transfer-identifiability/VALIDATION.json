@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "tests": 19,
+  "protected_files": 9147,
+  "protected_files_changed": 0,
+  "test_log_sha256": "20636146dcf7664f5f50877a91a04d29197edb3749fb4532bc2f0d49889e44f5",
+  "canonical_before_equals_after": true,
+  "canonical_cycles": 7,
+  "schedule_enabled": false,
+  "canonical_sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "neural_simulations": 0,
+  "stage1_runs": 0,
+  "physiological_parameter_fits": 0,
+  "new_literature_sources": 0,
+  "stage5_authorized": false,
+  "adversarial_categories": [
+    "parameter/sign promotion",
+    "unknown-to-zero conversion",
+    "unit leakage",
+    "cross-population joining",
+    "removal of null/reversed branches",
+    "Stage5 activation"
+  ],
+  "seal_integrity": "Post-seal read-only validation includes test_19; do not redirect its output into sealed files."
+}

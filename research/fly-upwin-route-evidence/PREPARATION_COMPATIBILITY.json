@@ -1,0 +1,311 @@
+{
+  "preparations": [
+    {
+      "id": "stage1",
+      "measurement": "dimensionless model rates/plastic efficacy",
+      "animal_id": null,
+      "driver": null,
+      "preparation": "frozen artificial cue/PAM input, scalar model with declared normalized contacts",
+      "units": "model-specific",
+      "source": "../genesis-brain-spec-v0.2/STAGE5_READINESS.md"
+    },
+    {
+      "id": "connectome",
+      "measurement": "chemical contacts / neuropil aggregate rows",
+      "animal_id": "single FAFB adult female specimen; not physiological animals",
+      "driver": null,
+      "preparation": "fixed EM v783, annotations v3.1.0; hemibrain distinct specimen",
+      "units": "contacts",
+      "source": "ANATOMY_AUDIT.json"
+    },
+    {
+      "id": "alpha1_stimulation",
+      "measurement": "UpWiN baseline-subtracted somatic voltage",
+      "animal_id": null,
+      "cell_id": null,
+      "driver": "MB310C>Chrimson88-tdTomato; R64A11-LexA target",
+      "preparation": "in-vivo current clamp; 48–72 h retinal; female per general methods; held near -60 mV with typically <10 pA bias",
+      "units": "mV",
+      "sampling_hz": 10000,
+      "filter_hz": 5000,
+      "stimulus": "625 nm 17 mW/mm²; 10 ms pulse",
+      "baseline_window": null,
+      "source": "85756 Fig4B, Methods and genotype table; source-data2"
+    },
+    {
+      "id": "upwin_population",
+      "measurement": "population GCaMP6s fluorescence, dendrite/axon junction",
+      "animal_id": null,
+      "cell_id": null,
+      "driver": "R64A11-LexA target; G0239 and/or MB310C stimulation",
+      "preparation": "dissected female brain 3–7 d, 20 C, 2 mM external calcium",
+      "units": "deltaF/F",
+      "sampling_hz_method_approx": 1.07,
+      "export_grid_seconds": 1,
+      "stimulus": "660 nm 12 µW/mm²; 1 s, nine trials at 30 s intervals",
+      "baseline": "background subtracted; preceding 5 s baseline F",
+      "source": "85756 Fig4C; mean/SEM only, not per-animal data"
+    },
+    {
+      "id": "conditioning_recall",
+      "measurement": "UpWiN subthreshold odor-evoked voltage",
+      "animal_id": null,
+      "cell_id": null,
+      "driver": "SS67249 GFP; R58E02-LexA ChrimsonR broad reward DANs incl alpha1/beta1",
+      "preparation": "in-vivo whole-cell 48–72 h; holding near -60 mV; 1% headspace air dilution",
+      "units": "baseline-subtracted mV, 0–1.2 s mean",
+      "sampling_hz": 10000,
+      "stimulus": "1 min paired odor, 120 1 ms pulses at 2 Hz; reciprocal OCT/MCH; 1 s recall odors",
+      "baseline_window": null,
+      "source": "85756 Fig5 and supplement2; complete within-row scalar pairing; no stable external animal IDs"
+    },
+    {
+      "id": "behavior",
+      "measurement": "wind-relative orientation, turning, walking speed, area-normalized radial displacement; other endpoints separately labeled",
+      "animal_id": null,
+      "driver": "SS33917/SS33918 activation; figure-specific DAN drivers for Fig1",
+      "preparation": "intact adult females 4–10 d; fed vs 40–48 h starved; four-arm arena; wind and arista controls",
+      "units": [
+        "degrees",
+        "degrees/s",
+        "mm/s",
+        "dimensionless delta(r/50mm)^2",
+        "cosine"
+      ],
+      "sampling_hz_video": 30,
+      "source": "85756 Fig1/6 with supplements; trial/trajectory summaries and movie locators, not complete tracked XY streams"
+    },
+    {
+      "id": "causal_interventions",
+      "measurement": "TNT upwind response; shibire binary odor distribution at 25/32 C; optogenetic kinematics",
+      "animal_id": null,
+      "driver": "SS33917 TNT/shibire; SS33917/SS33918 CsChrimson",
+      "preparation": "whole-fly behavior; sugar conditioning 1-day recall for Fig7; controls differ by assay",
+      "units": "published assay-specific quantities",
+      "source": "85756 Fig6/7; shibire upwind endpoint unavailable at restrictive temperature"
+    },
+    {
+      "id": "alpha1_conditioning_external",
+      "measurement": "MBON-alpha1 odor-evoked spikes",
+      "animal_id": null,
+      "cell_id": null,
+      "driver": "MB319C mScarlet; PAM-alpha1 MB043-split-LexA ChrimsonR",
+      "preparation": "79042 in-vivo 48–72 h retinal, near -60 mV typically <100 pA; 2% headspace for non-second-order experiment",
+      "units": "baseline-subtracted odor-evoked spike count over 1.2 s; separate mean instantaneous rate has 50 ms Gaussian smoothing",
+      "source": "79042 Fig3 supplement2, acquired original zip, not the 85756 UpWiN voltage preparation"
+    }
+  ],
+  "bridges": [
+    {
+      "from": "stage1",
+      "to": "connectome",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer."
+    },
+    {
+      "from": "stage1",
+      "to": "alpha1_stimulation",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer."
+    },
+    {
+      "from": "stage1",
+      "to": "upwin_population",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer."
+    },
+    {
+      "from": "stage1",
+      "to": "conditioning_recall",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer."
+    },
+    {
+      "from": "stage1",
+      "to": "behavior",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer."
+    },
+    {
+      "from": "stage1",
+      "to": "causal_interventions",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer."
+    },
+    {
+      "from": "stage1",
+      "to": "alpha1_conditioning_external",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical composition is incompatible without an independently identified observation/physiology mapping; conceptual anatomy/plasticity analogy is not a measured transfer."
+    },
+    {
+      "from": "connectome",
+      "to": "alpha1_stimulation",
+      "classification": "TRANSFER REQUIRES ASSUMPTION",
+      "scope": "directly joining the actual measurements",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved."
+    },
+    {
+      "from": "connectome",
+      "to": "upwin_population",
+      "classification": "TRANSFER REQUIRES ASSUMPTION",
+      "scope": "directly joining the actual measurements",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved."
+    },
+    {
+      "from": "connectome",
+      "to": "conditioning_recall",
+      "classification": "TRANSFER REQUIRES ASSUMPTION",
+      "scope": "directly joining the actual measurements",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved."
+    },
+    {
+      "from": "connectome",
+      "to": "behavior",
+      "classification": "TRANSFER REQUIRES ASSUMPTION",
+      "scope": "directly joining the actual measurements",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved."
+    },
+    {
+      "from": "connectome",
+      "to": "causal_interventions",
+      "classification": "TRANSFER REQUIRES ASSUMPTION",
+      "scope": "directly joining the actual measurements",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved."
+    },
+    {
+      "from": "connectome",
+      "to": "alpha1_conditioning_external",
+      "classification": "TRANSFER REQUIRES ASSUMPTION",
+      "scope": "directly joining the actual measurements",
+      "reason": "Distinct fixed female specimen; root-to-recording/driver crosswalk and active physiological state unresolved."
+    },
+    {
+      "from": "alpha1_stimulation",
+      "to": "upwin_population",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured."
+    },
+    {
+      "from": "alpha1_stimulation",
+      "to": "conditioning_recall",
+      "classification": "TRANSFER REQUIRES ASSUMPTION",
+      "scope": "directly joining the actual measurements",
+      "reason": "Similar electrical technique, but broad R64A11 versus stochastic SS67249 cells; no demonstrated same-cell overlap and different stimuli."
+    },
+    {
+      "from": "alpha1_stimulation",
+      "to": "behavior",
+      "classification": "UNKNOWN",
+      "scope": "directly joining the actual measurements",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge."
+    },
+    {
+      "from": "alpha1_stimulation",
+      "to": "causal_interventions",
+      "classification": "UNKNOWN",
+      "scope": "directly joining the actual measurements",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge."
+    },
+    {
+      "from": "alpha1_stimulation",
+      "to": "alpha1_conditioning_external",
+      "classification": "UNKNOWN",
+      "scope": "directly joining the actual measurements",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge."
+    },
+    {
+      "from": "upwin_population",
+      "to": "conditioning_recall",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured."
+    },
+    {
+      "from": "upwin_population",
+      "to": "behavior",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured."
+    },
+    {
+      "from": "upwin_population",
+      "to": "causal_interventions",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured."
+    },
+    {
+      "from": "upwin_population",
+      "to": "alpha1_conditioning_external",
+      "classification": "INCOMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Direct numerical pooling of dissected-brain deltaF/F with voltage/spikes/behavior is invalid; observation conversion and matching local cell population unmeasured."
+    },
+    {
+      "from": "conditioning_recall",
+      "to": "behavior",
+      "classification": "UNKNOWN",
+      "scope": "directly joining the actual measurements",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge."
+    },
+    {
+      "from": "conditioning_recall",
+      "to": "causal_interventions",
+      "classification": "UNKNOWN",
+      "scope": "directly joining the actual measurements",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge."
+    },
+    {
+      "from": "conditioning_recall",
+      "to": "alpha1_conditioning_external",
+      "classification": "TRANSFER REQUIRES ASSUMPTION",
+      "scope": "directly joining the actual measurements",
+      "reason": "Same pairing pulse timing and reciprocal odors, but different DAN drivers (broad58E02 vs PAM-alpha1), odor dilution1% vs2%, electrical bias and source/target cells, spike count vs mV. Not simultaneous or numerically composable."
+    },
+    {
+      "from": "behavior",
+      "to": "causal_interventions",
+      "classification": "DIRECTLY COMPATIBLE",
+      "scope": "directly joining the actual measurements",
+      "reason": "Within the SAME documented figure-specific intact behavioral assay, intervention and control compare the same measured endpoint; this does not join different drivers, temperatures or individual flies."
+    },
+    {
+      "from": "behavior",
+      "to": "alpha1_conditioning_external",
+      "classification": "UNKNOWN",
+      "scope": "directly joining the actual measurements",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge."
+    },
+    {
+      "from": "causal_interventions",
+      "to": "alpha1_conditioning_external",
+      "classification": "UNKNOWN",
+      "scope": "directly joining the actual measurements",
+      "reason": "No same-animal neural/behavioral transfer or compatible individual identities established; observational analogy does not supply a measurement bridge."
+    }
+  ],
+  "within_assay_direct_bridges": [
+    {
+      "from": "Fig5 row pre",
+      "to": "same Fig5 row post",
+      "classification": "DIRECTLY COMPATIBLE",
+      "scope": "four scalar values paired within one source row only"
+    },
+    {
+      "from": "Fig4B alpha1 stimulation",
+      "to": "same current-clamp voltage record",
+      "classification": "DIRECTLY COMPATIBLE",
+      "scope": "recorded broad-driver cell, not assigned root"
+    }
+  ],
+  "composite_pathway_created": false
+}

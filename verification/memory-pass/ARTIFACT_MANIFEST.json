@@ -1,0 +1,21 @@
+{
+  "digestDefinition": "SHA-256 of compact sorted UTF-8 JSON file-hash map; ARTIFACT_MANIFEST.json excluded",
+  "files": {
+    "MEMORY_RETRIEVAL_REPORT.md": "f9879fbd7b222818929e6318b21531318df72737fd3d2ce075f57fc1001a8a04",
+    "build.txt": "4e0956869a8a8a677e546eb31bf802f38b03bc37249278728d517b5b53b38a00",
+    "canonical-after.json": "a3c4e76dfa9d3f5be59e3bf15598cf2155dfab1efa1bb38f6057591344c820c3",
+    "canonical-before.json": "ca38c64e22799c148555c8ce3d991b36af453409b0c9df050a7a65cecd4efc2f",
+    "growth-probe.ts": "9b46616ec1b27b772cda3a9d6a219f7b36374959433e15021ed34d904293a7a1",
+    "growth.json": "a66bb1c974e0669575f1050667af53da01310b39f237d77b7928bf9a462adbd9",
+    "lint.txt": "01a448f5176ec0decb011933eb27354f58d96ad06049f9418f5a112a23b45a6f",
+    "preservation.json": "e664a6631b273202dbde49fc0474a90d532c3c64dba42981c543b039df7424bd",
+    "read-only-diagnostic.mjs": "130ef80e24dc9ace7ac4314afa1b421aabbfbf867ec58299ac7bc5d2c66a8d2a",
+    "seven-memory-diagnostic.json": "dcf8a534634e5fc03cd87d5b032c0f46c38b5a266e23822f4904383736b5e5b1",
+    "source-changes.json": "39c09c8070854c2d12fff9c876d5b0a9765a9cf44c6eed8009fd1e1e92f5c738",
+    "source-hashes.json": "21dc7dbbc145a8e08412dbf932168901021fa81df929be7b67748d1dee6abbd9",
+    "tests.txt": "42ea18be4d1f036e1b0d5185172a474dcfdf802bc7f4cb7dbf6933b9856ea24c",
+    "typecheck.txt": "c3a4984e39ca90092b12f60776cde004ced3e82b73efb8a6f5d01ec01d9617b7",
+    "verification.json": "054655d974d6db22e7fd2adf92095862970bf62a187326542104027984c01fb1"
+  },
+  "contentSha256": "38ab228a1d5c9e1e66d693a730f481ff3aa417e025d8e52676ffc13b1492a067"
+}

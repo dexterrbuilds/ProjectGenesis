@@ -1,0 +1,2 @@
+import {registerHooks} from 'node:module';
+registerHooks({load(url,ctx,next){const r=next(url,ctx);if(!url.endsWith('/scripts/deployment-observer-fixture.ts'))return r;const text=String(r.source);const from='verification/deployment-preparation-pass/OBSERVER_E2E.json';if(!text.includes(from))throw Error('Unknown fixture output path');return {...r,source:text.replace(from,'outputs/short-lease-recovery/OBSERVER_E2E.json')};}});

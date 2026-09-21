@@ -1,0 +1,13 @@
+{
+  "at": "2026-09-20T13:17:17.152Z",
+  "applied": true,
+  "beforeDigest": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "backupVerified": true,
+  "restorationDryRunVerified": true,
+  "possibleMutatingProcesses": 0,
+  "sqlHash": "634da03cc27cebad2de2d2797dc79b2af6b69d3e060bdf07f10c45dccec098c8",
+  "codeHash": "687d59ce89d24fa472aef47a80741a37e299ac57b3ef6874ceecd911cd5de1ff",
+  "originalRowsPreservedInsideTransaction": true,
+  "scheduleEnabled": false,
+  "executionLock": "CLOSED"
+}

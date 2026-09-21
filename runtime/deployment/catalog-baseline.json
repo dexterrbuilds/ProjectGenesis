@@ -1,0 +1,802 @@
+{
+  "relations": [
+    {
+      "relname": "genesis_action_intents",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_decisions",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_external_observations",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_ledger",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_life_events",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_life_state",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_memories",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_migrations",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_milestones",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_organisms",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_projects",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    },
+    {
+      "relname": "genesis_schedule",
+      "relkind": "r",
+      "relpersistence": "p",
+      "relrowsecurity": false,
+      "relforcerowsecurity": false,
+      "reloptions": null
+    }
+  ],
+  "policies": [],
+  "columns": [
+    {
+      "table_name": "genesis_action_intents",
+      "column_name": "id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_action_intents",
+      "column_name": "organism_id",
+      "ordinal_position": 2,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_action_intents",
+      "column_name": "revision",
+      "ordinal_position": 3,
+      "data_type": "bigint",
+      "udt_name": "int8",
+      "is_nullable": "NO",
+      "column_default": "0"
+    },
+    {
+      "table_name": "genesis_action_intents",
+      "column_name": "payload_hash",
+      "ordinal_position": 4,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_action_intents",
+      "column_name": "record",
+      "ordinal_position": 5,
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_decisions",
+      "column_name": "id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_decisions",
+      "column_name": "cycle",
+      "ordinal_position": 2,
+      "data_type": "bigint",
+      "udt_name": "int8",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_decisions",
+      "column_name": "at",
+      "ordinal_position": 3,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_decisions",
+      "column_name": "record",
+      "ordinal_position": 4,
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_external_observations",
+      "column_name": "id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_external_observations",
+      "column_name": "checked_at",
+      "ordinal_position": 2,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_external_observations",
+      "column_name": "record",
+      "ordinal_position": 3,
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_ledger",
+      "column_name": "id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_ledger",
+      "column_name": "at",
+      "ordinal_position": 2,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_ledger",
+      "column_name": "record",
+      "ordinal_position": 3,
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_life_events",
+      "column_name": "id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_life_events",
+      "column_name": "organism_id",
+      "ordinal_position": 2,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_life_events",
+      "column_name": "at",
+      "ordinal_position": 3,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_life_events",
+      "column_name": "record",
+      "ordinal_position": 4,
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_life_state",
+      "column_name": "organism_id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_life_state",
+      "column_name": "schema_version",
+      "ordinal_position": 2,
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_life_state",
+      "column_name": "revision",
+      "ordinal_position": 3,
+      "data_type": "bigint",
+      "udt_name": "int8",
+      "is_nullable": "NO",
+      "column_default": "0"
+    },
+    {
+      "table_name": "genesis_life_state",
+      "column_name": "record",
+      "ordinal_position": 4,
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_memories",
+      "column_name": "id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_memories",
+      "column_name": "decision_id",
+      "ordinal_position": 2,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_memories",
+      "column_name": "at",
+      "ordinal_position": 3,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_memories",
+      "column_name": "record",
+      "ordinal_position": 4,
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_migrations",
+      "column_name": "version",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_migrations",
+      "column_name": "applied_at",
+      "ordinal_position": 2,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "genesis_milestones",
+      "column_name": "id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_milestones",
+      "column_name": "at",
+      "ordinal_position": 2,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_milestones",
+      "column_name": "record",
+      "ordinal_position": 3,
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_organisms",
+      "column_name": "id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_organisms",
+      "column_name": "state",
+      "ordinal_position": 2,
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_organisms",
+      "column_name": "revision",
+      "ordinal_position": 3,
+      "data_type": "bigint",
+      "udt_name": "int8",
+      "is_nullable": "NO",
+      "column_default": "0"
+    },
+    {
+      "table_name": "genesis_organisms",
+      "column_name": "lease",
+      "ordinal_position": 4,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_organisms",
+      "column_name": "lease_until",
+      "ordinal_position": 5,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "'-infinity'::timestamp with time zone"
+    },
+    {
+      "table_name": "genesis_organisms",
+      "column_name": "phase",
+      "ordinal_position": 6,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'idle'::text"
+    },
+    {
+      "table_name": "genesis_projects",
+      "column_name": "id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_projects",
+      "column_name": "record",
+      "ordinal_position": 2,
+      "data_type": "jsonb",
+      "udt_name": "jsonb",
+      "is_nullable": "NO",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_schedule",
+      "column_name": "id",
+      "ordinal_position": 1,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "NO",
+      "column_default": "'genesis'::text"
+    },
+    {
+      "table_name": "genesis_schedule",
+      "column_name": "enabled",
+      "ordinal_position": 2,
+      "data_type": "boolean",
+      "udt_name": "bool",
+      "is_nullable": "NO",
+      "column_default": "false"
+    },
+    {
+      "table_name": "genesis_schedule",
+      "column_name": "remaining_cycles",
+      "ordinal_position": 3,
+      "data_type": "integer",
+      "udt_name": "int4",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_schedule",
+      "column_name": "next_at",
+      "ordinal_position": 4,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    },
+    {
+      "table_name": "genesis_schedule",
+      "column_name": "last_heartbeat",
+      "ordinal_position": 5,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_schedule",
+      "column_name": "last_error",
+      "ordinal_position": 6,
+      "data_type": "text",
+      "udt_name": "text",
+      "is_nullable": "YES",
+      "column_default": null
+    },
+    {
+      "table_name": "genesis_schedule",
+      "column_name": "updated_at",
+      "ordinal_position": 7,
+      "data_type": "timestamp with time zone",
+      "udt_name": "timestamptz",
+      "is_nullable": "NO",
+      "column_default": "now()"
+    }
+  ],
+  "constraints": [
+    {
+      "table_name": "genesis_action_intents",
+      "conname": "genesis_action_intents_organism_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (organism_id) REFERENCES genesis_organisms(id)"
+    },
+    {
+      "table_name": "genesis_action_intents",
+      "conname": "genesis_action_intents_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_decisions",
+      "conname": "genesis_decisions_cycle_key",
+      "contype": "u",
+      "definition": "UNIQUE (cycle)"
+    },
+    {
+      "table_name": "genesis_decisions",
+      "conname": "genesis_decisions_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_external_observations",
+      "conname": "genesis_external_observations_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_ledger",
+      "conname": "genesis_ledger_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_life_events",
+      "conname": "genesis_life_events_organism_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (organism_id) REFERENCES genesis_organisms(id)"
+    },
+    {
+      "table_name": "genesis_life_events",
+      "conname": "genesis_life_events_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_life_state",
+      "conname": "genesis_life_state_organism_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (organism_id) REFERENCES genesis_organisms(id)"
+    },
+    {
+      "table_name": "genesis_life_state",
+      "conname": "genesis_life_state_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (organism_id)"
+    },
+    {
+      "table_name": "genesis_life_state",
+      "conname": "genesis_life_state_record_check",
+      "contype": "c",
+      "definition": "CHECK ((record ->> 'executionLock'::text) = ANY (ARRAY['CLOSED'::text, 'OPEN'::text]))"
+    },
+    {
+      "table_name": "genesis_life_state",
+      "conname": "genesis_life_state_schema_version_check",
+      "contype": "c",
+      "definition": "CHECK (schema_version = 1)"
+    },
+    {
+      "table_name": "genesis_memories",
+      "conname": "genesis_memories_decision_id_fkey",
+      "contype": "f",
+      "definition": "FOREIGN KEY (decision_id) REFERENCES genesis_decisions(id)"
+    },
+    {
+      "table_name": "genesis_memories",
+      "conname": "genesis_memories_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_migrations",
+      "conname": "genesis_migrations_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (version)"
+    },
+    {
+      "table_name": "genesis_milestones",
+      "conname": "genesis_milestones_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_organisms",
+      "conname": "genesis_organisms_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_projects",
+      "conname": "genesis_projects_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_schedule",
+      "conname": "genesis_schedule_pkey",
+      "contype": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_schedule",
+      "conname": "genesis_schedule_remaining_cycles_check",
+      "contype": "c",
+      "definition": "CHECK (remaining_cycles IS NULL OR remaining_cycles >= 0)"
+    }
+  ],
+  "indexes": [
+    {
+      "tablename": "genesis_action_intents",
+      "indexname": "genesis_action_intents_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_action_intents_pkey ON __SCHEMA__.genesis_action_intents USING btree (id)"
+    },
+    {
+      "tablename": "genesis_decisions",
+      "indexname": "genesis_decisions_at_idx",
+      "indexdef": "CREATE INDEX genesis_decisions_at_idx ON __SCHEMA__.genesis_decisions USING btree (at)"
+    },
+    {
+      "tablename": "genesis_decisions",
+      "indexname": "genesis_decisions_cycle_key",
+      "indexdef": "CREATE UNIQUE INDEX genesis_decisions_cycle_key ON __SCHEMA__.genesis_decisions USING btree (cycle)"
+    },
+    {
+      "tablename": "genesis_decisions",
+      "indexname": "genesis_decisions_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_decisions_pkey ON __SCHEMA__.genesis_decisions USING btree (id)"
+    },
+    {
+      "tablename": "genesis_external_observations",
+      "indexname": "genesis_external_observations_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_external_observations_pkey ON __SCHEMA__.genesis_external_observations USING btree (id)"
+    },
+    {
+      "tablename": "genesis_ledger",
+      "indexname": "genesis_ledger_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_ledger_pkey ON __SCHEMA__.genesis_ledger USING btree (id)"
+    },
+    {
+      "tablename": "genesis_life_events",
+      "indexname": "genesis_life_events_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_life_events_pkey ON __SCHEMA__.genesis_life_events USING btree (id)"
+    },
+    {
+      "tablename": "genesis_life_state",
+      "indexname": "genesis_life_state_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_life_state_pkey ON __SCHEMA__.genesis_life_state USING btree (organism_id)"
+    },
+    {
+      "tablename": "genesis_memories",
+      "indexname": "genesis_memories_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_memories_pkey ON __SCHEMA__.genesis_memories USING btree (id)"
+    },
+    {
+      "tablename": "genesis_migrations",
+      "indexname": "genesis_migrations_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_migrations_pkey ON __SCHEMA__.genesis_migrations USING btree (version)"
+    },
+    {
+      "tablename": "genesis_milestones",
+      "indexname": "genesis_milestones_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_milestones_pkey ON __SCHEMA__.genesis_milestones USING btree (id)"
+    },
+    {
+      "tablename": "genesis_organisms",
+      "indexname": "genesis_organisms_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_organisms_pkey ON __SCHEMA__.genesis_organisms USING btree (id)"
+    },
+    {
+      "tablename": "genesis_projects",
+      "indexname": "genesis_projects_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_projects_pkey ON __SCHEMA__.genesis_projects USING btree (id)"
+    },
+    {
+      "tablename": "genesis_schedule",
+      "indexname": "genesis_schedule_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_schedule_pkey ON __SCHEMA__.genesis_schedule USING btree (id)"
+    }
+  ],
+  "functions": [
+    {
+      "proname": "genesis_immutable_event",
+      "args": "",
+      "definition": "CREATE OR REPLACE FUNCTION __SCHEMA__.genesis_immutable_event()\n RETURNS trigger\n LANGUAGE plpgsql\nAS $function$ BEGIN RAISE EXCEPTION 'Append-only event'; END $function$\n"
+    },
+    {
+      "proname": "genesis_require_v2_writer",
+      "args": "",
+      "definition": "CREATE OR REPLACE FUNCTION __SCHEMA__.genesis_require_v2_writer()\n RETURNS trigger\n LANGUAGE plpgsql\nAS $function$\nBEGIN\n IF current_setting('genesis.writer_version',true) IS DISTINCT FROM 'runtime-v1'\n    OR NOT EXISTS (SELECT 1 FROM genesis_life_state WHERE organism_id='genesis' AND record->>'executionLock'='OPEN') THEN\n  RAISE EXCEPTION 'Genesis execution locked or incompatible writer';\n END IF;\n IF TG_TABLE_NAME='genesis_organisms' AND TG_OP='UPDATE' THEN\n  IF NEW.state->'id' IS DISTINCT FROM OLD.state->'id' OR NEW.state->'bornAt' IS DISTINCT FROM OLD.state->'bornAt'\n    OR NEW.state->'brain' IS DISTINCT FROM OLD.state->'brain' THEN\n   RAISE EXCEPTION 'Protected identity/birth/saved brain cannot change';\n  END IF;\n END IF;\n IF TG_OP='DELETE' THEN RETURN OLD; END IF;\n RETURN NEW;\nEND $function$\n"
+    }
+  ],
+  "triggers": [
+    {
+      "table_name": "genesis_decisions",
+      "tgname": "immutable_decisions",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER immutable_decisions BEFORE DELETE OR UPDATE ON genesis_decisions FOR EACH ROW EXECUTE FUNCTION genesis_immutable_event()"
+    },
+    {
+      "table_name": "genesis_decisions",
+      "tgname": "runtime_v1_writer_fence",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER runtime_v1_writer_fence BEFORE INSERT OR DELETE OR UPDATE ON genesis_decisions FOR EACH ROW EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "table_name": "genesis_external_observations",
+      "tgname": "runtime_v1_writer_fence",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER runtime_v1_writer_fence BEFORE INSERT OR DELETE OR UPDATE ON genesis_external_observations FOR EACH ROW EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "table_name": "genesis_ledger",
+      "tgname": "runtime_v1_writer_fence",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER runtime_v1_writer_fence BEFORE INSERT OR DELETE OR UPDATE ON genesis_ledger FOR EACH ROW EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "table_name": "genesis_life_events",
+      "tgname": "immutable_life_events",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER immutable_life_events BEFORE DELETE OR UPDATE ON genesis_life_events FOR EACH ROW EXECUTE FUNCTION genesis_immutable_event()"
+    },
+    {
+      "table_name": "genesis_memories",
+      "tgname": "immutable_memories",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER immutable_memories BEFORE DELETE OR UPDATE ON genesis_memories FOR EACH ROW EXECUTE FUNCTION genesis_immutable_event()"
+    },
+    {
+      "table_name": "genesis_memories",
+      "tgname": "runtime_v1_writer_fence",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER runtime_v1_writer_fence BEFORE INSERT OR DELETE OR UPDATE ON genesis_memories FOR EACH ROW EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "table_name": "genesis_milestones",
+      "tgname": "runtime_v1_writer_fence",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER runtime_v1_writer_fence BEFORE INSERT OR DELETE OR UPDATE ON genesis_milestones FOR EACH ROW EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "table_name": "genesis_organisms",
+      "tgname": "runtime_v1_writer_fence",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER runtime_v1_writer_fence BEFORE INSERT OR DELETE OR UPDATE ON genesis_organisms FOR EACH ROW EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "table_name": "genesis_projects",
+      "tgname": "runtime_v1_writer_fence",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER runtime_v1_writer_fence BEFORE INSERT OR DELETE OR UPDATE ON genesis_projects FOR EACH ROW EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "table_name": "genesis_schedule",
+      "tgname": "runtime_v1_writer_fence",
+      "tgenabled": "O",
+      "definition": "CREATE TRIGGER runtime_v1_writer_fence BEFORE INSERT OR DELETE OR UPDATE ON genesis_schedule FOR EACH ROW EXECUTE FUNCTION genesis_require_v2_writer()"
+    }
+  ],
+  "views": [],
+  "sequences": []
+}

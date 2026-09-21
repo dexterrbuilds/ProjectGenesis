@@ -1,0 +1,205 @@
+{
+  "comparison": "Start-of-pass hash snapshot, not entire pre-existing dirty Git tree",
+  "implementationAndRunbooks": [
+    {
+      "path": ".dockerignore",
+      "beforeSha256": "727741fd796d8bc2be09056e232c9559298e1e3357f2d0d351a876a2c24b1020",
+      "afterSha256": "cae6c381100b47b7c511172f03d2d072f09fd0f411a554418e6520288392cd32",
+      "status": "MODIFIED"
+    },
+    {
+      "path": ".env.example",
+      "beforeSha256": "6cd69d3b7b50ea8c39266e459c18e42c2482d3bb180f1377ff4d6f3ec66c490f",
+      "afterSha256": "f5c4adaca03a16f569e78233e392544a2ccc9827cfca0b6bc4bf58d8b9a2713e",
+      "status": "MODIFIED"
+    },
+    {
+      "path": ".vercelignore",
+      "status": "CREATED_THIS_PASS",
+      "afterSha256": "6a884062290a94beba4754804a34a31227cbb486f943b07e9244628903261ba2"
+    },
+    {
+      "path": "DEPLOYMENT.md",
+      "status": "MODIFIED_OUTSIDE_START_SNAPSHOT",
+      "afterSha256": "4feccb06f02aff4048b70c6a82b6bbfa54457d32acad2b3054b941918d3f30c0"
+    },
+    {
+      "path": "Dockerfile",
+      "beforeSha256": "e79a46e0058ed491e477a942f4f3c5061b005660c772713213b913d91c7c3e57",
+      "afterSha256": "9b1c12e6c082924cb185dc330baec86a3c099e2e6f3400867fe6450c0c519232",
+      "status": "MODIFIED"
+    },
+    {
+      "path": "railway.json",
+      "beforeSha256": "393082d614ad152c12b43752bdd1904295a801faa995e1724e5fcf42b0fb922c",
+      "afterSha256": "7507bdda3dfdd6440c9ae33248e7de9e0876a6a72142e9aa5e82b3a0051b7e5e",
+      "status": "MODIFIED"
+    },
+    {
+      "path": "runtime/AWAKENING_RUNBOOK.md",
+      "afterSha256": "f298e44e2a9ec12ac7dfcb823675da00f361f1635f1f8a53db65e4ed1a1bd210",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/ENVIRONMENT.md",
+      "afterSha256": "1c8bdeeb97131a18b42846c331d5d72f66c31279a25c715b11fe1f5376b8e218",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/PRODUCTION_INSTALLATION.md",
+      "afterSha256": "80f6c07477d19d4d9b5b687961f9cd56859b2f37806d6e2fc605cbf8b29584e4",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/RECOVERY_RUNBOOK.md",
+      "afterSha256": "3f25c1270571f4be896ffb9e0aeaff732c880bda2c542b9a79728c5e499ead4d",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/catalog-baseline.json",
+      "afterSha256": "073456dee7b3fd8f94497ca6caf91a15d644eee17faa353f6a64c156b9dc08a6",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/catalog-installed.json",
+      "afterSha256": "8ae422024d3960d8c54885403dae4603904c1f24b826ade2c1eb0b7df99eb1de",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/config.ts",
+      "afterSha256": "8a633a2b039edc4da563222a9a35027517a16a51de60c1aa3ba2637c6bf14349",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/consumer-cli.ts",
+      "afterSha256": "88b0edfb54789433785d031c7ca7978c055cd9205772d38c4ef2ca815fe9515b",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/consumer.ts",
+      "afterSha256": "e6ad69ce1250380bf9f1db4715d00b50c26729cc4b518a88d1f6daa3171acd3a",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/http-server.ts",
+      "afterSha256": "6fa1bbee12ed7425ffd259314f753ce7a1d50ac97456ef3b79a262ce02fa4154",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/install.ts",
+      "afterSha256": "9f12800d8883e5c34266ee1baa8c82b64be3049c691e4b51a53ffc357f9c3dac",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/installer-cli.ts",
+      "afterSha256": "46370387e9efcc48cf9f099d786c53e97de50447b5d8d321047ccaec52513389",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/log.ts",
+      "afterSha256": "f925d9958328d2007f0b6b8f112fc6ade0b93730b9f06d53e680a230ef834c06",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/readiness.ts",
+      "afterSha256": "4611f903e3147f5f770fda42266dcfde5313b6fb5751690abd73a5d3b0b8905f",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/release.sql",
+      "afterSha256": "9dee39fb4298c0cc22dec744a28b185c87c83b51caa8fbdb74897c0b63b4527c",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/roles.sql",
+      "afterSha256": "e7fd6b536adf8e8609ba2f7af003d4c629cbfc7d9c6913723a2115c173cda796",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/deployment/schema.ts",
+      "afterSha256": "23ea0b71656ab3f0a008ed50a5d91cb0902aab64ca5e3d3167d256d0c79bb824",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "runtime/main.ts",
+      "beforeSha256": "c80daacd6c8b0ba19e69ba29532d9e06995240054e8f958fff09902ca5a4740f",
+      "afterSha256": "70d560b8e7b29b30bca2107694e6cb9cd52d39f3580d7c2d5ee774e3e3f53390",
+      "status": "MODIFIED"
+    },
+    {
+      "path": "runtime/migrate.ts",
+      "beforeSha256": "372fc96552536aabdb297ea44cbd9887eb3b7358062c980cafae8a04297b1829",
+      "afterSha256": "23d52f194b9495102f0c7039b494c0a5b912ca021588a0ceba3ebc408825e7ba",
+      "status": "MODIFIED"
+    },
+    {
+      "path": "runtime/operator-cli.ts",
+      "beforeSha256": "df8f2de4fb98f327a747b2f68a4363f3fd2fdae11fa4fbd5652c16f8e3210019",
+      "afterSha256": "9cd482df1d9ef1238329fac8808f19bf01c8c511d6598fe2654d3c5cf9ed8631",
+      "status": "MODIFIED"
+    },
+    {
+      "path": "runtime/provider-smoke.ts",
+      "beforeSha256": "dc53e676e58c0558ac1d4edfb370e0cf6edb901140c06d3a65fd60979fb38bfc",
+      "afterSha256": "0fdded2fb8a7fb52e55e8f81458567a64359cc58176cd0949fd4d40edbffa2cb",
+      "status": "MODIFIED"
+    },
+    {
+      "path": "scripts/deployment-catalog-fixture.ts",
+      "status": "CREATED_THIS_PASS",
+      "afterSha256": "d620e2501795fd4fe01c77343538e8ff34b03f9cabe9fd88f6a169fc32fa1352"
+    },
+    {
+      "path": "scripts/deployment-observer-fixture.ts",
+      "status": "CREATED_THIS_PASS",
+      "afterSha256": "75afdf73d449edfcac8ab7245606b1a412198deb27fb91b15ece469f732d3181"
+    },
+    {
+      "path": "server/one-shot-spec.ts",
+      "beforeSha256": "5ad186a630691b8ff26289c23e97c8417c06520ab9b44e4bd3f512336333014c",
+      "afterSha256": "d310a773191eb1ee0b9b7aeaed15883df653d9a012abc712c75a076850aaaffb",
+      "status": "MODIFIED"
+    },
+    {
+      "path": "server/runtime.ts",
+      "beforeSha256": "94605695294740138a0740787cac2c8a1fcc95a8996f473f7dc061704289d339",
+      "afterSha256": "098c25fc5d17977845201301434f3a6f4998897333964b138a74c7b3fb377cc1",
+      "status": "MODIFIED"
+    },
+    {
+      "path": "tests/deployment-preparation.test.ts",
+      "afterSha256": "7ab82d05083d841066ffb69384e7a931c9d34c1218b80bf2223b388a0b13d13c",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "tests/deployment-topology.test.ts",
+      "afterSha256": "5443fdd88a295287567a954439d38b0c4d42f16e85ae491569097fcab28eebb8",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "tests/postgres.test.ts",
+      "beforeSha256": "7e796ad1ac2613d4de5999cd7bed071df440349ea0c494be80e46d17a46824a4",
+      "afterSha256": "48e9c6141ce1dd069281d7872faf7fea990386671600bbd49500b51ea9e75a53",
+      "status": "MODIFIED"
+    },
+    {
+      "path": "tests/support/deployment-fixture.ts",
+      "afterSha256": "e8b534463a492b23b044052a5f08b58e7f84a45d7e9056685a39b5dec40053b0",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "tests/support/deployment-restore.ts",
+      "afterSha256": "c9604c8ea37ff91e87a3f6fa957146cf94b9980c4e0772f9b08f5f16a0d89410",
+      "status": "ADDED_WITHIN_SNAPSHOTTED_ROOT"
+    },
+    {
+      "path": "vercel.json",
+      "status": "MODIFIED_OUTSIDE_START_SNAPSHOT",
+      "afterSha256": "522b7915263570e00337d569bb0ae87d60658d047876411cb63a1ec3e83e9cae"
+    }
+  ],
+  "reviewPackage": "verification/deployment-preparation-pass/; separate artifact manifest inventories review evidence",
+  "noPriorImplementationDeleted": true,
+  "noCoreChanges": true,
+  "noDependencyChanges": true
+}

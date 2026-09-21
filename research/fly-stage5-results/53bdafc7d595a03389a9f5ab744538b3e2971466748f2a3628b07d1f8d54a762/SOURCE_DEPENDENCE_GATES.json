@@ -1,0 +1,948 @@
+[
+  {
+    "checks": [
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-A-freeze"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-freeze"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-freeze"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-freeze"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-freeze"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-B-freeze"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-freeze"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-freeze"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-freeze"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-freeze"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-A-silence_dan"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-silence_dan"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-silence_dan"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-silence_dan"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-silence_dan"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-B-silence_dan"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-silence_dan"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-silence_dan"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-silence_dan"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-silence_dan"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-A-remove_da_contacts"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-remove_da_contacts"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-remove_da_contacts"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-remove_da_contacts"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-remove_da_contacts"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-B-remove_da_contacts"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-remove_da_contacts"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-remove_da_contacts"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-remove_da_contacts"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-remove_da_contacts"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-A-unpaired"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-unpaired"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-unpaired"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-unpaired"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-unpaired"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-B-unpaired"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-unpaired"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-unpaired"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-unpaired"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-unpaired"
+      }
+    ],
+    "family": "P",
+    "scope": "Archived model-dependence gate only. No biological mediation or strict cue-exclusive downstream inference.",
+    "verdict": "SATISFIED UNDER DECLARED CONDITIONAL FAMILY"
+  },
+  {
+    "checks": [
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-intact"
+      },
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-intact"
+      },
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1702-A-intact"
+      },
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1702-B-intact"
+      },
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1703-A-intact"
+      },
+      {
+        "check": "response_change_excludes_zero",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "plastic_state_retention_excludes_zero",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "restoration_equal",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1703-B-intact"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-A-freeze"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-freeze"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-freeze"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-freeze"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-freeze"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-B-freeze"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-freeze"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-freeze"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-freeze"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-freeze"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-A-silence_dan"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-silence_dan"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-silence_dan"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-silence_dan"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-silence_dan"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-B-silence_dan"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-silence_dan"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-silence_dan"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-silence_dan"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-silence_dan"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-A-remove_da_contacts"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-remove_da_contacts"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-remove_da_contacts"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-remove_da_contacts"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-remove_da_contacts"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-B-remove_da_contacts"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-remove_da_contacts"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-remove_da_contacts"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-remove_da_contacts"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-remove_da_contacts"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-A-unpaired"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-unpaired"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-A-unpaired"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-unpaired"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-A-unpaired"
+      },
+      {
+        "check": "mechanism_or_timing_control_zero",
+        "passed": true,
+        "run": "app-1701-B-unpaired"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-unpaired"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "A",
+        "passed": true,
+        "run": "app-1701-B-unpaired"
+      },
+      {
+        "check": "PN_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-unpaired"
+      },
+      {
+        "check": "KC_sensory_stability",
+        "cue": "B",
+        "passed": true,
+        "run": "app-1701-B-unpaired"
+      }
+    ],
+    "family": "R",
+    "scope": "Archived model-dependence gate only. No biological mediation or strict cue-exclusive downstream inference.",
+    "verdict": "SATISFIED UNDER DECLARED CONDITIONAL FAMILY"
+  }
+]

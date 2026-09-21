@@ -1,0 +1,23 @@
+{
+  "unit": "per run/cue/contrast plus study-wide coverage flags",
+  "multi_label": true,
+  "labels": {
+    "ROBUST ACROSS DECLARED EVIDENCE-ADMISSIBLE FAMILY": "A predeclared atomic sign conclusion holds for every member of E/N (singleton full-family sign set). A robust zero remains a null result, not a positive capability.",
+    "ROBUST ONLY UNDER RESTRICTED CONDITIONAL FAMILY": "At least one restricted family yields a singleton while full E/N does not; list exactly which restrictions and whether the singleton is zero. Always carry transfer-sensitive/null flags where applicable.",
+    "TRANSFER-SENSITIVE / NON-ROBUST": "The full admissible set has more than one sign, or compatible restricted families disagree; include concrete witnesses.",
+    "NULL-COMPATIBLE": "Zero belongs to the full admissible set; this is not proof that the true biological effect is zero.",
+    "UNINTERPRETABLE": "Integrity/schema/unit/identity gate fails, source evidence does not support requested contrast, classification cannot be evaluated, or a nonpreregistered operator is required."
+  },
+  "precedence": "UNINTERPRETABLE blocks substantive classification; otherwise labels coexist. Never reduce all branches to a single positive score.",
+  "study_summary": "Report every unit and family, all counterbalanced rows, gate coverage and counts. Overall presence of transfer sensitivity/nulls cannot be hidden by restricted-family singletons.",
+  "acceptance": "A complete integrity-preserving analysis returning any valid nonrobust/null conclusion is scientifically completed. No biological-capability PASS threshold exists.",
+  "positive_terms_prohibited": [
+    "biological α1→UpWiN propagation validated",
+    "general action selection",
+    "voluntary action",
+    "Genesis behavior"
+  ],
+  "structural_limit": "The full-family signed-singleton category may be analytically unattainable with unrestricted nuisance. Never remove a branch to make this label attainable. Set-valued uncertainty statements must be distinguished from a unique neural output.",
+  "design_status": "STAGE-5 PROTOCOL READY FOR EXECUTION REVIEW",
+  "execution_result": null
+}

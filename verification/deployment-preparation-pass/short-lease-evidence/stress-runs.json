@@ -1,0 +1,252 @@
+[
+  {
+    "run": 1,
+    "exitCode": 0,
+    "elapsedMs": 1380.459417
+  },
+  {
+    "run": 2,
+    "exitCode": 0,
+    "elapsedMs": 871.458375
+  },
+  {
+    "run": 3,
+    "exitCode": 0,
+    "elapsedMs": 892.741875
+  },
+  {
+    "run": 4,
+    "exitCode": 0,
+    "elapsedMs": 899.6127499999998
+  },
+  {
+    "run": 5,
+    "exitCode": 0,
+    "elapsedMs": 892.0849589999999
+  },
+  {
+    "run": 6,
+    "exitCode": 0,
+    "elapsedMs": 898.2084590000002
+  },
+  {
+    "run": 7,
+    "exitCode": 0,
+    "elapsedMs": 921.8531670000001
+  },
+  {
+    "run": 8,
+    "exitCode": 0,
+    "elapsedMs": 900.6230830000002
+  },
+  {
+    "run": 9,
+    "exitCode": 0,
+    "elapsedMs": 917.7533749999993
+  },
+  {
+    "run": 10,
+    "exitCode": 0,
+    "elapsedMs": 855.6251669999995
+  },
+  {
+    "run": 11,
+    "exitCode": 1,
+    "elapsedMs": 921.3932079999996
+  },
+  {
+    "run": 12,
+    "exitCode": 0,
+    "elapsedMs": 928.1343750000009
+  },
+  {
+    "run": 13,
+    "exitCode": 0,
+    "elapsedMs": 1012.9610410000005
+  },
+  {
+    "run": 14,
+    "exitCode": 0,
+    "elapsedMs": 934.739875
+  },
+  {
+    "run": 15,
+    "exitCode": 0,
+    "elapsedMs": 908.5895829999995
+  },
+  {
+    "run": 16,
+    "exitCode": 0,
+    "elapsedMs": 878.5068749999994
+  },
+  {
+    "run": 17,
+    "exitCode": 0,
+    "elapsedMs": 899.1142500000002
+  },
+  {
+    "run": 18,
+    "exitCode": 0,
+    "elapsedMs": 975.1885839999997
+  },
+  {
+    "run": 19,
+    "exitCode": 1,
+    "elapsedMs": 1127.9980000000016
+  },
+  {
+    "run": 20,
+    "exitCode": 0,
+    "elapsedMs": 1066.715249999998
+  },
+  {
+    "run": 21,
+    "exitCode": 0,
+    "elapsedMs": 998.8607499999987
+  },
+  {
+    "run": 22,
+    "exitCode": 0,
+    "elapsedMs": 987.087374999998
+  },
+  {
+    "run": 23,
+    "exitCode": 0,
+    "elapsedMs": 966.5438329999994
+  },
+  {
+    "run": 24,
+    "exitCode": 0,
+    "elapsedMs": 1078.637875000002
+  },
+  {
+    "run": 25,
+    "exitCode": 0,
+    "elapsedMs": 1034.3957909999979
+  },
+  {
+    "run": 26,
+    "exitCode": 0,
+    "elapsedMs": 986.8496250000014
+  },
+  {
+    "run": 27,
+    "exitCode": 1,
+    "elapsedMs": 1253.5440840000015
+  },
+  {
+    "run": 28,
+    "exitCode": 0,
+    "elapsedMs": 1171.2511250000014
+  },
+  {
+    "run": 29,
+    "exitCode": 0,
+    "elapsedMs": 1057.1609580000008
+  },
+  {
+    "run": 30,
+    "exitCode": 0,
+    "elapsedMs": 1012.7852500000004
+  },
+  {
+    "run": 31,
+    "exitCode": 0,
+    "elapsedMs": 860.9677920000003
+  },
+  {
+    "run": 32,
+    "exitCode": 0,
+    "elapsedMs": 1143.3423329999996
+  },
+  {
+    "run": 33,
+    "exitCode": 0,
+    "elapsedMs": 1062.0899159999979
+  },
+  {
+    "run": 34,
+    "exitCode": 0,
+    "elapsedMs": 1079.284084000001
+  },
+  {
+    "run": 35,
+    "exitCode": 0,
+    "elapsedMs": 1349.549124999996
+  },
+  {
+    "run": 36,
+    "exitCode": 1,
+    "elapsedMs": 1193.5662500000035
+  },
+  {
+    "run": 37,
+    "exitCode": 1,
+    "elapsedMs": 1257.4678340000034
+  },
+  {
+    "run": 38,
+    "exitCode": 0,
+    "elapsedMs": 1112.000542000004
+  },
+  {
+    "run": 39,
+    "exitCode": 0,
+    "elapsedMs": 1155.436250000001
+  },
+  {
+    "run": 40,
+    "exitCode": 0,
+    "elapsedMs": 1028.9792909999987
+  },
+  {
+    "run": 41,
+    "exitCode": 0,
+    "elapsedMs": 980.6827499999997
+  },
+  {
+    "run": 42,
+    "exitCode": 0,
+    "elapsedMs": 948.305916999999
+  },
+  {
+    "run": 43,
+    "exitCode": 0,
+    "elapsedMs": 966.9055420000063
+  },
+  {
+    "run": 44,
+    "exitCode": 0,
+    "elapsedMs": 1006.6778750000012
+  },
+  {
+    "run": 45,
+    "exitCode": 0,
+    "elapsedMs": 860.4494169999981
+  },
+  {
+    "run": 46,
+    "exitCode": 0,
+    "elapsedMs": 1012.6603329999995
+  },
+  {
+    "run": 47,
+    "exitCode": 0,
+    "elapsedMs": 983.1933339999991
+  },
+  {
+    "run": 48,
+    "exitCode": 0,
+    "elapsedMs": 1296.1140830000063
+  },
+  {
+    "run": 49,
+    "exitCode": 0,
+    "elapsedMs": 972.3026670000011
+  },
+  {
+    "run": 50,
+    "exitCode": 0,
+    "elapsedMs": 965.0551659999991
+  }
+]

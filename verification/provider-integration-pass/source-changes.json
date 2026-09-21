@@ -1,0 +1,43 @@
+{
+  "changed": {
+    "core/v2/context.ts": {
+      "after": "a65bf5b2906fc61539b1bc96af08da5677aff95d5afb3e06d2656f5c16e53df4",
+      "before": "5110ab191cb7c23897ee03fe390a443a3e8131ea836c22a6dbb47678d09d70ec"
+    },
+    "server/commit-v2.ts": {
+      "after": "59627776edf4e7eafc81a993d9b1125cd393ec2e5ab1fd4baef6b94708951629",
+      "before": "79e8265f8e1208b481da2cee5122e7c93c663f46697f2cc83bf7670f3bd67424"
+    },
+    "server/one-shot-spec.ts": {
+      "after": "5ad186a630691b8ff26289c23e97c8417c06520ab9b44e4bd3f512336333014c",
+      "before": "ff2783584b506261b50193e481d4aafd2816fdda18f5106d554c7ecc1ebdc833"
+    },
+    "server/one-shot.ts": {
+      "after": "e2cdf37cda3552264f4c1ed13ca4b23476fdd05b91c6251c4ead5c5f9a8f1dba",
+      "before": "f56a3de85c15ce6f3fbf10b1ba6817370698dabb75993806ef603005c3a8a27a"
+    },
+    "server/operator-control.ts": {
+      "after": "a1619ea0bf6d1d8923f0d19a94f791cf6dd13101020a0dd5c6b26d91d8c1a7e2",
+      "before": "ae07b18e19cd55c3f32850e21a0a480aedd8ac654243417d23d8ad8874d7f56b"
+    },
+    "server/provider-control.ts": {
+      "after": "67456d57bbbc866593f83227c004a28d23fc6050dc2f398c49b454a2d6e5fb79",
+      "before": "03405dfd15f3f69ca7f3cc13e43356e40c3d5b87b7a69a2aac76a41206d9c22e"
+    }
+  },
+  "new": {
+    "runtime/PROVIDER_INTEGRATION.md": "56e36cdfb10542ba319a1cd9d1f199be0aad403ced3be78d6d1c6f6eec8127d3",
+    "runtime/provider-integration-schema.sql": "50b8de821eafe07cb5b185e2440627199798d11a1f94dc76a1dc435eefd718ea",
+    "runtime/provider-role-grants.sql": "775547e5b7eb658f662fb74c486a7e17158917d89d527809d2b9de6d78ea4407",
+    "runtime/provider-smoke.ts": "dc53e676e58c0558ac1d4edfb370e0cf6edb901140c06d3a65fd60979fb38bfc",
+    "server/reasoning/contracts.ts": "8f83d323cfc6df77429dd8c1b30a7e4cae257568505bdb80450693633cee7033",
+    "server/reasoning/control.ts": "52fe788c5f8eb0942c57c4c85cb5a511a682bbdd7843d25f148adec1225ebf25",
+    "server/reasoning/factory.ts": "27f5348ab0ed0184ac7aa6c6787232ce7f2b4da8c68c7df290d00ad0f24e2558",
+    "server/reasoning/inspection.ts": "ec44ed18beb4e2bfda71dc5b46abc2e0bc83d0f04496fba70ac9fc5605f100cd",
+    "server/reasoning/request.ts": "6487a3cd45a18fc84d7bd0c60e9c9eefcecc3c488c01509e94819ecc6084ba13",
+    "server/reasoning/store.ts": "83e76b8a69756b3891e562c247184e8f05b8fbe4489d4e2f42694bed6f63d7fb",
+    "tests/provider-integration.test.ts": "0ec1198f6736a4328c01fc89ad3cc96d76c2b4c540ac80b7bc305a9c3fff3ca2",
+    "tests/support/reasoning-fixture.ts": "ae4d628cba3867275ed7e5ad3a60496d3e6ef479d87a38be2a4ac9d6ec1a2b0b",
+    "tests/support/reasoning-replay-child.ts": "adfb1d64d968f121110f08dd2cd131db157b5f4132accdf66b6d3a8ebb3a4c1e"
+  }
+}

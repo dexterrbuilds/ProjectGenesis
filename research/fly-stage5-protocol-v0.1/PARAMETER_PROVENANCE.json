@@ -1,0 +1,77 @@
+{
+  "parameters": [
+    {
+      "name": "seeds",
+      "value": [
+        1701,
+        1702,
+        1703
+      ],
+      "category": "FROZEN MODEL DESIGN",
+      "source": "research/fly-stage1/experiment.py:SEEDS",
+      "biological_parameter": false
+    },
+    {
+      "name": "cue labels",
+      "value": [
+        "A",
+        "B"
+      ],
+      "category": "FROZEN COUNTERBALANCING",
+      "source": "research/fly-stage1/experiment.py",
+      "semantic_input_to_transfer": false
+    },
+    {
+      "name": "readout",
+      "value": "MBON_app mean in frozen probe",
+      "category": "FROZEN MODEL OBSERVATION",
+      "source": "research/fly-stage1/experiment.py:probe",
+      "biological_parameter": false
+    },
+    {
+      "name": "epsilon",
+      "value": "1e-12 model units",
+      "category": "ENGINEERING PRECISION POLICY",
+      "source": "Prospectively declared here, consistent with prior algebraic verification tolerance; not a physical detection threshold."
+    },
+    {
+      "name": "decimal precision",
+      "value": 50,
+      "category": "ENGINEERING ARITHMETIC POLICY",
+      "source": "Prospectively declared storage/roundoff handling; no biological interpretation."
+    },
+    {
+      "name": "gain",
+      "value": null,
+      "coverage": "no finite bound; strict order families quantify over every allowed monotone map"
+    },
+    {
+      "name": "responder mass q",
+      "value": null,
+      "coverage": "all [0,1] in H, including endpoints; not estimated from 4/17"
+    },
+    {
+      "name": "saturation/plateau",
+      "value": null,
+      "coverage": "all weak monotone maps and constant branch; no lower slope bound"
+    },
+    {
+      "name": "nuisance difference",
+      "value": null,
+      "coverage": "all finite reals in N/E; matched-context equality only in conditional families"
+    },
+    {
+      "name": "latency/kernel",
+      "value": null,
+      "coverage": "not an estimand; no temporal neural model"
+    },
+    {
+      "name": "physical observation conversion",
+      "value": null,
+      "coverage": "prohibited without independently identified mapping"
+    }
+  ],
+  "engineering_grid": null,
+  "physiological_confidence_interval": null,
+  "post_outcome_normalization": false
+}

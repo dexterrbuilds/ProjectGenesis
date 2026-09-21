@@ -1,0 +1,2876 @@
+{
+  "fixtureOnly": true,
+  "leaseMs": 250,
+  "plannerTimeoutMs": 100,
+  "initial": {
+    "events": [
+      {
+        "status": "PENDING",
+        "attempts": 0,
+        "cycle_id": null,
+        "has_lease": false,
+        "lease_until": null,
+        "reason": null
+      }
+    ],
+    "attempts": [],
+    "scopes": [
+      {
+        "status": "AUTHORIZED"
+      }
+    ],
+    "cycleAttempts": [],
+    "organism": [
+      {
+        "has_lease": false,
+        "phase": "idle"
+      }
+    ],
+    "dbClock": "2026-09-21T11:57:11.892Z"
+  },
+  "afterCrash": {
+    "events": [
+      {
+        "status": "PENDING",
+        "attempts": 0,
+        "cycle_id": null,
+        "has_lease": false,
+        "lease_until": null,
+        "reason": null
+      }
+    ],
+    "attempts": [],
+    "scopes": [
+      {
+        "status": "AUTHORIZED"
+      }
+    ],
+    "cycleAttempts": [],
+    "organism": [
+      {
+        "has_lease": false,
+        "phase": "idle"
+      }
+    ],
+    "dbClock": "2026-09-21T11:57:11.895Z"
+  },
+  "result": {
+    "status": "COMMITTED",
+    "reason": null
+  },
+  "final": {
+    "events": [
+      {
+        "status": "CONSUMED",
+        "attempts": 1,
+        "cycle_id": "manual:attempt:1",
+        "has_lease": true,
+        "lease_until": "2026-09-21T11:57:12.148Z",
+        "reason": "abstained"
+      }
+    ],
+    "attempts": [
+      {
+        "status": "COMMITTED",
+        "phase": "committed",
+        "failure": null
+      }
+    ],
+    "scopes": [
+      {
+        "status": "AUTHORIZED"
+      }
+    ],
+    "cycleAttempts": [
+      {
+        "status": "committed",
+        "cancelled": false
+      }
+    ],
+    "organism": [
+      {
+        "has_lease": false,
+        "phase": "idle"
+      }
+    ],
+    "dbClock": "2026-09-21T11:57:12.096Z"
+  },
+  "timeline": [
+    {
+      "name": "tick_start",
+      "stage": "setup",
+      "elapsedMs": 0.06995799999998553
+    },
+    {
+      "name": "hook_before_claim",
+      "stage": "setup",
+      "elapsedMs": 0.19849999999996726
+    },
+    {
+      "name": "simulated_crash",
+      "stage": "setup",
+      "elapsedMs": 0.2905829999999696
+    },
+    {
+      "name": "second_tick_start",
+      "stage": "setup",
+      "elapsedMs": 2.3234999999999673
+    },
+    {
+      "name": "hook_before_claim",
+      "stage": "setup",
+      "elapsedMs": 2.390207999999973
+    },
+    {
+      "name": "recover_start",
+      "stage": "recover",
+      "elapsedMs": 2.483292000000006
+    },
+    {
+      "name": "db_query",
+      "stage": "recover",
+      "elapsedMs": 3.123207999999977,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.5233750000000441,
+      "processWallMs": 1789991831896,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "recover",
+      "elapsedMs": 3.430749999999989,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.29154199999999264,
+      "processWallMs": 1789991831896,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "recover",
+      "elapsedMs": 4.158832999999959,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.6636250000000246,
+      "processWallMs": 1789991831897,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.896Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.896Z",
+          "diagnostic_lease_until": null
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "recover",
+      "elapsedMs": 4.4254999999999995,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.2509579999999687,
+      "processWallMs": 1789991831897,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "recover",
+      "elapsedMs": 4.937749999999994,
+      "tag": "SELECT a.* FROM genesis_continuous_attempts a JOIN genesis_runtime_events e ON e.id=a.event_id WHERE a.status='CLAIMED' AND e.lease_until<=now() ORDER BY a.cycle_id FOR UPDATE OF a",
+      "sqlHash": "ae64df97e70949992a349addaf0973e61a8327c4e4fb6854574cd48bf1fef446",
+      "durationMs": 0.4988749999999982,
+      "processWallMs": 1789991831898,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "recover",
+      "elapsedMs": 5.294499999999971,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.34958299999999554,
+      "processWallMs": 1789991831898,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "recover_end",
+      "stage": "recover",
+      "elapsedMs": 5.327832999999998
+    },
+    {
+      "name": "claim_start",
+      "stage": "claim",
+      "elapsedMs": 5.330874999999992
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 5.671374999999955,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.16137500000002092,
+      "processWallMs": 1789991831898,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 5.89104199999997,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.21512500000000045,
+      "processWallMs": 1789991831899,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 6.713957999999991,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.6101249999999823,
+      "processWallMs": 1789991831899,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.899Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.898Z",
+          "diagnostic_lease_until": null
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 6.962249999999983,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.23312500000002956,
+      "processWallMs": 1789991831900,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 7.492707999999993,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.420915999999977,
+      "processWallMs": 1789991831900,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.900Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.898Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 13.621249999999975,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 1.1439169999999876,
+      "processWallMs": 1789991831906,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 14.267457999999976,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.6334580000000187,
+      "processWallMs": 1789991831907,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 15.137374999999963,
+      "tag": "SELECT id FROM genesis_execution_grants WHERE status IN ('CLAIMED','AMBIGUOUS')",
+      "sqlHash": "61e77ee626f3abe33a7be7cf30b9b72f2791e1a64fc7fcf52a33525732c46e00",
+      "durationMs": 0.8573749999999905,
+      "processWallMs": 1789991831908,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 15.503416999999956,
+      "tag": "SELECT cycle_id FROM genesis_continuous_attempts WHERE status IN ('CLAIMED','AMBIGUOUS')",
+      "sqlHash": "00bc8e7d4afa054c3b15a99b6cc2c018a251cebacde7288ab61cdd9ec093db34",
+      "durationMs": 0.35712499999999636,
+      "processWallMs": 1789991831908,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 16.60745800000001,
+      "tag": "SELECT count(*) n,count(*) FILTER(WHERE at>now()-($2 * interval '1 millisecond')) w,count(*) FILTER(WHERE status='CLAIMED') active,count(*) FILTER(WHERE status='FAILED' OR status='COMMITTED' AND failu",
+      "sqlHash": "b0fdc5db335345bf0ce030228b2372d83d24d1b8059ae8632b22c66ed1c55c21",
+      "durationMs": 0.8596250000000509,
+      "processWallMs": 1789991831909,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 17.096957999999972,
+      "tag": "SELECT record,at FROM genesis_provider_attempts",
+      "sqlHash": "6b1a731513b7dc07dc2ff8d7011bda59b5e1075ccd0dd0f56e57aac1fb6de725",
+      "durationMs": 0.484958000000006,
+      "processWallMs": 1789991831910,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 18.22645799999998,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE status='PENDING' AND available_at<=now() AND payload->'payload'->>'kind'=ANY($1::text[]) ORDER BY available_at,id LIMIT 100 FOR UPDATE",
+      "sqlHash": "ac365e5846824c9e48ded12edd5303e7709fa9a7541543f8779683b900a64472",
+      "durationMs": 1.0936669999999822,
+      "processWallMs": 1789991831911,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.911Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.898Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 19.89862499999998,
+      "tag": "SELECT count(*) n FROM genesis_continuous_attempts a JOIN genesis_runtime_events e ON e.id=a.event_id WHERE e.payload->>'rootId'=$1 AND a.at>now()-($2 * interval '1 millisecond')",
+      "sqlHash": "9da53e436a5f88bfac7dcb76250dc20b5ebdce0fccb7cbf70fb028583ec34952",
+      "durationMs": 0.9447499999999991,
+      "processWallMs": 1789991831913,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 20.662249999999972,
+      "tag": "INSERT INTO genesis_cycle_attempts(id,lease,revision,status) VALUES($1,$2,$3,'preparing')",
+      "sqlHash": "7313a99dc11fbf9d9bcf94a707827afb745dc29f512b28df07db6a4106573b97",
+      "durationMs": 0.7234579999999937,
+      "processWallMs": 1789991831913,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 21.75916699999999,
+      "tag": "INSERT INTO genesis_continuous_attempts(cycle_id,event_id,scope_id,lease,base_revision,life_revision,status,phase,resources) VALUES($1,$2,$3,$4,$5,$6,'CLAIMED','claimed',$7)",
+      "sqlHash": "66c060b780a3435a53f9199d3d01ece755ad76a6d9a180de734f90f6321baedd",
+      "durationMs": 1.0778339999999957,
+      "processWallMs": 1789991831914,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 22.525916999999993,
+      "tag": "UPDATE genesis_runtime_events SET status='CLAIMED',attempts=attempts+1,cycle_id=$2,lease=$3,lease_until=now()+($4 * interval '1 millisecond') WHERE id=$1",
+      "sqlHash": "6dd62d146b03a7b23a567a48a4e8fd8a88fdbc059d1841369d55de0cc9b64850",
+      "durationMs": 0.7612920000000258,
+      "processWallMs": 1789991831915,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.915Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.898Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 22.830457999999965,
+      "tag": "SELECT set_config('genesis.continuous_cycle',$1,true),set_config('genesis.continuous_lease',$2,true)",
+      "sqlHash": "995c2f6c664f17de817d5b1cefb6578cfa45d0c87790941120f88ac4204e3587",
+      "durationMs": 0.23408400000005258,
+      "processWallMs": 1789991831916,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 25.454499999999996,
+      "tag": "UPDATE genesis_organisms SET lease=$1,lease_until=now()+($2 * interval '1 millisecond'),phase='planning' WHERE id='genesis'",
+      "sqlHash": "2667005afc0ed35e5cf4b5868a2be458270a060298ff9de16a24ee583dcb6866",
+      "durationMs": 2.6183750000000146,
+      "processWallMs": 1789991831918,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 25.898167,
+      "tag": "INSERT INTO genesis_continuous_journal(event_id,scope_id,cycle_id,transition) VALUES($1,$2,$3,'CLAIMED')",
+      "sqlHash": "35b6a6c404659875946c159256021da8ca79736a327fdee17ca5a5bcdc28a70b",
+      "durationMs": 0.4383330000000001,
+      "processWallMs": 1789991831919,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "claim",
+      "elapsedMs": 26.381916999999987,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.4755000000000109,
+      "processWallMs": 1789991831919,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "claim_end",
+      "stage": "claim",
+      "elapsedMs": 26.405167000000006
+    },
+    {
+      "name": "hook_after_claim",
+      "stage": "setup",
+      "elapsedMs": 26.407707999999957
+    },
+    {
+      "name": "prepare_start",
+      "stage": "prepare",
+      "elapsedMs": 26.410582999999974
+    },
+    {
+      "name": "check_start",
+      "stage": "check",
+      "elapsedMs": 26.62958299999997
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 26.874750000000006,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.16654099999999517,
+      "processWallMs": 1789991831920,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 27.132916999999964,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.2542500000000132,
+      "processWallMs": 1789991831920,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 27.863042000000007,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.6536249999999768,
+      "processWallMs": 1789991831921,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.920Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.920Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 28.137374999999963,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.27000000000003865,
+      "processWallMs": 1789991831921,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 28.775624999999934,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.4559169999999426,
+      "processWallMs": 1789991831922,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.921Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.920Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 33.27554200000003,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 0.5539170000000695,
+      "processWallMs": 1789991831926,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 33.67029199999996,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.37958400000002257,
+      "processWallMs": 1789991831926,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 34.504624999999976,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 0.8205000000000382,
+      "processWallMs": 1789991831927,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.927Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.920Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 35.049458000000016,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.536583999999948,
+      "processWallMs": 1789991831928,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.928Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.920Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "check",
+      "elapsedMs": 35.16074999999995,
+      "processWallMs": 1789991831928,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 220,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 35.87558299999995,
+      "tag": "SELECT cancelled FROM genesis_cycle_attempts WHERE id=$1",
+      "sqlHash": "f7c0a7f45f90b331af0046fa9f5832468f82c5b23a5681bc8a16824de16d58f5",
+      "durationMs": 0.33083299999998417,
+      "processWallMs": 1789991831929,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 36.33658299999996,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.4537919999999076,
+      "processWallMs": 1789991831929,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "check_end",
+      "stage": "check",
+      "elapsedMs": 36.35895799999997
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 36.57424999999995,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.1866250000000491,
+      "processWallMs": 1789991831929,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 36.86991699999993,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.2918339999999944,
+      "processWallMs": 1789991831930,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 37.66074999999995,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.7014169999999922,
+      "processWallMs": 1789991831930,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.930Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.929Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 37.951250000000016,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.2866670000000795,
+      "processWallMs": 1789991831931,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 38.359582999999986,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.397707999999966,
+      "processWallMs": 1789991831931,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.931Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.929Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 42.43391700000001,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 0.5441669999999021,
+      "processWallMs": 1789991831935,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 42.994332999999926,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.5551249999999754,
+      "processWallMs": 1789991831936,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 43.53112500000003,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 0.5238339999999653,
+      "processWallMs": 1789991831936,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.936Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.929Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 43.98237499999999,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.44537500000001273,
+      "processWallMs": 1789991831937,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.936Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.929Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "prepare",
+      "elapsedMs": 43.998332999999946,
+      "processWallMs": 1789991831937,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 211,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 44.985082999999975,
+      "tag": "SELECT o.state->>'id' AS id,l.revision FROM genesis_organisms o JOIN genesis_life_state l ON l.organism_id=o.id WHERE o.id='genesis'",
+      "sqlHash": "a67703c478f67473437970dd165d24ebaf0cdd12b3b187f6d9bf3836fff3ad7e",
+      "durationMs": 0.46775000000002365,
+      "processWallMs": 1789991831938,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 45.73987499999993,
+      "tag": "SELECT id,at,decision_id,CASE WHEN octet_length(record::text)<=65536 THEN record ELSE jsonb_build_object('excluded','oversized source') END AS record FROM genesis_memories ORDER BY at DESC,id LIMIT $1",
+      "sqlHash": "1ee7cf4d72796d272c5ffd1dcc0b3857e6b042af256e8627354f774c3e9d76a0",
+      "durationMs": 0.7479170000000295,
+      "processWallMs": 1789991831938,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 47.091792,
+      "tag": "SELECT id,at,cycle,jsonb_strip_nulls(jsonb_build_object( 'id',record->'id','at',record->'at','cycle',record->'cycle','schemaVersion',record->'schemaVersion','organismId',record->'organismId', 'event',",
+      "sqlHash": "060e75b0a20c26e6f468be3ebd6f6fbb7011d6f99317656373c1f00796869a95",
+      "durationMs": 1.346667000000025,
+      "processWallMs": 1789991831940,
+      "rows": 7,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 47.895707999999956,
+      "tag": "SELECT id,at,organism_id,jsonb_build_object('schemaVersion',record->'schemaVersion','id',record->'id','organismId',record->'organismId','at',record->'at','kind',record->'kind','source',record->'source",
+      "sqlHash": "6981334fc394946a16916e4e9f92e46019154943278ab2417f6468b2b745c62d",
+      "durationMs": 0.797458000000006,
+      "processWallMs": 1789991831941,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 48.331541999999956,
+      "tag": "SELECT id,at,organism_id,jsonb_build_object('schemaVersion',record->'schemaVersion','id',record->'id','organismId',record->'organismId','at',record->'at','kind',record->'kind','source',record->'source",
+      "sqlHash": "6434eb575c155d602ba7a8276312b90454fd835d04da29b2f5def5a7f6ba9299",
+      "durationMs": 0.4275830000000269,
+      "processWallMs": 1789991831941,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 49.78583299999997,
+      "tag": "SELECT to_regclass('genesis_control_state') IS NOT NULL present",
+      "sqlHash": "6bb7e54824fc8e9bc2921fe2cef0123c9a5b0b0a41fe23fe867420e232c76072",
+      "durationMs": 1.058499999999981,
+      "processWallMs": 1789991831943,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 51.792666999999994,
+      "tag": "SELECT id,at,record->>'at' AS recorded_at FROM genesis_decisions WHERE NOT (record ? 'schemaVersion') AND record->'brainAfter'=$1::jsonb ORDER BY cycle ASC LIMIT 1",
+      "sqlHash": "9d2309f8fab29128777dc79a2ac104c654096af46090b156fd58bc9f072ef3fb",
+      "durationMs": 1.7934159999999792,
+      "processWallMs": 1789991831945,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "prepare",
+      "elapsedMs": 52.84049999999996,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.8804999999999836,
+      "processWallMs": 1789991831946,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "saved_adapter_start",
+      "stage": "prepare",
+      "elapsedMs": 52.881249999999966
+    },
+    {
+      "name": "saved_adapter_end",
+      "stage": "prepare",
+      "elapsedMs": 82.831208
+    },
+    {
+      "name": "phase_start",
+      "stage": "phase",
+      "elapsedMs": 94.52487500000001
+    },
+    {
+      "name": "check_start",
+      "stage": "check",
+      "elapsedMs": 94.57758299999995
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 95.09095799999994,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.44012499999996635,
+      "processWallMs": 1789991831988,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 95.42445800000002,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.3271669999999176,
+      "processWallMs": 1789991831988,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 96.16841700000003,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.7384580000000369,
+      "processWallMs": 1789991831989,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.988Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.988Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 96.45137499999993,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.27874999999994543,
+      "processWallMs": 1789991831989,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 96.91558300000003,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.4492919999999003,
+      "processWallMs": 1789991831990,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.989Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.988Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 101.12312500000002,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 0.43070799999998144,
+      "processWallMs": 1789991831994,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 101.46837499999998,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.33704199999999673,
+      "processWallMs": 1789991831994,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 102.22004199999998,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 0.6851250000000846,
+      "processWallMs": 1789991831995,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.995Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.988Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 102.64304199999998,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.41508299999998144,
+      "processWallMs": 1789991831995,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.995Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.988Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "check",
+      "elapsedMs": 102.65899999999993,
+      "processWallMs": 1789991831995,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 153,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 103.21312499999993,
+      "tag": "SELECT cancelled FROM genesis_cycle_attempts WHERE id=$1",
+      "sqlHash": "f7c0a7f45f90b331af0046fa9f5832468f82c5b23a5681bc8a16824de16d58f5",
+      "durationMs": 0.24954200000001947,
+      "processWallMs": 1789991831996,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 103.614667,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.3914999999999509,
+      "processWallMs": 1789991831996,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "check_end",
+      "stage": "check",
+      "elapsedMs": 103.63891699999994
+    },
+    {
+      "name": "db_query",
+      "stage": "phase",
+      "elapsedMs": 104.16791699999993,
+      "tag": "UPDATE genesis_continuous_attempts SET phase=$2 WHERE cycle_id=$1 AND status='CLAIMED' AND lease=$3",
+      "sqlHash": "b787a8ace1365ca14cb67bdbbd4c0c3ce72d196db6432a5818eff10a5a289279",
+      "durationMs": 0.50162499999999,
+      "processWallMs": 1789991831997,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "hook_before_planner",
+      "stage": "phase",
+      "elapsedMs": 104.19079199999993
+    },
+    {
+      "name": "phase_end",
+      "stage": "phase",
+      "elapsedMs": 104.19270799999998
+    },
+    {
+      "name": "check_start",
+      "stage": "check",
+      "elapsedMs": 104.34183300000001
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 104.51129199999997,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.13916699999992943,
+      "processWallMs": 1789991831997,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 104.69266699999997,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.17766600000004473,
+      "processWallMs": 1789991831997,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 105.24612499999995,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.5488749999999527,
+      "processWallMs": 1789991831998,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.998Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.997Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 105.47224999999997,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.22249999999996817,
+      "processWallMs": 1789991831998,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 105.86666699999995,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.36866700000007313,
+      "processWallMs": 1789991831999,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:11.998Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.997Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 110.57854200000003,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 0.5609170000000177,
+      "processWallMs": 1789991832003,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 110.87100000000004,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.2873339999999871,
+      "processWallMs": 1789991832004,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 111.31537499999996,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 0.4329169999999749,
+      "processWallMs": 1789991832004,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.004Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.997Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 111.67629199999993,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.35600000000010823,
+      "processWallMs": 1789991832004,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.004Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:11.997Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "check",
+      "elapsedMs": 111.69070800000003,
+      "processWallMs": 1789991832004,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 144,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 112.90662500000002,
+      "tag": "SELECT cancelled FROM genesis_cycle_attempts WHERE id=$1",
+      "sqlHash": "f7c0a7f45f90b331af0046fa9f5832468f82c5b23a5681bc8a16824de16d58f5",
+      "durationMs": 0.6247080000000551,
+      "processWallMs": 1789991832006,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 113.29670800000002,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.38208399999996345,
+      "processWallMs": 1789991832006,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "check_end",
+      "stage": "check",
+      "elapsedMs": 113.32962500000002
+    },
+    {
+      "name": "planner_start",
+      "stage": "prepare",
+      "elapsedMs": 113.49291699999998
+    },
+    {
+      "name": "planner_end",
+      "stage": "prepare",
+      "elapsedMs": 113.57999999999998
+    },
+    {
+      "name": "check_start",
+      "stage": "check",
+      "elapsedMs": 113.58199999999994
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 113.76612499999993,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.1512080000001106,
+      "processWallMs": 1789991832007,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 113.95137499999993,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.18212499999992815,
+      "processWallMs": 1789991832007,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 114.54870799999998,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.5901660000000675,
+      "processWallMs": 1789991832007,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.007Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.006Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 114.789917,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.2345420000000331,
+      "processWallMs": 1789991832008,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 115.25462499999998,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.44537500000001273,
+      "processWallMs": 1789991832008,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.008Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.006Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 119.97562499999998,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 0.6429580000000215,
+      "processWallMs": 1789991832013,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 120.286542,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.304958000000056,
+      "processWallMs": 1789991832013,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 120.73049999999995,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 0.4340829999999869,
+      "processWallMs": 1789991832013,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.013Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.006Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 121.13183299999997,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.3967079999999896,
+      "processWallMs": 1789991832014,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.014Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.006Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "check",
+      "elapsedMs": 121.14550000000003,
+      "processWallMs": 1789991832014,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 134,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 121.633667,
+      "tag": "SELECT cancelled FROM genesis_cycle_attempts WHERE id=$1",
+      "sqlHash": "f7c0a7f45f90b331af0046fa9f5832468f82c5b23a5681bc8a16824de16d58f5",
+      "durationMs": 0.24612500000000637,
+      "processWallMs": 1789991832014,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 122.013667,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.37408300000004147,
+      "processWallMs": 1789991832015,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "check_end",
+      "stage": "check",
+      "elapsedMs": 122.036542
+    },
+    {
+      "name": "planner_cleanup",
+      "stage": "prepare",
+      "elapsedMs": 122.04887500000001
+    },
+    {
+      "name": "phase_start",
+      "stage": "phase",
+      "elapsedMs": 122.68275
+    },
+    {
+      "name": "check_start",
+      "stage": "check",
+      "elapsedMs": 122.68529199999995
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 122.87495799999994,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.16012499999999363,
+      "processWallMs": 1789991832016,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 123.07012500000002,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.19233299999996234,
+      "processWallMs": 1789991832016,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 123.61204200000003,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.5376659999999447,
+      "processWallMs": 1789991832016,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.016Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.016Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 123.83358300000003,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.21862499999997453,
+      "processWallMs": 1789991832017,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 124.226833,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.38170800000000327,
+      "processWallMs": 1789991832017,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.017Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.016Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 128.32716699999997,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 0.4839159999999083,
+      "processWallMs": 1789991832021,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 128.64616699999993,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.31237499999997453,
+      "processWallMs": 1789991832021,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 129.101292,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 0.44375000000002274,
+      "processWallMs": 1789991832022,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.022Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.016Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 129.75258300000002,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.6457910000000311,
+      "processWallMs": 1789991832022,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.022Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.016Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "check",
+      "elapsedMs": 129.77124999999995,
+      "processWallMs": 1789991832022,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 125,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 130.332917,
+      "tag": "SELECT cancelled FROM genesis_cycle_attempts WHERE id=$1",
+      "sqlHash": "f7c0a7f45f90b331af0046fa9f5832468f82c5b23a5681bc8a16824de16d58f5",
+      "durationMs": 0.26491699999996854,
+      "processWallMs": 1789991832023,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 130.70725,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.36858300000005784,
+      "processWallMs": 1789991832023,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "check_end",
+      "stage": "check",
+      "elapsedMs": 130.72858300000001
+    },
+    {
+      "name": "db_query",
+      "stage": "phase",
+      "elapsedMs": 131.24766700000004,
+      "tag": "UPDATE genesis_continuous_attempts SET phase=$2 WHERE cycle_id=$1 AND status='CLAIMED' AND lease=$3",
+      "sqlHash": "b787a8ace1365ca14cb67bdbbd4c0c3ce72d196db6432a5818eff10a5a289279",
+      "durationMs": 0.4822080000000142,
+      "processWallMs": 1789991832024,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "hook_after_planner",
+      "stage": "phase",
+      "elapsedMs": 131.27050000000003
+    },
+    {
+      "name": "phase_end",
+      "stage": "phase",
+      "elapsedMs": 131.272625
+    },
+    {
+      "name": "phase_start",
+      "stage": "phase",
+      "elapsedMs": 131.27912499999996
+    },
+    {
+      "name": "check_start",
+      "stage": "check",
+      "elapsedMs": 131.28116699999993
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 131.46979199999993,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.1705419999999549,
+      "processWallMs": 1789991832024,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 131.66445800000002,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.18975000000000364,
+      "processWallMs": 1789991832024,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 132.23425000000003,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.5647920000000113,
+      "processWallMs": 1789991832025,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.025Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.024Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 132.48566699999998,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.24862499999994725,
+      "processWallMs": 1789991832025,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 132.85416700000002,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.35712499999999636,
+      "processWallMs": 1789991832026,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.025Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.024Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 136.82233300000001,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 0.3902500000000373,
+      "processWallMs": 1789991832030,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 137.108,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.2799999999999727,
+      "processWallMs": 1789991832030,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 137.498583,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 0.3803330000000642,
+      "processWallMs": 1789991832030,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.030Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.024Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 137.86425000000003,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.36099999999999,
+      "processWallMs": 1789991832031,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.030Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.024Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "check",
+      "elapsedMs": 137.88058299999994,
+      "processWallMs": 1789991832031,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 117,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 138.44979199999995,
+      "tag": "SELECT cancelled FROM genesis_cycle_attempts WHERE id=$1",
+      "sqlHash": "f7c0a7f45f90b331af0046fa9f5832468f82c5b23a5681bc8a16824de16d58f5",
+      "durationMs": 0.3305410000000393,
+      "processWallMs": 1789991832031,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 138.83241700000002,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.37458299999991596,
+      "processWallMs": 1789991832032,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "check_end",
+      "stage": "check",
+      "elapsedMs": 138.85649999999993
+    },
+    {
+      "name": "db_query",
+      "stage": "phase",
+      "elapsedMs": 139.335667,
+      "tag": "UPDATE genesis_continuous_attempts SET phase=$2 WHERE cycle_id=$1 AND status='CLAIMED' AND lease=$3",
+      "sqlHash": "b787a8ace1365ca14cb67bdbbd4c0c3ce72d196db6432a5818eff10a5a289279",
+      "durationMs": 0.45041700000001583,
+      "processWallMs": 1789991832032,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "hook_before_policy",
+      "stage": "phase",
+      "elapsedMs": 139.36587500000002
+    },
+    {
+      "name": "phase_end",
+      "stage": "phase",
+      "elapsedMs": 139.368083
+    },
+    {
+      "name": "policy_start",
+      "stage": "prepare",
+      "elapsedMs": 139.37224999999995
+    },
+    {
+      "name": "policy_end",
+      "stage": "prepare",
+      "elapsedMs": 140.67570799999993
+    },
+    {
+      "name": "phase_start",
+      "stage": "phase",
+      "elapsedMs": 140.67870799999997
+    },
+    {
+      "name": "check_start",
+      "stage": "check",
+      "elapsedMs": 140.68095799999998
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 140.89220799999993,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.1802909999998974,
+      "processWallMs": 1789991832034,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 141.07383299999998,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.17812500000002274,
+      "processWallMs": 1789991832034,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 141.61025,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.53125,
+      "processWallMs": 1789991832034,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.034Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.034Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 141.83166699999998,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.2185420000000704,
+      "processWallMs": 1789991832035,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 142.25962499999997,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.418042000000014,
+      "processWallMs": 1789991832035,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.035Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.034Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 146.08858300000003,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 0.50649999999996,
+      "processWallMs": 1789991832039,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 146.49495799999994,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.39962500000001455,
+      "processWallMs": 1789991832039,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 147.08920799999993,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 0.5597919999999021,
+      "processWallMs": 1789991832040,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.040Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.034Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 147.67450000000002,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.5579999999999927,
+      "processWallMs": 1789991832040,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.040Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.034Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "check",
+      "elapsedMs": 147.69479199999995,
+      "processWallMs": 1789991832040,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 108,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 148.28608300000002,
+      "tag": "SELECT cancelled FROM genesis_cycle_attempts WHERE id=$1",
+      "sqlHash": "f7c0a7f45f90b331af0046fa9f5832468f82c5b23a5681bc8a16824de16d58f5",
+      "durationMs": 0.2842919999999367,
+      "processWallMs": 1789991832041,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 148.681667,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.38933299999996507,
+      "processWallMs": 1789991832041,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "check_end",
+      "stage": "check",
+      "elapsedMs": 148.70249999999993
+    },
+    {
+      "name": "db_query",
+      "stage": "phase",
+      "elapsedMs": 149.25820800000002,
+      "tag": "UPDATE genesis_continuous_attempts SET phase=$2 WHERE cycle_id=$1 AND status='CLAIMED' AND lease=$3",
+      "sqlHash": "b787a8ace1365ca14cb67bdbbd4c0c3ce72d196db6432a5818eff10a5a289279",
+      "durationMs": 0.5309580000000551,
+      "processWallMs": 1789991832042,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "hook_after_policy",
+      "stage": "phase",
+      "elapsedMs": 149.28699999999998
+    },
+    {
+      "name": "phase_end",
+      "stage": "phase",
+      "elapsedMs": 149.28912499999996
+    },
+    {
+      "name": "reducer_start",
+      "stage": "prepare",
+      "elapsedMs": 149.41895800000003
+    },
+    {
+      "name": "reducer_end",
+      "stage": "prepare",
+      "elapsedMs": 149.49208300000004
+    },
+    {
+      "name": "check_start",
+      "stage": "check",
+      "elapsedMs": 149.55079199999994
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 149.7425,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.16804100000001654,
+      "processWallMs": 1789991832042,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 149.98387499999995,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.2374170000000504,
+      "processWallMs": 1789991832043,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 150.68029199999995,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.6906249999999545,
+      "processWallMs": 1789991832043,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.043Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.042Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 150.93908299999993,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.25558300000000145,
+      "processWallMs": 1789991832044,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 151.42874999999998,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.4682919999999058,
+      "processWallMs": 1789991832044,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.044Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.042Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 155.64504199999993,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 0.5105409999999893,
+      "processWallMs": 1789991832048,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 155.96308299999993,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.3106669999999667,
+      "processWallMs": 1789991832049,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 156.45129200000002,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 0.4701669999999467,
+      "processWallMs": 1789991832049,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.049Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.042Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 156.808833,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.35291700000004766,
+      "processWallMs": 1789991832050,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.049Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.042Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "check",
+      "elapsedMs": 156.82741700000003,
+      "processWallMs": 1789991832050,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 98,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 157.37116699999996,
+      "tag": "SELECT cancelled FROM genesis_cycle_attempts WHERE id=$1",
+      "sqlHash": "f7c0a7f45f90b331af0046fa9f5832468f82c5b23a5681bc8a16824de16d58f5",
+      "durationMs": 0.2775419999999258,
+      "processWallMs": 1789991832050,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "check",
+      "elapsedMs": 157.772,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.3949999999999818,
+      "processWallMs": 1789991832051,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "check_end",
+      "stage": "check",
+      "elapsedMs": 157.79312499999997
+    },
+    {
+      "name": "prepare_end",
+      "stage": "prepare",
+      "elapsedMs": 157.80091699999997
+    },
+    {
+      "name": "commit_start",
+      "stage": "commit",
+      "elapsedMs": 157.80474999999996
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 158.14550000000003,
+      "tag": "BEGIN",
+      "sqlHash": "a8402858d4f1e1d27afee976520485ebb4b96a5387355b823f0d0b8079729032",
+      "durationMs": 0.1522500000000946,
+      "processWallMs": 1789991832051,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 158.323917,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.17533400000002075,
+      "processWallMs": 1789991832051,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 159.02733299999994,
+      "tag": "SELECT state,revision,lease,lease_until>now() valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "fd4057ddc1d5f0acd9e733e81f158d352be94468d7e27940c78fea791d8d7129",
+      "durationMs": 0.5702909999999974,
+      "processWallMs": 1789991832052,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.051Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.051Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 159.27691699999997,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.24675000000002,
+      "processWallMs": 1789991832052,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 159.83312499999994,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.5454169999999294,
+      "processWallMs": 1789991832053,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.052Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.051Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 166.270333,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 3.1140420000000404,
+      "processWallMs": 1789991832059,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 166.685583,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.4064170000000331,
+      "processWallMs": 1789991832059,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 169.58316699999995,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 2.868750000000091,
+      "processWallMs": 1789991832062,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.062Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.051Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 170.13391699999994,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.5350409999999783,
+      "processWallMs": 1789991832063,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.063Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.051Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "commit",
+      "elapsedMs": 170.15891700000003,
+      "processWallMs": 1789991832063,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 85,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "hook_before_commit",
+      "stage": "commit",
+      "elapsedMs": 170.43912499999993
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 170.959542,
+      "tag": "SELECT id FROM genesis_provider_attempts WHERE cycle_id=$1 AND record->>'status' IN ('reserved','dispatching','unknown')",
+      "sqlHash": "6b43f0efff088abff1a8a70fea590aedb2b4f516aaae99c481bc5111a5b11503",
+      "durationMs": 0.5133329999999887,
+      "processWallMs": 1789991832064,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 172.44741700000003,
+      "tag": "SELECT state,revision,lease,lease_until>now() AS valid FROM genesis_organisms WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "04d97c66e20abf3c6be4613ad0f5d6bc22e7dec277afe103cfe2b2780ca629dd",
+      "durationMs": 0.8980830000000424,
+      "processWallMs": 1789991832065,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.064Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.051Z",
+          "diagnostic_lease_until": "2026-09-21T11:57:12.148Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 173.138667,
+      "tag": "SELECT record,revision FROM genesis_life_state WHERE organism_id='genesis' FOR UPDATE",
+      "sqlHash": "3fa766ab3442394900fe590295199a060ac486e3d9f4f89025f1a0013c205bf1",
+      "durationMs": 0.6867500000000746,
+      "processWallMs": 1789991832066,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 173.45491699999997,
+      "tag": "SELECT * FROM genesis_cycle_attempts WHERE id=$1 FOR UPDATE",
+      "sqlHash": "3bb83f4ddef1e94fbb56e2ddf52bd44774faef98a0a32d93acd06c924ecd89a4",
+      "durationMs": 0.31141700000000583,
+      "processWallMs": 1789991832066,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 173.82187500000003,
+      "tag": "SELECT * FROM genesis_continuous_scopes WHERE id=$1 FOR UPDATE",
+      "sqlHash": "095fdc8f7ec4fa8695969b3de6af200484cf3926f4610517d78db2cdd5d223ab",
+      "durationMs": 0.3578340000000253,
+      "processWallMs": 1789991832067,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.066Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.051Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 179.38687499999997,
+      "tag": "SELECT enabled FROM genesis_schedule WHERE id='genesis' FOR UPDATE",
+      "sqlHash": "4aec3f334f5e4f59de16b63fbe5fbbd8a15cb82495cefe9cfe953ffa862c8ab8",
+      "durationMs": 1.3072500000000673,
+      "processWallMs": 1789991832072,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 179.890417,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.49804200000005494,
+      "processWallMs": 1789991832073,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 180.507,
+      "tag": "SELECT * FROM genesis_continuous_attempts WHERE cycle_id=$1 FOR UPDATE",
+      "sqlHash": "f012c24c4a6c7e9c8e93d8af1760eaf0776b71cd560b8cdf2283217e7a96cc13",
+      "durationMs": 0.6104579999999942,
+      "processWallMs": 1789991832073,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.073Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.051Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 180.93008300000002,
+      "tag": "SELECT * FROM genesis_runtime_events WHERE id=$1 FOR UPDATE",
+      "sqlHash": "f502ef30828504f13d5438c209443c0335d9def9a576229dacf48fc30bb0a4dc",
+      "durationMs": 0.41849999999999454,
+      "processWallMs": 1789991832074,
+      "rows": 1,
+      "clocks": [
+        {
+          "diagnostic_db_clock": "2026-09-21T11:57:12.073Z",
+          "diagnostic_transaction_clock": "2026-09-21T11:57:12.051Z"
+        }
+      ],
+      "errorCode": null
+    },
+    {
+      "name": "continuous_fence",
+      "stage": "commit",
+      "elapsedMs": 180.941125,
+      "processWallMs": 1789991832074,
+      "eventLeaseMs": 1789991832148,
+      "remainingMs": 74,
+      "attemptValid": true,
+      "eventValid": true
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 181.904875,
+      "tag": "SELECT o.state->>'id' AS id,l.revision FROM genesis_organisms o JOIN genesis_life_state l ON l.organism_id=o.id WHERE o.id='genesis'",
+      "sqlHash": "a67703c478f67473437970dd165d24ebaf0cdd12b3b187f6d9bf3836fff3ad7e",
+      "durationMs": 0.45433300000001964,
+      "processWallMs": 1789991832075,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 182.50241699999998,
+      "tag": "SELECT id,at,decision_id,CASE WHEN octet_length(record::text)<=65536 THEN record ELSE jsonb_build_object('excluded','oversized source') END AS record FROM genesis_memories ORDER BY at DESC,id LIMIT $1",
+      "sqlHash": "1ee7cf4d72796d272c5ffd1dcc0b3857e6b042af256e8627354f774c3e9d76a0",
+      "durationMs": 0.5865000000000009,
+      "processWallMs": 1789991832075,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 185.08708299999995,
+      "tag": "SELECT id,at,cycle,jsonb_strip_nulls(jsonb_build_object( 'id',record->'id','at',record->'at','cycle',record->'cycle','schemaVersion',record->'schemaVersion','organismId',record->'organismId', 'event',",
+      "sqlHash": "060e75b0a20c26e6f468be3ebd6f6fbb7011d6f99317656373c1f00796869a95",
+      "durationMs": 2.5768749999999727,
+      "processWallMs": 1789991832078,
+      "rows": 7,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 185.80812499999996,
+      "tag": "SELECT id,at,organism_id,jsonb_build_object('schemaVersion',record->'schemaVersion','id',record->'id','organismId',record->'organismId','at',record->'at','kind',record->'kind','source',record->'source",
+      "sqlHash": "6981334fc394946a16916e4e9f92e46019154943278ab2417f6468b2b745c62d",
+      "durationMs": 0.6694589999999607,
+      "processWallMs": 1789991832079,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 186.24062499999997,
+      "tag": "SELECT id,at,organism_id,jsonb_build_object('schemaVersion',record->'schemaVersion','id',record->'id','organismId',record->'organismId','at',record->'at','kind',record->'kind','source',record->'source",
+      "sqlHash": "6434eb575c155d602ba7a8276312b90454fd835d04da29b2f5def5a7f6ba9299",
+      "durationMs": 0.42670799999996234,
+      "processWallMs": 1789991832079,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 186.54070799999994,
+      "tag": "SELECT to_regclass('genesis_control_state') IS NOT NULL present",
+      "sqlHash": "6bb7e54824fc8e9bc2921fe2cef0123c9a5b0b0a41fe23fe867420e232c76072",
+      "durationMs": 0.23358299999995324,
+      "processWallMs": 1789991832079,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 188.737458,
+      "tag": "SELECT id FROM genesis_provider_attempts WHERE cycle_id=$1 AND record->>'status' IN ('reserved','dispatching','unknown')",
+      "sqlHash": "6b43f0efff088abff1a8a70fea590aedb2b4f516aaae99c481bc5111a5b11503",
+      "durationMs": 0.32750000000010004,
+      "processWallMs": 1789991832081,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 189.24324999999993,
+      "tag": "SELECT set_config('genesis.writer_version','runtime-v1',true)",
+      "sqlHash": "d29c542ce3e161169ed573d507a041e816c5a7b521f8a17e74948d7d17a96ebe",
+      "durationMs": 0.20612499999992906,
+      "processWallMs": 1789991832082,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 189.47162499999996,
+      "tag": "SELECT set_config('genesis.continuous_cycle',$1,true),set_config('genesis.continuous_lease',$2,true)",
+      "sqlHash": "995c2f6c664f17de817d5b1cefb6578cfa45d0c87790941120f88ac4204e3587",
+      "durationMs": 0.2180830000000924,
+      "processWallMs": 1789991832082,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 190.510333,
+      "tag": "SELECT * FROM genesis_action_intents WHERE id=$1 FOR UPDATE",
+      "sqlHash": "c97dfbdd921e17efda7e48c4029ca5f631d4aa2e69be76877cf27eb7f390a85e",
+      "durationMs": 0.8722500000000082,
+      "processWallMs": 1789991832083,
+      "rows": 0,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 191.176042,
+      "tag": "SELECT state->>'id' AS id FROM genesis_organisms WHERE id='genesis'",
+      "sqlHash": "815595ce8cb80271178c3cb6929d1fe3bed5a586be877c3159628b6297e2db40",
+      "durationMs": 0.28845799999999144,
+      "processWallMs": 1789991832084,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 191.86141700000002,
+      "tag": "INSERT INTO genesis_action_intents(id,organism_id,payload_hash,record) VALUES($1,'genesis',$2,$3)",
+      "sqlHash": "6229f38f993e29ef0a4cd38aecd6d0cbb0d30eadee9a711e33607cb5580be970",
+      "durationMs": 0.679625000000101,
+      "processWallMs": 1789991832085,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 192.22820799999994,
+      "tag": "SELECT * FROM genesis_action_intents WHERE id=$1 FOR UPDATE",
+      "sqlHash": "c97dfbdd921e17efda7e48c4029ca5f631d4aa2e69be76877cf27eb7f390a85e",
+      "durationMs": 0.36120899999991707,
+      "processWallMs": 1789991832085,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 193.344583,
+      "tag": "UPDATE genesis_action_intents SET record=$1,revision=revision+1 WHERE id=$2",
+      "sqlHash": "4f83357ce520a0244ec743ea2d30ee0875de0c1f77dad07067621175041f9c8d",
+      "durationMs": 0.5746670000000904,
+      "processWallMs": 1789991832086,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 193.63849999999996,
+      "tag": "SELECT count(*) n,coalesce(max(cycle),0) m FROM genesis_decisions",
+      "sqlHash": "4c6ee25cdb8603c1db2b144f492831942598e2d62874a7a690f830fe0a096d35",
+      "durationMs": 0.2854170000000522,
+      "processWallMs": 1789991832086,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 195.85529200000002,
+      "tag": "INSERT INTO genesis_decisions(id,cycle,at,record) VALUES($1,$2,$3,$4)",
+      "sqlHash": "73afdfc6c14504f4091c06fe444e5faee12b57d6a1b550c35410567c527842fc",
+      "durationMs": 2.2006670000000668,
+      "processWallMs": 1789991832089,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 196.30479199999996,
+      "tag": "INSERT INTO genesis_life_events(id,organism_id,at,record) VALUES($1,$2,$3,$4)",
+      "sqlHash": "9168d64906a4812f679b63c846f5369a027e155bcc4f6fab02a69a4a74ce262f",
+      "durationMs": 0.4420420000000149,
+      "processWallMs": 1789991832089,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 196.63216700000004,
+      "tag": "UPDATE genesis_life_state SET revision=revision+1,record=$1 WHERE organism_id='genesis'",
+      "sqlHash": "c2311b8b52f42eb2a1797400848e44b8fe90fd163277767b4c32831ec6612ba8",
+      "durationMs": 0.31133299999999053,
+      "processWallMs": 1789991832089,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 199.25837499999994,
+      "tag": "UPDATE genesis_organisms SET state=$1,revision=revision+1,lease=NULL,lease_until='-infinity',phase='idle' WHERE id='genesis'",
+      "sqlHash": "72d6f663967e87e4b2a6e960b123d25da299c99585af55bfe8cca369397bc650",
+      "durationMs": 2.6147079999999505,
+      "processWallMs": 1789991832092,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 199.78229199999993,
+      "tag": "UPDATE genesis_cycle_attempts SET status='committed' WHERE id=$1",
+      "sqlHash": "2d767b10158bfcd965596448778840829f1dd599aa1c775bcd801cbca7cbabf0",
+      "durationMs": 0.5099169999999731,
+      "processWallMs": 1789991832093,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "hook_before_followup",
+      "stage": "commit",
+      "elapsedMs": 199.791583
+    },
+    {
+      "name": "hook_after_followup",
+      "stage": "commit",
+      "elapsedMs": 199.79512499999993
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 200.409833,
+      "tag": "UPDATE genesis_runtime_events SET status='CONSUMED',reason=$2 WHERE id=$1",
+      "sqlHash": "8f4d9831f3807edaf6af0f7d1d0f358d0242ef77f279c75cae95894ce69ad6a6",
+      "durationMs": 0.6100000000000136,
+      "processWallMs": 1789991832093,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 201.16616700000003,
+      "tag": "UPDATE genesis_continuous_attempts SET status='COMMITTED',phase='committed',reserved_micros=0,failure=$2 WHERE cycle_id=$1",
+      "sqlHash": "3d6b7f49cb0283380ff73affa569dbd7bb1c29a0fafb08d5b4af623ab57f2cd0",
+      "durationMs": 0.7510409999999865,
+      "processWallMs": 1789991832094,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 201.54166700000002,
+      "tag": "INSERT INTO genesis_continuous_journal(event_id,scope_id,cycle_id,transition,reason) VALUES($1,$2,$3,'COMMITTED',$4)",
+      "sqlHash": "f47794515d3a87112951295a29e58266205a121d23901f94942c618f23cf431b",
+      "durationMs": 0.36866699999995944,
+      "processWallMs": 1789991832094,
+      "rows": 1,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "db_query",
+      "stage": "commit",
+      "elapsedMs": 202.05370799999997,
+      "tag": "COMMIT",
+      "sqlHash": "79663c1d3b43ceaf9ee728e501c64b57ae2e4d6cb36ff5c65eddcda1de27342f",
+      "durationMs": 0.46620899999993526,
+      "processWallMs": 1789991832095,
+      "rows": null,
+      "clocks": [],
+      "errorCode": null
+    },
+    {
+      "name": "commit_end",
+      "stage": "commit",
+      "elapsedMs": 202.08554199999998
+    },
+    {
+      "name": "hook_after_commit",
+      "stage": "setup",
+      "elapsedMs": 202.08924999999994
+    },
+    {
+      "name": "closure",
+      "stage": "setup",
+      "elapsedMs": 202.11108299999995,
+      "status": "COMMITTED",
+      "reason": null
+    }
+  ],
+  "instrumentation": "Test-only in-memory reducer/policy probes and returned DB clocks; statement total latency includes locks/network/server work, not a pure lock-wait measurement"
+}

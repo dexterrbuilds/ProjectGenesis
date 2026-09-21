@@ -1,0 +1,104 @@
+{
+  "links": [
+    {
+      "id": "alpha1-stimulation-to-sampled-voltage",
+      "classification": "SUPPORTED",
+      "intervention": "MB310C-driven α1 photostimulation",
+      "observation": "negative somatic voltage response in 4/17 broadly labeled cells",
+      "phase": "acute physiology, not learning",
+      "scope": "sampled R64A11 cells",
+      "source": "https://elifesciences.org/articles/85756#fig4",
+      "does_not_establish": "target type, receptor, monosynaptic sign or mediation"
+    },
+    {
+      "id": "alpha1-alpha3-population-interaction",
+      "classification": "SUPPORTED",
+      "intervention": "α1 and α3 coactivation versus α3 activation",
+      "observation": "suppression of population calcium response",
+      "phase": "dissected-brain physiology",
+      "scope": "population ROI; not a cell-resolved current-clamp assay",
+      "source": "https://elifesciences.org/articles/85756#fig4",
+      "does_not_establish": "α1 inhibition during learned recall"
+    },
+    {
+      "id": "conditioning-to-ss67249-response",
+      "classification": "SUPPORTED",
+      "intervention": "odor paired with R58E02-LexA DAN activation",
+      "observation": "paired odor depolarization increases; reciprocal odor training",
+      "phase": "conditioning followed by recall measurement",
+      "scope": "11 source rows in two cohorts; same-row pre/post measurements",
+      "source": "https://elifesciences.org/articles/85756#fig5",
+      "does_not_establish": "α1-specific mediation; β1 reinforcement also possible"
+    },
+    {
+      "id": "alpha1-learning-to-upwin-recall",
+      "classification": "UNRESOLVED",
+      "intervention": null,
+      "observation": null,
+      "phase": "link between separately measured preparations",
+      "scope": "no joint α1-state/identified-UpWiN measurement resolved",
+      "source": "https://elifesciences.org/articles/85756/peer-reviews",
+      "does_not_establish": "disinhibition; reviewer request not satisfied by a new direct α1 inhibition assay"
+    },
+    {
+      "id": "upwin-activation-to-wind-oriented-movement",
+      "classification": "SUPPORTED",
+      "intervention": "SS33917/SS33918 activation",
+      "observation": "wind-related turning and locomotion; airflow/arista/control comparisons",
+      "phase": "acute expression",
+      "scope": "driver populations",
+      "source": "https://elifesciences.org/articles/85756#fig6",
+      "does_not_establish": "individual SMP353/SMP354 causality or a continuous voltage-to-behavior conversion"
+    },
+    {
+      "id": "chronic-blockade",
+      "classification": "PARTIAL",
+      "intervention": "TNT",
+      "observation": "reduced learned behavior including upwind component",
+      "phase": "chronic across acquisition/consolidation/recall/expression",
+      "scope": "UpWiN-driver populations",
+      "source": "https://elifesciences.org/articles/85756#fig7",
+      "does_not_establish": "recall-specific mediation"
+    },
+    {
+      "id": "acute-blockade-binary-memory",
+      "classification": "SUPPORTED",
+      "intervention": "temperature-restricted shibire",
+      "observation": "binary memory performance impairment",
+      "phase": "recall-period test",
+      "scope": "endpoint-specific, temperature-dependent preparation",
+      "source": "https://elifesciences.org/articles/85756#fig7",
+      "does_not_establish": "upwind mediation"
+    },
+    {
+      "id": "acute-blockade-upwind",
+      "classification": "CONTRADICTED",
+      "intervention": "shibire at restrictive temperature",
+      "observation": "required control upwind behavior absent",
+      "phase": "recall-period test",
+      "scope": "claim of successful validation of this endpoint is contradicted; biological role not disproven",
+      "source": "https://elifesciences.org/articles/85756#fig7",
+      "does_not_establish": "a validated upwind endpoint"
+    },
+    {
+      "id": "complete-mediated-chain",
+      "classification": "UNRESOLVED",
+      "intervention": null,
+      "observation": null,
+      "phase": "acquisition through expression",
+      "scope": "no joined identified preparation found",
+      "source": "https://elifesciences.org/articles/85756/peer-reviews",
+      "does_not_establish": "α1 change is necessary/sufficient for recall-related UpWiN change and ensuing steering"
+    }
+  ],
+  "numerical_composition": false,
+  "prior_proof_not_required_for_future_hypothesis_test": true,
+  "phase_boundaries": {
+    "acquisition": "formation during pairing",
+    "consolidation": "post-training stabilization; not isolated by chronic TNT",
+    "recall": "odor-evoked retrieval",
+    "expression": "neural-to-movement contribution; not interchangeable with memory score"
+  },
+  "peer_review_resolution": "Authors allowed α3/other input alternatives and removed disinhibition wording; no new direct α1-inhibition-to-UpWiN experiment supplied in this response.",
+  "missing_evidence_is_not_evidence_of_no_route": true
+}

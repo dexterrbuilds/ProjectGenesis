@@ -1,0 +1,11 @@
+{
+ "id":"GENESIS_FIRST_AWAKENING_V1","version":"1.0.0","authorization":"NOT_AUTHORIZED",
+ "maximumCycles":1,"expectedDecisions":7,"maximumProviderAttempts":1,
+ "maximumCostMicros":50000,"maximumInputTokens":12000,"maximumOutputTokens":1200,
+ "timeoutMs":25000,"leaseMs":60000,"automaticRetries":0,
+ "executionLock":"CLOSED","scheduleEnabled":false,"biologicalMode":"SAVED-OBSERVATION-ONLY",
+ "allowedLocalEffects":["local_reflection","local_artifact"],
+ "allowedOutcomes":["ABSTAIN","DEFER","REQUEST_ASSISTANCE","PROPOSAL"],
+ "forbiddenEffects":["biological_advance","biological_stimulation","neural_step","fly_runtime","wallet_rpc","wallet_signing","transfers","trading","token_launch","clawpump","purchases","hiring","external_message","social_posting","internet","browser_automation","shell","filesystem_execution","unadmitted_external_api","scheduler","second_cycle"],
+ "providerAdmission":"PENDING"
+}

@@ -1,0 +1,37 @@
+{
+  "modified": {
+    "core/v2/contracts.ts": {
+      "before": "11ccc4047134792ee537ed13795a94cec7edab9f1ea9753e3f71c264c31e94b4",
+      "after": "4c0611eb1387d697a39be129d38637987678c68ae38bbeebe9fd3f85c5628490"
+    },
+    "core/v2/context.ts": {
+      "before": "7cb028287e9e112e322fa3562ddd486d09cf14b7fdcb5d640d390b13b09d869f",
+      "after": "eb323ba59ff65b79fcaa4db94eae7d1c7c7df9c6db050954d89b89386d4a117b"
+    },
+    "core/v2/cycle.ts": {
+      "before": "cc8bbf1d137a9ac52118ce5e47f8f22ae71371e557900afc20f478a1f6a24784",
+      "after": "8e7854c59e2b2891bdfb8aa0cbd147b0532428398cc78c101f2c4218f3d5d243"
+    },
+    "server/commit-v2.ts": {
+      "before": "ff2685583c214e235b032bfe514348f8924749f8ee5d95b912885b8a73980b13",
+      "after": "42c6ed4f2d4afa5d95a2144195fdeb4b731c17cba4bdaa24b81359fb7764dba0"
+    },
+    "server/one-shot-spec.ts": {
+      "before": "0b46648532becde8ce0f008970516672eb84edb9169b469f7701a425fd873314",
+      "after": "f3e8bddf657f04cb3466f91fd259a804a8fb66d07a9f2d1f90ae5e203ebf3c0d"
+    },
+    "server/one-shot.ts": {
+      "before": "c3e8b00439b3c773eee88d8382f4c4ef61df931cb8db0bde03c52e6b1fc12fa1",
+      "after": "72ccab1b5d246e9d026113c16ca9c8415c0e54c6bb59e935b12c4a1abc36e6a8"
+    },
+    "server/isolated-cycle.ts": {
+      "before": "320fce69e5da30e02595a41a6ca3f1f3d22f075d49f91864ded18be15659886e",
+      "after": "219a56cf4773cf98511efcc162f1e1d807701916d8e01069cb4d6695efdbe854"
+    }
+  },
+  "added": {
+    "core/v2/memory.ts": "8eb101b5697cb781cbf4ed4c8c883cc8d74854fa938406c3ba91bfa4982d96da",
+    "server/memory-store.ts": "b58d9610e51b81df8a774a7ab1a733fd942ba68c07fc6f74f686cc3db91905eb",
+    "tests/memory-retrieval.test.ts": "eac71cce9bf5765ecdf8f6f18a353aaef48a2de3091b14a36fe251bd57ca3ff7"
+  }
+}

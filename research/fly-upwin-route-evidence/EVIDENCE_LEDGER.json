@@ -1,0 +1,70 @@
+{
+  "spec_registry_sha256": "23efaa1a65cc7fe7ed49c3e17e90f1c9f1bc55ae11cbce77519cfe20eba44f88",
+  "spec_package_sha256": "9322ea0f3c501b6bd29add73464c94b775fb616648801e7f945346776b9bdd0b",
+  "admitted_to_spec": false,
+  "claims": [
+    {
+      "id": "anatomy.starting-route",
+      "category": "BIOLOGICAL FACT",
+      "scope": "pinned proofread chemical-contact graph",
+      "value": 11,
+      "unit": "contacts",
+      "source": "ANATOMY_AUDIT.json",
+      "physiology": null
+    },
+    {
+      "id": "physiology.broad-driver.alpha1",
+      "category": "BIOLOGICAL FACT",
+      "scope": "published current-clamp sample",
+      "responders": 4,
+      "sampled_neurons": 17,
+      "animals_reported": 12,
+      "variable": "baseline-subtracted membrane potential mV",
+      "target_roots": null,
+      "receptor": null,
+      "source": "85756 Fig4B"
+    },
+    {
+      "id": "recall.upwin",
+      "category": "BIOLOGICAL FACT",
+      "scope": "SS67249 sampled cells after broad-PAM conditioning",
+      "source": "MEASUREMENT_AUDIT.json",
+      "alpha1_only_attribution": false
+    },
+    {
+      "id": "disinhibition.route",
+      "category": "HYPOTHESIS",
+      "scope": "alpha1 decrease could disinhibit particular UpWiNs given their background excitation and target sign",
+      "numerical_operator": null,
+      "source": "85756 discussion; 79042 conditional mechanism"
+    },
+    {
+      "id": "action.driver-assay",
+      "category": "BIOLOGICAL FACT",
+      "scope": "population-driver manipulation changes published wind-related kinematics under declared intact-fly conditions",
+      "root_action_operator": null,
+      "source": "85756 Fig6/7"
+    },
+    {
+      "id": "root-sign",
+      "category": "HYPOTHESIS",
+      "scope": "SMP353/SMP354 root-specific alpha1 inhibitory sign not established by current crosswalk",
+      "value": null,
+      "source": "CROSSWALK.json"
+    },
+    {
+      "id": "audit-arithmetic",
+      "category": "ENGINEERING ASSUMPTION",
+      "scope": "exact source numeric means/SEM and graph sums only; unknowns represented as null",
+      "fitted_parameters": []
+    },
+    {
+      "id": "genesis-mapping",
+      "category": "GENESIS PRODUCT MAPPING",
+      "scope": "none authorized",
+      "value": null
+    }
+  ],
+  "canonical_anatomy_ownership": "reference only",
+  "new_neural_operators": []
+}

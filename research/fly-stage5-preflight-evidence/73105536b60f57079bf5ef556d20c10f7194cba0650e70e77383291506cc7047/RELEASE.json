@@ -1,0 +1,25 @@
+{
+  "id": "genesis-stage5-preflight-failure-evidence",
+  "version": "0.1.0",
+  "scientific_results_package": false,
+  "execution_status": "NOT STARTED",
+  "sealed_protocol_content_sha256": "3fef9c2fad9b7b8be982c699299f957395199d811774041a052237efeb78ec3d",
+  "files": {
+    "CANONICAL_AFTER.json": "0c98fed4cf8ebd2b240dd10a24e7321045ed7fdbce04328fc9e4bebc1c0b6cf9",
+    "CANONICAL_BEFORE.json": "0c98fed4cf8ebd2b240dd10a24e7321045ed7fdbce04328fc9e4bebc1c0b6cf9",
+    "COMMAND_RECORD.json": "1893862e4e2c4fc458d2a3618c6572c324eebdddc896c25d78b703c6aebc34bf",
+    "ENVIRONMENT.json": "c609582c62b9f261362b08f524f18059ce930e77fa8bb004fc4ffa47ac4beead",
+    "EXECUTION_STATUS.json": "a762a3461277c96fb101aa5ae89bb443b37be81c3262fb51bbb2c2badf4e3675",
+    "INTEGRITY_BEFORE.json": "75f4590257175b51e891a2aab8b539e5020cdd65fa92d78ca4acaaaf79af7cae",
+    "PREFLIGHT_ERROR_EXPLANATION.json": "1de0b7b332b32340cc0fad51e96e6d00da5e647b8a4bd263b2c5403530bb78a7",
+    "PRESERVATION_AFTER.json": "b357f6dd02aeb22764ec27fe8f01a53dd85eb8bcab48b4c2451050be9fd98d07",
+    "REPORT.md": "7d9943f6c6fd3ca1dcb1ad3fee4c0acfb3f0b3a960217130977729e267869932",
+    "STATIC_VALIDATION.stderr.txt": "168f7dbbf22331b06d1c4c67baaf370666f05fa14c6d3370b0e6fed75a42d416",
+    "STATIC_VALIDATION.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "close_preflight.py": "4967e66f22284d76e97c3508811988600660a6d86bf10d22222abcb6735d83be",
+    "verify_integrity.py": "3e9588978d17e62ac3928c00816c0f951264442f7329137515542d3e00dce0d0"
+  },
+  "content_sha256": "73105536b60f57079bf5ef556d20c10f7194cba0650e70e77383291506cc7047",
+  "hash_definition": "SHA256 compact sorted UTF-8 JSON files map; RELEASE.json excluded to avoid circular hashing",
+  "source_governance_directory": "research/fly-stage5-execution-20260920"
+}

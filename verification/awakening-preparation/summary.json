@@ -1,0 +1,24 @@
+{
+  "tests": {
+    "total": 110,
+    "pass": 110,
+    "fail": 0,
+    "skip": 0,
+    "newActiveProviderTests": 36
+  },
+  "typecheck": "PASS",
+  "lint": "PASS",
+  "productionBuild": "PASS (webpack)",
+  "docker": "BLOCKED_BY_ENVIRONMENT",
+  "targetHost": "UNVERIFIED_NO_LINKED_RAILWAY_PROJECT",
+  "wallet": "UNRESOLVED",
+  "providerLiveCalls": 0,
+  "canonicalCycles": 7,
+  "execution": "CLOSED",
+  "schedule": "DISABLED",
+  "biologicalMode": "SAVED-OBSERVATION-ONLY",
+  "protectedFiles": 9319,
+  "protectedMismatches": 0,
+  "result": "AWAKENING PREPARATION COMPLETE \u2014 BLOCKERS REMAIN",
+  "reviewOnly": true
+}

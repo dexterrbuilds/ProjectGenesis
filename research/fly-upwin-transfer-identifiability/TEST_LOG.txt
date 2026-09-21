@@ -1,0 +1,27 @@
+test_01_preservation (__main__.Audit) ... ok
+test_02_dependencies (__main__.Audit) ... ok
+test_03_canonical (__main__.Audit) ... ok
+test_04_observations_preserved (__main__.Audit) ... ok
+test_05_recall_arithmetic (__main__.Audit) ... ok
+test_06_stage1_ordinal_only (__main__.Audit) ... /Users/mac/Documents/ChatGPT/Project Genesis/research/fly-upwin-transfer-identifiability/validate.py:62: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage1/RESULTS.csv' mode='r' encoding='UTF-8'>
+  raw={r['run']:r for r in csv.DictReader((STAGE1/'RESULTS.csv').open())}
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_07_algebra_sign_and_monotonicity (__main__.Audit) ... ok
+test_08_gain_and_saturation (__main__.Audit) ... ok
+test_09_non_identified_mixture (__main__.Audit) ... ok
+test_10_recall_nullspace (__main__.Audit) ... ok
+test_11_temporal_factorization (__main__.Audit) ... ok
+test_12_every_identified_claim_challenged (__main__.Audit) ... ok
+test_13_matrix (__main__.Audit) ... ok
+test_14_guard (__main__.Audit) ... ok
+test_15_reject_sign_gain_time_promotion (__main__.Audit) ... ok
+test_16_reject_unknown_to_zero (__main__.Audit) ... ok
+test_17_reject_merging_and_units (__main__.Audit) ... ok
+test_18_reject_family_pruning_and_activation (__main__.Audit) ... ok
+test_19_release_if_sealed (__main__.Audit) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 13.440s
+
+OK

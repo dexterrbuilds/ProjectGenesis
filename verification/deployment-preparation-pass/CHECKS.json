@@ -1,0 +1,77 @@
+{
+  "fullSuite": {
+    "status": "FAILED",
+    "total": 533,
+    "passed": 532,
+    "failed": 1,
+    "cancelled": 0,
+    "skipped": 0,
+    "previousCasesRetained": 516,
+    "newDeploymentCases": 17,
+    "newDeploymentCasesPassed": 17,
+    "command": "node --env-file=outputs/runtime-v1/test-db.env --test --test-concurrency=1 tests/*.test.ts",
+    "log": "logs/full-tests.txt",
+    "failure": {
+      "name": "Crash boundary before_claim has atomic local recovery",
+      "file": "tests/continuous-life.test.ts",
+      "expected": "COMMITTED",
+      "actual": "CLOSED_WITH_ERROR",
+      "leaseMs": 250,
+      "plannerTimeoutMs": 100,
+      "cause": "Not established by failing assertion; timing sensitivity indicated, not proven as exclusive cause",
+      "timingLimitsChanged": false
+    }
+  },
+  "targetedRecoveryRerun": {
+    "status": "FAILED",
+    "log": "logs/lease-regression-isolated.txt",
+    "limitation": "A production build was concurrently running; this is not clean isolation evidence"
+  },
+  "diagnosticAfterBuild": {
+    "status": "COMMITTED",
+    "log": "logs/recovery-diagnostic.json",
+    "sameTimeLimits": true,
+    "clearsFullSuiteFailure": false,
+    "limitation": "Single instrumented diagnostic, not a replacement regression suite"
+  },
+  "typescript": {
+    "status": "PASSED",
+    "command": "npm run typecheck",
+    "exitCode": 0,
+    "log": "logs/typecheck.txt"
+  },
+  "eslint": {
+    "status": "PASSED",
+    "command": "npm run lint",
+    "exitCode": 0,
+    "log": "logs/lint.txt"
+  },
+  "webpack": {
+    "status": "PASSED",
+    "command": "npm run build -- --webpack",
+    "log": "logs/build.txt",
+    "environment": "Local .env keys masked; telemetry disabled; no provider or canonical DB access required"
+  },
+  "observerRuntimePostgresE2E": {
+    "status": "PASSED",
+    "evidence": "OBSERVER_E2E.json",
+    "scope": "Actual built Next server + actual runtime main processes + disposable PostgreSQL; HTTP/HTML checks, not graphical browser review"
+  },
+  "docker": {
+    "status": "BLOCKED_BY_ENVIRONMENT",
+    "installed": false,
+    "attemptedInstallation": false
+  },
+  "production": {
+    "deployed": false,
+    "apiAccessed": false,
+    "databaseAccessed": false,
+    "providerSelected": false,
+    "secretsCreated": false
+  },
+  "canonicalAudit": {
+    "status": "PASSED",
+    "evidence": "PRESERVATION.json"
+  },
+  "result": "DEPLOYMENT PREPARATION INCOMPLETE — LOCAL WORK REMAINS"
+}

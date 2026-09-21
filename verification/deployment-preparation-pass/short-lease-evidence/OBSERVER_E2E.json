@@ -1,0 +1,30 @@
+{
+  "fixtureOnly": true,
+  "canonical": false,
+  "realNextProductionBuild": true,
+  "realRuntimeMain": true,
+  "leastPrivilegeReader": true,
+  "runs": [
+    {
+      "freshProcess": 1,
+      "presentation": "dormant landing",
+      "health": 200,
+      "readiness": 200,
+      "pageStatus": 200,
+      "proxyStatus": 404,
+      "rowsUnchanged": true
+    },
+    {
+      "freshProcess": 2,
+      "presentation": "live observer of dormant fixture",
+      "health": 200,
+      "readiness": 200,
+      "pageStatus": 200,
+      "proxyStatus": 200,
+      "rowsUnchanged": true
+    }
+  ],
+  "noAuthority": true,
+  "noProvider": true,
+  "noWorker": true
+}

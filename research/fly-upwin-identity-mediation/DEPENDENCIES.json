@@ -1,0 +1,12 @@
+{
+  "brain_spec_v02_registry_sha256": "23efaa1a65cc7fe7ed49c3e17e90f1c9f1bc55ae11cbce77519cfe20eba44f88",
+  "brain_spec_v02_package_sha256": "9322ea0f3c501b6bd29add73464c94b775fb616648801e7f945346776b9bdd0b",
+  "route_study_content_sha256": "597e6c06bed21fda6ccf62959aacf83fda4aa7adc0f85fcd29453e5ac961f56c",
+  "route_study_release_file_sha256": "8c68fe5ccf43e1e6561509f7846517ce94edce2c534f13af58b88d891d0e602c",
+  "route_study_path": "research/fly-upwin-route-evidence",
+  "prior_classification": "PARTIAL ROUTE SUPPORT \u2014 TARGETED EVIDENCE STILL REQUIRED",
+  "stage5_authorized": false,
+  "neural_simulations": 0,
+  "fitted_parameters": [],
+  "canonical_state_expected_sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312"
+}

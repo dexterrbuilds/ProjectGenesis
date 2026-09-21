@@ -1,0 +1,335 @@
+{
+  "dataset": {
+    "annotations": "v3.1.0",
+    "contacts": 54492922,
+    "dataset": "adult female FAFB",
+    "directed_pairs": 15091983,
+    "extractor_sha256": "051e82eddf73a11762a1c2a1208de43b1d00aa43f5d768380e5bae811a86b961",
+    "materialization": 783,
+    "missing_annotations": [
+      "720575940606792881",
+      "720575940607862706",
+      "720575940613336473",
+      "720575940613437206",
+      "720575940619169349",
+      "720575940623450077",
+      "720575940623913933",
+      "720575940625523749",
+      "720575940626741265",
+      "720575940628159081",
+      "720575940633242449",
+      "720575940636488667",
+      "720575940639387763",
+      "720575940642560987"
+    ],
+    "neurons": 139255,
+    "neuropil_rows": 16847997,
+    "peak_rss_bytes": 1398931456,
+    "plan_sha256": "6f5b62b26538c7f10d084044088abb1a1377946c0a8559479dcb0194a0d172c1",
+    "source_hashes": {
+      "annotations-v3.1.0.tsv": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+      "proofread_connections_783.feather": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf",
+      "proofread_root_ids_783.npy": "7c7b7e818e9232e5ab64793d52ba20574dbe9da3a6509fbc74193b0f259a01be"
+    },
+    "wall_seconds": 23.72897829199792
+  },
+  "roots": [
+    {
+      "root_id": "720575940617302365",
+      "cell_type": "MBON07",
+      "hemibrain_type": "MBON07",
+      "side": "left",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": null,
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "source-class supported",
+      "annotation_transmitter": "glutamate; glutamate",
+      "predicted_transmitter": "glutamate",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940623381956",
+      "cell_type": "MBON07",
+      "hemibrain_type": "MBON07",
+      "side": "right",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": null,
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "source-class supported",
+      "annotation_transmitter": "glutamate; glutamate",
+      "predicted_transmitter": "glutamate",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940628783363",
+      "cell_type": "MBON07",
+      "hemibrain_type": "MBON07",
+      "side": "right",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": null,
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "source-class supported",
+      "annotation_transmitter": "glutamate; glutamate",
+      "predicted_transmitter": "glutamate",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940652390134",
+      "cell_type": "MBON07",
+      "hemibrain_type": "MBON07",
+      "side": "left",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": null,
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "source-class supported",
+      "annotation_transmitter": "glutamate; glutamate",
+      "predicted_transmitter": "glutamate",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940608236978",
+      "cell_type": "SMP353",
+      "hemibrain_type": "SMP353",
+      "side": "left",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": [
+        "424443911"
+      ],
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "type/morphology candidate only; physiological individual unresolved",
+      "annotation_transmitter": "gaba-negative",
+      "predicted_transmitter": "acetylcholine",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940633583712",
+      "cell_type": "SMP353",
+      "hemibrain_type": "SMP353",
+      "side": "right",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": [
+        "424443911"
+      ],
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "type/morphology candidate only; physiological individual unresolved",
+      "annotation_transmitter": "gaba-negative",
+      "predicted_transmitter": "acetylcholine",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940612685777",
+      "cell_type": "CB3112",
+      "hemibrain_type": "SMP354",
+      "side": "left",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": [
+        "389307767",
+        "390003153",
+        "5813010748"
+      ],
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "type/morphology candidate only; physiological individual unresolved",
+      "annotation_transmitter": "gaba-negative",
+      "predicted_transmitter": "acetylcholine",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940618078331",
+      "cell_type": "CB3112",
+      "hemibrain_type": "SMP354",
+      "side": "right",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": [
+        "389307767",
+        "390003153",
+        "5813010748"
+      ],
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "type/morphology candidate only; physiological individual unresolved",
+      "annotation_transmitter": "gaba-negative",
+      "predicted_transmitter": "acetylcholine",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940626385182",
+      "cell_type": "CB3112",
+      "hemibrain_type": "SMP354",
+      "side": "right",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": [
+        "389307767",
+        "390003153",
+        "5813010748"
+      ],
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "type/morphology candidate only; physiological individual unresolved",
+      "annotation_transmitter": "gaba-negative",
+      "predicted_transmitter": "acetylcholine",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940626889765",
+      "cell_type": "CB3112",
+      "hemibrain_type": "SMP354",
+      "side": "left",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": [
+        "389307767",
+        "390003153",
+        "5813010748"
+      ],
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "type/morphology candidate only; physiological individual unresolved",
+      "annotation_transmitter": "gaba-negative",
+      "predicted_transmitter": "acetylcholine",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940631455084",
+      "cell_type": "CB3112",
+      "hemibrain_type": "SMP354",
+      "side": "left",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": [
+        "389307767",
+        "390003153",
+        "5813010748"
+      ],
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "type/morphology candidate only; physiological individual unresolved",
+      "annotation_transmitter": "gaba-negative",
+      "predicted_transmitter": "acetylcholine",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940644613172",
+      "cell_type": "CB3112",
+      "hemibrain_type": "SMP354",
+      "side": "right",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": [
+        "389307767",
+        "390003153",
+        "5813010748"
+      ],
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "type/morphology candidate only; physiological individual unresolved",
+      "annotation_transmitter": "gaba-negative",
+      "predicted_transmitter": "acetylcholine",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940621457690",
+      "cell_type": "SMP108",
+      "hemibrain_type": "SMP108",
+      "side": "right",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": [
+        "298258513",
+        "361445621"
+      ],
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "type/morphology candidate only; physiological individual unresolved",
+      "annotation_transmitter": "",
+      "predicted_transmitter": "acetylcholine",
+      "sign_not_inferred_from_transmitter": true
+    },
+    {
+      "root_id": "720575940631103744",
+      "cell_type": "SMP108",
+      "hemibrain_type": "SMP108",
+      "side": "left",
+      "anatomical_identity_confidence": "pinned annotation; no new morphology registration performed",
+      "candidate_hemibrain_body_ids": [
+        "298258513",
+        "361445621"
+      ],
+      "one_to_one_hemibrain_body_id": null,
+      "driver_membership": null,
+      "recorded_cell_identity": null,
+      "receptor": null,
+      "target_specific_sign": null,
+      "functional_crosswalk_confidence": "type/morphology candidate only; physiological individual unresolved",
+      "annotation_transmitter": "",
+      "predicted_transmitter": "acetylcholine",
+      "sign_not_inferred_from_transmitter": true
+    }
+  ],
+  "hemibrain_body_ids_source": "85756 Figure3-supplement1 image (manually inspected) and 79042 Supplement1 K172/K191/K5",
+  "hemibrain_other_broad_driver_candidates": {
+    "SLP399": [
+      "266187559",
+      "481731074"
+    ],
+    "SMP348": [
+      "298591130",
+      "5813039910"
+    ],
+    "SLP400": [
+      "296199149",
+      "326886609",
+      "484134987"
+    ]
+  },
+  "SMP354_alias_evidence": "v3.1.0 annotation carries cell_type CB3112 and hemibrain_type SMP354 on six roots; this is an anatomical annotation alias, not physiological driver equivalence",
+  "driver_cautions": [
+    "SS33917 anatomy and behavior; prose SS33197 discrepancy remains",
+    "R64A11-LexA is broader than the split driver; 17 recordings are not 17 identified SMP353/SMP354 roots",
+    "SS67249 stochastic one-to-three-cell subset, includes a morphology resembling SMP353 and off-target cells; not suitable for the published behavioral experiments"
+  ],
+  "local_sites": "Exact starting edge: 4 SMP_L and 7 SLP_L contacts. No per-contact xyz or registered electrical compartment assignment in aggregate graph. Paper hemibrain morphology is separate evidence.",
+  "root_ownership": "References only to canonical pinned nodes/anatomy; no new synapse ownership",
+  "hemisphere_transfer": "Published hemibrain analysis uses right hemisphere; starting FAFB pair left. Matching cell class does not identify a physiological homolog or transfer a gain."
+}

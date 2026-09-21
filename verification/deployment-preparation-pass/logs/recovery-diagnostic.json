@@ -1,0 +1,48 @@
+{
+  "diagnosticOnly": true,
+  "status": "COMMITTED",
+  "reason": null,
+  "phases": [
+    {
+      "phase": "before_claim",
+      "elapsedMs": 0.03779199999996763
+    },
+    {
+      "phase": "after_claim",
+      "elapsedMs": 29.414041999999995
+    },
+    {
+      "phase": "before_planner",
+      "elapsedMs": 150.285167
+    },
+    {
+      "phase": "after_planner",
+      "elapsedMs": 187.59966699999995
+    },
+    {
+      "phase": "before_policy",
+      "elapsedMs": 198.8125
+    },
+    {
+      "phase": "after_policy",
+      "elapsedMs": 214.28895899999998
+    },
+    {
+      "phase": "before_commit",
+      "elapsedMs": 237.32341699999995
+    },
+    {
+      "phase": "before_followup",
+      "elapsedMs": 271.509042
+    },
+    {
+      "phase": "after_followup",
+      "elapsedMs": 271.520584
+    },
+    {
+      "phase": "after_commit",
+      "elapsedMs": 273.8375
+    }
+  ],
+  "elapsedMs": 273.89033399999994
+}

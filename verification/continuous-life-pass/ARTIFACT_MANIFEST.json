@@ -1,0 +1,17 @@
+{
+  "digestDefinition": "SHA-256 of compact sorted UTF-8 JSON relative-path to file-SHA256 map; manifest excludes itself",
+  "files": {
+    "CONTINUOUS_LIFE_REPORT.md": "4e2439ce5af6eecbd06a3a932de907d19b6d670ab708fbb17ace32e3b4114fe2",
+    "build.txt": "ac5c7b6fdb0a6837a3cdf9e6a49814e0cf8a1ca8c79b0c87a956b00df8383d9d",
+    "checks.json": "af95130a05cb3d6845ea82da519431bb0e5198e361f3a1fdcea478e21b9d246f",
+    "full-tests.txt": "bdec7525c16977b37987d30a962e9004c3f5e8d06c827f4c2aa691fbe32638e8",
+    "lint.txt": "01a448f5176ec0decb011933eb27354f58d96ad06049f9418f5a112a23b45a6f",
+    "long-run.json": "8a4f56fa80d7b2c43889bfe50edaeb0e4476c5cda39679ead177313e2c9b6b4a",
+    "preservation-check.py": "7164027a21a09b6d91a808af39388be2a0ab3e820d46ce253a670761478f9768",
+    "preservation.json": "cc549bd773ddf2ca0aaf859ad21d79d2c66f05983b58ae6f0706100c028c8ed1",
+    "source-changes.json": "c6ac5da92ea64165fd9e7d3a5606f87d49bd724900a8d93eb5c3027bbefb0afb",
+    "typecheck-build-overlap.txt": "ceadf470f540f57924af816be197052764b025a7a7ba262b567f0a84540ff8c9",
+    "typecheck.txt": "c3a4984e39ca90092b12f60776cde004ced3e82b73efb8a6f5d01ec01d9617b7"
+  },
+  "contentSha256": "f88e624a1521e2262f914af1f9390e8673e5118baeddc4a6e705ebc05c0d02cf"
+}

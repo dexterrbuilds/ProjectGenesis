@@ -1,0 +1,28 @@
+{
+  "tests": {
+    "total": 150,
+    "passed": 150,
+    "failed": 0,
+    "skipped": 0,
+    "newOneShot": 40
+  },
+  "typecheck": "PASS",
+  "lint": "PASS",
+  "frontendBuild": "PASS (webpack)",
+  "canonicalDigest": "4c5f33972c6212a24fe5386b9c5c499df94ddbfebd2a26639333566604e56220",
+  "canonicalDecisions": 7,
+  "canonicalV2Cycles": 0,
+  "execution": "CLOSED",
+  "schedule": "DISABLED",
+  "biology": "SAVED-OBSERVATION-ONLY",
+  "liveProviderCalls": 0,
+  "walletActions": 0,
+  "externalCommunications": 0,
+  "canonicalMigrationsApplied": 0,
+  "providerAdmission": "PENDING",
+  "walletIdentity": "UNRESOLVED",
+  "humanReview": "PENDING",
+  "docker": "BLOCKED_BY_ENVIRONMENT",
+  "targetHost": "BLOCKED_PENDING_OPERATOR_TARGET",
+  "classification": "FINAL PRE-AWAKENING CONTROLS IMPLEMENTED \u2014 BLOCKERS REMAIN"
+}

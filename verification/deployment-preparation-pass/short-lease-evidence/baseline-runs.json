@@ -1,0 +1,52 @@
+[
+  {
+    "run": 1,
+    "exitCode": 0,
+    "elapsedMs": 1661.3051669999998
+  },
+  {
+    "run": 2,
+    "exitCode": 0,
+    "elapsedMs": 1232.0004159999999
+  },
+  {
+    "run": 3,
+    "exitCode": 0,
+    "elapsedMs": 978.6768330000002
+  },
+  {
+    "run": 4,
+    "exitCode": 0,
+    "elapsedMs": 968.7243330000003
+  },
+  {
+    "run": 5,
+    "exitCode": 0,
+    "elapsedMs": 1001.3784170000006
+  },
+  {
+    "run": 6,
+    "exitCode": 0,
+    "elapsedMs": 1135.4029170000003
+  },
+  {
+    "run": 7,
+    "exitCode": 1,
+    "elapsedMs": 1339.524917000001
+  },
+  {
+    "run": 8,
+    "exitCode": 0,
+    "elapsedMs": 1409.9070420000003
+  },
+  {
+    "run": 9,
+    "exitCode": 0,
+    "elapsedMs": 1183.5339999999999
+  },
+  {
+    "run": 10,
+    "exitCode": 0,
+    "elapsedMs": 1022.635042000001
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "integrity_record": "INTEGRITY_BEFORE-V3.json",
+  "authoritative_record": "AUTHORITATIVE_VERIFICATION.json",
+  "static_tests_passed": 17,
+  "canonical_matches_frozen": true,
+  "stage1_summary_values_read": false,
+  "attempt1_unchanged": true,
+  "no_previous_scientific_results": true,
+  "analysis_code_sha256": "c80420e927e24cc0d4180372f0377b28e9961c0bbbb98119265e8f04b181ec69",
+  "sealed_release_hash": "3fef9c2fad9b7b8be982c699299f957395199d811774041a052237efeb78ec3d",
+  "timestamp_utc": "2026-09-20T12:01:25.265028+00:00"
+}

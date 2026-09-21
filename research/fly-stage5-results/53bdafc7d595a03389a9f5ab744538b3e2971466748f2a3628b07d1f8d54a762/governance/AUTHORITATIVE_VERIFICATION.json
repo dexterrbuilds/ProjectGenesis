@@ -1,0 +1,91 @@
+{
+  "records": [
+    {
+      "name": "brain-spec-package",
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "research/genesis-brain-spec-v0.2/check.py",
+        "--package-only"
+      ],
+      "cwd": "/Users/mac/Documents/ChatGPT/Project Genesis",
+      "start_utc": "2026-09-20T11:59:50.548982+00:00",
+      "end_utc": "2026-09-20T11:59:50.624441+00:00",
+      "exit_code": 0,
+      "env_override": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "stdout_sha256": "4e56d981b8ba5c4d1b0d4442d65f713cefd53c5772af2be42bc302311102ea3f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "route-release",
+      "argv": [
+        "/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "research/fly-upwin-route-evidence/validate.py",
+        "Audit.test_15_release_if_present"
+      ],
+      "cwd": "/Users/mac/Documents/ChatGPT/Project Genesis",
+      "start_utc": "2026-09-20T11:59:50.624972+00:00",
+      "end_utc": "2026-09-20T11:59:50.984521+00:00",
+      "exit_code": 0,
+      "env_override": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "da7850f7929ce6924b1b46b23a02d430f402a9a9a538d9b32e5edd32796dff83"
+    },
+    {
+      "name": "identity-release",
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "research/fly-upwin-identity-mediation/validate.py",
+        "Audit.test_18_release_if_published"
+      ],
+      "cwd": "/Users/mac/Documents/ChatGPT/Project Genesis",
+      "start_utc": "2026-09-20T11:59:50.985028+00:00",
+      "end_utc": "2026-09-20T11:59:51.144719+00:00",
+      "exit_code": 0,
+      "env_override": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "85e194fe99963cb2f6f62ef96a779d9ec2e063292ea1d2ceffc81f05b4cf3a2a"
+    },
+    {
+      "name": "identifiability-release",
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "research/fly-upwin-transfer-identifiability/validate.py",
+        "Audit.test_19_release_if_sealed"
+      ],
+      "cwd": "/Users/mac/Documents/ChatGPT/Project Genesis",
+      "start_utc": "2026-09-20T11:59:51.145168+00:00",
+      "end_utc": "2026-09-20T11:59:51.218689+00:00",
+      "exit_code": 0,
+      "env_override": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "90e8952fab64e8a507c27d23a6d9b810f10bb9c7041c32aa522c9146f431ae3e"
+    },
+    {
+      "name": "sealed-static-suite",
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "research/fly-stage5-protocol-v0.1/validate_design.py"
+      ],
+      "cwd": "/Users/mac/Documents/ChatGPT/Project Genesis",
+      "start_utc": "2026-09-20T11:59:51.219189+00:00",
+      "end_utc": "2026-09-20T12:00:04.111878+00:00",
+      "exit_code": 0,
+      "env_override": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "ef07bb0e9b26797070b2b945b01247f1383789a9da98d68b4fb90c7e4f16870f"
+    }
+  ],
+  "passed": true,
+  "source_summary_values_read": false,
+  "stage1_verification": "All evidence payload and selected source hashes via corrected checker; no Stage-1 computational test executed."
+}

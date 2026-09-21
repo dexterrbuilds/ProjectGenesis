@@ -1,0 +1,113 @@
+Begin an isolated α1 → UpWiN Identity and Mediation Resolution Study.
+This is the final targeted evidence-resolution step before deciding whether Stage 5 can be prospectively designed.
+Stage 5 remains unauthorized.
+Do not simulate neural dynamics.
+ Do not fit transmission parameters.
+ Do not create an action decoder.
+ Do not integrate Genesis.
+ Do not modify Brain Spec v0.2.
+ Do not reinterpret population evidence as root-specific evidence.
+Preserve the completed α1/MBON07 → UpWind Neural Route Evidence Acquisition Study and all prior packages.
+Determine whether currently available independent evidence can resolve enough of:
+modeled α1/MBON07 source
+ → identified UpWiN anatomical target
+ → measured physiological target
+ → learning-associated downstream response
+ → narrow action-related biological quantity
+to permit a prospective Stage-5 experiment.
+This study must attempt to resolve missing identities and mediation evidence, not construct a numerical pathway from incompatible observations.
+Focus first on the four α1-responsive cells from the Figure-4 current-clamp experiment.
+Search the original article, supplements, source files, microscopy/morphology assets, deposited datasets, driver documentation and associated repositories for evidence capable of identifying those responders as:
+-  SMP353, 
+-  SMP354, 
+-  another UpWiN type, 
+-  or unresolved. 
+Determine whether morphology, recording location, driver intersection, image metadata or another independent identifier permits a defensible type-level mapping.
+Do not infer identity merely from the fact that SMP353/SMP354 are anatomically connected to α1.
+If individual identity cannot be recovered, state that explicitly.
+Independently investigate the SS67249 cells used in the conditioning/recall experiment.
+Determine what evidence exists for:
+-  SMP353 membership, 
+-  SMP354 membership, 
+-  β1-associated/off-target cells, 
+-  stochastic driver composition, 
+-  cell-by-cell morphology, 
+-  recording identity across pre/post measurements. 
+Preserve uncertainty at individual-cell level.
+Do not equate “cell resembling SMP353” with identified SMP353 unless the evidence supports that classification.
+Audit R64A11, SS67249 and other relevant drivers against available morphology/connectome resources.
+Establish the narrowest defensible relationship between:
+experimental driver population
+and
+SMP353/SMP354/other candidate connectome types.
+Classify every mapping:
+IDENTIFIED
+TYPE-COMPATIBLE
+POSSIBLE
+UNRESOLVED
+No physiological result may inherit greater anatomical resolution than its driver/cell evidence permits.
+Search specifically for evidence concerning transmission from MBON-α1 onto SMP353/SMP354 or whichever UpWiN types survive the identity audit.
+Prioritize:
+-  paired recordings; 
+-  receptor localization; 
+-  target-specific transcriptomics; 
+-  synapse-local receptor evidence; 
+-  optogenetic/electrophysiological measurements with identified targets; 
+-  pharmacological/genetic receptor perturbation; 
+-  independently validated neurotransmitter/receptor combinations. 
+Separate:
+presynaptic transmitter identity
+from
+postsynaptic receptor identity
+from
+observed physiological sign.
+Glutamatergic MBON identity alone must not establish inhibition.
+If target-specific sign cannot be resolved, leave it unresolved.
+Determine whether any existing experiment jointly constrains more than one link in:
+α1 learning change
+ → UpWiN response
+ → wind-oriented behavioral change.
+Search for experiments involving simultaneous recording/manipulation, pathway-specific blockade, temporally restricted intervention, or other mediation-relevant designs.
+Distinguish:
+-  acquisition, 
+-  consolidation, 
+-  recall, 
+-  downstream expression. 
+Chronic TNT must not be treated as recall-specific mediation.
+Acute shibire must not be treated as validation of an upwind endpoint when the required control behavior was absent.
+Investigate whether additional authoritative deposits contain:
+-  trial-level Figure-4 voltage recordings; 
+-  individual Figure-4 cell morphology; 
+-  raw Figure-5 trials; 
+-  ROI masks; 
+-  original event markers; 
+-  analysis scripts; 
+-  animal/cell identifiers; 
+-  behavioral tracks with persistent recording identity. 
+Do not reconstruct fictitious trials from means/SEM.
+Do not create fly identities from row order.
+Explicitly evaluate whether a future Stage-5 experiment could be scientifically valid at:
+1.  individual-root resolution, 
+2.  cell-type resolution, 
+3.  experimentally defined driver-population resolution. 
+Do not automatically reject Stage 5 merely because individual FAFB roots cannot be matched to experimental animals.
+However, specify what claim each resolution would permit.
+A population-level Stage-5 experiment must not later be described as root-specific biological propagation.
+Re-evaluate the existing ten readiness requirements.
+For every requirement classify:
+SUPPORTED
+PARTIAL
+UNRESOLVED
+CONTRADICTED
+Then answer separately:
+Is root-level Stage 5 design justified?
+Is type-level Stage 5 design justified?
+Is driver-population-level Stage 5 design justified?
+This distinction is important: lack of one-to-one root identity should not force us either to fabricate identity or abandon a legitimate population-level experiment.
+Finish with exactly one overall decision:
+READY FOR STAGE-5 PROSPECTIVE DESIGN
+READY ONLY AT EXPLICIT POPULATION/TYPE RESOLUTION
+PARTIAL ROUTE SUPPORT — TARGETED EVIDENCE STILL REQUIRED
+ROUTE NOT SUPPORTED
+Do not automatically design Stage 5 after reaching the decision.
+Stop for review.

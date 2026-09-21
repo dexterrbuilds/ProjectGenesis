@@ -1,0 +1,606 @@
+{
+  "source_files": {
+    "research/fly-upwin-route-evidence/MEASUREMENT_AUDIT.json": "a69bfcbce029513f78cbd6087427fbd08a0c1748a91ee0b436be5b966367aba9",
+    "research/fly-upwin-route-evidence/ALPHA1_CONDITIONING_AUDIT.json": "42deb2f3845a735ad0ed3a821e11ae8773a1e5418e3cb2e34bdd6de0d60466eb",
+    "research/fly-upwin-identity-mediation/TRANSMISSION.json": "645abe01d9275d128f70ba96a875e6e590e3740906e393079d10635342f20ef6",
+    "research/fly-stage1/RESULTS.csv": "8b16f37eaa595d0569e8888ac306a68eb0fb58c2265c27bd278dd723acc8619a"
+  },
+  "acute": {
+    "file": "elife-85756-fig4-data2-v3.xlsx",
+    "paper_animals": 12,
+    "paper_neurons": 17,
+    "responders": 4,
+    "nonresponders": 13,
+    "source_group_color": "Orange",
+    "caption_color": "green",
+    "color_discrepancy_unresolved": true,
+    "time_seconds_first": 0.0001,
+    "time_seconds_last": 1.5001,
+    "sample_interval_seconds": 9.999999999998899e-05,
+    "onset_from_workbook": null,
+    "baseline_window_from_workbook": null,
+    "units": "baseline-subtracted membrane potential mV",
+    "response_metric_not_inferred_from_trace_extrema": true,
+    "traces": [
+      {
+        "column": "B",
+        "source_label": [
+          "Baseline-subtracted membrane potentials (mV)",
+          "Gray",
+          "Fly1"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.313411576480611,
+        "max_mV_full_trace": 0.60377278196728,
+        "mean_mV_full_trace": 0.0020056649582688648,
+        "numeric_sha256": "208eb9bea142401cb0cee00185669c9bf0b055e1145b6d6ee5b6c52864fcbc48"
+      },
+      {
+        "column": "C",
+        "source_label": [
+          "Fly2"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.682789725043541,
+        "max_mV_full_trace": 0.489939598847833,
+        "mean_mV_full_trace": -0.19725196449674068,
+        "numeric_sha256": "a3e249e1f775758ebc59f829d91d2b51310188f0f8e3005d6f4300204e91dac3"
+      },
+      {
+        "column": "D",
+        "source_label": [
+          "Fly3"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.588839291633164,
+        "max_mV_full_trace": 0.341890050831779,
+        "mean_mV_full_trace": -0.1497331567947334,
+        "numeric_sha256": "ce970f3b4fdeb66fa023abc5de0c345ed4ff1575f995803812e4478f4d6c0198"
+      },
+      {
+        "column": "E",
+        "source_label": [
+          "Fly4"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.568801137782252,
+        "max_mV_full_trace": 0.282552197402978,
+        "mean_mV_full_trace": -0.07902105865565698,
+        "numeric_sha256": "8fbc6235a59b4fbea2dc60fafa0eba9532be83e2895fb5d099b88e03ad32236f"
+      },
+      {
+        "column": "F",
+        "source_label": [
+          "Fly5"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.965488911233045,
+        "max_mV_full_trace": 0.785260892729333,
+        "mean_mV_full_trace": 0.016702422261419818,
+        "numeric_sha256": "b732894b12b98b384a0c5c771da441acf350167a9b1d9c04a0674d51ab4d43eb"
+      },
+      {
+        "column": "G",
+        "source_label": [
+          "Fly6"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.265227085886991,
+        "max_mV_full_trace": 0.38291030631116,
+        "mean_mV_full_trace": 0.08291824618330304,
+        "numeric_sha256": "3d2736157d9dfa69e11d7bd9ac555261efbda29f643e1d9b71f1bea33369578e"
+      },
+      {
+        "column": "H",
+        "source_label": [
+          "Fly7"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.680471345677518,
+        "max_mV_full_trace": 0.195440464800136,
+        "mean_mV_full_trace": -0.19045783297042881,
+        "numeric_sha256": "2df390339544164820e9e9421451d74ff4404932fcacbfdc07a879159895a5b7"
+      },
+      {
+        "column": "I",
+        "source_label": [
+          "Fly8"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.357718021088878,
+        "max_mV_full_trace": 0.168097436576161,
+        "mean_mV_full_trace": -0.09138088626255818,
+        "numeric_sha256": "ddbd7e46156e170e304a71beaa32fd4387ed00b9f14198ee471bf259eb2f252d"
+      },
+      {
+        "column": "J",
+        "source_label": [
+          "Fly9"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.525659827011758,
+        "max_mV_full_trace": 0.772530525384759,
+        "mean_mV_full_trace": 0.17846997428980962,
+        "numeric_sha256": "ada1688b105986b55bf5c1ecea90b51ed78fa3bb79cf35dda4483d0c737ebf45"
+      },
+      {
+        "column": "K",
+        "source_label": [
+          "Fly10"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.364554108639297,
+        "max_mV_full_trace": 0.756235348702617,
+        "mean_mV_full_trace": 0.28743337152173865,
+        "numeric_sha256": "3baffe09e387d566b4bc7299723c1f356dfd7a7aa8b2992f9cc81bf35202a9ae"
+      },
+      {
+        "column": "L",
+        "source_label": [
+          "Fly11"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -1.50325067657825,
+        "max_mV_full_trace": 1.32339970195374,
+        "mean_mV_full_trace": -0.33943888694031554,
+        "numeric_sha256": "e925ba2b38a1a9da234afb7722b966e5d323ad55bf889446b5f98f890e39de7b"
+      },
+      {
+        "column": "M",
+        "source_label": [
+          "Fly12"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -0.262406879219718,
+        "max_mV_full_trace": 0.776785823874874,
+        "mean_mV_full_trace": 0.24416056170578468,
+        "numeric_sha256": "c92030b5f893ba2f6954613b39b53e471a5b4bdb6bcc24e697a07fb3eac3d123"
+      },
+      {
+        "column": "N",
+        "source_label": [
+          "Fly13"
+        ],
+        "source_group": "Gray",
+        "paper_responder": false,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -1.08877955483754,
+        "max_mV_full_trace": 1.79389683714484,
+        "mean_mV_full_trace": -0.06551681360310294,
+        "numeric_sha256": "a7aafd9596eb634ee2778fcb0b57f63e11dbc66dca8e2d201eae1bb6ddf6f340"
+      },
+      {
+        "column": "P",
+        "source_label": [
+          "Orange",
+          "Fly1"
+        ],
+        "source_group": "Orange",
+        "paper_responder": true,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -3.590462301626,
+        "max_mV_full_trace": 0.0942057450313669,
+        "mean_mV_full_trace": -1.7009872140691737,
+        "numeric_sha256": "b8813ffd6248c26547c0b072002ebc09610641d11b2072ebecd4058e20bc7477"
+      },
+      {
+        "column": "Q",
+        "source_label": [
+          "Fly2"
+        ],
+        "source_group": "Orange",
+        "paper_responder": true,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -1.20114927869938,
+        "max_mV_full_trace": 0.115203229907848,
+        "mean_mV_full_trace": -0.573445398392439,
+        "numeric_sha256": "cac96df7f9c030fe7525120a43dbad1ad727a0b889ca3bc0c34366fcd16caec5"
+      },
+      {
+        "column": "R",
+        "source_label": [
+          "Fly3"
+        ],
+        "source_group": "Orange",
+        "paper_responder": true,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -4.24058330327885,
+        "max_mV_full_trace": 0.0712158249833692,
+        "mean_mV_full_trace": -1.6186913550728617,
+        "numeric_sha256": "1cbe8e7e62128a2d0d16542d205e29d2f8fa614ec748315a013f8ed604c64048"
+      },
+      {
+        "column": "S",
+        "source_label": [
+          "Fly4"
+        ],
+        "source_group": "Orange",
+        "paper_responder": true,
+        "animal_id": null,
+        "cell_id": null,
+        "n_samples": 15001,
+        "min_mV_full_trace": -2.57101269432397,
+        "max_mV_full_trace": 0.453969410359441,
+        "mean_mV_full_trace": -0.9271603184806215,
+        "numeric_sha256": "fae11b690762e75d15bdf9b24fbd1f6d200b0559b34efee8781ce3c12d5d26d8"
+      }
+    ]
+  },
+  "observed_detection_fraction": {
+    "numerator": 4,
+    "denominator": 17,
+    "value": 0.23529411764705882,
+    "reported_flies": 12,
+    "population_interval": null,
+    "reason": "Finite sample label fraction only; sampling and clustering are not identified."
+  },
+  "recall": [
+    {
+      "file": "elife-85756-fig5-data3-v3.xlsx",
+      "paired_odor": "OCT",
+      "units": "baseline-subtracted membrane potential mV",
+      "window": "mean 0–1.2 s after odor onset (article Methods)",
+      "rows": [
+        {
+          "source_row": 5,
+          "source_label": "Fly1",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 6.247965876443807,
+          "control_change_mV": 2.403308701226881,
+          "within_row_difference_of_changes_mV": 3.844657175216926
+        },
+        {
+          "source_row": 6,
+          "source_label": "Fly2",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 2.4098387092615594,
+          "control_change_mV": 0.46012969171699014,
+          "within_row_difference_of_changes_mV": 1.9497090175445693
+        },
+        {
+          "source_row": 7,
+          "source_label": "Fly3",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 1.038744498188589,
+          "control_change_mV": -1.8361953900680699,
+          "within_row_difference_of_changes_mV": 2.874939888256659
+        },
+        {
+          "source_row": 8,
+          "source_label": "Fly4",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 3.363965466364939,
+          "control_change_mV": -0.6364605131228569,
+          "within_row_difference_of_changes_mV": 4.000425979487796
+        },
+        {
+          "source_row": 9,
+          "source_label": "Fly5",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 2.3203873034418603,
+          "control_change_mV": -0.99232636817532,
+          "within_row_difference_of_changes_mV": 3.31271367161718
+        },
+        {
+          "source_row": 10,
+          "source_label": "Fly6",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 3.144111250353982,
+          "control_change_mV": 1.162211486058498,
+          "within_row_difference_of_changes_mV": 1.981899764295484
+        }
+      ],
+      "paired_change": {
+        "n": 6,
+        "mean": 3.087502184009123,
+        "min": 1.038744498188589,
+        "max": 6.247965876443807,
+        "sample_sem": 0.7144524328529424
+      },
+      "control_change": {
+        "n": 6,
+        "mean": 0.09344460127268706,
+        "min": -1.8361953900680699,
+        "max": 2.403308701226881,
+        "sample_sem": 0.6337024364827314
+      },
+      "difference_of_changes": {
+        "n": 6,
+        "mean": 2.9940575827364357,
+        "min": 1.9497090175445693,
+        "max": 4.000425979487796,
+        "sample_sem": 0.3636461246815043
+      },
+      "uncertainty_scope": "SEM is descriptive across source rows, not a new fly-independent CI or causal-transfer estimate."
+    },
+    {
+      "file": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "paired_odor": "MCH",
+      "units": "baseline-subtracted membrane potential mV",
+      "window": "mean 0–1.2 s after odor onset (article Methods)",
+      "rows": [
+        {
+          "source_row": 5,
+          "source_label": "Fly1",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 2.8062593660890998,
+          "control_change_mV": 0.8173206477496198,
+          "within_row_difference_of_changes_mV": 1.98893871833948
+        },
+        {
+          "source_row": 6,
+          "source_label": "Fly2",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 2.5903707515988197,
+          "control_change_mV": 1.6419926045149598,
+          "within_row_difference_of_changes_mV": 0.9483781470838599
+        },
+        {
+          "source_row": 7,
+          "source_label": "Fly3",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 1.9947967280475498,
+          "control_change_mV": 0.11669944657520981,
+          "within_row_difference_of_changes_mV": 1.87809728147234
+        },
+        {
+          "source_row": 8,
+          "source_label": "Fly4",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 2.37378860209978,
+          "control_change_mV": -1.3299418303380701,
+          "within_row_difference_of_changes_mV": 3.70373043243785
+        },
+        {
+          "source_row": 9,
+          "source_label": "Fly5",
+          "animal_id": null,
+          "recording_id": null,
+          "paired_change_mV": 1.90479979609911,
+          "control_change_mV": 1.0429676827720749,
+          "within_row_difference_of_changes_mV": 0.8618321133270352
+        }
+      ],
+      "paired_change": {
+        "n": 5,
+        "mean": 2.334003048786872,
+        "min": 1.90479979609911,
+        "max": 2.8062593660890998,
+        "sample_sem": 0.1716988175085394
+      },
+      "control_change": {
+        "n": 5,
+        "mean": 0.4578077102547588,
+        "min": -1.3299418303380701,
+        "max": 1.6419926045149598,
+        "sample_sem": 0.5092327010756988
+      },
+      "difference_of_changes": {
+        "n": 5,
+        "mean": 1.876195338532113,
+        "min": 0.8618321133270352,
+        "max": 3.70373043243785,
+        "sample_sem": 0.5119754242114439
+      },
+      "uncertainty_scope": "SEM is descriptive across source rows, not a new fly-independent CI or causal-transfer estimate."
+    }
+  ],
+  "upstream_conditioning": {
+    "source": "https://elifesciences.org/articles/79042/figures#fig3s2",
+    "archive": "sources/elife-79042-fig3-figsupp2-data1-v2.zip",
+    "source_workbook_sha256": "22c3b806a8f5c46233c7aaf925387b02219d7ec3257116e3e98b222fc83a7efc",
+    "groups": [
+      {
+        "paired_odor": "OCT",
+        "groups": [
+          {
+            "column": "B",
+            "n_source_rows": 6,
+            "values": [
+              53.28,
+              56.28,
+              96.16,
+              81.16,
+              64.36,
+              93.16
+            ],
+            "mean": 74.06666666666666,
+            "source_mean": 74.0666666666667,
+            "mean_error": -4.263256414560601e-14,
+            "sem_error": -1.7763568394002505e-15
+          },
+          {
+            "column": "C",
+            "n_source_rows": 6,
+            "values": [
+              17.8,
+              3.6,
+              17.56,
+              42.84,
+              8.96,
+              26.6
+            ],
+            "mean": 19.560000000000002,
+            "source_mean": 19.56,
+            "mean_error": 3.552713678800501e-15,
+            "sem_error": -2.6645352591003757e-15
+          },
+          {
+            "column": "D",
+            "n_source_rows": 6,
+            "values": [
+              60.8,
+              51.76,
+              81.04,
+              74.2,
+              62.8,
+              68.6
+            ],
+            "mean": 66.53333333333335,
+            "source_mean": 66.5333333333334,
+            "mean_error": -5.684341886080802e-14,
+            "sem_error": 7.993605777301127e-15
+          },
+          {
+            "column": "E",
+            "n_source_rows": 6,
+            "values": [
+              34.36,
+              27.36,
+              84.52,
+              62.52,
+              23.24,
+              49.84
+            ],
+            "mean": 46.973333333333336,
+            "source_mean": 46.9733333333333,
+            "mean_error": 3.552713678800501e-14,
+            "sem_error": -1.7763568394002505e-15
+          }
+        ],
+        "external_fly_ids": null
+      },
+      {
+        "paired_odor": "MCH",
+        "groups": [
+          {
+            "column": "G",
+            "n_source_rows": 5,
+            "values": [
+              86.12,
+              66.56,
+              75.48,
+              34.08,
+              78.32
+            ],
+            "mean": 68.112,
+            "source_mean": 68.112,
+            "mean_error": 0.0,
+            "sem_error": -1.7763568394002505e-15
+          },
+          {
+            "column": "H",
+            "n_source_rows": 5,
+            "values": [
+              48.84,
+              54.44,
+              61.6,
+              42.24,
+              45.96
+            ],
+            "mean": 50.616,
+            "source_mean": 50.616,
+            "mean_error": 0.0,
+            "sem_error": 1.7763568394002505e-15
+          },
+          {
+            "column": "I",
+            "n_source_rows": 5,
+            "values": [
+              83.2,
+              65.44,
+              50.0,
+              30.0,
+              81.56
+            ],
+            "mean": 62.04,
+            "source_mean": 62.04,
+            "mean_error": 0.0,
+            "sem_error": 2.842170943040401e-14
+          },
+          {
+            "column": "J",
+            "n_source_rows": 5,
+            "values": [
+              22.56,
+              25.84,
+              17.6,
+              4.88,
+              30.44
+            ],
+            "mean": 20.264,
+            "source_mean": 20.264,
+            "mean_error": 0.0,
+            "sem_error": 8.881784197001252e-16
+          }
+        ],
+        "external_fly_ids": null
+      }
+    ],
+    "quantity": "odor-evoked spike count as labeled in figure caption, not UpWiN mV",
+    "response_window": "0–1.2 s per article electrophysiology method; counts/rates must not be interchanged",
+    "preparation": "in-vivo MBON-alpha1; MB319C; PAM-alpha1 MB043-split-LexA; 1 min paired odor + 120 1 ms 2 Hz pulses",
+    "relation_to_85756": "Comparable olfactory timing but different target neurons and DAN driver; not same-animal measurements or a numerical transfer function",
+    "genesis_rate_conversion": null,
+    "cross_paper_identity_join": null
+  },
+  "direct_rate_to_voltage_conversion": null,
+  "acute_vs_recall_composition": false,
+  "external_population_identity_join": null
+}

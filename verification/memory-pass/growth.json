@@ -1,0 +1,37 @@
+{
+  "fixtureOnly": true,
+  "modelAdvanced": false,
+  "liveProviderCalls": 0,
+  "results": [
+    {
+      "episodes": 10,
+      "selected": 3,
+      "memoryBytes": 4391,
+      "contextBytes": 8391,
+      "retrievalMs": 13.228000000000009,
+      "deterministic": true,
+      "firstSelected": "d1:episode",
+      "processRssBytes": 112918528
+    },
+    {
+      "episodes": 100,
+      "selected": 3,
+      "memoryBytes": 4412,
+      "contextBytes": 8412,
+      "retrievalMs": 10.487541000000022,
+      "deterministic": true,
+      "firstSelected": "d1:episode",
+      "processRssBytes": 129794048
+    },
+    {
+      "episodes": 1000,
+      "selected": 3,
+      "memoryBytes": 4433,
+      "contextBytes": 8433,
+      "retrievalMs": 85.69354099999998,
+      "deterministic": true,
+      "firstSelected": "d1:episode",
+      "processRssBytes": 230555648
+    }
+  ]
+}

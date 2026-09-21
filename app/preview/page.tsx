@@ -6,5 +6,6 @@ export const dynamic = 'force-dynamic';
 export default async function Preview() {
   if (!developmentPreviewEnabled(process.env)) notFound();
   const { default: LiveObservation } = await import('@/components/live-observation');
-  return <LiveObservation />;
+  const {observerFixtures}=await import('@/lib/observer-fixtures');
+  return <LiveObservation fixtures={observerFixtures()} />;
 }

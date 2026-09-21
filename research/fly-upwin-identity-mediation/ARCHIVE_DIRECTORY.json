@@ -1,0 +1,464 @@
+{
+  "archive_url": "https://cdn.elifesciences.org/articles/85756/elife-85756-supp-v1.zip",
+  "total_bytes": 122744191,
+  "range_start": 122678655,
+  "central_directory_count": 57,
+  "members": [
+    {
+      "name": "elife_poa_e85756_Figure_1_figure_supplement_1.pdf",
+      "compressed_bytes": 1310875,
+      "bytes": 1310875,
+      "crc32": "0xf6ab0b73",
+      "local_offset": 0,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_figure_supplement_1.pdf",
+      "compressed_bytes": 2051392,
+      "bytes": 2051392,
+      "crc32": "0x25a31db5",
+      "local_offset": 1310954,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_figure_supplement_2.pdf",
+      "compressed_bytes": 608859,
+      "bytes": 608859,
+      "crc32": "0xd75644bc",
+      "local_offset": 3362425,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_figure_supplement_3.pdf",
+      "compressed_bytes": 274598,
+      "bytes": 274598,
+      "crc32": "0xcca41a8a",
+      "local_offset": 3971363,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_figure_supplement_4.pdf",
+      "compressed_bytes": 324969,
+      "bytes": 324969,
+      "crc32": "0x9aeee5da",
+      "local_offset": 4246040,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_3_figure_supplement_1.pdf",
+      "compressed_bytes": 976712,
+      "bytes": 976712,
+      "crc32": "0x9693c29d",
+      "local_offset": 4571088,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_3_figure_supplement_2.pdf",
+      "compressed_bytes": 2143740,
+      "bytes": 2143740,
+      "crc32": "0xa1146e60",
+      "local_offset": 5547879,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_3_figure_supplement_3.pdf",
+      "compressed_bytes": 48831,
+      "bytes": 48831,
+      "crc32": "0x6146c2d4",
+      "local_offset": 7691698,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_3_figure_supplement_4.pdf",
+      "compressed_bytes": 35762,
+      "bytes": 35762,
+      "crc32": "0x382e40c",
+      "local_offset": 7740608,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_4_figure_supplement_1.pdf",
+      "compressed_bytes": 656274,
+      "bytes": 656274,
+      "crc32": "0xe4cc8339",
+      "local_offset": 7776449,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_figure_supplement_1.pdf",
+      "compressed_bytes": 291843,
+      "bytes": 291843,
+      "crc32": "0x7734076a",
+      "local_offset": 8432802,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_figure_supplement_2.tif",
+      "compressed_bytes": 50038428,
+      "bytes": 50038428,
+      "crc32": "0xf2757adb",
+      "local_offset": 8724724,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_figure_supplement_1.pdf",
+      "compressed_bytes": 445529,
+      "bytes": 445529,
+      "crc32": "0xb5fc78c2",
+      "local_offset": 58763231,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_figure_supplement_1.pdf",
+      "compressed_bytes": 711765,
+      "bytes": 711765,
+      "crc32": "0x920ceaa9",
+      "local_offset": 59208839,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Video_1.mp4",
+      "compressed_bytes": 11432607,
+      "bytes": 11432607,
+      "crc32": "0x75f1001c",
+      "local_offset": 59920683,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Video_2.mov",
+      "compressed_bytes": 3497268,
+      "bytes": 3497268,
+      "crc32": "0x6e33ba7f",
+      "local_offset": 71353348,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Video_3.avi",
+      "compressed_bytes": 8297564,
+      "bytes": 8297564,
+      "crc32": "0xafe2858e",
+      "local_offset": 74850674,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Video_4.mov",
+      "compressed_bytes": 175241,
+      "bytes": 175241,
+      "crc32": "0x907d45ad",
+      "local_offset": 83148296,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Video_5.mp4",
+      "compressed_bytes": 11096391,
+      "bytes": 11096391,
+      "crc32": "0xad368851",
+      "local_offset": 83323595,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Video_6.mp4",
+      "compressed_bytes": 9226967,
+      "bytes": 9226967,
+      "crc32": "0x6f0a79e7",
+      "local_offset": 94420044,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_1.xlsx",
+      "compressed_bytes": 10438,
+      "bytes": 10438,
+      "crc32": "0x6fa1ab48",
+      "local_offset": 103647069,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_2.xlsx",
+      "compressed_bytes": 10091,
+      "bytes": 10091,
+      "crc32": "0x31513a4a",
+      "local_offset": 103657581,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_3.xlsx",
+      "compressed_bytes": 7959,
+      "bytes": 7959,
+      "crc32": "0x1ac82c0c",
+      "local_offset": 103667746,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_4.xlsx",
+      "compressed_bytes": 8898,
+      "bytes": 8898,
+      "crc32": "0x91eadd61",
+      "local_offset": 103675779,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_5.xlsx",
+      "compressed_bytes": 125544,
+      "bytes": 125544,
+      "crc32": "0x73972cb4",
+      "local_offset": 103684751,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_6.xlsx",
+      "compressed_bytes": 15702,
+      "bytes": 15702,
+      "crc32": "0x49b4c575",
+      "local_offset": 103810369,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_7.xlsx",
+      "compressed_bytes": 92416,
+      "bytes": 92416,
+      "crc32": "0x1b3c543c",
+      "local_offset": 103826145,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_8.xlsx",
+      "compressed_bytes": 26048,
+      "bytes": 26048,
+      "crc32": "0x9e5808d5",
+      "local_offset": 103918635,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_figure_supplement_1_source_data_1.xlsx",
+      "compressed_bytes": 250724,
+      "bytes": 250724,
+      "crc32": "0x3f3054dc",
+      "local_offset": 103944757,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_source_data_1.xlsx",
+      "compressed_bytes": 48438,
+      "bytes": 48438,
+      "crc32": "0x46841fb7",
+      "local_offset": 104195575,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_source_data_2.xlsx",
+      "compressed_bytes": 36789,
+      "bytes": 36789,
+      "crc32": "0x478ae39c",
+      "local_offset": 104244087,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_figure_supplement_1_source_data_1.xlsx",
+      "compressed_bytes": 1622574,
+      "bytes": 1622574,
+      "crc32": "0x92e89cc3",
+      "local_offset": 104280950,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_4_source_data_1.xlsx",
+      "compressed_bytes": 2663800,
+      "bytes": 2663800,
+      "crc32": "0xacbaff04",
+      "local_offset": 105903618,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_4_source_data_2.xlsx",
+      "compressed_bytes": 3770236,
+      "bytes": 3770236,
+      "crc32": "0xfd975a9",
+      "local_offset": 108567492,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_4_source_data_3.xlsx",
+      "compressed_bytes": 10117,
+      "bytes": 10117,
+      "crc32": "0xb256fd77",
+      "local_offset": 112337802,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_4_figure_supplement_1_source_data_1.xlsx",
+      "compressed_bytes": 10199,
+      "bytes": 10199,
+      "crc32": "0xea6acfc5",
+      "local_offset": 112347993,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_source_data_1.xlsx",
+      "compressed_bytes": 1182606,
+      "bytes": 1182606,
+      "crc32": "0x2b9f4394",
+      "local_offset": 112358286,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_source_data_2.xlsx",
+      "compressed_bytes": 3247565,
+      "bytes": 3247565,
+      "crc32": "0xd86c5dea",
+      "local_offset": 113540966,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_source_data_3.xlsx",
+      "compressed_bytes": 8326,
+      "bytes": 8326,
+      "crc32": "0x8ccd2879",
+      "local_offset": 116788605,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_figure_supplement_2_source_data_1.xlsx",
+      "compressed_bytes": 1231788,
+      "bytes": 1231788,
+      "crc32": "0x52c5325",
+      "local_offset": 116797005,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_figure_supplement_2_source_data_2.xlsx",
+      "compressed_bytes": 3252378,
+      "bytes": 3252378,
+      "crc32": "0x9401db7e",
+      "local_offset": 118028887,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_figure_supplement_2_source_data_3.xlsx",
+      "compressed_bytes": 8271,
+      "bytes": 8271,
+      "crc32": "0x66f48c9c",
+      "local_offset": 121281359,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_1.xlsx",
+      "compressed_bytes": 8427,
+      "bytes": 8427,
+      "crc32": "0xd2d8de20",
+      "local_offset": 121289724,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_2.xlsx",
+      "compressed_bytes": 8596,
+      "bytes": 8596,
+      "crc32": "0xc4a8c826",
+      "local_offset": 121298225,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_3.xlsx",
+      "compressed_bytes": 9072,
+      "bytes": 9072,
+      "crc32": "0xf18918a3",
+      "local_offset": 121306895,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_4.xlsx",
+      "compressed_bytes": 23013,
+      "bytes": 23013,
+      "crc32": "0x2d3cd698",
+      "local_offset": 121316041,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_5.xlsx",
+      "compressed_bytes": 77567,
+      "bytes": 77567,
+      "crc32": "0x500ef2a9",
+      "local_offset": 121339128,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_6.xlsx",
+      "compressed_bytes": 32197,
+      "bytes": 32197,
+      "crc32": "0x293477dd",
+      "local_offset": 121416769,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_7.xlsx",
+      "compressed_bytes": 47131,
+      "bytes": 47131,
+      "crc32": "0x42adfaf5",
+      "local_offset": 121449040,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_figure_supplement_1_source_data_1.xlsx",
+      "compressed_bytes": 60440,
+      "bytes": 60440,
+      "crc32": "0xab00ab0e",
+      "local_offset": 121496245,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_source_data_1.xlsx",
+      "compressed_bytes": 13416,
+      "bytes": 13416,
+      "crc32": "0xaec2d68b",
+      "local_offset": 121556779,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_source_data_2.xlsx",
+      "compressed_bytes": 219597,
+      "bytes": 219597,
+      "crc32": "0x7b0c4709",
+      "local_offset": 121570269,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_source_data_3.xlsx",
+      "compressed_bytes": 8747,
+      "bytes": 8747,
+      "crc32": "0xb8f24add",
+      "local_offset": 121789940,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_source_data_4.xlsx",
+      "compressed_bytes": 24725,
+      "bytes": 24725,
+      "crc32": "0x54b9fed6",
+      "local_offset": 121798761,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_source_data_5.xlsx",
+      "compressed_bytes": 8428,
+      "bytes": 8428,
+      "crc32": "0x43fa5e61",
+      "local_offset": 121823560,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_figure_supplement_1_source_data_1.xlsx",
+      "compressed_bytes": 867188,
+      "bytes": 867188,
+      "crc32": "0xe39e00e7",
+      "local_offset": 121832062,
+      "compression": 0
+    },
+    {
+      "name": "elife_poa_e85756_Supplementary_file_1.docx",
+      "compressed_bytes": 39491,
+      "bytes": 39491,
+      "crc32": "0xf9b61fa5",
+      "local_offset": 122699344,
+      "compression": 0
+    }
+  ]
+}

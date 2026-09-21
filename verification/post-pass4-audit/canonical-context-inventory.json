@@ -1,0 +1,26 @@
+{
+  "identity": "817e772c-827e-48fc-8e35-6504cb2a8d2d",
+  "bornAt": "2026-09-15T01:56:07.867Z",
+  "decisions": 7,
+  "legacyMemories": 7,
+  "legacyDisclosureFieldsPresent": 0,
+  "legacyProjectCount": 1,
+  "lifeCollections": {
+    "tasks": 0,
+    "interests": 0,
+    "commitments": 0,
+    "environment": 0,
+    "projectLife": 0,
+    "episodicRefs": 0,
+    "openQuestions": 0,
+    "relationships": 0,
+    "semanticMemory": 0,
+    "pendingDecisions": 0
+  },
+  "operationalPresent": false,
+  "walletIdentityStatus": "unresolved",
+  "simulatedCashCents": 10075,
+  "biologicalMode": "SAVED-OBSERVATION-ONLY",
+  "execution": "CLOSED",
+  "scheduleEnabled": false
+}

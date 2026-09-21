@@ -1,0 +1,6 @@
+{
+  "tests/continuous-life.test.ts": "ff2d9e3541faa0c8ce814561b8f597ac9235ad2820ccda55f31df2a730a54f45",
+  "tests/short-lease-recovery.test.ts": "31b2b0bd2fa53e448ff74bece172338fac2720e3b27ed31bb5d304ff2d6f892e",
+  "tests/support/short-lease-instrumentation.mjs": "943cbffb0d31f8dcef774e76c0d17c06d10f5cd69ee2fb6a0ec73817eb469590",
+  "scripts/short-lease-diagnostic.mjs": "1d3dde59d86194d05b94cf928d747425e6952da6cad9d97685184c8d21ab4537"
+}

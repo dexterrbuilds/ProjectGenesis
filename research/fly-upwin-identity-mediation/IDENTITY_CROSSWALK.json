@@ -1,0 +1,170 @@
+{
+  "mappings": [
+    {
+      "source_identity": "FAFB v783 720575940617302365",
+      "target_identity": "MBON07 / MBON-α1",
+      "classification": "IDENTIFIED",
+      "scope": "pinned annotation; not a physiological recording",
+      "evidence": [
+        "research/fly-upwin-route-evidence/CROSSWALK.json"
+      ]
+    },
+    {
+      "source_identity": "FAFB v783 720575940608236978",
+      "target_identity": "SMP353",
+      "classification": "IDENTIFIED",
+      "scope": "pinned annotation; not a physiological recording",
+      "evidence": [
+        "research/fly-upwin-route-evidence/CROSSWALK.json"
+      ]
+    },
+    {
+      "source_identity": "hemibrain SMP353/SMP354",
+      "target_identity": "FAFB SMP353/CB3112 (SMP354 alias)",
+      "classification": "TYPE-COMPATIBLE",
+      "scope": "cross-specimen type/annotation correspondence; no physiological identity transfer",
+      "evidence": [
+        "research/fly-upwin-route-evidence/CROSSWALK.json"
+      ]
+    },
+    {
+      "source_identity": "SS33917 morphology set",
+      "target_identity": "SMP353, SMP354, SMP348, SLP399, SLP400",
+      "classification": "TYPE-COMPATIBLE",
+      "scope": "published LM–EM matching of ensemble; does not label recorded responders",
+      "evidence": [
+        "https://elifesciences.org/articles/85756/figures#fig3s1",
+        "https://elifesciences.org/articles/85756/figures#fig3s2"
+      ]
+    },
+    {
+      "source_identity": "SS33918",
+      "target_identity": "SS33917-like UpWiN ensemble",
+      "classification": "TYPE-COMPATIBLE",
+      "scope": "similar 8–11-neuron expression; exact membership per animal unknown",
+      "evidence": [
+        "https://elifesciences.org/articles/85756/figures",
+        "https://splitgal4.janelia.org/cgi-bin/view_splitgal4_imagery.cgi?line=SS33918"
+      ]
+    },
+    {
+      "source_identity": "R64A11-LexA",
+      "target_identity": "broad UpWiN population",
+      "classification": "IDENTIFIED",
+      "scope": "experimental driver definition only; not a pure SMP353/SMP354 type",
+      "evidence": [
+        "https://elifesciences.org/articles/85756"
+      ]
+    },
+    {
+      "source_identity": "R64A11-LexA recorded responder",
+      "target_identity": "SMP353 or SMP354",
+      "classification": "POSSIBLE",
+      "scope": "candidate types only; no discriminating cell-linked morphology",
+      "evidence": [
+        "https://elifesciences.org/articles/85756",
+        "https://elifesciences.org/articles/79042/peer-reviews"
+      ]
+    },
+    {
+      "source_identity": "SS67249 MCFO example",
+      "target_identity": "SMP353",
+      "classification": "TYPE-COMPATIBLE",
+      "scope": "published morphological resemblance; no mapping of Fig5 cells",
+      "evidence": [
+        "https://elifesciences.org/articles/85756/figures#fig5s1"
+      ]
+    },
+    {
+      "source_identity": "SS67249",
+      "target_identity": "SMP354 membership",
+      "classification": "UNRESOLVED",
+      "scope": "no independently discriminating per-cell assignment in audited sources",
+      "evidence": [
+        "https://elifesciences.org/articles/85756",
+        "https://splitgal4.janelia.org/cgi-bin/view_splitgal4_imagery.cgi?line=SS67249"
+      ]
+    },
+    {
+      "source_identity": "SS67249",
+      "target_identity": "other/off-target identities",
+      "classification": "UNRESOLVED",
+      "scope": "off-target expression reported; identities of recorded cells not supplied",
+      "evidence": [
+        "https://elifesciences.org/articles/85756"
+      ]
+    },
+    {
+      "source_identity": "SS67249 recorded cells",
+      "target_identity": "β1-associated cell identity",
+      "classification": "UNRESOLVED",
+      "scope": "β1 confound belongs to R58E02-LexA reinforcement; no evidence identifies these recorded cells as β1 cells",
+      "evidence": [
+        "https://elifesciences.org/articles/85756"
+      ]
+    },
+    {
+      "source_identity": "SS67249 Fig5 recording",
+      "target_identity": "SS33917/SS33918 behavioral population member",
+      "classification": "POSSIBLE",
+      "scope": "overlap motivated by morphology, not a registered recording-to-behavior crosswalk",
+      "evidence": [
+        "https://elifesciences.org/articles/85756",
+        "https://elifesciences.org/articles/85756/figures"
+      ]
+    }
+  ],
+  "roots_are_references_only": true,
+  "anatomy_ownership": [],
+  "driver_intersections": [
+    {
+      "driver": "SS67249",
+      "AD": "VT040580",
+      "DBD": "R64A11",
+      "source": "https://splitgal4.janelia.org/cgi-bin/view_splitgal4_imagery.cgi?line=SS67249"
+    },
+    {
+      "driver": "SS33917",
+      "AD": "VT007746",
+      "DBD": "R64A11",
+      "source": "https://splitgal4.janelia.org/cgi-bin/view_splitgal4_imagery.cgi?line=SS33917"
+    },
+    {
+      "driver": "SS33918",
+      "AD": "VT007746",
+      "DBD": "R66B12",
+      "source": "https://splitgal4.janelia.org/cgi-bin/view_splitgal4_imagery.cgi?line=SS33918"
+    }
+  ],
+  "common_hemidriver_does_not_identify_equal_population": true,
+  "specimens": [
+    {
+      "specimen_id": "20200228_19_A10",
+      "vfb_id": "VFB_00103h2o",
+      "driver": "SS67249",
+      "recording_link": null,
+      "meaning": "independent driver morphology specimen, not a Fig4/5 recording identity"
+    },
+    {
+      "specimen_id": "20200814_31_C3",
+      "vfb_id": "VFB_00103k1j",
+      "driver": "SS67249",
+      "recording_link": null,
+      "meaning": "independent driver morphology specimen, not a Fig4/5 recording identity"
+    },
+    {
+      "specimen_id": "20200228_19_A9",
+      "vfb_id": "VFB_00103hpc",
+      "driver": "SS67249",
+      "recording_link": null,
+      "meaning": "independent driver morphology specimen, not a Fig4/5 recording identity"
+    },
+    {
+      "specimen_id": "20200904_19_F9",
+      "vfb_id": "VFB_00103hr5",
+      "driver": "SS33917",
+      "recording_link": null,
+      "meaning": "independent driver morphology specimen, not a Fig4/5 recording identity"
+    }
+  ]
+}

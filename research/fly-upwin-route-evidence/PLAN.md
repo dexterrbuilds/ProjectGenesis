@@ -1,0 +1,13 @@
+# Prospective acquisition / crosswalk audit scope
+
+This is evidence acquisition, descriptive source-data auditing and static anatomy analysis only. No Stage-5 design, neural equations, fitting, decoder, new behavioral label or runtime integration is authorized. Preserve all earlier packages and the exact v0.2 release.
+
+Acquire the primary article's source-data workbooks for Figures 1, 4, 5 and relevant supplements, plus anatomical identity tables and intervention/behavior data needed to interpret those figures. Preserve original downloads, URLs, versions and hashes. Inventory inaccessible sources without inventing missing measurements. Source workbook values/formulas/labels remain unchanged; derived JSON exports retain cell/column provenance. Source row/column ordinals are locator keys, not invented fly/cell identities.
+
+Descriptive calculations may reconstruct source means/SEM and check time grids, missingness, duplicate columns/arrays, reported responder counts and source labels. No gain, delay, conductance, normalization, neural equation or action mapping is fitted. A failed reconstruction stays unresolved; no outcome-selected exclusions or replacement values.
+
+Static anatomy begins from MBON07 720575940617302365 and SMP353 720575940608236978 in the pinned v783 graph. Inventory SMP354 aliases if annotation supports them but distinguish type-label agreement from experimental driver/physiology crosswalk. Quantify actual directed contacts, neuropil distribution, recurrence, major omitted partners and boundary retention for explicitly declared sets. These sets are audit denominators, not a neural extraction or simulation proposal. Do not fabricate contact coordinates from aggregate neuropil rows.
+
+Separately audit anatomy, physiological transmission, action-related correlation and causal intervention. Classify each preparation bridge DIRECTLY COMPATIBLE / TRANSFER REQUIRES ASSUMPTION / INCOMPATIBLE / UNKNOWN. Unknown receptor/target sign, animal identity, observation conversion and baseline stay null. No numerical composition of physiological and behavioral studies.
+
+The final ten-item readiness assessment must retain any missing necessary link. READY requires supported source/target identities, directional anatomy, target-scoped sign, downstream neural and independent action quantities, conditioning and intervention evidence, compatible preparations, and enough auditable observations/identity structure to support future thresholds and holdouts. Partial routes with essential gaps are PARTIAL ROUTE SUPPORT — TARGETED EVIDENCE STILL REQUIRED. Contradictory/absent route evidence is ROUTE NOT SUPPORTED. No quantitative model acceptance threshold or experimental protocol is created here.

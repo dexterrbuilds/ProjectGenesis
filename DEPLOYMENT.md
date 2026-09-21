@@ -1,94 +1,72 @@
-# Deploy Project Genesis
+> **Pass 7 supersedes the installation instructions below.** Use [runtime/PRODUCTION_INSTALLATION.md](runtime/PRODUCTION_INSTALLATION.md), [runtime/ENVIRONMENT.md](runtime/ENVIRONMENT.md), and [runtime/RECOVERY_RUNBOOK.md](runtime/RECOVERY_RUNBOOK.md). The current observation process requires explicit dormant mode and the prepared release schema; old `/healthz` and token configuration descriptions below are historical. No deployment or activation is authorized.
 
-**Deploying the dormant public page first?** Follow [PREAWAKENING.md](PREAWAKENING.md). Only the Next.js frontend and its awakening timestamp are needed. The two-service instructions below apply when preparing the live observation experience; `GENESIS_PUBLIC_MODE=live` reveals it and does not activate the runtime.
+# Deploy Project Genesis Runtime V1 — dormant only
 
-## Service topology
+This repository remains portable: Vercel serves Next.js; Railway (or another container host) serves the standalone Node observer; Postgres/Supabase owns durable state. No GPT Sites or ChatGPT runtime is required. These instructions authorize no awakening or external action.
 
-One GitHub repository, two services, one external Postgres database. The web service may redeploy, scale to zero or close in a browser while the runtime continues its life loop. Deployments do not reset identity or capital.
+## Database and migration
+
+Keep Genesis 001's existing database and verified backups. Runtime startup **does not initialize an organism or run migrations**. Empty, wrong, unmigrated, OPEN or scheduled databases must be investigated rather than replaced.
+
+Migration 003 has been applied to this checkout's canonical database after an exact baseline and isolated backup-restore test. [RUNTIME_V1_MIGRATION_REPORT.md](RUNTIME_V1_MIGRATION_REPORT.md) records the before/after digests and unchanged original rows. Do not rerun the baseline-specific apply script on the migrated database. For moving hosts, use a reviewed complete backup/restore of the same organism with the additive schema, not a new birth/import into an occupied database.
+
+`runtime/migrate-v1.ts` is an explicit administrative operation; `scripts/runtime-v1-apply.ts --apply-reviewed-baseline` is specific to the approved pre-migration digest and verified local backup/dry run. It fails when that digest no longer matches. It is not an auto-upgrade command for arbitrary deployments.
+
+Keep provider TLS verification, private credentials and backups/PITR. A database owner can bypass triggers; application credentials and administrative credentials must not reach the planner or browser. No filesystem on Vercel stores life state.
+
+## Railway / portable runtime
+
+`railway.json` selects the root `Dockerfile`; its command is `node runtime/main.ts`. The image includes the pinned evidence registry package but does not execute research. Supply:
+
+| Variable | Dormant value |
+|---|---|
+| `DATABASE_URL` | Private URI of the existing migrated Genesis database |
+| `GENESIS_OPERATOR_TOKEN` | Private random secret, at least 24 characters |
+| `GENESIS_ALLOWED_ORIGINS` | Exact observer origins |
+| `GENESIS_AUTONOMY_ENABLED` | `false`; even `true` cannot unlock this build |
+| `GENESIS_INTERNET` | `false` |
+| `GENESIS_PLANNER_MODE` | `local`; no planner is started by this build |
+| `PORT` / `HOST` | Host-provided port / `0.0.0.0` |
+
+Omit provider keys and Solana/ClawPump settings for dormant operation. No signer is accepted. No wallet, heartbeat, scheduler, neural or LLM worker starts. HTTP availability is independent of browser lifetime. Keep one runtime replica for preparation; do not deploy an old writer alongside it.
+
+`GET /healthz` checks existing CLOSED life state and database access. Public GETs are allowlisted at the runtime. Authenticated cycle/control requests return 423; missing authentication is rejected. Health checks/public reads do not create events or touch the schedule. A deployment flag is not an execution grant.
+
+Docker was unavailable locally. CI retains an image-build step; require a successful actual image build and dormant health check in your target environment before release. Standalone Node boot/restart has passed against isolated copied state; it does not substitute for Docker verification.
+
+## Vercel / Next.js
+
+Use the Next.js preset and repository root. For the dormant countdown, set:
 
 ```text
-Browser → Vercel / Next.js → HTTPS → Railway / Node runtime → Postgres or Supabase
-                                      └ autonomous worker
+GENESIS_AWAKENS_AT=2026-09-29T00:00:00-07:00
+GENESIS_PUBLIC_MODE=dormant
 ```
 
-No ChatGPT-specific hosting/runtime is used. Railway can be replaced by any continuously running Docker/container host with outbound HTTPS, a port and Postgres access. Vercel can also be replaced by a standard Next.js host.
+No runtime/database is needed for the countdown. To expose the read-only observer later, explicitly review `GENESIS_PUBLIC_MODE=live` and set `GENESIS_API_URL` to the HTTPS runtime origin. Neither the date nor that presentation setting can awaken Genesis. Development-only `/preview` remains unavailable in production.
 
-## 1. Database
+Never configure database credentials, an operator token or provider keys on Vercel or in `NEXT_PUBLIC_*`. Runtime public routes enforce privacy even if accessed directly. No operator controls are offered in the V1 observer.
 
-Provision Postgres 16+ in Railway or a dedicated Supabase database. Use the provider’s connection URI and TLS settings; do not disable certificate verification to bypass configuration issues. Supabase’s direct connection or session pooler is appropriate for this long-lived runtime. Use an application database dedicated to Genesis. The startup migration needs schema creation permission. Keep database credentials private to the runtime, not in Vercel or any `NEXT_PUBLIC_*` variable.
+The local production build succeeded with `npm run build -- --webpack`. Default Turbopack hit a host port-permission failure even on the approved retry. Vercel's default `npm run build` configuration is unchanged; if its environment reproduces that failure, the verified webpack command is an explicit supported build override. Do not disable type checking to get a build through.
 
-`runtime/migrations/001_genesis.sql` is applied once under a transaction advisory lock at runtime startup. Existing life is initialized only if absent. Later migrations must be additive and versioned. Enable database backups / point-in-time recovery before a public long-running experiment. The frontend filesystem is never used as a database.
-
-For the pre-portability life, an exported `{ organism, decisions }` JSON can be imported into an **empty** database:
+## Verification without awakening
 
 ```sh
-DATABASE_URL=<destination-uri> node scripts/import-life.ts /absolute/path/to/export.json
+npm ci
+npm run typecheck
+npm run lint
+npm test
+npm run build -- --webpack
+# Dedicated disposable database only:
+TEST_DATABASE_URL=postgresql://user:password@localhost:5432/genesis_runtime_v1_test npm run test:postgres
+# When Docker exists:
+docker build -t project-genesis-runtime .
 ```
 
-The importer refuses an occupied database and preserves ID, birth time, cycles, wallet, projects and neural state. The repository does not include private runtime exports or database files. This checkout’s original seven-cycle organism was migrated to local Postgres without resetting its birth.
+The test DB name is enforced. Tests use disposable schemas, fixture neural computation and mocked providers. Canonical lifecycle smoke tests, demo execution and real-provider smoke calls are not part of these instructions. The `life`, `demo`, and `check:llm` commands refuse in this release.
 
-## 2. Railway runtime
+Review saved identity/birth/seven cycles, public privacy, historical frame labeling, schedule false and CLOSED lock. Do not run eight cycles as an acceptance check. A future activation requires a named operational mode, durable provider budgets if enabled, appropriate permissions and separate explicit authorization. [RUNTIME_V1_AWAKENING_READINESS.md](RUNTIME_V1_AWAKENING_READINESS.md) lists the gates.
 
-Connect the GitHub repository to a Railway service. Select the repository root; `railway.json` selects `Dockerfile`. Add Postgres or link the external database. Do not deploy this service as Next.js; its image starts `node runtime/main.ts`.
+## Recovery
 
-Required variables:
-
-| Variable | Value |
-| --- | --- |
-| `DATABASE_URL` | Private provider Postgres URI |
-| `GENESIS_OPERATOR_TOKEN` | Random secret, ≥24 characters |
-| `GENESIS_ALLOWED_ORIGINS` | Exact public Vercel/custom origin; comma-separated if needed |
-| `GENESIS_AUTONOMY_ENABLED` | `true` |
-| `GENESIS_INTERVAL_MS` | Start at `30000` |
-| `GENESIS_MAX_DAILY_CYCLES` | Start at `200` |
-| `GENESIS_STARTING_CENTS` | `10000`, used only at birth |
-| `GENESIS_INTERNET` | `true` to permit selected read-only research |
-| `GENESIS_PLANNER_MODE` | `auto`, `local`, or `openai` |
-| `OPENAI_API_KEY`, `OPENAI_MODEL` | Supply both to use the real language planner |
-
-Railway provides `PORT`; the runtime binds `0.0.0.0`. Generate an HTTPS public domain. `GET /healthz` must return 200 with database access. Keep one replica initially and **disable service sleeping/serverless scale-to-zero** for continuous life. Set suitable CPU/memory and provider billing limits. The runtime uses no writable volume for life state.
-
-A fresh database has scheduling disabled. After deployment, start a bounded run from the operator UI before enabling continuous life. Paused/enabled state and remaining cycles persist through process restarts. The scheduler waits for the stored due time, runs one cycle, and saves a new due time. It does not catch up all missed wall-clock cycles. Failed outcomes disable the schedule; inspect the saved decision before resuming. UTC daily quota exhaustion holds further cycles until the next UTC day.
-
-SIGTERM stops claiming new work, awaits in-flight work and closes the database pool. Allow at least 60 seconds for graceful shutdown where supported. An interrupted cycle’s lease expires after 60 seconds; committed decisions and money remain consistent. Paid provider calls may be repeated if the process dies before committing; real financial execution remains disabled.
-
-## 3. Vercel observation website
-
-Import the same GitHub repository. Use the **Next.js** framework preset and Node 24 (22.18+ minimum). `vercel.json` sets `npm ci`, `npm run build` and a 60-second API function duration. Configure only:
-
-```text
-GENESIS_API_URL=https://your-runtime-domain
-```
-
-The runtime URL must be reachable from Vercel over HTTPS. Add the exact website origin to Railway’s `GENESIS_ALLOWED_ORIGINS`. Preview deployments that need operator controls must also have their explicit origin allowed; do not use a broad wildcard. Public observation remains read-only.
-
-Do not set a database URL, LLM key or operator token in Vercel. Operators enter their token in the UI; it stays in tab memory and is forwarded for authenticated mutations. The local `GENESIS_DEV_OPERATOR` shortcut is ignored in production. Production proxy requests do not inject a secret. Runtime outages show an unavailable state; the website never substitutes fabricated activity.
-
-## 4. Acceptance checks
-
-1. Run `npm test`, `npm run typecheck`, `npm run build`; run `npm run test:postgres` with a dedicated test DB.
-2. Check runtime `/healthz`, public `/api/state`, and 401 for a mutation without credentials.
-3. Open the website, verify the birth record, original ID, planner label and simulated-money label.
-4. Start **Run 8 cycles**, close the website, wait several configured intervals, then reopen. Cycle count and life history must have advanced. Recorded neural ticks should continue from prior saved state.
-5. Restart the runtime during a bounded run. Identity, wallet and committed history should remain; remaining scheduled cycles resume. Pause is persistent as well.
-6. Inspect a complete saved chain and use Brain replay. Network activity must correspond to its saved frames.
-
-The Postgres integration suite automates concurrency, restart, API authorization and browser-independent scheduling. A live OpenAI call requires credentials and is not proven by the mocked provider contract tests. Docker must be built in your CI/container host; local tests do not substitute for an image build.
-
-## Recovery and portability
-
-Keep the original database when replacing a runtime host. Pause, allow an in-flight cycle to finish, stop the old host, deploy the same image on the new host with the same `DATABASE_URL`, and change `GENESIS_API_URL`. Verify identity and history before resuming. Database leases defend overlapping restarts, but deliberate single-owner operation is simplest.
-
-Backup/restore the complete database, including decisions and schedule; do not restore only a wallet or only a brain. Never manually delete the singleton to change starting capital. Changing Brain v1 requires an explicit `replaceBrain` transition that records lineage and supplies a new valid snapshot while keeping organism identity and history.
-
-Live Solana funds, ClawPump fee income, publication and human hiring require additional verified provider integration and an approval/outbox/reconciliation path. Their interfaces are present; execution is not enabled by these deployment instructions.
-
-Provider references: [Next.js deployment](https://nextjs.org/docs/app/getting-started/deploying), [Railway config](https://docs.railway.com/config-as-code/reference), [Railway health checks](https://docs.railway.com/deployments/healthchecks), [Vercel environment variables](https://vercel.com/kb/guide/how-to-add-vercel-environment-variables).
-
-## Optional live-read configuration and verification
-
-On the runtime, supply `SOLANA_RPC_URL`, `SOLANA_WALLET_ADDRESS` and `SOLANA_NETWORK` together to enable native SOL observations. Use an HTTPS RPC for the explicitly selected `devnet` or `mainnet-beta` network. The wallet address, balances and timestamps are public in the experiment. Never supply a private key. Migration `002_observations.sql` creates a separate evidence table; it does not alter the original organism or decisions. Reads are throttled to once per minute per process and remain available when autonomous life is paused.
-
-After configuring OpenAI credentials, run `npm run check:llm` in a secure runtime shell or locally with the same environment. It makes one billable provider request using a fresh neural readout; it executes no action and does not read or modify the persistent organism. Success proves the configured model can produce a permitted action. Ordinary unit tests use provider doubles and cannot establish account access.
-
-The GitHub verification workflow runs the full suite against a Postgres service, builds Next.js and builds the runtime Docker image. It does not deploy. No image build was available on the local verification machine; use that workflow or `docker build -t project-genesis-runtime .` before publishing a runtime image.
+Stop an observer before changing hosts; retain its full database. Restore a backup only to an isolated verification target first and compare original rows. Never reset the singleton, change birth or regenerate a snapshot as recovery. Before activation there are no new V2 life events to replay; migration metadata is administrative. Keep additive tables when rolling application code back to read-only mode; old V1 writes are intentionally fenced.

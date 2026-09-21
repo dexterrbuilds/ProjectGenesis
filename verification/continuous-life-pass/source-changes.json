@@ -1,0 +1,62 @@
+{
+  "changed": {
+    "core/v2/contracts.ts": {
+      "before": "e65efd8b139182cd70c4c7694a424820a86b27fff0e54719400f32b2aa9a8e66",
+      "after": "c49749288d7c63ed5ec7d1439f16bf094683b994fb0130763dca72fcbb6df4c0"
+    },
+    "core/v2/context.ts": {
+      "before": "d10f965ed90899cbf3f26f2a500657d0bb57b87a0d47cce6f92770f7af9a06d1",
+      "after": "97224a3138a343e8495748fae346081ee42e47af6a6f5fe17ff58f59c038be79"
+    },
+    "core/v2/policy.ts": {
+      "before": "d0eacd5ccafa66fd09a9c20705c91fe99aab10124cce1317061e2be2a27fd2b5",
+      "after": "9785bf0558111439130e4b4bf12ca20e45e87cbe8d1c7d010bdce521a23e49f0"
+    },
+    "core/v2/cycle.ts": {
+      "before": "1c2e4f65ebd3e7cc9774a9bf41bccf72763418e6e7254a0cb5b503be017a7c08",
+      "after": "bf3c2dc61c731bd181f2a7ccda31dc3aa3b7ba8d286282468efbb327c42553b7"
+    },
+    "core/v2/planner.ts": {
+      "before": "298c55d22798fe95e826d704972f7b327ea86ac107514cd6e3ee5579375365b3",
+      "after": "7f1218d81bb85cc113f126d2f6b31ba951a65cac8f1f72715270218b1c9275a5"
+    },
+    "server/commit-v2.ts": {
+      "before": "e06c389c2e48b7b0a22c4364f3148b6b2c579bdcbad78ee35c0431f2a57a4bb7",
+      "after": "72fa75087becabbecea6d7d66ecf2b430acf832d3882f898fcaf6d5b49ffbeda"
+    },
+    "server/assistance-intake.ts": {
+      "before": "e82b4bbe6f6abf49ffaf2219de582440c81311fa7c309775119898f1bc7ba86f",
+      "after": "a9a52e59451791639bd28e7c8d3d6ddd9c27dc5f7a8e96fc593f097e9893cac7"
+    },
+    "server/one-shot-spec.ts": {
+      "before": "aadcaad215346eac3b569ce41b6a8a3bc654e268fead255cfb87f55569a63ddf",
+      "after": "1f9004cc608aa329814c724457a60ada8d99775f83a7593a2966375c01791bf8"
+    },
+    "server/observation-read.ts": {
+      "before": "ee75fb40ca4499a6498de41fb6771a05058cc69e958cc82789556318428ff4a3",
+      "after": "9c68fd2f81045bf47dcabc030db1a04ec87057be94cf31d1fb2b8e20a6c5aa08"
+    }
+  },
+  "added": {
+    "core/v2/continuous.ts": "e0848ada3899fc5d7b4731fc6f39723f42561936a91ceb54290abc51525f1390",
+    "runtime/CONTINUOUS_INSTALLATION.md": "6e5a2012026b10cfbe8d1cda2c2dd83a3d0735cbdef5be96d79a2d3069ca2d10",
+    "runtime/continuous-schema.sql": "c012de17227776fcf415e22e26c3048cbd1454fd5cb91a8465e53fdb8cc8b556",
+    "server/continuous.ts": "71c4a887d5c91cf2fe25e2e4ae14327e825d7112404665545290a85f73382146",
+    "server/continuous-worker.ts": "7faa6105313646a37de406372f8d8cae89838005bcd717a3d18cd5ac85e06aae",
+    "server/continuous-spec.ts": "d36bf9643aa6aba607b494f646ddbc3b503259e7434a6c7aa0c98da4efd549fc",
+    "server/continuous-authority.ts": "2880dd043881ca7c4aa58e64733c630bdcb675d02a7e04e0113a86cbb478949b",
+    "tests/continuous-life.test.ts": "5a73e66b3ac248c4e71a5c1cb95535e46a2771315ac35cb83a376d70ad5046ee",
+    "tests/support/continuous-fixture.ts": "3b416f2bdb910fe8b5043011c7ca19a1f01c9fdbb033ad611c180de5ffcef505",
+    "tests/support/continuous-crash.ts": "c31d82c1ef723aa5d45dd85598ee35aade8f3514b1204bc85a086394097606da",
+    "tests/support/continuous-long-run.ts": "9dc44cf900ed0105631eae7deda072fa451e48f38fd23e0bc73e113c0553e240"
+  },
+  "roots": [
+    "components",
+    "config",
+    "core",
+    "lib",
+    "runtime",
+    "server",
+    "tests"
+  ]
+}

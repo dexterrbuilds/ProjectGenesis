@@ -1,0 +1,49 @@
+{
+  "fullSuite": {
+    "command": "node --env-file=outputs/runtime-v1/test-db.env --test --test-concurrency=1 tests/*.test.ts",
+    "exitCode": 0,
+    "tests": 446,
+    "pass": 446,
+    "fail": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "previousTestsRetained": 387,
+    "newTests": 59
+  },
+  "parallelInitial": {
+    "tests": 439,
+    "pass": 437,
+    "fail": 2,
+    "skipped": 0,
+    "diagnosis": "Existing 250ms lease/450ms due-time fixtures encountered cross-file host contention. Serial suite passed unchanged deadlines and assertions. Original failure output retained."
+  },
+  "typeScript": {
+    "command": "node node_modules/typescript/bin/tsc --noEmit --incremental false",
+    "exitCode": 0
+  },
+  "eslint": {
+    "command": "node node_modules/eslint/bin/eslint.js .",
+    "exitCode": 0,
+    "warnings": 0
+  },
+  "productionBuild": {
+    "command": "npm run build -- --webpack",
+    "exitCode": 0,
+    "warning": "Existing Node DEP0205 module.register deprecation; no source workaround"
+  },
+  "postgresRoleTests": {
+    "passed": true,
+    "target": "random disposable awakening_test_* schema / genesis_runtime_v1_test; temporary NOLOGIN roles removed",
+    "restrictedWorkerOneShotVerified": true
+  },
+  "crashTest": {
+    "passed": true,
+    "method": "Fresh child process SIGKILL during reconciliation transaction; provider accounting and audit rollback; no retry"
+  },
+  "network": {
+    "realProviderRequests": 0,
+    "walletActions": 0,
+    "externalCommunications": 0
+  },
+  "isolation": "No canonical DB credentials in test processes. Canonical audit separate, read-only."
+}

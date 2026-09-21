@@ -1,0 +1,76 @@
+{
+  "readonly_order_audit": [
+    {
+      "run": "app-1701-A-intact",
+      "paired_cue": "A",
+      "paired_post_less_than_pre": true,
+      "restoration_exact": true,
+      "source": "research/fly-stage1/RESULTS.csv",
+      "exported_physical_value": null
+    },
+    {
+      "run": "app-1701-B-intact",
+      "paired_cue": "B",
+      "paired_post_less_than_pre": true,
+      "restoration_exact": true,
+      "source": "research/fly-stage1/RESULTS.csv",
+      "exported_physical_value": null
+    },
+    {
+      "run": "app-1702-A-intact",
+      "paired_cue": "A",
+      "paired_post_less_than_pre": true,
+      "restoration_exact": true,
+      "source": "research/fly-stage1/RESULTS.csv",
+      "exported_physical_value": null
+    },
+    {
+      "run": "app-1702-B-intact",
+      "paired_cue": "B",
+      "paired_post_less_than_pre": true,
+      "restoration_exact": true,
+      "source": "research/fly-stage1/RESULTS.csv",
+      "exported_physical_value": null
+    },
+    {
+      "run": "app-1703-A-intact",
+      "paired_cue": "A",
+      "paired_post_less_than_pre": true,
+      "restoration_exact": true,
+      "source": "research/fly-stage1/RESULTS.csv",
+      "exported_physical_value": null
+    },
+    {
+      "run": "app-1703-B-intact",
+      "paired_cue": "B",
+      "paired_post_less_than_pre": true,
+      "restoration_exact": true,
+      "source": "research/fly-stage1/RESULTS.csv",
+      "exported_physical_value": null
+    }
+  ],
+  "allowed": [
+    "existence of a learned difference",
+    "modeled mechanism dependence",
+    "persistent plastic state",
+    "within-model ordering at the same defined readout"
+  ],
+  "not_exported": [
+    "physical firing rate",
+    "mV",
+    "synaptic current",
+    "photostimulation equivalence",
+    "downstream 50 ms constant",
+    "UpWiN gain",
+    "receptor sign",
+    "behavioral probability"
+  ],
+  "invariant": "For a fixed saved scalar r_post < r_pre, strictly increasing re-expression h preserves the order. It does not identify whether physical α1 activity is such a re-expression.",
+  "not_invariant": "Effect-size ratios, differences of changes, population means after arbitrary neuron-wise nonlinear maps, and downstream ordering need extra assumptions.",
+  "downstream_family_contains": [
+    "same order",
+    "reversed order",
+    "tie"
+  ],
+  "model_runs": 0
+}

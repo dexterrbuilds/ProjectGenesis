@@ -1,0 +1,78 @@
+{
+  "admissionHash": "5590a02f531e96e4703c12e774722b242a914c5ceb8d382d40fd4644255e6613",
+  "requestHash": "faed4b21274d8cfdf8f231ecdfc6344ad14513a7c7873967c573a180ad71730b",
+  "wireHash": "0b93896ab6930f31478613ddbd13070d4a746047f8e283aa19d49a4fb7fc2085",
+  "completeRequestBytes": 19625,
+  "inputBound": 12000,
+  "reservationMicros": 8503,
+  "categories": [
+    {
+      "id": "input",
+      "unit": "fixture-token",
+      "microsNumerator": 1,
+      "denominator": 2,
+      "maximumUnits": 12000
+    },
+    {
+      "id": "output",
+      "unit": "fixture-token",
+      "microsNumerator": 2,
+      "denominator": 1,
+      "maximumUnits": 1200
+    },
+    {
+      "id": "reasoning",
+      "unit": "fixture-token",
+      "microsNumerator": 1,
+      "denominator": 1,
+      "maximumUnits": 100
+    },
+    {
+      "id": "requests",
+      "unit": "request",
+      "microsNumerator": 3,
+      "denominator": 1,
+      "maximumUnits": 1
+    }
+  ],
+  "secretReference": "fixture:PROVIDER",
+  "implementation": {
+    "adapter": "6085a452eb805ebd90037d6b85e46fa4853f72cbb353860099a0d016386509fb",
+    "counter": "6487a3cd45a18fc84d7bd0c60e9c9eefcecc3c488c01509e94819ecc6084ba13"
+  },
+  "audience": "PROVIDER",
+  "knownAssumptions": [
+    "Injected deterministic fixture; no transport or secret resolved",
+    "Complete instructions/schema/context/wrapper accounted together",
+    "Rational microunit costs rounded upward per category"
+  ],
+  "unverifiedAssumptions": [
+    "No production tokenizer calibration",
+    "No production model, tariff, vendor protocol or endpoint admitted",
+    "Fixture prices and response usage are not biological or production measurements"
+  ],
+  "networkCalls": 0,
+  "fixtureOnly": true,
+  "admissionCreated": false,
+  "grantCreated": false,
+  "claimCreated": false,
+  "plannerInvoked": false,
+  "contextFields": [
+    "rules",
+    "identity",
+    "life",
+    "biology",
+    "permissions",
+    "tools",
+    "costNamespace"
+  ],
+  "identityFields": [
+    "id",
+    "name",
+    "designation",
+    "designationProvenance",
+    "bornAt",
+    "cycles"
+  ],
+  "contextBytes": 4939
+}

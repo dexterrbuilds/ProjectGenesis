@@ -1,0 +1,32 @@
+[
+  {
+    "file": "elife-85756-fig6-data2-v3.json.gz",
+    "numeric_text_cells": [
+      {
+        "ref": "B2",
+        "value": "0"
+      },
+      {
+        "ref": "C2",
+        "value": "25"
+      },
+      {
+        "ref": "D2",
+        "value": "50"
+      },
+      {
+        "ref": "E2",
+        "value": "100"
+      },
+      {
+        "ref": "F2",
+        "value": "200"
+      },
+      {
+        "ref": "G2",
+        "value": "-200"
+      }
+    ],
+    "error_cells": []
+  }
+]

@@ -1,36 +1,23 @@
-import { createServer } from 'node:http';
+/** Observation only. Boot never installs schemas, initializes an organism or starts a worker. */
 import pg from 'pg';
-import { readConfig } from './config.ts';
-import { migrate } from './migrate.ts';
-import { LifeStore } from '../server/store.ts';
-import { CElegansBrain } from '../core/brain/celegans.ts';
-import { WalletObserver } from './wallet-observer.ts';
-import { SolanaReadOnlyWallet } from '../core/economy/adapters.ts';
-import { LocalPlanner, OpenAIPlanner } from '../core/planner.ts';
-import { GenesisService } from './service.ts';
-import { LifeScheduler } from './scheduler.ts';
-import { handleRequest } from './http.ts';
-const config = readConfig();
-const pool = new pg.Pool({ connectionString: config.databaseUrl, max: 8, connectionTimeoutMillis: 10000, statement_timeout: 15000 });
-pool.on('error', e => console.error('Database pool error:', e.message));
-await migrate(pool);
-const store = new LifeStore(pool); await store.initialize(config.startingCents);
-const planner = config.plannerMode !== 'local' && config.apiKey && config.model ? new OpenAIPlanner(config.apiKey, config.model) : new LocalPlanner();
-const walletObserver = config.solana ? new WalletObserver(pool, new SolanaReadOnlyWallet(config.solana.rpcUrl, config.solana.address, config.solana.network), `solana:${config.solana.network}:${config.solana.address}`) : undefined;
-const service = new GenesisService(store, config, () => new CElegansBrain(), planner, walletObserver, 'C. elegans');
-const scheduler = new LifeScheduler(service);
-const server = createServer(async (req, res) => {
-  try {
-    let bytes = 0; const chunks = [];
-    for await (const chunk of req) { bytes += chunk.length; if (bytes > 8192) { res.writeHead(413); res.end('Request too large'); return; } chunks.push(chunk); }
-    const headers = new Headers(); for (const [key, value] of Object.entries(req.headers)) if (typeof value === 'string') headers.set(key, value);
-    const method = req.method ?? 'GET';
-    const request = new Request(new URL(req.url ?? '/', 'http://genesis-runtime'), { method, headers, ...(method !== 'GET' && method !== 'HEAD' ? { body: Buffer.concat(chunks) } : {}) });
-    const response = await handleRequest(request, service); res.writeHead(response.status, Object.fromEntries(response.headers)); res.end(await response.text());
-  } catch { res.writeHead(500); res.end('Runtime request failed'); }
-});
-server.requestTimeout = 55000; server.headersTimeout = 10000;
-server.listen(config.port, config.host, () => { console.log(`Project Genesis runtime listening on ${config.host}:${config.port}; planner=${planner instanceof OpenAIPlanner ? 'openai' : 'local'}; scheduler=${config.autonomous}`); scheduler.start(); });
-let stopping = false;
-async function shutdown() { if (stopping) return; stopping = true; const closed = new Promise<void>(resolve => server.close(() => resolve())); await scheduler.stop(); await closed; await pool.end(); }
-process.on('SIGTERM', () => void shutdown()); process.on('SIGINT', () => void shutdown());
+import {readConfig} from './config.ts';
+import {verifyEvidence} from '../core/v2/biology.ts';
+import {LifeStore} from '../server/store.ts';
+import {GenesisService} from './service.ts';
+import {dormantMode,poolConfig} from './deployment/config.ts';
+import {observationServer,stopObservation} from './deployment/http-server.ts';
+import {logRecord} from './deployment/log.ts';
+import {runtimeIdentity} from '../server/one-shot-spec.ts';
+async function main(){
+ const expected=dormantMode();
+ // No operator credential is needed by a public observation service.
+ const config=readConfig({...process.env,GENESIS_OPERATOR_TOKEN:'observation-only-no-mutation-authority',GENESIS_PLANNER_MODE:'local'});
+ const pool=new pg.Pool(poolConfig(config.databaseUrl,'observation'));
+ pool.on('error',()=>console.error(logRecord('runtime','NOT_READY')));
+ verifyEvidence();const service=new GenesisService(new LifeStore(pool),config);
+ const server=observationServer(service,pool,expected);
+ server.listen(config.port,config.host,()=>console.log(logRecord('runtime','STARTED',runtimeIdentity().sha256)));
+ let stopping=false;const stop=async()=>{if(stopping)return;stopping=true;console.log(logRecord('runtime','STOPPING'));const hard=setTimeout(()=>process.exit(1),12000);hard.unref();await stopObservation(server,pool);clearTimeout(hard);console.log(logRecord('runtime','STOPPED'));};
+ process.on('SIGTERM',()=>void stop());process.on('SIGINT',()=>void stop());
+}
+main().catch(()=>{console.error(logRecord('runtime','REFUSED'));process.exitCode=1;});

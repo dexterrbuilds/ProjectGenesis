@@ -1,0 +1,8 @@
+{
+ "status":"PENDING","provider":null,"model":null,"transport":null,
+ "tokenCounter":null,"rateCard":null,"secretReference":null,"reviewReference":null,
+ "maximumInputTokens":12000,"maximumOutputTokens":1200,
+ "perAttemptMicros":50000,"perCycleMicros":50000,"dailyMicros":50000,
+ "timeoutMs":25000,"automaticRetries":0,
+ "instruction":"Not an admission. Supply independently verified evidence matching server/provider-admission.ts and bind its canonical hash to a separately authorized one-shot grant. No provider is enabled by this file."
+}

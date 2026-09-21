@@ -1,0 +1,460 @@
+{
+  "access": "REPEATABLE READ READ ONLY",
+  "rolePrivileges": {
+    "rolsuper": true,
+    "rolcreaterole": true,
+    "rolcreatedb": true,
+    "rolbypassrls": true
+  },
+  "tables": [
+    {
+      "name": "genesis_action_intents",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "16384"
+    },
+    {
+      "name": "genesis_decisions",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "794624"
+    },
+    {
+      "name": "genesis_external_observations",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "16384"
+    },
+    {
+      "name": "genesis_ledger",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "32768"
+    },
+    {
+      "name": "genesis_life_events",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "32768"
+    },
+    {
+      "name": "genesis_life_state",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "32768"
+    },
+    {
+      "name": "genesis_memories",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "32768"
+    },
+    {
+      "name": "genesis_migrations",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "32768"
+    },
+    {
+      "name": "genesis_milestones",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "32768"
+    },
+    {
+      "name": "genesis_organisms",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "114688"
+    },
+    {
+      "name": "genesis_projects",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "32768"
+    },
+    {
+      "name": "genesis_schedule",
+      "owned_by_connection_role": true,
+      "rls": false,
+      "bytes": "65536"
+    }
+  ],
+  "indexes": [
+    {
+      "tablename": "genesis_action_intents",
+      "indexname": "genesis_action_intents_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_action_intents_pkey ON public.genesis_action_intents USING btree (id)"
+    },
+    {
+      "tablename": "genesis_decisions",
+      "indexname": "genesis_decisions_at_idx",
+      "indexdef": "CREATE INDEX genesis_decisions_at_idx ON public.genesis_decisions USING btree (at)"
+    },
+    {
+      "tablename": "genesis_decisions",
+      "indexname": "genesis_decisions_cycle_key",
+      "indexdef": "CREATE UNIQUE INDEX genesis_decisions_cycle_key ON public.genesis_decisions USING btree (cycle)"
+    },
+    {
+      "tablename": "genesis_decisions",
+      "indexname": "genesis_decisions_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_decisions_pkey ON public.genesis_decisions USING btree (id)"
+    },
+    {
+      "tablename": "genesis_external_observations",
+      "indexname": "genesis_external_observations_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_external_observations_pkey ON public.genesis_external_observations USING btree (id)"
+    },
+    {
+      "tablename": "genesis_ledger",
+      "indexname": "genesis_ledger_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_ledger_pkey ON public.genesis_ledger USING btree (id)"
+    },
+    {
+      "tablename": "genesis_life_events",
+      "indexname": "genesis_life_events_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_life_events_pkey ON public.genesis_life_events USING btree (id)"
+    },
+    {
+      "tablename": "genesis_life_state",
+      "indexname": "genesis_life_state_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_life_state_pkey ON public.genesis_life_state USING btree (organism_id)"
+    },
+    {
+      "tablename": "genesis_memories",
+      "indexname": "genesis_memories_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_memories_pkey ON public.genesis_memories USING btree (id)"
+    },
+    {
+      "tablename": "genesis_migrations",
+      "indexname": "genesis_migrations_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_migrations_pkey ON public.genesis_migrations USING btree (version)"
+    },
+    {
+      "tablename": "genesis_milestones",
+      "indexname": "genesis_milestones_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_milestones_pkey ON public.genesis_milestones USING btree (id)"
+    },
+    {
+      "tablename": "genesis_organisms",
+      "indexname": "genesis_organisms_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_organisms_pkey ON public.genesis_organisms USING btree (id)"
+    },
+    {
+      "tablename": "genesis_projects",
+      "indexname": "genesis_projects_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_projects_pkey ON public.genesis_projects USING btree (id)"
+    },
+    {
+      "tablename": "genesis_schedule",
+      "indexname": "genesis_schedule_pkey",
+      "indexdef": "CREATE UNIQUE INDEX genesis_schedule_pkey ON public.genesis_schedule USING btree (id)"
+    }
+  ],
+  "triggers": [
+    {
+      "event_object_table": "genesis_decisions",
+      "trigger_name": "immutable_decisions",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_immutable_event()"
+    },
+    {
+      "event_object_table": "genesis_decisions",
+      "trigger_name": "immutable_decisions",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_immutable_event()"
+    },
+    {
+      "event_object_table": "genesis_decisions",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_decisions",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "INSERT",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_decisions",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_external_observations",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_external_observations",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "INSERT",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_external_observations",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_ledger",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_ledger",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "INSERT",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_ledger",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_life_events",
+      "trigger_name": "immutable_life_events",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_immutable_event()"
+    },
+    {
+      "event_object_table": "genesis_life_events",
+      "trigger_name": "immutable_life_events",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_immutable_event()"
+    },
+    {
+      "event_object_table": "genesis_memories",
+      "trigger_name": "immutable_memories",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_immutable_event()"
+    },
+    {
+      "event_object_table": "genesis_memories",
+      "trigger_name": "immutable_memories",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_immutable_event()"
+    },
+    {
+      "event_object_table": "genesis_memories",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_memories",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "INSERT",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_memories",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_milestones",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_milestones",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "INSERT",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_milestones",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_organisms",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_organisms",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "INSERT",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_organisms",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_projects",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_projects",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "INSERT",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_projects",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_schedule",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "DELETE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_schedule",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "INSERT",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    },
+    {
+      "event_object_table": "genesis_schedule",
+      "trigger_name": "runtime_v1_writer_fence",
+      "event_manipulation": "UPDATE",
+      "action_statement": "EXECUTE FUNCTION genesis_require_v2_writer()"
+    }
+  ],
+  "constraints": [
+    {
+      "table_name": "genesis_action_intents",
+      "name": "genesis_action_intents_organism_id_fkey",
+      "type": "f",
+      "definition": "FOREIGN KEY (organism_id) REFERENCES genesis_organisms(id)"
+    },
+    {
+      "table_name": "genesis_action_intents",
+      "name": "genesis_action_intents_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_decisions",
+      "name": "genesis_decisions_cycle_key",
+      "type": "u",
+      "definition": "UNIQUE (cycle)"
+    },
+    {
+      "table_name": "genesis_decisions",
+      "name": "genesis_decisions_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_external_observations",
+      "name": "genesis_external_observations_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_ledger",
+      "name": "genesis_ledger_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_life_events",
+      "name": "genesis_life_events_organism_id_fkey",
+      "type": "f",
+      "definition": "FOREIGN KEY (organism_id) REFERENCES genesis_organisms(id)"
+    },
+    {
+      "table_name": "genesis_life_events",
+      "name": "genesis_life_events_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_life_state",
+      "name": "genesis_life_state_organism_id_fkey",
+      "type": "f",
+      "definition": "FOREIGN KEY (organism_id) REFERENCES genesis_organisms(id)"
+    },
+    {
+      "table_name": "genesis_life_state",
+      "name": "genesis_life_state_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (organism_id)"
+    },
+    {
+      "table_name": "genesis_life_state",
+      "name": "genesis_life_state_record_check",
+      "type": "c",
+      "definition": "CHECK (((record ->> 'executionLock'::text) = ANY (ARRAY['CLOSED'::text, 'OPEN'::text])))"
+    },
+    {
+      "table_name": "genesis_life_state",
+      "name": "genesis_life_state_schema_version_check",
+      "type": "c",
+      "definition": "CHECK ((schema_version = 1))"
+    },
+    {
+      "table_name": "genesis_memories",
+      "name": "genesis_memories_decision_id_fkey",
+      "type": "f",
+      "definition": "FOREIGN KEY (decision_id) REFERENCES genesis_decisions(id)"
+    },
+    {
+      "table_name": "genesis_memories",
+      "name": "genesis_memories_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_migrations",
+      "name": "genesis_migrations_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (version)"
+    },
+    {
+      "table_name": "genesis_milestones",
+      "name": "genesis_milestones_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_organisms",
+      "name": "genesis_organisms_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_projects",
+      "name": "genesis_projects_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_schedule",
+      "name": "genesis_schedule_pkey",
+      "type": "p",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "table_name": "genesis_schedule",
+      "name": "genesis_schedule_remaining_cycles_check",
+      "type": "c",
+      "definition": "CHECK (((remaining_cycles IS NULL) OR (remaining_cycles >= 0)))"
+    }
+  ],
+  "productionRoleSeparation": "NOT ESTABLISHED BY LOCAL OWNER CONNECTION"
+}

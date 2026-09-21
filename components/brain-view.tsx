@@ -43,11 +43,11 @@ export function BrainView({ nodes, edges, frame, large = false }: { nodes: Node[
   const selectedIndex = positions.index.get(selected)!;
   return <div className={`brain-visual ${large ? 'large' : ''}`}>
     <div className="network-label"><span>CONNECTOME / {nodes.length}</span><span>SCHEMATIC LAYOUT</span></div>
-    <canvas ref={canvas} role="img" aria-label={`Biological network of ${nodes.length} neurons. ${frame ? `Recorded simulation tick ${frame.tick}.` : 'At rest; no activity recorded.'}`} onPointerDown={e => {
+    <canvas ref={canvas} role="img" aria-label={`Biological network of ${nodes.length} neurons. ${frame ? `Recorded simulation tick ${frame.tick}.` : 'No activity supplied; current neural state unknown.'}`} onPointerDown={e => {
       const r = e.currentTarget.getBoundingClientRect(), x = (e.clientX - r.left) / r.width * 780, y = (e.clientY - r.top) / r.height * 460;
       if (positions.points.length) setSelected(positions.points.reduce((a, p) => Math.hypot(p.x - x, p.y - y) < Math.hypot(a.x - x, a.y - y) ? p : a).id);
     }} />
     <div className="network-legend">{[...new Set(nodes.map(n => n.role))].map(role => <span key={role}>{role}</span>)}</div>
-    <div className="neuron-inspector"><div><span className="mono accent">{selected}</span><span className="muted"> {nodes[selectedIndex]?.role}</span></div><span className="mono">{(frame?.activity[selectedIndex] ?? 0).toFixed(5)} <small className="muted">activation</small></span><Input aria-label="Find neuron by biological name" list="neuron-names" placeholder="Find a neuron…" value={query} onChange={e => { setQuery(e.target.value.toUpperCase()); if (positions.index.has(e.target.value.toUpperCase())) setSelected(e.target.value.toUpperCase()); }} /><datalist id="neuron-names">{nodes.map(n => <option key={n.id} value={n.id} />)}</datalist></div>
+    <div className="neuron-inspector"><div><span className="mono accent">{selected}</span><span className="muted"> {nodes[selectedIndex]?.role}</span></div><span className="mono">{frame ? frame.activity[selectedIndex]?.toFixed(5) ?? 'Unknown' : 'Unknown'} <small className="muted">activation</small></span><Input aria-label="Find neuron by biological name" list="neuron-names" placeholder="Find a neuron…" value={query} onChange={e => { setQuery(e.target.value.toUpperCase()); if (positions.index.has(e.target.value.toUpperCase())) setSelected(e.target.value.toUpperCase()); }} /><datalist id="neuron-names">{nodes.map(n => <option key={n.id} value={n.id} />)}</datalist></div>
   </div>;
 }

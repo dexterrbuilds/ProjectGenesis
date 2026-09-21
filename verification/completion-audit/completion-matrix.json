@@ -1,0 +1,236 @@
+[
+  {
+    "system": "Identity",
+    "status": "IMPLEMENTED",
+    "evidence": "`store.read`; organism singleton; migration/restart tests",
+    "localWorkRemaining": "Preserve invariants in new entrypoints",
+    "productionWorkRemaining": "Backup/restore and target restart verification",
+    "launchBlocker": "No, after preservation gate",
+    "longRunBlocker": "No, if storage maintained"
+  },
+  {
+    "system": "Life State",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "`initialLifeState`, `reduceLife`, `commitV2`",
+    "localWorkRemaining": "Task/project workflows, typed validated updates, focus/temporal state",
+    "productionWorkRemaining": "Install only reviewed extensions",
+    "launchBlocker": "Limited context completeness",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "Memory",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "events table, semantic assertions, `compileContext`",
+    "localWorkRemaining": "Consented episodic/artifact retrieval, selection, growth policy",
+    "productionWorkRemaining": "Retention/backup/access controls",
+    "launchBlocker": "Yes for promised historical recall",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "Biology",
+    "status": "IMPLEMENTED",
+    "evidence": "`SavedObservationAdapter`, evidence verifier, saved replay",
+    "localWorkRemaining": "Correct snapshot recording-time provenance; retain saved-only scope",
+    "productionWorkRemaining": "Ship pinned package/data",
+    "launchBlocker": "Provenance correction before new public record",
+    "longRunBlocker": "No; no live biology required"
+  },
+  {
+    "system": "Context Compiler",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "`compileContext`, budget/privacy tests",
+    "localWorkRemaining": "Relevant event/history/project/task selection; bounded manifest/critical state",
+    "productionWorkRemaining": "Target token counter admission",
+    "launchBlocker": "Yes for intended first context",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "Planner",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "`PlannerV2`, `ProductFallback`, `LanguagePlannerV2`",
+    "localWorkRemaining": "Connect one approved producer; robust error/recovery paths",
+    "productionWorkRemaining": "Actual selected provider verification",
+    "launchBlocker": "Yes for LLM awakening",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "Provider",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "`ProviderControl`, admission schema, one-shot wrapper",
+    "localWorkRemaining": "Native transport/counter/secret factory; total-cost proof",
+    "productionWorkRemaining": "Model/tariff/key/admission/smoke authorization",
+    "launchBlocker": "Yes for paid planner",
+    "longRunBlocker": "Yes for LLM life"
+  },
+  {
+    "system": "Constitution",
+    "status": "IMPLEMENTED",
+    "evidence": "frozen six-principle value, hash in state/context/grant",
+    "localWorkRemaining": "Explicit review procedure for future change",
+    "productionWorkRemaining": "Bind same release hash",
+    "launchBlocker": "No",
+    "longRunBlocker": "Guidance alone is insufficient"
+  },
+  {
+    "system": "Policy",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "`evaluatePolicy`, `approvalMatches`, commit revalidation",
+    "localWorkRemaining": "Authenticated management/reconciliation; future scopes",
+    "productionWorkRemaining": "Least-privilege operator/DB access",
+    "launchBlocker": "Management path required",
+    "longRunBlocker": "Yes for broader effects"
+  },
+  {
+    "system": "Actions",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "local text staged/committed in episode",
+    "localWorkRemaining": "Artifact retrieval/update identity; extensible effects later",
+    "productionWorkRemaining": "None for bounded database text",
+    "launchBlocker": "Small local path exists",
+    "longRunBlocker": "Yes for broader work"
+  },
+  {
+    "system": "Outcomes",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "`prepareCycle` deterministic statuses/reducer",
+    "localWorkRemaining": "Pending/denied consistency, task/artifact outcomes and retry policy",
+    "productionWorkRemaining": "External receipt reconciliation only if admitted",
+    "launchBlocker": "Review trace consistency",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "Autonomous Lifecycle",
+    "status": "NOT IMPLEMENTED",
+    "evidence": "shipped advance always rejects; no continuation entry",
+    "localWorkRemaining": "V2 event queue, operating authority, continuation and bounded work loop",
+    "productionWorkRemaining": "Operated worker/alerts later",
+    "launchBlocker": "No for exactly one cycle",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "Scheduling",
+    "status": "DEPRECATED",
+    "evidence": "legacy due-time store; scheduler now dormant-check only",
+    "localWorkRemaining": "New V2 time/event scheduling, no catch-up storms",
+    "productionWorkRemaining": "Worker clock/restart verification",
+    "launchBlocker": "No; must remain off",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "Economy",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "simulated ledger, namespaced DTOs, provider liability ledger",
+    "localWorkRemaining": "Operational cost visibility; real-income attribution only later",
+    "productionWorkRemaining": "Verified feeds/receipts if admitted",
+    "launchBlocker": "No for bounded non-wallet cycle",
+    "longRunBlocker": "Resource accounting required"
+  },
+  {
+    "system": "Wallet",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "HTTPS `getBalance` adapter; inactive observer",
+    "localWorkRemaining": "Reviewed identity/feed path if later needed; no signer",
+    "productionWorkRemaining": "Authoritative address/network/RPC",
+    "launchBlocker": "No; keep disabled",
+    "longRunBlocker": "Optional"
+  },
+  {
+    "system": "Internet",
+    "status": "DEPRECATED",
+    "evidence": "legacy fixed reading fetch in `core/life.ts`",
+    "localWorkRemaining": "New permissioned V2 ingestion/search only if desired",
+    "productionWorkRemaining": "Approved services/egress later",
+    "launchBlocker": "No; keep disabled",
+    "longRunBlocker": "Optional but needed for research scope"
+  },
+  {
+    "system": "Communication",
+    "status": "NOT IMPLEMENTED",
+    "evidence": "local assistance proposal only",
+    "localWorkRemaining": "Attributed inbound answers; optional outbound clients",
+    "productionWorkRemaining": "Operator channel credentials later",
+    "launchBlocker": "No outbound required",
+    "longRunBlocker": "Human feedback loop needed"
+  },
+  {
+    "system": "Projects",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "original project persists; status overlay reducer",
+    "localWorkRemaining": "Create/tasks/progress/artifact linkage/revisit, cost links",
+    "productionWorkRemaining": "None for local projects",
+    "launchBlocker": "No business workflow required first",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "Human Interaction",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "bearer read/mutation gate; private library methods",
+    "localWorkRemaining": "Inspection/authorize/revoke/reconcile/respond entrypoints",
+    "productionWorkRemaining": "Operator authentication/secret custody",
+    "launchBlocker": "Yes",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "First Awakening",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "one-shot library, exact fences, fixture tests",
+    "localWorkRemaining": "Manual controlled entrypoint, reviewed schema installer and complete context",
+    "productionWorkRemaining": "Target identities/admission, human authorization",
+    "launchBlocker": "Yes",
+    "longRunBlocker": "Does not authorize continuity"
+  },
+  {
+    "system": "Persistence",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "001\u2013003 applied, transactional code",
+    "localWorkRemaining": "Preparation/one-shot installation path; growth/index/recovery work",
+    "productionWorkRemaining": "Managed DB least privilege/PITR/restore",
+    "launchBlocker": "Yes, pending schemas",
+    "longRunBlocker": "Yes, operational recovery"
+  },
+  {
+    "system": "Security",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "allowlists, closed execution, no external executor",
+    "localWorkRemaining": "Harden operator boundary, logging/limits and trusted factories",
+    "productionWorkRemaining": "Non-superuser roles, TLS, ingress, secret isolation",
+    "launchBlocker": "Yes for active production",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "Public API",
+    "status": "IMPLEMENTED",
+    "evidence": "state/history/brain/replay projections; mutation 423",
+    "localWorkRemaining": "Pagination, accurate new-state summary/provenance",
+    "productionWorkRemaining": "Trusted proxy origin/access limits",
+    "launchBlocker": "New-record provenance issue",
+    "longRunBlocker": "Scaling/update work"
+  },
+  {
+    "system": "Observer UI",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "current components/DTO templates; fixture tests",
+    "localWorkRemaining": "Real post-cycle status/counts and approved content, not more decoration",
+    "productionWorkRemaining": "Point to deployed public runtime",
+    "launchBlocker": "Functional corrections only",
+    "longRunBlocker": "Yes for truthful longitudinal story"
+  },
+  {
+    "system": "Deployment",
+    "status": "BLOCKED BY INFRASTRUCTURE",
+    "evidence": "Dockerfile/Railway/Vercel/CI files; local build",
+    "localWorkRemaining": "Build-context/documentation alignment",
+    "productionWorkRemaining": "Select target, build/boot/restart/TLS/backup checks",
+    "launchBlocker": "Yes",
+    "longRunBlocker": "Yes"
+  },
+  {
+    "system": "Testing",
+    "status": "PARTIALLY IMPLEMENTED",
+    "evidence": "162 passing tests, local PG processes, TS/lint/build",
+    "localWorkRemaining": "Missing workflow/integration/soak tests",
+    "productionWorkRemaining": "Container/host/provider/restore tests",
+    "launchBlocker": "Some missing integrations",
+    "longRunBlocker": "Yes"
+  }
+]

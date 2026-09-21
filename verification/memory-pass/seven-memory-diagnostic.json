@@ -1,0 +1,154 @@
+{
+  "mode": "READ-ONLY SYNTHETIC DIAGNOSTIC; NOT A CANONICAL EVENT",
+  "organismId": "817e772c-827e-48fc-8e35-6504cb2a8d2d",
+  "legacyRecords": 7,
+  "disclosureMetadataPresent": 0,
+  "diagnostics": [
+    {
+      "syntheticEvent": "recent-history",
+      "discoveredLegacyRecords": 7,
+      "eligible": 0,
+      "selectedIds": [],
+      "exclusions": [
+        {
+          "id": "0497212d-6d63-4f2d-8718-61edeb72256c:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "548faae6-66bf-4bae-b316-84aeb3f81593:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "65b0ed69-b8de-442b-a404-3a9309990654:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "acaffabc-adcd-4a57-804a-2c755592e90e:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "aefcb285-48a8-4f71-a848-e7a592dc5670:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "c9df9d77-89a6-4557-952c-69c8b8334e46:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "e4c7902b-a1cc-470c-a367-d7a792bbf4ca:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        }
+      ]
+    },
+    {
+      "syntheticEvent": "explicit-first-memory",
+      "discoveredLegacyRecords": 7,
+      "eligible": 0,
+      "selectedIds": [],
+      "exclusions": [
+        {
+          "id": "0497212d-6d63-4f2d-8718-61edeb72256c:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "548faae6-66bf-4bae-b316-84aeb3f81593:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "65b0ed69-b8de-442b-a404-3a9309990654:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "acaffabc-adcd-4a57-804a-2c755592e90e:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "aefcb285-48a8-4f71-a848-e7a592dc5670:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "c9df9d77-89a6-4557-952c-69c8b8334e46:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "e4c7902b-a1cc-470c-a367-d7a792bbf4ca:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        }
+      ]
+    },
+    {
+      "syntheticEvent": "existing-project",
+      "discoveredLegacyRecords": 7,
+      "eligible": 0,
+      "selectedIds": [],
+      "exclusions": [
+        {
+          "id": "0497212d-6d63-4f2d-8718-61edeb72256c:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "548faae6-66bf-4bae-b316-84aeb3f81593:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "65b0ed69-b8de-442b-a404-3a9309990654:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "acaffabc-adcd-4a57-804a-2c755592e90e:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "aefcb285-48a8-4f71-a848-e7a592dc5670:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "c9df9d77-89a6-4557-952c-69c8b8334e46:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "e4c7902b-a1cc-470c-a367-d7a792bbf4ca:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        }
+      ]
+    },
+    {
+      "syntheticEvent": "lexical-review",
+      "discoveredLegacyRecords": 7,
+      "eligible": 0,
+      "selectedIds": [],
+      "exclusions": [
+        {
+          "id": "0497212d-6d63-4f2d-8718-61edeb72256c:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "548faae6-66bf-4bae-b316-84aeb3f81593:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "65b0ed69-b8de-442b-a404-3a9309990654:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "acaffabc-adcd-4a57-804a-2c755592e90e:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "aefcb285-48a8-4f71-a848-e7a592dc5670:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "c9df9d77-89a6-4557-952c-69c8b8334e46:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        },
+        {
+          "id": "e4c7902b-a1cc-470c-a367-d7a792bbf4ca:memory",
+          "reason": "not admitted for internal: missing-disclosure"
+        }
+      ]
+    }
+  ],
+  "networkCalls": 0,
+  "canonicalWrites": 0
+}

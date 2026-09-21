@@ -1,0 +1,32 @@
+{
+  "digest": "4c5f33972c6212a24fe5386b9c5c499df94ddbfebd2a26639333566604e56220",
+  "organismCount": 1,
+  "organismId": "817e772c-827e-48fc-8e35-6504cb2a8d2d",
+  "bornAt": "2026-09-15T01:56:07.867Z",
+  "decisions": 7,
+  "cycles": 7,
+  "originalMemories": 7,
+  "projects": 1,
+  "ledgerRows": 4,
+  "lifeEvents": 1,
+  "v2Decisions": 0,
+  "executionLock": "CLOSED",
+  "biologicalMode": "SAVED-OBSERVATION-ONLY",
+  "scheduleEnabled": false,
+  "walletBindingStatus": "unresolved",
+  "tables": {
+    "genesis_action_intents": 0,
+    "genesis_decisions": 7,
+    "genesis_external_observations": 0,
+    "genesis_ledger": 4,
+    "genesis_life_events": 1,
+    "genesis_life_state": 1,
+    "genesis_memories": 7,
+    "genesis_migrations": 3,
+    "genesis_milestones": 4,
+    "genesis_organisms": 1,
+    "genesis_projects": 1,
+    "genesis_schedule": 1
+  },
+  "otherClientSessions": 0
+}

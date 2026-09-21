@@ -1,0 +1,80 @@
+{
+  "platform": "darwin",
+  "architecture": "arm64",
+  "node": "v26.1.0",
+  "oneShot": {
+    "version": "runtime-v1-oneshot-1.0.8",
+    "sha256": "94fc7611a77e3fa76d524461d525cbc70213450c7d971e171639135af49d693f"
+  },
+  "continuous": {
+    "runtimeHash": "6ddb5b5f8c40ae40a5d579575c25f67bf0d450e4460d5826c6996e42ccfa3fa7",
+    "constitutionHash": "473a0f392e4bd0105a731f5c382d1d4ba07bec6b189852cb354d4332bfd0f169",
+    "policyHash": "9785bf0558111439130e4b4bf12ca20e45e87cbe8d1c7d010bdce521a23e49f0"
+  },
+  "awakeningMode": {
+    "id": "GENESIS_FIRST_AWAKENING_V1",
+    "version": "1.0.0",
+    "authorization": "NOT_AUTHORIZED",
+    "maximumCycles": 1,
+    "expectedDecisions": 7,
+    "maximumProviderAttempts": 1,
+    "maximumCostMicros": 50000,
+    "maximumInputTokens": 12000,
+    "maximumOutputTokens": 1200,
+    "timeoutMs": 25000,
+    "leaseMs": 60000,
+    "automaticRetries": 0,
+    "executionLock": "CLOSED",
+    "scheduleEnabled": false,
+    "biologicalMode": "SAVED-OBSERVATION-ONLY",
+    "allowedLocalEffects": [
+      "local_reflection",
+      "local_artifact"
+    ],
+    "allowedOutcomes": [
+      "ABSTAIN",
+      "DEFER",
+      "REQUEST_ASSISTANCE",
+      "PROPOSAL"
+    ],
+    "forbiddenEffects": [
+      "biological_advance",
+      "biological_stimulation",
+      "neural_step",
+      "fly_runtime",
+      "wallet_rpc",
+      "wallet_signing",
+      "transfers",
+      "trading",
+      "token_launch",
+      "clawpump",
+      "purchases",
+      "hiring",
+      "external_message",
+      "social_posting",
+      "internet",
+      "browser_automation",
+      "shell",
+      "filesystem_execution",
+      "unadmitted_external_api",
+      "scheduler",
+      "second_cycle"
+    ],
+    "providerAdmission": "PENDING"
+  },
+  "sql": {
+    "runtime/migrations/001_genesis.sql": "9687317a84bbe5ee70b7f7e79f59800ccc5e269c3cffae8bcec32376a45a85e7",
+    "runtime/migrations/002_observations.sql": "0a27ad7aeb7e1997b3b1858ebec09183377412b2ee93e39193e41df3eec16512",
+    "runtime/migrations/003_runtime_v1.sql": "634da03cc27cebad2de2d2797dc79b2af6b69d3e060bdf07f10c45dccec098c8",
+    "runtime/preparation-schema.sql": "301b2d634a0b0f31fa7220b7082847027b17ba3fc5a340fc1b1cbd02012c0a71",
+    "runtime/one-shot-schema.sql": "9aef075d03c56cfb1f3e6eb31c620b1bbfe2226bb4d4fc742418473bc53a38ce",
+    "runtime/continuous-schema.sql": "2290cd1aebf4371fbbf942dff022479d8f5e5a8f38d584f368576b56727d41ba",
+    "runtime/operator-schema-v1.sql": "7283848f8dd7a7ee35118c811d8f8f2f49cdf8e7234239cefe91f57df5101f04",
+    "runtime/provider-integration-schema.sql": "50b8de821eafe07cb5b185e2440627199798d11a1f94dc76a1dc435eefd718ea",
+    "runtime/deployment/release.sql": "9dee39fb4298c0cc22dec744a28b185c87c83b51caa8fbdb74897c0b63b4527c",
+    "runtime/operator-role-grants.sql": "d1c194da6018d88c27c4c2ffe48781e950399b79f6f4a7f93974b9f7bcc64106",
+    "runtime/provider-role-grants.sql": "775547e5b7eb658f662fb74c486a7e17158917d89d527809d2b9de6d78ea4407",
+    "runtime/deployment/roles.sql": "d4b644560e8df94c4c0f2b86a185688fb6f9512fddbfce204e53ee875f966787"
+  },
+  "canonicalInstallation": false
+}

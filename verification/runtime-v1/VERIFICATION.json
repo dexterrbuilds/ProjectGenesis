@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-20",
+  "mode": "SAVED-OBSERVATION-ONLY",
+  "tests": {
+    "total": 74,
+    "passed": 74,
+    "failed": 0,
+    "skipped": 0,
+    "runtimeV1Unit": 39,
+    "postgres": 7,
+    "legacyFixture": 28
+  },
+  "commands": {
+    "typecheck": {
+      "command": "npm run typecheck",
+      "exitCode": 0
+    },
+    "lint": {
+      "command": "npm run lint",
+      "exitCode": 0
+    },
+    "tests": {
+      "command": "node --env-file=outputs/runtime-v1/test-db.env --test tests/*.test.ts",
+      "exitCode": 0,
+      "database": "genesis_runtime_v1_test",
+      "providers": "injected test doubles"
+    },
+    "build": {
+      "command": "npm run build -- --webpack",
+      "exitCode": 0
+    },
+    "turbopack": {
+      "status": "host port-binding permission failure; not passed"
+    },
+    "docker": {
+      "status": "unavailable; not run"
+    }
+  },
+  "finalDatabaseDigest": "4c5f33972c6212a24fe5386b9c5c499df94ddbfebd2a26639333566604e56220",
+  "postDocumentationAuditUnchanged": true,
+  "executionLock": "CLOSED",
+  "scheduleEnabled": false,
+  "canonicalCycles": 7,
+  "canonicalRuntimeStarted": false,
+  "canonicalNeuralAdvance": false,
+  "realProviderCalls": 0,
+  "realWalletCalls": 0,
+  "externalDispatches": 0
+}

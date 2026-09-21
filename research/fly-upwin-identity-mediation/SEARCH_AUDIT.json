@@ -1,0 +1,37 @@
+{
+  "queries": [
+    "\"UpWiN\" \"dataset\" recordings morphology",
+    "\"SMP353\" \"receptor\"",
+    "\"85756\" \"zenodo\" OR \"figshare\" OR \"dryad\" OR \"github\"",
+    "\"SMP354\" \"GluCl\" electrophysiology",
+    "\"SMP353\" \"transcriptomics\" receptor",
+    "\"SS67249\" recording morphology data",
+    "\"Neural circuit mechanisms for transforming\" \"data\" repository raw",
+    "site:zenodo.org \"85756\"",
+    "site:figshare.com \"wind-oriented\" Aso",
+    "site:datadryad.org \"UpWiN\"",
+    "\"SMP353\" paired recordings receptor localization"
+  ],
+  "search_date": "2026-09-20",
+  "scope": "Public indexed literature and original publisher/driver-resource records; not an exhaustive search of private or unindexed data.",
+  "repositories": {
+    "publisher": "Final source workbooks already frozen; all 36 original accepted-manuscript workbooks recovered and byte-identical to final files.",
+    "microscopy": "FlyLight primary driver pages and VFB registered specimens acquired; no recording linkage found. Original Fig5 morphology PDF visually inspected; MCFO cell#1–3 are not electrophysiological row identifiers.",
+    "neuronbridge": "Landing application acquired; no cell-specific recording identifier available for a registered physiology match. No claim of exhaustive internal search.",
+    "indexed_deposits": "No additional trial/morphology/identity deposit located by the documented title/DOI/type searches.",
+    "github": "Original article links FlyTracker, NeuTu and VVD_Viewer software; these links are not a deposit of Fig4/5 trials or persistent behavioral tracks."
+  },
+  "original_software_links": [
+    "https://github.com/kristinbranson/FlyTracker",
+    "https://github.com/janelia-flyem/NeuTu",
+    "https://github.com/takashi310/VVD_Viewer"
+  ],
+  "rejected_shortcuts": [
+    "Earlier SMP353/354 caption is not independent cell identification",
+    "Reviews and downstream computational models are not independent physiology",
+    "Whole-brain GluCl expression or anatomical shunting proposals do not identify the target receptor",
+    "A movie overlay is not a deposited machine-readable track with persistent identities"
+  ],
+  "author_contact": false,
+  "unknowns_not_zero": true
+}

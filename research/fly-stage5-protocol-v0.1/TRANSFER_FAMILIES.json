@@ -1,0 +1,80 @@
+{
+  "families": [
+    {
+      "id": "E",
+      "partition": "EVIDENCE-ADMISSIBLE FAMILY",
+      "definition": "Union of every below qualitative branch, arbitrary cross-domain compatibility and arbitrary finite nuisance differences. No physiological numerical bounds.",
+      "symbolic_coverage": "all signs, flat/zero, heterogeneous mixtures, nonmonotone and context-dependent maps; explicit full-family nuisance",
+      "positive_claim_limit": "No universal nonzero direction follows solely from this family."
+    },
+    {
+      "id": "Z",
+      "partition": "RESTRICTED CONDITIONAL FAMILY",
+      "definition": "f(x)=constant; nuisance contrast held equal (ν=0).",
+      "operator": "zero",
+      "nuisance": "matched",
+      "scope": "null transfer branch; not no anatomical contacts"
+    },
+    {
+      "id": "P",
+      "partition": "RESTRICTED CONDITIONAL FAMILY",
+      "definition": "Any strictly increasing scalar f; same f in a contrast; ν=0.",
+      "operator": "increasing",
+      "nuisance": "matched",
+      "scope": "source-to-output order preserved by assumption"
+    },
+    {
+      "id": "R",
+      "partition": "RESTRICTED CONDITIONAL FAMILY",
+      "definition": "Any strictly decreasing scalar f; same f in a contrast; ν=0.",
+      "operator": "decreasing",
+      "nuisance": "matched",
+      "scope": "source-to-output order reversed by assumption"
+    },
+    {
+      "id": "WP",
+      "partition": "RESTRICTED CONDITIONAL FAMILY",
+      "definition": "Any weakly increasing f, including local/full plateaus; ν=0.",
+      "operator": "weak_increasing",
+      "nuisance": "matched",
+      "scope": "flat/saturated nulls retained"
+    },
+    {
+      "id": "WR",
+      "partition": "RESTRICTED CONDITIONAL FAMILY",
+      "definition": "Any weakly decreasing f, including local/full plateaus; ν=0.",
+      "operator": "weak_decreasing",
+      "nuisance": "matched",
+      "scope": "flat/saturated nulls retained"
+    },
+    {
+      "id": "H",
+      "partition": "RESTRICTED CONDITIONAL FAMILY",
+      "definition": "A fixed mixture of responsive or flat components receiving this same abstract scalar, nonnegative weights summing to one, signs and membership unrestricted, responsive mass q in [0,1]; ν=0.",
+      "operator": "heterogeneous",
+      "nuisance": "matched",
+      "scope": "q not assigned 4/17; no physical cell count/root ownership; no independence assumption"
+    },
+    {
+      "id": "U",
+      "partition": "RESTRICTED CONDITIONAL FAMILY",
+      "definition": "Any deterministic scalar f including nonmonotone functions; same f across each contrast; ν=0.",
+      "operator": "arbitrary",
+      "nuisance": "matched",
+      "scope": "local sign may differ from acute-protocol sign"
+    },
+    {
+      "id": "N",
+      "partition": "EVIDENCE-ADMISSIBLE FAMILY",
+      "definition": "For each of Z/P/R/WP/WR/H/U, allow arbitrary finite nuisance contrast ν, including cue/history/learning-dependent alternatives and exact cancellation.",
+      "operator": "arbitrary",
+      "nuisance": "unrestricted",
+      "scope": "no inequality bound from existing data; union represents broad uncertainty, not an executable biological mechanism"
+    }
+  ],
+  "selected_family": null,
+  "biological_parameter_estimates": {},
+  "physical_output_units": null,
+  "engineering_numerical_sweep": null,
+  "family_id_not_a_capability": true
+}

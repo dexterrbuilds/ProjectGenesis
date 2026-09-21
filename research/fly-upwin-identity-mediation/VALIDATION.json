@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "tests": 18,
+  "test_log": "TEST_LOG.txt",
+  "test_log_sha256": "a93ef2bde08ae95291cb1136d7b06d8395e034f5cc198d66ed03bb02224c9c24",
+  "protected_files": 9012,
+  "protected_files_changed": 0,
+  "prior_validation_tests": 15,
+  "canonical_before_equals_after": true,
+  "canonical_sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "canonical_cycles": 7,
+  "schedule_enabled": false,
+  "initial_test_error": "Initial source manifest referenced the pre-rename partial ZIP filename; corrected to explicit original byte-range files. Initial failure log retained. No biological evidence or frozen artifacts changed.",
+  "release_integrity": "Checked conditionally by test_18 once sealed; post-seal validation required."
+}

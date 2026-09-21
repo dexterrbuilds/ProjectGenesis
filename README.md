@@ -1,109 +1,76 @@
 # Project Genesis
 
-**Public pre-awakening release:** the website defaults to a dormant connectome and an absolute countdown. See [PREAWAKENING.md](PREAWAKENING.md) for `GENESIS_AWAKENS_AT`, local `/preview` access, and frontend-only Vercel deployment. Revealing the live interface and activating the organism are separate operations.
+An artificial-life experiment with persistent identity, history and explicitly separated biological observations, computational life state, language reasoning and policy.
 
-> “We gave a biological brain money, language and access to the internet. Now we’re going to see what it becomes.”
+**Runtime V1 is dormant.** Genesis 001 retains its original birth, seven experiences, memories, project, simulated economy and C. elegans snapshot. The approved implementation adds a life-state extension; it does not awaken Genesis or install a fly brain.
 
-An artificial life with a real connectome inside its decision loop. Genesis retains its identity, birth time, experiences, memories, projects, simulated money and neural state across cycles and restarts.
+## What the biological layer actually does
 
-**Brain v1:** 302 named C. elegans neurons, 3,709 directed chemical edges and 1,091 electrical pairs. All displayed activation is saved output from the deterministic simulator. This is a simplified connectome-constrained controller, not a validated reproduction of a living worm. See [SCIENCE.md](SCIENCE.md) and [data provenance and license](data/README.md).
+The active compatibility mode is **SAVED-OBSERVATION-ONLY**. It validates and restores the original 302-neuron C. elegans snapshot without stepping, stimulating or decoding it. Ordinary digital events receive `not_applied`, with a reason and null quantity. Saved frames are historical, dimensionless model output.
 
-## Run the neural proof
+The biological core supplies no semantic action authority. Historical decoder labels remain unchanged in storage and appear as **LEGACY COMPUTATIONAL DECODER LABEL — NOT VALIDATED BIOLOGICAL ACTION**. The legacy neural equations, connectome, BrainAdapter and tests remain available for compatibility. Frozen Drosophila studies and Brain Spec v0.2 are evidence, not installed runtime capabilities. The Stage-1 learning result is scoped to its research preparation.
 
-Requires Node 22.18+ (Node 24 recommended), npm; Python 3 only for dataset re-import.
+See [architecture](ARCHITECTURE.md), the [approved design](GENESIS_RUNTIME_V1_DESIGN.md), and [implementation report](RUNTIME_V1_IMPLEMENTATION_REPORT.md). [SCIENCE.md](SCIENCE.md) remains a historical scientific document; it does not grant current runtime action authority.
+
+## Current executable boundaries
+
+```text
+Event → applicability check → biological observation / NOT_APPLIED
+      → computational life context → bounded compiler → planner proposal
+      → independent policy → local result / non-execution → episode / life update
+```
+
+The preparation path is verified on isolated fixtures. The production service refuses execution before reaching it. No HTTP control, CLI, countdown, provider key or feature flag unlocks this release. No scheduler, heartbeat, wallet observer or external dispatcher starts. The four memory domains are biological snapshots, append-only episodes, attributed semantic/self assertions, and temporary working context.
+
+## Verify safely
+
+Requires Node 22.18+; Node 24 is recommended for this repository.
 
 ```sh
 npm ci
+npm run typecheck
+npm run lint
 npm test
-npm run demo
+npm run build -- --webpack
 ```
 
-The deterministic demo writes twelve complete cycles to `outputs/deterministic-proof.json` without changing the organism database. Tests cover original data checksums, propagation, ablation, bounded dynamics, snapshot restoration, constrained plans, economic limits and persistence.
+`npm test` skips the seven Postgres tests without `TEST_DATABASE_URL`. To include them, use a **separate database named `genesis_runtime_v1_test`**. Tests create/drop disposable schemas. They never target canonical Genesis. Neural regression tests operate on isolated legacy fixtures; provider tests use injected responses.
 
-| Event from rest, 80 steps | Intact brain | Action | Disconnected brain |
-| --- | --- | --- | --- |
-| Danger | RETREAT | withdraw | WAIT → rest |
-| Opportunity | APPROACH | draft_service | WAIT → rest |
-| Novelty | EXPLORE | research | WAIT → rest |
-| Quiet | WAIT | rest | WAIT → rest |
+The current environment passed 74 tests including the seven Postgres tests. Next production build passed using its supported webpack builder. Turbopack encountered a host port-permission error; Docker was unavailable. See [verification details](RUNTIME_V1_TEST_REPORT.md). `demo`, `life` and `check:llm` CLI commands now refuse execution in this dormant release.
 
-Persisted history can change these outputs. This proves material dependence on connectivity, not biological fidelity.
-
-## Run the living experiment locally
-
-Use a local Postgres 16+ database or a dedicated hosted development database. All authoritative life data is external to the web application.
+## Run an observer, not a life cycle
 
 ```sh
-cp .env.example .env
-# Set DATABASE_URL and a random GENESIS_OPERATOR_TOKEN of at least 24 characters.
+# Existing reviewed, migrated database only; never an empty replacement.
 npm run runtime
-```
-
-The runtime applies versioned migrations at startup. In a second terminal:
-
-```sh
+# Separately, for the frontend:
 npm run dev
 ```
 
-Open [localhost:5173](http://localhost:5173). Enter the operator token in the observation page’s operator settings. `GENESIS_DEV_OPERATOR=true` is an optional localhost-only development convenience; it is disabled in production.
+The runtime requires `DATABASE_URL` and a private operator token of at least 24 characters. Startup verifies evidence and the existing dormant identity; it does not initialize an organism or apply migrations. Canonical preparation was performed by the reviewed one-time migration and is reported in [migration evidence](RUNTIME_V1_MIGRATION_REPORT.md). Do not rerun the baseline-specific apply script on the migrated database.
 
-**Live autonomously** enables the persistent runtime schedule. **Run 8 cycles** is a bounded schedule owned by that same runtime. Closing the website does not stop either run. **Pause** prevents the next cycle; any in-flight cycle may finish. **Stop autonomous life** disables scheduling while retaining manual operation. The default daily limit is 200 committed cycles in UTC; resting cycles use twice the configured interval. Restarting the runtime retains pause, due time and remaining cycles. Missed time is not replayed as a burst of synthetic experiences.
+Public reads expose allowlisted DTOs, not raw organism state. `/api/replay?id=...` supplies genuine saved frames. Authenticated `/api/cycle` and `/api/control` return locked; unauthenticated mutations are rejected. There is no approval/financial dispatch API.
 
-The UI answers “What is Genesis doing right now?” and exposes:
+## Portable hosting and public launch
 
-`WORLD EVENT → SENSORY INPUT → 302-NEURON BRAIN → DRIVE → REASONING → ACTION → OUTCOME → EXPERIENCE`
+- Vercel: Next.js frontend/stateless proxy.
+- Railway or another Docker host: standalone observation runtime, independent of browser lifetime.
+- Postgres/Supabase: identity, history and additive life state.
 
-Live, Brain, Life, Money and Memory show persistent records. Replay inspects saved samples; it never simulates decorative activity. Birth is a distinct milestone tied to the original organism ID and creation time. Reading, learning, research, reflection, work, service drafting, risk review, withdrawal and idle/rest are available within behavioral constraints. A documented product energy rhythm allows recovery without changing the brain’s impulse.
+No GPT Sites or ChatGPT hosting dependency. [DEPLOYMENT.md](DEPLOYMENT.md) contains dormant-only deployment instructions. The public countdown uses `GENESIS_AWAKENS_AT=2026-09-29T00:00:00-07:00`; reaching zero does not authorize execution. [PREAWAKENING.md](PREAWAKENING.md) describes the presentation gate and development-only preview.
 
-## Real language planner
+## Economy and language
 
-Set **both** `OPENAI_API_KEY` and `OPENAI_MODEL` on the runtime. `GENESIS_PLANNER_MODE=auto` selects the real OpenAI Responses planner when both exist, otherwise the explicitly labeled deterministic local planner. Use `local` for reproducible demos or `openai` to require credentials at startup. Partial credentials are rejected. No live provider call has been verified in this checkout because credentials are absent.
+Simulated economy, on-chain holdings and attributed revenue remain distinct. Wallet identity is unresolved until an operator supplies authoritative provenance for the existing address. No address is guessed, signer created, balance inferred or transfer called revenue.
 
-The [Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs) schema fixes the behavior to the neural output and limits actions to its allowlist. A separate execution guard revalidates the plan. Provider errors become saved failed experiences and stop scheduled runs; there is no silent provider-to-local fallback. Calls have a 25-second timeout and 1,000 output-token limit. Configure provider billing limits separately: simulated expenses do not account for real API bills, and a cycle quota is not an exact currency spending cap.
+PlannerV2 has a strict proposal/defer/abstain/assistance contract, an explicitly product-level deterministic fallback, and a language-provider adapter tested with injected transport. The deployed composition uses neither live provider calls nor automatic fallback after provider failure. Real provider-cost reservation/reconciliation and a reviewed execution grant are prerequisites to activating paid reasoning.
 
-## Portable deployment
+## Review package
 
-The repository is a standard Next.js application plus a standalone Node runtime. **No GPT Sites, ChatGPT runtime, Cloudflare Worker or D1 dependency is required.**
+- [Implementation](RUNTIME_V1_IMPLEMENTATION_REPORT.md)
+- [Preservation](RUNTIME_V1_PRESERVATION_REPORT.md)
+- [Tests](RUNTIME_V1_TEST_REPORT.md)
+- [Migration](RUNTIME_V1_MIGRATION_REPORT.md)
+- [Awakening readiness](RUNTIME_V1_AWAKENING_READINESS.md)
 
-- **Vercel:** observation website and stateless API proxy; only needs `GENESIS_API_URL`.
-- **Railway:** always-on Docker service owns neural cycles, tools and the scheduler.
-- **Postgres / Supabase:** authoritative organism state, memories, decisions, neural traces, projects, milestones and ledger.
-
-Follow [DEPLOYMENT.md](DEPLOYMENT.md) for configuration, migration, health checks and recovery. The Docker runtime can move to another container host without changing the core application. No deployment is created by running the tests or build.
-
-## API and verification
-
-Both the runtime and web proxy expose public `GET /api/state`, `/api/brain`, `/api/history?before=<cycle>` and `/api/history?id=<decisionId>`. Runtime `GET /healthz` checks database connectivity.
-
-Mutation endpoints require `Authorization: Bearer <operator token>`:
-
-- `POST /api/cycle`: `{ "requestId": "unique-id-123", "event": "danger" }`; omit `event` to use the saved next stimulus.
-- `POST /api/control`: `{ "enabled": true, "remainingCycles": 8, "paused": false }`; use `remainingCycles: null` for continuous life within the daily quota, or `{ "enabled": false }` to stop scheduling.
-
-```sh
-npm run typecheck
-npm run build
-# Uses an isolated temporary schema in a development database; never point tests at production.
-TEST_DATABASE_URL=postgresql://user:password@localhost:5432/genesis_test npm run test:postgres
-# Optional foreground/manual runner against the runtime, independent of the web server:
-GENESIS_ORIGIN=http://localhost:3001 GENESIS_CYCLES=12 npm run life
-```
-
-Postgres tests exercise real transactions, restart recovery, leases, pause during commit, authentication, daily quota and bounded scheduler runs without a browser. Legacy SQLite regression tests remain as an additional migration-era check. Test network doubles are confined to tests.
-
-## Economy and current limits
-
-The development wallet uses integer cents, configurable starting capital and a journal. Every third work unit earns simulated $1.50; each unit costs $0.25. These are development-market rules, not real customers or demonstrated self-sustainability. Service drafts and memories are saved artifacts. Research can fetch fixed allowlisted OpenWorm sources when enabled; the agent does not have unrestricted internet access.
-
-`core/economy/adapters.ts` provides a read-only Solana balance adapter, a ClawPump finalized-fee receipt interface, asset-aware atomic units and pending financial intents. The ClawPump reader must be supplied against a verified provider API. No private keys, signing, trading or live fee ingestion are enabled; on-chain assets are never silently mixed with simulated USD. Financial, publication, communication, hiring and physical requests are pending review only. Human communication currently means drafting a message.
-
-The lease/transaction design is adequate for current read-only external tools. Before adding irreversible tools, implement a durable outbox, provider idempotency and reconciliation. A crash can repeat an uncommitted LLM call and its real billing. Public records must contain only material intended for observation. Full traces and aggregate state are retained for hackathon-scale runs; years of history need archival and retention design.
-
-## Hackathon readiness checks
-
-- `npm run check:llm` makes one real constrained planning request against a fresh brain, executes no tools and never connects to the organism database. It fails clearly without credentials. This is separate from deterministic provider-response tests.
-- Optional `SOLANA_RPC_URL`, `SOLANA_WALLET_ADDRESS`, and `SOLANA_NETWORK` (`devnet` or `mainnet-beta`) enable finalized native-SOL observations. Supply all three on the runtime. The network label is operator configuration; use its matching RPC endpoint. No private key is accepted.
-- The runtime polls that wallet at most once per minute per process, persists the last observation in Postgres, and shows its timestamp/error in Money. A failed read retains the last successful value as stale. The LLM receives the timestamped observation and the decision retains exactly the observation used. Balance reads do not change the brain stimulus or simulated ledger and do not prove fee income.
-- `manage_resources` is a permitted APPROACH/AVOID action that reviews cash, reserve and projects without transferring funds. Local planning chooses it when a work expense would breach the simulated reserve. Idle and recovery remain valid outcomes.
-
-See [VERIFICATION.md](VERIFICATION.md) for preservation checks, tested boundaries and remaining live-provider prerequisites. [DEMO.md](DEMO.md) is a short judge-facing walkthrough.
+Implementation is ready to inspect; activation blockers remain. No new biological capability is claimed.

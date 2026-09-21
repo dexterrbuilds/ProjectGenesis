@@ -1,0 +1,18 @@
+{
+  "primary_scientific_outputs": [
+    "process-1/RESULTS.json",
+    "process-2/RESULTS.json",
+    "RESULT_MATRIX.json"
+  ],
+  "lossless_reporting_outputs": [
+    "ALL_FAMILY_RESULTS.csv",
+    "FAMILY_SUMMARY.json",
+    "SOURCE_DEPENDENCE_GATES.json",
+    "SOURCE_DIAGNOSTICS.json",
+    "COUNTEREXAMPLE_AUDIT.json"
+  ],
+  "human_report": "STAGE5_REPORT.md",
+  "governance_directory": "governance",
+  "result_sha256": "49f603aed20ccec93d6aa427481a410ed045e28e7d38f956f4b7e3710b98f642",
+  "original_outputs_are_not_overwritten": true
+}

@@ -1,0 +1,22 @@
+test_01_preservation (__main__.Design) ... ok
+test_02_dependencies (__main__.Design) ... ok
+test_03_source_lock_without_value_reads (__main__.Design) ... ok
+test_04_canonical (__main__.Design) ... ok
+test_05_guard (__main__.Design) ... ok
+test_06_reject_branch_deletion (__main__.Design) ... ok
+test_07_reject_best_branch_selection (__main__.Design) ... ok
+test_08_reject_physical_or_root_mapping (__main__.Design) ... ok
+test_09_reject_parameter_promotion (__main__.Design) ... ok
+test_10_reject_unblinding_execution (__main__.Design) ... ok
+test_11_reject_grid_as_bound (__main__.Design) ... ok
+test_12_controls (__main__.Design) ... ok
+test_13_compatibility_preserved (__main__.Design) ... ok
+test_14_ast_only_no_analysis_import (__main__.Design) ... ok
+test_15_result_semantics (__main__.Design) ... ok
+test_16_required_artifacts_and_no_results (__main__.Design) ... ok
+test_17_release_if_sealed (__main__.Design) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 12.527s
+
+OK

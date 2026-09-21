@@ -1,0 +1,10 @@
+{
+  "node": "v26.1.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "runtime": {
+    "version": "runtime-v1-oneshot-1.0.7",
+    "sha256": "f5646dac792e9bf114041076f78ef7a87372ecf61a7f1926a4172e8031e869fb"
+  },
+  "scope": "Local verification identity only. Production identity must be computed inside final reviewed Node24/Linux image; no authority issued."
+}

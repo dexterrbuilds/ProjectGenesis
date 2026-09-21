@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "definition": "SHA-256 of compact sorted UTF-8 JSON relative-path-to-file-SHA256 map; excludes this manifest",
+  "contentSha256": "98a4c552869816a83380c42f2bf2d7d75b9880ad99d18e1edd12a7a1dc454e22",
+  "files": {
+    "BUILD_CONTEXT.json": "c9cfb4cfeefa820435b084a727bb5d2757b2c9b4607e0c60990c814e899a5258",
+    "CHECKS.json": "26696af5843a5c23e0c44f08189c30639af6ea85a18169c0acc96a0c6aa9a469",
+    "DEPLOYMENT_PREPARATION_REPORT.md": "cc854136ae29d431b7c1a554c9c5c77b4db489e4cd24f2157560343de6ffb0b3",
+    "ENTRYPOINT_INVENTORY.json": "4e69ed49143df1cb737578a12323acc1c95032b12fa0360e25e98f52c6bae986",
+    "ENVIRONMENT_INVENTORY.json": "41fcf7a5d3ec29700d6a8554e9c7b6e89c28e985a4174be2daccef65e4bf2fb1",
+    "FILES_CHANGED.json": "80e89635ee2cd4e8677ad6edb57ea47941b81984f1d104d5875ef0b9b9a2b4d7",
+    "FROZEN_PRESERVATION.json": "3da9d3007b625cda842d62d72edcd62505f92063a653608b5e03b0d3a8f1f6d8",
+    "LOCAL_RUNTIME_IDENTITY.json": "7dc641e79219ab8756d8e17fa8876684a5bd4f176a50706097a41877e86e942a",
+    "MONITORING_CONTRACT.json": "3c4bfac558a8020b2205bd965dae4d6db15f1feada05c53f9a1a831eaa05f2f2",
+    "OBSERVER_E2E.json": "686b16b49b2120fef4209457bd144c4dd9e4aa0ac3d69653b6a0017cab7fa7d5",
+    "PRESERVATION.json": "9bc0dca441ddc058196c93712a52746a5a338709489b569c7c9b886e63fe555e",
+    "SCHEMA_INVENTORY.json": "c90f00bd87791b5683e5de2540c74c26c974517ba87e62309911d0e154430398",
+    "logs/build.txt": "ea726670b160570ef44eaa56a4e4f85ba1697865efde0e400bcd415a7babe5f1",
+    "logs/deployment-targeted.txt": "2b416a49913a634f60c7104be60784b67fc47d37e6fe0dc7dfd684407f4179fb",
+    "logs/full-tests-deadline-failures.txt": "ff2a565a3a65c033dd4ceb5a3b5a7b960464438a6569437d992646a65e5ead89",
+    "logs/full-tests-isolated-rerun.txt": "18cc145c19d9559908fa493191486e884fa97415f0d3053e71136ce1e1c0a0bb",
+    "logs/full-tests.txt": "87f5c2f8f5ca01d70c061f3df716e194d3f32251a4dff113aee7a0ba3ab56baa",
+    "logs/lease-regression-isolated.txt": "5778cc0d2e880051367c2dce2830d9bca5dcc925b7b6a50cd37555e0915e304e",
+    "logs/lint.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "logs/recovery-diagnostic.json": "4d2b454b57fe85ae9787134b3294d586b0f7d7f0cfb4a40d909516a8c394cead",
+    "logs/typecheck.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

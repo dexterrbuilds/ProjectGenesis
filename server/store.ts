@@ -7,6 +7,7 @@ export type Claim = { organism: Organism; revision: number };
 export class LifeStore {
   private db: pg.Pool;
   constructor(db: pg.Pool) { this.db = db; }
+  connection() { return this.db; }
   async initialize(startingCents: number) {
     const c = await this.db.connect();
     try {

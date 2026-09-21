@@ -1,0 +1,92 @@
+[
+  {
+    "run": 1,
+    "exitCode": 0,
+    "elapsedMs": 2078.094416,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 2,
+    "exitCode": 0,
+    "elapsedMs": 955.949,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 3,
+    "exitCode": 0,
+    "elapsedMs": 1110.517209,
+    "result": "{\"status\":\"CLOSED_WITH_ERROR\",\"reason\":\"Continuous stale claim\"}"
+  },
+  {
+    "run": 4,
+    "exitCode": 0,
+    "elapsedMs": 1058.353458,
+    "result": "{\"status\":\"CLOSED_WITH_ERROR\",\"reason\":\"Continuous stale claim\"}"
+  },
+  {
+    "run": 5,
+    "exitCode": 0,
+    "elapsedMs": 916.0824999999999,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 6,
+    "exitCode": 0,
+    "elapsedMs": 840.0192920000001,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 7,
+    "exitCode": 0,
+    "elapsedMs": 1121.7802919999995,
+    "result": "{\"status\":\"CLOSED_WITH_ERROR\",\"reason\":\"Continuous stale claim\"}"
+  },
+  {
+    "run": 8,
+    "exitCode": 0,
+    "elapsedMs": 1037.8116249999998,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 9,
+    "exitCode": 0,
+    "elapsedMs": 1179.67975,
+    "result": "{\"status\":\"CLOSED_WITH_ERROR\",\"reason\":\"Continuous stale claim\"}"
+  },
+  {
+    "run": 10,
+    "exitCode": 0,
+    "elapsedMs": 888.8796249999995,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 11,
+    "exitCode": 0,
+    "elapsedMs": 876.0474580000003,
+    "result": "{\"status\":\"CLOSED_WITH_ERROR\",\"reason\":\"Continuous stale claim\"}"
+  },
+  {
+    "run": 12,
+    "exitCode": 0,
+    "elapsedMs": 1030.815875,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 13,
+    "exitCode": 0,
+    "elapsedMs": 967.3668339999999,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 14,
+    "exitCode": 0,
+    "elapsedMs": 861.3952089999995,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 15,
+    "exitCode": 0,
+    "elapsedMs": 865.9392090000005,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  }
+]

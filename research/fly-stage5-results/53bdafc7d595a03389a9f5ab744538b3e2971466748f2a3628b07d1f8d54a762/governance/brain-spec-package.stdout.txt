@@ -1,0 +1,7 @@
+{
+  "published_package_valid": true,
+  "version": "0.2.0",
+  "registry_sha256": "23efaa1a65cc7fe7ed49c3e17e90f1c9f1bc55ae11cbce77519cfe20eba44f88",
+  "package_sha256": "9322ea0f3c501b6bd29add73464c94b775fb616648801e7f945346776b9bdd0b",
+  "files": 32
+}

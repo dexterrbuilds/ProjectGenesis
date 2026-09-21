@@ -1,0 +1,47 @@
+{
+  "tests": {
+    "status": "PASS",
+    "total": 162,
+    "passed": 162,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "durationMs": 6214.331041,
+    "command": "node --env-file=outputs/runtime-v1/test-db.env --test tests/*.test.ts",
+    "log": "tests-local-postgres.txt"
+  },
+  "typecheck": {
+    "status": "PASS",
+    "command": "npm run typecheck",
+    "log": "typecheck-after-build.txt"
+  },
+  "lint": {
+    "status": "PASS",
+    "command": "npm run lint",
+    "log": "lint.txt"
+  },
+  "nextWebpackBuild": {
+    "status": "PASS",
+    "command": "npm run build -- --webpack",
+    "log": "build.txt"
+  },
+  "nextDefaultBuild": {
+    "status": "BLOCKED_BY_ENVIRONMENT",
+    "command": "npm run build",
+    "retry": "Elevated retry also failed CSS/PostCSS worker local port binding with EPERM",
+    "log": "build-default-local.txt"
+  },
+  "docker": {
+    "status": "BLOCKED_BY_ENVIRONMENT",
+    "reason": "No Docker executable"
+  },
+  "targetHost": {
+    "status": "BLOCKED_PENDING_OPERATOR_TARGET",
+    "remoteCalls": 0
+  },
+  "pureAuditProbe": {
+    "status": "IMPLEMENTATION_GAP_REPRODUCED",
+    "log": "intent-compatibility.json",
+    "description": "One-shot journal record missing policy fails existing transitionIntent"
+  }
+}

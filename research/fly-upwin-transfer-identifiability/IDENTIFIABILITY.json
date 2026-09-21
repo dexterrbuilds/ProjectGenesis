@@ -1,0 +1,174 @@
+{
+  "quantities": [
+    {
+      "id": "sample-label-fraction",
+      "quantity": "Finite R64A11 reported responder fraction",
+      "classification": "IDENTIFIED",
+      "identified_value": "4/17 (13 nonresponders); 12 reported flies",
+      "scope": "Fixed sample labels, not a population sampling estimate",
+      "counterexample_test": "CE-statistics"
+    },
+    {
+      "id": "acute-observed-sign",
+      "quantity": "Finite sampled acute response direction",
+      "classification": "QUALITATIVELY CONSTRAINED",
+      "identified_value": "negative somatic Vm response in four reported cells",
+      "scope": "Only this protocol and sampled subset; not receptor/direct-transfer sign",
+      "counterexample_test": "CE-sign"
+    },
+    {
+      "id": "transfer-sign",
+      "quantity": "Hypothetical α1-state→target transfer sign",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "Input scale, operating state, mediation and target membership unresolved",
+      "counterexample_test": "CE-sign"
+    },
+    {
+      "id": "monotonicity",
+      "quantity": "Monotonicity across neural input states",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "Single protocol response is not a neural-state dose-response curve",
+      "counterexample_test": "CE-monotonicity"
+    },
+    {
+      "id": "population-fraction",
+      "quantity": "Biological responder probability or mixture membership",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "Selection/detection/clustering unknown; nonresponders not zero edges",
+      "counterexample_test": "CE-mixture"
+    },
+    {
+      "id": "recorded-amplitude",
+      "quantity": "Finite recorded voltage amplitudes/summaries",
+      "classification": "IDENTIFIED",
+      "identified_value": "See OBSERVATIONS.json; mV with preserved windows",
+      "scope": "Not a gain or unobserved output bound; trace extrema not used as stimulus-aligned peaks",
+      "counterexample_test": "CE-statistics"
+    },
+    {
+      "id": "gain",
+      "quantity": "Absolute α1→UpWiN gain / amplitude scale",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "Known output units do not identify input units",
+      "counterexample_test": "CE-scale"
+    },
+    {
+      "id": "conditional-bounds",
+      "quantity": "Intermediate output under assumed endpoint-monotonic map",
+      "classification": "BOUNDED",
+      "identified_value": "Between the two endpoints only under C1 and known support ordering",
+      "scope": "Conditional mathematical bound; not admitted biological bound",
+      "counterexample_test": "CE-monotonicity"
+    },
+    {
+      "id": "latency",
+      "quantity": "Downstream neural latency",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "Original event onset/source activity/observation delays unavailable",
+      "counterexample_test": "CE-time"
+    },
+    {
+      "id": "kernel",
+      "quantity": "Neural time constant or temporal kernel",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "LED composite cannot identify its physiological factors; no 50 ms transfer",
+      "counterexample_test": "CE-time"
+    },
+    {
+      "id": "saturation",
+      "quantity": "Saturation / asymptotic output",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "No identified neural-input sweep",
+      "counterexample_test": "CE-saturation"
+    },
+    {
+      "id": "observed-heterogeneity",
+      "quantity": "Detected heterogeneous acute response labels",
+      "classification": "IDENTIFIED",
+      "identified_value": "four responders versus thirteen nonresponders",
+      "scope": "Observation heterogeneity only; true gain/subtype/detection sources not identified",
+      "counterexample_test": "CE-statistics"
+    },
+    {
+      "id": "latent-heterogeneity",
+      "quantity": "Mechanistic heterogeneity",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "Threshold/detection/noise/selection can mimic type/gain mixtures",
+      "counterexample_test": "CE-mixture"
+    },
+    {
+      "id": "recall-summary",
+      "quantity": "Finite SS67249 paired-row changes and controls",
+      "classification": "IDENTIFIED",
+      "identified_value": "Both cohorts retain increased paired-odor means; source values preserved",
+      "scope": "No population transfer estimate or mediation attribution",
+      "counterexample_test": "CE-statistics"
+    },
+    {
+      "id": "conditioning-modulation",
+      "quantity": "Conditioning-dependent α1→UpWiN transfer change",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "Changed input and changed transfer cannot be separated",
+      "counterexample_test": "CE-recall"
+    },
+    {
+      "id": "common-transfer",
+      "quantity": "One transfer explaining both acute and recall",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "Distinct populations; shared and separate functions both compatible",
+      "counterexample_test": "CE-sharing"
+    },
+    {
+      "id": "disinhibition",
+      "quantity": "α1 disinhibition as cause of recall change",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "Alternative input changes preserve all separate observations",
+      "counterexample_test": "CE-recall"
+    },
+    {
+      "id": "stage1-order",
+      "quantity": "Same saved Stage-1 readout post/pre order",
+      "classification": "IDENTIFIED",
+      "identified_value": "six intact counterbalanced runs have paired post < pre",
+      "scope": "Only this dimensionless scalar; no physical transfer or cross-cue ranking assertion",
+      "counterexample_test": "CE-statistics"
+    },
+    {
+      "id": "downstream-order",
+      "quantity": "Transferred physical response order",
+      "classification": "NON-IDENTIFIABLE",
+      "identified_value": null,
+      "scope": "Full family allows order preservation, reversal and ties",
+      "counterexample_test": "CE-order"
+    },
+    {
+      "id": "calcium",
+      "quantity": "Population calcium interaction",
+      "classification": "QUALITATIVELY CONSTRAINED",
+      "identified_value": "α1 coactivation suppresses α3-evoked population signal in its assay",
+      "scope": "Cannot convert to mV or constrain a recorded target receptor",
+      "counterexample_test": "CE-sharing"
+    },
+    {
+      "id": "behavior",
+      "quantity": "Driver-scoped downstream intervention relationship",
+      "classification": "QUALITATIVELY CONSTRAINED",
+      "identified_value": "Separate wind-oriented movement findings with recorded control limits",
+      "scope": "No voltage-to-movement gain/probability; chronic and acute limits retained",
+      "counterexample_test": "CE-sharing"
+    }
+  ],
+  "all_IDENTIFIED_claims_have_counterexample_attempt": true,
+  "classification_is_not_capability_admission": true
+}

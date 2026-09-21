@@ -1,0 +1,26 @@
+{
+  "lifeStateArrays": {
+    "tasks": 0,
+    "interests": 0,
+    "commitments": 0,
+    "environment": 0,
+    "projectLife": 0,
+    "episodicRefs": 0,
+    "openQuestions": 0,
+    "relationships": 0,
+    "semanticMemory": 0,
+    "pendingDecisions": 0
+  },
+  "lifeRevision": 0,
+  "baseRevision": 0,
+  "phase": "idle",
+  "brainSnapshotHashReference": "f1a48cc6ffd9acab485a754a209a75b52910cd445a2f1e2d259361e02650ef34",
+  "biologicalObservationReferenceCount": 0,
+  "simulatedEconomy": {
+    "startingCents": 10000,
+    "cashCents": 10075,
+    "ledgerEntries": 4
+  },
+  "runtimeV1AdministrativeLifeEvents": 1,
+  "activeLease": false
+}

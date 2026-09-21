@@ -1,0 +1,48 @@
+{
+  "method": "Read-only file hashing; no test runner, worker, authority creation, API or simulation",
+  "priorPackages": {
+    "completion-audit": {
+      "files": 23,
+      "mismatches": [],
+      "canonicalContentHash": "10335431298e5952c2656aba96ac35fc842be71902bf25847d18a510b11ddf51",
+      "manifestDeclares": "10335431298e5952c2656aba96ac35fc842be71902bf25847d18a510b11ddf51"
+    },
+    "foundation-repair": {
+      "files": 12,
+      "mismatches": [],
+      "canonicalContentHash": "e2397982a7fc270385e536903477bfebf932e9d67c080c92e2bd798a74094d89",
+      "manifestDeclares": "e2397982a7fc270385e536903477bfebf932e9d67c080c92e2bd798a74094d89"
+    },
+    "memory-pass": {
+      "files": 15,
+      "mismatches": [],
+      "canonicalContentHash": "38ab228a1d5c9e1e66d693a730f481ff3aa417e025d8e52676ffc13b1492a067",
+      "manifestDeclares": "38ab228a1d5c9e1e66d693a730f481ff3aa417e025d8e52676ffc13b1492a067"
+    },
+    "life-state-pass": {
+      "files": 14,
+      "mismatches": [],
+      "canonicalContentHash": "28c447d4e72661ea7ec5d60993c6e929aa029d3e543c9e1b0e69b7adcd3aa5fe",
+      "manifestDeclares": "28c447d4e72661ea7ec5d60993c6e929aa029d3e543c9e1b0e69b7adcd3aa5fe"
+    },
+    "continuous-life-pass": {
+      "files": 11,
+      "mismatches": [],
+      "canonicalContentHash": "f88e624a1521e2262f914af1f9390e8673e5118baeddc4a6e705ebc05c0d02cf",
+      "manifestDeclares": "f88e624a1521e2262f914af1f9390e8673e5118baeddc4a6e705ebc05c0d02cf"
+    }
+  },
+  "pass4CurrentSourceComparison": {
+    "checked": 164,
+    "mismatches": []
+  },
+  "frozenFilesChecked": 9319,
+  "frozenMismatches": [],
+  "historicalTests": {
+    "pass": 387,
+    "fail": 0,
+    "skip": 0,
+    "freshRunInThisAudit": false
+  },
+  "scopeNote": "Pass4 source snapshot covers core/runtime/server/components/lib/config/tests; build scripts and dependency artifacts separately pinned by audit source snapshot, not all attested by that historical snapshot."
+}

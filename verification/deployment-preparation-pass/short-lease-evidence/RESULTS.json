@@ -1,0 +1,605 @@
+{
+  "baseline": {
+    "runs": 10,
+    "passed": 9,
+    "failed": 1
+  },
+  "stress": {
+    "runs": 50,
+    "passed": 45,
+    "failed": 5,
+    "processDurationMs": {
+      "n": 50,
+      "min": 855.6251669999995,
+      "median": 985.0214795000003,
+      "p95": 1296.1140830000063,
+      "max": 1380.459417
+    },
+    "testBodyDurationMs": {
+      "n": 50,
+      "min": 401.345917,
+      "median": 468.067,
+      "p95": 664.263666,
+      "max": 806.570542
+    },
+    "actualFailureCategories": [
+      "Continuous stale claim"
+    ],
+    "retryToObtainPass": false
+  },
+  "classification": "INTERMITTENT",
+  "loadSensitivity": "Elapsed-time sensitivity demonstrated by expiry; controlled unrelated-load experiment not performed",
+  "instrumentationCaveat": "In-memory probes add overhead. Uninstrumented assertion also reproduces; rates across instrumented/uninstrumented cohorts must not be pooled.",
+  "instrumented": {
+    "runs": 25,
+    "passed": 19,
+    "failed": 6,
+    "secondTickToClosureMs": {
+      "n": 25,
+      "min": 184.01300000000003,
+      "median": 233.56875000000002,
+      "p95": 279.888958,
+      "max": 296.6429169999999
+    },
+    "claimMs": {
+      "n": 25,
+      "min": 17.749541999999963,
+      "median": 21.40529200000003,
+      "p95": 31.678457999999978,
+      "max": 33.36479199999985
+    },
+    "recoverMs": {
+      "n": 25,
+      "min": 2.8445409999999924,
+      "median": 3.933917000000065,
+      "p95": 6.5451249999999845,
+      "max": 6.5607499999999845
+    },
+    "queryCount": {
+      "n": 25,
+      "min": 149,
+      "median": 177,
+      "p95": 177,
+      "max": 177
+    },
+    "dbQueryTotalMs": {
+      "n": 25,
+      "min": 83.4053219999995,
+      "median": 101.80607599999894,
+      "p95": 140.07204400000114,
+      "max": 163.38646200000073
+    },
+    "claimPreissuanceConsumptionMs": {
+      "n": 25,
+      "min": 13.0,
+      "median": 17.0,
+      "p95": 25.0,
+      "max": 27.0
+    },
+    "finalFenceMarginMs": {
+      "n": 10,
+      "min": -7,
+      "median": 64.0,
+      "p95": 87,
+      "max": 87
+    },
+    "allCrashesBeforeClaimHaveNoDurableClaim": true,
+    "allLeaseOriginDurations250ms": true,
+    "traces": [
+      {
+        "file": "diagnostic-01.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 103.01774599999726,
+        "maxQueryMs": 4.175792000000001,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 242.2143329999999,
+        "claimMs": 33.36479199999985,
+        "recoverMs": 4.911791999999878,
+        "claimIssuanceElapsedFromTransactionMs": 27.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-02.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 132.69541200000026,
+        "maxQueryMs": 10.838540999999964,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 275.8653750000001,
+        "claimMs": 24.26816599999995,
+        "recoverMs": 3.7975000000000136,
+        "claimIssuanceElapsedFromTransactionMs": 19.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-03.json",
+        "result": {
+          "status": "CLOSED_WITH_ERROR",
+          "reason": "Continuous stale claim"
+        },
+        "queries": 169,
+        "dbQueryTotalMs": 119.4156660000001,
+        "maxQueryMs": 4.113209000000097,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 279.888958,
+        "claimMs": 31.38108299999999,
+        "recoverMs": 6.5451249999999845,
+        "claimIssuanceElapsedFromTransactionMs": 24.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-04.json",
+        "result": {
+          "status": "CLOSED_WITH_ERROR",
+          "reason": "Continuous stale claim"
+        },
+        "queries": 160,
+        "dbQueryTotalMs": 115.42783600000007,
+        "maxQueryMs": 6.8951660000000174,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 274.1935,
+        "claimMs": 28.04387500000007,
+        "recoverMs": 4.862708999999995,
+        "claimIssuanceElapsedFromTransactionMs": 22.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-05.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 93.31791499999986,
+        "maxQueryMs": 2.8666660000000093,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 217.14033300000006,
+        "claimMs": 21.309708999999998,
+        "recoverMs": 3.650457999999958,
+        "claimIssuanceElapsedFromTransactionMs": 16.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-06.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 92.99100999999973,
+        "maxQueryMs": 2.7962079999999787,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 215.65441700000008,
+        "claimMs": 20.24412499999994,
+        "recoverMs": 3.1962080000000697,
+        "claimIssuanceElapsedFromTransactionMs": 16.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-07.json",
+        "result": {
+          "status": "CLOSED_WITH_ERROR",
+          "reason": "Continuous stale claim"
+        },
+        "queries": 169,
+        "dbQueryTotalMs": 114.46327499999995,
+        "maxQueryMs": 3.4579159999999547,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 276.75725,
+        "claimMs": 31.678457999999978,
+        "recoverMs": 6.5607499999999845,
+        "claimIssuanceElapsedFromTransactionMs": 25.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-08.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 118.35491600000069,
+        "maxQueryMs": 2.951000000000022,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 277.40716699999996,
+        "claimMs": 21.277167000000077,
+        "recoverMs": 6.030750000000012,
+        "claimIssuanceElapsedFromTransactionMs": 17.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-09.json",
+        "result": {
+          "status": "CLOSED_WITH_ERROR",
+          "reason": "Continuous stale claim"
+        },
+        "queries": 160,
+        "dbQueryTotalMs": 123.82211600000096,
+        "maxQueryMs": 5.5135420000000295,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 272.11075000000005,
+        "claimMs": 30.669874999999934,
+        "recoverMs": 5.846457999999984,
+        "claimIssuanceElapsedFromTransactionMs": 24.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-10.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 99.1169159999996,
+        "maxQueryMs": 3.456833000000074,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 225.51045799999997,
+        "claimMs": 20.532791999999972,
+        "recoverMs": 3.933917000000065,
+        "claimIssuanceElapsedFromTransactionMs": 16.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-11.json",
+        "result": {
+          "status": "CLOSED_WITH_ERROR",
+          "reason": "Continuous stale claim"
+        },
+        "queries": 169,
+        "dbQueryTotalMs": 116.04562800000099,
+        "maxQueryMs": 18.628207999999972,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 265.779459,
+        "claimMs": 24.363833,
+        "recoverMs": 3.877958000000035,
+        "claimIssuanceElapsedFromTransactionMs": 18.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-12.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 163.38646200000073,
+        "maxQueryMs": 12.19987500000002,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 296.6429169999999,
+        "claimMs": 19.921707999999967,
+        "recoverMs": 5.053999999999974,
+        "claimIssuanceElapsedFromTransactionMs": 15.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-13.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 97.4206619999992,
+        "maxQueryMs": 2.898458000000005,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 220.47174999999993,
+        "claimMs": 22.296459000000027,
+        "recoverMs": 3.5671250000000327,
+        "claimIssuanceElapsedFromTransactionMs": 18.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-14.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 94.3256210000003,
+        "maxQueryMs": 3.388458000000014,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 220.683541,
+        "claimMs": 21.004542000000015,
+        "recoverMs": 3.8444580000000315,
+        "claimIssuanceElapsedFromTransactionMs": 16.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "diagnostic-15.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 91.86350699999912,
+        "maxQueryMs": 3.9640419999999494,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 214.01816699999995,
+        "claimMs": 21.426165999999967,
+        "recoverMs": 3.421666000000073,
+        "claimIssuanceElapsedFromTransactionMs": 15.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": null,
+        "finalFencePredicates": null
+      },
+      {
+        "file": "fence-01.json",
+        "result": {
+          "status": "CLOSED_WITH_ERROR",
+          "reason": "Continuous stale claim"
+        },
+        "queries": 149,
+        "dbQueryTotalMs": 140.07204400000114,
+        "maxQueryMs": 19.138625000000047,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 272.18837499999995,
+        "claimMs": 18.478207999999995,
+        "recoverMs": 4.227125000000001,
+        "claimIssuanceElapsedFromTransactionMs": 13.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": -7,
+        "finalFencePredicates": {
+          "attemptValid": true,
+          "eventValid": true
+        }
+      },
+      {
+        "file": "fence-02.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 95.3308760000001,
+        "maxQueryMs": 3.1140420000000404,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 199.78758299999998,
+        "claimMs": 21.074292000000014,
+        "recoverMs": 2.8445409999999924,
+        "claimIssuanceElapsedFromTransactionMs": 17.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": 74,
+        "finalFencePredicates": {
+          "attemptValid": true,
+          "eventValid": true
+        }
+      },
+      {
+        "file": "fence-03.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 83.44979500000039,
+        "maxQueryMs": 2.6182919999999967,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 191.52941700000002,
+        "claimMs": 17.840291999999977,
+        "recoverMs": 4.305457999999987,
+        "claimIssuanceElapsedFromTransactionMs": 14.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": 81,
+        "finalFencePredicates": {
+          "attemptValid": true,
+          "eventValid": true
+        }
+      },
+      {
+        "file": "fence-04.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 90.70704900000055,
+        "maxQueryMs": 2.503499999999974,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 196.54512500000004,
+        "claimMs": 20.959541,
+        "recoverMs": 4.524666999999965,
+        "claimIssuanceElapsedFromTransactionMs": 16.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": 80,
+        "finalFencePredicates": {
+          "attemptValid": true,
+          "eventValid": true
+        }
+      },
+      {
+        "file": "fence-05.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 106.81441200000069,
+        "maxQueryMs": 4.534458000000086,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 244.47800000000007,
+        "claimMs": 27.216000000000008,
+        "recoverMs": 4.2996669999999995,
+        "claimIssuanceElapsedFromTransactionMs": 20.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": 32,
+        "finalFencePredicates": {
+          "attemptValid": true,
+          "eventValid": true
+        }
+      },
+      {
+        "file": "fence-06.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 84.92615999999987,
+        "maxQueryMs": 4.4435419999999795,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 187.76433399999996,
+        "claimMs": 18.092125000000067,
+        "recoverMs": 3.3955830000000446,
+        "claimIssuanceElapsedFromTransactionMs": 14.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": 87,
+        "finalFencePredicates": {
+          "attemptValid": true,
+          "eventValid": true
+        }
+      },
+      {
+        "file": "fence-07.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 83.4053219999995,
+        "maxQueryMs": 2.5427080000000046,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 184.01300000000003,
+        "claimMs": 17.749541999999963,
+        "recoverMs": 2.891917000000035,
+        "claimIssuanceElapsedFromTransactionMs": 13.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": 87,
+        "finalFencePredicates": {
+          "attemptValid": true,
+          "eventValid": true
+        }
+      },
+      {
+        "file": "fence-08.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 108.00016900000037,
+        "maxQueryMs": 3.3799170000000913,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 242.19912499999998,
+        "claimMs": 23.964165999999977,
+        "recoverMs": 3.635499999999979,
+        "claimIssuanceElapsedFromTransactionMs": 18.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": 36,
+        "finalFencePredicates": {
+          "attemptValid": true,
+          "eventValid": true
+        }
+      },
+      {
+        "file": "fence-09.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 101.80607599999894,
+        "maxQueryMs": 4.750957999999969,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 229.04650000000004,
+        "claimMs": 21.40529200000003,
+        "recoverMs": 3.2465419999999767,
+        "claimIssuanceElapsedFromTransactionMs": 17.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": 54,
+        "finalFencePredicates": {
+          "attemptValid": true,
+          "eventValid": true
+        }
+      },
+      {
+        "file": "fence-10.json",
+        "result": {
+          "status": "COMMITTED",
+          "reason": null
+        },
+        "queries": 177,
+        "dbQueryTotalMs": 99.7267050000006,
+        "maxQueryMs": 4.428292000000056,
+        "afterCrashNoClaim": true,
+        "secondTickToClosureMs": 233.56875000000002,
+        "claimMs": 21.94887499999993,
+        "recoverMs": 4.070875000000001,
+        "claimIssuanceElapsedFromTransactionMs": 18.0,
+        "leaseOriginToExpiryMs": 250.0,
+        "finalFenceMarginMs": 46,
+        "finalFencePredicates": {
+          "attemptValid": true,
+          "eventValid": true
+        }
+      }
+    ]
+  },
+  "connectionAcquisitionMs": {
+    "n": 16,
+    "min": 0.014666999999917607,
+    "median": 0.020479500000021744,
+    "p95": 0.06716700000004039,
+    "max": 0.06716700000004039
+  },
+  "timerDiagnostics": {
+    "timer-timeout": {
+      "result": {
+        "status": "CLOSED_WITH_ERROR",
+        "reason": "Continuous stale claim"
+      },
+      "points": {
+        "planner_start": 120.37600000000003,
+        "planner_timeout": 221.68229200000002,
+        "planner_cleanup": 221.75712500000003
+      },
+      "observedPostClosureMs": 120,
+      "timerElapsedMs": 101.30629199999998
+    },
+    "timer-cleanup": {
+      "result": {
+        "status": "COMMITTED",
+        "reason": null
+      },
+      "points": {
+        "planner_start": 109.11700000000008,
+        "planner_end": 109.22458300000005,
+        "planner_cleanup": 118.83375000000001
+      },
+      "observedPostClosureMs": 120
+    }
+  }
+}

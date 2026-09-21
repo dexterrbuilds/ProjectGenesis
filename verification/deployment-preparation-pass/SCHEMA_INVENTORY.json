@@ -1,0 +1,572 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "path": "runtime/migrations/001_genesis.sql",
+      "sha256": "9687317a84bbe5ee70b7f7e79f59800ccc5e269c3cffae8bcec32376a45a85e7",
+      "order": 1,
+      "version": "001",
+      "dependsOn": [],
+      "canonicalState": "INSTALLED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "Historical existing schema; not re-applied by installer",
+      "objects": [
+        {
+          "kind": "TABLE",
+          "name": "genesis_organisms"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_decisions"
+        },
+        {
+          "kind": "INDEX",
+          "name": "genesis_decisions_at_idx"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_memories"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_ledger"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_projects"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_milestones"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_schedule"
+        }
+      ],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/migrations/002_observations.sql",
+      "sha256": "0a27ad7aeb7e1997b3b1858ebec09183377412b2ee93e39193e41df3eec16512",
+      "order": 2,
+      "version": "002",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql"
+      ],
+      "canonicalState": "INSTALLED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "Historical existing schema; not re-applied by installer",
+      "objects": [
+        {
+          "kind": "TABLE",
+          "name": "genesis_external_observations"
+        }
+      ],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/migrations/003_runtime_v1.sql",
+      "sha256": "634da03cc27cebad2de2d2797dc79b2af6b69d3e060bdf07f10c45dccec098c8",
+      "order": 3,
+      "version": "003",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql",
+        "runtime/migrations/002_observations.sql"
+      ],
+      "canonicalState": "INSTALLED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "Historical existing schema; not re-applied by installer",
+      "objects": [
+        {
+          "kind": "TABLE",
+          "name": "genesis_life_state"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_life_events"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_action_intents"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_require_v2_writer"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "runtime_v1_writer_fence"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_immutable_event"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_life_events"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_decisions"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_memories"
+        }
+      ],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/preparation-schema.sql",
+      "sha256": "301b2d634a0b0f31fa7220b7082847027b17ba3fc5a340fc1b1cbd02012c0a71",
+      "order": 4,
+      "version": "preparation-v1",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql",
+        "runtime/migrations/002_observations.sql",
+        "runtime/migrations/003_runtime_v1.sql"
+      ],
+      "canonicalState": "PREPARED_UNAPPLIED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "DDL/privileges only",
+      "objects": [
+        {
+          "kind": "TABLE",
+          "name": "genesis_cycle_attempts"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_provider_grants"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_provider_attempts"
+        }
+      ],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/one-shot-schema.sql",
+      "sha256": "9aef075d03c56cfb1f3e6eb31c620b1bbfe2226bb4d4fc742418473bc53a38ce",
+      "order": 5,
+      "version": "one-shot-v1",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql",
+        "runtime/migrations/002_observations.sql",
+        "runtime/migrations/003_runtime_v1.sql",
+        "runtime/preparation-schema.sql"
+      ],
+      "canonicalState": "PREPARED_UNAPPLIED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "DDL/privileges only",
+      "objects": [
+        {
+          "kind": "TABLE",
+          "name": "genesis_execution_grants"
+        },
+        {
+          "kind": "UNIQUE INDEX",
+          "name": "genesis_one_unresolved_claim"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_require_v2_writer"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_guard_grant_transition"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "one_shot_grant_transition"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_execution_grants"
+        }
+      ],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/continuous-schema.sql",
+      "sha256": "c012de17227776fcf415e22e26c3048cbd1454fd5cb91a8465e53fdb8cc8b556",
+      "order": 6,
+      "version": "continuous-local-v1",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql",
+        "runtime/migrations/002_observations.sql",
+        "runtime/migrations/003_runtime_v1.sql",
+        "runtime/preparation-schema.sql",
+        "runtime/one-shot-schema.sql"
+      ],
+      "canonicalState": "PREPARED_UNAPPLIED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "DDL/privileges only",
+      "objects": [
+        {
+          "kind": "TABLE",
+          "name": "genesis_continuous_scopes"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_runtime_events"
+        },
+        {
+          "kind": "INDEX",
+          "name": "genesis_due_events"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_continuous_attempts"
+        },
+        {
+          "kind": "UNIQUE INDEX",
+          "name": "genesis_event_single_commit"
+        },
+        {
+          "kind": "UNIQUE INDEX",
+          "name": "genesis_scope_single_claim"
+        },
+        {
+          "kind": "INDEX",
+          "name": "genesis_scope_attempt_window"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_continuous_journal"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_continuous_journal"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_guard_continuous_scope"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "continuous_scope_transition"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_continuous_scope"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_guard_runtime_event"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "runtime_event_transition"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_runtime_event"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_require_v2_writer"
+        }
+      ],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/operator-schema-v1.sql",
+      "sha256": "0f5e594a500c49d5eaeaf53be9fd7393f5c088e6d74ca9057c3ed4d26381b58c",
+      "order": 7,
+      "version": "operator-v1",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql",
+        "runtime/migrations/002_observations.sql",
+        "runtime/migrations/003_runtime_v1.sql",
+        "runtime/preparation-schema.sql",
+        "runtime/one-shot-schema.sql",
+        "runtime/continuous-schema.sql"
+      ],
+      "canonicalState": "PREPARED_UNAPPLIED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "New control-state seed only",
+      "objects": [
+        {
+          "kind": "TABLE",
+          "name": "genesis_operator_actors"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_control_state"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_operator_audit"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_disclosure_reviews"
+        },
+        {
+          "kind": "INDEX",
+          "name": "genesis_disclosure_latest"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_recovery_dispositions"
+        },
+        {
+          "kind": "INDEX",
+          "name": "genesis_recovery_target"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_operator_audit"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_disclosure_reviews"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_recovery_dispositions"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_require_control_privilege"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "private_grant_authorization"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "private_scope_authorization"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_guard_review_insert"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "disclosure_insert_guard"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_guard_private_input"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "private_human_response"
+        },
+        {
+          "kind": "VIEW",
+          "name": "genesis_public_identity"
+        }
+      ],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/provider-integration-schema.sql",
+      "sha256": "50b8de821eafe07cb5b185e2440627199798d11a1f94dc76a1dc435eefd718ea",
+      "order": 8,
+      "version": "provider-v2",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql",
+        "runtime/migrations/002_observations.sql",
+        "runtime/migrations/003_runtime_v1.sql",
+        "runtime/preparation-schema.sql",
+        "runtime/one-shot-schema.sql",
+        "runtime/continuous-schema.sql",
+        "runtime/operator-schema-v1.sql"
+      ],
+      "canonicalState": "PREPARED_UNAPPLIED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "DDL/privileges only",
+      "objects": [
+        {
+          "kind": "TABLE",
+          "name": "genesis_provider_admissions"
+        },
+        {
+          "kind": "TABLE",
+          "name": "genesis_provider_receipts"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_provider_receipt"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_provider_admission_delete"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_guard_provider_admission"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "provider_admission_guard"
+        },
+        {
+          "kind": "FUNCTION",
+          "name": "genesis_guard_reasoning_attempt"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "reasoning_attempt_guard"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "immutable_reasoning_attempt_delete"
+        },
+        {
+          "kind": "INDEX",
+          "name": "provider_admissions_status"
+        }
+      ],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/deployment/release.sql",
+      "sha256": "9dee39fb4298c0cc22dec744a28b185c87c83b51caa8fbdb74897c0b63b4527c",
+      "order": 9,
+      "version": "deployment-v1",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql",
+        "runtime/migrations/002_observations.sql",
+        "runtime/migrations/003_runtime_v1.sql",
+        "runtime/preparation-schema.sql",
+        "runtime/one-shot-schema.sql",
+        "runtime/continuous-schema.sql",
+        "runtime/operator-schema-v1.sql",
+        "runtime/provider-integration-schema.sql"
+      ],
+      "canonicalState": "PREPARED_UNAPPLIED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "New release record plus CLOSED-only structural constraint; no existing row rewrite",
+      "objects": [
+        {
+          "kind": "TABLE",
+          "name": "genesis_deployment_release"
+        },
+        {
+          "kind": "TRIGGER",
+          "name": "deployment_release_immutable"
+        }
+      ],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/operator-role-grants.sql",
+      "sha256": "703009efe2522fbaea121a82702e01e25066c3cfd7b66dd1817b22a39a473524",
+      "order": 10,
+      "version": "operator-roles-v1",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql",
+        "runtime/migrations/002_observations.sql",
+        "runtime/migrations/003_runtime_v1.sql",
+        "runtime/preparation-schema.sql",
+        "runtime/one-shot-schema.sql",
+        "runtime/continuous-schema.sql",
+        "runtime/operator-schema-v1.sql",
+        "runtime/provider-integration-schema.sql",
+        "runtime/deployment/release.sql"
+      ],
+      "canonicalState": "PREPARED_UNAPPLIED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "DDL/privileges only",
+      "objects": [],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/provider-role-grants.sql",
+      "sha256": "775547e5b7eb658f662fb74c486a7e17158917d89d527809d2b9de6d78ea4407",
+      "order": 11,
+      "version": "provider-roles-v1",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql",
+        "runtime/migrations/002_observations.sql",
+        "runtime/migrations/003_runtime_v1.sql",
+        "runtime/preparation-schema.sql",
+        "runtime/one-shot-schema.sql",
+        "runtime/continuous-schema.sql",
+        "runtime/operator-schema-v1.sql",
+        "runtime/provider-integration-schema.sql",
+        "runtime/deployment/release.sql",
+        "runtime/operator-role-grants.sql"
+      ],
+      "canonicalState": "PREPARED_UNAPPLIED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "DDL/privileges only",
+      "objects": [],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    },
+    {
+      "path": "runtime/deployment/roles.sql",
+      "sha256": "e7fd6b536adf8e8609ba2f7af003d4c629cbfc7d9c6913723a2115c173cda796",
+      "order": 12,
+      "version": "deployment-roles-v1",
+      "dependsOn": [
+        "runtime/migrations/001_genesis.sql",
+        "runtime/migrations/002_observations.sql",
+        "runtime/migrations/003_runtime_v1.sql",
+        "runtime/preparation-schema.sql",
+        "runtime/one-shot-schema.sql",
+        "runtime/continuous-schema.sql",
+        "runtime/operator-schema-v1.sql",
+        "runtime/provider-integration-schema.sql",
+        "runtime/deployment/release.sql",
+        "runtime/operator-role-grants.sql",
+        "runtime/provider-role-grants.sql"
+      ],
+      "canonicalState": "PREPARED_UNAPPLIED",
+      "destructive": false,
+      "rollback": "Transaction rollback before commit; no down migration after commit",
+      "rowChanges": "DDL/privileges only",
+      "objects": [],
+      "dormantInstalledReleaseRequires": true,
+      "firstAwakeningRequires": true,
+      "continuousRequires": true
+    }
+  ],
+  "completeCatalogs": [
+    "runtime/deployment/catalog-baseline.json",
+    "runtime/deployment/catalog-installed.json"
+  ],
+  "duplicateObsoleteSQL": "003 writer function is intentionally replaced by one-shot then continuous; preparation SQL is shared, not duplicated; old fixture install helpers are test-only, not production migration entrypoints",
+  "catalogFiles": {
+    "runtime/deployment/catalog-installed.json": "8ae422024d3960d8c54885403dae4603904c1f24b826ade2c1eb0b7df99eb1de",
+    "runtime/deployment/catalog-baseline.json": "073456dee7b3fd8f94497ca6caf91a15d644eee17faa353f6a64c156b9dc08a6"
+  }
+}

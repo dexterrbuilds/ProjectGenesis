@@ -1,0 +1,32 @@
+{
+  "attempt_id": "genesis-stage5-attempt-2-20260920",
+  "process": 1,
+  "argv": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage5-protocol-v0.1/prospective_analysis.py",
+    "--authorization",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage5-attempt2-20260920/AUTHORIZATION.json",
+    "--output",
+    "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage5-runs/attempt-2-process-1"
+  ],
+  "cwd": "/Users/mac/Documents/ChatGPT/Project Genesis",
+  "start_utc": "2026-09-20T12:01:55.679647+00:00",
+  "end_utc": "2026-09-20T12:02:09.110744+00:00",
+  "wall_seconds": 13.431199666000001,
+  "exit_code": 0,
+  "env_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONHASHSEED": "0"
+  },
+  "child_user_cpu_seconds": 6.992555,
+  "child_system_cpu_seconds": 3.649811,
+  "child_maxrss_native_units": 81707008,
+  "maxrss_units": "bytes on this Darwin host",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "authorization_sha256": "cc1b1331d3a677c74b6fbad2f5f65122675172b2fc2a446d3a750b174a466b52",
+  "sealed_analysis_sha256": "c80420e927e24cc0d4180372f0377b28e9961c0bbbb98119265e8f04b181ec69",
+  "output_directory": "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-stage5-runs/attempt-2-process-1",
+  "scientific_output_not_inspected_by_recorder": true,
+  "other_process_scientific_output_consumed": false
+}

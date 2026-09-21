@@ -1,0 +1,34 @@
+{
+  "attempt_id": "genesis-stage5-attempt-2-20260920",
+  "sealed_stage5_release_hash": "3fef9c2fad9b7b8be982c699299f957395199d811774041a052237efeb78ec3d",
+  "authorization_referenced_hash": "3fef9c2fad9b7b8be982c699299f957395199d811774041a052237efeb78ec3d",
+  "authorization_hash_match": true,
+  "corrected_preflight": "PASSED",
+  "authoritative_dependency_verification": "PASSED",
+  "sealed_artifacts": "UNCHANGED",
+  "execution": "COMPLETED EXACT SEALED ANALYSIS IN TWO FRESH PROCESSES",
+  "byte_identical": true,
+  "planned_runs": 28,
+  "evaluated_runs": 28,
+  "planned_units": 224,
+  "evaluated_units": 224,
+  "family_evaluations": 2016,
+  "gates": {
+    "P": "SATISFIED UNDER DECLARED CONDITIONAL FAMILY",
+    "R": "SATISFIED UNDER DECLARED CONDITIONAL FAMILY"
+  },
+  "label_counts": {
+    "NULL-COMPATIBLE": 224,
+    "ROBUST ACROSS DECLARED EVIDENCE-ADMISSIBLE FAMILY": 0,
+    "ROBUST ONLY UNDER RESTRICTED CONDITIONAL FAMILY": 224,
+    "TRANSFER-SENSITIVE / NON-ROBUST": 224,
+    "UNINTERPRETABLE": 0
+  },
+  "failed_scientific_checks": [],
+  "integrity_failures_attempt2": [],
+  "null_compatible_units": 224,
+  "transfer_sensitive_units": 224,
+  "full_family_signed_invariant_units": 0,
+  "result_sha256": "49f603aed20ccec93d6aa427481a410ed045e28e7d38f956f4b7e3710b98f642",
+  "scientific_scope": "Archived dimensionless source → conditional marginal ordinal identification sets. No physical or behavioral output."
+}

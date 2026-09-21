@@ -1,0 +1,10 @@
+{
+  "timestamp_utc": "2026-09-20T11:54:10.549930+00:00",
+  "python_version": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "python_executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "cpu_count": 8,
+  "bytecode_disabled": "1",
+  "environment_secrets_recorded": false
+}

@@ -1,0 +1,18 @@
+{
+  "digestDefinition": "SHA-256 of compact sorted UTF-8 JSON relative-path to file-SHA256 map; manifest excludes itself",
+  "files": {
+    "OPERATOR_CONTROL_REPORT.md": "773919968e702a4d2cbc7e5c2fb26e786e996f349b4644489c55184a5726548d",
+    "build.txt": "1fffcf578382df9544e80da986bc4765e1ddc2c4b1c3ada67ec2862bb03fc915",
+    "checks.json": "81f441d260a57976f89f997c71d67fe8497733ccc33413bd2c22517dc872eb52",
+    "context-inspection.json": "0f7eabb2637a3ac0d25006937783e4d48ea0234c2e89e6acc3abfdd0acb5d246",
+    "frozen-preservation.json": "f46c2387fc1acb734b480195711c9c66cef2615972948a1657aec9aef626fb68",
+    "full-tests.txt": "29865359bfa777e5ec899d2a91b17bb091be9cc9f7549aec091899952dd721f3",
+    "lint.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "parallel-tests-initial.txt": "6f9fa5270480ccbe576fea27b2db22299b5550df6739e20c6f2a2b1df9faa074",
+    "preservation.json": "cb67daf3a9a35c19f0ce1528ac03d8045b330a5dbfd177eb3d6e27ee546b5586",
+    "source-changes.json": "683a459baed9d9c60e4473b8d6f3ca8445f696aa2688936db9efa4df85ca53b4",
+    "source-hashes.json": "3366cb7fa88ee2dae7b64ad8f8750602a720c5811905e10dd535c7110902f36b",
+    "typecheck.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "contentSha256": "35e06e5d5a465a07988eb7e5b1546dc2c1bb1d1e1f0a4844530fb406bb201ebb"
+}

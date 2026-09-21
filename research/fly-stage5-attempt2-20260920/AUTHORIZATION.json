@@ -1,0 +1,10 @@
+{
+  "attempt_id": "genesis-stage5-attempt-2-20260920",
+  "decision": "AUTHORIZE ARCHIVED STAGE5 MATHEMATICAL ANALYSIS",
+  "reviewed_content_sha256": "3fef9c2fad9b7b8be982c699299f957395199d811774041a052237efeb78ec3d",
+  "explicit_user_authorization_reference": "Current Project Genesis task user message titled PROJECT GENESIS STAGE 5 — SECOND EXECUTION AUTHORIZATION, explicitly authorizing release 3fef9c2fad9b7b8be982c699299f957395199d811774041a052237efeb78ec3d after corrected preflight. Message reference is descriptive; no platform message ID was supplied.",
+  "scope": "Exact sealed prospective mathematical analysis only, two fresh processes; all original and second-authorization exclusions retained.",
+  "preflight_record_sha256": "c15ea50f291e9b589ed345e18d4a3630ae4c3248f673f1fa03975834dabefaed",
+  "recorded_at_utc": "2026-09-20T12:01:25.265832+00:00",
+  "prior_attempt_package": "research/fly-stage5-preflight-evidence/73105536b60f57079bf5ef556d20c10f7194cba0650e70e77383291506cc7047"
+}

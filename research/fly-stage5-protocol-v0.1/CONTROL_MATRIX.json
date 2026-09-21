@@ -1,0 +1,101 @@
+{
+  "controls": [
+    {
+      "id": "intact",
+      "coverage": "three seeds × both paired identities",
+      "fields": "baseline/post/restored/plastic_only",
+      "purpose": "reference learned-state contrasts, no favorable-run selection"
+    },
+    {
+      "id": "freeze",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "block Stage1 plastic updates; a downstream difference need not vanish under unmatched nuisance"
+    },
+    {
+      "id": "silence_dan",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "disable modeled teaching pathway; not a biological target perturbation"
+    },
+    {
+      "id": "remove_da_contacts",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "disable modeled dopamine contact operator; no renormalization"
+    },
+    {
+      "id": "single_dan",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "one relevant DAN lesion; compare matched_dan, not all-DAN versus one-cell lesion"
+    },
+    {
+      "id": "matched_dan",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "one opposite-compartment DAN chosen anatomically in frozen Stage1; comparator, not guaranteed biologically unrelated"
+    },
+    {
+      "id": "remove_pn_kc",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "sensory-route disruption control; global responsiveness loss not learning specificity"
+    },
+    {
+      "id": "remove_kc_mbon",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "output-route disruption control; a loss here alone not mechanism-specific"
+    },
+    {
+      "id": "no_apl",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "frozen context control, do not retune"
+    },
+    {
+      "id": "no_recurrence",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "frozen recurrence control, no new circuit closure"
+    },
+    {
+      "id": "shuffle_pn_weights",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "frozen connectivity control; retain original verdict and topology limits"
+    },
+    {
+      "id": "unpaired",
+      "coverage": "seed1701 × A/B",
+      "fields": "baseline/post",
+      "purpose": "unpaired teaching timing control; do not relabel as paired"
+    }
+  ],
+  "within_run": [
+    "restored pre-training snapshot versus baseline",
+    "plastic-only fast-state reset versus baseline",
+    "both cues, including unpaired cue"
+  ],
+  "comparison_rule": "Same cue and seed, same family and contrast; compare full sign-set profiles. Do not subtract effect magnitudes under arbitrary monotone maps.",
+  "source_dependence_gate": {
+    "scope": "restricted P/R matched-context only, no claim of biological mediation",
+    "requirements": [
+      "all six intact paired-cue response_change and plastic_state_retention sets exclude zero",
+      "all six intact restoration_check sets equal {0}",
+      "freeze, silence_dan, remove_da_contacts and unpaired paired-cue response_change at seed1701 equal {0}",
+      "PN and KC source baseline/post readouts for intact/freeze/silence_dan/remove_da_contacts/unpaired are present and unchanged to engineering 1e-12 model units",
+      "all source restoration_exact flags true and required original replay flags true"
+    ],
+    "verdicts": [
+      "SATISFIED UNDER DECLARED CONDITIONAL FAMILY",
+      "NOT SATISFIED",
+      "UNASSESSABLE"
+    ],
+    "unpaired_cue_requirement": "Report all unpaired-cue sets and original source responses. No invented zero-response or selective-effect threshold; this gate cannot establish strict cue-exclusive downstream change.",
+    "matched_lesion_requirement": "Report single_dan versus matched_dan profiles separately; no guarantee of complete ablation or unrelatedness."
+  },
+  "replicate_scope": "3 fixed primary seeds, 2 cue assignments; controls only seed1701. Not 28 independent biological replicates.",
+  "replay": "Use saved Stage1 replay/restoration metadata and immutable snapshots. Future mathematical reanalysis must reproduce canonically serialized output byte-for-byte. No neural replay in this protocol."
+}

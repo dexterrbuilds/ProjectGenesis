@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "identity": {
+    "id": "817e772c-827e-48fc-8e35-6504cb2a8d2d",
+    "name": "Genesis",
+    "bornAt": "2026-09-15T01:56:07.867Z",
+    "cycles": 7
+  },
+  "status": "DORMANT",
+  "executionLock": "CLOSED",
+  "biologicalMode": "SAVED-OBSERVATION-ONLY",
+  "savedBrain": {
+    "adapter": "celegans-cook2019-rate-v1",
+    "version": 1
+  },
+  "activity": {
+    "latestAt": "2026-09-15T03:31:41.247Z",
+    "latestComputationalAt": null
+  },
+  "counts": {
+    "memories": 7,
+    "projects": 1
+  },
+  "memoryAccounting": {
+    "legacyRecords": 7,
+    "v2Episodes": 0,
+    "semanticAssertions": 0
+  },
+  "economy": {
+    "namespace": "SIMULATED ECONOMY",
+    "startingCents": 10000,
+    "cashCents": 10075
+  },
+  "onchain": {
+    "namespace": "ONCHAIN ECONOMY",
+    "identityStatus": "unresolved",
+    "balance": null
+  },
+  "attributedRevenue": {
+    "namespace": "ATTRIBUTED REVENUE",
+    "value": null,
+    "reason": "No verified attribution source enabled"
+  },
+  "privateContentWithheld": true,
+  "history": [
+    {
+      "schemaVersion": 1,
+      "id": "0497212d-6d63-4f2d-8718-61edeb72256c",
+      "at": "2026-09-15T03:31:41.247Z",
+      "cycle": 7,
+      "legacyLabel": "AVOID",
+      "interpretation": "LEGACY COMPUTATIONAL DECODER LABEL — NOT VALIDATED BIOLOGICAL ACTION",
+      "modelId": "celegans-cook2019-rate-v1",
+      "privateContentWithheld": true
+    },
+    {
+      "schemaVersion": 1,
+      "id": "e4c7902b-a1cc-470c-a367-d7a792bbf4ca",
+      "at": "2026-09-15T02:46:31.178Z",
+      "cycle": 6,
+      "legacyLabel": "APPROACH",
+      "interpretation": "LEGACY COMPUTATIONAL DECODER LABEL — NOT VALIDATED BIOLOGICAL ACTION",
+      "modelId": "celegans-cook2019-rate-v1",
+      "privateContentWithheld": true
+    },
+    {
+      "schemaVersion": 1,
+      "id": "c9df9d77-89a6-4557-952c-69c8b8334e46",
+      "at": "2026-09-15T02:46:30.141Z",
+      "cycle": 5,
+      "legacyLabel": "APPROACH",
+      "interpretation": "LEGACY COMPUTATIONAL DECODER LABEL — NOT VALIDATED BIOLOGICAL ACTION",
+      "modelId": "celegans-cook2019-rate-v1",
+      "privateContentWithheld": true
+    },
+    {
+      "schemaVersion": 1,
+      "id": "aefcb285-48a8-4f71-a848-e7a592dc5670",
+      "at": "2026-09-15T02:46:29.097Z",
+      "cycle": 4,
+      "legacyLabel": "APPROACH",
+      "interpretation": "LEGACY COMPUTATIONAL DECODER LABEL — NOT VALIDATED BIOLOGICAL ACTION",
+      "modelId": "celegans-cook2019-rate-v1",
+      "privateContentWithheld": true
+    },
+    {
+      "schemaVersion": 1,
+      "id": "548faae6-66bf-4bae-b316-84aeb3f81593",
+      "at": "2026-09-15T02:46:28.047Z",
+      "cycle": 3,
+      "legacyLabel": "APPROACH",
+      "interpretation": "LEGACY COMPUTATIONAL DECODER LABEL — NOT VALIDATED BIOLOGICAL ACTION",
+      "modelId": "celegans-cook2019-rate-v1",
+      "privateContentWithheld": true
+    },
+    {
+      "schemaVersion": 1,
+      "id": "acaffabc-adcd-4a57-804a-2c755592e90e",
+      "at": "2026-09-15T02:46:27.000Z",
+      "cycle": 2,
+      "legacyLabel": "APPROACH",
+      "interpretation": "LEGACY COMPUTATIONAL DECODER LABEL — NOT VALIDATED BIOLOGICAL ACTION",
+      "modelId": "celegans-cook2019-rate-v1",
+      "privateContentWithheld": true
+    },
+    {
+      "schemaVersion": 1,
+      "id": "65b0ed69-b8de-442b-a404-3a9309990654",
+      "at": "2026-09-15T02:46:25.918Z",
+      "cycle": 1,
+      "legacyLabel": "EXPLORE",
+      "interpretation": "LEGACY COMPUTATIONAL DECODER LABEL — NOT VALIDATED BIOLOGICAL ACTION",
+      "modelId": "celegans-cook2019-rate-v1",
+      "privateContentWithheld": true
+    }
+  ],
+  "schedule": {
+    "enabled": false
+  },
+  "biological": {
+    "mode": "SAVED-OBSERVATION-ONLY",
+    "status": "saved-model-output",
+    "sourceRecordedAt": "2026-09-15T03:31:41.247Z",
+    "sourceDecisionId": "0497212d-6d63-4f2d-8718-61edeb72256c",
+    "observedAt": "2026-09-21T04:36:30.121Z",
+    "modelClock": 560,
+    "limitations": [
+      "Saved dimensionless model output, not calibrated physiology.",
+      "No supported biological input for this event; model state not advanced.",
+      "No semantic action authority. No fly learning capability is installed in this adapter."
+    ],
+    "availableCapabilities": []
+  }
+}

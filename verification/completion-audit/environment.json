@@ -1,0 +1,10 @@
+{
+  "node": "v26.1.0",
+  "npm": "11.13.0",
+  "platform": "Darwin",
+  "architecture": "arm64",
+  "dockerExecutable": null,
+  "vercelLocalLinkDirectoryExists": false,
+  "railwayLocalLinkDirectoryExists": false,
+  "externalNetworkVerification": "NOT PERFORMED; audit-only restriction"
+}

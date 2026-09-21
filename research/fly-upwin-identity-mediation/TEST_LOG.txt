@@ -1,0 +1,23 @@
+test_01_preservation (__main__.Audit) ... ok
+test_02_spec_and_prior_release (__main__.Audit) ... ok
+test_03_canonical (__main__.Audit) ... ok
+test_04_sources (__main__.Audit) ... ok
+test_05_archive (__main__.Audit) ... ok
+test_06_observed_identities (__main__.Audit) ... ok
+test_07_guard (__main__.Audit) ... ok
+test_08_reject_response_identity_promotion (__main__.Audit) ... ok
+test_09_reject_recall_identity_from_row (__main__.Audit) ... ok
+test_10_reject_unknown_to_zero_or_sign (__main__.Audit) ... ok
+test_11_reject_double_counting (__main__.Audit) ... ok
+test_12_reject_current_conversion (__main__.Audit) ... ok
+test_13_reject_mediation_promotion (__main__.Audit) ... ok
+test_14_reject_composition (__main__.Audit) ... ok
+test_15_reject_stage5_or_execution (__main__.Audit) ... ok
+test_16_reject_missing_scope_and_ownership (__main__.Audit) ... ok
+test_17_resolutions (__main__.Audit) ... ok
+test_18_release_if_published (__main__.Audit) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 13.369s
+
+OK

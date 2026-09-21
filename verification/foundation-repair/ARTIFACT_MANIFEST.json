@@ -1,0 +1,18 @@
+{
+  "digestDefinition": "SHA-256 of compact sorted UTF-8 JSON file-hash map; ARTIFACT_MANIFEST.json excluded",
+  "files": {
+    "FOUNDATION_REPAIR_REPORT.md": "1ab6f9b9ea1da4ea908dc27baaa5dcdc9ba52418698d308af7fa37e34994f5af",
+    "build.txt": "87452ab47fb9f72dfae5d04c4b6ac64457483c6e5b0fdc825ae1f1fed6396c28",
+    "canonical-after.json": "7ce8eb95c4debff806a72ac88551a1bf56bff4222e9c4fbbdb477bdefc080560",
+    "canonical-before.json": "c4eee7bbfab2d8a08ca42c379e7d666572be976590e83998be41a32f48e9f02a",
+    "canonical-public-projection.json": "3f25138d409e31912c8fcd5066b042664f23fc975e4062c510d8ca2095428573",
+    "frozen-preservation.json": "050066bbadebe87de6b90bfc3b2b3ce3ee0f298d060093ec7018c6f42f96b889",
+    "lint.txt": "01a448f5176ec0decb011933eb27354f58d96ad06049f9418f5a112a23b45a6f",
+    "prior-audit-preservation.json": "2ce5fac5162cf99bf57033cd57d7d1f4cbe0c174add438c34789f3efeeabca74",
+    "source-changes.json": "aab10b04ffe33a9a588e18cb9c166f4302a286ed748e892e6db14c0fadd606aa",
+    "tests.txt": "7acace802e63e588b5de66e8f25e6e77043eda0bf798cf8a3b77d524bf6c54c3",
+    "typecheck.txt": "c3a4984e39ca90092b12f60776cde004ced3e82b73efb8a6f5d01ec01d9617b7",
+    "verification.json": "fe9a7ead1a44381b104ffd88e68a1b7052f81f18df2b671992ad3719040fc8f6"
+  },
+  "contentSha256": "e2397982a7fc270385e536903477bfebf932e9d67c080c92e2bd798a74094d89"
+}

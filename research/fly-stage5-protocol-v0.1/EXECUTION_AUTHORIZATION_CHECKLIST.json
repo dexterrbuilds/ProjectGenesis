@@ -1,0 +1,25 @@
+{
+  "status": "AWAITING SEPARATE USER REVIEW",
+  "authorization_granted": false,
+  "before_execution": [
+    "Review this release hash and all conditional-scope limits.",
+    "Obtain explicit user authorization for archived-data mathematical analysis only.",
+    "Record reviewed release hash and authorization outside sealed protocol.",
+    "Verify every dependency, snapshot, source summary and protocol hash.",
+    "Confirm canonical state unchanged and scheduler disabled without activating runtime.",
+    "Prepare a separate empty output directory; deny writes to canonical and frozen research.",
+    "Verify all families, nuisance branches, controls and both cues are included.",
+    "Keep physical observation values and behavioral outputs out of calculations.",
+    "Perform two fresh-process mathematical analyses for byte-identical replay only after authorization.",
+    "Report all branches and counterexamples; no capability admission."
+  ],
+  "not_authorized_even_by_this_design": [
+    "neural model runs",
+    "Genesis integration",
+    "BrainAdapter changes",
+    "parameter fitting",
+    "new anatomical extraction",
+    "Stage6 or new capability"
+  ],
+  "reviewer_decision": null
+}

@@ -1,0 +1,40 @@
+{
+  "admitted_to_brain_spec": false,
+  "evidence_overrides": [],
+  "new_neural_operators": [],
+  "new_state_ownership": [],
+  "product_mapping": null,
+  "claims": [
+    {
+      "id": "four-sampled-voltage-responses",
+      "category": "BIOLOGICAL FACT",
+      "source": "https://elifesciences.org/articles/85756#fig4",
+      "scope": "4/17 sampled R64A11-LexA cells; type/root not resolved",
+      "status": "supported_at_recorded_scope"
+    },
+    {
+      "id": "mcfo-type-resemblance",
+      "category": "BIOLOGICAL FACT",
+      "source": "https://elifesciences.org/articles/85756/figures#fig5s1",
+      "scope": "SS67249 morphology examples resembling SMP353; no recording linkage",
+      "status": "type_compatible_only"
+    },
+    {
+      "id": "alpha1-mediated-learned-steering",
+      "category": "HYPOTHESIS",
+      "source": "https://elifesciences.org/articles/85756/peer-reviews",
+      "scope": "candidate link among separately supported assays",
+      "status": "unresolved"
+    },
+    {
+      "id": "metadata-identity-policy",
+      "category": "ENGINEERING ASSUMPTION",
+      "source": "PLAN.md",
+      "scope": "unknown identity remains null; no source row inferred as persistent animal ID",
+      "status": "declared_audit_rule"
+    }
+  ],
+  "physiological_parameters_identified": [],
+  "empirical_coefficients_transferred": [],
+  "stage5_authorized": false
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "view": "life",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "view": "money",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "view": "memory",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "view": "about",
+    "scrollWidth": 390,
+    "width": 390
+  }
+]

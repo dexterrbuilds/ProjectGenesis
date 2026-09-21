@@ -1,0 +1,149 @@
+{
+  "source": "https://elifesciences.org/articles/79042/figures#fig3s2",
+  "archive": "sources/elife-79042-fig3-figsupp2-data1-v2.zip",
+  "source_workbook_sha256": "22c3b806a8f5c46233c7aaf925387b02219d7ec3257116e3e98b222fc83a7efc",
+  "groups": [
+    {
+      "paired_odor": "OCT",
+      "groups": [
+        {
+          "column": "B",
+          "n_source_rows": 6,
+          "values": [
+            53.28,
+            56.28,
+            96.16,
+            81.16,
+            64.36,
+            93.16
+          ],
+          "mean": 74.06666666666666,
+          "source_mean": 74.0666666666667,
+          "mean_error": -4.263256414560601e-14,
+          "sem_error": -1.7763568394002505e-15
+        },
+        {
+          "column": "C",
+          "n_source_rows": 6,
+          "values": [
+            17.8,
+            3.6,
+            17.56,
+            42.84,
+            8.96,
+            26.6
+          ],
+          "mean": 19.560000000000002,
+          "source_mean": 19.56,
+          "mean_error": 3.552713678800501e-15,
+          "sem_error": -2.6645352591003757e-15
+        },
+        {
+          "column": "D",
+          "n_source_rows": 6,
+          "values": [
+            60.8,
+            51.76,
+            81.04,
+            74.2,
+            62.8,
+            68.6
+          ],
+          "mean": 66.53333333333335,
+          "source_mean": 66.5333333333334,
+          "mean_error": -5.684341886080802e-14,
+          "sem_error": 7.993605777301127e-15
+        },
+        {
+          "column": "E",
+          "n_source_rows": 6,
+          "values": [
+            34.36,
+            27.36,
+            84.52,
+            62.52,
+            23.24,
+            49.84
+          ],
+          "mean": 46.973333333333336,
+          "source_mean": 46.9733333333333,
+          "mean_error": 3.552713678800501e-14,
+          "sem_error": -1.7763568394002505e-15
+        }
+      ],
+      "external_fly_ids": null
+    },
+    {
+      "paired_odor": "MCH",
+      "groups": [
+        {
+          "column": "G",
+          "n_source_rows": 5,
+          "values": [
+            86.12,
+            66.56,
+            75.48,
+            34.08,
+            78.32
+          ],
+          "mean": 68.112,
+          "source_mean": 68.112,
+          "mean_error": 0.0,
+          "sem_error": -1.7763568394002505e-15
+        },
+        {
+          "column": "H",
+          "n_source_rows": 5,
+          "values": [
+            48.84,
+            54.44,
+            61.6,
+            42.24,
+            45.96
+          ],
+          "mean": 50.616,
+          "source_mean": 50.616,
+          "mean_error": 0.0,
+          "sem_error": 1.7763568394002505e-15
+        },
+        {
+          "column": "I",
+          "n_source_rows": 5,
+          "values": [
+            83.2,
+            65.44,
+            50.0,
+            30.0,
+            81.56
+          ],
+          "mean": 62.04,
+          "source_mean": 62.04,
+          "mean_error": 0.0,
+          "sem_error": 2.842170943040401e-14
+        },
+        {
+          "column": "J",
+          "n_source_rows": 5,
+          "values": [
+            22.56,
+            25.84,
+            17.6,
+            4.88,
+            30.44
+          ],
+          "mean": 20.264,
+          "source_mean": 20.264,
+          "mean_error": 0.0,
+          "sem_error": 8.881784197001252e-16
+        }
+      ],
+      "external_fly_ids": null
+    }
+  ],
+  "quantity": "odor-evoked spike count as labeled in figure caption, not UpWiN mV",
+  "response_window": "0–1.2 s per article electrophysiology method; counts/rates must not be interchanged",
+  "preparation": "in-vivo MBON-alpha1; MB319C; PAM-alpha1 MB043-split-LexA; 1 min paired odor + 120 1 ms 2 Hz pulses",
+  "relation_to_85756": "Comparable olfactory timing but different target neurons and DAN driver; not same-animal measurements or a numerical transfer function",
+  "genesis_rate_conversion": null,
+  "cross_paper_identity_join": null
+}

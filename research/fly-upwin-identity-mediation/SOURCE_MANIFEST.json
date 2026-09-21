@@ -1,0 +1,363 @@
+{
+  "originals": [
+    {
+      "key": "peer85756",
+      "url": "https://elifesciences.org/articles/85756/peer-reviews",
+      "path": "sources/peer85756.html",
+      "sha256": "f5c5cb5b842ea52a75639bf54f420c7ff9d37d10c84dfba75ce2f7f1d901074e",
+      "bytes": 202977
+    },
+    {
+      "key": "peer79042",
+      "url": "https://elifesciences.org/articles/79042/peer-reviews",
+      "path": "sources/peer79042.html",
+      "sha256": "0d44fef8f99665b454ea42bc5894ddde59e5f10da0ea935afc0742f909d98138",
+      "bytes": 191534
+    },
+    {
+      "key": "vfb-SS67249-A10",
+      "url": "https://www.virtualflybrain.org/term/jrc_ss67249_brain_20200228_19_a10_20x-vfb_00103h2o/",
+      "path": "sources/vfb-SS67249-A10.html",
+      "sha256": "2e220e3ba9d7316a67cfb64053e4049b059731f9735eaae9537a681cafa4c231",
+      "bytes": 11919
+    },
+    {
+      "key": "vfb-SS67249-C3",
+      "url": "https://www.virtualflybrain.org/term/jrc_ss67249_brain_20200814_31_c3_20x-vfb_00103k1j/",
+      "path": "sources/vfb-SS67249-C3.html",
+      "sha256": "e0881c69c647283d081839c57b5e7beb0a518620750a869c84af47a79c6c0247",
+      "bytes": 11729
+    },
+    {
+      "key": "vfb-SS67249-A9",
+      "url": "https://www.virtualflybrain.org/term/jrc_ss67249_brain_20200228_19_a9_63x-vfb_00103hpc/",
+      "path": "sources/vfb-SS67249-A9.html",
+      "sha256": "0abaf4cb93c56b7afdd8db5e2f0632700b8d5bdff60e8855c0220efe58d376fe",
+      "bytes": 12076
+    },
+    {
+      "key": "flylight-home",
+      "url": "https://splitgal4.janelia.org",
+      "path": "sources/flylight-home.html",
+      "sha256": "bd9cb44a8efdf219b6d2884a61b69c7eaae86a09143d119c1ed03f193449618f",
+      "bytes": 955665
+    },
+    {
+      "key": "neuronbridge-home",
+      "url": "https://neuronbridge.janelia.org",
+      "path": "sources/neuronbridge-home.html",
+      "sha256": "3e686f55e4b39aff39f160024641713ae804f4f39a878a5edc03a41d2659f116",
+      "bytes": 24994
+    },
+    {
+      "key": "driver-SS67249",
+      "url": "https://splitgal4.janelia.org/cgi-bin/view_splitgal4_imagery.cgi?line=SS67249",
+      "path": "sources/driver-SS67249.html",
+      "sha256": "5610a4b0663bcf5da96b52ae7cfd43acdb183e50669d58dc966ed139c057abce",
+      "bytes": 187005
+    },
+    {
+      "key": "driver-SS33917",
+      "url": "https://splitgal4.janelia.org/cgi-bin/view_splitgal4_imagery.cgi?line=SS33917",
+      "path": "sources/driver-SS33917.html",
+      "sha256": "577765fe92c21c6ed6a9370fad131f3ca907ad635aa60becd2cb7b2664789b7c",
+      "bytes": 472653
+    },
+    {
+      "key": "driver-SS33918",
+      "url": "https://splitgal4.janelia.org/cgi-bin/view_splitgal4_imagery.cgi?line=SS33918",
+      "path": "sources/driver-SS33918.html",
+      "sha256": "24c0d19f8acf1b7080348db684d66303e49d86fa6d230d01c5485d09d19f55d6",
+      "bytes": 495495
+    },
+    {
+      "key": "shuai94168",
+      "url": "https://elifesciences.org/articles/94168",
+      "path": "sources/shuai94168.html",
+      "sha256": "767b3176ec91232b38f53c6ae73bc73353f3201de7eb87f8e6503e97a2d02150",
+      "bytes": 903996
+    },
+    {
+      "key": "vfb-SS33917-F9",
+      "url": "https://www.virtualflybrain.org/term/jrc_ss33917_brain_20200904_19_f9_63x-vfb_00103hr5/",
+      "path": "sources/vfb-SS33917-F9.html",
+      "sha256": "453621b5a06181f69505643c0838f910c08dd50f0038e1d49b6117ca291b1693",
+      "bytes": 12080
+    }
+  ],
+  "reused_originals": "Referenced via frozen route-study release; no originals modified or new trials synthesized.",
+  "license": "Publisher content attributed to original authors (eLife CC BY); FlyLight/VFB metadata attributed to Janelia/VFB. Preserve source-specific license statements. No license inferred for unrelated software.",
+  "parser_note": "HTML originals retained byte-for-byte. Derived plain text uses replacement for undecodable bytes; consult originals for authoritative encoding.",
+  "ancillary_files": [
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_figure_supplement_1.pdf",
+      "sha256": "b9482804de018b1b1c6cc2ed399384a9341646549561669dfbb60fda4376db82",
+      "bytes": 1310875
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_figure_supplement_1_source_data_1.xlsx",
+      "sha256": "24466303d0dc9e825f15c3e7c86997cb47ab49a87215edb39da41a4fda9c87e9",
+      "bytes": 250724
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_1.xlsx",
+      "sha256": "948b73a0be355e02ce07c3f7bbd2b36a38473c4c1d1811d94b42148c048b3168",
+      "bytes": 10438
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_2.xlsx",
+      "sha256": "3a14c80d97ae49d099b38368bcf1ffdf44fcff9cb6063908e9fc55421db199f7",
+      "bytes": 10091
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_3.xlsx",
+      "sha256": "277c591487b94801093aabdcc179a82c37f7231fd6eecef0fe61a57e3f5fad5d",
+      "bytes": 7959
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_4.xlsx",
+      "sha256": "44678ed6474d9a0b24e2f7d086faade818b68299a1ea687ce7337fb02a1e1a54",
+      "bytes": 8898
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_5.xlsx",
+      "sha256": "d5286c36320926d66cea17a4bd2f1c55458789a93e85e2a94056a4d765398e21",
+      "bytes": 125544
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_6.xlsx",
+      "sha256": "b3b44da10e3270892f190521174104241d85182e053c1066c1b2ed33c959adf4",
+      "bytes": 15702
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_7.xlsx",
+      "sha256": "18838e10bf29d4d883d49c5f2fe4c6aed3d10a3582cf18aad4e1ba74914ab8ac",
+      "bytes": 92416
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_8.xlsx",
+      "sha256": "a311ede78b299d5b7cf8f3aca904234b6a7f9660b1c22220751ee02cdb73c72c",
+      "bytes": 26048
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_figure_supplement_1.pdf",
+      "sha256": "bf1cad07f53e1a38ecc8fdf23e37c6139b86157fb047ef2385291d95e5e8b4c7",
+      "bytes": 2051392
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_figure_supplement_1_source_data_1.xlsx",
+      "sha256": "f9c752dc2d37f36fc71687e6a7b55f1ed10058da6a2544dfebf2b3a10bf3f525",
+      "bytes": 1622574
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_figure_supplement_2.pdf",
+      "sha256": "f42200d471f559be0c47aa7220fe2bcabfe72c8ccf8187718a77a135a00091b1",
+      "bytes": 608859
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_figure_supplement_3.pdf",
+      "sha256": "2d4060b6d4771602d6fb3b59851a7470fd76868b0530d8833b9efcb954af4413",
+      "bytes": 274598
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_figure_supplement_4.pdf",
+      "sha256": "ebf1d55d670bf3b2812a2e5ff45825f039c4e6b9e915297dcdb34e37d39a568e",
+      "bytes": 324969
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_source_data_1.xlsx",
+      "sha256": "d3284f82d1bd96b2d29596f94f80f5e42d50c860d922d502a6e8d84b9bd334a6",
+      "bytes": 48438
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_source_data_2.xlsx",
+      "sha256": "d2c5057097b591a3d2c423a38eccf4ca26a38f6f31443ce330e0b1e135079beb",
+      "bytes": 36789
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_3_figure_supplement_1.pdf",
+      "sha256": "f0a8fe5ac8927653da27c8f744adb9c09c2fd32469d0d4078c2e1c9e92d87f5c",
+      "bytes": 976712
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_3_figure_supplement_2.pdf",
+      "sha256": "36d225f534f0541791259cb3e9b6a0f5c04b0b3d2c3888f8c3bbe2a169848a4c",
+      "bytes": 2143740
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_3_figure_supplement_3.pdf",
+      "sha256": "76a1a74867b51a5bda4d3421b1b88e2dc899063f1eff9653d6ddd408b1e4f39e",
+      "bytes": 48831
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_3_figure_supplement_4.pdf",
+      "sha256": "53ebf35a583994702f85fcc060522267dcd2df094f3643b5084f3d7b59e0ce5f",
+      "bytes": 35762
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_4_figure_supplement_1.pdf",
+      "sha256": "ff6b58a117c8f31e6273ae9b925d2f6c6aba2ed121869c9e3494ea94219a4069",
+      "bytes": 656274
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_4_figure_supplement_1_source_data_1.xlsx",
+      "sha256": "8d174ae7264b5a4ea2aa6000e9ec3cef20ba0290af16db517623ba9d50887979",
+      "bytes": 10199
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_4_source_data_1.xlsx",
+      "sha256": "487afc8fd58380a89780f7b8fdd356aa4648caa3c703309a9d237c6b15c45aa1",
+      "bytes": 2663800
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_4_source_data_2.xlsx",
+      "sha256": "68fa1937b876eddfd096d2910edeaf60b4289098be05d137e57df2e6edaa80e2",
+      "bytes": 3770236
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_4_source_data_3.xlsx",
+      "sha256": "773fb205ae390c9df7a443c044584788cb91c1467e7efd78797c62481062f1d7",
+      "bytes": 10117
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_figure_supplement_1.pdf",
+      "sha256": "b55e41da2b0a5e57c31c78b00f9c29b3a9d78e2076411bb2d913fb70f26e9054",
+      "bytes": 291843
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_figure_supplement_1.png",
+      "sha256": "f1c6693f967b87eebd5adb2994280086a3f52e1a2db74e9484c52eda5db0401d",
+      "bytes": 218433
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_figure_supplement_2_source_data_1.xlsx",
+      "sha256": "3f0cff475eb9ccb599a4d7db19aaeb10c8a308d7952b3828e0b0a0e7f5194b06",
+      "bytes": 1231788
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_figure_supplement_2_source_data_2.xlsx",
+      "sha256": "d7314d2ed6661ff9a8cf05bdebb1d4943302629261f7aaa9deb82a5cdf280848",
+      "bytes": 3252378
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_figure_supplement_2_source_data_3.xlsx",
+      "sha256": "da7dfa7c41c392da4064a66c62474b952fbd7ac04a533d383df6edeb1a9cbb8e",
+      "bytes": 8271
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_source_data_1.xlsx",
+      "sha256": "2fb44d82b50c9ab6d1ab776a72368cf715be8e95d1afd512b23c1a0ba290db4f",
+      "bytes": 1182606
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_source_data_2.xlsx",
+      "sha256": "594fd9755eaa36faa071f95df6ccfc9ed06d27e301fd993a804bdb9176e020e9",
+      "bytes": 3247565
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_source_data_3.xlsx",
+      "sha256": "0dc844354d3841ce5935970acbe8ff157b902d9a11076e091f720e251220c635",
+      "bytes": 8326
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_figure_supplement_1_source_data_1.xlsx",
+      "sha256": "15b806e2e2ce3355a8facbb435e1178aadcf51722194b723be18ff3550ca567e",
+      "bytes": 60440
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_1.xlsx",
+      "sha256": "8510f69309e060e3c9e6dec946a10caf6cc1ebc8ba9d16836892afb167846cea",
+      "bytes": 8427
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_2.xlsx",
+      "sha256": "2bdcb24d11f619091ac872882718a46bfa3aef64f3fa47acfbe7d07da525cf88",
+      "bytes": 8596
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_3.xlsx",
+      "sha256": "f6017668965de3758c2c80b3d36f69d4985572855648cdf5eec5780c27497bf3",
+      "bytes": 9072
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_4.xlsx",
+      "sha256": "cc97aeac61e068b4a0b28065e9c0811d07264a4106f001d6f8ef8a0425ac3bb8",
+      "bytes": 23013
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_5.xlsx",
+      "sha256": "ba632059cb72d7e6de2378670f79a00edf174608584adeef112ae1f55ee3a992",
+      "bytes": 77567
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_6.xlsx",
+      "sha256": "13aa6211faba72499a665db012b2d89c83255e75e196f12df2b8a74230db38ee",
+      "bytes": 32197
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_7.xlsx",
+      "sha256": "839611d476434c799a9a30959517d405c12e08876163eb8d20c5c83c5805e353",
+      "bytes": 47131
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_figure_supplement_1_source_data_1.xlsx",
+      "sha256": "8848dee91e78ff62b2965a57888923ac36379e5867e9463d7a0000363900011d",
+      "bytes": 867188
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_source_data_1.xlsx",
+      "sha256": "b0dd84021f258dcf5b5028785223a42ba8d2a8168df88e34bdb3e653ec406e31",
+      "bytes": 13416
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_source_data_2.xlsx",
+      "sha256": "70420051ca7eb0495bd4780d0a38d2914eae4b7fcdc0ec6387dc05ebef386bbd",
+      "bytes": 219597
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_source_data_3.xlsx",
+      "sha256": "efc19988a497fada2fb4eea25eb0620322c2a7fe097b218a5c15e8b937218cff",
+      "bytes": 8747
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_source_data_4.xlsx",
+      "sha256": "e9cd4e588bb442468759a8d33eeda7531ba1cc3e3b1fb98acc4a298429f43d9f",
+      "bytes": 24725
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_source_data_5.xlsx",
+      "sha256": "0d726b7a7bcd3be9b8763942b8a68c25dc9f97763e135fd09ff398c562f686aa",
+      "bytes": 8428
+    },
+    {
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Supplementary_file_1.docx",
+      "sha256": "78a8b67a281a8bf646750102edbe3d46e3eae509d38525f78e70180208d9efb2",
+      "bytes": 39491
+    },
+    {
+      "path": "sources/archive-data-range.bin",
+      "sha256": "d060b86493525c1d94da1139b779ec5c849df983260a363486419f9bbbaa1e2b",
+      "bytes": 19744191
+    },
+    {
+      "path": "sources/archive-data-range.headers",
+      "sha256": "fcf6dfb4f012aa9f805b4a6f003cee8d8fdc4bf02c8b6fd001dc3f795d9eca27",
+      "bytes": 630
+    },
+    {
+      "path": "sources/archive-prefix.partial.bin",
+      "sha256": "048ac200ca91edd22d4c3e43ed830a164b833d1f15f7d5c5d36ac487174c5a15",
+      "bytes": 40953709
+    },
+    {
+      "path": "sources/archive-tail.bin",
+      "sha256": "88f44bbc5748cf876dadabe8c3cf0f48f3cf78ff308db2e0a504fef96c13d4c9",
+      "bytes": 65536
+    },
+    {
+      "path": "sources/archive-tail.headers",
+      "sha256": "32f963044ee3d95b5e5775a4813c0429bd38d572b7e340f4de742abfe414974d",
+      "bytes": 626
+    }
+  ]
+}

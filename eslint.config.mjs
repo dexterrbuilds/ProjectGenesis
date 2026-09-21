@@ -17,6 +17,8 @@ const eslintConfig = defineConfig([
     ".vinext/**",
     ".sites-runtime/**",
     "next-env.d.ts",
+    "research/**", // Immutable research/vendor artifacts are hash-audited, not reformatted.
+    "outputs/**",
   ]),
   {
     files: ["components/ui/**/*.{ts,tsx}", "hooks/use-mobile.ts"],

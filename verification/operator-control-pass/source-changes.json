@@ -1,0 +1,63 @@
+{
+  "changed": {
+    "core/v2/contracts.ts": {
+      "before": "c49749288d7c63ed5ec7d1439f16bf094683b994fb0130763dca72fcbb6df4c0",
+      "after": "3b9b5371a9a55149ee9614db39488d4eadeba4fd916c25a91f0ffc14661a02d3"
+    },
+    "core/v2/context.ts": {
+      "before": "97224a3138a343e8495748fae346081ee42e47af6a6f5fe17ff58f59c038be79",
+      "after": "5110ab191cb7c23897ee03fe390a443a3e8131ea836c22a6dbb47678d09d70ec"
+    },
+    "core/v2/operational-context.ts": {
+      "before": "41e14ae4346119e704eabb9078222cc6ee42ea7d0457ce002195626b9905006e",
+      "after": "63afbf319bfcc8e15c5b3d63b390d498e90ca5809082f2e23eed47ef1ccc6f90"
+    },
+    "core/v2/memory.ts": {
+      "before": "7ed938ca3ddfe373fbf54a9d88807cfd065ac7163c716981c4b2ddc11bb71db7",
+      "after": "19395b183b0b0ad713bb810930e00da8b434a3037b2c395e420875d407aca52c"
+    },
+    "core/v2/cycle.ts": {
+      "before": "bf3c2dc61c731bd181f2a7ccda31dc3aa3b7ba8d286282468efbb327c42553b7",
+      "after": "1955eb04e481de90288ff20c12098e6a15f96040fc620df4f99a053c62e01664"
+    },
+    "server/commit-v2.ts": {
+      "before": "72fa75087becabbecea6d7d66ecf2b430acf832d3882f898fcaf6d5b49ffbeda",
+      "after": "79e8265f8e1208b481da2cee5122e7c93c663f46697f2cc83bf7670f3bd67424"
+    },
+    "server/one-shot-spec.ts": {
+      "before": "1f9004cc608aa329814c724457a60ada8d99775f83a7593a2966375c01791bf8",
+      "after": "ff2783584b506261b50193e481d4aafd2816fdda18f5106d554c7ecc1ebdc833"
+    },
+    "server/continuous.ts": {
+      "before": "71c4a887d5c91cf2fe25e2e4ae14327e825d7112404665545290a85f73382146",
+      "after": "dc97e863c95258cf6ee613619da33ef237b4e5de5309005b0df958ecbc2593d2"
+    },
+    "server/provider-control.ts": {
+      "before": "2db3a421bbf8c8b1a695ddad554e14ac2c9a5828011498c1f79fbf628d01d304",
+      "after": "03405dfd15f3f69ca7f3cc13e43356e40c3d5b87b7a69a2aac76a41206d9c22e"
+    },
+    "server/one-shot.ts": {
+      "before": "72ccab1b5d246e9d026113c16ca9c8415c0e54c6bb59e935b12c4a1abc36e6a8",
+      "after": "f56a3de85c15ce6f3fbf10b1ba6817370698dabb75993806ef603005c3a8a27a"
+    },
+    "server/continuous-spec.ts": {
+      "before": "d36bf9643aa6aba607b494f646ddbc3b503259e7434a6c7aa0c98da4efd549fc",
+      "after": "4266a82b5d6b5cabe5ec227f367775a284cd215a9867a5ddcb1d91ef49797fd5"
+    }
+  },
+  "added": {
+    "core/v2/disclosure.ts": "1e8d159d23c7d2d7ec4ef2a4729b5fda653f5f8b974e1f0222063d1c020e5e5b",
+    "server/operator-control.ts": "ae07b18e19cd55c3f32850e21a0a480aedd8ac654243417d23d8ad8874d7f56b",
+    "server/first-context-inspection.ts": "b3d0196084a91493612d4a66d08f20b23fc11321e69551b099f769876f2afcc2",
+    "server/provider-disclosure.ts": "9ed68be9f977a677632fbbf43fb5bd81c2a390f9a179b668d365ba84f7c26d17",
+    "server/operator-transaction.ts": "65a42240414c741ca1e2b283a3b89388a783f110d5d433bf71a15b3d6fc138c3",
+    "server/disclosure-store.ts": "333e3c70a48c29eaf77c6f684a49537054ba5a6b784df9aa85fa3f779e0f4ded",
+    "server/operator-auth.ts": "7bd4ab23ea91fb11fbee47fedcc331fbe29150686465edbdd7d2599f778cc928",
+    "runtime/operator-role-grants.sql": "703009efe2522fbaea121a82702e01e25066c3cfd7b66dd1817b22a39a473524",
+    "runtime/OPERATOR_CONTROL.md": "35b0a9dff217ab3473ff78222e8f473bba2f3176c91fe34aa51cf75ff6491e41",
+    "runtime/operator-schema-v1.sql": "0f5e594a500c49d5eaeaf53be9fd7393f5c088e6d74ca9057c3ed4d26381b58c",
+    "runtime/operator-cli.ts": "df8f2de4fb98f327a747b2f68a4363f3fd2fdae11fa4fbd5652c16f8e3210019",
+    "tests/operator-control.test.ts": "44d1cfc94d78844bee224751b514a60f4da118d5456e989b490faed8ac117056"
+  },
+  "missingExistingSources": []
+}

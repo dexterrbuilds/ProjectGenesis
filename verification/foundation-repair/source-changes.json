@@ -1,0 +1,27 @@
+{
+  "modified": [
+    "core/v2/biology.ts",
+    "core/v2/contracts.ts",
+    "core/v2/policy.ts",
+    "core/v2/cycle.ts",
+    "core/v2/public.ts",
+    "server/life-store-v1.ts",
+    "server/commit-v2.ts",
+    "server/one-shot-spec.ts",
+    "server/one-shot.ts",
+    "server/isolated-cycle.ts",
+    "runtime/service.ts",
+    "lib/observer-presentation.ts",
+    "lib/observer-fixtures.ts",
+    "components/live-observation.tsx",
+    "tests/support/active-fixture.ts"
+  ],
+  "added": [
+    "core/v2/intents.ts",
+    "server/intent-journal.ts",
+    "server/cycle-inspection.ts",
+    "server/observation-read.ts",
+    "server/saved-provenance.ts",
+    "tests/foundation-repair.test.ts"
+  ]
+}

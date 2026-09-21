@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "protected_files": 9170,
+  "sealed_stage5_artifacts": 28,
+  "sealed_release_sha256": "3fef9c2fad9b7b8be982c699299f957395199d811774041a052237efeb78ec3d",
+  "attempt1_preserved": true,
+  "canonical_before_equals_after": true,
+  "canonical_database_sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "canonical_decisions": 7,
+  "schedule_enabled": false,
+  "neural_runs": 0,
+  "new_physical_observations": 0,
+  "brain_adapter_changes": 0,
+  "runtime_actions": 0,
+  "wallet_actions": 0,
+  "organism_llm_actions": 0,
+  "capability_admissions": [],
+  "evidence": "Hash audits, exact sealed code, recorded commands and read-only SQL snapshots; not a claim of external OS-wide process surveillance."
+}

@@ -1,0 +1,49 @@
+{
+  "unit": "ordinal sets over {-1,0,+1}, not neural firing/voltage or action states",
+  "input": "x_{run,cue,state}=saved summary[state][cue][MBON_app]",
+  "output_name": "conditional downstream order set",
+  "contrasts": [
+    {
+      "id": "response_change",
+      "left": "post",
+      "right": "baseline",
+      "definition": "S_D={sign(f(x_left)-f(x_right)+ν): (f,ν) in declared domain D}."
+    },
+    {
+      "id": "restoration_check",
+      "left": "restored",
+      "right": "baseline",
+      "definition": "same S_D, comparing archived restored response with original baseline"
+    },
+    {
+      "id": "plastic_state_retention",
+      "left": "plastic_only",
+      "right": "baseline",
+      "definition": "same S_D after archived fast-state reset preserving plastic state"
+    },
+    {
+      "id": "learned_state_comparison",
+      "left": "post",
+      "right": "restored",
+      "definition": "Full nuisance family remains unconditioned; ν=0 subfamilies are matched-context mathematical learned-state comparisons."
+    }
+  ],
+  "evaluation_unit": "run × cue × contrast × family, never select only the trained cue or favorable seed",
+  "joint_inference": "Only marginal per-contrast identification sets are computed. No Cartesian-product joint neural state or probability is inferred. Strict monotone control profiles hold for any common fixed map, without fitting one.",
+  "secondary": [
+    "per-run paired and control cue sign-set profiles",
+    "matched-seed intervention profiles",
+    "conditional mechanism-dependence gate defined in CONTROL_MATRIX.json"
+  ],
+  "not_estimands": [
+    "absolute mV",
+    "firing rate",
+    "latency",
+    "movement probability",
+    "heading prediction",
+    "semantic action label",
+    "new weighted combination of biological roots"
+  ],
+  "normalization": "none; use the frozen readout; no across-run, cue, or post-outcome rescaling",
+  "no_pooled_crosscue_rank": true
+}

@@ -1,0 +1,26 @@
+{
+  "before": "4c5f33972c6212a24fe5386b9c5c499df94ddbfebd2a26639333566604e56220",
+  "after": "4c5f33972c6212a24fe5386b9c5c499df94ddbfebd2a26639333566604e56220",
+  "allRowsByteEquivalentInCanonicalJSON": true,
+  "organismId": "817e772c-827e-48fc-8e35-6504cb2a8d2d",
+  "birth": "2026-09-15T01:56:07.867Z",
+  "decisions": 7,
+  "legacyMemories": 7,
+  "canonicalV2Episodes": 0,
+  "execution": "CLOSED",
+  "schedule": "DISABLED",
+  "biology": "SAVED-OBSERVATION-ONLY",
+  "continuousAuthority": "NONE",
+  "canonicalSchemaInstalled": false,
+  "canonicalClientSessionsAtFinalAudit": 0,
+  "liveProviderCallsDuringPass": 0,
+  "walletActionsDuringPass": 0,
+  "externalCommunicationsDuringPass": 0,
+  "actionCountsBasis": "No production dispatch or external executor invoked; only injected transports and loopback fixture HTTP. Canonical records unchanged; not an independent account-wide network audit.",
+  "historicalVerificationFilesUnchanged": 158,
+  "privateExports": [
+    "outputs/lease-contract-pass/PRIVATE_BEFORE.json",
+    "outputs/lease-contract-pass/PRIVATE_RESUMED.json",
+    "outputs/lease-contract-pass/PRIVATE_AFTER.json"
+  ]
+}

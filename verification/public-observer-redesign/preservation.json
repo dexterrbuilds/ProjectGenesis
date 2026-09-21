@@ -1,0 +1,29 @@
+{
+  "canonicalDigest": "4c5f33972c6212a24fe5386b9c5c499df94ddbfebd2a26639333566604e56220",
+  "allCanonicalRowsIdentical": true,
+  "organisms": 1,
+  "decisions": 7,
+  "memories": 7,
+  "projects": 1,
+  "canonicalV2Cycles": 0,
+  "execution": "CLOSED",
+  "scheduleEnabled": false,
+  "biologicalMode": "SAVED-OBSERVATION-ONLY",
+  "liveProviderCallsDuringPass": 0,
+  "walletActionsDuringPass": 0,
+  "externalCommunicationsDuringPass": 0,
+  "filePreservation": {
+    "architecture": {
+      "files": 52,
+      "bytes": 176993,
+      "mismatches": []
+    },
+    "frozen": {
+      "files": 9319,
+      "bytes": 15967076255,
+      "mismatches": []
+    },
+    "elapsedSeconds": 12.544423818588257
+  },
+  "closingAuditIdentical": true
+}

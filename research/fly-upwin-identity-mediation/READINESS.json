@@ -1,0 +1,108 @@
+{
+  "classification": "PARTIAL ROUTE SUPPORT — TARGETED EVIDENCE STILL REQUIRED",
+  "requirements": [
+    {
+      "id": 1,
+      "requirement": "defensible source identity",
+      "classification": "SUPPORTED",
+      "reason": "Pinned MBON07/α1 anatomy and type evidence; Stage-1 rate remains model-specific."
+    },
+    {
+      "id": 2,
+      "requirement": "defensible downstream target identity",
+      "classification": "PARTIAL",
+      "reason": "Anatomical candidates and broad driver definitions available; four responders and 11 recall rows have no resolved type/root identity."
+    },
+    {
+      "id": 3,
+      "requirement": "directional anatomy",
+      "classification": "SUPPORTED",
+      "reason": "Frozen starting-root pair has 11 contacts; cross-specimen driver/type bridges remain qualified."
+    },
+    {
+      "id": 4,
+      "requirement": "target-scoped physiological sign",
+      "classification": "PARTIAL",
+      "reason": "Negative voltage in four sampled R64A11 cells; SMP353/SMP354-specific sign/receptor unresolved."
+    },
+    {
+      "id": 5,
+      "requirement": "measurable downstream neural variable",
+      "classification": "SUPPORTED",
+      "reason": "Somatic voltage in mV and separately population fluorescence; no interchange or inferred current."
+    },
+    {
+      "id": 6,
+      "requirement": "conditioning-compatible evidence",
+      "classification": "PARTIAL",
+      "reason": "SS67249 recall measurements are real; R58E02 β1 contribution and cross-driver identity unresolved."
+    },
+    {
+      "id": 7,
+      "requirement": "independently action-related variable",
+      "classification": "SUPPORTED",
+      "reason": "Driver activation affects wind-related turning/locomotion; no action label or voltage-to-behavior calibration."
+    },
+    {
+      "id": 8,
+      "requirement": "causal intervention evidence",
+      "classification": "PARTIAL",
+      "reason": "Acute activation and chronic blockade informative; route-specific recall mediation not isolated."
+    },
+    {
+      "id": 9,
+      "requirement": "preparation compatibility",
+      "classification": "PARTIAL",
+      "reason": "Cross-animal type comparison legitimate in principle; specific recorded-to-behavioral population correspondence remains unresolved."
+    },
+    {
+      "id": 10,
+      "requirement": "raw data for thresholds and held-out validation",
+      "classification": "PARTIAL",
+      "reason": "Cell-averaged traces and paired scalar rows available; trial identities/morphology linkage/raw tracks not recovered. Cannot declare fly-held-out validation."
+    }
+  ],
+  "resolutions": [
+    {
+      "resolution": "individual-root",
+      "design_justified": false,
+      "status": "UNRESOLVED",
+      "reason": "Physiological recordings are not mapped to roots; exact root propagation cannot be asserted.",
+      "permitted_claim": "pinned anatomical route only"
+    },
+    {
+      "resolution": "cell-type",
+      "design_justified": false,
+      "status": "PARTIAL",
+      "reason": "Morphology motivates SMP353/SMP354, but responders and recall cells are not independently typed; their sign and conditioning mediation cannot yet be assigned to that type.",
+      "permitted_claim": "type-compatible candidate anatomy with explicitly unresolved physiology"
+    },
+    {
+      "resolution": "driver-population",
+      "design_justified": false,
+      "status": "PARTIAL",
+      "reason": "Each driver defines valid assays, but R64A11 physiology, stochastic SS67249 recall and SS33917/18 movement are not one identified population. A standalone population-level biological experiment is defensible; the requested modeled α1→target→recall→action-bias chain is not yet sufficiently specified.",
+      "permitted_claim": "separate driver-scoped neural and behavioral findings, not root/type propagation"
+    }
+  ],
+  "root_identity_is_not_universal_prerequisite": true,
+  "complete_prior_mediation_proof_is_not_prerequisite": true,
+  "reasons_beyond_missing_root_identity": [
+    "unregistered cross-driver target correspondence",
+    "β1/α3 alternative routes not isolated",
+    "no observation-compatible link from Stage-1 activity to sampled physiology",
+    "no joint mediation dataset or suitable linked raw records"
+  ],
+  "minimum_evidence_gaps": [
+    "recording-to-morphology or independently typed target correspondence",
+    "compatible α1-specific perturbation/recall evidence in the same identified target population",
+    "trial/animal identifiers and appropriate behavioral/physiological controls for prospective criteria"
+  ],
+  "stage5_authorized": false,
+  "stage5_protocol": null,
+  "neural_runs": 0,
+  "fitted_parameters": [],
+  "decoder": null,
+  "capability_promotions": [],
+  "canonical_writes": 0
+}

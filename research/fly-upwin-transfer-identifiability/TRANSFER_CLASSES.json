@@ -1,0 +1,61 @@
+{
+  "classes": [
+    {
+      "id": "C0",
+      "name": "domain-specific response constraints with unmeasured inputs",
+      "form": "y_d = F_d(x_d,z_d,t); observation maps and cross-domain correspondence unspecified",
+      "status": "evidence-admissible parent class",
+      "identifies": "finite observed responses only",
+      "extra_assumptions": []
+    },
+    {
+      "id": "C1",
+      "name": "sign-only monotone transfer",
+      "form": "y=f(x), f nonincreasing on declared support",
+      "status": "conditional subfamily, not selected",
+      "identifies": "conditional weak order reversal; strict reversal additionally requires nonzero slope and a relevant responder",
+      "extra_assumptions": [
+        "identity bridge",
+        "increasing Stage-1-to-α1 map",
+        "constant other inputs",
+        "monotonicity over tested support"
+      ]
+    },
+    {
+      "id": "C2",
+      "name": "linear or saturating monotone refinements",
+      "form": "b-g*x versus b-A*(1-exp(-x/s))",
+      "status": "observationally equivalent at sampled endpoints after coordinate convention; no refinement selected",
+      "identifies": "neither gain nor saturation",
+      "extra_assumptions": [
+        "C1 assumptions",
+        "scale/origin for x",
+        "linearity or saturation family"
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "heterogeneous detection/response mixture",
+      "form": "observed detection frequency depends on responsiveness, selection and detection sensitivity",
+      "status": "needed to preserve 4/17 and 13 nonresponders; latent membership not identified",
+      "identifies": "observed labels, not anatomical responder probability",
+      "extra_assumptions": [
+        "no iid-cell assumption admitted",
+        "detection threshold and sample selection unknown"
+      ]
+    },
+    {
+      "id": "C4",
+      "name": "latent disinhibition versus alternative input change",
+      "form": "Δy_d = g_d Δx_d + Δz_d",
+      "status": "equivalence decomposition, not a fitted physiological model",
+      "identifies": "no attribution of recall potentiation to α1",
+      "extra_assumptions": [
+        "restriction of Δz would be new evidence or explicit hypothesis"
+      ]
+    }
+  ],
+  "selected_class": null,
+  "fitted_parameters": [],
+  "bounded_monotone_note": "A bound y(1) <= y(x) <= y(0) for x in [0,1] follows only after C1 and support mapping are assumed; not an empirical neural-amplitude bound."
+}

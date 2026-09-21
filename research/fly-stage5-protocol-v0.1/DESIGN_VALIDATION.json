@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "test_count": 17,
+  "test_kind": "static schema/AST, provenance, governance and preservation only",
+  "analysis_imported": false,
+  "analysis_executed": false,
+  "stage5_outcomes_generated": false,
+  "stage5_outcomes_inspected": false,
+  "neural_runs": 0,
+  "protected_file_count": 9170,
+  "protected_files_changed": 0,
+  "canonical_sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "canonical_cycles": 7,
+  "schedule_enabled": false,
+  "source_snapshot_count": 56,
+  "planned_source_run_count": 28,
+  "test_log_sha256": "ea380315844b395df9bd73236d2edc9347cae2acd2bb0021bf8bd71a08c6dc08",
+  "runtime_correctness_claim": "Not claimed: prospective analysis is frozen but deliberately unexecuted. Separate execution review and deterministic verification required.",
+  "execution_authorized": false
+}

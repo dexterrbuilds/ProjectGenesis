@@ -1,0 +1,28 @@
+{
+  "EVIDENCE-ADMISSIBLE FAMILY": [
+    "Includes all unresolved qualitative alternatives; non-admitted mechanisms are hypotheses, not claimed facts.",
+    "Nuisance may vary with cue, history and preparation. No joint observation identifies it.",
+    "R64A11 acute-response constraints apply only in their domain; Z/P/R for a hypothetical Stage1-linked target do not erase those observations."
+  ],
+  "RESTRICTED CONDITIONAL FAMILY": [
+    "H-state: Stage1 saved scalar is used as an abstract ordered input, not calibrated biological α1 state.",
+    "H-identity: target is an abstract population-associated variable, not an identified driver or FlyWire root.",
+    "H-context: a matched-context contrast uses the same scalar f and equal nuisance in both terms. This is not measured physiology.",
+    "Monotonicity, strictness, scalar sufficiency and shared-map assumptions apply only to their named branches.",
+    "Mixture members receive the same abstract scalar; no root-specific rates or unobserved covariances are inferred."
+  ],
+  "ENGINEERING SENSITIVITY RANGE": [
+    "No numerical gain, time, q or saturation grid is used. Analytic sets cover the declared mathematical domains.",
+    "Decimal parsing preserves stored decimal tokens. Nonzero input differences within 1e-12 model units are conservatively sign-ambiguous; this is computational precision policy, not biology."
+  ],
+  "unknown_bridges": [
+    "biological source scale and ordering",
+    "recorded-population identity correspondence",
+    "direct receptor/transmission sign",
+    "latency/kernel",
+    "source-to-voltage observation map",
+    "cue/history-dependent alternative input",
+    "population heterogeneity weights"
+  ],
+  "no_post_execution_pruning": true
+}

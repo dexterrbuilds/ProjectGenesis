@@ -7,16 +7,9 @@ export class LifeScheduler {
   start() { if (this.timer || this.inFlight) return; this.stopping = false; this.queue(); }
   private queue() { if (this.stopping) return; this.timer = setTimeout(() => { this.timer = undefined; this.inFlight = this.tick().finally(() => { this.inFlight = undefined; this.queue(); }); }, this.pollMs); }
   async tick() {
-    try {
-      await this.service.store.heartbeat();
-      await this.service.walletObserver?.refresh();
-      if (!this.service.config.autonomous) return;
-      const schedule = await this.service.store.schedule();
-      if (schedule.enabled && new Date(schedule.next_at).getTime() <= Date.now()) await this.service.advance(crypto.randomUUID(), undefined, true);
-    } catch (e) {
-      console.error('Genesis autonomous cycle failed:', e instanceof Error ? e.message : 'Unknown error');
-      try { await this.service.store.heartbeat('Runtime error; check service logs'); } catch { /* Database may be unavailable. No local state is advanced. */ }
-    }
+    // All worker classes are off in the reviewed dormant preparation release.
+    // No heartbeat write, wallet RPC, life claim, or catch-up cycle.
+    await this.service.extension.assertDormant();
   }
   async stop() { this.stopping = true; if (this.timer) clearTimeout(this.timer); this.timer = undefined; await this.inFlight; }
 }

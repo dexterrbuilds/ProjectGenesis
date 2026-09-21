@@ -1,0 +1,1517 @@
+Figures and data in Neural circuit mechanisms for transforming learned olfactory valences into wind-oriented movement | eLife
+Skip to Content
+eLife home page
+Menu
+Home
+Browse
+Magazine
+Community
+About
+Search
+Alerts
+Submit your research
+Search by keyword or author
+Reset form
+Search
+Limit my search to Neuroscience
+Research Article
+Neuroscience
+Neural circuit mechanisms for transforming learned olfactory valences into wind-oriented movement
+Yoshinori Aso
+Daichi Yamada
+Daniel Bushey
+Karen L Hibbard
+Megan Sammons
+Hideo Otsuna
+Yichun Shuai
+Toshihide Hige
+Janelia Research Campus, Howard Hughes Medical Institute, United States
+;
+Department of Biology, University of North Carolina at Chapel Hill, United States
+;
+Department of Cell Biology and Physiology, University of North Carolina at Chapel Hill, United States
+;
+Integrative Program for Biological and Genome Sciences, University of North Carolina at Chapel Hill, United States
+;
+Sep 18, 2023
+https://doi.org/10.7554/eLife.85756
+Open access
+Copyright information
+Version of Record
+October 27, 2023
+Version of Record
+October 20, 2023
+Accepted Manuscript
+September 18, 2023
+Download
+Cite
+Share
+Comment
+Open annotations (there are currently
+0
+annotations on this page).
+3,162
+views
+373
+downloads
+31
+citations
+Share this article
+Doi
+Copy to clipboard
+Bluesky Streamline Icon: https://streamlinehq.com
+Bluesky
+Threads Fill Streamline Icon: https://streamlinehq.com
+Cite this article
+Yoshinori Aso
+Daichi Yamada
+Daniel Bushey
+Karen L Hibbard
+Megan Sammons
+Hideo Otsuna
+Yichun Shuai
+Toshihide Hige
+(2023)
+Neural circuit mechanisms for transforming learned olfactory valences into wind-oriented movement
+eLife
+12
+:e85756.
+https://doi.org/10.7554/eLife.85756
+Copy to clipboard
+Download BibTeX
+Download .RIS
+Full text
+Figures
+and data
+Peer review
+Side by side
+Figures
+Videos
+Tables
+Additional files
+7
+figures,
+6
+videos,
+1
+table and
+1
+additional file
+Figures
+Figure 1
+with 1 supplement
+Download asset
+Open asset
+Memories in specific set of mushroom body (MB) compartments drive upwind locomotion.
+(
+A
+) A conceptual diagram of the MB circuit. The colored rectangles represent individual MB compartments. (
+B
+) A diagram of a four-armed olfactory arena. In each experiment, approximately 20 female flies were introduced into the circular arena. (
+C
+) Protocols for optogenetic training and tests used. One of two odors (pentyl acetate [PA] and ethyl lactate [EL]) was presented for 20 s, and three 1 s pulses of 627 nm light were started at 14 s. Another odor was presented alone, and then preference between two odors was measured. The cycles of training and tests were repeated nine times. In the unpaired protocol, LED was started 90 s before the onset of ‘CS+’ odor. (
+D
+) Preference to the CS+ odor in binary choice. (
+E
+) Displacement of flies’ position relative to the center of the arena during the initial 14 s of 20 s odor period as wind-directional response. (
+F
+) Learning rate defined as response after single training divided by peak response after 9× training. (
+G
+) Protocols for optogenetic training and the two different memory tests used in this work. (
+H
+) Appetitive memories assessed by binary choice between CS+ and CS− odors immediately after training with optogenetic activation of dopaminergic neurons (DANs) that express CsChrimson with drivers indicated in (I). Empty is a split-GAL4 driver without promoters for AD and DBD domains. Thick and thin horizontal lines represent means and SEMs. Dunn’s multiple comparison tests compared to empty-split-GAL4 control, following Kruskal-Wallis test; n=12–22. (
+I
+) Time course of the area-normalized mean of fly’s position relative to the center of the arena as compared with its mean position at odor onset and the cosine of the angle between the fly’s orientation and the upwind direction (see Materials and methods). Flies of each genotype were trained with three protocols: (1) pentyl acetate (PA) was paired with the LED illumination and ethyl lactate (EL) was unpaired. (2) EL was paired with LED and PA was unpaired. (3) Neither odor was paired (No LED). Lines and filled areas around lines are mean and SEM. N=24–60. (
+J
+) The delta of distance from the center at the end of the 10 s odor period. Each dot represents data from individual trials. Black lines are mean and SEM. *, p<0.05; ***, p<0.001; Dunn’s multiple comparison tests compared to empty-split-GAL4 control, following Kruskal-Wallis test; n=24–60. The upwind displacements of MB213B and MB043C in response to CS+ odor were also significantly higher than the control when trial averages of six movies were compared. (
+K
+) Cumulative angle of turning and forward walking speed during the first 10 frames (333 ms; a time window we used for optogenetic experiments in
+Figure 6
+) following odor onset are plotted against initial angle to upwind, smoothened with ±30 degree bin. The number of trajectories analyzed for (CS+, CS−, No LED) conditions for MB109B+MB315C, MB312C, MB213B, and MB043C were (531, 562, 167), (710, 758, 814), (920, 1039, 919), and (449, 768, 531), respectively. Only flies that were 3 mm or more from the edge of the arena were analyzed. (
+L
+) The violin-plots of the cumulative angle of turn to the upwind orientation during the first 10 frames (333 ms) of odor onset. Only flies that oriented –90 to –150 or +90–150 degrees to the upwind direction at odor onset were analyzed. n=122, 137, 233, 239, 99 for empty-split-GAL4, MB109B+MB315C, MB312C, MB213B, and MB043C, respectively. *, p<0.05; ***, p<0.001; Dunn’s multiple comparison tests compared to empty-split-GAL4 control, following Kruskal-Wallis test.
+Figure 1—source data 1
+The values used for
+Figure 1D
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig1-data1-v3.xlsx
+Download elife-85756-fig1-data1-v3.xlsx
+Figure 1—source data 2
+The values used for
+Figure 1E
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig1-data2-v3.xlsx
+Download elife-85756-fig1-data2-v3.xlsx
+Figure 1—source data 3
+The values used for
+Figure 1F
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig1-data3-v3.xlsx
+Download elife-85756-fig1-data3-v3.xlsx
+Figure 1—source data 4
+The values used for
+Figure 1H
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig1-data4-v3.xlsx
+Download elife-85756-fig1-data4-v3.xlsx
+Figure 1—source data 5
+The values used for
+Figure 1I
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig1-data5-v3.xlsx
+Download elife-85756-fig1-data5-v3.xlsx
+Figure 1—source data 6
+The values used for
+Figure 1J
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig1-data6-v3.xlsx
+Download elife-85756-fig1-data6-v3.xlsx
+Figure 1—source data 7
+The values used for
+Figure 1K
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig1-data7-v3.xlsx
+Download elife-85756-fig1-data7-v3.xlsx
+Figure 1—source data 8
+The values used for
+Figure 1L
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig1-data8-v3.xlsx
+Download elife-85756-fig1-data8-v3.xlsx
+Figure 1—figure supplement 1
+Download asset
+Open asset
+Memory-based modulation of walking speed and angular speed depends on the fly’s initial angle to the upwind direction.
+(
+A–E
+) The cosine of the angle to upwind direction, angular speed, and forward walking speed are separately plotted for flies oriented downwind or upwind at odor onset (time = 0 s). Only flies that were at least 3 mm away from the edge of the arena were analyzed. The source data are identical to
+Figure 1E–H
+.
+Figure 1—figure supplement 1—source data 1
+The values used for
+Figure 1—figure supplement 1
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig1-figsupp1-data1-v3.xlsx
+Download elife-85756-fig1-figsupp1-data1-v3.xlsx
+Figure 2
+with 4 supplements
+Download asset
+Open asset
+Identification of UpWind Neurons (UpWiNs) by activation screening.
+(
+A
+) Mean displacement of fly’s position relative to the center of the arena during activation of various cell types defined by the indicated driver lines. Red asterisks indicate the results of Dunn’s multiple comparison tests compared to empty-split-GAL4 control, following Kruskal-Wallis test;*, p<0.05; **, p<0.01; ***, p<0.001, n=18–132. Black asterisks indicate p<0.05 without correction for multiple comparisons. The median, first and third quartiles, 10 and 90 percentiles are displayed with outlier data points. Each of six movies from a group of flies was considered as a single data point. The conclusions about the UpWiNs lines (i.e. SS33917 and SS33918) did not change when trial averages of six movies were used for statistical tests. See
+Figure 2—figure supplement 2
+and
+http://www.janelia.org/split-gal4
+for expression patterns of CsChrimson in these driver lines. (
+B
+) Z-scores for five parameters for 2 s time bins (T1 to T2) before, during (bold numbers), and after the 10 s activation period. Z-scores for driver line were calculated by (value – mean)/(standard deviation). For calculating the probability of return, 15-s-long trajectories of each fly following each time point (
+t1
+) were analyzed. A fly was considered to revisit the original location at time0 if it moved away more than 10 mm and came back to within 3 mm distance from that location at time0 within 15 s. ‘time0’ ranges 0–45 s, because the movies were 60 s long. High Z-score at 8–10 s time bin indicate that flies tended to move back to their location at 8–10 s by 23–25 s (i.e. mostly dark period after LED was turned off).
+Figure 2—source data 1
+The values used for
+Figure 2A
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig2-data1-v3.xlsx
+Download elife-85756-fig2-data1-v3.xlsx
+Figure 2—source data 2
+The values used for
+Figure 2B
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig2-data2-v3.xlsx
+Download elife-85756-fig2-data2-v3.xlsx
+Figure 2—figure supplement 1
+Download asset
+Open asset
+Activation phenotypes of ‘hit’ lines.
+Time courses of five behavioral parameters are shown for driver lines with significant upwind locomotion (i.e. delta distance from center) phenotypes in
+Figure 2
+. Lines and shaded areas around lines are mean and SEM for trial averages; split-GAL4>CsChrimson-mVenus are shown in blue and empty-split-Gal4>CsChrimson-mVenus in gray.
+Figure 2—figure supplement 1—source data 1
+The values used for
+Figure 2–figure supplement 1
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig2-figsupp1-data1-v3.xlsx
+Download elife-85756-fig2-figsupp1-data1-v3.xlsx
+Figure 2—figure supplement 2
+Download asset
+Open asset
+Expression patterns of ‘hit’ lines.
+Projection of confocal microscopy stacks for expression patterns of CsChrimson-mVenus driven by designated split-GAL4 driver lines in brains and ventral nerve cords. Confocal stacks are available at
+https://splitgal4.janelia.org/
+.
+Figure 2—figure supplement 3
+Download asset
+Open asset
+LM-EM matching of cell types in SS49899.
+(
+A
+) The fan-shaped body neurons in SS49899 driver that were visualized with myr-smGFP-HA (green) and synaptotagmin-smGFP-V5 (magenta). The outlines of the standard brain and the mushroom body are shown in gray. Other driver lines with similar expression patterns are listed. Confocal stacks are available at
+https://splitgal4.janelia.org
+. (
+B
+) The corresponding EM reconstructed neurons, which were matched by comparing projection patterns in the standard brain and referring MCFO images of split-GAL4. (A′) and (B′) are projections from dorsal side of the brains.
+Figure 2—figure supplement 4
+Download asset
+Open asset
+LM-EM matching of cell types in SS49755.
+(
+A
+) The SMP neurons in SS49755 driver that were visualized with myr-smGFP-HA (green) and synaptotagmin-smGFP-V5 (magenta). The outlines of the standard brain and the mushroom body are shown in gray. Other driver lines with similar expression patterns are listed. (
+B
+) The corresponding EM reconstructed neurons, which were matched by comparing projection patterns in the standard brain and referring MCFO images of split-GAL4. Confocal stacks are available at
+https://splitgal4.janelia.org
+. (A′) and (B′) are projections from dorsal side of the brains.
+Figure 3
+with 4 supplements
+Download asset
+Open asset
+Connectivity of UpWind Neurons (UpWiNs).
+(
+A
+) The expression pattern of CsChrimson-mVenus driven by split-GAL4 line SS33917. The scale bar is 20um. The insert image shows signals of membrane reporter myr-smHA and presynaptic reporter Syt-smV5 driven by the same driver. (
+B
+) Eleven EM-reconstructed neurons that correspond to UpWiNs defined by the SS33917 driver were identified by analyzing the morphology of individual neurons (
+Figure 3—figure supplements 1
+and
+2
+) and are displayed with outline of the MB and the standard brain. Individual neurons are color-coded to indicate the cell type to which they were assigned. (
+C
+) Connectivity of UpWiNs with major upstream and downstream neurons that have at least 20 connections with 1 of the 11 UpWiNs. The hemibrain body IDs of each neuron is shown as well as their assignment to specific cell types. Numbers indicate the number of synapses from the upstream neurons to UpWin neurons (left) or from the UpWiNs to the downstream neurons (right). (
+D
+) Interneurons downstream to mushroom body output neuron (MBON)-α1 and MBON-α3. Colors of dots indicate neurotransmitter prediction (
+Eckstein et al., 2020
+). See
+Figure 3—figure supplement 3
+for more details. (
+E
+) Predicted postsynaptic sites in SMP353 and SMP354 (gray), which are juxtaposed to presynaptic sites from MBON-α1 (green) and MBON-α3 (orange). The insert (10 μm width) shows a magnified view of juxstaposed synapses. (
+F
+) Interconnectivity between UpWiNs. The numbers indicate the summed number of connections. The numbers in parentheses indicate the number of neurons per cell type.
+Figure 3—figure supplement 1
+Download asset
+Open asset
+Candidate UpWind Neurons (UpWiNs) in hemibrain EM images.
+(
+A
+) Frontal and dorsal projection of 11 EM-reconstructed neurons that were matched with confocal images of UpWiNs within the standard brain (
+Bogovic et al., 2020
+) (see
+Figure 3—figure supplement 2
+). Pseudo colors were assigned to each of five cell types. The arrowhead and arrow indicate common axonal tract and terminal area in the SMP. IDs of each neuron are displayed. The somas of these neurons are clustered near the tip of the vertical lobe of the MB, and they share the tracts for the primary neurite and axons, whereas the branching patterns of their dendrites exhibit cell-type-specific characteristics, which were used for cell-type matching. (
+B–L
+) Projections of individual neurons. The arrows indicate dendritic branches that are characteristic to each cell type.
+Figure 3—figure supplement 2
+Download asset
+Open asset
+Single cell images of neurons in SS33917.
+(
+A–Y
+) Frontal projections of segmented multi-color flip-out images of SS33917 (colored) with corresponding EM neuron (gray). The arrows indicate dendritic branches that are characteristic to each cell type.
+Figure 3—figure supplement 3
+Download asset
+Open asset
+NBLAST clustering of single cell images of neurons in SS33917.
+Multi-color flip-out (MCFO) single cell images of SS33917 driver were clustered into six groups, which were nearly identical to the manual annotation.
+Figure 3—figure supplement 4
+Download asset
+Open asset
+Downstream neurons of mushroom body output neuron (MBON)-α1 and MBON-α3.
+Connectivity from MBON-α1 and MBON-α3 to downstream neurons that receive at least 10 connections.
+Figure 4
+with 1 supplement
+Download asset
+Open asset
+UpWind Neurons (UpWiNs) integrate excitatory and inhibitory synaptic inputs from mushroom body output neurons (MBONs).
+(
+A
+) Functional connectivity between MBON-α3 and UpWiNs. Chrimson88-tdTomato was expressed in MBON-α3 by MB082C split-GAL4, and the photostimulation responses were measured by whole-cell current-clamp recording in randomly selected UpWiNs labeled by R64A11-LexA. 3 out of 11 neurons (7 flies) showed excitatory response. Mean voltage traces from individual connected (orange) and unconnected UpWiNs (gray) are overlaid. The connection was strong enough to elicit spikes (black; single-trial response in one of the connected UpWiNs). Magenta vertical line indicates photostimulation (10 ms). (
+B
+) Functional connectivity between MBON-α1 and UpWiNs. Chrimson88-tdTomato expression in MBON-α1 was driven by MB310C split-GAL4. 4 out of 17 neurons (12 flies) showed inhibitory response. Mean voltage traces from individual connected (green) and unconnected UpWiNs (gray) are overlaid. (
+C
+) Integration of synaptic inputs from MBON-α3 and MBON-α1. Population responses of UpWiNs were measured by two-photon calcium imaging at the junction between dendrites and axonal tracts (mean ∆F/F ± SEM) while photostimulating MBON-α3 (orange; n=5), MBON-α1 (green; n=11) or both (black; n=7). Expression of GCaMP6s was driven by R64A11-LexA, and Chrimson88-tdTomato by G0239-GAL4 (MBON-α3) and/or MB310C (MBON-α1). Photostimulation: 1 s (magenta). While activation of MBON-α1 did not evoke detectable inhibition in the calcium signal, it effectively canceled the excitation by MBON-α3.
+Figure 4—source data 1
+The values used for
+Figure 4A
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig4-data1-v3.xlsx
+Download elife-85756-fig4-data1-v3.xlsx
+Figure 4—source data 2
+The values used for
+Figure 4B
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig4-data2-v3.xlsx
+Download elife-85756-fig4-data2-v3.xlsx
+Figure 4—source data 3
+The values used for
+Figure 4C
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig4-data3-v3.xlsx
+Download elife-85756-fig4-data3-v3.xlsx
+Figure 4—figure supplement 1
+Download asset
+Open asset
+Excitatory interconnections between UpWind Neurons (UpWiNs).
+(
+A
+) Expression of Chrimson-tdTomato (red) and GCaMP6s (green) in UpWiNs. To express them in mutually exclusive subsets of UpWiNs, GCaMP expression was driven by a broad UpWiN driver 64A11-LexA, while Chrimson-tdTomato and LexAp65-DBD2-RNAi were driven in a subset of UpWiNs by SS67249. White box in the left image indicates an example axonal region of interest (ROI), which is zoomed in on the right image. Scale bar, 5 µm. (
+B
+) Thresholded images of GCaMP and Chrimson-tdTomato fluorescence. A small number of voxels that showed co-expression of GCaMP and Chrimson, presumably due to incomplete RNAi, were excluded from analysis. (
+C
+) Two-photon imaging of GCaMP6s signals (mean ∆F/F ± SEM; n=8). 1 s photostimulation (magenta) evoked calcium responses in both axonal and dendritic ROIs.
+Figure 4—figure supplement 1—source data 1
+The values used for
+Figure 4–figure supplement 1
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig4-figsupp1-data1-v3.xlsx
+Download elife-85756-fig4-figsupp1-data1-v3.xlsx
+Figure 5
+with 2 supplements
+Download asset
+Open asset
+Optogenetic appetitive conditioning enhances the response to the conditioned odor in UpWind Neurons (UpWiNs).
+(
+A
+) Optogenetic conditioning was performed by pairing photostimulation of PAM-dopaminergic neurons (DANs) with odor presentation. Expression of ChrimsonR-mVenus was driven by 58E02-LexA, and in vivo whole-cell recordings were made from UpWINs labeled by GFP using SS67249-split-GAL4. 1 min presentation of OCT was paired with LED stimulation (1 ms, 2 Hz, 120 times), followed by 1 min presentation of MCH alone. (
+B
+) Representative recording from a single fly. Gray bars indicate 1 s odor presentation. (
+C
+) Mean (± SEM) odor responses (n=6). Spikes were removed by a low-pass filter. (
+D
+) Summary data of mean (± SEM) odor-evoked membrane depolarization. Gray lines indicate data from individual neurons. Responses to OCT were potentiated (p<0.01; repeated-measures two-way ANOVA followed by Tukey’s post hoc multiple comparisons test), while those to MCH did not change (p=0.9).
+Figure 5—source data 1
+The values used for
+Figure 5B
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig5-data1-v3.xlsx
+Download elife-85756-fig5-data1-v3.xlsx
+Figure 5—source data 2
+The values used for
+Figure 5C
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig5-data2-v3.xlsx
+Download elife-85756-fig5-data2-v3.xlsx
+Figure 5—source data 3
+The values used for
+Figure 5D
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig5-data3-v3.xlsx
+Download elife-85756-fig5-data3-v3.xlsx
+Figure 5—figure supplement 1
+Download asset
+Open asset
+Expression patterns of SS67249.
+(
+A
+) Expression of CsChrimson-mVenus driven by SS67249. (
+B–D
+) MCFO image of neurons in SS67249 (red) and SMP353 (gray) with outline of the mushroom body (MB) and the standard brain.
+Figure 5—figure supplement 2
+Download asset
+Open asset
+Reciprocal experiment of optogenetic appetitive conditioning.
+(
+A
+) Experimental design and protocol. Same as
+Figure 5
+except that MCH was paired with dopaminergic neuron (DAN) photostimulation. (
+B
+) Representative recording from a single fly. Gray bars indicate 1 s odor presentation. (
+C
+) Mean (± SEM) odor responses (n=5). Spikes were removed by a low-pass filter. (
+D
+) Summary data of mean (± SEM) odor-evoked membrane depolarization. Gray lines indicate data from individual neurons. Responses to MCH were potentiated (p<0.001; repeated-measures two-way ANOVA followed by Tukey’s post hoc multiple comparisons test), while those to OCT did not change (p=0.4).
+Figure 5—figure supplement 2—source data 1
+The values used for
+Figure 5—figure supplement 2B
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig5-figsupp2-data1-v3.xlsx
+Download elife-85756-fig5-figsupp2-data1-v3.xlsx
+Figure 5—figure supplement 2—source data 2
+The values used for
+Figure 5—figure supplement 2C
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig5-figsupp2-data2-v3.xlsx
+Download elife-85756-fig5-figsupp2-data2-v3.xlsx
+Figure 5—figure supplement 2—source data 3
+The values used for
+Figure 5—figure supplement 2C
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig5-figsupp2-data3-v3.xlsx
+Download elife-85756-fig5-figsupp2-data3-v3.xlsx
+Figure 6
+with 1 supplement
+Download asset
+Open asset
+Activity of UpWind Neurons (UpWiNs) bias turning direction.
+(
+A
+) Fed or 40–48 hr starved flies were compared to assess requirement of starved status for UpWiNs to promote upwind locomotion. n=14 (fed) and 16 (starved); ***, p<0.001, Mann-Whitney test. (
+B
+) Upwind locomotion during the 10 s activation of UpWiNs in the arena with various rates of airflow. n=9–16;**, p<0.01; Dunn’s multiple comparison tests compared to the zero flow condition. (
+C
+) Right side or both sides of aristae were ablated 1 day prior to experiments to measure upwind response during UpWiN activation. n=20 (intact) and 40 (unilateral and bilateral); ***, p<0.001; Dunn’s multiple comparison tests compared to the intact control. (
+D
+) Behavioral kinematics of UpWiN activation. The trajectories of individual flies during first 1.5 s of 10 s LED period were grouped to initially facing downwind or upwind if cos(upwind angle) was above 0.5 or below –0.5, respectively. (
+E
+) Cumulative angle of turning and forward walking speed during the first 10 frames (333 ms) after the onset of LED plotted against initial angle to upwind smoothened with ±30 degree bin. The number of trajectories analyzed for (SS33917, SS33918, MB077B, empty-split-GAL4) were (2492, 3362, 772, 1582), respectively. Only flies that were at least 3 mm away from the edge of the arena were analyzed. (
+F–G
+) The violin-plots of the cumulative angle of turn to the upwind orientation or forward walking speed during the first 10 frames (333 ms) of odor onset. Only flies that oriented –90 to –150 or +90–150 degrees to upwind at the odor onset were analyzed. n=444, 540, 231, 219 for SS33917, SS33918, MB077B, empty-split-GAL4, respectively. **, p<0.01; ***, p<0.001; Dunn’s multiple comparison for the selected pairs, following Kruskal-Wallis test. Thick and thin horizontal lines are mean and SEM in (
+A–C
+) and median and quartile ranges in (
+F–G
+), respectively.
+Figure 6—source data 1
+The values used for
+Figure 6A
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig6-data1-v3.xlsx
+Download elife-85756-fig6-data1-v3.xlsx
+Figure 6—source data 2
+The values used for
+Figure 6B
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig6-data2-v3.xlsx
+Download elife-85756-fig6-data2-v3.xlsx
+Figure 6—source data 3
+The values used for
+Figure 6C
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig6-data3-v3.xlsx
+Download elife-85756-fig6-data3-v3.xlsx
+Figure 6—source data 4
+The values used for
+Figure 6D
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig6-data4-v3.xlsx
+Download elife-85756-fig6-data4-v3.xlsx
+Figure 6—source data 5
+The values used for
+Figure 6E
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig6-data5-v3.xlsx
+Download elife-85756-fig6-data5-v3.xlsx
+Figure 6—source data 6
+The values used for
+Figure 6F
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig6-data6-v3.xlsx
+Download elife-85756-fig6-data6-v3.xlsx
+Figure 6—source data 7
+The values used for
+Figure 6G
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig6-data7-v3.xlsx
+Download elife-85756-fig6-data7-v3.xlsx
+Figure 6—figure supplement 1
+Download asset
+Open asset
+The cosine of angle to upwind, angular speed and forward walking speed are separately plotted for flies oriented downwind or upwind at the odor onset.
+Only flies that were 3 mm away from the edge of the arena were analyzed. The source data are identical to
+Figure 2
+.
+Figure 6—figure supplement 1—source data 1
+The values used for
+Figure 6—figure supplement 1
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig6-figsupp1-data1-v3.xlsx
+Download elife-85756-fig6-figsupp1-data1-v3.xlsx
+Figure 7
+with 1 supplement
+Download asset
+Open asset
+UpWind Neurons (UpWiNs) are required for memory-driven upwind locomotion.
+(
+A
+) Upwind response to the odor associated with sugar in control genotypes and flies that express tetanus toxin (TNT) in UpWiNs. (
+B
+) Time course of upwind response. (
+C
+) Appetitive memories of control genotypes and flies expressing shibire (
+Shi
+) in UpWiNs were tested 1 day after odor-sugar conditioning at restrictive or permissive temperature. (
+D
+) Time course of fly’s preference to quadrants with red LED light by SS33917>CsChrimson (blue) or empty-split-GAL4>CsChrimson (gray). The preference to red LED quadrants during the last 5 s of two 30 s activation period was significantly higher for SS33917>CsChrimson flies (right). (
+E
+) The probability of returning to the location where LED stimulation was terminated were measured as in
+Figure 2
+, but without airflow. See
+Figure 7—figure supplement 1
+for the time courses and other parameters. UpWiN drivers are shown together with SS49755 from the screen.
+Figure 7—source data 1
+The values used for
+Figure 7A
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig7-data1-v3.xlsx
+Download elife-85756-fig7-data1-v3.xlsx
+Figure 7—source data 2
+The values used for
+Figure 7B
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig7-data2-v3.xlsx
+Download elife-85756-fig7-data2-v3.xlsx
+Figure 7—source data 3
+The values used for
+Figure 7C
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig7-data3-v3.xlsx
+Download elife-85756-fig7-data3-v3.xlsx
+Figure 7—source data 4
+The values used for
+Figure 7D
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig7-data4-v3.xlsx
+Download elife-85756-fig7-data4-v3.xlsx
+Figure 7—source data 5
+The values used for
+Figure 7E
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig7-data5-v3.xlsx
+Download elife-85756-fig7-data5-v3.xlsx
+Figure 7—figure supplement 1
+Download asset
+Open asset
+UpWind Neuron (UpWiN) activation phenotypes without airflow.
+Time course of the five parameters shown in
+Figure 2—figure supplement 1
+but in the absence of airflow. Lines and filled areas around lines are mean and SEM; CsChrimson-expressing flies (blue) and empty-split-GAL4 control (gray). The return probability was calculated within a 15 s time window. High return probability during LED ON period (10–20 s) does not necessarily mean that flies returned during LED ON period. If a fly is at the position A when t=10 s, to be counted as ‘returned’, it needs to move more than 10 mm away from A and move back to the position less than 3 mm distance from A by t=25 s. In the case of sugar sensory neuron activation with Gr64f-GAL4, the peak of return probability is shifted toward a later time point because flies stop and extend proboscis during activation period.
+Figure 7—figure supplement 1—source data 1
+The values used for
+Figure 7—figure supplement 1
+.
+https://cdn.elifesciences.org/articles/85756/elife-85756-fig7-figsupp1-data1-v3.xlsx
+Download elife-85756-fig7-figsupp1-data1-v3.xlsx
+Videos
+Video 1
+Download asset
+This video cannot be played in place because your browser does support HTML5 video. You may still download the video for offline viewing.
+Download as MPEG-4
+Download as WebM
+Download as Ogg
+Activation phenotype of UpWind Neurons (UpWiNs).
+An example movie of UpWiN activation in SS33917>CsChrimson flies used in
+Figure 2
+. The red square at the bottom right corner indicates the 10 s period when the red LED was turned on. The small circles indicate the centroid of flies and triangles indicate the orientation of flies. The diameter of the arena is 10 cm.
+Video 2
+Download asset
+This video cannot be played in place because your browser does support HTML5 video. You may still download the video for offline viewing.
+Download as MPEG-4
+Download as WebM
+Download as Ogg
+Activation phenotype of UpWind Neurons (UpWiNs) depends on the initial orientation.
+Cropped movies of individual SS33917>CsChrimson flies centered and reoriented based on the position and the angle to upwind at the onset of the activating illumination (related to
+Figure 2
+and
+Figure 6D–G
+). The red square at the bottom right corner of each panel indicates when the red LED was turned on. The small circles indicate the centroid of flies and triangles indicate the orientation of flies. The airflow direction was from the top to the bottom of each panel (2x2cm).
+Video 3
+Download asset
+This video cannot be played in place because your browser does support HTML5 video. You may still download the video for offline viewing.
+Download as MPEG-4
+Download as WebM
+Download as Ogg
+Convergent projection of mushroom body output neuron (MBON)-α1 and MBON-α3 onto the dendritic area of UpWind Neurons (UpWiNs).
+Overlay of MBON-α1, MBON-α3, and UpWiNs in a standard brain. UpWiNs were originally identified by searching neurons that overlap with convergent axonal projection of these MBONs using a database of confocal microscope images to generate split-GAL4 driver lines.
+Video 4
+Download asset
+This video cannot be played in place because your browser does support HTML5 video. You may still download the video for offline viewing.
+Download as MPEG-4
+Download as WebM
+Download as Ogg
+Activation phenotype of UpWind Neurons (UpWiNs) without airflow.
+An example movie of UpWiN activation in SS33917>CsChrimson flies without airflow (related to
+Figure 6B
+).
+Video 5
+Download asset
+This video cannot be played in place because your browser does support HTML5 video. You may still download the video for offline viewing.
+Download as MPEG-4
+Download as WebM
+Download as Ogg
+Activation phenotype of UpWind Neurons (UpWiNs) depends on the intact aristae.
+An example UpWiN activation phenotype in an SS33917>CsChrimson fly that lacked the arista on the right side (related to
+Figure 6C
+). 2x2cm are was cropped and reoriented based on the position and the angle to upwind at the onset of the activating illumination. The red square at the bottom right corner indicates when the red LED was turned on. The small circles indicate the centroid of flies and triangles indicate the orientation of flies. The airflow direction was from the top to the bottom.
+Video 6
+Download asset
+This video cannot be played in place because your browser does support HTML5 video. You may still download the video for offline viewing.
+Download as MPEG-4
+Download as WebM
+Download as Ogg
+Return phenotype induced by SMP357-362 activation.
+An example movie of SMP357-362 activation in SS49755>CsChrimson flies. The red square at the bottom right corner indicates the 10 s period when the red LED was turned on. The small circles indicate the centroid of flies and triangles indicate the orientation of flies. Trajectories of flies after turning off LED are shown as lines connecting centroids over time.
+Tables
+Appendix 1—key resources table
+Reagent type (species) or resource
+Designation
+Source or reference
+Identifiers
+Additional information
+Strain, strain background (
+Drosophila melanogaster
+)
+20xUAS-CsChrimson-mVenus attP18
+Klapoetke et al., 2014
+; PMID:
+24509633
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+10XUAS-Chrimson88-tdTomato attP1
+Klapoetke et al., 2014
+; PMID:
+24509633
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+13XLexAop2-IVS-ChrimsonR-mVenus-p10 attP18
+Vivek Jayaraman
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+20XUAS-syn21-mScarlet-opt-p10 su(Hw)attp8
+Glenn Turner
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+pJFRC200-10xUAS-IVS-myr::smGFP-HA in attP18
+Nern et al., 2015
+; PMID:
+25964354
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+pJFRC225-5xUAS-IVS-myr::smGFP-FLAG in VK00005
+Nern et al., 2015
+; PMID:
+25964354
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+pBPhsFlp2::PEST in attP3
+Nern et al., 2015
+; PMID:
+25964354
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+pJFRC201-10XUAS-FRT>STOP > FRT-myr::smGFP-HA in VK0005
+Nern et al., 2015
+; PMID:
+25964354
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+pJFRC240-10XUAS-FRT>STOP > FRT-myr::smGFP-V5-THS-10XUAS-FRT>STOP > FRT-myr::smGFP-FLAG_in_su(Hw)attP1
+Nern et al., 2015
+; PMID:
+25964354
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB043-split-LexA
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+empty-split-GAL4 (p65ADZp attP40, ZpGAL4DBD attP2)
+Seeds et al., 2014
+; PMID:
+25139955
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB001B (R10H10-p65ADZp in attP40 and R55A07ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+MB002B (R12C11-p65ADZp in attP40 and R14C08ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB011C (R14C08-p65ADZp in VK00027 and R15B01ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB018B (R20G03-p65ADZp in attP40 and R19F09ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB022B (R24E06-p65ADZp in attP40 and Tdc2ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB025B (R24E12-p65ADZp in attP40 and R52H01ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB027B (R24H08-p65ADZp in attP40 and R53F03ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB029B (R30G08-p65ADZp in attP40 and R11A03ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+MB032B (R30G08-p65ADZp in attP40 and THZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+LH2456 (R38D01-p65ADZp in attP40 and R77F05ZpGAL4DBD in attP2)
+Dolan et al., 2019
+eLife, DOI:
+10.7554/eLife.43079
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB043C (R58E02-p65ADZp in VK00027 and R32D11ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB077B (R25D01-p65ADZp in attP40 and R19F09ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB080C (R33E02-p65ADZp in attP40 and R50A05ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB082C (R40B08-p65ADZp in VK00027 and R23C06ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB083C (R52G04-p65ADZp in VK00027 and R94B10ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB109B (R76F05-p65ADZp in attP40 and R23C12ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB112C (R93D10-p65ADZp in VK00027 and R13F04ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB213B (R76F05-p65ADZp in attP40 and R32G08ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB296B (R15B01-p65ADZp in attP40 and R26F01ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB310C (R52G04-p65ADZp in VK00027 and R17C11ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB315C (R58E02-p65ADZp in attP40 and R48H11ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB390B (R19B06-p65ADZp in attP40 and R59G08ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+MB433B (R30E08-p65ADZp in attP40 and R11C07ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB434B (R30E08-p65ADZp in attP40 and R53C10ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB441B (R30G08-p65ADZp in attP40 and R48B03ZpGAL4DBD in attP2)
+Aso et al., 2014a
+eLife, DOI:
+10.7554/eLife.04577
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+MB555B (R73F07-p65ADZp in attP40 and R12D12ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+MB630B (VT026773-p65ADZp in attP40 and R72B05ZpGAL4DBD in attP2)
+Aso and Rubin, 2016
+eLife, DOI:
+10.7554/eLife.16135
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+SS00096 (R19G02-p65ADZp in attP40 and R70G12ZpGAL4DBD in attP2)
+Turner-Evans et al., 2017
+Elife, DOI:
+10.7554/eLife.23496
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+SS00504 (R25C01-p65ADZp in attP40 and R54H01ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS00543 (R33E06-p65ADZp in VK00027 and R89G09ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS00550 (R37A12-p65ADZp in attP40 and R27H08ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS00561 (R38E07-p65ADZp in attP40 and R55B01ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS00581 (R48H12-p65ADZp in attP40 and R41B07ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS00623 (R76F12-p65ADZp in attP40 and R33E06ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS01126 (R14C08-p65ADZp in attP40 and VT 037491ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS01227 (R14C08-p65ADZp in attP40 and R11F12ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS01262 (VT 029592-p65ADZp in attP40 and R19B06ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS01319 (VT 029592-p65ADZp in attP40 and R33H11ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS01126 (R14C08-p65ADZp in attP40 and VT 037491ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS32189 (VT033047-p65ADZp in attP40 and R32D10ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS32218 (VT 040712-p65ADZp in attP40 and R13D05ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS32219 (VT 013618-p65ADZp in attP40 and VT 063636ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS32228 (VT 040004-p65ADZp in attP40 and VT 020600ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS32230 (VT 029362-p65ADZp in attP40 and VT013618ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS32244 (R13F04-p65ADZp in attP40 and R20H08ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS32254 (R26H05-p65ADZp in attP40 and VT 049923ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS33909 (VT 026342-p65ADZp in attP40 and VT 033912ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS33917 (VT 007746-p65ADZp in attP40 and R64A11ZpGAL4DBD in attP2)
+Yamada et al., 2023
+; doi:
+https://doi.org/10.7554/eLife.79042
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS33918 (VT 007746-p65ADZp in attP40 and R66B12ZpGAL4DBD in attP2)
+Yamada et al., 2023
+; doi:
+https://doi.org/10.7554/eLife.79042
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS39541 (R84C10-p65ADZp in attP40 and R23E10ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS40549 (R23E10-p65ADZp in JK73A and R84C10ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS41731 (R23E10-p65ADZp in JK22C and R84C10ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS45222 (VT018689-p65ADZp in attP40 and VT048933ZpGAL4DBD in attP2)
+Yamada et al., 2023
+; doi:
+https://doi.org/10.7554/eLife.79042
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS45234 (VT 026646-p65ADZp in attP40 and VT 029309ZpGAL4DBD in attP2)
+Yamada et al., 2023
+; doi:
+https://doi.org/10.7554/eLife.79042
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS48882 (R54H04-p65ADZp in attP40 and R26C06ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS48899 (R89B06-p65ADZp in attP40 and VT 063627ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS48900 (R91F05-p65ADZp in attP40 and VT 054914ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS49755 (R56B05-p65ADZp in attP40 and R84B09ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS49897 (R26C06-p65ADZp in VK00027 and R54H04ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS49899 (R26C06-p65ADZp in su(Hw)attP8 and R54H04ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS56699 (TH-p65ADZp in VK00027 and VT025720ZpGAL4DBD in attP2)
+Hulse et al., 2021
+;
+https://doi.org/10.7554/eLife.66039
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+SS67221 (VT 026646-p65ADZp in attP40 and VT 019911ZpGAL4DBD in attP2)
+Yamada et al., 2023
+; doi:
+https://doi.org/10.7554/eLife.79042
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS88953 (VT014604-p65ADZp in attP40 and VT063740ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+SS88997 (R25G01-p65ADZp in JK22C and R15D05ZpGAL4DBD in attP2)
+Shuai et al., 2023
+;
+This paper
+N.A.
+Available from Aso lab
+Strain, strain background (
+Drosophila melanogaster
+)
+pJFRC100-20XUAS-TTS-Shibire-ts1-p10 in VK00005
+Pfeiffer et al., 2012
+:
+https://doi.org/10.1073/pnas.120452010
+N.A.
+Strain, strain background (
+Drosophila melanogaster
+)
+UAS-TeNT
+Keller et al., 2002
+: PMID:
+11810637
+N.A.
+Antibody
+Anti-GFP (rabbit polyclonal)
+Invitrogen
+A11122 RRID:
+AB_221569
+1:1000
+Antibody
+Anti-Brp (mouse monoclonal)
+Developmental Studies Hybridoma Bank
+nc82 RRID:
+AB_2341866
+1:30
+Antibody
+Anti-HA-Tag (mouse monoclonal)
+Cell Signaling Technology
+C29F4; #3724 RRID:
+AB_10693385
+1:300
+Antibody
+Anti-FLAG (rat monoclonal)
+Novus Biologicals
+NBP1-06712 RRID:
+AB_1625981
+1:200
+Antibody
+Anti-V5-TAG Dylight-549 (mouse monoclonal)
+Bio-Rad
+MCA2894D549GA RRID:
+AB_10845946
+1:500
+Antibody
+Anti-mous IgG(H&L) AlexaFluor-568 (goat polyclonal)
+Invitrogen
+A11031 RRID:
+AB_144696
+1:400
+Antibody
+Anti-rabbit IgG(H&L) AlexaFluor-488 (goat polyclonal)
+Invitrogen
+A11034 RRID:
+AB_2576217
+1:800
+Antibody
+Anti-mouse IgG(H&L) AlexaFluor-488 conjugated (donkey polyclonal)
+Jackson Immuno Research Labs
+715-545-151 RRID:
+AB_2341099
+1:400
+Antibody
+Anti-rabbit IgG(H&L) AlexaFluor-594 (donkey polyclonal)
+Jackson Immuno Research Labs
+711-585-152 RRID:
+AB_2340621
+1:500
+Antibody
+Anti-rat IgG(H&L) AlexaFluor-647 (donkey polyclonal)
+Jackson Immuno Research Labs
+712-605-153 RRID:
+AB_2340694
+1:300
+Antibody
+Anti-Mouse IgG (H&L) ATTO 647N (goat polyclonal)
+ROCKLAND
+610-156-121 RRID:
+AB_10894200
+1:100
+Antibody
+Anti-rabbit IgG (H+L) Alexa Fluor 568 (goat polyclonal)
+Invitrogen
+A-11036 RRID:
+AB_10563566
+1:1000
+Chemical compound, drug
+4-Methylcyclohexanol
+VWR
+AAA16734-AD
+Chemical compound, drug
+Pentyl acetate
+Sigma-Aldrich
+109584
+Chemical compound, drug
+Ethyl lactate
+Sigma-Aldrich
+W244015
+Chemical compound, drug
+Paraffin oil
+Sigma-Aldrich
+18512
+Software, algorithm
+ImageJ and Fiji
+Schneider et al., 2012
+https://imagej.nih.gov/ij/http
+://fiji.sc/
+Software, algorithm
+MATLAB
+MathWorks
+https://www.mathworks.com/
+Software, algorithm
+Adobe Illustrator CC
+Adobe Systems
+https://www.adobe.com/products/illustrator.html
+Software, algorithm
+GraphPad Prism 9
+GraphPad Software
+https://www.graphpad.com/scientific-software/prism/
+Software, algorithm
+Python
+Python Software Foundation
+https://www.python.org/
+Software, algorithm
+neuPrint
+HHMI Janelia
+https://doi.org/10.25378/janelia.12818645.v1
+Software, algorithm
+Cytoscape
+Shannon et al., 2003
+https://cytoscape.org/
+Software, algorithm
+NeuTu
+Zhao et al., 2018
+https://github.com/janelia-flyem/NeuTu
+;
+janelia-flyem, 2018
+Software, algorithm
+ScanImage
+Vidrio Technologies
+https://vidriotechnologies.com/
+Software, algorithm
+VVDveiwer
+HHMI Janelia
+https://github.com/takashi310/VVD_Viewer
+Other
+Grade 3MM Chr Blotting Paper
+Whatmann
+3030-335
+Used in glass vials with paraffin oil diluted odors
+Other
+Mass flow controller
+Alicat
+MCW-200SCCM-D
+Mass flow controller used for the olfactory arena
+Additional files
+MDAR checklist
+https://cdn.elifesciences.org/articles/85756/elife-85756-mdarchecklist1-v3.docx
+Download elife-85756-mdarchecklist1-v3.docx
+Download links
+A two-part list of links to download the article, or parts of the article, in various formats.
+Downloads
+(link to download the article as PDF)
+Article PDF
+Figures PDF
+Open citations
+(links to open the citations from this article in various online reference manager services)
+Mendeley
+Cite this article
+(links to download the citations from this article in formats compatible with various reference manager tools)
+Yoshinori Aso
+Daichi Yamada
+Daniel Bushey
+Karen L Hibbard
+Megan Sammons
+Hideo Otsuna
+Yichun Shuai
+Toshihide Hige
+(2023)
+Neural circuit mechanisms for transforming learned olfactory valences into wind-oriented movement
+eLife
+12
+:e85756.
+https://doi.org/10.7554/eLife.85756
+Download BibTeX
+Download .RIS
+Be the first to read new articles from eLife
+Sign up for email alerts
+Privacy notice
+Skip to Content
+eLife home page
+Menu
+Home
+Browse
+Magazine
+Community
+About
+Research categories
+Inside eLife
+Search
+Subscribe to alerts
+Submit your research
+Author guide
+Reviewer guide
+Back to top
+About
+Jobs
+Who we work with
+Alerts
+Contact
+Terms and conditions
+Privacy notice
+Inside eLife
+Monthly archive
+For the press
+Resources
+XML and Data
+Find us on GitHub
+eLife is a non-profit organisation advancing open science by transforming how research is communicated, reviewed, and assessed. By developing open tools and collaborating with research communities, institutions, and funders, we are building a fairer, more effective global research ecosystem.
+eLife Sciences Publications, Ltd is a limited liability non-profit non-stock corporation incorporated in the State of Delaware, USA, with company number 5030732, and is registered in the UK with company number FC030576 and branch number BR015634 at the address:
+eLife Sciences Publications, Ltd
+95 Regent Street
+Cambridge CB2 1AW
+UK
+©
+2026
+eLife Sciences Publications Ltd. Subject to a
+Creative Commons Attribution license
+, except where otherwise noted. ISSN: 2050-084X

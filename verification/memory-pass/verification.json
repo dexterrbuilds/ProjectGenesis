@@ -1,0 +1,23 @@
+{
+  "tests": {
+    "total": 241,
+    "passed": 241,
+    "failed": 0,
+    "skipped": 0,
+    "newRegressionTests": 49,
+    "command": "node --env-file=outputs/runtime-v1/test-db.env --test tests/*.test.ts",
+    "writeState": "dedicated disposable test database schemas and local fixtures"
+  },
+  "typecheck": "PASS",
+  "eslint": "PASS",
+  "nextBuild": {
+    "status": "PASS",
+    "command": "npm run build -- --webpack"
+  },
+  "canonicalRowsEqual": true,
+  "canonicalDigest": "4c5f33972c6212a24fe5386b9c5c499df94ddbfebd2a26639333566604e56220",
+  "liveProviderCalls": 0,
+  "canonicalCyclesExecuted": 0,
+  "walletActions": 0,
+  "externalCommunications": 0
+}

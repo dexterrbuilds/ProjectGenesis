@@ -1,0 +1,158 @@
+Begin the prospective design of:
+Project Genesis Stage 5 — Learned Neural Signal → Downstream Action-Related Dynamics
+This authorization permits protocol design only.
+Do not execute Stage 5.
+ Do not run the neural model.
+ Do not inspect Stage-5 outcome values.
+ Do not integrate Genesis.
+ Do not activate BrainAdapter.
+ Do not modify canonical Genesis state.
+Pin and verify:
+-  Brain Spec v0.2; 
+-  frozen Stage-1 appetitive study; 
+-  α1/MBON07 → UpWind Route Evidence Acquisition Study; 
+-  α1 → UpWiN Identity and Mediation Resolution Study; 
+-  α1 → UpWiN Minimal Transfer Identifiability Study. 
+Determine whether the frozen Stage-1 learned α1/MBON07 signal produces any downstream neural/action-related conclusion that is robust to the explicitly unresolved biological transfer between the Stage-1 model and UpWiN-associated observations.
+Stage 5 is not designed to prove:
+-  preference; 
+-  approach; 
+-  choice; 
+-  voluntary action; 
+-  general action selection; 
+-  biological α1→UpWiN propagation; 
+-  Genesis behavior. 
+Use the frozen Stage-1 learned signal without refitting.
+Preserve:
+-  original connectivity; 
+-  plastic state; 
+-  dopamine-dependent learning mechanism; 
+-  cue counterbalancing; 
+-  causal controls; 
+-  deterministic replay. 
+Do not recalibrate Stage 1 against Stage-5 outcomes.
+The Stage-1 readout remains dimensionless model activity.
+Construct a prospectively frozen set of transfer families based only on the completed identifiability study.
+The design must include every unresolved qualitative branch required by the evidence, including where applicable:
+-  null transfer; 
+-  order-preserving transfer; 
+-  order-reversing transfer; 
+-  flat/saturated transfer; 
+-  heterogeneous responder/nonresponder transfer; 
+-  alternative-input/nuisance contribution. 
+Do not remove a branch because it prevents a desired downstream result.
+Distinguish:
+EVIDENCE-ADMISSIBLE FAMILY
+from
+RESTRICTED CONDITIONAL FAMILY
+from
+ENGINEERING SENSITIVITY RANGE.
+Never describe an engineering sweep as a biological confidence interval.
+The identifiability study established that several transfer quantities are non-identifiable and may lack finite evidence-derived bounds.
+Therefore do not claim robustness over “all uncertainty” by sampling an arbitrary numerical grid.
+Where a family is analytically tractable, derive invariants or counterexamples over the family.
+Where it is not, report results as conditional on the explicitly chosen restricted family.
+Stage 5 must remain explicit about resolution.
+Do not assign R64A11, SS67249, SS33917/18 observations to individual SMP353/SMP354 FAFB roots.
+Individual roots may provide anatomical context only.
+The biological transfer question is population/type-scoped unless independently identified evidence says otherwise.
+Keep separate:
+-  Stage-1 dimensionless activity; 
+-  α1 biological spike measurements; 
+-  UpWiN somatic voltage; 
+-  calcium; 
+-  behavioral kinematics. 
+No unit conversion without independently identified mapping.
+Do not generate physical mV, spikes, latency or movement probabilities from Stage-1 activity.
+Define the narrowest downstream quantity that can be studied without semantic interpretation.
+Prefer a neural quantity such as:
+-  downstream ordering; 
+-  relative change; 
+-  sign under a declared transfer; 
+-  set-valued downstream state; 
+-  sensitivity of downstream ordering to transfer assumptions. 
+Do not name the quantity APPROACH, PREFERENCE, CHOICE or another behavioral semantic.
+If no downstream neural estimand can be defined without embedding the desired answer, Stage 5 design fails.
+Predeclare distinct result classes.
+At minimum the design must be capable of returning:
+ROBUST ACROSS DECLARED EVIDENCE-ADMISSIBLE FAMILY
+ROBUST ONLY UNDER RESTRICTED CONDITIONAL FAMILY
+TRANSFER-SENSITIVE / NON-ROBUST
+NULL-COMPATIBLE
+UNINTERPRETABLE
+These labels are examples of result semantics; formalize exact definitions prospectively.
+A negative/non-robust result is not a failed experiment.
+Preserve Stage-1 controls and design appropriate comparisons capable of separating:
+-  intact learned plasticity; 
+-  frozen plasticity; 
+-  dopamine-disabled learning; 
+-  restored pre-training snapshot; 
+-  relevant versus unrelated intervention where justified; 
+-  cue identity; 
+-  transfer-family dependence. 
+Controls must establish whether a downstream mathematical result depends on the learned Stage-1 state.
+They must not be described as proving biological mediation.
+For every proposed positive Stage-5 conclusion, construct in advance the strongest admissible counterexample.
+Ask:
+“Can another evidence-admissible transfer produce the opposite, zero or indistinguishable result while preserving all admitted biological observations?”
+If yes, the positive conclusion must be conditional rather than invariant.
+Before execution:
+freeze and hash:
+-  dependencies; 
+-  Stage-1 snapshot; 
+-  transfer-family definitions; 
+-  assumption partitions; 
+-  nuisance structure; 
+-  observation mappings; 
+-  estimands; 
+-  controls; 
+-  parameter coverage rules; 
+-  analysis code; 
+-  acceptance/classification rules; 
+-  reporting rules. 
+The design process must not inspect Stage-5 outputs.
+Any numerical parameter derived from independent biological evidence must be documented with provenance.
+Any numerical parameter lacking biological identification must be labeled an engineering coverage choice.
+All admitted branches must be reported.
+Do not:
+-  select the strongest branch; 
+-  discard nulls; 
+-  discard reversed-order results; 
+-  choose normalization after execution; 
+-  choose a responder fraction because it gives a result; 
+-  reinterpret a conditional result as biological propagation. 
+A scientifically successful Stage 5 may conclude:
+-  learned-state influence is invariant under a justified family; 
+-  influence exists only under explicit assumptions; 
+-  direction is unidentified; 
+-  null remains admissible; 
+-  result is transfer-sensitive; 
+-  current biological evidence cannot support downstream inference. 
+All are legitimate outcomes.
+Behavioral UpWiN evidence may constrain scientific interpretation, but Stage 5 must not numerically map its neural output to walking, heading, movement probability or Genesis actions.
+No LLM is present.
+No wallet/economic action is present.
+No Genesis product mapping is present.
+Produce:
+- STAGE5_PROTOCOL.md 
+-  dependency manifest 
+-  preregistration 
+-  transfer-family specification 
+-  assumption partition 
+-  estimand specification 
+-  population-resolution declaration 
+-  observation compatibility matrix 
+-  control matrix 
+-  counterexample registry 
+-  robustness/invariance definitions 
+-  parameter provenance table 
+-  blinding/firewall specification 
+-  result-classification rules 
+-  preservation manifest 
+-  execution authorization checklist 
+Finish with exactly one:
+STAGE-5 PROTOCOL READY FOR EXECUTION REVIEW
+STAGE-5 DESIGN REQUIRES REVISION
+STAGE-5 NOT INTERPRETABLE UNDER CURRENT EVIDENCE
+Even if the protocol is ready, do not execute it.
+Stop for review.

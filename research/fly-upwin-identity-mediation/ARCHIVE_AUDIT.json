@@ -1,0 +1,909 @@
+{
+  "url": "https://cdn.elifesciences.org/articles/85756/elife-85756-supp-v1.zip",
+  "total_bytes": 122744191,
+  "directory_members": 57,
+  "acquisition": "Whole-archive request timed out after 180 s. Original prefix retained; independent HTTP 206 data range and tail retained. Every extracted member verified against original central-directory size/CRC.",
+  "retrieved_ranges": [
+    {
+      "start": 0,
+      "end": 40953708,
+      "bytes": 40953709
+    },
+    {
+      "start": 103000000,
+      "end": 122744190,
+      "bytes": 19744191
+    }
+  ],
+  "original_archive_complete": false,
+  "extracted": [
+    {
+      "name": "elife_poa_e85756_Figure_1_figure_supplement_1.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_figure_supplement_1.pdf",
+      "bytes": 1310875,
+      "sha256": "b9482804de018b1b1c6cc2ed399384a9341646549561669dfbb60fda4376db82",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_figure_supplement_1.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_figure_supplement_1.pdf",
+      "bytes": 2051392,
+      "sha256": "bf1cad07f53e1a38ecc8fdf23e37c6139b86157fb047ef2385291d95e5e8b4c7",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_figure_supplement_2.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_figure_supplement_2.pdf",
+      "bytes": 608859,
+      "sha256": "f42200d471f559be0c47aa7220fe2bcabfe72c8ccf8187718a77a135a00091b1",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_figure_supplement_3.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_figure_supplement_3.pdf",
+      "bytes": 274598,
+      "sha256": "2d4060b6d4771602d6fb3b59851a7470fd76868b0530d8833b9efcb954af4413",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_figure_supplement_4.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_figure_supplement_4.pdf",
+      "bytes": 324969,
+      "sha256": "ebf1d55d670bf3b2812a2e5ff45825f039c4e6b9e915297dcdb34e37d39a568e",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_3_figure_supplement_1.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_3_figure_supplement_1.pdf",
+      "bytes": 976712,
+      "sha256": "f0a8fe5ac8927653da27c8f744adb9c09c2fd32469d0d4078c2e1c9e92d87f5c",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_3_figure_supplement_2.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_3_figure_supplement_2.pdf",
+      "bytes": 2143740,
+      "sha256": "36d225f534f0541791259cb3e9b6a0f5c04b0b3d2c3888f8c3bbe2a169848a4c",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_3_figure_supplement_3.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_3_figure_supplement_3.pdf",
+      "bytes": 48831,
+      "sha256": "76a1a74867b51a5bda4d3421b1b88e2dc899063f1eff9653d6ddd408b1e4f39e",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_3_figure_supplement_4.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_3_figure_supplement_4.pdf",
+      "bytes": 35762,
+      "sha256": "53ebf35a583994702f85fcc060522267dcd2df094f3643b5084f3d7b59e0ce5f",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_4_figure_supplement_1.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_4_figure_supplement_1.pdf",
+      "bytes": 656274,
+      "sha256": "ff6b58a117c8f31e6273ae9b925d2f6c6aba2ed121869c9e3494ea94219a4069",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_figure_supplement_1.pdf",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_figure_supplement_1.pdf",
+      "bytes": 291843,
+      "sha256": "b55e41da2b0a5e57c31c78b00f9c29b3a9d78e2076411bb2d913fb70f26e9054",
+      "crc_verified": true
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_1.xlsx",
+      "bytes": 10438,
+      "sha256": "948b73a0be355e02ce07c3f7bbd2b36a38473c4c1d1811d94b42148c048b3168",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig1-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_2.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_2.xlsx",
+      "bytes": 10091,
+      "sha256": "3a14c80d97ae49d099b38368bcf1ffdf44fcff9cb6063908e9fc55421db199f7",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig1-data2-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_3.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_3.xlsx",
+      "bytes": 7959,
+      "sha256": "277c591487b94801093aabdcc179a82c37f7231fd6eecef0fe61a57e3f5fad5d",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig1-data3-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_4.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_4.xlsx",
+      "bytes": 8898,
+      "sha256": "44678ed6474d9a0b24e2f7d086faade818b68299a1ea687ce7337fb02a1e1a54",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig1-data4-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_5.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_5.xlsx",
+      "bytes": 125544,
+      "sha256": "d5286c36320926d66cea17a4bd2f1c55458789a93e85e2a94056a4d765398e21",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig1-data5-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_6.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_6.xlsx",
+      "bytes": 15702,
+      "sha256": "b3b44da10e3270892f190521174104241d85182e053c1066c1b2ed33c959adf4",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig1-data6-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_7.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_7.xlsx",
+      "bytes": 92416,
+      "sha256": "18838e10bf29d4d883d49c5f2fe4c6aed3d10a3582cf18aad4e1ba74914ab8ac",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig1-data7-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_source_data_8.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_source_data_8.xlsx",
+      "bytes": 26048,
+      "sha256": "a311ede78b299d5b7cf8f3aca904234b6a7f9660b1c22220751ee02cdb73c72c",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig1-data8-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_1_figure_supplement_1_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_1_figure_supplement_1_source_data_1.xlsx",
+      "bytes": 250724,
+      "sha256": "24466303d0dc9e825f15c3e7c86997cb47ab49a87215edb39da41a4fda9c87e9",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig1-figsupp1-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_source_data_1.xlsx",
+      "bytes": 48438,
+      "sha256": "d3284f82d1bd96b2d29596f94f80f5e42d50c860d922d502a6e8d84b9bd334a6",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig2-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_source_data_2.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_source_data_2.xlsx",
+      "bytes": 36789,
+      "sha256": "d2c5057097b591a3d2c423a38eccf4ca26a38f6f31443ce330e0b1e135079beb",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig2-data2-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_2_figure_supplement_1_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_2_figure_supplement_1_source_data_1.xlsx",
+      "bytes": 1622574,
+      "sha256": "f9c752dc2d37f36fc71687e6a7b55f1ed10058da6a2544dfebf2b3a10bf3f525",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig2-figsupp1-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_4_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_4_source_data_1.xlsx",
+      "bytes": 2663800,
+      "sha256": "487afc8fd58380a89780f7b8fdd356aa4648caa3c703309a9d237c6b15c45aa1",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig4-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_4_source_data_2.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_4_source_data_2.xlsx",
+      "bytes": 3770236,
+      "sha256": "68fa1937b876eddfd096d2910edeaf60b4289098be05d137e57df2e6edaa80e2",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig4-data2-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_4_source_data_3.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_4_source_data_3.xlsx",
+      "bytes": 10117,
+      "sha256": "773fb205ae390c9df7a443c044584788cb91c1467e7efd78797c62481062f1d7",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig4-data3-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_4_figure_supplement_1_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_4_figure_supplement_1_source_data_1.xlsx",
+      "bytes": 10199,
+      "sha256": "8d174ae7264b5a4ea2aa6000e9ec3cef20ba0290af16db517623ba9d50887979",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig4-figsupp1-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_source_data_1.xlsx",
+      "bytes": 1182606,
+      "sha256": "2fb44d82b50c9ab6d1ab776a72368cf715be8e95d1afd512b23c1a0ba290db4f",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_source_data_2.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_source_data_2.xlsx",
+      "bytes": 3247565,
+      "sha256": "594fd9755eaa36faa071f95df6ccfc9ed06d27e301fd993a804bdb9176e020e9",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-data2-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_source_data_3.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_source_data_3.xlsx",
+      "bytes": 8326,
+      "sha256": "0dc844354d3841ce5935970acbe8ff157b902d9a11076e091f720e251220c635",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-data3-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_figure_supplement_2_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_figure_supplement_2_source_data_1.xlsx",
+      "bytes": 1231788,
+      "sha256": "3f0cff475eb9ccb599a4d7db19aaeb10c8a308d7952b3828e0b0a0e7f5194b06",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-figsupp2-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_figure_supplement_2_source_data_2.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_figure_supplement_2_source_data_2.xlsx",
+      "bytes": 3252378,
+      "sha256": "d7314d2ed6661ff9a8cf05bdebb1d4943302629261f7aaa9deb82a5cdf280848",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-figsupp2-data2-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_5_figure_supplement_2_source_data_3.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_5_figure_supplement_2_source_data_3.xlsx",
+      "bytes": 8271,
+      "sha256": "da7dfa7c41c392da4064a66c62474b952fbd7ac04a533d383df6edeb1a9cbb8e",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_1.xlsx",
+      "bytes": 8427,
+      "sha256": "8510f69309e060e3c9e6dec946a10caf6cc1ebc8ba9d16836892afb167846cea",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig6-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_2.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_2.xlsx",
+      "bytes": 8596,
+      "sha256": "2bdcb24d11f619091ac872882718a46bfa3aef64f3fa47acfbe7d07da525cf88",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig6-data2-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_3.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_3.xlsx",
+      "bytes": 9072,
+      "sha256": "f6017668965de3758c2c80b3d36f69d4985572855648cdf5eec5780c27497bf3",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig6-data3-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_4.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_4.xlsx",
+      "bytes": 23013,
+      "sha256": "cc97aeac61e068b4a0b28065e9c0811d07264a4106f001d6f8ef8a0425ac3bb8",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig6-data4-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_5.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_5.xlsx",
+      "bytes": 77567,
+      "sha256": "ba632059cb72d7e6de2378670f79a00edf174608584adeef112ae1f55ee3a992",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig6-data5-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_6.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_6.xlsx",
+      "bytes": 32197,
+      "sha256": "13aa6211faba72499a665db012b2d89c83255e75e196f12df2b8a74230db38ee",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig6-data6-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_source_data_7.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_source_data_7.xlsx",
+      "bytes": 47131,
+      "sha256": "839611d476434c799a9a30959517d405c12e08876163eb8d20c5c83c5805e353",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig6-data7-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_6_figure_supplement_1_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_6_figure_supplement_1_source_data_1.xlsx",
+      "bytes": 60440,
+      "sha256": "15b806e2e2ce3355a8facbb435e1178aadcf51722194b723be18ff3550ca567e",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig6-figsupp1-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_source_data_1.xlsx",
+      "bytes": 13416,
+      "sha256": "b0dd84021f258dcf5b5028785223a42ba8d2a8168df88e34bdb3e653ec406e31",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig7-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_source_data_2.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_source_data_2.xlsx",
+      "bytes": 219597,
+      "sha256": "70420051ca7eb0495bd4780d0a38d2914eae4b7fcdc0ec6387dc05ebef386bbd",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig7-data2-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_source_data_3.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_source_data_3.xlsx",
+      "bytes": 8747,
+      "sha256": "efc19988a497fada2fb4eea25eb0620322c2a7fe097b218a5c15e8b937218cff",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig7-data3-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_source_data_4.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_source_data_4.xlsx",
+      "bytes": 24725,
+      "sha256": "e9cd4e588bb442468759a8d33eeda7531ba1cc3e3b1fb98acc4a298429f43d9f",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig7-data4-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_source_data_5.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_source_data_5.xlsx",
+      "bytes": 8428,
+      "sha256": "0d726b7a7bcd3be9b8763942b8a68c25dc9f97763e135fd09ff398c562f686aa",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig7-data5-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Figure_7_figure_supplement_1_source_data_1.xlsx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Figure_7_figure_supplement_1_source_data_1.xlsx",
+      "bytes": 867188,
+      "sha256": "8848dee91e78ff62b2965a57888923ac36379e5867e9463d7a0000363900011d",
+      "crc_verified": true,
+      "final_counterpart": "research/fly-upwin-route-evidence/sources/elife-85756-fig7-figsupp1-data1-v3.xlsx",
+      "identical_to_final": true,
+      "internal_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "morphology_or_acquisition_parts": []
+    },
+    {
+      "name": "elife_poa_e85756_Supplementary_file_1.docx",
+      "path": "sources/accepted-manuscript/elife_poa_e85756_Supplementary_file_1.docx",
+      "bytes": 39491,
+      "sha256": "78a8b67a281a8bf646750102edbe3d46e3eae509d38525f78e70180208d9efb2",
+      "crc_verified": true
+    }
+  ],
+  "unretrieved": [
+    "elife_poa_e85756_Figure_5_figure_supplement_2.tif",
+    "elife_poa_e85756_Figure_6_figure_supplement_1.pdf",
+    "elife_poa_e85756_Figure_7_figure_supplement_1.pdf",
+    "elife_poa_e85756_Video_1.mp4",
+    "elife_poa_e85756_Video_2.mov",
+    "elife_poa_e85756_Video_3.avi",
+    "elife_poa_e85756_Video_4.mov",
+    "elife_poa_e85756_Video_5.mp4",
+    "elife_poa_e85756_Video_6.mp4"
+  ],
+  "note": "Videos and large TIFF not required for cell identity linkage were not extracted; no claim of raw tracking from videos. Archive filenames contain no extra trial archive, ROI, event log, cell-identity table, or analysis script."
+}

@@ -1,0 +1,86 @@
+{
+  "classification": "PARTIAL ROUTE SUPPORT — TARGETED EVIDENCE STILL REQUIRED",
+  "assessment": [
+    {
+      "item": 1,
+      "requirement": "defensible source identity",
+      "status": "SUPPORTED AT CELL-CLASS / PINNED-ROOT LEVEL",
+      "evidence": "MBON-alpha1/MBON07 class and starting root identified; no recording-to-specific-root identity."
+    },
+    {
+      "item": 2,
+      "requirement": "defensible downstream target identity",
+      "status": "PARTIAL",
+      "evidence": "SMP353 hemibrain body424443911 and FAFB type match; CB3112/SMP354 annotation alias supported. Actual responders and recall cells not assigned to these roots."
+    },
+    {
+      "item": 3,
+      "requirement": "directional anatomy",
+      "status": "SUPPORTED NARROWLY",
+      "evidence": "11 starting contacts; candidate convergence/recurrence counted in pinned graph. Counts do not establish efficacy."
+    },
+    {
+      "item": 4,
+      "requirement": "target-scoped physiological sign",
+      "status": "UNRESOLVED FOR REQUIRED ROOTS",
+      "evidence": "Inhibitory Vm response in4/17 broad-driver cells. No responder-to-SMP353/SMP354/root or target receptor crosswalk."
+    },
+    {
+      "item": 5,
+      "requirement": "measurable downstream neural variable",
+      "status": "SUPPORTED WITH OBSERVATION LIMITS",
+      "evidence": "Baseline-subtracted UpWiN somatic mV measured; calcium separate. No gain, latency, current or model-rate conversion identified."
+    },
+    {
+      "item": 6,
+      "requirement": "conditioning-compatible evidence",
+      "status": "PARTIAL",
+      "evidence": "Reciprocal UpWiN mV change acquired; separate alpha1 spike suppression acquired. DAN-driver/dilution/recording differences prevent causal numerical composition."
+    },
+    {
+      "item": 7,
+      "requirement": "independently action-related biological variable",
+      "status": "SUPPORTED AT DRIVER/ASSAY LEVEL",
+      "evidence": "Wind-relative turn, speed and displacement measured in intact flies; no behavior from a specific root or Vm mapping."
+    },
+    {
+      "item": 8,
+      "requirement": "causal intervention evidence",
+      "status": "PARTIAL",
+      "evidence": "Driver activation and TNT/Shi experiments exist. Root specificity and preserved upstream learning/sensory function for the complete route not shown; restrictive-temperature upwind control fails."
+    },
+    {
+      "item": 9,
+      "requirement": "sufficient preparation compatibility",
+      "status": "NOT YET",
+      "evidence": "No source-root-to-recorded-target-to-behavior preparation chain; physiological source papers differ in units and conditions."
+    },
+    {
+      "item": 10,
+      "requirement": "sufficient raw data for prospective thresholds and held-out validation",
+      "status": "PARTIAL",
+      "evidence": "Scalar recall values and cell-mean Vm traces available; Ca/recall mean waveforms lack animal traces, Fig4 animal labels inconsistent, full trajectories unavailable. Do not define thresholds or splits here."
+    }
+  ],
+  "stage5_authorized": false,
+  "stage5_protocol": null,
+  "neural_runs": 0,
+  "fitting": false,
+  "capability_promotions": [],
+  "required_evidence": [
+    "Responding/recall cell morphology or transcript/driver crosswalk to identified SMP353/CB3112-SMP354 homologs",
+    "Target-scoped sign/receptor and electrical transmission under compatible preparation, including nonresponders",
+    "Original trial/animal identities, event/baseline metadata, ROI masks and exclusion lineage; resolve workbook labels/sample counts",
+    "Compatible source/downstream learning measurements isolating alpha1 contribution from beta1 and background routes",
+    "Route-specific intervention evidence preserving relevant upstream learning, sensory and locomotor responses; independent neural/action observation relationship"
+  ],
+  "forbidden_inferences": [
+    "contact count = conductance",
+    "glutamate = universally inhibitory",
+    "Ca flat = no Vm inhibition",
+    "SMP name = identified responder",
+    "Stage1 rate = mV",
+    "UpWiN mV = movement probability",
+    "behavioral driver activation = root-specific voluntary choice"
+  ]
+}

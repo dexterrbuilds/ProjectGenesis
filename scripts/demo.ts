@@ -1,3 +1,5 @@
+// Runtime V1 dormant release: no CLI can grant execution authority.
+throw new Error('GENESIS_EXECUTION_NOT_AUTHORIZED_IN_THIS_RELEASE');
 import { CElegansBrain } from '../core/brain/celegans.ts';
 import { createOrganism, liveCycle } from '../core/life.ts';
 import { LocalPlanner } from '../core/planner.ts';

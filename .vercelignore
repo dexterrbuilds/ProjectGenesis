@@ -1,0 +1,14 @@
+.git
+.env*
+outputs
+verification
+research
+node_modules
+.next
+.local
+.codex
+.agents
+*.sql
+scripts
+tests
+*.md

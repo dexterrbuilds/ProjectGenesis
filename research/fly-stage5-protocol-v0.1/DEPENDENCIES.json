@@ -1,0 +1,36 @@
+{
+  "packages": {
+    "fly-upwin-route-evidence": {
+      "path": "research/fly-upwin-route-evidence",
+      "content_sha256": "597e6c06bed21fda6ccf62959aacf83fda4aa7adc0f85fcd29453e5ac961f56c",
+      "release_sha256": "8c68fe5ccf43e1e6561509f7846517ce94edce2c534f13af58b88d891d0e602c"
+    },
+    "fly-upwin-identity-mediation": {
+      "path": "research/fly-upwin-identity-mediation",
+      "content_sha256": "a2fafc15ff7be4f599c38e332d34bb7d4d573ebf8d90d4d9788c26912d990a56",
+      "release_sha256": "c611cfe3322f5b564802bfdbc946e9cf6c2018ca5b21f912e0c7a6271fe62dad"
+    },
+    "fly-upwin-transfer-identifiability": {
+      "path": "research/fly-upwin-transfer-identifiability",
+      "content_sha256": "b4864562d5e78e09d13241a9be04863ba7df978709d8cab839cd00a0491d3c62",
+      "release_sha256": "2b2a032934e68c0e359298779f0adeeabf88929ba44d18cbca60cd66e163dc32"
+    },
+    "genesis-brain-spec-v0.2": {
+      "registry_sha256": "23efaa1a65cc7fe7ed49c3e17e90f1c9f1bc55ae11cbce77519cfe20eba44f88",
+      "package_sha256": "9322ea0f3c501b6bd29add73464c94b775fb616648801e7f945346776b9bdd0b",
+      "release_sha256": "90aaea995132903cbfca72327f289323f91253678ea087eb7fd30244f94f7788"
+    },
+    "fly-stage1": {
+      "evidence_manifest_path": "research/fly-stage1/evidence/4afc692f113981d1ad1a035ba7293e00bb4c8964bc1e87d9b00fab8063037c4b/evidence-manifest.json",
+      "evidence_manifest_sha256": "4afc692f113981d1ad1a035ba7293e00bb4c8964bc1e87d9b00fab8063037c4b",
+      "report_sha256": "1fa11d98d5efcbe155a540bd5e9c192438561da27609f1cfb93adeccd0dac2fe",
+      "model_sha256": "10d87bffc9ecc7ede109ca267f07d32cefcefb64ed04ae631cc89a7f900dba2c",
+      "circuit_manifest_sha256": "c5c332c1bd0ce77487ad5765756a58dc441d50f59dc56899a462bf35e4b2a157"
+    }
+  },
+  "authorization": "protocol design only",
+  "execution_authorized": false,
+  "evidence_overrides": [],
+  "anatomy_ownership": [],
+  "new_literature": []
+}

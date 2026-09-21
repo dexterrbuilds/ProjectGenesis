@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "migrationSqlSha256": "634da03cc27cebad2de2d2797dc79b2af6b69d3e060bdf07f10c45dccec098c8",
+  "migrationCodeSha256": "687d59ce89d24fa472aef47a80741a37e299ac57b3ef6874ceecd911cd5de1ff",
+  "backupRestorationVerified": true,
+  "beforeDigest": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "afterDigest": "5f0b0cf5f9118ae7848cb92e0db52b18c73f01e9a32a1d18ed8ec984c61ff1b6",
+  "originalRowsPreserved": true,
+  "newRows": {
+    "lifeState": 1,
+    "administrativeEvent": 1,
+    "migration": 1,
+    "actionIntents": 0
+  }
+}

@@ -1,0 +1,1346 @@
+[
+  {
+    "cue": "A",
+    "original_replay_exact": true,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": true,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": true,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": true,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1702-A-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.09563487017967987",
+        "PN": "0.05266177501683526"
+      },
+      "plastic_only": {
+        "KC": "0.09563487017967987",
+        "PN": "0.05266177501683526"
+      },
+      "post": {
+        "KC": "0.09563487017967987",
+        "PN": "0.05266177501683526"
+      },
+      "restored": {
+        "KC": "0.09563487017967987",
+        "PN": "0.05266177501683526"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1702-A-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.0795352282250891",
+        "PN": "0.05107214500178628"
+      },
+      "plastic_only": {
+        "KC": "0.0795352282250891",
+        "PN": "0.05107214500178628"
+      },
+      "post": {
+        "KC": "0.0795352282250891",
+        "PN": "0.05107214500178628"
+      },
+      "restored": {
+        "KC": "0.0795352282250891",
+        "PN": "0.05107214500178628"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1702-B-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.09563487017967987",
+        "PN": "0.05266177501683526"
+      },
+      "plastic_only": {
+        "KC": "0.09563487017967987",
+        "PN": "0.05266177501683526"
+      },
+      "post": {
+        "KC": "0.09563487017967987",
+        "PN": "0.05266177501683526"
+      },
+      "restored": {
+        "KC": "0.09563487017967987",
+        "PN": "0.05266177501683526"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1702-B-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.0795352282250891",
+        "PN": "0.05107214500178628"
+      },
+      "plastic_only": {
+        "KC": "0.0795352282250891",
+        "PN": "0.05107214500178628"
+      },
+      "post": {
+        "KC": "0.0795352282250891",
+        "PN": "0.05107214500178628"
+      },
+      "restored": {
+        "KC": "0.0795352282250891",
+        "PN": "0.05107214500178628"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1703-A-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.11887914614794157",
+        "PN": "0.05248070641400678"
+      },
+      "plastic_only": {
+        "KC": "0.11887914614794157",
+        "PN": "0.05248070641400678"
+      },
+      "post": {
+        "KC": "0.11887914614794157",
+        "PN": "0.05248070641400678"
+      },
+      "restored": {
+        "KC": "0.11887914614794157",
+        "PN": "0.05248070641400678"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1703-A-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07871947768143145",
+        "PN": "0.05322654993034494"
+      },
+      "plastic_only": {
+        "KC": "0.07871947768143145",
+        "PN": "0.05322654993034494"
+      },
+      "post": {
+        "KC": "0.07871947768143145",
+        "PN": "0.05322654993034494"
+      },
+      "restored": {
+        "KC": "0.07871947768143145",
+        "PN": "0.05322654993034494"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1703-B-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.11887914614794157",
+        "PN": "0.05248070641400678"
+      },
+      "plastic_only": {
+        "KC": "0.11887914614794157",
+        "PN": "0.05248070641400678"
+      },
+      "post": {
+        "KC": "0.11887914614794157",
+        "PN": "0.05248070641400678"
+      },
+      "restored": {
+        "KC": "0.11887914614794157",
+        "PN": "0.05248070641400678"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1703-B-intact",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07871947768143145",
+        "PN": "0.05322654993034494"
+      },
+      "plastic_only": {
+        "KC": "0.07871947768143145",
+        "PN": "0.05322654993034494"
+      },
+      "post": {
+        "KC": "0.07871947768143145",
+        "PN": "0.05322654993034494"
+      },
+      "restored": {
+        "KC": "0.07871947768143145",
+        "PN": "0.05322654993034494"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-freeze",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-freeze",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-freeze",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-freeze",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-silence_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-silence_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-silence_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-silence_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-remove_da_contacts",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-remove_da_contacts",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-remove_da_contacts",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-remove_da_contacts",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-single_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-single_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-single_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-single_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-matched_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-matched_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-matched_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-matched_dan",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-remove_pn_kc",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.0",
+        "PN": "0.05106190158939112"
+      },
+      "plastic_only": {
+        "KC": "0.0",
+        "PN": "0.05106190158939112"
+      },
+      "post": {
+        "KC": "0.0",
+        "PN": "0.05106190158939112"
+      },
+      "restored": {
+        "KC": "0.0",
+        "PN": "0.05106190158939112"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-remove_pn_kc",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.0",
+        "PN": "0.05056548270201465"
+      },
+      "plastic_only": {
+        "KC": "0.0",
+        "PN": "0.05056548270201465"
+      },
+      "post": {
+        "KC": "0.0",
+        "PN": "0.05056548270201465"
+      },
+      "restored": {
+        "KC": "0.0",
+        "PN": "0.05056548270201465"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-remove_pn_kc",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.0",
+        "PN": "0.05106190158939112"
+      },
+      "plastic_only": {
+        "KC": "0.0",
+        "PN": "0.05106190158939112"
+      },
+      "post": {
+        "KC": "0.0",
+        "PN": "0.05106190158939112"
+      },
+      "restored": {
+        "KC": "0.0",
+        "PN": "0.05106190158939112"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-remove_pn_kc",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.0",
+        "PN": "0.05056548270201465"
+      },
+      "plastic_only": {
+        "KC": "0.0",
+        "PN": "0.05056548270201465"
+      },
+      "post": {
+        "KC": "0.0",
+        "PN": "0.05056548270201465"
+      },
+      "restored": {
+        "KC": "0.0",
+        "PN": "0.05056548270201465"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-remove_kc_mbon",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-remove_kc_mbon",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-remove_kc_mbon",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-remove_kc_mbon",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-no_apl",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.09331953439235387",
+        "PN": "0.05398178642117465"
+      },
+      "plastic_only": {
+        "KC": "0.09331953439235387",
+        "PN": "0.05398178642117465"
+      },
+      "post": {
+        "KC": "0.09331953439235387",
+        "PN": "0.05398178642117465"
+      },
+      "restored": {
+        "KC": "0.09331953439235387",
+        "PN": "0.05398178642117465"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-no_apl",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.17462676707416408",
+        "PN": "0.055695030298580334"
+      },
+      "plastic_only": {
+        "KC": "0.17462676707416408",
+        "PN": "0.055695030298580334"
+      },
+      "post": {
+        "KC": "0.17462676707416408",
+        "PN": "0.055695030298580334"
+      },
+      "restored": {
+        "KC": "0.17462676707416408",
+        "PN": "0.055695030298580334"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-no_apl",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.09331953439235387",
+        "PN": "0.05398178642117465"
+      },
+      "plastic_only": {
+        "KC": "0.09331953439235387",
+        "PN": "0.05398178642117465"
+      },
+      "post": {
+        "KC": "0.09331953439235387",
+        "PN": "0.05398178642117465"
+      },
+      "restored": {
+        "KC": "0.09331953439235387",
+        "PN": "0.05398178642117465"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-no_apl",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.17462676707416408",
+        "PN": "0.055695030298580334"
+      },
+      "plastic_only": {
+        "KC": "0.17462676707416408",
+        "PN": "0.055695030298580334"
+      },
+      "post": {
+        "KC": "0.17462676707416408",
+        "PN": "0.055695030298580334"
+      },
+      "restored": {
+        "KC": "0.17462676707416408",
+        "PN": "0.055695030298580334"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-no_recurrence",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.08997892758934475",
+        "PN": "0.048780487804480584"
+      },
+      "plastic_only": {
+        "KC": "0.08997892758934475",
+        "PN": "0.048780487804480584"
+      },
+      "post": {
+        "KC": "0.08997892758934475",
+        "PN": "0.048780487804480584"
+      },
+      "restored": {
+        "KC": "0.08997892758934475",
+        "PN": "0.048780487804480584"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-no_recurrence",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.16294334367983535",
+        "PN": "0.048780487804480584"
+      },
+      "plastic_only": {
+        "KC": "0.16294334367983535",
+        "PN": "0.048780487804480584"
+      },
+      "post": {
+        "KC": "0.16294334367983535",
+        "PN": "0.048780487804480584"
+      },
+      "restored": {
+        "KC": "0.16294334367983535",
+        "PN": "0.048780487804480584"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-no_recurrence",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.08997892758934475",
+        "PN": "0.048780487804480584"
+      },
+      "plastic_only": {
+        "KC": "0.08997892758934475",
+        "PN": "0.048780487804480584"
+      },
+      "post": {
+        "KC": "0.08997892758934475",
+        "PN": "0.048780487804480584"
+      },
+      "restored": {
+        "KC": "0.08997892758934475",
+        "PN": "0.048780487804480584"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-no_recurrence",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.16294334367983535",
+        "PN": "0.048780487804480584"
+      },
+      "plastic_only": {
+        "KC": "0.16294334367983535",
+        "PN": "0.048780487804480584"
+      },
+      "post": {
+        "KC": "0.16294334367983535",
+        "PN": "0.048780487804480584"
+      },
+      "restored": {
+        "KC": "0.16294334367983535",
+        "PN": "0.048780487804480584"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-shuffle_pn_weights",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07475231462720047",
+        "PN": "0.052398162287194294"
+      },
+      "plastic_only": {
+        "KC": "0.07475231462720047",
+        "PN": "0.052398162287194294"
+      },
+      "post": {
+        "KC": "0.07475231462720047",
+        "PN": "0.052398162287194294"
+      },
+      "restored": {
+        "KC": "0.07475231462720047",
+        "PN": "0.052398162287194294"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-shuffle_pn_weights",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.14664176833357853",
+        "PN": "0.051598220152822435"
+      },
+      "plastic_only": {
+        "KC": "0.14664176833357853",
+        "PN": "0.051598220152822435"
+      },
+      "post": {
+        "KC": "0.14664176833357853",
+        "PN": "0.051598220152822435"
+      },
+      "restored": {
+        "KC": "0.14664176833357853",
+        "PN": "0.051598220152822435"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-shuffle_pn_weights",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07475231462720047",
+        "PN": "0.052398162287194294"
+      },
+      "plastic_only": {
+        "KC": "0.07475231462720047",
+        "PN": "0.052398162287194294"
+      },
+      "post": {
+        "KC": "0.07475231462720047",
+        "PN": "0.052398162287194294"
+      },
+      "restored": {
+        "KC": "0.07475231462720047",
+        "PN": "0.052398162287194294"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-shuffle_pn_weights",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.14664176833357853",
+        "PN": "0.051598220152822435"
+      },
+      "plastic_only": {
+        "KC": "0.14664176833357853",
+        "PN": "0.051598220152822435"
+      },
+      "post": {
+        "KC": "0.14664176833357853",
+        "PN": "0.051598220152822435"
+      },
+      "restored": {
+        "KC": "0.14664176833357853",
+        "PN": "0.051598220152822435"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-unpaired",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-A-unpaired",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  },
+  {
+    "cue": "A",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-unpaired",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "plastic_only": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "post": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      },
+      "restored": {
+        "KC": "0.07781907096363656",
+        "PN": "0.05156339744948018"
+      }
+    }
+  },
+  {
+    "cue": "B",
+    "original_replay_exact": null,
+    "original_restoration_exact": true,
+    "run": "app-1701-B-unpaired",
+    "sensory_readouts": {
+      "baseline": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "plastic_only": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "post": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      },
+      "restored": {
+        "KC": "0.13107017395763437",
+        "PN": "0.05137741073610898"
+      }
+    }
+  }
+]

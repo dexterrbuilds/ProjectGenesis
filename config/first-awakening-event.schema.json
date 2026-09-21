@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proposed factual first-awakening event; no event has been emitted",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "kind", "activationAuthorizationRef", "observedAt", "organismId", "bornAt", "lastLifeEventAt", "elapsedSinceLastLifeEventMs", "constitutionHash", "canonicalCyclesBefore", "biologicalStatus", "walletIdentityStatus", "contextRefs", "permissionManifestHash"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "id": {"type": "string"},
+    "kind": {"const": "operator_authorized_runtime_activation"},
+    "activationAuthorizationRef": {"type": "string", "minLength": 1},
+    "observedAt": {"type": "string", "format": "date-time"},
+    "organismId": {"type": "string"},
+    "bornAt": {"type": "string", "format": "date-time"},
+    "lastLifeEventAt": {"type": "string", "format": "date-time"},
+    "elapsedSinceLastLifeEventMs": {"type": ["integer", "null"], "minimum": 0, "description": "Elapsed wall time, not a claim of biological sleep or continuous lived experience."},
+    "constitutionHash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "canonicalCyclesBefore": {"const": 7},
+    "biologicalStatus": {"const": "not_applied"},
+    "walletIdentityStatus": {"enum": ["UNRESOLVED", "OPERATOR_VERIFIED_BINDING"]},
+    "contextRefs": {"type": "array", "items": {"type": "string"}, "description": "Approved identity/history metadata, project/task state, distinct resource namespaces and permission manifest. No new objectives or biological stimulus labels."},
+    "permissionManifestHash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

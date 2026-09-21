@@ -1,0 +1,16 @@
+{
+  "digestDefinition": "SHA-256 of compact sorted UTF-8 JSON relative-path to file-SHA256 map; manifest excludes itself",
+  "files": {
+    "POST_PASS4_READINESS_AUDIT.md": "66cceb15c5537cabc669f71bd9bbfafd260fdec1db95f705a627916c5721f326",
+    "audited-source-hashes.json": "5bbe36bea18e92aec3494601946663c632ca9884a3cd8409f1b3c0110105dff2",
+    "canonical-context-inventory.json": "22323760fcdc2d7890079b4f5e8fd5b278d323985882ff94d601fbfa8e433c5d",
+    "checks.json": "1f546a58d2e877e62a855a895948da86624f3b3604ebcab442b139098e425cf2",
+    "database-catalog.json": "13b9f450f9cbe6480a49bd0881d607c0eceadba6baa583bd4202e093befd83e6",
+    "evidence-verification.json": "3e2a4f580e9a3050f228afc4f9ef8a3726aaed5207cfdada75ce68377415d732",
+    "lint.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "preservation.json": "751892a97450e7b2e3309b0ea949030fa780c783819eb6b71f8697325a6d5e78",
+    "readiness-summary.json": "0891a4ded76ba5033f546ac894a7533e811ad3b19859a88701f9cc13dc226f25",
+    "typecheck.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "contentSha256": "660448063b8fda16381f4c9b8ad7e953cd241124a4a50dd0ee075ef63dbb7057"
+}

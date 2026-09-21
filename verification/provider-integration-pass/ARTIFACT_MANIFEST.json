@@ -1,0 +1,21 @@
+{
+  "digestDefinition": "SHA-256 of compact sorted UTF-8 JSON relative-path to file-SHA256 map; manifest excludes itself",
+  "files": {
+    "PROVIDER_INTEGRATION_REPORT.md": "d211dd79fcea013defcd528e4c74b87928923a2b75050febdf99676c6c5e8a02",
+    "build.txt": "ec6d92ea02afa95fc12d3c98cce252a1ef2e87a4fef09501dabfe3e644a9c037",
+    "checks.json": "cf0942c31c6c9d550d36f203837ad4e932063659a3021ac355ff7580f9fa7493",
+    "context-regression.txt": "4173961530390546e20880304064f27890dc3e5a74e97680bb49c706b31239a4",
+    "fixture-admission-inspection.json": "72ab014d063a4288fd5a1b24cf4097ed04a3bc8844a02738fe2674adb0c3b1d5",
+    "frozen-preservation.json": "2bf71a74d615aa79f0bae21e972f3c2154788289e2d97989d812b7ed2fe09413",
+    "full-tests-initial.txt": "fcccd308a5d7b2dac9854c474e8712e4b9c27a6056029265809967dc61319ade",
+    "full-tests.txt": "c6174cd155d4adc6df5134539cb7639390272c7ac5afedf7fa09d255267aae63",
+    "lint.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "preservation.json": "cc4f45d0ba351b630b3d78f914ff1286b6733f5f8528360759a5332fcbd9d627",
+    "runtime-identities.json": "11d6a10c6c9c3e50e423253c17e8faf31dd71ff4f07326e34086082b28dc2e41",
+    "source-changes.json": "73a2935857d296842504e5e384f9d1ec055943c5dd36bdf7adb4df23bb71e911",
+    "source-hashes.json": "001d615af8eb291dfee0b970c93de62ca166ce21a52f1c45f6e4890cf2c338f9",
+    "targeted.txt": "f0d03be05ca508285a04df91f090b9e02454c6fdc6018d2f09d9e418f3361909",
+    "typescript.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "contentSha256": "b4b75cb917e55e2bf099e6c154790da009ef7137d145fd0429bc7b76caa1ba7b"
+}

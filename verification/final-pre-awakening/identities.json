@@ -1,0 +1,74 @@
+{
+  "runtime": {
+    "version": "runtime-v1-oneshot-1.0.0",
+    "sha256": "a797893e91b11d65e929d7b9e0b7a46913b1433269c23b2e41972ff5ef4e99da"
+  },
+  "constitution": {
+    "version": "1.0.0",
+    "hash": "473a0f392e4bd0105a731f5c382d1d4ba07bec6b189852cb354d4332bfd0f169"
+  },
+  "policy": {
+    "version": "policy-v1",
+    "hash": "9a51938531c53f2d8ad96be9e0fa9d49b84505151bf99f398329347e5a6f1533"
+  },
+  "mode": {
+    "version": "1.0.0",
+    "hash": "cc16b326232479bb0679ffdc82b4d4a687873977e48e08ced44cc10d8f8f3ee0"
+  },
+  "event": {
+    "version": 1,
+    "hash": "179acfee77f40c944c003e91d4a85611fb5d88e8dd4d9f95f769ea5e40101b20"
+  },
+  "modeConfiguration": {
+    "id": "GENESIS_FIRST_AWAKENING_V1",
+    "version": "1.0.0",
+    "authorization": "NOT_AUTHORIZED",
+    "maximumCycles": 1,
+    "expectedDecisions": 7,
+    "maximumProviderAttempts": 1,
+    "maximumCostMicros": 50000,
+    "maximumInputTokens": 12000,
+    "maximumOutputTokens": 1200,
+    "timeoutMs": 25000,
+    "leaseMs": 60000,
+    "automaticRetries": 0,
+    "executionLock": "CLOSED",
+    "scheduleEnabled": false,
+    "biologicalMode": "SAVED-OBSERVATION-ONLY",
+    "allowedLocalEffects": [
+      "local_reflection",
+      "local_artifact"
+    ],
+    "allowedOutcomes": [
+      "ABSTAIN",
+      "DEFER",
+      "REQUEST_ASSISTANCE",
+      "PROPOSAL"
+    ],
+    "forbiddenEffects": [
+      "biological_advance",
+      "biological_stimulation",
+      "neural_step",
+      "fly_runtime",
+      "wallet_rpc",
+      "wallet_signing",
+      "transfers",
+      "trading",
+      "token_launch",
+      "clawpump",
+      "purchases",
+      "hiring",
+      "external_message",
+      "social_posting",
+      "internet",
+      "browser_automation",
+      "shell",
+      "filesystem_execution",
+      "unadmitted_external_api",
+      "scheduler",
+      "second_cycle"
+    ],
+    "providerAdmission": "PENDING"
+  },
+  "authorization": "NOT_AUTHORIZED"
+}

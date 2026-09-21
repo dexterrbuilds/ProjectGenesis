@@ -1,0 +1,30 @@
+{
+  "kind": "completion-audit-artifact-manifest",
+  "digestDefinition": "SHA-256 of compact sorted UTF-8 JSON file-hash map; ARTIFACT_MANIFEST.json excluded",
+  "files": {
+    "GENESIS_COMPLETION_AUDIT.md": "f451cc055b67ab605d591ba6f25748ea47d1961519d87a5400edb0b7bcafa230",
+    "VERIFICATION_SUMMARY.md": "60eb1ec320738b71f77ca76fb3638f43cd8d9b50afdd1fd554e1a0e60f870ff3",
+    "build-default-local.txt": "205beb1398542e07113a3250f073ef0b6a86469db13bfac5e10e313256af0c48",
+    "build-default.txt": "862380e1eb514fae772ff19219e9c86cb94b088f9903e39c8506472463e801c3",
+    "build.txt": "4983aa40f4abbb8465978d97ae7ee6d04f8dd0873a32f27d88b806ac388eda86",
+    "canonical-after.json": "24f030093ca4622107f441a8fadd2aba1550fe6603ed481d6f8a69928777b6c8",
+    "canonical-before.json": "7ea1f46f4008090cbf0736926f0da5cd404ba0cd674f586cf7a7af92ed54e860",
+    "canonical-inventory.json": "c8a53f3ea6e8ec748538196ed4f38db5feb5c08b48a437a09d2fc1d6d087f08d",
+    "canonical-schema.json": "4f4879b1cee324c9938223b0f7a8c5ed43ab0a4a3029324b4e7525f6c5ec5d0d",
+    "catalog-audit.mjs": "2456cc9a8f235101da11af10c02c1e3b2aa4280be149ba56e95fefe44d1a61e2",
+    "checks.json": "21663211fb0617f1adfd536639acd6be486061218cdd07c9e9de6ce4d644dbab",
+    "completion-matrix.json": "1448653dc9c2524cf468e791cf8f595d29c89a1dc574bbfe8817031d2e9f42b6",
+    "environment.json": "d1394c1065e67f1416fe007150b2bef41b1f7b2d30915a3a3a46c0c1713a3a9b",
+    "frozen-preservation.json": "aa0e81104856f7d175e9290b72fb2b93c940f16f7d2dbb5d29b7986f2f10e781",
+    "intent-compatibility-probe.mjs": "4d59fd7fc1c0ca1769009fc0273e5493bde6419965a06bc1ea3c959868134dbd",
+    "intent-compatibility.json": "390984e5b005c56eb0d2968df5be70b6186f1f15b2b3b67befee42be7ac8f3c7",
+    "lint.txt": "01a448f5176ec0decb011933eb27354f58d96ad06049f9418f5a112a23b45a6f",
+    "source-before.json": "56af8883cdf6c136249ab97fc16c229971cf6252ec3e964422857aa1cc4288d5",
+    "source-preservation.json": "40492a703de6302cb65ed7647bffca747aff69a3e0ebbbd0afe9f51485e2e33c",
+    "tests-local-postgres.txt": "122862f11b1a875942be3f66ad5254ad55e7412d8c757f72265bd780029a8a66",
+    "tests.txt": "a2a810acb9d3226c33fdb059dc98d30f5eb35fcb1ecf4d4dd30ea7003bad37f9",
+    "typecheck-after-build.txt": "c3a4984e39ca90092b12f60776cde004ced3e82b73efb8a6f5d01ec01d9617b7",
+    "typecheck.txt": "ceadf470f540f57924af816be197052764b025a7a7ba262b567f0a84540ff8c9"
+  },
+  "contentSha256": "10335431298e5952c2656aba96ac35fc842be71902bf25847d18a510b11ddf51"
+}

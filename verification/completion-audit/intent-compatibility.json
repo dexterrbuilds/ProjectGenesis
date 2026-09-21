@@ -1,0 +1,17 @@
+{
+  "scope": "PURE AUDIT FIXTURE; NOT CANONICAL",
+  "recordSource": "server/one-shot.ts OneShotController.journal",
+  "consumer": "core/v2/policy.ts transitionIntent (used by LifeExtensionStore.recordIntentTransition)",
+  "missingCanonicalIntentFields": [
+    "organismId",
+    "policy",
+    "reservedMicros",
+    "approval"
+  ],
+  "transition": "proposed -> denied",
+  "result": "REJECTED",
+  "error": {
+    "name": "TypeError",
+    "message": "Cannot read properties of undefined (reading 'payloadHash')"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "Local Next.js proxy to sanitized GET-only fixture; not a canonical HTTP request",
+  "results": [
+    {
+      "path": "/api/state",
+      "status": 200,
+      "bytes": 3459,
+      "topLevelFields": [
+        "schemaVersion",
+        "identity",
+        "status",
+        "executionLock",
+        "biologicalMode",
+        "savedBrain",
+        "counts",
+        "economy",
+        "onchain",
+        "attributedRevenue",
+        "privateContentWithheld",
+        "history",
+        "schedule",
+        "biological"
+      ],
+      "forbiddenMarkers": []
+    },
+    {
+      "path": "/api/history",
+      "status": 200,
+      "bytes": 2585,
+      "topLevelFields": [
+        "decisions"
+      ],
+      "forbiddenMarkers": []
+    },
+    {
+      "path": "/api/brain",
+      "status": 200,
+      "bytes": 306037,
+      "topLevelFields": [
+        "id",
+        "nodes",
+        "edges"
+      ],
+      "forbiddenMarkers": []
+    }
+  ]
+}

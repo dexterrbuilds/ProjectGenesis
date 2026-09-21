@@ -1,0 +1,26 @@
+{
+  "sha256": "3377c9dddbe2abf89ed9a820a6aabbc1da951cac7bfc1823471c5aac043ea312",
+  "tableRowCounts": {
+    "genesis_decisions": 7,
+    "genesis_external_observations": 0,
+    "genesis_ledger": 4,
+    "genesis_memories": 7,
+    "genesis_migrations": 2,
+    "genesis_milestones": 4,
+    "genesis_organisms": 1,
+    "genesis_projects": 1,
+    "genesis_schedule": 1
+  },
+  "schedule": [
+    {
+      "id": "genesis",
+      "enabled": false,
+      "remaining_cycles": null,
+      "next_at": "2026-09-14T22:17:38.205548-07:00",
+      "last_heartbeat": "2026-09-16T20:44:24.831772-07:00",
+      "last_error": null,
+      "updated_at": "2026-09-14T22:17:38.205548-07:00"
+    }
+  ],
+  "mode": "repeatable-read read-only; canonical cycles run: 0"
+}

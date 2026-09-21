@@ -1,0 +1,110 @@
+{
+  "frozenFiles": 9319,
+  "bytesVerified": 15967076255,
+  "mismatches": [],
+  "allFrozenMatch": true,
+  "previousPackages": [
+    {
+      "path": "verification/awakening-preparation/ARTIFACT_MANIFEST.json",
+      "contentSha256": "cb20968f9f6cbe70b40c4187005fef965c55b7c3e486c12742080fc6f32821b2",
+      "matches": true,
+      "manifestKind": "HISTORICAL_REPOSITORY_PATH_SNAPSHOT",
+      "definition": "SHA-256 of compact sorted JSON path-to-file-hash map; excludes this manifest",
+      "contentHashMatches": true,
+      "archivedEvidenceMismatches": [],
+      "historicalWorkingSourceDifferences": [
+        "Dockerfile",
+        "components/live-observation.tsx",
+        "core/v2/planner.ts",
+        "core/v2/public.ts",
+        "server/commit-v2.ts",
+        "server/isolated-cycle.ts",
+        "server/life-store-v1.ts",
+        "server/provider-control.ts",
+        "tests/support/active-fixture.ts"
+      ],
+      "archivedEvidencePreserved": true,
+      "fullHistoricalSourceSnapshotMatches": false,
+      "matchesMeaning": "Recorded content-hash definition and archived verification evidence match; live source snapshots intentionally differ across authorized passes."
+    },
+    {
+      "path": "verification/completion-audit/ARTIFACT_MANIFEST.json",
+      "contentSha256": "10335431298e5952c2656aba96ac35fc842be71902bf25847d18a510b11ddf51",
+      "matches": true,
+      "mismatches": [],
+      "manifestKind": "SELF_CONTAINED_REVIEW_PACKAGE"
+    },
+    {
+      "path": "verification/continuous-life-pass/ARTIFACT_MANIFEST.json",
+      "contentSha256": "f88e624a1521e2262f914af1f9390e8673e5118baeddc4a6e705ebc05c0d02cf",
+      "matches": true,
+      "mismatches": [],
+      "manifestKind": "SELF_CONTAINED_REVIEW_PACKAGE"
+    },
+    {
+      "path": "verification/final-pre-awakening/ARTIFACT_MANIFEST.json",
+      "contentSha256": "4d6e2f2ff50cee341673ff0df6970eeae8786a155d423355c60f64e8408cf1f9",
+      "matches": true,
+      "manifestKind": "HISTORICAL_REPOSITORY_PATH_SNAPSHOT",
+      "definition": "SHA-256 of compact sorted JSON path-to-file-hash map; excludes this manifest",
+      "contentHashMatches": true,
+      "archivedEvidenceMismatches": [],
+      "historicalWorkingSourceDifferences": [
+        "Dockerfile",
+        "components/live-observation.tsx",
+        "core/v2/context.ts",
+        "core/v2/contracts.ts",
+        "core/v2/cycle.ts",
+        "server/commit-v2.ts",
+        "server/one-shot-spec.ts",
+        "server/one-shot.ts"
+      ],
+      "archivedEvidencePreserved": true,
+      "fullHistoricalSourceSnapshotMatches": false,
+      "matchesMeaning": "Recorded content-hash definition and archived verification evidence match; live source snapshots intentionally differ across authorized passes."
+    },
+    {
+      "path": "verification/foundation-repair/ARTIFACT_MANIFEST.json",
+      "contentSha256": "e2397982a7fc270385e536903477bfebf932e9d67c080c92e2bd798a74094d89",
+      "matches": true,
+      "mismatches": [],
+      "manifestKind": "SELF_CONTAINED_REVIEW_PACKAGE"
+    },
+    {
+      "path": "verification/life-state-pass/ARTIFACT_MANIFEST.json",
+      "contentSha256": "28c447d4e72661ea7ec5d60993c6e929aa029d3e543c9e1b0e69b7adcd3aa5fe",
+      "matches": true,
+      "mismatches": [],
+      "manifestKind": "SELF_CONTAINED_REVIEW_PACKAGE"
+    },
+    {
+      "path": "verification/memory-pass/ARTIFACT_MANIFEST.json",
+      "contentSha256": "38ab228a1d5c9e1e66d693a730f481ff3aa417e025d8e52676ffc13b1492a067",
+      "matches": true,
+      "mismatches": [],
+      "manifestKind": "SELF_CONTAINED_REVIEW_PACKAGE"
+    },
+    {
+      "path": "verification/operator-control-pass/ARTIFACT_MANIFEST.json",
+      "contentSha256": "35e06e5d5a465a07988eb7e5b1546dc2c1bb1d1e1f0a4844530fb406bb201ebb",
+      "matches": true,
+      "mismatches": [],
+      "manifestKind": "SELF_CONTAINED_REVIEW_PACKAGE"
+    },
+    {
+      "path": "verification/post-pass4-audit/ARTIFACT_MANIFEST.json",
+      "contentSha256": "660448063b8fda16381f4c9b8ad7e953cd241124a4a50dd0ee075ef63dbb7057",
+      "matches": true,
+      "mismatches": [],
+      "manifestKind": "SELF_CONTAINED_REVIEW_PACKAGE"
+    },
+    {
+      "path": "verification/provider-integration-pass/ARTIFACT_MANIFEST.json",
+      "contentSha256": "b4b75cb917e55e2bf099e6c154790da009ef7137d145fd0429bc7b76caa1ba7b",
+      "matches": true,
+      "mismatches": [],
+      "manifestKind": "SELF_CONTAINED_REVIEW_PACKAGE"
+    }
+  ],
+  "elapsedSeconds": 114.65
+}

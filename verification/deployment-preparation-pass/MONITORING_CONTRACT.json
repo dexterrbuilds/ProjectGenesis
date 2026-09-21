@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "status": "PREPARED_NO_EXPORTER_STARTED",
+  "exposure": "PRIVATE_OPERATOR_ONLY_EXCEPT_PUBLIC_LIVENESS_AND_READINESS",
+  "labels": ["service", "release_hash", "status"],
+  "forbiddenLabels": ["memory", "context", "human_response", "operator_evidence", "credential", "provider_body", "relationship"],
+  "signals": [
+    {"name":"runtime_alive","source":"GET /health","alert":"unreachable; production probing cadence to be verified"},
+    {"name":"runtime_ready","source":"GET /readiness","alert":"503; private inspect schema/release/DB/identity"},
+    {"name":"oneshot_active_or_ambiguous","source":"operator inspect_grant / inspect_attempt","alert":"CLAIMED beyond lease or AMBIGUOUS; no automatic retry"},
+    {"name":"continuous_claims_and_queue","source":"operator inspect_queue / inspect_scopes","alert":"expired claim, REVIEW_REQUIRED, backlog, expiry; inspect bounded resources"},
+    {"name":"provider_outstanding_liability","source":"operator inspect_provider_attempt / inspect_queue resources","alert":"reserved, dispatching or unknown; unknown cost remains unresolved"},
+    {"name":"provider_attempts_and_cost","source":"genesis_provider_attempts and immutable genesis_provider_receipts through trusted private inspection","alert":"budget ceiling or usage unknown; no body export"},
+    {"name":"cycle_commit_failure","source":"genesis_decisions, genesis_cycle_attempts, genesis_continuous_attempts private aggregate","alert":"committed count disagreement or failed/ambiguous transition"},
+    {"name":"worker_stopped_idle","source":"consumer process exit and continuous journal/resources","alert":"unexpected running process without reviewed session or missed supervised stop"},
+    {"name":"schema_mismatch","source":"readiness and pinned catalog comparison","alert":"block public projection and consumers; no boot repair"}
+  ],
+  "limitations":["No external monitoring service configured","Health does not prove DB readiness","No monitoring query creates authority","Managed host alert delivery and retention require infrastructure verification","Operator inspection results can contain private state and are not public metrics"]
+}

@@ -18,6 +18,7 @@ export async function migrate(pool: pg.Pool) {
   } catch (e) { await client.query('ROLLBACK'); throw e; } finally { client.release(); }
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  if (process.env.NODE_ENV==='production') throw new Error('Use the reviewed deployment installer; legacy migrations are disabled in production');
   if (!process.env.DATABASE_URL) throw new Error('DATABASE_URL is required');
   const pool = new pg.Pool({ connectionString: process.env.DATABASE_URL });
   try { await migrate(pool); console.log('Project Genesis migrations applied.'); } finally { await pool.end(); }

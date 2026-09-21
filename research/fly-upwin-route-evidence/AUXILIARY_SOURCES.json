@@ -1,0 +1,110 @@
+{
+  "files": [
+    {
+      "path": "sources/79042-alpha1/Figure_3-figure-supplement2B_Source_data.xlsx",
+      "sha256": "4ab25f73c3270edabed23e9f5ef412fc00a8218344fb90b8cda63a8bfa8ba660",
+      "bytes": 1121474,
+      "url": null,
+      "source_scope": "HTML-derived text or byte-preserved embedded archive member; parent provenance below",
+      "zip_crc_verified": true,
+      "parent_archive": "sources/elife-79042-fig3-figsupp2-data1-v2.zip",
+      "member_path": "79042_Figure_3-figuresupplement2_source_data/Figure_3-figure-supplement2B_Source_data.xlsx"
+    },
+    {
+      "path": "sources/79042-alpha1/Figure_3-figure-supplement2C_Source_data.xlsx",
+      "sha256": "799986035fbbe9564598dfe607788d741e4283a4f215538d6fddb36982a6d450",
+      "bytes": 80546,
+      "url": null,
+      "source_scope": "HTML-derived text or byte-preserved embedded archive member; parent provenance below",
+      "zip_crc_verified": true,
+      "parent_archive": "sources/elife-79042-fig3-figsupp2-data1-v2.zip",
+      "member_path": "79042_Figure_3-figuresupplement2_source_data/Figure_3-figure-supplement2C_Source_data.xlsx"
+    },
+    {
+      "path": "sources/79042-alpha1/Figure_3-figure-supplement2D_Source_data.xlsx",
+      "sha256": "22c3b806a8f5c46233c7aaf925387b02219d7ec3257116e3e98b222fc83a7efc",
+      "bytes": 9617,
+      "url": null,
+      "source_scope": "HTML-derived text or byte-preserved embedded archive member; parent provenance below",
+      "zip_crc_verified": true,
+      "parent_archive": "sources/elife-79042-fig3-figsupp2-data1-v2.zip",
+      "member_path": "79042_Figure_3-figuresupplement2_source_data/Figure_3-figure-supplement2D_Source_data.xlsx"
+    },
+    {
+      "path": "sources/article-text.txt",
+      "sha256": "57e3f37abf8ecc4ac32bf79e04ffeae39ccc58f4b0fe5759b459c4668608be69",
+      "bytes": 215335,
+      "url": null,
+      "source_scope": "HTML-derived text or byte-preserved embedded archive member; parent provenance below"
+    },
+    {
+      "path": "sources/article.html",
+      "sha256": "d72950ecda68f42ad6b90264f652f1a6b074fce191028500482e37d8bf6b4d9e",
+      "bytes": 739933,
+      "url": "https://elifesciences.org/articles/85756",
+      "source_scope": "authoritative original"
+    },
+    {
+      "path": "sources/elife-79042-fig3-data1-v2.zip",
+      "sha256": "e40ec37fe81c37b8a7a2ca1ceb427d3722dcc1ae14c89abd97e665cdc5f82072",
+      "bytes": 51284239,
+      "url": "https://cdn.elifesciences.org/articles/79042/elife-79042-fig3-data1-v2.zip",
+      "source_scope": "authoritative original",
+      "zip_crc_verified": true
+    },
+    {
+      "path": "sources/elife-79042-fig3-figsupp2-data1-v2.zip",
+      "sha256": "7b26d9ba32f5144c98bef1fe4329f3d56d342176195c747b91fd304406432c6a",
+      "bytes": 1204157,
+      "url": "https://cdn.elifesciences.org/articles/79042/elife-79042-fig3-figsupp2-data1-v2.zip",
+      "source_scope": "authoritative original",
+      "zip_crc_verified": true
+    },
+    {
+      "path": "sources/elife-79042-figures.html",
+      "sha256": "217e64a3283427bd483a4e915b1aa3214db41dc8606fc0554b02d8783f5794a8",
+      "bytes": 277609,
+      "url": "https://elifesciences.org/articles/79042/figures",
+      "source_scope": "authoritative original"
+    },
+    {
+      "path": "sources/elife-79042-supp1-v2.xlsx",
+      "sha256": "ab508db17697b69584388cc270ebf15b4a65ca257063be6b5c586394505d411e",
+      "bytes": 674970,
+      "url": "https://cdn.elifesciences.org/articles/79042/elife-79042-supp1-v2.xlsx",
+      "source_scope": "authoritative original",
+      "zip_crc_verified": true
+    },
+    {
+      "path": "sources/elife-79042.html",
+      "sha256": "c847cf79717ff97a29aab7e32858b0bba5d220ee873ca4f743cdd206b0993abe",
+      "bytes": 639425,
+      "url": "https://elifesciences.org/articles/79042",
+      "source_scope": "authoritative original"
+    },
+    {
+      "path": "sources/elife-85756-fig3-figsupp1-v3.jpg",
+      "sha256": "4c1f59ee409d4e188afd853caf5f4c26e1845adbae0a5adf2e225f510a6784fb",
+      "bytes": 284937,
+      "url": "https://iiif.elifesciences.org/lax:85756%2Felife-85756-fig3-figsupp1-v3.tif/full/1234,/0/default.jpg",
+      "source_scope": "authoritative original"
+    },
+    {
+      "path": "sources/figures.html",
+      "sha256": "b2d75128e206629b2160ef33ad908e7bc756240ca081a62ed036a8ed0391396c",
+      "bytes": 356647,
+      "url": "https://elifesciences.org/articles/85756/figures",
+      "source_scope": "authoritative original"
+    },
+    {
+      "path": "sources/frontiers-1822122.html",
+      "sha256": "147e56a66c7f4f14ba163acc3cc367f0128b417b9308b7c82024589250877e0c",
+      "bytes": 2280678,
+      "url": "https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2026.1822122/full",
+      "source_scope": "authoritative original"
+    }
+  ],
+  "acquisition_limits": "Author-hosted summarized figure values do not constitute full raw trial/image/trajectory datasets. Missing metadata never inferred.",
+  "license_scope": "eLife article Creative Commons Attribution; original source workbook attribution preserved; frontiers article consulted for anatomical hypothesis only",
+  "resumed_download": "79042 fig3-data1 initial timeout after22347776 of51284239 bytes; completed by HTTP resume and ZIP CRC verification"
+}

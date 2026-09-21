@@ -1,0 +1,54 @@
+{
+  "fullSerialSuite": {
+    "total": 564,
+    "passed": 564,
+    "failed": 0,
+    "skipped": 0,
+    "log": "full-suite-final.txt"
+  },
+  "focusedErrorPropagation": {
+    "passed": 82,
+    "failed": 0,
+    "log": "error-propagation-02.txt"
+  },
+  "finalLeaseAndDeployment": {
+    "passed": 40,
+    "failed": 0,
+    "log": "deployment-final.txt"
+  },
+  "finalTopology": {
+    "passed": 1,
+    "failed": 0,
+    "log": "topology-final.txt"
+  },
+  "deploymentCriticalTotal": 18,
+  "newContractTests": 23,
+  "typeScript": {
+    "status": "PASS",
+    "log": "typecheck-final-02.txt"
+  },
+  "eslint": {
+    "status": "PASS",
+    "warnings": 0,
+    "log": "lint-final-02.txt"
+  },
+  "webpackProductionBuild": {
+    "status": "PASS",
+    "log": "build-final.txt",
+    "note": "Existing Node module.register deprecation warning; no build error."
+  },
+  "dormantE2E": {
+    "status": "PASS",
+    "evidence": "OBSERVER_E2E.json"
+  },
+  "backupRestore": "PASS in deployment and topology fixtures",
+  "docker": "CONTAINER EXECUTION NOT VERIFIED LOCALLY",
+  "productionDeployment": false,
+  "canonicalInstallation": false,
+  "retainedEarlierFailures": [
+    "full-suite.txt: old continuous error-message assertion; corrected only expected bounded category",
+    "typecheck-final.txt: DOM/Node timer handle type in test; type-only correction",
+    "lint-final.txt: unused test import; removed",
+    "error-propagation.txt: local PostgreSQL unavailable after interruption; existing cluster restarted, unchanged canonical digest verified"
+  ]
+}

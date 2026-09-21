@@ -1,0 +1,46 @@
+{
+  "source": "research/fly-upwin-transfer-identifiability/COUNTEREXAMPLES.json",
+  "entries": [
+    {
+      "claim": "learned signal has nonzero downstream effect",
+      "adversary": "Z or a local plateau; or ν exactly cancels f(left)-f(right)",
+      "required_downgrade": "conditional nonzero only"
+    },
+    {
+      "claim": "direction is determined",
+      "adversary": "P versus R; or unrestricted ν reverses either",
+      "required_downgrade": "conditional direction only"
+    },
+    {
+      "claim": "same sign under monotonic map means biological inhibition",
+      "adversary": "earlier CE-sign: opposite direct sign plus covarying unmeasured input",
+      "required_downgrade": "assumed function orientation, not receptor evidence"
+    },
+    {
+      "claim": "all target cells express learning",
+      "adversary": "H with zero responsive mass or mixed signs/cancellation",
+      "required_downgrade": "no target population fraction identified"
+    },
+    {
+      "claim": "learning causes recall-related downstream change",
+      "adversary": "N varies with cue/history independently of Stage1 state; alternatively nuisance cancels real model influence",
+      "required_downgrade": "matched-context mathematical dependence only"
+    },
+    {
+      "claim": "cue-selective magnitude is invariant",
+      "adversary": "nonlinear increasing f changes differences-of-differences and effect ratios",
+      "required_downgrade": "do not compute a universal magnitude ranking"
+    },
+    {
+      "claim": "restored equality establishes physiological reset",
+      "adversary": "same scalar with different hidden context under N",
+      "required_downgrade": "saved-model reset plus matched-map equality only"
+    },
+    {
+      "claim": "action-related kinematics follow",
+      "adversary": "no identified observation map; behavioral domains remain separate",
+      "required_downgrade": "no kinematic prediction allowed"
+    }
+  ],
+  "execution_requirement": "Emit the counterexample references and applicable analytic family alternatives beside every restricted positive conclusion; no new fitting."
+}

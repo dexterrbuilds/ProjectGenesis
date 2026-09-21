@@ -1,0 +1,604 @@
+{
+  "method": "Static enumeration of the Docker COPY allowlist matching .dockerignore; not a daemon/image measurement",
+  "files": 146,
+  "bytes": 10234209,
+  "researchIncluded": "Only frozen Brain Spec v0.2 runtime evidence package",
+  "excluded": [
+    "other research",
+    "outputs",
+    "verification",
+    "env credentials",
+    "host node_modules",
+    "git",
+    "local databases",
+    "caches"
+  ],
+  "dockerAvailable": false,
+  "containerExecution": "NOT VERIFIED LOCALLY",
+  "entries": {
+    ".npmrc": {
+      "bytes": 45,
+      "sha256": "a3909ac0447c469fda12c57374993be70f47ce73e49fd3124678c7c047f2214d"
+    },
+    "ARCHITECTURE.md": {
+      "bytes": 8313,
+      "sha256": "182dad8befc66e01604d93070c9bf1f25c60a19c98279c2b4d1fad30212d823f"
+    },
+    "Dockerfile": {
+      "bytes": 470,
+      "sha256": "9b1c12e6c082924cb185dc330baec86a3c099e2e6f3400867fe6450c0c519232"
+    },
+    "README.md": {
+      "bytes": 5647,
+      "sha256": "731470a7b191ca8490241fb573279ea6193dfff46a8d91e12d244af40e43a5a5"
+    },
+    "SCIENCE.md": {
+      "bytes": 9801,
+      "sha256": "da894153bc29beb73f686cd31a6fe764257e66aefe54908e8b05105020aadaa6"
+    },
+    "config/first-awakening-event.schema.json": {
+      "bytes": 1689,
+      "sha256": "179acfee77f40c944c003e91d4a85611fb5d88e8dd4d9f95f769ea5e40101b20"
+    },
+    "config/first-awakening-v1.json": {
+      "bytes": 906,
+      "sha256": "3b6acc3a90f9fa38cce27162c8e7d6275402367b98f6c19334d98462af5461e7"
+    },
+    "config/first-awakening-v1.proposed.json": {
+      "bytes": 1340,
+      "sha256": "223d65c598b2ddbcf79a582310f7109817779576e0a3aa545c824759ed9f8510"
+    },
+    "config/provider-admission.pending.json": {
+      "bytes": 542,
+      "sha256": "6baeba6199612e7dfeab720e5f69312dcb73e038c8b0d939cfe3639e023f2dce"
+    },
+    "core/brain/celegans.ts": {
+      "bytes": 6839,
+      "sha256": "0ee044fcd922e4916340a6c7083903a310ae3af7998d07c2eefc910169806fec"
+    },
+    "core/contracts.ts": {
+      "bytes": 3921,
+      "sha256": "c9c524783d248e13de776768e7c754d473f26bb339e6329a55877cf670d15756"
+    },
+    "core/economy/adapters.ts": {
+      "bytes": 4587,
+      "sha256": "1ff8db7e0903b1535b5b8d623eedce9bdd51d975746a74e288f3c0f318c7179a"
+    },
+    "core/identity.ts": {
+      "bytes": 1677,
+      "sha256": "d8214c8b6e33f951670be7e2b0e3c7c151b869f44656c8149e718a96b9f5a6d0"
+    },
+    "core/life.ts": {
+      "bytes": 10801,
+      "sha256": "4dd6d25c5da0b79f1a03b14278d1e0de7c2d7b3cc8ef6a78b81562b9bc5352b3"
+    },
+    "core/planner.ts": {
+      "bytes": 5584,
+      "sha256": "d09276522a1e4af39e0462d3d782022d01a7a0f6723bc4f3d33c644183b2a155"
+    },
+    "core/policy.ts": {
+      "bytes": 1119,
+      "sha256": "e6498d4940c9906bb19c707a752791179be6f664b6922f0ee871399ae93d92af"
+    },
+    "core/sensory.ts": {
+      "bytes": 1636,
+      "sha256": "24541748f33751eb9e5c7230fd8e8041a015db75698544018509fb5d4814ff07"
+    },
+    "core/v2/biology.ts": {
+      "bytes": 5515,
+      "sha256": "72588cb3f1244c91c54894bb3ae06f5d446b456d04109ca34a72e554b72c51df"
+    },
+    "core/v2/context.ts": {
+      "bytes": 8570,
+      "sha256": "a65bf5b2906fc61539b1bc96af08da5677aff95d5afb3e06d2656f5c16e53df4"
+    },
+    "core/v2/continuous.ts": {
+      "bytes": 7645,
+      "sha256": "e0848ada3899fc5d7b4731fc6f39723f42561936a91ceb54290abc51525f1390"
+    },
+    "core/v2/contracts.ts": {
+      "bytes": 7197,
+      "sha256": "3b9b5371a9a55149ee9614db39488d4eadeba4fd916c25a91f0ffc14661a02d3"
+    },
+    "core/v2/cycle.ts": {
+      "bytes": 3821,
+      "sha256": "1955eb04e481de90288ff20c12098e6a15f96040fc620df4f99a053c62e01664"
+    },
+    "core/v2/disclosure.ts": {
+      "bytes": 2302,
+      "sha256": "1e8d159d23c7d2d7ec4ef2a4729b5fda653f5f8b974e1f0222063d1c020e5e5b"
+    },
+    "core/v2/identity.ts": {
+      "bytes": 3264,
+      "sha256": "efb7ecb200a6314e97a5015bf880878d933e786d195d5dfc7ea348d62298d178"
+    },
+    "core/v2/intents.ts": {
+      "bytes": 4293,
+      "sha256": "50e2966d443536da44d3cf2da04919a1a5e56ab55cdb25772dd51b5e068d28cc"
+    },
+    "core/v2/life-state.ts": {
+      "bytes": 2978,
+      "sha256": "47d9823b1c2f953b7cfe79c6f3476af70d90095c568c97d77527aee338f08ad6"
+    },
+    "core/v2/memory.ts": {
+      "bytes": 23529,
+      "sha256": "19395b183b0b0ad713bb810930e00da8b434a3037b2c395e420875d407aca52c"
+    },
+    "core/v2/operational-context.ts": {
+      "bytes": 4827,
+      "sha256": "63afbf319bfcc8e15c5b3d63b390d498e90ca5809082f2e23eed47ef1ccc6f90"
+    },
+    "core/v2/operations.ts": {
+      "bytes": 18866,
+      "sha256": "1cdfd4537cfb9e5fa495c616ed0c416d008d5bec32bbd43c9c5fb0fa9d05d1cf"
+    },
+    "core/v2/planner.ts": {
+      "bytes": 5047,
+      "sha256": "7f1218d81bb85cc113f126d2f6b31ba951a65cac8f1f72715270218b1c9275a5"
+    },
+    "core/v2/policy.ts": {
+      "bytes": 5859,
+      "sha256": "9785bf0558111439130e4b4bf12ca20e45e87cbe8d1c7d010bdce521a23e49f0"
+    },
+    "core/v2/public.ts": {
+      "bytes": 4545,
+      "sha256": "02f8038c1fb7381fb0dbd1547b24356623ee606c783290b27db7a4ae031d2027"
+    },
+    "core/wallet.ts": {
+      "bytes": 2445,
+      "sha256": "1c48e0834c6f4966ed4a69b51490d98eaabcd1a710223f7980b6fafcd88d1633"
+    },
+    "data/README.md": {
+      "bytes": 1798,
+      "sha256": "13274379941063a0e9e36b7894343b88513634c90d382d619e6440e2727b7f3c"
+    },
+    "data/connectome.json": {
+      "bytes": 306671,
+      "sha256": "1b8bc920fe1899b1bf8350acec84539d34ffe7f4d5351a4d5627fb786344babe"
+    },
+    "data/source/Cells.py": {
+      "bytes": 75573,
+      "sha256": "775b41d13a4852dbb276816c17306bdb43d742fabb89645671787104c43a0757"
+    },
+    "data/source/Cook2019HermReader.json": {
+      "bytes": 5843687,
+      "sha256": "98bdafffce1341d3443a83066a6225a977c8218c28c27d69e4bd465782bd4cc8"
+    },
+    "data/source/LICENSE": {
+      "bytes": 1065,
+      "sha256": "d830e66085a78c912478f0d54867911ded95b37ce35f88a7a2a9513596da31e0"
+    },
+    "package-lock.json": {
+      "bytes": 358574,
+      "sha256": "5a5e48daf1aa4b4fd258d03ecf11cf79f037aecb34be3757877cc3da31b760ac"
+    },
+    "package.json": {
+      "bytes": 1811,
+      "sha256": "ada4bd240f0f95b9fafd21f5034954e14b4fe3022dce5e340b89ad28b64dfe24"
+    },
+    "research/genesis-brain-spec-v0.2/ADMISSION_REVIEWS.json": {
+      "bytes": 7186,
+      "sha256": "7aebed77372ab49feb87d76215a26fb626335b55bdc41b2fe0bd730683d5b7fd"
+    },
+    "research/genesis-brain-spec-v0.2/APPEND_ONLY_DIFF.json": {
+      "bytes": 1710,
+      "sha256": "fa07d65182dfbef3e78170f837e45fd2f75eb34dc8f0b0c216bc45366eb76326"
+    },
+    "research/genesis-brain-spec-v0.2/CANONICAL_AFTER.json": {
+      "bytes": 739,
+      "sha256": "0c98fed4cf8ebd2b240dd10a24e7321045ed7fdbce04328fc9e4bebc1c0b6cf9"
+    },
+    "research/genesis-brain-spec-v0.2/CANONICAL_BEFORE.json": {
+      "bytes": 739,
+      "sha256": "0c98fed4cf8ebd2b240dd10a24e7321045ed7fdbce04328fc9e4bebc1c0b6cf9"
+    },
+    "research/genesis-brain-spec-v0.2/CANONICAL_IDENTITY_REFERENCES.json": {
+      "bytes": 2655,
+      "sha256": "e0cbd3c0227a5fa0fe299b380585b248e11b4ae3e4caa564ae13344a0aa31f95"
+    },
+    "research/genesis-brain-spec-v0.2/CAPABILITY_REGISTRY.json": {
+      "bytes": 4247,
+      "sha256": "6d682a58b62cb6a299c1ccbfe919ee497fadca9d533c66e4b793f56451fb221b"
+    },
+    "research/genesis-brain-spec-v0.2/DEPENDENCY_VERIFICATION.json": {
+      "bytes": 1347,
+      "sha256": "a72ac5e78799c83c483ed1168993a694e5e1b6ddd5b49e9f2a430927c1c97736"
+    },
+    "research/genesis-brain-spec-v0.2/GENESIS_BRAIN_SPEC.md": {
+      "bytes": 11374,
+      "sha256": "90bf875732fec48428f1437ca49327355b00fd38cfd9d454f5ad7ca5b48b881e"
+    },
+    "research/genesis-brain-spec-v0.2/LITERATURE_READINESS_AUDIT.json": {
+      "bytes": 1021,
+      "sha256": "11fb37c51b74f63b94801bf8655af3db53c21ee140e62c38f37b54cd3ff89d2e"
+    },
+    "research/genesis-brain-spec-v0.2/PACKAGE_MANIFEST.json": {
+      "bytes": 3211,
+      "sha256": "e961f9105e0101ab110503386b158d3548acf62962ea23c885caa4d1ae64869c"
+    },
+    "research/genesis-brain-spec-v0.2/PRESERVATION_BEFORE.json": {
+      "bytes": 1415391,
+      "sha256": "50bf215a209f8539027d32e896128b120e224da2a94a5d3a777cc25bf1913bd2"
+    },
+    "research/genesis-brain-spec-v0.2/README.md": {
+      "bytes": 1556,
+      "sha256": "5851bc0dcb6f824bc45608af6077874e064a80ccdfb54e18ba8989d1e613db35"
+    },
+    "research/genesis-brain-spec-v0.2/REGISTRY_POINTER.json": {
+      "bytes": 165,
+      "sha256": "3d9589f180adc6e1cb1b4a0e4d8911c6ce2841fc36dde9dfbfa5baa3d5e87894"
+    },
+    "research/genesis-brain-spec-v0.2/RELEASE.json": {
+      "bytes": 2832,
+      "sha256": "90aaea995132903cbfca72327f289323f91253678ea087eb7fd30244f94f7788"
+    },
+    "research/genesis-brain-spec-v0.2/RELEASE_GOVERNANCE.json": {
+      "bytes": 986,
+      "sha256": "000e740dcdc743518215e356194f6a8ca11ef862c04ba89cadc0bcb91fe5e587"
+    },
+    "research/genesis-brain-spec-v0.2/RESEARCH_LINEAGE.json": {
+      "bytes": 2824,
+      "sha256": "17ef5848ae7f5effee9e5711d339b0f2c351627d9e9efb48360308fc96adcf03"
+    },
+    "research/genesis-brain-spec-v0.2/REVIEW_AUTHORIZATION.md": {
+      "bytes": 1948,
+      "sha256": "3bc60461efafc77c7df5801c888db36d005c793d542ebc8c20221e04428b9ca3"
+    },
+    "research/genesis-brain-spec-v0.2/SENSORY_BOUNDARY_CONCEPT.md": {
+      "bytes": 3828,
+      "sha256": "78b238fa42b878f2f9c211fe473d781770347293dea0668fcfd893cfc341cc91"
+    },
+    "research/genesis-brain-spec-v0.2/SENSORY_BOUNDARY_CONTRACT.json": {
+      "bytes": 2048,
+      "sha256": "60c074f0fbed4f08b9a509cdd56e3a0e63e00436e03a6f99efe4bd17c39adf73"
+    },
+    "research/genesis-brain-spec-v0.2/STAGE5_READINESS.json": {
+      "bytes": 2068,
+      "sha256": "97d9c58477f62cafa384ab56d601d7cdf774e28dde3c4b962662877b2401b275"
+    },
+    "research/genesis-brain-spec-v0.2/STAGE5_READINESS.md": {
+      "bytes": 10161,
+      "sha256": "fbfee2503bdb6712000b363d41af12d2841c5b164bfb4cc15a93a9ec01caa07d"
+    },
+    "research/genesis-brain-spec-v0.2/TEST_LOG.txt": {
+      "bytes": 1339,
+      "sha256": "1345375d5d67a2d37ee80958e4856496a5846af0dc29107278982115cf49d38b"
+    },
+    "research/genesis-brain-spec-v0.2/V01_VALIDATION.json": {
+      "bytes": 203,
+      "sha256": "6137da127932a9ec0ae010ecb71fc200365ac80ec0730afaa81d68892a5c0f8f"
+    },
+    "research/genesis-brain-spec-v0.2/VERIFICATION.json": {
+      "bytes": 1643,
+      "sha256": "7b159b7b3bf85a3dea865f9a24f217f48b04e359ce1e7e7eca7802bff3f7ec9d"
+    },
+    "research/genesis-brain-spec-v0.2/begin.py": {
+      "bytes": 953,
+      "sha256": "eec58dc0e32934feaeb121445bc7c9beeb785f1063247b0821947541ae7966f2"
+    },
+    "research/genesis-brain-spec-v0.2/build_release.py": {
+      "bytes": 11819,
+      "sha256": "8eb9cac79cda5a8acf021c2eed3f2a7da850e888071a1abd99429ace858f7156"
+    },
+    "research/genesis-brain-spec-v0.2/check.py": {
+      "bytes": 3369,
+      "sha256": "9290eb403d39fe7e4da191aecded5f0958798c38186f7ce62aac5ed045252fa8"
+    },
+    "research/genesis-brain-spec-v0.2/common.py": {
+      "bytes": 2315,
+      "sha256": "ade843bf415d5468e9545729ce6e774c6f65354735051ba5caee7d8bb1345636"
+    },
+    "research/genesis-brain-spec-v0.2/governance.py": {
+      "bytes": 5467,
+      "sha256": "9847f140f928d54dd7296eb8b25ca0c8728c734be39b1485f907d2d3e52fa9b7"
+    },
+    "research/genesis-brain-spec-v0.2/objects/23efaa1a65cc7fe7ed49c3e17e90f1c9f1bc55ae11cbce77519cfe20eba44f88.json": {
+      "bytes": 1494384,
+      "sha256": "23efaa1a65cc7fe7ed49c3e17e90f1c9f1bc55ae11cbce77519cfe20eba44f88"
+    },
+    "research/genesis-brain-spec-v0.2/publish.py": {
+      "bytes": 2057,
+      "sha256": "3e16503a6ab212976b93ea7b8bbfd90ee6465d78851e63ee8335e5d09d5d8665"
+    },
+    "research/genesis-brain-spec-v0.2/specify_governance.py": {
+      "bytes": 6184,
+      "sha256": "8b0dae77bde246288353b8246d0293636c904c4590f3dcb34c9b450469d2dedb"
+    },
+    "research/genesis-brain-spec-v0.2/test_governance.py": {
+      "bytes": 4825,
+      "sha256": "823eaccb2a361e45ae9659d5eb10aaa2834aba08522b98097114adb6abb358b4"
+    },
+    "runtime/AWAKENING_RUNBOOK.md": {
+      "bytes": 4317,
+      "sha256": "f298e44e2a9ec12ac7dfcb823675da00f361f1635f1f8a53db65e4ed1a1bd210"
+    },
+    "runtime/CONTINUOUS_INSTALLATION.md": {
+      "bytes": 4815,
+      "sha256": "6e5a2012026b10cfbe8d1cda2c2dd83a3d0735cbdef5be96d79a2d3069ca2d10"
+    },
+    "runtime/ENVIRONMENT.md": {
+      "bytes": 10901,
+      "sha256": "1c8bdeeb97131a18b42846c331d5d72f66c31279a25c715b11fe1f5376b8e218"
+    },
+    "runtime/OPERATOR_CONTROL.md": {
+      "bytes": 12802,
+      "sha256": "35b0a9dff217ab3473ff78222e8f473bba2f3176c91fe34aa51cf75ff6491e41"
+    },
+    "runtime/PRODUCTION_INSTALLATION.md": {
+      "bytes": 12897,
+      "sha256": "80f6c07477d19d4d9b5b687961f9cd56859b2f37806d6e2fc605cbf8b29584e4"
+    },
+    "runtime/PROVIDER_INTEGRATION.md": {
+      "bytes": 9413,
+      "sha256": "56e36cdfb10542ba319a1cd9d1f199be0aad403ced3be78d6d1c6f6eec8127d3"
+    },
+    "runtime/RECOVERY_RUNBOOK.md": {
+      "bytes": 6972,
+      "sha256": "3f25c1270571f4be896ffb9e0aeaff732c880bda2c542b9a79728c5e499ead4d"
+    },
+    "runtime/config.ts": {
+      "bytes": 2756,
+      "sha256": "0c58e38586adfacb41baea18ced2784c07af7d38bb72784d68f7435790775ec0"
+    },
+    "runtime/continuous-schema.sql": {
+      "bytes": 8982,
+      "sha256": "c012de17227776fcf415e22e26c3048cbd1454fd5cb91a8465e53fdb8cc8b556"
+    },
+    "runtime/deployment/catalog-baseline.json": {
+      "bytes": 24517,
+      "sha256": "073456dee7b3fd8f94497ca6caf91a15d644eee17faa353f6a64c156b9dc08a6"
+    },
+    "runtime/deployment/catalog-installed.json": {
+      "bytes": 97387,
+      "sha256": "8ae422024d3960d8c54885403dae4603904c1f24b826ade2c1eb0b7df99eb1de"
+    },
+    "runtime/deployment/config.ts": {
+      "bytes": 2955,
+      "sha256": "8a633a2b039edc4da563222a9a35027517a16a51de60c1aa3ba2637c6bf14349"
+    },
+    "runtime/deployment/consumer-cli.ts": {
+      "bytes": 1792,
+      "sha256": "88b0edfb54789433785d031c7ca7978c055cd9205772d38c4ef2ca815fe9515b"
+    },
+    "runtime/deployment/consumer.ts": {
+      "bytes": 5606,
+      "sha256": "e6ad69ce1250380bf9f1db4715d00b50c26729cc4b518a88d1f6daa3171acd3a"
+    },
+    "runtime/deployment/http-server.ts": {
+      "bytes": 2238,
+      "sha256": "6fa1bbee12ed7425ffd259314f753ce7a1d50ac97456ef3b79a262ce02fa4154"
+    },
+    "runtime/deployment/install.ts": {
+      "bytes": 5588,
+      "sha256": "9f12800d8883e5c34266ee1baa8c82b64be3049c691e4b51a53ffc357f9c3dac"
+    },
+    "runtime/deployment/installer-cli.ts": {
+      "bytes": 1605,
+      "sha256": "46370387e9efcc48cf9f099d786c53e97de50447b5d8d321047ccaec52513389"
+    },
+    "runtime/deployment/log.ts": {
+      "bytes": 397,
+      "sha256": "f925d9958328d2007f0b6b8f112fc6ade0b93730b9f06d53e680a230ef834c06"
+    },
+    "runtime/deployment/readiness.ts": {
+      "bytes": 1358,
+      "sha256": "4611f903e3147f5f770fda42266dcfde5313b6fb5751690abd73a5d3b0b8905f"
+    },
+    "runtime/deployment/release.sql": {
+      "bytes": 706,
+      "sha256": "9dee39fb4298c0cc22dec744a28b185c87c83b51caa8fbdb74897c0b63b4527c"
+    },
+    "runtime/deployment/roles.sql": {
+      "bytes": 793,
+      "sha256": "e7fd6b536adf8e8609ba2f7af003d4c629cbfc7d9c6913723a2115c173cda796"
+    },
+    "runtime/deployment/schema.ts": {
+      "bytes": 5756,
+      "sha256": "23ea0b71656ab3f0a008ed50a5d91cb0902aab64ca5e3d3167d256d0c79bb824"
+    },
+    "runtime/http.ts": {
+      "bytes": 2138,
+      "sha256": "eae6aa5d93e0d0eee605b4937db2b0c0d1cf7bade23acc52a0efa9bfddeba280"
+    },
+    "runtime/main.ts": {
+      "bytes": 1654,
+      "sha256": "70d560b8e7b29b30bca2107694e6cb9cd52d39f3580d7c2d5ee774e3e3f53390"
+    },
+    "runtime/migrate-v1.ts": {
+      "bytes": 3884,
+      "sha256": "687d59ce89d24fa472aef47a80741a37e299ac57b3ef6874ceecd911cd5de1ff"
+    },
+    "runtime/migrate.ts": {
+      "bytes": 1545,
+      "sha256": "23d52f194b9495102f0c7039b494c0a5b912ca021588a0ceba3ebc408825e7ba"
+    },
+    "runtime/migrations/001_genesis.sql": {
+      "bytes": 1333,
+      "sha256": "9687317a84bbe5ee70b7f7e79f59800ccc5e269c3cffae8bcec32376a45a85e7"
+    },
+    "runtime/migrations/002_observations.sql": {
+      "bytes": 220,
+      "sha256": "0a27ad7aeb7e1997b3b1858ebec09183377412b2ee93e39193e41df3eec16512"
+    },
+    "runtime/migrations/003_runtime_v1.sql": {
+      "bytes": 2608,
+      "sha256": "634da03cc27cebad2de2d2797dc79b2af6b69d3e060bdf07f10c45dccec098c8"
+    },
+    "runtime/one-shot-schema.sql": {
+      "bytes": 3846,
+      "sha256": "9aef075d03c56cfb1f3e6eb31c620b1bbfe2226bb4d4fc742418473bc53a38ce"
+    },
+    "runtime/operator-cli.ts": {
+      "bytes": 1830,
+      "sha256": "9cd482df1d9ef1238329fac8808f19bf01c8c511d6598fe2654d3c5cf9ed8631"
+    },
+    "runtime/operator-role-grants.sql": {
+      "bytes": 3493,
+      "sha256": "703009efe2522fbaea121a82702e01e25066c3cfd7b66dd1817b22a39a473524"
+    },
+    "runtime/operator-schema-v1.sql": {
+      "bytes": 5972,
+      "sha256": "0f5e594a500c49d5eaeaf53be9fd7393f5c088e6d74ca9057c3ed4d26381b58c"
+    },
+    "runtime/preparation-schema.sql": {
+      "bytes": 566,
+      "sha256": "301b2d634a0b0f31fa7220b7082847027b17ba3fc5a340fc1b1cbd02012c0a71"
+    },
+    "runtime/provider-integration-schema.sql": {
+      "bytes": 3687,
+      "sha256": "50b8de821eafe07cb5b185e2440627199798d11a1f94dc76a1dc435eefd718ea"
+    },
+    "runtime/provider-role-grants.sql": {
+      "bytes": 686,
+      "sha256": "775547e5b7eb658f662fb74c486a7e17158917d89d527809d2b9de6d78ea4407"
+    },
+    "runtime/provider-smoke.ts": {
+      "bytes": 5856,
+      "sha256": "0fdded2fb8a7fb52e55e8f81458567a64359cc58176cd0949fd4d40edbffa2cb"
+    },
+    "runtime/scheduler.ts": {
+      "bytes": 1103,
+      "sha256": "67f052c0e29103530951b216834a3196d001eec547264a80bd3fae2a719e96f4"
+    },
+    "runtime/service.ts": {
+      "bytes": 3560,
+      "sha256": "05045b1eebce753d7356f81c4876b764ff6a58f7bab9e87a426ecf7b060dd2a3"
+    },
+    "runtime/wallet-observer.ts": {
+      "bytes": 1680,
+      "sha256": "6a424e46d9c279c7bd8b5b0a3060ea8def12de2a0852cc9b82dc207720706de2"
+    },
+    "server/assistance-intake.ts": {
+      "bytes": 3973,
+      "sha256": "a9a52e59451791639bd28e7c8d3d6ddd9c27dc5f7a8e96fc593f097e9893cac7"
+    },
+    "server/awakening-event.ts": {
+      "bytes": 719,
+      "sha256": "0f59ca8f4c882daec4fedad4e0feac5c7823e9d0aad7ab7a4b24cfdb2ffdc7da"
+    },
+    "server/commit-v2.ts": {
+      "bytes": 9625,
+      "sha256": "59627776edf4e7eafc81a993d9b1125cd393ec2e5ab1fd4baef6b94708951629"
+    },
+    "server/continuous-authority.ts": {
+      "bytes": 3283,
+      "sha256": "2880dd043881ca7c4aa58e64733c630bdcb675d02a7e04e0113a86cbb478949b"
+    },
+    "server/continuous-spec.ts": {
+      "bytes": 4065,
+      "sha256": "4266a82b5d6b5cabe5ec227f367775a284cd215a9867a5ddcb1d91ef49797fd5"
+    },
+    "server/continuous-worker.ts": {
+      "bytes": 2242,
+      "sha256": "7faa6105313646a37de406372f8d8cae89838005bcd717a3d18cd5ac85e06aae"
+    },
+    "server/continuous.ts": {
+      "bytes": 19974,
+      "sha256": "dc97e863c95258cf6ee613619da33ef237b4e5de5309005b0df958ecbc2593d2"
+    },
+    "server/cycle-inspection.ts": {
+      "bytes": 5609,
+      "sha256": "bbc679f64e5fa4b0e1da7014886ff33cf1756fbfc48989084963dbb89aec6b0c"
+    },
+    "server/disclosure-store.ts": {
+      "bytes": 3401,
+      "sha256": "333e3c70a48c29eaf77c6f684a49537054ba5a6b784df9aa85fa3f779e0f4ded"
+    },
+    "server/first-context-inspection.ts": {
+      "bytes": 2268,
+      "sha256": "b3d0196084a91493612d4a66d08f20b23fc11321e69551b099f769876f2afcc2"
+    },
+    "server/intent-journal.ts": {
+      "bytes": 2897,
+      "sha256": "7827998722ca40a7dc26c859c3230c7de310cb8f79a31d148c95a0b657523d13"
+    },
+    "server/isolated-cycle.ts": {
+      "bytes": 4509,
+      "sha256": "219a56cf4773cf98511efcc162f1e1d807701916d8e01069cb4d6695efdbe854"
+    },
+    "server/life-store-v1.ts": {
+      "bytes": 5116,
+      "sha256": "cfe157044c53048a98bd2d8b1973a28aa62b68f59b3a21c132b985d5a8ada20c"
+    },
+    "server/memory-store.ts": {
+      "bytes": 5614,
+      "sha256": "5ab90497c510790ee3943abd7ac24ac23a87164814221db6fd741be0aa67b381"
+    },
+    "server/observation-read.ts": {
+      "bytes": 4702,
+      "sha256": "9c68fd2f81045bf47dcabc030db1a04ec87057be94cf31d1fb2b8e20a6c5aa08"
+    },
+    "server/one-shot-authority.ts": {
+      "bytes": 2058,
+      "sha256": "30f5503fa8effe5ea53e2a381b4663c215064e325bf8fa09831a09d2d75eef72"
+    },
+    "server/one-shot-spec.ts": {
+      "bytes": 7661,
+      "sha256": "d310a773191eb1ee0b9b7aeaed15883df653d9a012abc712c75a076850aaaffb"
+    },
+    "server/one-shot.ts": {
+      "bytes": 17121,
+      "sha256": "e2cdf37cda3552264f4c1ed13ca4b23476fdd05b91c6251c4ead5c5f9a8f1dba"
+    },
+    "server/operator-auth.ts": {
+      "bytes": 2476,
+      "sha256": "7bd4ab23ea91fb11fbee47fedcc331fbe29150686465edbdd7d2599f778cc928"
+    },
+    "server/operator-control.ts": {
+      "bytes": 23582,
+      "sha256": "a1619ea0bf6d1d8923f0d19a94f791cf6dd13101020a0dd5c6b26d91d8c1a7e2"
+    },
+    "server/operator-transaction.ts": {
+      "bytes": 777,
+      "sha256": "65a42240414c741ca1e2b283a3b89388a783f110d5d433bf71a15b3d6fc138c3"
+    },
+    "server/provider-admission.ts": {
+      "bytes": 1812,
+      "sha256": "2b72f64271cae4fd5c8ab2332b36aac7193d53a442679d2b47961c3ebad6b811"
+    },
+    "server/provider-control.ts": {
+      "bytes": 10276,
+      "sha256": "67456d57bbbc866593f83227c004a28d23fc6050dc2f398c49b454a2d6e5fb79"
+    },
+    "server/provider-disclosure.ts": {
+      "bytes": 1702,
+      "sha256": "9ed68be9f977a677632fbbf43fb5bd81c2a390f9a179b668d365ba84f7c26d17"
+    },
+    "server/reasoning/contracts.ts": {
+      "bytes": 6264,
+      "sha256": "8f83d323cfc6df77429dd8c1b30a7e4cae257568505bdb80450693633cee7033"
+    },
+    "server/reasoning/control.ts": {
+      "bytes": 9572,
+      "sha256": "52fe788c5f8eb0942c57c4c85cb5a511a682bbdd7843d25f148adec1225ebf25"
+    },
+    "server/reasoning/factory.ts": {
+      "bytes": 6008,
+      "sha256": "27f5348ab0ed0184ac7aa6c6787232ce7f2b4da8c68c7df290d00ad0f24e2558"
+    },
+    "server/reasoning/inspection.ts": {
+      "bytes": 1336,
+      "sha256": "ec44ed18beb4e2bfda71dc5b46abc2e0bc83d0f04496fba70ac9fc5605f100cd"
+    },
+    "server/reasoning/request.ts": {
+      "bytes": 3591,
+      "sha256": "6487a3cd45a18fc84d7bd0c60e9c9eefcecc3c488c01509e94819ecc6084ba13"
+    },
+    "server/reasoning/store.ts": {
+      "bytes": 1701,
+      "sha256": "83e76b8a69756b3891e562c247184e8f05b8fbe4489d4e2f42694bed6f63d7fb"
+    },
+    "server/runtime.ts": {
+      "bytes": 2551,
+      "sha256": "098c25fc5d17977845201301434f3a6f4998897333964b138a74c7b3fb377cc1"
+    },
+    "server/saved-provenance.ts": {
+      "bytes": 1135,
+      "sha256": "bc0de426ef99254974a6d133b2093706b4f8cbc0e97696c53bf9732b33e0229e"
+    },
+    "server/store.ts": {
+      "bytes": 8982,
+      "sha256": "e223352fe416b83e30b2b0293e3e07f7e85961c919d49ece0e31060535d93e80"
+    }
+  }
+}

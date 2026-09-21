@@ -1,0 +1,102 @@
+[
+  {
+    "path": "runtime/migrate.ts",
+    "classification": "DEPRECATED",
+    "scope": "Not part of prepared production deployment; historical/fixture library may remain"
+  },
+  {
+    "path": "runtime/main.ts",
+    "classification": "RUNTIME",
+    "scope": "Read-only dormant observation default container command"
+  },
+  {
+    "path": "runtime/provider-smoke.ts",
+    "classification": "PRIVATE_OPERATOR",
+    "scope": "Separate explicitly gated authenticated process; no auto start"
+  },
+  {
+    "path": "runtime/operator-cli.ts",
+    "classification": "PRIVATE_OPERATOR",
+    "scope": "Separate explicitly gated authenticated process; no auto start"
+  },
+  {
+    "path": "runtime/deployment/consumer-cli.ts",
+    "classification": "PRIVATE_OPERATOR",
+    "scope": "Separate explicitly gated authenticated process; no auto start"
+  },
+  {
+    "path": "runtime/deployment/installer-cli.ts",
+    "classification": "MIGRATION",
+    "scope": "Explicit plan/apply; owner-only; no boot path"
+  },
+  {
+    "path": "scripts/demo.ts",
+    "classification": "DEPRECATED",
+    "scope": "Not part of prepared production deployment; historical/fixture library may remain"
+  },
+  {
+    "path": "scripts/runtime-v1-audit.ts",
+    "classification": "PRIVATE_OPERATOR",
+    "scope": "Explicit read-only private export; sensitive output"
+  },
+  {
+    "path": "scripts/internet-smoke.ts",
+    "classification": "DEPRECATED",
+    "scope": "Not part of prepared production deployment; historical/fixture library may remain"
+  },
+  {
+    "path": "scripts/import-connectome.py",
+    "classification": "TEST_ONLY",
+    "scope": "Fixture/local maintainer tooling; not production startup"
+  },
+  {
+    "path": "scripts/runtime-v1-apply.ts",
+    "classification": "DEPRECATED",
+    "scope": "Not part of prepared production deployment; historical/fixture library may remain"
+  },
+  {
+    "path": "scripts/deployment-catalog-fixture.ts",
+    "classification": "TEST_ONLY",
+    "scope": "Fixture/local maintainer tooling; not production startup"
+  },
+  {
+    "path": "scripts/run-life.mjs",
+    "classification": "DEPRECATED",
+    "scope": "Not part of prepared production deployment; historical/fixture library may remain"
+  },
+  {
+    "path": "scripts/check-llm.ts",
+    "classification": "DEPRECATED",
+    "scope": "Not part of prepared production deployment; historical/fixture library may remain"
+  },
+  {
+    "path": "scripts/import-life.ts",
+    "classification": "DEPRECATED",
+    "scope": "Not part of prepared production deployment; historical/fixture library may remain"
+  },
+  {
+    "path": "scripts/runtime-v1-test-db.ts",
+    "classification": "TEST_ONLY",
+    "scope": "Fixture/local maintainer tooling; not production startup"
+  },
+  {
+    "path": "app/api/**/route.ts via server/runtime.ts",
+    "classification": "PUBLIC",
+    "scope": "Fixed allowlisted DTO proxy routes; no database credentials"
+  },
+  {
+    "path": "Next npm start",
+    "classification": "PUBLIC",
+    "scope": "Public observer; no organism execution"
+  },
+  {
+    "path": "server/continuous-worker.ts",
+    "classification": "WORKER",
+    "scope": "Library only; explicit consumer invokes reviewed bounded local session"
+  },
+  {
+    "path": "scripts/deployment-observer-fixture.ts",
+    "classification": "TEST_ONLY",
+    "scope": "Actual built Next/runtime HTTP check; disposable fixture database only, never canonical or production"
+  }
+]

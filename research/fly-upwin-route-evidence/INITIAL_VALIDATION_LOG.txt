@@ -1,0 +1,35 @@
+test_01_dependencies (__main__.Audit.test_01_dependencies) ... ERROR
+test_02_protected_files (__main__.Audit.test_02_protected_files) ... ok
+test_03_canonical (__main__.Audit.test_03_canonical) ... ok
+test_04_original_sources (__main__.Audit.test_04_original_sources) ... ok
+test_05_processed_cells (__main__.Audit.test_05_processed_cells) ... ok
+test_06_means_and_sem (__main__.Audit.test_06_means_and_sem) ... ok
+test_07_anatomy_independent_sum (__main__.Audit.test_07_anatomy_independent_sum) ... ok
+test_08_guard (__main__.Audit.test_08_guard) ... ok
+test_09_reject_sign_promotion (__main__.Audit.test_09_reject_sign_promotion) ... ok
+test_10_reject_unknown_to_zero (__main__.Audit.test_10_reject_unknown_to_zero) ... ok
+test_11_reject_stage5_and_capability (__main__.Audit.test_11_reject_stage5_and_capability) ... ok
+test_12_reject_ownership_override (__main__.Audit.test_12_reject_ownership_override) ... ok
+test_13_reject_product_leak_and_missing_source (__main__.Audit.test_13_reject_product_leak_and_missing_source) ... ok
+test_14_preparation_scope (__main__.Audit.test_14_preparation_scope) ... ok
+test_15_release_if_present (__main__.Audit.test_15_release_if_present) ... ok
+
+======================================================================
+ERROR: test_01_dependencies (__main__.Audit.test_01_dependencies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-upwin-route-evidence/validate.py", line 26, in test_01_dependencies
+    self.assertEqual(v,reg['entry_hashes'][k]);self.assertEqual(sha(SPEC/'objects'/f'{v}.json'),v)
+                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/Documents/ChatGPT/Project Genesis/research/fly-upwin-route-evidence/common.py", line 11, in sha
+    with Path(p).open('rb') as f:
+         ^^^^^^^^^^^^^^^^^^
+  File "/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/mac/Documents/ChatGPT/Project Genesis/research/genesis-brain-spec-v0.2/objects/f04695d1fde5a266a0e1634c918cde60ae9cbd29921b8c68d34ce614d9e4a369.json'
+
+----------------------------------------------------------------------
+Ran 15 tests in 14.371s
+
+FAILED (errors=1)

@@ -1,0 +1,4510 @@
+{
+  "fixtureOnly": true,
+  "canonical": false,
+  "freshProcesses": true,
+  "leaseMs": 250,
+  "plannerTimeoutMs": 100,
+  "retries": 0,
+  "runs": [
+    {
+      "run": 1,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 129.656792,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:30.649012-07",
+        "lease_until": "2026-09-21 06:08:30.788008-07",
+        "margin_ms": "138.996000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.528291999999965,
+          "durationMs": 0.15466600000002018
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.89433299999996,
+          "databaseTime": "2026-09-21 06:08:30.538008-07",
+          "deadline": "2026-09-21 06:08:30.788008-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 12.222375,
+          "durationMs": 0.15579200000001947
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.845041999999978,
+          "durationMs": 0.1872500000000059
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 22.953624999999988,
+          "durationMs": 0.19950000000000045
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 57.66358299999996,
+          "durationMs": 0.29441600000001245
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.76570799999996,
+          "durationMs": 0.53449999999998
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.234667,
+          "durationMs": 0.36412500000000136
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 72.12033299999996,
+          "durationMs": 0.31150000000002365
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 76.946417,
+          "durationMs": 0.22424999999998363
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 84.77024999999998,
+          "durationMs": 0.6062499999999886
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 94.832833,
+          "durationMs": 0.49329199999999673
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 122.6945,
+          "durationMs": 5.622000000000014
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 129.63216699999998,
+          "durationMs": 0.3403329999999869
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 145.01245799999998,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:31.109138-07",
+        "lease_until": "2026-09-21 06:08:31.240354-07",
+        "margin_ms": "131.216000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 3.059415999999999,
+          "durationMs": 0.3245419999999797
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 16.856291,
+          "databaseTime": "2026-09-21 06:08:30.990354-07",
+          "deadline": "2026-09-21 06:08:31.240354-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 23.903332999999975,
+          "durationMs": 0.284958999999958
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 31.042665999999997,
+          "durationMs": 0.4451660000000288
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 43.19470799999999,
+          "durationMs": 0.5035830000000487
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 75.71187499999996,
+          "durationMs": 0.3571250000000532
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 82.3365,
+          "durationMs": 0.3240000000000123
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 87.960666,
+          "durationMs": 0.3664999999999736
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 94.11754099999996,
+          "durationMs": 0.3802909999999997
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 99.76458299999996,
+          "durationMs": 0.3024589999999989
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 106.43070799999998,
+          "durationMs": 0.39324999999996635
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 112.92591599999997,
+          "durationMs": 0.3262500000000159
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 137.683916,
+          "durationMs": 4.342166999999961
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 144.985791,
+          "durationMs": 0.5047079999999937
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 105.19099999999997,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:31.509557-07",
+        "lease_until": "2026-09-21 06:08:31.672535-07",
+        "margin_ms": "162.978000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.390749999999997,
+          "durationMs": 0.18308300000001054
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.408791999999977,
+          "databaseTime": "2026-09-21 06:08:31.422535-07",
+          "deadline": "2026-09-21 06:08:31.672535-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.247041999999993,
+          "durationMs": 0.15012500000000273
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.039166999999964,
+          "durationMs": 0.29283400000002757
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 24.216207999999995,
+          "durationMs": 0.2641669999999863
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 49.40112499999998,
+          "durationMs": 0.3004579999999919
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 54.616832999999986,
+          "durationMs": 0.22041699999999764
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 58.75725,
+          "durationMs": 0.20033300000000054
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.910708,
+          "durationMs": 0.2227079999999546
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.29224999999997,
+          "durationMs": 0.19487500000002456
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 73.02841699999999,
+          "durationMs": 0.21095800000000509
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 77.96199999999999,
+          "durationMs": 0.228999999999985
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 98.13687499999997,
+          "durationMs": 5.125083000000018
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 105.167958,
+          "durationMs": 0.243458999999973
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 101.77316700000003,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:31.898787-07",
+        "lease_until": "2026-09-21 06:08:32.065417-07",
+        "margin_ms": "166.630000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.6088340000000017,
+          "durationMs": 0.2381249999999966
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.723584000000017,
+          "databaseTime": "2026-09-21 06:08:31.815417-07",
+          "deadline": "2026-09-21 06:08:32.065417-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.306749999999994,
+          "durationMs": 0.16158300000000736
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.108666999999997,
+          "durationMs": 0.1347080000000176
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 21.069500000000033,
+          "durationMs": 0.1372920000000022
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 46.749042,
+          "durationMs": 0.22825000000000273
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 51.471667,
+          "durationMs": 0.44183299999997416
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.815709,
+          "durationMs": 0.233791999999994
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.8425,
+          "durationMs": 0.2321250000000532
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 64.993709,
+          "durationMs": 0.22987500000004957
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 70.12008399999999,
+          "durationMs": 0.23670800000002146
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 75.05129200000002,
+          "durationMs": 0.3296250000000214
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 94.33824999999999,
+          "durationMs": 5.500084000000015
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 101.748459,
+          "durationMs": 0.27899999999999636
+        }
+      ]
+    },
+    {
+      "run": 5,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 117.13916699999999,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:32.317914-07",
+        "lease_until": "2026-09-21 06:08:32.470397-07",
+        "margin_ms": "152.483000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.8976670000000126,
+          "durationMs": 0.2771250000000123
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.181500000000028,
+          "databaseTime": "2026-09-21 06:08:32.220397-07",
+          "deadline": "2026-09-21 06:08:32.470397-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.106749999999977,
+          "durationMs": 0.197749999999985
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.867834000000016,
+          "durationMs": 0.34883300000001327
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 24.157249999999976,
+          "durationMs": 0.2980419999999526
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 49.14804200000003,
+          "durationMs": 0.30962500000003956
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 54.615084000000024,
+          "durationMs": 0.2981659999999806
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 58.99950000000001,
+          "durationMs": 0.26724999999999
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 63.41758399999998,
+          "durationMs": 0.31495899999998755
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.02962500000001,
+          "durationMs": 0.280290999999977
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.80754200000001,
+          "durationMs": 0.68262500000003
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 84.492209,
+          "durationMs": 0.4987499999999727
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 107.803542,
+          "durationMs": 4.603041000000019
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 117.11341700000003,
+          "durationMs": 0.9646250000000123
+        }
+      ]
+    },
+    {
+      "run": 6,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 100.878166,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:32.706687-07",
+        "lease_until": "2026-09-21 06:08:32.874145-07",
+        "margin_ms": "167.458000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.6050000000000182,
+          "durationMs": 0.14279199999998582
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 6.936041000000017,
+          "databaseTime": "2026-09-21 06:08:32.624145-07",
+          "deadline": "2026-09-21 06:08:32.874145-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 9.904916000000014,
+          "durationMs": 0.16416700000002038
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 13.908916000000005,
+          "durationMs": 0.1460830000000044
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 21.05012500000001,
+          "durationMs": 0.15379200000000992
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 43.965,
+          "durationMs": 0.244041999999979
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 51.198207999999994,
+          "durationMs": 0.32466700000003357
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.186791,
+          "durationMs": 0.2247499999999718
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.445291000000026,
+          "durationMs": 0.23512499999998226
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 64.630166,
+          "durationMs": 0.1957500000000323
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 70.105625,
+          "durationMs": 0.22270900000000893
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.536125,
+          "durationMs": 0.22062500000004093
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 92.27645800000002,
+          "durationMs": 4.826874999999973
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 100.84,
+          "durationMs": 1.420915999999977
+        }
+      ]
+    },
+    {
+      "run": 7,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 96.41895899999997,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:33.087941-07",
+        "lease_until": "2026-09-21 06:08:33.257661-07",
+        "margin_ms": "169.720000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.40895900000001,
+          "durationMs": 0.14854200000002038
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 6.2522089999999935,
+          "databaseTime": "2026-09-21 06:08:33.007661-07",
+          "deadline": "2026-09-21 06:08:33.257661-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 8.857875000000007,
+          "durationMs": 0.17979200000002038
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 12.410459000000003,
+          "durationMs": 0.16575000000000273
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 18.973708999999985,
+          "durationMs": 0.24454100000002654
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 40.643291999999974,
+          "durationMs": 0.347959000000003
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 46.066291999999976,
+          "durationMs": 0.268916000000047
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 52.163666999999975,
+          "durationMs": 0.3338340000000244
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.31129199999998,
+          "durationMs": 0.3724589999999921
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 61.17620899999997,
+          "durationMs": 0.33550000000002456
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.172125,
+          "durationMs": 0.29645800000002964
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 71.54441700000001,
+          "durationMs": 0.23308299999996507
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 88.66616699999997,
+          "durationMs": 4.131209000000013
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 96.387,
+          "durationMs": 0.5085410000000365
+        }
+      ]
+    },
+    {
+      "run": 8,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 109.38237499999997,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:33.519461-07",
+        "lease_until": "2026-09-21 06:08:33.678396-07",
+        "margin_ms": "158.935000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.2915830000000028,
+          "durationMs": 0.1613339999999539
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 6.626082999999994,
+          "databaseTime": "2026-09-21 06:08:33.428396-07",
+          "deadline": "2026-09-21 06:08:33.678396-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 9.818332999999996,
+          "durationMs": 0.21154100000001108
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.387457999999981,
+          "durationMs": 0.16874999999998863
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 20.062082999999973,
+          "durationMs": 0.20574999999996635
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 48.24433299999998,
+          "durationMs": 0.23366599999997106
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 53.36337499999996,
+          "durationMs": 0.351791999999989
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 58.05487499999998,
+          "durationMs": 0.3528329999999755
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 64.38454099999996,
+          "durationMs": 0.3042920000000322
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.88487499999997,
+          "durationMs": 0.38237500000002456
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 76.07349999999997,
+          "durationMs": 0.2637499999999591
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 81.487166,
+          "durationMs": 0.21804099999997106
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 99.802458,
+          "durationMs": 4.342208000000028
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 109.35833299999996,
+          "durationMs": 0.28804200000001856
+        }
+      ]
+    },
+    {
+      "run": 9,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 100.80379200000004,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:33.947739-07",
+        "lease_until": "2026-09-21 06:08:34.114135-07",
+        "margin_ms": "166.396000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.4635000000000105,
+          "durationMs": 0.20608299999997826
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.641458,
+          "databaseTime": "2026-09-21 06:08:33.864135-07",
+          "deadline": "2026-09-21 06:08:34.114135-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 12.433542000000045,
+          "durationMs": 0.30404100000004064
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 16.560500000000047,
+          "durationMs": 0.1835420000000454
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 22.27445800000004,
+          "durationMs": 0.19512500000001864
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 45.86445800000001,
+          "durationMs": 0.3196249999999736
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 50.799667,
+          "durationMs": 0.502207999999996
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.20937500000002,
+          "durationMs": 0.33508299999999736
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.11416700000001,
+          "durationMs": 0.46333299999997735
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 64.769792,
+          "durationMs": 0.29075000000000273
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 69.730167,
+          "durationMs": 0.2841670000000249
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.89158300000003,
+          "durationMs": 0.3284159999999474
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 93.84187500000002,
+          "durationMs": 4.8755840000000035
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 100.78104200000001,
+          "durationMs": 0.5993330000000014
+        }
+      ]
+    },
+    {
+      "run": 10,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 109.09620799999999,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:34.375386-07",
+        "lease_until": "2026-09-21 06:08:34.533711-07",
+        "margin_ms": "158.325000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.6447499999999877,
+          "durationMs": 0.29616699999996854
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.186207999999965,
+          "databaseTime": "2026-09-21 06:08:34.283711-07",
+          "deadline": "2026-09-21 06:08:34.533711-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.564665999999988,
+          "durationMs": 0.17870899999996936
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.601833,
+          "durationMs": 0.1901250000000232
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 22.06975,
+          "durationMs": 0.20150000000001
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 47.236582999999996,
+          "durationMs": 0.3046669999999949
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.80612499999995,
+          "durationMs": 1.7068330000000174
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.42075,
+          "durationMs": 0.4749999999999659
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.25999999999999,
+          "durationMs": 0.2873329999999896
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 71.74374999999998,
+          "durationMs": 0.294083999999998
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 77.65337499999998,
+          "durationMs": 0.2670830000000137
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 84.05395799999997,
+          "durationMs": 0.3727079999999887
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 102.12949999999995,
+          "durationMs": 4.4166250000000105
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 109.06566599999996,
+          "durationMs": 0.3241659999999911
+        }
+      ]
+    },
+    {
+      "run": 11,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 108.148958,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:34.793659-07",
+        "lease_until": "2026-09-21 06:08:34.954681-07",
+        "margin_ms": "161.022000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 2.1077080000000024,
+          "durationMs": 0.35745900000000574
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 10.463208000000009,
+          "databaseTime": "2026-09-21 06:08:34.704681-07",
+          "deadline": "2026-09-21 06:08:34.954681-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 17.448792000000026,
+          "durationMs": 0.3221250000000282
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 22.243291999999997,
+          "durationMs": 0.19487500000002456
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 28.123792000000037,
+          "durationMs": 0.18983400000001893
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 54.21520800000002,
+          "durationMs": 0.35208399999999074
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 59.86654200000004,
+          "durationMs": 0.28254200000003493
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 64.22912500000001,
+          "durationMs": 0.29479199999997263
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 69.54783300000003,
+          "durationMs": 0.29616699999996854
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.50745799999999,
+          "durationMs": 0.2603330000000028
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 79.22775000000001,
+          "durationMs": 0.27779099999997925
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 84.20104200000003,
+          "durationMs": 0.2884589999999889
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 101.64137500000004,
+          "durationMs": 4.310833000000002
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 108.12329199999999,
+          "durationMs": 0.3228330000000028
+        }
+      ]
+    },
+    {
+      "run": 12,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 109.84841700000001,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:35.178407-07",
+        "lease_until": "2026-09-21 06:08:35.336684-07",
+        "margin_ms": "158.277000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.3410420000000158,
+          "durationMs": 0.18508299999999167
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.582999999999998,
+          "databaseTime": "2026-09-21 06:08:35.086684-07",
+          "deadline": "2026-09-21 06:08:35.336684-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.478250000000003,
+          "durationMs": 0.18900000000002137
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.63579200000001,
+          "durationMs": 0.22995799999998212
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 21.612667000000016,
+          "durationMs": 0.2195000000000107
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 45.91575000000003,
+          "durationMs": 0.3877909999999929
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 51.08958400000003,
+          "durationMs": 0.2779170000000022
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.59016700000004,
+          "durationMs": 0.28266700000000355
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.02404199999998,
+          "durationMs": 1.19074999999998
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.52650000000003,
+          "durationMs": 0.3266249999999786
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 73.619584,
+          "durationMs": 0.3278750000000059
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 79.828292,
+          "durationMs": 0.23920899999995981
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 101.93295900000001,
+          "durationMs": 6.6911249999999995
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 109.82258400000003,
+          "durationMs": 0.5139159999999947
+        }
+      ]
+    },
+    {
+      "run": 13,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 111.84049999999996,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:35.605599-07",
+        "lease_until": "2026-09-21 06:08:35.760754-07",
+        "margin_ms": "155.155000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.3860409999999774,
+          "durationMs": 0.19541599999996606
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.517082999999957,
+          "databaseTime": "2026-09-21 06:08:35.510754-07",
+          "deadline": "2026-09-21 06:08:35.760754-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.447707999999977,
+          "durationMs": 0.19620799999995597
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.984874999999988,
+          "durationMs": 0.2011669999999981
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 21.105957999999987,
+          "durationMs": 0.252584000000013
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 50.21529099999998,
+          "durationMs": 0.30145799999996825
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.06329099999999,
+          "durationMs": 0.2648330000000101
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.62199999999996,
+          "durationMs": 0.2702499999999759
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 66.520666,
+          "durationMs": 0.29870799999997644
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 72.46137499999998,
+          "durationMs": 0.32187499999997726
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 79.128041,
+          "durationMs": 0.6719999999999686
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 84.695625,
+          "durationMs": 0.30945800000000645
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 104.587916,
+          "durationMs": 4.251708000000008
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 111.81183299999998,
+          "durationMs": 0.33133299999997234
+        }
+      ]
+    },
+    {
+      "run": 14,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 103.38037500000002,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:36.031166-07",
+        "lease_until": "2026-09-21 06:08:36.196655-07",
+        "margin_ms": "165.489000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.483666000000028,
+          "durationMs": 0.18495900000004895
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.186500000000024,
+          "databaseTime": "2026-09-21 06:08:35.946655-07",
+          "deadline": "2026-09-21 06:08:36.196655-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.73679100000004,
+          "durationMs": 0.22820799999999508
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.614374999999995,
+          "durationMs": 0.16583300000002055
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 22.995375000000024,
+          "durationMs": 0.28558399999997164
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 45.922041000000036,
+          "durationMs": 0.32854199999997036
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 50.82454100000001,
+          "durationMs": 0.32416699999998855
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.861290999999994,
+          "durationMs": 0.2951669999999922
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.77291600000001,
+          "durationMs": 0.34650000000004866
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 65.688875,
+          "durationMs": 0.29383300000000645
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 71.32708300000002,
+          "durationMs": 0.3030839999999557
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 76.125291,
+          "durationMs": 0.3931670000000054
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 94.03504100000004,
+          "durationMs": 4.469208999999978
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 103.35383300000001,
+          "durationMs": 0.28529099999997243
+        }
+      ]
+    },
+    {
+      "run": 15,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 118.04925000000003,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:36.449662-07",
+        "lease_until": "2026-09-21 06:08:36.605383-07",
+        "margin_ms": "155.721000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.9429590000000303,
+          "durationMs": 0.211291000000017
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 11.786667000000023,
+          "databaseTime": "2026-09-21 06:08:36.355383-07",
+          "deadline": "2026-09-21 06:08:36.605383-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.279042000000004,
+          "durationMs": 0.40787499999999
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 21.114874999999984,
+          "durationMs": 0.21058299999998553
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 33.405666999999994,
+          "durationMs": 0.3123750000000314
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 57.12383399999999,
+          "durationMs": 0.3167500000000132
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.30574999999999,
+          "durationMs": 0.2943329999999946
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.356584,
+          "durationMs": 0.30879199999998264
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 72.943375,
+          "durationMs": 0.300707999999986
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 77.873334,
+          "durationMs": 0.2908750000000282
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 84.31229200000001,
+          "durationMs": 0.30433299999998553
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 90.14608400000003,
+          "durationMs": 0.30049999999999955
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 108.66383400000001,
+          "durationMs": 4.850375000000042
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 118.00987500000002,
+          "durationMs": 0.6752500000000055
+        }
+      ]
+    },
+    {
+      "run": 16,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 116.49320899999998,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:36.885814-07",
+        "lease_until": "2026-09-21 06:08:37.038552-07",
+        "margin_ms": "152.738000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.5902090000000157,
+          "durationMs": 0.29041599999999335
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 9.977791999999965,
+          "databaseTime": "2026-09-21 06:08:36.788552-07",
+          "deadline": "2026-09-21 06:08:37.038552-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 13.578583999999978,
+          "durationMs": 0.37995800000004465
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 18.517291999999998,
+          "durationMs": 0.19658300000003237
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 33.822374999999965,
+          "durationMs": 0.27062499999999545
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 57.708459000000005,
+          "durationMs": 0.31162499999999227
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.657959000000005,
+          "durationMs": 0.3094590000000039
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.362417,
+          "durationMs": 0.2796669999999608
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 71.93954200000002,
+          "durationMs": 0.4684169999999881
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 76.24391700000001,
+          "durationMs": 0.27370899999999665
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 81.72120899999999,
+          "durationMs": 0.3084169999999631
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 86.56962499999997,
+          "durationMs": 0.29545900000005076
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 109.37087500000001,
+          "durationMs": 4.609041999999988
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 116.46495899999996,
+          "durationMs": 0.35495800000001054
+        }
+      ]
+    },
+    {
+      "run": 17,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 100.24650000000003,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:37.27313-07",
+        "lease_until": "2026-09-21 06:08:37.440134-07",
+        "margin_ms": "167.004000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.6211660000000165,
+          "durationMs": 0.2492499999999893
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.069250000000011,
+          "databaseTime": "2026-09-21 06:08:37.190134-07",
+          "deadline": "2026-09-21 06:08:37.440134-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.562083000000001,
+          "durationMs": 0.23212499999999636
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.445290999999997,
+          "durationMs": 0.16520900000000438
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 20.73916600000001,
+          "durationMs": 0.14966699999996536
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 42.886041000000034,
+          "durationMs": 0.20125000000001592
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 47.694375000000036,
+          "durationMs": 0.23525000000000773
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 52.853791,
+          "durationMs": 0.23520800000000008
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.82049999999998,
+          "durationMs": 0.19466700000003812
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.202207999999985,
+          "durationMs": 0.21633400000001757
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.35837500000002,
+          "durationMs": 0.18745799999999235
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 71.84391600000004,
+          "durationMs": 0.35137500000001864
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 92.53104100000002,
+          "durationMs": 4.699292000000014
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 100.21725000000004,
+          "durationMs": 0.5351249999999936
+        }
+      ]
+    },
+    {
+      "run": 18,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 109.75912499999998,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:37.710044-07",
+        "lease_until": "2026-09-21 06:08:37.868666-07",
+        "margin_ms": "158.622000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.3529589999999985,
+          "durationMs": 0.13316700000001447
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.605208999999945,
+          "databaseTime": "2026-09-21 06:08:37.618666-07",
+          "deadline": "2026-09-21 06:08:37.868666-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.42629199999999,
+          "durationMs": 0.1419169999999781
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.419208999999967,
+          "durationMs": 0.16366599999997788
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 21.01641699999999,
+          "durationMs": 0.2370000000000232
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 47.076459,
+          "durationMs": 0.2986670000000231
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 53.644041999999956,
+          "durationMs": 0.33483400000000074
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 59.837541999999985,
+          "durationMs": 0.313083000000006
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 65.15341699999999,
+          "durationMs": 0.379209000000003
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 72.00049999999999,
+          "durationMs": 0.32858299999998053
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 77.57883399999997,
+          "durationMs": 0.2450420000000122
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 83.47379199999995,
+          "durationMs": 0.30595900000002985
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 101.54825,
+          "durationMs": 4.8549580000000105
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 109.732709,
+          "durationMs": 0.5523339999999735
+        }
+      ]
+    },
+    {
+      "run": 19,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 102.49883399999999,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:38.119932-07",
+        "lease_until": "2026-09-21 06:08:38.286852-07",
+        "margin_ms": "166.920000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.3474170000000072,
+          "durationMs": 0.19979100000000471
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.962583999999993,
+          "databaseTime": "2026-09-21 06:08:38.036852-07",
+          "deadline": "2026-09-21 06:08:38.286852-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.832709000000023,
+          "durationMs": 0.20037500000000819
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.047000000000025,
+          "durationMs": 0.19991700000002766
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 21.565417000000025,
+          "durationMs": 0.2421250000000441
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 44.803999999999974,
+          "durationMs": 0.3164170000000013
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 50.20875000000001,
+          "durationMs": 0.2899580000000128
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.16191700000002,
+          "durationMs": 0.2847910000000411
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 59.15662500000002,
+          "durationMs": 0.18062499999996362
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 63.41679199999999,
+          "durationMs": 0.24333400000000438
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.75999999999999,
+          "durationMs": 0.26300000000003365
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.018167,
+          "durationMs": 0.2588339999999789
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 93.78083400000003,
+          "durationMs": 4.735875000000021
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 102.47504199999997,
+          "durationMs": 0.5886249999999791
+        }
+      ]
+    },
+    {
+      "run": 20,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 106.99454200000002,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:38.531932-07",
+        "lease_until": "2026-09-21 06:08:38.694055-07",
+        "margin_ms": "162.123000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.3609170000000006,
+          "durationMs": 0.17345899999997982
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.819542000000013,
+          "databaseTime": "2026-09-21 06:08:38.444055-07",
+          "deadline": "2026-09-21 06:08:38.694055-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.764374999999973,
+          "durationMs": 0.19387499999999136
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.786249999999995,
+          "durationMs": 0.2153329999999869
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 22.52249999999998,
+          "durationMs": 0.23099999999999454
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 47.818667000000005,
+          "durationMs": 0.330332999999996
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 52.636459,
+          "durationMs": 0.19625000000002046
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 57.907624999999996,
+          "durationMs": 0.35208399999999074
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 63.361541999999986,
+          "durationMs": 0.28799999999995407
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.88933400000002,
+          "durationMs": 0.24695800000000645
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 73.58583399999998,
+          "durationMs": 0.2925000000000182
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 78.5675,
+          "durationMs": 0.29016699999999673
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 98.81383399999999,
+          "durationMs": 5.464958000000024
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 106.95666699999998,
+          "durationMs": 0.5657089999999698
+        }
+      ]
+    },
+    {
+      "run": 21,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 107.57233299999996,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:38.986248-07",
+        "lease_until": "2026-09-21 06:08:39.15337-07",
+        "margin_ms": "167.122000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 4.220582999999976,
+          "durationMs": 0.7784159999999929
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 15.61708299999998,
+          "databaseTime": "2026-09-21 06:08:38.90337-07",
+          "deadline": "2026-09-21 06:08:39.15337-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 19.029041000000007,
+          "durationMs": 0.20591699999999946
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 23.47199999999998,
+          "durationMs": 0.19354199999997945
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 30.34716599999996,
+          "durationMs": 0.18291700000003175
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 54.29962499999999,
+          "durationMs": 0.32654099999996333
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 59.440999999999974,
+          "durationMs": 0.22124999999999773
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 64.32833299999999,
+          "durationMs": 0.2887499999999932
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.42833300000001,
+          "durationMs": 0.22604200000000674
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 73.02199999999999,
+          "durationMs": 0.34558400000003076
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 78.662958,
+          "durationMs": 0.25970799999998917
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 83.16075000000001,
+          "durationMs": 0.19904200000001993
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 100.32900000000001,
+          "durationMs": 3.953042000000039
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 107.54637499999995,
+          "durationMs": 0.32470800000004374
+        }
+      ]
+    },
+    {
+      "run": 22,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 104.51766700000002,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:39.393486-07",
+        "lease_until": "2026-09-21 06:08:39.556121-07",
+        "margin_ms": "162.635000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.657792000000029,
+          "durationMs": 0.24858399999999392
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 6.9833340000000135,
+          "databaseTime": "2026-09-21 06:08:39.306121-07",
+          "deadline": "2026-09-21 06:08:39.556121-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.027500000000032,
+          "durationMs": 0.19429200000001856
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 13.804041999999981,
+          "durationMs": 0.183667000000014
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 20.505042000000003,
+          "durationMs": 0.19945900000004713
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 43.44804199999999,
+          "durationMs": 0.30529200000000856
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 48.54845900000004,
+          "durationMs": 0.27345900000000256
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 53.107417,
+          "durationMs": 0.2780419999999708
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 57.53241700000001,
+          "durationMs": 0.2591249999999832
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.27633400000002,
+          "durationMs": 0.26558399999998983
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.43783400000001,
+          "durationMs": 0.27745900000002166
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.04083400000002,
+          "durationMs": 0.28112499999997453
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 96.682792,
+          "durationMs": 4.650582999999983
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 104.49099999999999,
+          "durationMs": 0.5300000000000296
+        }
+      ]
+    },
+    {
+      "run": 23,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 122.34104200000002,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:39.839153-07",
+        "lease_until": "2026-09-21 06:08:39.989262-07",
+        "margin_ms": "150.109000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 2.5545830000000365,
+          "durationMs": 0.3590409999999906
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.866250000000036,
+          "databaseTime": "2026-09-21 06:08:39.739262-07",
+          "deadline": "2026-09-21 06:08:39.989262-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.922375000000045,
+          "durationMs": 0.21054199999997536
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 16.751666999999998,
+          "durationMs": 0.3072080000000028
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 26.864666999999997,
+          "durationMs": 0.3292500000000018
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 53.859958000000006,
+          "durationMs": 0.27737500000000637
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 59.421583,
+          "durationMs": 0.3710829999999987
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 65.159042,
+          "durationMs": 0.3169170000000463
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 70.82512500000001,
+          "durationMs": 0.29904200000004266
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 75.85445800000002,
+          "durationMs": 0.28329199999996035
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 82.49512500000003,
+          "durationMs": 0.4250830000000292
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 89.87454200000002,
+          "durationMs": 0.5535409999999956
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 111.65554200000003,
+          "durationMs": 5.248041999999998
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 122.310833,
+          "durationMs": 2.6542499999999905
+        }
+      ]
+    },
+    {
+      "run": 24,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 97.49212500000002,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:40.219514-07",
+        "lease_until": "2026-09-21 06:08:40.389327-07",
+        "margin_ms": "169.813000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 2.6162920000000156,
+          "durationMs": 0.30258399999999597
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.031042000000014,
+          "databaseTime": "2026-09-21 06:08:40.139327-07",
+          "deadline": "2026-09-21 06:08:40.389327-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.007125000000002,
+          "durationMs": 0.3811250000000257
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.643792000000019,
+          "durationMs": 0.19925000000000637
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 22.158417000000014,
+          "durationMs": 0.2268749999999784
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 44.705792,
+          "durationMs": 0.32816700000000765
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 49.81645799999998,
+          "durationMs": 0.2657090000000153
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 54.66625000000002,
+          "durationMs": 0.2735420000000204
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 58.65141700000001,
+          "durationMs": 0.2233749999999759
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.99070800000001,
+          "durationMs": 0.2641249999999786
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.90241699999999,
+          "durationMs": 0.31737500000002683
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 73.54325000000003,
+          "durationMs": 0.23833300000001145
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 90.32116700000003,
+          "durationMs": 4.108375000000024
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 97.470292,
+          "durationMs": 0.30145799999996825
+        }
+      ]
+    },
+    {
+      "run": 25,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 101.55308399999998,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:40.612704-07",
+        "lease_until": "2026-09-21 06:08:40.77819-07",
+        "margin_ms": "165.486000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.426084000000003,
+          "durationMs": 0.2202920000000006
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.312250000000034,
+          "databaseTime": "2026-09-21 06:08:40.52819-07",
+          "deadline": "2026-09-21 06:08:40.77819-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.22512500000002,
+          "durationMs": 0.2021249999999668
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.780042000000009,
+          "durationMs": 0.20974999999998545
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 20.935750000000013,
+          "durationMs": 0.20095800000001418
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 44.24029199999998,
+          "durationMs": 0.29037500000004
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 50.14762500000003,
+          "durationMs": 0.2689579999999978
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 54.44750000000002,
+          "durationMs": 0.34379200000000765
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 59.72745899999998,
+          "durationMs": 0.2871659999999565
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 65.24212500000002,
+          "durationMs": 0.280208000000016
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 70.26220900000001,
+          "durationMs": 0.25962499999997135
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 75.02599999999998,
+          "durationMs": 0.3803329999999505
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 93.95700000000002,
+          "durationMs": 4.2694589999999835
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 101.52683399999998,
+          "durationMs": 0.5189579999999978
+        }
+      ]
+    },
+    {
+      "run": 26,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 120.472666,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:41.038736-07",
+        "lease_until": "2026-09-21 06:08:41.189241-07",
+        "margin_ms": "150.505000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 2.6435410000000275,
+          "durationMs": 0.46120899999999665
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 12.42108300000001,
+          "databaseTime": "2026-09-21 06:08:40.939241-07",
+          "deadline": "2026-09-21 06:08:41.189241-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 22.680124999999975,
+          "durationMs": 0.6667080000000283
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 28.264749999999992,
+          "durationMs": 0.19420900000000074
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 38.72325000000001,
+          "durationMs": 0.5215000000000032
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 64.57433300000002,
+          "durationMs": 0.32799999999997453
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 70.370791,
+          "durationMs": 0.24466699999999264
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 75.498291,
+          "durationMs": 0.2658330000000433
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 79.45408300000003,
+          "durationMs": 0.18979200000001129
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 83.890875,
+          "durationMs": 0.21116700000004585
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 89.33749999999998,
+          "durationMs": 0.3436659999999847
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 94.46216600000002,
+          "durationMs": 0.2084169999999972
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 113.88012500000002,
+          "durationMs": 4.179874999999981
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 120.450083,
+          "durationMs": 0.24066699999997354
+        }
+      ]
+    },
+    {
+      "run": 27,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 95.583958,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:41.4175-07",
+        "lease_until": "2026-09-21 06:08:41.588777-07",
+        "margin_ms": "171.277000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.8432080000000042,
+          "durationMs": 0.2567500000000109
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.33658299999999,
+          "databaseTime": "2026-09-21 06:08:41.338777-07",
+          "deadline": "2026-09-21 06:08:41.588777-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.243957999999992,
+          "durationMs": 0.18362500000000637
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.13416699999999,
+          "durationMs": 0.21845900000002416
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 20.6045,
+          "durationMs": 0.20224999999999227
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 42.644833000000006,
+          "durationMs": 0.3051669999999831
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 47.495833000000005,
+          "durationMs": 0.2803339999999821
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 52.01641699999999,
+          "durationMs": 0.3100000000000023
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.41316699999999,
+          "durationMs": 0.2484169999999608
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.650082999999995,
+          "durationMs": 0.2796660000000202
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 65.86516699999999,
+          "durationMs": 0.2565000000000168
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 71.099875,
+          "durationMs": 0.26454200000000583
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 88.304667,
+          "durationMs": 4.748041999999998
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 95.56091700000002,
+          "durationMs": 0.5742500000000064
+        }
+      ]
+    },
+    {
+      "run": 28,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 109.32554099999999,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:41.832245-07",
+        "lease_until": "2026-09-21 06:08:41.990198-07",
+        "margin_ms": "157.953000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.9317499999999654,
+          "durationMs": 0.2566669999999931
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.546333000000004,
+          "databaseTime": "2026-09-21 06:08:41.740198-07",
+          "deadline": "2026-09-21 06:08:41.990198-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.409457999999972,
+          "durationMs": 0.21662499999996498
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.594707999999969,
+          "durationMs": 0.22087499999997817
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 24.454124999999976,
+          "durationMs": 0.4809579999999869
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 49.54783299999997,
+          "durationMs": 0.3982920000000263
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 54.95958299999995,
+          "durationMs": 0.24150000000003047
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 59.52970799999997,
+          "durationMs": 0.302332999999976
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 64.457583,
+          "durationMs": 0.2787079999999946
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 69.38929099999996,
+          "durationMs": 0.2680000000000291
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.914916,
+          "durationMs": 0.2892500000000382
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 83.79166599999996,
+          "durationMs": 0.3557920000000081
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 102.01912499999997,
+          "durationMs": 4.703291000000036
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 109.29424999999998,
+          "durationMs": 0.33579199999996945
+        }
+      ]
+    },
+    {
+      "run": 29,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 106.89175,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:42.261043-07",
+        "lease_until": "2026-09-21 06:08:42.422111-07",
+        "margin_ms": "161.068000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 2.093166999999994,
+          "durationMs": 0.47441700000001674
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.778291999999965,
+          "databaseTime": "2026-09-21 06:08:42.172111-07",
+          "deadline": "2026-09-21 06:08:42.422111-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.941374999999994,
+          "durationMs": 0.195666000000017
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.892791999999986,
+          "durationMs": 0.1890409999999747
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 23.70866699999999,
+          "durationMs": 0.23937499999999545
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 49.168582999999956,
+          "durationMs": 0.31329200000004676
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.23320799999999,
+          "durationMs": 0.2769999999999868
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 59.55291699999998,
+          "durationMs": 0.2799590000000194
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 64.15379199999995,
+          "durationMs": 0.27266700000001265
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 69.353208,
+          "durationMs": 0.429916999999989
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.959,
+          "durationMs": 0.2502499999999941
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 81.46183299999996,
+          "durationMs": 0.28804200000001856
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 99.98041699999999,
+          "durationMs": 4.3552910000000224
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 106.86699999999996,
+          "durationMs": 0.5048750000000268
+        }
+      ]
+    },
+    {
+      "run": 30,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 114.79291699999999,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:42.719084-07",
+        "lease_until": "2026-09-21 06:08:42.873897-07",
+        "margin_ms": "154.813000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 2.853666999999973,
+          "durationMs": 0.2951659999999947
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 10.124708999999996,
+          "databaseTime": "2026-09-21 06:08:42.623897-07",
+          "deadline": "2026-09-21 06:08:42.873897-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 13.520375000000001,
+          "durationMs": 0.38662500000003774
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 18.359167000000014,
+          "durationMs": 0.5475420000000213
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 27.105209000000002,
+          "durationMs": 0.24070900000003803
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.08129199999996,
+          "durationMs": 0.5260420000000181
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.83099999999996,
+          "durationMs": 0.31175000000001774
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 65.35608400000001,
+          "durationMs": 0.3552920000000199
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 71.025125,
+          "durationMs": 0.2977920000000154
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 75.429667,
+          "durationMs": 0.2195419999999899
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 80.92275000000001,
+          "durationMs": 0.2898339999999848
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 87.23750000000001,
+          "durationMs": 0.351208999999983
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 107.58654200000001,
+          "durationMs": 4.679957999999999
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 114.75804199999999,
+          "durationMs": 0.3207919999999831
+        }
+      ]
+    },
+    {
+      "run": 31,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 113.73483300000004,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:43.19658-07",
+        "lease_until": "2026-09-21 06:08:43.359234-07",
+        "margin_ms": "162.654000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 4.178958000000023,
+          "durationMs": 0.5530830000000151
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 15.155208000000016,
+          "databaseTime": "2026-09-21 06:08:43.109234-07",
+          "deadline": "2026-09-21 06:08:43.359234-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 19.12375000000003,
+          "durationMs": 0.22862500000002228
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 24.49958300000003,
+          "durationMs": 0.23829200000000128
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 31.021667000000036,
+          "durationMs": 0.21945799999997462
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.82287500000001,
+          "durationMs": 0.3558750000000259
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 61.86200000000002,
+          "durationMs": 0.280666999999994
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 66.00745800000004,
+          "durationMs": 0.28283299999998235
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 70.24725000000001,
+          "durationMs": 0.26779200000004266
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.5985,
+          "durationMs": 0.2580000000000382
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 79.135333,
+          "durationMs": 0.24329099999999926
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 83.787125,
+          "durationMs": 0.26541700000001356
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 105.15183300000001,
+          "durationMs": 4.890207999999973
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 113.713458,
+          "durationMs": 0.39891700000003993
+        }
+      ]
+    },
+    {
+      "run": 32,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 126.433583,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:43.637808-07",
+        "lease_until": "2026-09-21 06:08:43.787067-07",
+        "margin_ms": "149.259000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 2.193208000000027,
+          "durationMs": 0.31233300000002373
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 13.692916000000025,
+          "databaseTime": "2026-09-21 06:08:43.537067-07",
+          "deadline": "2026-09-21 06:08:43.787067-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 16.80054100000001,
+          "durationMs": 0.2728749999999991
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 22.067541000000006,
+          "durationMs": 0.3432500000000118
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 32.26516600000002,
+          "durationMs": 0.28470799999996643
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 57.50679100000002,
+          "durationMs": 0.3159999999999741
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 63.581916000000035,
+          "durationMs": 0.3265830000000278
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.743333,
+          "durationMs": 0.3107079999999769
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 75.61900000000003,
+          "durationMs": 0.3909999999999627
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 81.43954100000002,
+          "durationMs": 0.3061670000000163
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 88.49741599999999,
+          "durationMs": 0.336667000000034
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 95.856333,
+          "durationMs": 0.3190000000000168
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 117.430791,
+          "durationMs": 5.0833749999999895
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 126.35200000000003,
+          "durationMs": 0.7515000000000214
+        }
+      ]
+    },
+    {
+      "run": 33,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 119.56537499999996,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:44.088456-07",
+        "lease_until": "2026-09-21 06:08:44.23702-07",
+        "margin_ms": "148.564000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.779124999999965,
+          "durationMs": 0.3259580000000142
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.16145899999998,
+          "databaseTime": "2026-09-21 06:08:43.98702-07",
+          "deadline": "2026-09-21 06:08:44.23702-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.072000000000003,
+          "durationMs": 0.20591699999999946
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.318249999999978,
+          "durationMs": 0.22929099999998925
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 24.007916999999964,
+          "durationMs": 0.2247499999999718
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.21549999999996,
+          "durationMs": 0.29991699999999355
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 61.685249999999996,
+          "durationMs": 0.30066700000003266
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.41758399999998,
+          "durationMs": 0.3675000000000068
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 73.50970899999999,
+          "durationMs": 0.2691249999999741
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 78.357417,
+          "durationMs": 0.4135840000000144
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 86.25154199999997,
+          "durationMs": 0.2661669999999958
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 92.27295899999996,
+          "durationMs": 0.2701659999999606
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 111.781542,
+          "durationMs": 4.1880840000000035
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 119.53466699999996,
+          "durationMs": 0.38554199999998673
+        }
+      ]
+    },
+    {
+      "run": 34,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 125.23404099999999,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:44.550785-07",
+        "lease_until": "2026-09-21 06:08:44.695425-07",
+        "margin_ms": "144.640000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.5093330000000265,
+          "durationMs": 0.21687499999995907
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 10.150291000000038,
+          "databaseTime": "2026-09-21 06:08:44.445425-07",
+          "deadline": "2026-09-21 06:08:44.695425-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 16.693666000000007,
+          "durationMs": 0.44212500000003274
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 21.413250000000005,
+          "durationMs": 0.23045799999999872
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 32.190083000000016,
+          "durationMs": 0.3146669999999858
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 61.557000000000016,
+          "durationMs": 0.3599169999999958
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.41454099999999,
+          "durationMs": 0.2875420000000304
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 72.95845800000001,
+          "durationMs": 0.285541999999964
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 77.88408300000003,
+          "durationMs": 0.27370899999999665
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 83.640875,
+          "durationMs": 0.2722500000000423
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 89.09916600000003,
+          "durationMs": 0.28241700000000947
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 94.68770799999999,
+          "durationMs": 0.29095899999998664
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 117.87475,
+          "durationMs": 5.043999999999983
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 125.19604100000004,
+          "durationMs": 0.5599169999999845
+        }
+      ]
+    },
+    {
+      "run": 35,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 124.053542,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:45.013845-07",
+        "lease_until": "2026-09-21 06:08:45.160023-07",
+        "margin_ms": "146.178000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.6213750000000005,
+          "durationMs": 0.22229200000003857
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.927458999999999,
+          "databaseTime": "2026-09-21 06:08:44.910023-07",
+          "deadline": "2026-09-21 06:08:45.160023-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.958249999999964,
+          "durationMs": 0.20741700000002083
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 16.37512499999997,
+          "durationMs": 0.45129200000002356
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 27.775166999999954,
+          "durationMs": 0.32233399999995527
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.00654199999997,
+          "durationMs": 0.4726660000000038
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.930124999999975,
+          "durationMs": 0.3753330000000119
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 69.792959,
+          "durationMs": 0.3442499999999882
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 76.54895899999997,
+          "durationMs": 0.45804099999998016
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 83.43224999999995,
+          "durationMs": 0.34462500000000773
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 89.695334,
+          "durationMs": 0.27975000000003547
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 95.040167,
+          "durationMs": 0.2707499999999641
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 114.78029199999997,
+          "durationMs": 5.21999999999997
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 124.02324999999996,
+          "durationMs": 0.5644580000000019
+        }
+      ]
+    },
+    {
+      "run": 36,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 101.898459,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:45.49046-07",
+        "lease_until": "2026-09-21 06:08:45.656837-07",
+        "margin_ms": "166.377000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 2.5610000000000355,
+          "durationMs": 0.2764169999999808
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 9.248125000000016,
+          "databaseTime": "2026-09-21 06:08:45.406837-07",
+          "deadline": "2026-09-21 06:08:45.656837-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 12.794709000000012,
+          "durationMs": 0.4312089999999671
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 16.583000000000027,
+          "durationMs": 0.16341699999998127
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 23.705624999999998,
+          "durationMs": 0.18916600000000017
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 47.878874999999994,
+          "durationMs": 0.33150000000000546
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 54.645375,
+          "durationMs": 0.29537500000003547
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 58.671167000000025,
+          "durationMs": 0.2557499999999777
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 63.652917,
+          "durationMs": 0.27712499999995543
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.72066700000005,
+          "durationMs": 0.33441699999997354
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 73.59479200000004,
+          "durationMs": 0.2341250000000059
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 77.97825,
+          "durationMs": 0.29237500000004957
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 95.252209,
+          "durationMs": 4.37295899999998
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 101.86120900000003,
+          "durationMs": 0.37770799999998417
+        }
+      ]
+    },
+    {
+      "run": 37,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 110.08387500000003,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:45.900759-07",
+        "lease_until": "2026-09-21 06:08:46.057339-07",
+        "margin_ms": "156.580000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.5744579999999928,
+          "durationMs": 0.17549999999999955
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.037041999999985,
+          "databaseTime": "2026-09-21 06:08:45.807339-07",
+          "deadline": "2026-09-21 06:08:46.057339-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 12.732000000000028,
+          "durationMs": 0.24529200000000628
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 17.45504199999999,
+          "durationMs": 0.21804200000002538
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 25.734125000000006,
+          "durationMs": 0.37208399999997255
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 53.761167,
+          "durationMs": 0.25674999999995407
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 58.65387500000003,
+          "durationMs": 0.295708999999988
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 63.517875000000004,
+          "durationMs": 0.3170000000000073
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.861875,
+          "durationMs": 0.3122500000000059
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 73.47641700000003,
+          "durationMs": 0.2588749999999891
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 79.51595800000001,
+          "durationMs": 0.31554199999999355
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 85.16649999999998,
+          "durationMs": 0.3343330000000151
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 103.230167,
+          "durationMs": 4.485000000000014
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 110.05629199999998,
+          "durationMs": 0.6215829999999869
+        }
+      ]
+    },
+    {
+      "run": 38,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 115.29341700000003,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:46.335579-07",
+        "lease_until": "2026-09-21 06:08:46.487307-07",
+        "margin_ms": "151.728000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.5785420000000272,
+          "durationMs": 0.1806670000000281
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.077249999999992,
+          "databaseTime": "2026-09-21 06:08:46.237307-07",
+          "deadline": "2026-09-21 06:08:46.487307-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.751916999999992,
+          "durationMs": 0.4827919999999608
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 16.676375000000007,
+          "durationMs": 0.2889579999999796
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 24.230583000000024,
+          "durationMs": 0.1877499999999941
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 51.304125,
+          "durationMs": 0.3480000000000132
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 57.008208000000025,
+          "durationMs": 0.26591600000000426
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 61.598208,
+          "durationMs": 0.3287499999999568
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.19516700000003,
+          "durationMs": 0.3273330000000101
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 73.06383300000005,
+          "durationMs": 0.29679100000004155
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 80.04591700000003,
+          "durationMs": 0.3265840000000253
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 86.37625000000003,
+          "durationMs": 0.42570899999998346
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 108.30925000000002,
+          "durationMs": 4.101791999999989
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 115.26020800000003,
+          "durationMs": 0.5072499999999991
+        }
+      ]
+    },
+    {
+      "run": 39,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 109.67750000000001,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:46.737775-07",
+        "lease_until": "2026-09-21 06:08:46.893726-07",
+        "margin_ms": "155.951000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.196458999999976,
+          "durationMs": 0.1585839999999905
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 6.939208999999977,
+          "databaseTime": "2026-09-21 06:08:46.643726-07",
+          "deadline": "2026-09-21 06:08:46.893726-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 9.97870899999998,
+          "durationMs": 0.3352920000000097
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.016708999999992,
+          "durationMs": 0.2847500000000025
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 21.422541999999964,
+          "durationMs": 0.2044580000000451
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 47.22449999999998,
+          "durationMs": 0.33745800000002646
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 51.88166699999999,
+          "durationMs": 0.2008339999999862
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.77924999999999,
+          "durationMs": 0.3787079999999605
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 63.95045899999997,
+          "durationMs": 0.34250000000002956
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 68.81799999999998,
+          "durationMs": 0.21483299999999872
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 76.825917,
+          "durationMs": 0.38675000000000637
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 83.99508399999996,
+          "durationMs": 0.2524579999999901
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 103.09941699999996,
+          "durationMs": 4.102000000000032
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 109.65100000000001,
+          "durationMs": 0.311458000000016
+        }
+      ]
+    },
+    {
+      "run": 40,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 131.107084,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:47.185748-07",
+        "lease_until": "2026-09-21 06:08:47.325364-07",
+        "margin_ms": "139.616000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 2.6041250000000105,
+          "durationMs": 0.2420839999999771
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 10.53391700000003,
+          "databaseTime": "2026-09-21 06:08:47.075364-07",
+          "deadline": "2026-09-21 06:08:47.325364-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.050917000000027,
+          "durationMs": 0.367999999999995
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 23.088792000000012,
+          "durationMs": 0.3987500000000068
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 37.37549999999999,
+          "durationMs": 0.3265410000000202
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 72.21387500000003,
+          "durationMs": 0.3312080000000037
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 77.88491700000003,
+          "durationMs": 0.3768330000000333
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 82.635042,
+          "durationMs": 0.28583299999996825
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 87.91229200000004,
+          "durationMs": 0.27579100000002654
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 92.39079200000003,
+          "durationMs": 0.31379200000003493
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 98.458125,
+          "durationMs": 0.29570799999999053
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 103.87325000000004,
+          "durationMs": 0.25866600000000517
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 123.80954200000002,
+          "durationMs": 5.385917000000006
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 131.07879200000002,
+          "durationMs": 0.5235409999999661
+        }
+      ]
+    },
+    {
+      "run": 41,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 100.48279200000002,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:47.63811-07",
+        "lease_until": "2026-09-21 06:08:47.804316-07",
+        "margin_ms": "166.206000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.4170419999999808,
+          "durationMs": 0.19695799999999508
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 7.633583999999985,
+          "databaseTime": "2026-09-21 06:08:47.554316-07",
+          "deadline": "2026-09-21 06:08:47.804316-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.581624999999974,
+          "durationMs": 0.245207999999991
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.693499999999972,
+          "durationMs": 0.20554200000003675
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 21.875708999999972,
+          "durationMs": 0.18487500000003365
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 44.342625,
+          "durationMs": 0.3094159999999988
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 49.683749999999975,
+          "durationMs": 0.3082090000000335
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.08154200000001,
+          "durationMs": 0.29075000000000273
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 59.15212500000001,
+          "durationMs": 0.24995799999999235
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 65.27558399999998,
+          "durationMs": 0.2918329999999969
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 71.486084,
+          "durationMs": 0.3061249999999518
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 75.92229199999997,
+          "durationMs": 0.2572089999999889
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 93.49466699999999,
+          "durationMs": 4.101624999999956
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 100.456459,
+          "durationMs": 0.5621249999999804
+        }
+      ]
+    },
+    {
+      "run": 42,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 141.75483400000002,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:48.102793-07",
+        "lease_until": "2026-09-21 06:08:48.231034-07",
+        "margin_ms": "128.241000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 2.07487500000002,
+          "durationMs": 0.1631659999999897
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 10.735875000000021,
+          "databaseTime": "2026-09-21 06:08:47.981034-07",
+          "deadline": "2026-09-21 06:08:48.231034-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.045458999999994,
+          "durationMs": 0.19824999999997317
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 19.38416699999999,
+          "durationMs": 0.18737499999997453
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 32.41062499999998,
+          "durationMs": 0.6054169999999885
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.231291999999996,
+          "durationMs": 0.2545419999999581
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 66.60312500000003,
+          "durationMs": 0.2561670000000049
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 73.190542,
+          "durationMs": 0.43095800000003237
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 79.57104200000003,
+          "durationMs": 0.3238749999999868
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 86.31545900000003,
+          "durationMs": 0.3534999999999968
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 98.88704200000001,
+          "durationMs": 0.31575000000003683
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 109.337917,
+          "durationMs": 0.3436250000000314
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 134.494667,
+          "durationMs": 4.208458000000007
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 141.72591699999998,
+          "durationMs": 0.5327080000000137
+        }
+      ]
+    },
+    {
+      "run": 43,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 127.27645899999999,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:48.560921-07",
+        "lease_until": "2026-09-21 06:08:48.711133-07",
+        "margin_ms": "150.212000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.8155419999999935,
+          "durationMs": 0.22833300000002055
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.994834000000026,
+          "databaseTime": "2026-09-21 06:08:48.461133-07",
+          "deadline": "2026-09-21 06:08:48.711133-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 12.541541999999993,
+          "durationMs": 0.4480829999999969
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 17.707709000000023,
+          "durationMs": 0.2029590000000212
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 26.009083999999973,
+          "durationMs": 0.32600000000002183
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 53.431167000000016,
+          "durationMs": 0.3002909999999588
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.065042000000005,
+          "durationMs": 0.3330420000000345
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 65.89429200000001,
+          "durationMs": 0.3100420000000099
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 70.642,
+          "durationMs": 0.2828339999999798
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 77.62579199999999,
+          "durationMs": 0.35491700000000037
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 85.267584,
+          "durationMs": 0.3822499999999991
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 92.029292,
+          "durationMs": 0.27983299999999645
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 111.393959,
+          "durationMs": 4.8226660000000265
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 127.233292,
+          "durationMs": 2.506458000000009
+        }
+      ]
+    },
+    {
+      "run": 44,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 110.49400000000003,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:49.00988-07",
+        "lease_until": "2026-09-21 06:08:49.1683-07",
+        "margin_ms": "158.420000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.9750000000000227,
+          "durationMs": 0.2161249999999768
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.667290999999977,
+          "databaseTime": "2026-09-21 06:08:48.9183-07",
+          "deadline": "2026-09-21 06:08:49.1683-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.923207999999988,
+          "durationMs": 0.40004099999998743
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.826000000000022,
+          "durationMs": 0.21354100000002063
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 23.35416600000002,
+          "durationMs": 0.351333000000011
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 47.99687499999999,
+          "durationMs": 0.2932910000000106
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 54.299375,
+          "durationMs": 0.21375000000000455
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 58.993041000000005,
+          "durationMs": 0.2595839999999612
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.70274999999998,
+          "durationMs": 0.1981670000000122
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.89737500000001,
+          "durationMs": 0.28604100000001154
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.32662499999998,
+          "durationMs": 0.2550420000000031
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 78.85566599999999,
+          "durationMs": 0.23450000000002547
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 102.82966599999997,
+          "durationMs": 5.0243750000000205
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 110.46770800000002,
+          "durationMs": 0.3638750000000073
+        }
+      ]
+    },
+    {
+      "run": 45,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 130.10783300000003,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:49.465177-07",
+        "lease_until": "2026-09-21 06:08:49.604358-07",
+        "margin_ms": "139.181000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.5555410000000052,
+          "durationMs": 0.23599999999999
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.951750000000004,
+          "databaseTime": "2026-09-21 06:08:49.354358-07",
+          "deadline": "2026-09-21 06:08:49.604358-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.437791000000004,
+          "durationMs": 0.33787500000005366
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 20.658082999999976,
+          "durationMs": 0.34658300000000963
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 29.859166000000016,
+          "durationMs": 0.3050000000000068
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 58.75045799999998,
+          "durationMs": 0.42904100000004064
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 69.29312499999997,
+          "durationMs": 0.3877920000000472
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 75.05937499999999,
+          "durationMs": 0.2805839999999762
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 80.33162499999997,
+          "durationMs": 0.25891699999999673
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 84.949208,
+          "durationMs": 0.27083399999997937
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 92.708708,
+          "durationMs": 0.2905420000000163
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 99.15550000000002,
+          "durationMs": 0.2860830000000192
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 122.11983300000003,
+          "durationMs": 4.934082999999987
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 130.050708,
+          "durationMs": 0.6063750000000141
+        }
+      ]
+    },
+    {
+      "run": 46,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 105.090375,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:49.916766-07",
+        "lease_until": "2026-09-21 06:08:50.077683-07",
+        "margin_ms": "160.917000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.2327080000000024,
+          "durationMs": 0.15154200000000628
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 6.728042000000016,
+          "databaseTime": "2026-09-21 06:08:49.827683-07",
+          "deadline": "2026-09-21 06:08:50.077683-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 10.522874999999999,
+          "durationMs": 0.46295899999995527
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 15.04479200000003,
+          "durationMs": 0.1946659999999838
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 20.989000000000033,
+          "durationMs": 0.22800000000000864
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 45.41833300000002,
+          "durationMs": 0.3209579999999619
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 50.61845800000003,
+          "durationMs": 0.25845800000001873
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.78245800000002,
+          "durationMs": 0.3035419999999931
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.30525,
+          "durationMs": 0.2571670000000381
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 65.15804200000002,
+          "durationMs": 0.31283399999995254
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 71.97362500000003,
+          "durationMs": 0.25225000000000364
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 77.25954200000001,
+          "durationMs": 0.2944580000000201
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 97.95916700000004,
+          "durationMs": 4.316832999999974
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 105.007,
+          "durationMs": 0.47295800000000554
+        }
+      ]
+    },
+    {
+      "run": 47,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 123.66145800000004,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:50.338569-07",
+        "lease_until": "2026-09-21 06:08:50.48691-07",
+        "margin_ms": "148.341000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.9475830000000087,
+          "durationMs": 0.24987499999997453
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 10.627375000000029,
+          "databaseTime": "2026-09-21 06:08:50.23691-07",
+          "deadline": "2026-09-21 06:08:50.48691-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.667541000000028,
+          "durationMs": 0.3505840000000262
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 19.349874999999997,
+          "durationMs": 0.21487500000000637
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 27.496833000000038,
+          "durationMs": 0.21295800000001464
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 55.308708000000024,
+          "durationMs": 0.4091250000000173
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 60.57341600000001,
+          "durationMs": 0.23754200000001902
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 65.91062500000004,
+          "durationMs": 0.2860830000000192
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 74.80175000000003,
+          "durationMs": 0.7261250000000246
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 81.37300000000005,
+          "durationMs": 0.27795800000001236
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 87.88079100000004,
+          "durationMs": 0.2904169999999908
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 93.50983300000001,
+          "durationMs": 0.306459000000018
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 114.548291,
+          "durationMs": 4.666790999999989
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 123.624458,
+          "durationMs": 0.45604100000002745
+        }
+      ]
+    },
+    {
+      "run": 48,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 113.91683299999994,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:50.983297-07",
+        "lease_until": "2026-09-21 06:08:51.137005-07",
+        "margin_ms": "153.708000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.5847499999999854,
+          "durationMs": 0.14162499999997635
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 8.507875000000013,
+          "databaseTime": "2026-09-21 06:08:50.887005-07",
+          "deadline": "2026-09-21 06:08:51.137005-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 11.90462500000001,
+          "durationMs": 0.23495900000000347
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 16.918124999999975,
+          "durationMs": 0.20625000000001137
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 24.79608300000001,
+          "durationMs": 0.1974169999999731
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 50.33941699999997,
+          "durationMs": 0.2933340000000726
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.47999999999996,
+          "durationMs": 0.371167000000014
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 61.08479200000005,
+          "durationMs": 0.3057499999999891
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 67.00095800000003,
+          "durationMs": 0.25091599999996106
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 72.93062500000002,
+          "durationMs": 0.29462499999999636
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 79.73712500000005,
+          "durationMs": 0.2960839999999507
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 85.51679199999995,
+          "durationMs": 0.3106669999999667
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 106.97004199999998,
+          "durationMs": 4.323166000000015
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 113.89775000000003,
+          "durationMs": 0.4674169999999549
+        }
+      ]
+    },
+    {
+      "run": 49,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 243.465959,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:51.816072-07",
+        "lease_until": "2026-09-21 06:08:51.858989-07",
+        "margin_ms": "42.917000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 3.5864589999999907,
+          "durationMs": 0.4492079999999987
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 20.139584000000013,
+          "databaseTime": "2026-09-21 06:08:51.608989-07",
+          "deadline": "2026-09-21 06:08:51.858989-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 29.329875000000015,
+          "durationMs": 0.2896250000000009
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 37.92883399999994,
+          "durationMs": 0.2250410000000329
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.86562499999991,
+          "durationMs": 0.30262500000003456
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 110.57783399999994,
+          "durationMs": 0.6880409999999983
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 125.85354199999995,
+          "durationMs": 0.6976249999999027
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 136.59924999999998,
+          "durationMs": 0.3420419999999922
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 148.11870899999997,
+          "durationMs": 0.3416670000000295
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 163.03724999999997,
+          "durationMs": 0.9819170000000668
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 180.641167,
+          "durationMs": 0.3369999999999891
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 190.93387499999994,
+          "durationMs": 0.33133299999997234
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 230.14483399999995,
+          "durationMs": 7.618708999999967
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 243.43012499999998,
+          "durationMs": 1.135499999999979
+        }
+      ]
+    },
+    {
+      "run": 50,
+      "status": "COMMITTED",
+      "reason": null,
+      "durationMs": 132.18975,
+      "rows": {
+        "decisions": 8,
+        "episodes": 1,
+        "attempts": 1
+      },
+      "event": "CONSUMED",
+      "admission": {
+        "admitted_at": "2026-09-21 06:08:53.096066-07",
+        "lease_until": "2026-09-21 06:08:53.236353-07",
+        "margin_ms": "140.287000"
+      },
+      "observations": [
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 1.9985830000000533,
+          "durationMs": 0.25774999999998727
+        },
+        {
+          "phase": "claim_sample",
+          "elapsedMs": 10.255125000000135,
+          "databaseTime": "2026-09-21 06:08:52.986353-07",
+          "deadline": "2026-09-21 06:08:53.236353-07"
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 14.333333000000039,
+          "durationMs": 0.22045800000000781
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 19.317166000000043,
+          "durationMs": 0.19700000000011642
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 26.700207999999975,
+          "durationMs": 0.15404199999989032
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 56.70162500000015,
+          "durationMs": 1.4838749999998981
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 62.665541000000076,
+          "durationMs": 0.2501670000001468
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 70.51145800000018,
+          "durationMs": 0.26062499999989086
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 76.6690410000001,
+          "durationMs": 0.21125000000006366
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 81.90949999999998,
+          "durationMs": 0.3505419999999049
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 88.83970799999997,
+          "durationMs": 0.5572919999999613
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 96.16008299999999,
+          "durationMs": 0.23850000000015825
+        },
+        {
+          "phase": "admission_insert_returned",
+          "elapsedMs": 123.30866600000013,
+          "durationMs": 6.014125000000149
+        },
+        {
+          "phase": "transaction_ack_observed",
+          "elapsedMs": 132.15720800000008,
+          "durationMs": 0.7489169999998921
+        }
+      ]
+    }
+  ]
+}

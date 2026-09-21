@@ -1,0 +1,42 @@
+{
+  "fullSuite": {
+    "command": "node --env-file=outputs/runtime-v1/test-db.env --test --test-concurrency=1 tests/*.test.ts",
+    "exitCode": 0,
+    "tests": 516,
+    "pass": 516,
+    "fail": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "previousTestsRetained": 446,
+    "newTests": 70
+  },
+  "initialFullRun": {
+    "tests": 506,
+    "pass": 505,
+    "fail": 1,
+    "cause": "New identity provenance increased local context bytes and displaced old artifact in unchanged 100-cycle test",
+    "fix": "Provider-only identity provenance; local context behavior restored, budgets/assertions unchanged"
+  },
+  "targeted": {
+    "tests": 70,
+    "pass": 70,
+    "fail": 0
+  },
+  "typeScript": {
+    "command": "npx tsc --noEmit --incremental false",
+    "exitCode": 0
+  },
+  "eslint": {
+    "command": "npx eslint .",
+    "exitCode": 0,
+    "warnings": 0
+  },
+  "build": {
+    "command": "NEXT_TELEMETRY_DISABLED=1 npm run build -- --webpack",
+    "exitCode": 0
+  },
+  "canonicalBeforeAfterEqual": true,
+  "liveSmokeCommandExecuted": false,
+  "productionProviderAdmitted": false,
+  "schemaInstalledCanonically": false
+}

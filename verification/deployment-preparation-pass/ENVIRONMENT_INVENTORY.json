@@ -1,0 +1,607 @@
+[
+  {
+    "name": "DATABASE_URL",
+    "category": "DATABASE",
+    "secretOrSensitive": true,
+    "status": "CURRENT",
+    "references": [
+      "runtime/migrate.ts",
+      "runtime/config.ts",
+      "scripts/runtime-v1-audit.ts",
+      "scripts/runtime-v1-apply.ts",
+      "scripts/import-life.ts",
+      "scripts/runtime-v1-test-db.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_ALLOWED_ORIGINS",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_API_URL",
+    "category": "PUBLIC_FRONTEND",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "server/runtime.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_AUTONOMY_ENABLED",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/config.ts",
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_AWAKENS_AT",
+    "category": "PUBLIC_FRONTEND",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "lib/awakening.ts",
+      "app/page.tsx"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_CONSUMER_MODE",
+    "category": "FUTURE_WORKER",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/consumer-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_CYCLES",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "scripts/run-life.mjs"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_DB_CA_FILE",
+    "category": "DATABASE",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_DB_CONNECT_TIMEOUT_MS",
+    "category": "DATABASE",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_DB_POOL_MAX",
+    "category": "DATABASE",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_DB_ROLES_FILE",
+    "category": "DATABASE",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/installer-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_DB_SCHEMA",
+    "category": "DATABASE",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/installer-cli.ts",
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_DB_STATEMENT_TIMEOUT_MS",
+    "category": "DATABASE",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_DB_TLS",
+    "category": "DATABASE",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_DEV_OPERATOR",
+    "category": "PUBLIC_FRONTEND",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "server/runtime.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_DEV_PREVIEW",
+    "category": "PUBLIC_FRONTEND",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "lib/awakening.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_EXPECTED_BIRTH",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/installer-cli.ts",
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_EXPECTED_ORGANISM_ID",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/installer-cli.ts",
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_INSTALL_ACK",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/installer-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_INSTALL_PLAN_FILE",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/installer-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_INTERNET",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/config.ts",
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_INTERVAL_MS",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "runtime/config.ts",
+      "scripts/run-life.mjs"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_MAX_DAILY_CYCLES",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "runtime/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_MIGRATION_DATABASE_URL",
+    "category": "RUNTIME",
+    "secretOrSensitive": true,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/installer-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_MIGRATION_MODE",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/installer-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_OPERATOR_AUTH_FILE",
+    "category": "PRIVATE_OPERATOR",
+    "secretOrSensitive": true,
+    "status": "CURRENT",
+    "references": [
+      "runtime/provider-smoke.ts",
+      "runtime/operator-cli.ts",
+      "runtime/deployment/consumer-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_OPERATOR_CREDENTIAL",
+    "category": "PRIVATE_OPERATOR",
+    "secretOrSensitive": true,
+    "status": "CURRENT",
+    "references": [
+      "runtime/provider-smoke.ts",
+      "runtime/operator-cli.ts",
+      "runtime/deployment/consumer-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_OPERATOR_DATABASE_URL",
+    "category": "PRIVATE_OPERATOR",
+    "secretOrSensitive": true,
+    "status": "CURRENT",
+    "references": [
+      "runtime/provider-smoke.ts",
+      "runtime/operator-cli.ts",
+      "runtime/deployment/consumer-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_OPERATOR_TOKEN",
+    "category": "PRIVATE_OPERATOR",
+    "secretOrSensitive": true,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "runtime/main.ts",
+      "runtime/config.ts",
+      "server/runtime.ts",
+      "scripts/run-life.mjs"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_ORIGIN",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "scripts/run-life.mjs"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_PLANNER_MODE",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "runtime/main.ts",
+      "runtime/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_PRIVATE_OPERATOR_MODE",
+    "category": "PRIVATE_OPERATOR",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/provider-smoke.ts",
+      "runtime/operator-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_PROVIDER_",
+    "category": "PROVIDER",
+    "secretOrSensitive": true,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/config.ts",
+      "server/reasoning/contracts.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_PROVIDER_ENABLED",
+    "category": "PROVIDER",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_PUBLIC_MODE",
+    "category": "PUBLIC_FRONTEND",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "lib/awakening.ts",
+      "app/page.tsx"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_RUNTIME_MODE",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_SCHEDULER_ENABLED",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_SMOKE_AUTHORIZATION_FILE",
+    "category": "PROVIDER",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/provider-smoke.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_SMOKE_JOURNAL_DIRECTORY",
+    "category": "PROVIDER",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/provider-smoke.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_STARTING_CENTS",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "runtime/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_WORKER_DATABASE_URL",
+    "category": "FUTURE_WORKER",
+    "secretOrSensitive": true,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/consumer-cli.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_WORKER_ENABLED",
+    "category": "FUTURE_WORKER",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "HOST",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "NODE_ENV",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/migrate.ts",
+      "runtime/deployment/config.ts",
+      "server/runtime.ts",
+      "lib/awakening.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "OPENAI_API_KEY",
+    "category": "RUNTIME",
+    "secretOrSensitive": true,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "runtime/config.ts",
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "OPENAI_MODEL",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "runtime/config.ts",
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "PORT",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "CURRENT",
+    "references": [
+      "runtime/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "SOLANA_NETWORK",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "runtime/config.ts",
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "SOLANA_RPC_URL",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "runtime/config.ts",
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "SOLANA_WALLET_ADDRESS",
+    "category": "RUNTIME",
+    "secretOrSensitive": false,
+    "status": "LEGACY_DISABLED_OR_LOCAL_ONLY",
+    "references": [
+      "runtime/config.ts",
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "TEST_DATABASE_URL",
+    "category": "DATABASE",
+    "secretOrSensitive": true,
+    "status": "CURRENT",
+    "references": [
+      "scripts/runtime-v1-test-db.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  },
+  {
+    "name": "GENESIS_DB_ROLE",
+    "category": "DATABASE",
+    "secretOrSensitive": false,
+    "status": "FIXTURE_ROLE_SELECTION",
+    "references": [
+      "runtime/deployment/config.ts"
+    ],
+    "requiredModeDefaultValidationAndPlaceholder": "runtime/ENVIRONMENT.md",
+    "actualValueRecorded": false
+  }
+]

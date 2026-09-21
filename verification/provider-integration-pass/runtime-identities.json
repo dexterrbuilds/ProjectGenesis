@@ -1,0 +1,37 @@
+{
+  "node": "v26.1.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "identities": {
+    "runtime": {
+      "version": "runtime-v1-oneshot-1.0.6",
+      "sha256": "bfcc7630edcf84d42b3f3396bfead82082d38c909af0d845ffe7ede9f9e04257"
+    },
+    "constitution": {
+      "version": "1.0.0",
+      "hash": "473a0f392e4bd0105a731f5c382d1d4ba07bec6b189852cb354d4332bfd0f169"
+    },
+    "policy": {
+      "version": "policy-v1",
+      "hash": "9785bf0558111439130e4b4bf12ca20e45e87cbe8d1c7d010bdce521a23e49f0"
+    },
+    "mode": {
+      "version": "1.0.0",
+      "hash": "cc16b326232479bb0679ffdc82b4d4a687873977e48e08ced44cc10d8f8f3ee0"
+    },
+    "event": {
+      "version": 1,
+      "hash": "179acfee77f40c944c003e91d4a85611fb5d88e8dd4d9f95f769ea5e40101b20"
+    }
+  },
+  "implementations": {
+    "adapter": "6085a452eb805ebd90037d6b85e46fa4853f72cbb353860099a0d016386509fb",
+    "counter": "6487a3cd45a18fc84d7bd0c60e9c9eefcecc3c488c01509e94819ecc6084ba13"
+  },
+  "outputSchemaHash": "493106d1b078a0378e97f83c7524a843ac1ad6a9c08fe51d60b8be261977f3df",
+  "plannerHash": "567c6a7755a66df996c9d5ee57d09d108f1c7efeeaaa7696e7a22567e35b915a",
+  "instructionVersion": "reasoning-instructions-1",
+  "productionAdmission": "NONE",
+  "productionProvider": "UNSELECTED",
+  "liveSmoke": "NOT RUN"
+}

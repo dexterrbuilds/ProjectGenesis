@@ -1,0 +1,27 @@
+{
+  "scope": "Read-only system audit; no runtime/test worker or API dispatch",
+  "freshTypeScript": {
+    "command": "node node_modules/typescript/bin/tsc --noEmit --incremental false",
+    "exitCode": 0,
+    "status": "PASS"
+  },
+  "freshESLint": {
+    "command": "node node_modules/eslint/bin/eslint.js .",
+    "exitCode": 0,
+    "status": "PASS"
+  },
+  "historicalFullSuite": {
+    "pass": 387,
+    "fail": 0,
+    "skip": 0,
+    "freshRun": false,
+    "reason": "Integration suite creates fixture authority and starts test workers; prohibited in this read-only audit"
+  },
+  "historicalProductionBuild": "Verified Pass4 Next.js Webpack PASS log; not rerun",
+  "docker": "BLOCKED_BY_ENVIRONMENT",
+  "targetHost": "BLOCKED_PENDING_OPERATOR_TARGET",
+  "browserOrApiCalls": 0,
+  "providerConfigurationChanges": 0,
+  "newAuthorityRecords": 0,
+  "workersStarted": 0
+}

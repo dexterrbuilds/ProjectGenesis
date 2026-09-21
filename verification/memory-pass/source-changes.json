@@ -1,0 +1,16 @@
+{
+  "modified": [
+    "core/v2/contracts.ts",
+    "core/v2/context.ts",
+    "core/v2/cycle.ts",
+    "server/commit-v2.ts",
+    "server/one-shot-spec.ts",
+    "server/one-shot.ts",
+    "server/isolated-cycle.ts"
+  ],
+  "added": [
+    "core/v2/memory.ts",
+    "server/memory-store.ts",
+    "tests/memory-retrieval.test.ts"
+  ]
+}

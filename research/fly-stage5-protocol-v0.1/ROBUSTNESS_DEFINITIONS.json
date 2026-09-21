@@ -1,0 +1,24 @@
+{
+  "sign_alphabet": [
+    -1,
+    0,
+    1
+  ],
+  "analytic_rules": [
+    "For exactly equal scalar inputs and ν=0, every deterministic fixed scalar f yields equality.",
+    "For ordered inputs, strict increasing/decreasing maps preserve/reverse strict order; weak maps add zero.",
+    "Arbitrary fixed f or unrestricted-sign heterogeneous mixtures can preserve, reverse or erase distinct scalar order.",
+    "Unrestricted ν permits cancellation or either sign even for equal scalar inputs.",
+    "Known input scale cannot be inferred from invariant order; no magnitude or temporal claim follows."
+  ],
+  "numerics": {
+    "mode": "Decimal arithmetic over frozen decimal tokens",
+    "epsilon": "0.000000000001",
+    "exact_equal": "{0} source order; exact stored equality only",
+    "small_nonzero": "source sign set {-1,0,+1}, flagged numerical ambiguity, never rounded to established zero",
+    "larger_nonzero": "stored sign, marked a model-artifact comparison"
+  },
+  "validity": "Analytic invariance over the declared mathematical family, not physiological validation. Finite examples never certify an unbounded family.",
+  "nontractable": "Any extension not covered by the frozen analytic rules must be UNINTERPRETABLE until separately preregistered; do not fall back to a favorable grid.",
+  "robust_atomic_claim": "For a specified contrast and family, the output sign set is a singleton; or an explicitly set-valued claim is proven for all family members. Do not relabel union breadth as one fixed neural outcome."
+}

@@ -1,0 +1,22 @@
+{
+  "biological_resolution": "hypothetical population/type-associated interpretation only; not experimentally identified common population",
+  "executable_resolution": "abstract saved Stage1 group readout → mathematical ordinal set",
+  "separate_domains": [
+    "Stage1 dimensionless MBON_app",
+    "MB319C/MB043 biological α1 spike counts",
+    "R64A11-LexA acute somatic voltage",
+    "R64A11 population GCaMP6s",
+    "SS67249 recall voltage",
+    "SS33917 behavior",
+    "SS33918 behavior",
+    "FAFB anatomical roots"
+  ],
+  "root_assignment": null,
+  "root_context_only": [
+    "720575940617302365",
+    "720575940608236978"
+  ],
+  "driver_membership_assignment": null,
+  "biological_transfer_established": false,
+  "observation_conversions": []
+}

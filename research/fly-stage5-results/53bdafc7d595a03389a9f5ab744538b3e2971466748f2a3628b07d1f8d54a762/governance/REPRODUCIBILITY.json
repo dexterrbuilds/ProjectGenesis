@@ -1,0 +1,25 @@
+{
+  "valid": true,
+  "byte_identical": true,
+  "process_count": 2,
+  "independent_generation": true,
+  "comparison_after_both_completed": true,
+  "scientific_values_not_inspected_before_comparison": true,
+  "records": [
+    {
+      "artifact": "RESULTS.json",
+      "byte_identical": true,
+      "process_1_sha256": "49f603aed20ccec93d6aa427481a410ed045e28e7d38f956f4b7e3710b98f642",
+      "process_2_sha256": "49f603aed20ccec93d6aa427481a410ed045e28e7d38f956f4b7e3710b98f642",
+      "bytes": 313341
+    },
+    {
+      "artifact": "RESULTS.sha256",
+      "byte_identical": true,
+      "process_1_sha256": "41d9a1da43ef113485d387dcd4f6e683d7a4d89be6e92ae6254792bbb5c0e6ec",
+      "process_2_sha256": "41d9a1da43ef113485d387dcd4f6e683d7a4d89be6e92ae6254792bbb5c0e6ec",
+      "bytes": 65
+    }
+  ],
+  "timestamp_utc": "2026-09-20T12:02:41.878485+00:00"
+}

@@ -1,0 +1,273 @@
+{
+  "families": {
+    "E": [
+      {
+        "identification_set": [
+          -1,
+          0,
+          1
+        ],
+        "units": 224
+      }
+    ],
+    "Z": [
+      {
+        "identification_set": [
+          0
+        ],
+        "units": 224
+      }
+    ],
+    "P": [
+      {
+        "identification_set": [
+          -1
+        ],
+        "units": 96
+      },
+      {
+        "identification_set": [
+          0
+        ],
+        "units": 128
+      }
+    ],
+    "R": [
+      {
+        "identification_set": [
+          0
+        ],
+        "units": 128
+      },
+      {
+        "identification_set": [
+          1
+        ],
+        "units": 96
+      }
+    ],
+    "WP": [
+      {
+        "identification_set": [
+          -1,
+          0
+        ],
+        "units": 96
+      },
+      {
+        "identification_set": [
+          0
+        ],
+        "units": 128
+      }
+    ],
+    "WR": [
+      {
+        "identification_set": [
+          0
+        ],
+        "units": 128
+      },
+      {
+        "identification_set": [
+          0,
+          1
+        ],
+        "units": 96
+      }
+    ],
+    "H": [
+      {
+        "identification_set": [
+          -1,
+          0,
+          1
+        ],
+        "units": 96
+      },
+      {
+        "identification_set": [
+          0
+        ],
+        "units": 128
+      }
+    ],
+    "U": [
+      {
+        "identification_set": [
+          -1,
+          0,
+          1
+        ],
+        "units": 96
+      },
+      {
+        "identification_set": [
+          0
+        ],
+        "units": 128
+      }
+    ],
+    "N": [
+      {
+        "identification_set": [
+          -1,
+          0,
+          1
+        ],
+        "units": 224
+      }
+    ]
+  },
+  "unit_label_counts": {
+    "NULL-COMPATIBLE": 224,
+    "ROBUST ACROSS DECLARED EVIDENCE-ADMISSIBLE FAMILY": 0,
+    "ROBUST ONLY UNDER RESTRICTED CONDITIONAL FAMILY": 224,
+    "TRANSFER-SENSITIVE / NON-ROBUST": 224,
+    "UNINTERPRETABLE": 0
+  },
+  "ambiguity_flags": 0,
+  "contrast_and_cue_role_coverage": [
+    {
+      "contrast": "response_change",
+      "cue_role": "paired",
+      "unit_count": 28,
+      "source_sign_sets": [
+        {
+          "sign_set": [
+            -1
+          ],
+          "units": 16
+        },
+        {
+          "sign_set": [
+            0
+          ],
+          "units": 12
+        }
+      ]
+    },
+    {
+      "contrast": "response_change",
+      "cue_role": "unpaired",
+      "unit_count": 28,
+      "source_sign_sets": [
+        {
+          "sign_set": [
+            -1
+          ],
+          "units": 16
+        },
+        {
+          "sign_set": [
+            0
+          ],
+          "units": 12
+        }
+      ]
+    },
+    {
+      "contrast": "restoration_check",
+      "cue_role": "paired",
+      "unit_count": 28,
+      "source_sign_sets": [
+        {
+          "sign_set": [
+            0
+          ],
+          "units": 28
+        }
+      ]
+    },
+    {
+      "contrast": "restoration_check",
+      "cue_role": "unpaired",
+      "unit_count": 28,
+      "source_sign_sets": [
+        {
+          "sign_set": [
+            0
+          ],
+          "units": 28
+        }
+      ]
+    },
+    {
+      "contrast": "plastic_state_retention",
+      "cue_role": "paired",
+      "unit_count": 28,
+      "source_sign_sets": [
+        {
+          "sign_set": [
+            -1
+          ],
+          "units": 16
+        },
+        {
+          "sign_set": [
+            0
+          ],
+          "units": 12
+        }
+      ]
+    },
+    {
+      "contrast": "plastic_state_retention",
+      "cue_role": "unpaired",
+      "unit_count": 28,
+      "source_sign_sets": [
+        {
+          "sign_set": [
+            -1
+          ],
+          "units": 16
+        },
+        {
+          "sign_set": [
+            0
+          ],
+          "units": 12
+        }
+      ]
+    },
+    {
+      "contrast": "learned_state_comparison",
+      "cue_role": "paired",
+      "unit_count": 28,
+      "source_sign_sets": [
+        {
+          "sign_set": [
+            -1
+          ],
+          "units": 16
+        },
+        {
+          "sign_set": [
+            0
+          ],
+          "units": 12
+        }
+      ]
+    },
+    {
+      "contrast": "learned_state_comparison",
+      "cue_role": "unpaired",
+      "unit_count": 28,
+      "source_sign_sets": [
+        {
+          "sign_set": [
+            -1
+          ],
+          "units": 16
+        },
+        {
+          "sign_set": [
+            0
+          ],
+          "units": 12
+        }
+      ]
+    }
+  ],
+  "aggregation_scope": "Descriptive counts only; full unaggregated results retained. Marginal sets are not a joint Cartesian product or probabilities."
+}

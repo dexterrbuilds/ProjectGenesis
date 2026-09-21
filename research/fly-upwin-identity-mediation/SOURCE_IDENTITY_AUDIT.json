@@ -1,0 +1,455 @@
+{
+  "archives": [
+    {
+      "path": "research/fly-upwin-route-evidence/sources/elife-85756-fig4-data1-v3.xlsx",
+      "sha256": "487afc8fd58380a89780f7b8fdd356aa4648caa3c703309a9d237c6b15c45aa1",
+      "archive_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "document_properties": {
+        "docProps/core.xml": {},
+        "docProps/app.xml": {
+          "Application": "Microsoft Excel",
+          "AppVersion": "14.0300",
+          "DocSecurity": "0",
+          "lpstr": "Sheet1",
+          "i4": "1"
+        }
+      },
+      "candidate_morphology_or_identity_parts": [],
+      "interpretation": "Document creator/save time/software properties are not animal or cell identities. No acquisition timestamp may be inferred from save date."
+    },
+    {
+      "path": "research/fly-upwin-route-evidence/sources/elife-85756-fig4-data2-v3.xlsx",
+      "sha256": "68fa1937b876eddfd096d2910edeaf60b4289098be05d137e57df2e6edaa80e2",
+      "archive_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "document_properties": {
+        "docProps/core.xml": {},
+        "docProps/app.xml": {
+          "Application": "Microsoft Excel",
+          "AppVersion": "14.0300",
+          "DocSecurity": "0",
+          "lpstr": "Sheet1",
+          "i4": "1"
+        }
+      },
+      "candidate_morphology_or_identity_parts": [],
+      "interpretation": "Document creator/save time/software properties are not animal or cell identities. No acquisition timestamp may be inferred from save date."
+    },
+    {
+      "path": "research/fly-upwin-route-evidence/sources/elife-85756-fig4-data3-v3.xlsx",
+      "sha256": "773fb205ae390c9df7a443c044584788cb91c1467e7efd78797c62481062f1d7",
+      "archive_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "document_properties": {
+        "docProps/core.xml": {},
+        "docProps/app.xml": {
+          "Application": "Microsoft Excel",
+          "AppVersion": "14.0300",
+          "DocSecurity": "0",
+          "lpstr": "Sheet1",
+          "i4": "1"
+        }
+      },
+      "candidate_morphology_or_identity_parts": [],
+      "interpretation": "Document creator/save time/software properties are not animal or cell identities. No acquisition timestamp may be inferred from save date."
+    },
+    {
+      "path": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-data1-v3.xlsx",
+      "sha256": "2fb44d82b50c9ab6d1ab776a72368cf715be8e95d1afd512b23c1a0ba290db4f",
+      "archive_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "document_properties": {
+        "docProps/core.xml": {},
+        "docProps/app.xml": {
+          "Application": "Microsoft Excel",
+          "AppVersion": "14.0300",
+          "DocSecurity": "0",
+          "lpstr": "Sheet1",
+          "i4": "1"
+        }
+      },
+      "candidate_morphology_or_identity_parts": [],
+      "interpretation": "Document creator/save time/software properties are not animal or cell identities. No acquisition timestamp may be inferred from save date."
+    },
+    {
+      "path": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-data2-v3.xlsx",
+      "sha256": "594fd9755eaa36faa071f95df6ccfc9ed06d27e301fd993a804bdb9176e020e9",
+      "archive_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "document_properties": {
+        "docProps/core.xml": {},
+        "docProps/app.xml": {
+          "Application": "Microsoft Excel",
+          "AppVersion": "14.0300",
+          "DocSecurity": "0",
+          "lpstr": "Sheet1",
+          "i4": "1"
+        }
+      },
+      "candidate_morphology_or_identity_parts": [],
+      "interpretation": "Document creator/save time/software properties are not animal or cell identities. No acquisition timestamp may be inferred from save date."
+    },
+    {
+      "path": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-data3-v3.xlsx",
+      "sha256": "0dc844354d3841ce5935970acbe8ff157b902d9a11076e091f720e251220c635",
+      "archive_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "document_properties": {
+        "docProps/core.xml": {},
+        "docProps/app.xml": {
+          "Application": "Microsoft Excel",
+          "AppVersion": "14.0300",
+          "DocSecurity": "0",
+          "lpstr": "Sheet1",
+          "i4": "1"
+        }
+      },
+      "candidate_morphology_or_identity_parts": [],
+      "interpretation": "Document creator/save time/software properties are not animal or cell identities. No acquisition timestamp may be inferred from save date."
+    },
+    {
+      "path": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-figsupp2-data1-v3.xlsx",
+      "sha256": "3f0cff475eb9ccb599a4d7db19aaeb10c8a308d7952b3828e0b0a0e7f5194b06",
+      "archive_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "document_properties": {
+        "docProps/core.xml": {},
+        "docProps/app.xml": {
+          "Application": "Microsoft Excel",
+          "AppVersion": "14.0300",
+          "DocSecurity": "0",
+          "lpstr": "Sheet1",
+          "i4": "1"
+        }
+      },
+      "candidate_morphology_or_identity_parts": [],
+      "interpretation": "Document creator/save time/software properties are not animal or cell identities. No acquisition timestamp may be inferred from save date."
+    },
+    {
+      "path": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-figsupp2-data2-v3.xlsx",
+      "sha256": "d7314d2ed6661ff9a8cf05bdebb1d4943302629261f7aaa9deb82a5cdf280848",
+      "archive_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "document_properties": {
+        "docProps/core.xml": {},
+        "docProps/app.xml": {
+          "Application": "Microsoft Excel",
+          "AppVersion": "14.0300",
+          "DocSecurity": "0",
+          "lpstr": "Sheet1",
+          "i4": "1"
+        }
+      },
+      "candidate_morphology_or_identity_parts": [],
+      "interpretation": "Document creator/save time/software properties are not animal or cell identities. No acquisition timestamp may be inferred from save date."
+    },
+    {
+      "path": "research/fly-upwin-route-evidence/sources/elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "sha256": "da7dfa7c41c392da4064a66c62474b952fbd7ac04a533d383df6edeb1a9cbb8e",
+      "archive_members": [
+        "docProps/app.xml",
+        "[Content_Types].xml",
+        "xl/styles.xml",
+        "_rels/.rels",
+        "xl/workbook.xml",
+        "xl/sharedStrings.xml",
+        "xl/_rels/workbook.xml.rels",
+        "xl/worksheets/sheet1.xml",
+        "xl/theme/theme1.xml",
+        "docProps/core.xml"
+      ],
+      "document_properties": {
+        "docProps/core.xml": {},
+        "docProps/app.xml": {
+          "Application": "Microsoft Excel",
+          "AppVersion": "14.0300",
+          "DocSecurity": "0",
+          "lpstr": "Sheet1",
+          "i4": "1"
+        }
+      },
+      "candidate_morphology_or_identity_parts": [],
+      "interpretation": "Document creator/save time/software properties are not animal or cell identities. No acquisition timestamp may be inferred from save date."
+    }
+  ],
+  "four_responders": [
+    {
+      "source_workbook": "elife-85756-fig4-data2-v3.xlsx",
+      "source_column": "P",
+      "source_label": [
+        "Orange",
+        "Fly1"
+      ],
+      "waveform_numeric_sha256": "b8813ffd6248c26547c0b072002ebc09610641d11b2072ebecd4058e20bc7477",
+      "published_response": "inhibitory voltage response to alpha1 optostimulation",
+      "driver": "R64A11-LexA",
+      "mapping_classification": "UNRESOLVED",
+      "identified_cell_type": null,
+      "identified_FlyWire_root": null,
+      "recording_to_morphology_link": null,
+      "reason": "No per-recording identifier joins the column to deposited microscopy specimens; connectivity is not an identifier."
+    },
+    {
+      "source_workbook": "elife-85756-fig4-data2-v3.xlsx",
+      "source_column": "Q",
+      "source_label": [
+        "Fly2"
+      ],
+      "waveform_numeric_sha256": "cac96df7f9c030fe7525120a43dbad1ad727a0b889ca3bc0c34366fcd16caec5",
+      "published_response": "inhibitory voltage response to alpha1 optostimulation",
+      "driver": "R64A11-LexA",
+      "mapping_classification": "UNRESOLVED",
+      "identified_cell_type": null,
+      "identified_FlyWire_root": null,
+      "recording_to_morphology_link": null,
+      "reason": "No per-recording identifier joins the column to deposited microscopy specimens; connectivity is not an identifier."
+    },
+    {
+      "source_workbook": "elife-85756-fig4-data2-v3.xlsx",
+      "source_column": "R",
+      "source_label": [
+        "Fly3"
+      ],
+      "waveform_numeric_sha256": "1cbe8e7e62128a2d0d16542d205e29d2f8fa614ec748315a013f8ed604c64048",
+      "published_response": "inhibitory voltage response to alpha1 optostimulation",
+      "driver": "R64A11-LexA",
+      "mapping_classification": "UNRESOLVED",
+      "identified_cell_type": null,
+      "identified_FlyWire_root": null,
+      "recording_to_morphology_link": null,
+      "reason": "No per-recording identifier joins the column to deposited microscopy specimens; connectivity is not an identifier."
+    },
+    {
+      "source_workbook": "elife-85756-fig4-data2-v3.xlsx",
+      "source_column": "S",
+      "source_label": [
+        "Fly4"
+      ],
+      "waveform_numeric_sha256": "fae11b690762e75d15bdf9b24fbd1f6d200b0559b34efee8781ce3c12d5d26d8",
+      "published_response": "inhibitory voltage response to alpha1 optostimulation",
+      "driver": "R64A11-LexA",
+      "mapping_classification": "UNRESOLVED",
+      "identified_cell_type": null,
+      "identified_FlyWire_root": null,
+      "recording_to_morphology_link": null,
+      "reason": "No per-recording identifier joins the column to deposited microscopy specimens; connectivity is not an identifier."
+    }
+  ],
+  "recall_records": [
+    {
+      "source_workbook": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 5,
+      "source_label": "Fly1",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    },
+    {
+      "source_workbook": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 6,
+      "source_label": "Fly2",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    },
+    {
+      "source_workbook": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 7,
+      "source_label": "Fly3",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    },
+    {
+      "source_workbook": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 8,
+      "source_label": "Fly4",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    },
+    {
+      "source_workbook": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 9,
+      "source_label": "Fly5",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    },
+    {
+      "source_workbook": "elife-85756-fig5-data3-v3.xlsx",
+      "row": 10,
+      "source_label": "Fly6",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    },
+    {
+      "source_workbook": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 5,
+      "source_label": "Fly1",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    },
+    {
+      "source_workbook": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 6,
+      "source_label": "Fly2",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    },
+    {
+      "source_workbook": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 7,
+      "source_label": "Fly3",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    },
+    {
+      "source_workbook": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 8,
+      "source_label": "Fly4",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    },
+    {
+      "source_workbook": "elife-85756-fig5-figsupp2-data3-v3.xlsx",
+      "row": 9,
+      "source_label": "Fly5",
+      "pre_post_pairing": "same published scalar row; author reports neuron-level repeated measurements",
+      "external_recording_id": null,
+      "fly_id": null,
+      "mapping_classification": "UNRESOLVED",
+      "cell_type": null,
+      "root": null,
+      "morphology_link": null
+    }
+  ],
+  "prior_numeric_results_unchanged": true,
+  "individuals_inferred_from_row_order": false
+}

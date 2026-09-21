@@ -1,0 +1,22 @@
+{
+  "id": "alpha1.upwin.route.evidence-acquisition",
+  "registry_sha256": "23efaa1a65cc7fe7ed49c3e17e90f1c9f1bc55ae11cbce77519cfe20eba44f88",
+  "package_sha256": "9322ea0f3c501b6bd29add73464c94b775fb616648801e7f945346776b9bdd0b",
+  "dependencies": {
+    "plasticity.appetitive-model": "f04695d1fde5a266a0e1634c918cde60ae9cbd29921b8c68d34ce614d9e4a369",
+    "connection.KC.MBON07": "42408f5157d371abdf2d557dd78db6ab5d0208a9da5367944f158cef3b029c58",
+    "connection.KC.MBON11": "3f7807f6fdb9d23dc4fb47ad37e92e43b5a6998a74bc0b45d1230851b0cc2ff5",
+    "representation.heterogeneous": "cd281b57b701a31500ead35a5db9b267ede92c2d6e4ada8519c4ef939082e7f5",
+    "anatomy.pinned": "4e874a6a5f7a62be78c398dad45a9638de596a2994d8c5487cb22fc25549e909",
+    "crosswalk.type": "cce44cc4cf3ac9041e3425a36cda9b6f36d6bc7d8b5279c74b57f2f17b0567d0",
+    "visual.empirical.observation": "3f7b4bf362dd7741e6f54322288ce04b61f9ab0ba95efe9f5b4e3dbb5e61788d"
+  },
+  "evidence_overrides": [],
+  "capability_promotions": [],
+  "result_claims": [],
+  "state_ownership": [],
+  "input_channels": [],
+  "stage5_authorized": false,
+  "neural_runs": 0,
+  "fitting": false
+}

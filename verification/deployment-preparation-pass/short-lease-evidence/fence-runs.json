@@ -1,0 +1,52 @@
+[
+  {
+    "run": 1,
+    "exitCode": 0,
+    "result": "{\"status\":\"CLOSED_WITH_ERROR\",\"reason\":\"Continuous stale claim\"}"
+  },
+  {
+    "run": 2,
+    "exitCode": 0,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 3,
+    "exitCode": 0,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 4,
+    "exitCode": 0,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 5,
+    "exitCode": 0,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 6,
+    "exitCode": 0,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 7,
+    "exitCode": 0,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 8,
+    "exitCode": 0,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 9,
+    "exitCode": 0,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  },
+  {
+    "run": 10,
+    "exitCode": 0,
+    "result": "{\"status\":\"COMMITTED\",\"reason\":null}"
+  }
+]

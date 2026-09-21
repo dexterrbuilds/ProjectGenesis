@@ -1,0 +1,62 @@
+{
+  "scope": "Synthetic local fixture, not a production benchmark",
+  "results": [
+    {
+      "tasks": 20,
+      "projects": 5,
+      "artifactVersions": 20,
+      "questions": 20,
+      "commitments": 20,
+      "relationships": 5,
+      "pendingAssistance": 5,
+      "historyEntries": 126,
+      "stateBytes": 74141,
+      "constructionMs": 219.566125,
+      "contextMs": 31.85383399999995,
+      "contextBytes": 6926,
+      "operationalBytes": 2789,
+      "selected": 9,
+      "omitted": 67,
+      "deterministic": true,
+      "restartSame": true
+    },
+    {
+      "tasks": 100,
+      "projects": 5,
+      "artifactVersions": 20,
+      "questions": 20,
+      "commitments": 20,
+      "relationships": 5,
+      "pendingAssistance": 5,
+      "historyEntries": 206,
+      "stateBytes": 128518,
+      "constructionMs": 558.9187499999999,
+      "contextMs": 18.06766600000003,
+      "contextBytes": 6934,
+      "operationalBytes": 2797,
+      "selected": 9,
+      "omitted": 147,
+      "deterministic": true,
+      "restartSame": true
+    },
+    {
+      "tasks": 300,
+      "projects": 5,
+      "artifactVersions": 20,
+      "questions": 20,
+      "commitments": 20,
+      "relationships": 5,
+      "pendingAssistance": 5,
+      "historyEntries": 406,
+      "stateBytes": 264918,
+      "constructionMs": 2258.1152500000003,
+      "contextMs": 30.343374999999924,
+      "contextBytes": 6934,
+      "operationalBytes": 2797,
+      "selected": 9,
+      "omitted": 347,
+      "deterministic": true,
+      "restartSame": true
+    }
+  ]
+}

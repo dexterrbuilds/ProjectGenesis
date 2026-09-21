@@ -1,0 +1,78 @@
+{
+  "presynaptic": {
+    "population": "MBON-α1",
+    "transmitter": "glutamate",
+    "scope": "type-level evidence; inherited frozen source audit",
+    "source": "https://elifesciences.org/articles/85756"
+  },
+  "observed": {
+    "driver": "R64A11-LexA",
+    "quantity": "baseline-subtracted membrane voltage",
+    "units": "mV",
+    "responders": 4,
+    "tested_neurons": 17,
+    "reported_flies": 12,
+    "sign": "negative response in four sampled cells after α1 photostimulation",
+    "source": "https://elifesciences.org/articles/85756#fig4"
+  },
+  "target_specific": [
+    {
+      "type": "SMP353",
+      "receptor": null,
+      "sign": null,
+      "paired_recording": null,
+      "localization": null,
+      "identified_target_perturbation": null
+    },
+    {
+      "type": "SMP354",
+      "receptor": null,
+      "sign": null,
+      "paired_recording": null,
+      "localization": null,
+      "identified_target_perturbation": null
+    }
+  ],
+  "scope": "No target-specific receptor/sign evidence identified in searched sources. This is not proof of absence of such physiology.",
+  "inhibitory_synaptic_current_measured": false,
+  "monosynaptic_transmission_isolated": false,
+  "independent_replications_added": 0,
+  "earlier_caption": {
+    "source": "https://elifesciences.org/articles/79042/peer-reviews",
+    "wording": "SMP353/354",
+    "same_alpha1_counts": [
+      4,
+      17,
+      12
+    ],
+    "interpretation": "Earlier presentation of the same result, not independently identified cells or replication.",
+    "alpha3_earlier_counts": [
+      2,
+      6,
+      4
+    ],
+    "alpha3_final_counts": [
+      3,
+      11,
+      7
+    ]
+  },
+  "receptor_search": {
+    "categories": [
+      "paired recording",
+      "target-specific transcriptomics",
+      "receptor localization",
+      "synapse-local receptor",
+      "identified-target physiology",
+      "receptor perturbation"
+    ],
+    "result": "No independently target-resolved positive result located",
+    "excluded_inferences": [
+      "glutamate implies inhibition",
+      "general fly GluCl evidence specifies SMP353 receptors",
+      "anatomical shunting hypothesis measures receptor function",
+      "simulation using SMP354 establishes its physiology"
+    ]
+  },
+  "parameters_fitted": []
+}
