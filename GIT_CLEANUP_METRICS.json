@@ -1,0 +1,248 @@
+{
+  "originalHead": "de59ee469314452feb2a70491fffde8d26613533",
+  "publishedBoundary": "466dd10ec9679c1b736eef2980e1d295b7d1e20d",
+  "rewrite": {
+    "originalHead": "de59ee469314452feb2a70491fffde8d26613533",
+    "boundary": "466dd10ec9679c1b736eef2980e1d295b7d1e20d",
+    "safetyBranch": "safety/pre-git-cleanup-20260921",
+    "rewrittenHead": "ba27419e2cf827d88e3a39ae30d4e215b2eb45a7",
+    "commitMap": {
+      "d582ae3202134de29a4b672889adc78095df2409": "980f0a55064fcc5b88bba3649e5a08c819b2ba75",
+      "b607200a88ccfe781ff3ef67731b0b237e4910b2": "000f1fc834bae393593ed06d18c5e9c724c083d3",
+      "de59ee469314452feb2a70491fffde8d26613533": "ba27419e2cf827d88e3a39ae30d4e215b2eb45a7"
+    },
+    "excludedPaths": 3010,
+    "publishedHistoryChanged": false,
+    "workingTreeFilesDeleted": 0
+  },
+  "before": {
+    "trackedFiles": 6129,
+    "untrackedNonIgnoredFiles": 984,
+    "unpublishedObjectBytes": 943994607,
+    "unpublishedPackBytes": 659549578,
+    "workingTreeDiskUsageRounded": "18 GiB including .git",
+    "gitDiskUsageRounded": "795 MiB",
+    "looseObjectCount": 1133,
+    "looseObjectKiB": 145516,
+    "packedObjectCount": 5764,
+    "packCount": 2,
+    "packedObjectKiB": 667649
+  },
+  "afterRewriteBeforeHygieneCommit": {
+    "packBytes": 11698346,
+    "trackedCount": 3119,
+    "unpublishedBlobsBytes": 83900829,
+    "largestUnpublishedBlobs": [
+      {
+        "oid": "475d7a7dbf7552d30c9f8484a4208b8a0adb376f",
+        "bytes": 8394739,
+        "path": "research/fly-t4t5-boundary/TEST_TRACE_METRICS.json"
+      },
+      {
+        "oid": "843ce97de034834aa51b190465eeb87cc00219b3",
+        "bytes": 5534142,
+        "path": "research/fly-t4t5-boundary/TRAINING_PROFILE.json"
+      },
+      {
+        "oid": "d690b14659f815e20987bd1c3cfcf3d6660f1a63",
+        "bytes": 5173226,
+        "path": "research/fly-t4t5-empirical-interface/atlas/records.json"
+      },
+      {
+        "oid": "8d43dd3cd2c6b18967f6fbe90a736ed247c79bdb",
+        "bytes": 4578706,
+        "path": "research/fly-stage4/circuits/L1.json"
+      },
+      {
+        "oid": "bcaaa49babfea3d6aa90b582c4f2e7747a05bc44",
+        "bytes": 4390378,
+        "path": "research/fly-t4t5-empirical-interface/PREDICTION_METRICS.json"
+      },
+      {
+        "oid": "efc5cff7b720245eef24baaae232ad84a93c2472",
+        "bytes": 4063603,
+        "path": "research/fly-t4t5-empirical-interface/pre_numeric_identity_correction/PREDICTION_METRICS.json"
+      },
+      {
+        "oid": "aa3305aa0c99b73c3c0cdd30cba947b423256f6d",
+        "bytes": 3904383,
+        "path": "research/fly-stage4/circuits/L0.json"
+      },
+      {
+        "oid": "b5be935f75457f459eef9be16b2a955798f7d243",
+        "bytes": 3509251,
+        "path": "research/fly-stage3/evidence/07ac1e4903fcfdd4a911653a17046acb2f3b5042360eb8972d9f7c5891e605bd/results.json"
+      },
+      {
+        "oid": "10dcaca99d10007e56c1124c95be65fd3404461c",
+        "bytes": 2683370,
+        "path": "research/genesis-brain-spec-v0.1/objects/785f9dbaa14cbf39bd3a9b65561388fc37dff889a5c64a8246021bd4ee5c0e30.json"
+      },
+      {
+        "oid": "5a198705487272b6dd86c789cbf06ddb03fbd63e",
+        "bytes": 2353195,
+        "path": "research/fly-t4t5-empirical-interface/pre_numeric_identity_correction/HOLDOUT_COVERAGE.json"
+      },
+      {
+        "oid": "b071e5717bbf7800ff9b007a1960e6194ff208b3",
+        "bytes": 2315611,
+        "path": "research/fly-t4t5-empirical-interface/HOLDOUT_COVERAGE.json"
+      },
+      {
+        "oid": "266890e86a3c8c2f2e436deb22ce19288db981d1",
+        "bytes": 2295885,
+        "path": "research/fly-stage3/artifacts/28cc6285ba4b40077db73952bacee75d0938f2f80021aaf89c214524797b2a52/boundary.json"
+      },
+      {
+        "oid": "945bbf126ea0600043cadd92c3d43211b3aadfef",
+        "bytes": 1494384,
+        "path": "research/genesis-brain-spec-v0.2/objects/23efaa1a65cc7fe7ed49c3e17e90f1c9f1bc55ae11cbce77519cfe20eba44f88.json"
+      },
+      {
+        "oid": "a1531ed1f3dac0f3fd7f4b6911a20a01ba0d6c3d",
+        "bytes": 1480646,
+        "path": "research/genesis-brain-spec-v0.1/objects/6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e.json"
+      },
+      {
+        "oid": "8a2a0db41fb8d0859909acf0d19fa0a65ad6e930",
+        "bytes": 1439343,
+        "path": "research/fly-t4t5-empirical-interface/FROZEN_BEFORE.json"
+      },
+      {
+        "oid": "3ff77bf7e86cbdefadb5aa7d889eda713e57548c",
+        "bytes": 1415391,
+        "path": "research/genesis-brain-spec-v0.2/PRESERVATION_BEFORE.json"
+      },
+      {
+        "oid": "3831d2a0f3069a7404283cf350f4df8da5c259d7",
+        "bytes": 1308259,
+        "path": "research/fly-stage4/RESULTS.json"
+      },
+      {
+        "oid": "d7979ea6a6c04a6b6e35fcf13a1a4d9edd85afa4",
+        "bytes": 1001396,
+        "path": "research/fly-t4t5-boundary/T4_POLARITY_MEASUREMENTS.json"
+      },
+      {
+        "oid": "0d9e35807f38624acdb07670d0eca777fefbe30a",
+        "bytes": 987811,
+        "path": "research/fly-t4t5-boundary/FROZEN_BEFORE.json"
+      },
+      {
+        "oid": "b314402557a1b34a114ce947c063e39b18b5549c",
+        "bytes": 982343,
+        "path": "research/fly-t4t5-boundary/T5_POLARITY_MEASUREMENTS.json"
+      }
+    ],
+    "largestTracked": [
+      {
+        "path": "research/fly-t4t5-boundary/TEST_TRACE_METRICS.json",
+        "bytes": 8394739
+      },
+      {
+        "path": "data/source/Cook2019HermReader.json",
+        "bytes": 5843687
+      },
+      {
+        "path": "research/fly-t4t5-boundary/TRAINING_PROFILE.json",
+        "bytes": 5534142
+      },
+      {
+        "path": "research/fly-t4t5-empirical-interface/atlas/records.json",
+        "bytes": 5173226
+      },
+      {
+        "path": "research/fly-t4t5-empirical-interface/replay/atlas/records.json",
+        "bytes": 5173226
+      },
+      {
+        "path": "research/fly-stage4/circuits/L1.json",
+        "bytes": 4578706
+      },
+      {
+        "path": "research/fly-t4t5-empirical-interface/PREDICTION_METRICS.json",
+        "bytes": 4390378
+      },
+      {
+        "path": "research/fly-t4t5-empirical-interface/replay/PREDICTION_METRICS.json",
+        "bytes": 4390378
+      },
+      {
+        "path": "research/fly-t4t5-empirical-interface/pre_numeric_identity_correction/PREDICTION_METRICS.json",
+        "bytes": 4063603
+      },
+      {
+        "path": "research/fly-stage4/circuits/L0.json",
+        "bytes": 3904383
+      },
+      {
+        "path": "research/fly-stage3/evidence/07ac1e4903fcfdd4a911653a17046acb2f3b5042360eb8972d9f7c5891e605bd/results.json",
+        "bytes": 3509251
+      },
+      {
+        "path": "research/genesis-brain-spec-v0.1/objects/785f9dbaa14cbf39bd3a9b65561388fc37dff889a5c64a8246021bd4ee5c0e30.json",
+        "bytes": 2683370
+      },
+      {
+        "path": "research/fly-t4t5-empirical-interface/pre_numeric_identity_correction/HOLDOUT_COVERAGE.json",
+        "bytes": 2353195
+      },
+      {
+        "path": "research/fly-t4t5-empirical-interface/HOLDOUT_COVERAGE.json",
+        "bytes": 2315611
+      },
+      {
+        "path": "research/fly-t4t5-empirical-interface/replay/HOLDOUT_COVERAGE.json",
+        "bytes": 2315611
+      },
+      {
+        "path": "research/fly-stage3/artifacts/28cc6285ba4b40077db73952bacee75d0938f2f80021aaf89c214524797b2a52/boundary.json",
+        "bytes": 2295885
+      },
+      {
+        "path": "research/genesis-brain-spec-v0.2/objects/23efaa1a65cc7fe7ed49c3e17e90f1c9f1bc55ae11cbce77519cfe20eba44f88.json",
+        "bytes": 1494384
+      },
+      {
+        "path": "research/genesis-brain-spec-v0.1/objects/6b3a27ea3c41a87e701ca8a7eec7fd31d5e41469db7da27916b81cb040eb923e.json",
+        "bytes": 1480646
+      },
+      {
+        "path": "research/fly-t4t5-empirical-interface/FROZEN_BEFORE.json",
+        "bytes": 1439343
+      },
+      {
+        "path": "research/genesis-brain-spec-v0.2/PRESERVATION_BEFORE.json",
+        "bytes": 1415391
+      }
+    ]
+  },
+  "preservation": {
+    "verifiedFiles": 7112,
+    "missingOrChanged": [],
+    "intentionalContentChanges": [
+      ".gitignore"
+    ],
+    "databasesAccessed": false,
+    "genesisExecuted": false
+  },
+  "localArtifacts": {
+    "manifest": "GIT_LOCAL_ARTIFACTS.json",
+    "count": 6812,
+    "bytes": 16830606836
+  },
+  "checks": {
+    "typescript": "PASS",
+    "eslint": "PASS: zero warnings/errors",
+    "gitFsck": "PASS",
+    "databaseAccess": false,
+    "runtimeExecution": false,
+    "pushPerformed": false
+  },
+  "limitations": [
+    "Pack is local non-thin rev-limited estimate, not measured GitHub transfer.",
+    "Safety branch/reflogs retain original objects locally; do not push --all or --mirror.",
+    "Pre-existing uncommitted implementation changes remain uncommitted.",
+    "Automatic secret patterns and exact local-value checks are not a proof that arbitrary text has no confidential meaning."
+  ]
+}

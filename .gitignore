@@ -49,3 +49,47 @@ next-env.d.ts
 !.env.example
 
 /.local/
+
+# Git hygiene: generated local research payloads stay on disk, not in source history.
+# Reports, source, manifests and complete Brain Spec release packages remain trackable.
+/research/**/*.npz
+/research/**/*.npy
+/research/**/*.RData
+/research/**/*.mat
+/research/**/*.xls
+/research/**/*.xlsx
+/research/**/*.zip
+/research/**/*.bin
+/research/**/*.gz
+/research/**/sources/
+/research/**/artifacts/**/circuit.json
+/research/fly-boundary-study/anatomy/nodes.json
+/research/fly-boundary-study/anatomy/selection.json
+/research/fly-upwin-route-evidence/processed/*.json*
+# Captured HTTP headers can contain temporary signed download credentials.
+/research/**/*headers*
+
+# Generated caches/logs; no source or canonical data is removed locally.
+__pycache__/
+*.pyc
+*.pyo
+*.log
+/build/
+
+# Verification reports/manifests remain versioned; raw logs/screenshots stay local.
+/verification/**/*.txt
+/verification/**/*.png
+/verification/**/browser/
+
+# Defense in depth for private preservation exports and local database copies.
+/verification/**/PRIVATE*
+/research/**/PRIVATE*
+*.dump
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+# These small, intentionally versioned releases must remain complete for verification.
+!/research/genesis-brain-spec-v0.1/**
+!/research/genesis-brain-spec-v0.2/**
